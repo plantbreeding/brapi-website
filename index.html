@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+    Document Title
+    =============================================
+    -->
+  <title>Breeding API</title>
+  <!--
+    Favicons
+    =============================================
+    -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicons/manifest.json">
+  <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+  <meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!--
+    Stylesheets
+    =============================================
+
+    -->
+  <!-- Default stylesheets-->
+  <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Template specific stylesheets-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+  <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+  <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+  <link href="assets/lib/materialdesignicons/materialdesignicons.min.css" rel="stylesheet">
+  <!-- Main stylesheet and color file-->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+  .fa-lg {
+   font-size: 1.33333333em;
+   line-height: .75em;
+   vertical-align: -15%;
+}
+
+    .navbar-brand {
+      padding: 0px;
+    }
+
+    .navbar-brand>img {
+      height: 100%;
+      padding: 15px;
+      width: auto;
+    }
+
+    .navbar-fixed-top {
+      min-height: 60px;
+    }
+
+    .navbar-nav>li>a {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      line-height: 60px;
+    }
+
+    .navbar a.navbar-brand {
+      height: 60px;
+    }
+
+    @media (max-width: 767px) {
+      .navbar-nav>li>a {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+  <main>
+    <div class="page-loader">
+      <div class="loader">Loading...</div>
+    </div>
+    <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <a
+            class="navbar-brand" href="index.html"><img src="assets/images/brapi-logo.svg"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="custom-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a>
+            </li>
+            <li><a href="#about">About</a>
+            </li>
+            <li><a href="#use-cases">Use Cases</a>
+            </li>
+            <li><a href="#partners">Partners</a>
+            </li>
+            <li><a href="#links">Links</a>
+            </li>
+            <li><a href="#acknowledgements">Acknowledgements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="home-section home-parallax home-fade" id="home">
+      <div class="hero-slider">
+        <ul class="slides">
+          <li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/header.jpg);">
+            <div class="titan-caption">
+              <div class="caption-content">
+                <div class="font-alt mb-30 titan-title-size-3">Hello &amp; welcome</div>
+                <div class="font-alt mb-40 titan-title-size-4">to the BrAPI website
+                </div>
+              </div>
+          </li>
+        </ul>
+        </div>
+    </section>
+    <div class="main">
+      <section class="module" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <h2 class="module-title font-alt">Welcome to BrAPI</h2>
+              <div class="module-subtitle font-serif large-text">The BrAPI (Breeding API) is an effort to create a RESTful specification to enable interoperability among plant breeding databases.</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 col-sm-offset-5">
+              <div class="large-text align-center"><a class="section-scroll" href="#about"><i class="mdi mdi-chevron-down"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="divider-w">
+      <section class="module" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <h2 class="module-title font-alt">What are the advantages of using BrAPI?</h2>
+              <div class="module-subtitle font-serif">The Breeding API specifies a standard interface for plant phenotype/genotype databases to serve their data to crop breeding applications. It is a shared, open API, to be used by all data providers and data consumers who wish to participate.</div>
+            </div>
+          </div>
+          <div class="row multi-columns-row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><span class="mdi mdi-account-card-details fa-lg"></span></div>
+                <h3 class="features-title font-alt">MCPD/MIAPPE compatible</h3>
+                <p>BrAPI is compatible with both the <a href="http://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/">Multi-Crop Passport Descriptors (MCPD)</a> and <a href="http://www.miappe.org/">Minimum Information About a Plant Phenotyping Experiment (MIAPPE)</a>.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><span class="mdi mdi-rocket fa-lg"></span></div>
+                <h3 class="features-title font-alt">Optimised for speed</h3>
+                <p>A lot of effort has been invested to make BrAPI a fast and responsive API. Large data sets are transfered in very optimized file formats to save time.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><span class="mdi mdi-puzzle fa-lg"></span></div>
+                <h3 class="features-title font-alt">Modular</h3>
+                <p>BrAPI covers a variety of areas targeted at plant breeding like genotyping, field trials and geographic information. A lot of these can be combined, but also work independently.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="features-item">
+                <div class="features-icon"><span class="mdi mdi-account-multiple fa-lg"></span></div>
+                <h3 class="features-title font-alt">Community-driven</h3>
+                <p>The development of BrAPI has been driven by a community of researchers and computer scientists from various research institutions. A list of all of the involved partners can be found in the <a href="#partners">section below</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module" id="use-cases">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <h2 class="module-title font-alt">Use cases</h2>
+              <div class="module-subtitle font-serif">BrAPI is a very powerful API that caters for a variety of possible use-cases. Here is a list of the ones we have been focusing on during development.</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="mdi mdi-dna fa-lg"></span></div>
+                <h3 class="alt-features-title font-alt">Genotype Visualization</h3>Pull genotypic data from any BrAPI data source and visualize it using tools like <a href="https://ics.hutton.ac.uk/flapjack">Flapjack</a>.
+              </div>
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="mdi mdi-cellphone-android fa-lg"></span></div>
+                <h3 class="alt-features-title font-alt">Field Data Collection</h3>Using mobile devices to collect field trial data and directly import it into the BrAPI data source.
+              </div>
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="mdi mdi-code-greater-than fa-lg"></span></div>
+                <h3 class="alt-features-title font-alt">R module</h3>Load data from any BrAPI data source right into R using the <a href="https://github.com/c5sire/brapi">BrAPI R module</a>.
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="mdi mdi-move-resize-variant fa-lg"></span></div>
+                <h3 class="alt-features-title font-alt">Data Transfer</h3>Move large data sets between BrAPI compliant systems without having to worry about the internal wirings.
+              </div>
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="mdi mdi-map fa-lg"></span></div>
+                <h3 class="alt-features-title font-alt">Geographic Visualization</h3>Visualize geographic information about germplasm and trials by plotting the data on a map.
+              </div>
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="mdi mdi-magnify fa-lg"></span></div>
+                <h3 class="alt-features-title font-alt">Search</h3>Search everything! Full-text search, different search parameter combinations - knock yourself out.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module pb-0" id="partners">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <h2 class="module-title font-alt">Partners involved</h2>
+              <div class="module-subtitle font-serif">(in alphabetic order)</div>
+            </div>
+          </div>
+        </div>
+        <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
+        </ul>
+      </section>
+      <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/code.jpg" id="links">
+        <div class="testimonials-slider pt-140 pb-140">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Want to learn more?</h3>
+                  <p>Check out our project on GitHub</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="https://github.com/plantbreeding">BrAPI on GitHub</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/documentation.jpg">
+        <div class="testimonials-slider pt-140 pb-140">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Interested in the API structure?</h3>
+                  <p>Have a look at our project on Apiary</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="http://docs.brapi.apiary.io/">BrAPI on Apiary</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/server.jpg">
+        <div class="testimonials-slider pt-140 pb-140">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Want to see a functioning implementation?</h3>
+                  <p>Hit our test server</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="https://test.brapi.org/">BrAPI test server</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/pirate.jpg">
+        <div class="testimonials-slider pt-140 pb-140">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Like R?</h3>
+                  <p>Try our BrAPI R module</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="https://github.com/c5sire/brapi">BrAPI R module</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/harddrive.jpg">
+        <div class="testimonials-slider pt-140 pb-140">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Looking for example data?</h3>
+                  <p>Download our exemplar data files</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="https://github.com/c5sire/brapiTS/tree/master/inst/apps/brapi/data">BrAPI data files</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module" id="acknowledgements">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <h2 class="module-title font-alt">Acknowledgements</h2>
+              <div class="module-subtitle font-serif large-text">We gratefully acknowledge funding from the Bill &amp; Melinda Gates Foundation.</div>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-xs-12">
+              <a href="http://www.gatesfoundation.org/"><img src="assets/images/bmgf.svg"/></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="copyright font-alt">&copy; <script>document.write(new Date().getFullYear())</script>&nbsp;BrAPI, All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="scroll-up"><a href="#totop"><i class="mdi mdi-chevron-up"></i></a></div>
+  </main>
+  <!--
+    JavaScripts
+    =============================================
+    -->
+  <script id="partner-template" type="x-tmpl-mustache">
+    <li class="work-item illustration photography">
+      <a href="{{ url }}">
+        <div class="work-image"><img src="assets/images/institutions/{{ img }}" alt="Partner Item" /></div>
+        <div class="work-caption font-alt">
+          <h3 class="work-title">{{ name }}</h3>
+        </div>
+      </a>
+    </li>
+  </script>
+
+  <script src="assets/lib/mustache/mustache.min.js"></script>
+  <script src="assets/lib/jquery/dist/jquery.js"></script>
+  <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/lib/wow/dist/wow.js"></script>
+  <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+  <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+  <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+  <script src="assets/lib/smoothscroll.js"></script>
+  <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+  <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    var partners = [{
+        "name": "The James Hutton Institute",
+        "url": "https://ics.hutton.ac.uk",
+        "img": "jhi.svg"
+      },
+      {
+        "img": "cimmyt.png",
+        "name": "International Maize and Wheat Improvement Center",
+        "url": "http://www.cimmyt.org"
+      },
+      {
+        "img": "bti.png",
+        "name": "Boyce Thompson Institute",
+        "url": "https://btiscience.org/"
+      },
+      {
+        "img": "urgi.png",
+        "name": "Unité de Recherche Génomique Info",
+        "url": "https://urgi.versailles.inra.fr/"
+      },
+      {
+        "img": "inra.png",
+        "name": "French National Institute for Agricultural Research",
+        "url": "http://institut.inra.fr/en"
+      },
+      {
+        "img": "elixir.png",
+        "name": "ELIXIR",
+        "url": "https://www.elixir-europe.org/"
+      },
+      {
+        "img": "gobii.png",
+        "name": "Genomic Open-source Breeding Informatics Initiative",
+        "url": "http://gobiiproject.org/"
+      },
+      {
+        "img": "bioversity.svg",
+        "name": "Bioversity International",
+        "url": "http://www.bioversityinternational.org/"
+      },
+      {
+        "img": "irri.png",
+        "name": "International Rice Research Institute",
+        "url": "http://irri.org/"
+      },
+      {
+        "img": "ibp.png",
+        "name": "Integrated Breeding Platform",
+        "url": "http://integratedbreeding.net/"
+      },
+      {
+        "img": "wageningen.png",
+        "name": "Wageningen University &amp; Research",
+        "url": "http://www.wur.nl/en/wageningen-university.htm"
+      },
+      {
+        "img": "cip.png",
+        "name": "International Potato Center",
+        "url": "https://cipotato.org/"
+      },
+      {
+        "img": "emphasis.png",
+        "name": "EMPHASIS",
+        "url": "https://emphasis.plant-phenotyping.eu/"
+      },
+      {
+        "img": "icrisat.svg",
+        "name": "International Crops Research Institute for the Semi-Arid Tropics",
+        "url": "http://www.icrisat.org/"
+      },
+      {
+        "img": "cornell.svg",
+        "name": "Cornell University",
+        "url": "https://www.cornell.edu/"
+      },
+      {
+        "img": "dart.svg",
+        "name": "Diversity Arrays Technology",
+        "url": "http://www.diversityarrays.com/"
+      },
+      {
+        "img": "excelerate.png",
+        "name": "EXCELERATE",
+        "url": "https://www.elixir-europe.org/excelerate"
+      },
+      {
+        "img": "phenome.png",
+        "name": "PHENOME, the French plant phenomic network",
+        "url": "https://www.phenome-fppn.fr/phenome_eng/"
+      },
+      {
+        "img": "cassavabase.png",
+        "name": "CassavaBase",
+        "url": "https://cassavabase.org/"
+      },
+      {
+        "img": "yambase.png",
+        "name": "YamBase",
+        "url": "https://yambase.org/"
+      },
+      {
+        "img": "sweetpotatobase.png",
+        "name": "SweetPotatoBase",
+        "url": "https://sweetpotatobase.org/"
+      },
+      {
+        "img": "solgenomics.png",
+        "name": "Sol Genomics Network",
+        "url": "https://solgenomics.net/"
+      },
+      {
+        "img": "cropontology.png",
+        "name": "Crop Ontology",
+        "url": "http://www.cropontology.org/"
+      },
+      {
+        "img": "southgreen.png",
+        "name": "South Green bioinformatics platform",
+        "url": "http://www.southgreen.fr/"
+      },
+      {
+        "img": "earlham.svg",
+        "name": "Earlham Institute",
+        "url": "http://www.earlham.ac.uk/"
+      }
+    ];
+
+    // Sort them by name
+    partners.sort(function(a, b) {
+      return a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
+    });
+
+    $(partners).each(function(i, e) {
+      var template = $('#partner-template').html();
+      Mustache.parse(template); // optional, speeds up future uses
+      var rendered = Mustache.render(template, e);
+      $('#works-grid').append(rendered);
+    });
+  </script>
+</body>
+
+</html>
