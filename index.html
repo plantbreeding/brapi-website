@@ -39,46 +39,6 @@
   <link href="assets/lib/materialdesignicons/materialdesignicons.min.css" rel="stylesheet">
   <!-- Main stylesheet and color file-->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <style>
-  .fa-lg {
-   font-size: 1.33333333em;
-   line-height: .75em;
-   vertical-align: -15%;
-}
-
-    .navbar-brand {
-      padding: 0px;
-    }
-
-    .navbar-brand>img {
-      height: 100%;
-      padding: 15px;
-      width: auto;
-    }
-
-    .navbar-fixed-top {
-      min-height: 60px;
-    }
-
-    .navbar-nav>li>a {
-      padding-top: 0px;
-      padding-bottom: 0px;
-      line-height: 60px;
-    }
-
-    .navbar a.navbar-brand {
-      height: 60px;
-    }
-
-    @media (max-width: 767px) {
-      .navbar-nav>li>a {
-        line-height: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-      }
-    }
-  </style>
 </head>
 
 <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
@@ -111,16 +71,21 @@
         </div>
       </div>
     </nav>
-    <section class="home-section home-parallax home-fade" id="home">
+    <section class="home-section home-parallax home-fade home-full-height" id="home">
       <div class="hero-slider">
         <ul class="slides">
           <li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/header.jpg);">
             <div class="titan-caption">
               <div class="caption-content">
-                <div class="font-alt mb-30 titan-title-size-3">Hello &amp; welcome</div>
-                <div class="font-alt mb-40 titan-title-size-4">to the BrAPI website
+                <div class="font-alt mb-30 titan-title-size-3">Welcome To BrAPI</div>
+                <div class="font-alt mb-40 titan-title-size-4">The Breeding API
+              </div>
+              <div class="row">
+                <div class="col-sm-2 col-sm-offset-5">
+                  <div class="large-text align-center"><a class="section-scroll" href="#about"><i class="mdi mdi-chevron-down"></i></a></div>
                 </div>
               </div>
+            </div>
           </li>
         </ul>
         </div>
@@ -136,13 +101,13 @@
           </div>
           <div class="row">
             <div class="col-sm-2 col-sm-offset-5">
-              <div class="large-text align-center"><a class="section-scroll" href="#about"><i class="mdi mdi-chevron-down"></i></a></div>
+              <div class="large-text align-center"><a class="section-scroll" href="#about2"><i class="mdi mdi-chevron-down"></i></a></div>
             </div>
           </div>
         </div>
       </section>
       <hr class="divider-w">
-      <section class="module" id="about">
+      <section class="module" id="about2">
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
@@ -180,8 +145,14 @@
               </div>
             </div>
           </div>
+          <div class="row">
+              <div class="col-sm-2 col-sm-offset-5">
+                <div class="large-text align-center"><a class="section-scroll" href="#use-cases"><i class="mdi mdi-chevron-down"></i></a></div>
+              </div>
+            </div>
         </div>
       </section>
+      <hr class="divider-w">
       <section class="module" id="use-cases">
         <div class="container">
           <div class="row">
@@ -220,8 +191,15 @@
               </div>
             </div>
           </div>
+          
+          <div class="row">
+            <div class="col-sm-2 col-sm-offset-5">
+              <div class="large-text align-center"><a class="section-scroll" href="#partners"><i class="mdi mdi-chevron-down"></i></a></div>
+            </div>
+          </div>
         </div>
       </section>
+      <hr class="divider-w">
       <section class="module pb-0" id="partners">
         <div class="container">
           <div class="row">
@@ -246,6 +224,26 @@
               </div>
               <div class="col-sm-6 col-md-4 col-lg-2">
                 <div class="callout-btn-box"><a class="btn btn-w btn-round" href="https://github.com/plantbreeding">BrAPI on GitHub</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/hackathon.jpg" id="links">
+        <div class="testimonials-slider pt-140 pb-140">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Join us in Versailles!</h3>
+                  <p>The next BrAPI Hackathon will take place in Versailles, France, on February 5th through 9th. 
+                    Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. 
+                    There is limited space availible so hurry and reserve your spot today!</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="https://docs.google.com/forms/d/e/1FAIpQLScMT2PIr3PO0_oDf8akYWO9DRfIi8GbSaovNAIHtaNuw7A8RA/viewform?c=0&w=1">Sign Up Today</a></div>
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="https://docs.google.com/document/d/1G3XPLlu9MHLHP003ExmfgM0uaObX_2lVVBv4qKyZ8-g/edit">Hackathon Agenda</a></div>
               </div>
             </div>
           </div>
@@ -352,12 +350,16 @@
                 <h5 class="widget-title font-alt">Upcoming events</h5>
                 <ul class="widget-posts">
                   <li class="clearfix">
-                    <div class="widget-posts-image"><img src="assets/images/events/hackathon.jpg" alt="Post Thumbnail"/></div>
+                    <div class="widget-posts-image">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScMT2PIr3PO0_oDf8akYWO9DRfIi8GbSaovNAIHtaNuw7A8RA/viewform?c=0&w=1">
+                          <img src="assets/images/events/hackathon.jpg" alt="Post Thumbnail"/>
+                        </a>
+                    </div>
                     <div class="widget-posts-body">
                       <div class="widget-posts-title">
-                        <!--<a href="#">-->Next hackathon<!--</a>-->
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScMT2PIr3PO0_oDf8akYWO9DRfIi8GbSaovNAIHtaNuw7A8RA/viewform?c=0&w=1">Versailles Hackathon 2018</a>
                       </div>
-                      <div class="widget-posts-meta">TBD</div>
+                      <div class="widget-posts-meta">February 5 - February 9</div>
                     </div>
                   </li>
                 </ul>
@@ -394,156 +396,32 @@
   </script>
 
   <script src="assets/lib/mustache/mustache.min.js"></script>
-  <script src="assets/lib/jquery/dist/jquery.js"></script>
+  <script src="assets/lib/jquery/dist/jquery-3.2.1.min.js"></script>
   <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="assets/lib/wow/dist/wow.js"></script>
   <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
   <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
   <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
-  <script src="assets/lib/smoothscroll.js"></script>
   <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
   <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
   <script src="assets/js/main.js"></script>
 
   <script>
-    var partners = [{
-        "name": "The James Hutton Institute",
-        "url": "https://ics.hutton.ac.uk",
-        "img": "jhi.svg"
-      },
-      {
-        "img": "cimmyt.png",
-        "name": "International Maize and Wheat Improvement Center",
-        "url": "http://www.cimmyt.org"
-      },
-      {
-        "img": "bti.png",
-        "name": "Boyce Thompson Institute",
-        "url": "https://btiscience.org/"
-      },
-      {
-        "img": "urgi.png",
-        "name": "Unité de Recherche Génomique Info",
-        "url": "https://urgi.versailles.inra.fr/"
-      },
-      {
-        "img": "inra.png",
-        "name": "French National Institute for Agricultural Research",
-        "url": "http://institut.inra.fr/en"
-      },
-      {
-        "img": "elixir.png",
-        "name": "ELIXIR",
-        "url": "https://www.elixir-europe.org/"
-      },
-      {
-        "img": "gobii.png",
-        "name": "Genomic Open-source Breeding Informatics Initiative",
-        "url": "http://gobiiproject.org/"
-      },
-      {
-        "img": "bioversity.svg",
-        "name": "Bioversity International",
-        "url": "http://www.bioversityinternational.org/"
-      },
-      {
-        "img": "irri.png",
-        "name": "International Rice Research Institute",
-        "url": "http://irri.org/"
-      },
-      {
-        "img": "ibp.png",
-        "name": "Integrated Breeding Platform",
-        "url": "http://integratedbreeding.net/"
-      },
-      {
-        "img": "wageningen.png",
-        "name": "Wageningen University &amp; Research",
-        "url": "http://www.wur.nl/en/wageningen-university.htm"
-      },
-      {
-        "img": "cip.png",
-        "name": "International Potato Center",
-        "url": "https://cipotato.org/"
-      },
-      {
-        "img": "emphasis.png",
-        "name": "EMPHASIS",
-        "url": "https://emphasis.plant-phenotyping.eu/"
-      },
-      {
-        "img": "icrisat.svg",
-        "name": "International Crops Research Institute for the Semi-Arid Tropics",
-        "url": "http://www.icrisat.org/"
-      },
-      {
-        "img": "cornell.svg",
-        "name": "Cornell University",
-        "url": "https://www.cornell.edu/"
-      },
-      {
-        "img": "dart.svg",
-        "name": "Diversity Arrays Technology",
-        "url": "http://www.diversityarrays.com/"
-      },
-      {
-        "img": "excelerate.png",
-        "name": "EXCELERATE",
-        "url": "https://www.elixir-europe.org/excelerate"
-      },
-      {
-        "img": "phenome.png",
-        "name": "PHENOME, the French plant phenomic network",
-        "url": "https://www.phenome-fppn.fr/phenome_eng/"
-      },
-      {
-        "img": "cassavabase.png",
-        "name": "CassavaBase",
-        "url": "https://cassavabase.org/"
-      },
-      {
-        "img": "yambase.png",
-        "name": "YamBase",
-        "url": "https://yambase.org/"
-      },
-      {
-        "img": "sweetpotatobase.png",
-        "name": "SweetPotatoBase",
-        "url": "https://sweetpotatobase.org/"
-      },
-      {
-        "img": "solgenomics.png",
-        "name": "Sol Genomics Network",
-        "url": "https://solgenomics.net/"
-      },
-      {
-        "img": "cropontology.png",
-        "name": "Crop Ontology",
-        "url": "http://www.cropontology.org/"
-      },
-      {
-        "img": "southgreen.png",
-        "name": "South Green bioinformatics platform",
-        "url": "http://www.southgreen.fr/"
-      },
-      {
-        "img": "earlham.svg",
-        "name": "Earlham Institute",
-        "url": "http://www.earlham.ac.uk/"
-      }
-    ];
+    $.getJSON("partners.json", function(partners){
+          // Sort them by name
+      partners.sort(function(a, b) {
+        return a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
+      });
 
-    // Sort them by name
-    partners.sort(function(a, b) {
-      return a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
+      $(partners).each(function(i, e) {
+        var template = $('#partner-template').html();
+        Mustache.parse(template); // optional, speeds up future uses
+        var rendered = Mustache.render(template, e);
+        $('#works-grid').append(rendered);
+      });
     });
 
-    $(partners).each(function(i, e) {
-      var template = $('#partner-template').html();
-      Mustache.parse(template); // optional, speeds up future uses
-      var rendered = Mustache.render(template, e);
-      $('#works-grid').append(rendered);
-    });
+
   </script>
 </body>
 

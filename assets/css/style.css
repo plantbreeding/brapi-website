@@ -1334,6 +1334,43 @@ General Styles - Owlcarousel
   font-size: 11px;
 }
 
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar-fixed-top {
+  min-height: 60px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 60px;
+}
+
+.navbar a.navbar-brand {
+  height: 60px;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav>li>a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
 /* Navbar search
 
 .dropdown-search {
@@ -2019,11 +2056,12 @@ Google map
 	Call to action
 --------------------------------------------------------------*/
 .callout-text {
-  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  color: #fff;
 }
 
 .callout-title {
-  font-weight: 400;
+  font-weight: bold;
   font-size: 16px;
   color: #fff;
   margin: 0;
