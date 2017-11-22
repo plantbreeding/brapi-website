@@ -14,13 +14,18 @@
                     include("html/menu.html");
                 ?>
             </nav>
-            <?php
-                include("html/home-section.html");
-            ?>
+            <section class="home-section home-parallax home-fade home-full-height bg-dark bg-dark-30" id="home" data-background="assets/images/header.jpg">
+                <div class="titan-caption">
+                <div class="caption-content">
+                    <div class="font-alt mb-30 titan-title-size-4">COMING SOON</div>
+                    <div class="font-alt">Site under construction
+                    </div>
+                    <div class="font-alt mt-30"><a class="btn btn-border-w btn-round" href="index.php">Back to home page</a></div>
+                </div>
+                </div>
+            </section>
             <div class="main">
                 <?php
-                    include("html/about-section.html");
-                    include("html/usecases-section.html");
                     include("html/footer.html");
                 ?>
             </div>

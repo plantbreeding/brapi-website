@@ -9,18 +9,18 @@
             <div class="page-loader">
                 <div class="loader">Loading...</div>
             </div>
-            <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
+            <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
                 <?php
                     include("html/menu.html");
                 ?>
             </nav>
             <?php
-                include("html/home-section.html");
+                $PageTitle = "Developer Resources";
+                include("html/page-title-section.php");
             ?>
             <div class="main">
                 <?php
-                    include("html/about-section.html");
-                    include("html/usecases-section.html");
+                    include("html/links-section.html");
                     include("html/footer.html");
                 ?>
             </div>
@@ -29,5 +29,16 @@
         <?php
             include("html/scripts.html");
         ?>
+        <script>
+            $.getJSON("json/dev-links.json", function(links){
+              $(links).each(function(i, e) {
+                var template = $('#link-template').html();
+                Mustache.parse(template); // optional, speeds up future uses
+                var rendered = Mustache.render(template, e);
+                $('#links-grid').append(rendered);
+              });
+            });
+        </script>
+        
     </body>
 </html>

@@ -2,42 +2,32 @@
     JavaScripts
     =============================================
     -->
-    <script id="partner-template" type="x-tmpl-mustache">
-            <li class="work-item illustration photography">
-              <a href="{{ url }}">
-                <div class="work-image"><img src="assets/images/institutions/{{ img }}" alt="Partner Item" /></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">{{ name }}</h3>
-                </div>
-              </a>
-            </li>
-          </script>
-        
-          <script src="assets/lib/mustache/mustache.min.js"></script>
-          <script src="assets/lib/jquery/dist/jquery-3.2.1.min.js"></script>
-          <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-          <script src="assets/lib/wow/dist/wow.js"></script>
-          <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
-          <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-          <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
-          <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-          <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-          <script src="assets/js/main.js"></script>
-        
-          <script>
-            $.getJSON("partners.json", function(partners){
-                  // Sort them by name
-              partners.sort(function(a, b) {
-                return a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
-              });
-        
-              $(partners).each(function(i, e) {
-                var template = $('#partner-template').html();
+
+
+<script src="assets/lib/mustache/mustache.min.js"></script>
+<script src="assets/lib/jquery/dist/jquery-3.2.1.min.js"></script>
+<script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/lib/wow/dist/wow.js"></script>
+<script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+<script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+<script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+<script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+<script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+<script>
+    $.getJSON("json/events.json", function (events) {
+        addEventTag = function (event) {
+            if (event['upcoming']) {
+                event.primary_link = event['links'][0]['url'];
+                var template = $('#event-tag-template').html();
                 Mustache.parse(template); // optional, speeds up future uses
-                var rendered = Mustache.render(template, e);
-                $('#works-grid').append(rendered);
-              });
-            });
-        
-        
-          </script>
+                var rendered = Mustache.render(template, event);
+                $('#event-tags').append(rendered);
+            }
+        }
+        addEventTag($(events)['0']);
+        addEventTag($(events)['1']);
+    });
+</script>
