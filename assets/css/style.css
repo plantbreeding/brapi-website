@@ -1327,16 +1327,18 @@ General Styles - Owlcarousel
 
 .navbar-custom .dropdown-toggle:after {
   position: absolute;
-  display: block;
-  right: 0;
+  right: -6px;
   top: 50%;
-  margin-top: -6px;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: 9px;
-  content: "\f107";
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('/assets/images/arrow_drop_down_white.png');
+  background-size: 25px 25px;
+  display: inline-block;
+  width: 25px; 
+  height: 25px;
+  content:"";
+  margin: -13px 0 0 0;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
