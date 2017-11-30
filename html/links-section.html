@@ -1,0 +1,30 @@
+<section class="module">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row multi-columns-row post-columns" id="links-grid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script id="link-template" type="x-tmpl-mustache">
+  <div class="col-md-6 col-lg-6">
+    <div class="post">
+      <div class="post-thumbnail">
+        <a href="{{ url }}">
+          <img src="{{ image }}" alt="{{ title }}" />
+        </a>
+      </div>
+      <div class="post-header font-alt">
+        <h2 class="post-title">
+          <a href="{{ url }}">{{ title }}</a>
+        </h2>
+      </div>
+      <div class="post-entry">
+        <p>{{{ description }}}</p>
+      </div>
+    </div>
+  </div>
+</script>

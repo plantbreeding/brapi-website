@@ -1,0 +1,27 @@
+<section class="module-small pb-0" id="partners">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="module-subtitle">We would like to give a big thank you to the entire BrAPI community and all of the involved organizations
+                    for their continued support! If you or your organizations would like to join our community, please
+                    <a style="text-decoration: underline;" href="mailto:brapicoordinatorselby@gmail.com">reach out</a> to one of our project coordinators. </div>
+                <div class="module-subtitle font-serif">(in alphabetic order)</div>
+            </div>
+        </div>
+    </div>
+    <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
+    </ul>
+</section>
+
+<script id="partner-template" type="x-tmpl-mustache">
+    <li class="work-item illustration photography">
+        <a href="{{ url }}">
+            <div class="work-image">
+                <img src="assets/images/institutions/{{ img }}" alt="Partner Item" />
+            </div>
+            <div class="work-caption font-alt">
+                <h3 class="work-title">{{ name }}</h3>
+            </div>
+        </a>
+    </li>
+</script>

@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Versailles Hackathon",
+        "location": "Versailles, France",
+        "date": "Feb 5, 2018 - Feb 9, 2018",
+        "image": "assets/images/events/hackathon_thumb.jpg",
+        "description": "The next BrAPI Hackathon will take place in Versailles, France, on February 5th through 9th. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. There is limited space availible so hurry and reserve your spot today!",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "Sign Up Today",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLScMT2PIr3PO0_oDf8akYWO9DRfIi8GbSaovNAIHtaNuw7A8RA/viewform?c=0&w=1"
+            },
+            {
+                "name": "Hackathon Agenda",
+                "url": "https://docs.google.com/document/d/1G3XPLlu9MHLHP003ExmfgM0uaObX_2lVVBv4qKyZ8-g/edit"
+            }
+        ]
+    },
+    {
+        "title": "Seattle Hackathon",
+        "location": "Seattle WA, USA",
+        "date": "Jun 12, 2017 - Jun 16, 2017",
+        "image": "assets/images/events/seattle_thumb.jpg",
+        "description": "BrAPI Community Hackathon in Seattle.",
+        "upcoming": false,
+        "links": [
+            {
+                "name": "Hackathon Agenda",
+                "url": "https://github.com/plantbreeding/Documentation/wiki"
+            }
+        ]
+    }
+]

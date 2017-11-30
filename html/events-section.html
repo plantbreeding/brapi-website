@@ -1,0 +1,48 @@
+<section class="module-extra-small bg-light">
+    <div class="container">
+        <div class="row">
+            <h2>Upcoming</h2>
+        </div>
+    </div>
+</section>
+<div id="event-list">
+</div>
+<section class="module-extra-small bg-light">
+    <div class="container">
+        <div class="row">
+            <h2>Past</h2>
+        </div>
+    </div>
+</section>
+<div id="past-event-list">
+</div>
+
+<script id="event-template" type="x-tmpl-mustache">
+    <section class="module-small bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-8 col-lg-8 col-lg-offset-1">
+                    <div style="height: 75px">
+                        <div class="widget-posts-image" style="margin: 0 10px 0 0;">
+                            <img src="{{ image }}" alt="Post Thumbnail" />
+                        </div>
+                        <div class="callout-text-dark font-alt" style="padding: 15px 0 0 0;">
+                            <h3 class="callout-title-dark">{{ title }}</h3>
+                            <p>{{ location }} | {{ date }}</p>
+                        </div>
+                    </div>
+                    <div class="callout-text-dark font-alt">
+                        <p>{{ description }}</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    {{#links}}
+                        <div class="callout-btn-box">
+                            <a class="btn btn-d btn-round" style="width: 200px;" href="{{ url }}">{{ name }}</a>
+                        </div>
+                    {{/links}}
+                </div>
+            </div>
+        </div>
+    </section>
+</script>

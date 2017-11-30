@@ -1,0 +1,38 @@
+[
+    {
+        "image": "assets/images/code.jpg",
+        "url": "https://github.com/plantbreeding/API",
+        "title": "BrAPI on GitHub",
+        "description": "Raise issues, submit change propsals, and check on upcoming enhancments. Become part of the BrAPI developer community by checking out the GitHub project."
+    },
+    {
+        "image": "assets/images/documentation.jpg",
+        "url": "http://docs.brapi.apiary.io/",
+        "title": "BrAPI on Apiary",
+        "description": "Don't like reading raw markdown files? Take a look at the human readable version of BrAPI, hosted by Apiary."
+    },
+    {
+        "image": "assets/images/server.jpg",
+        "url": "https://test.brapi.org/",
+        "title": "BrAPI Test Server",
+        "description": "Check out our official, BrAPI cetrified test server. This server hosts a complete BrAPI implementation connected to a database full of sample data."
+    },
+    {
+        "image": "assets/images/pirate.jpg",
+        "url": "https://github.com/c5sire/brapi",
+        "title": "BrAPI R Module",
+        "description": "This GitHub repository is the home of the BrAPI R Module. The R Module has a complete set of R functions and data to implement BrAPI."
+    },
+    {
+        "image": "assets/images/harddrive.jpg",
+        "url": "https://github.com/c5sire/brapiTS/tree/master/inst/apps/brapi/data",
+        "title": "Sample Data",
+        "description": "Download a full sample data set here."
+    },
+    {
+        "image": "assets/images/code.jpg",
+        "url": "coming_soon.php",
+        "title": "BrAPI on SwaggerHub",
+        "description": "<div style=\"color: orange; font-weight: bold;\"> COMING SOON </div>"
+    }
+]

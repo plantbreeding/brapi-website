@@ -646,6 +646,11 @@ a,
 /*--------------------------------------------------------------
 	Buttons
 --------------------------------------------------------------*/
+.brapi-btn-width {
+  width: 225px;
+  margin: 3px 0;
+}
+
 .btn {
   border-radius: 0;
   font-family: "Roboto Condensed", sans-serif;
@@ -904,6 +909,15 @@ blockquote {
 
 .rotate {
   text-shadow: none !important;
+}
+
+.brapi-page-title {
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 46px;
+  color: #fff;
 }
 
 .module-title {
@@ -1415,6 +1429,16 @@ General Styles - Owlcarousel
   background-size: cover;
 }
 
+.brapi-home-section {
+  position: relative;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  z-index: 0;
+  background-size: cover;
+}
+
 .titan-title-size-1 {
   letter-spacing: 4px;
   font-size: 15px;
@@ -1445,7 +1469,7 @@ General Styles - Owlcarousel
 
 /* About us Page Header */
 .about-page-header:before {
-  background: rgba(2, 2, 2, 0.2);
+  background: rgba(2, 2, 2, 0.5);
 }
 
 /* Service Page Header */
@@ -2067,6 +2091,18 @@ Google map
   margin: 0;
 }
 
+.callout-text-dark {
+  font-weight: bold;
+  color: #333;
+}
+
+.callout-title-dark {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
 .callout-btn-box {
   text-align: right;
   padding-top: 4px;
@@ -2187,6 +2223,10 @@ Google map
 /*--------------------------------------------------------------
 	Blog Post
 --------------------------------------------------------------*/
+#brapi-posts a {
+  text-decoration: underline;
+}
+
 .post {
   margin: 0 0 80px;
 }
@@ -2235,7 +2275,8 @@ Google map
 
 /* Post columns */
 .post-columns .post {
-  margin: 0 0 60px;
+  margin: 0 0 40px;
+  min-height: 401px;
 }
 
 .post-columns .post-header {
@@ -2244,7 +2285,7 @@ Google map
 
 .post-columns .post-title {
   line-height: 1.8;
-  font-size: 14px;
+  font-size: 22px;
 }
 
 .post-columns .post-entry {
