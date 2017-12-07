@@ -4,7 +4,7 @@
         "location": "Versailles, France",
         "date": "Feb 5, 2018 - Feb 9, 2018",
         "image": "assets/images/events/hackathon_thumb.jpg",
-        "description": "The next BrAPI Hackathon will take place in Versailles, France, on February 5th through 9th. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. There is limited space availible so hurry and reserve your spot today!",
+        "description": "<h5 style=\"color: red;\">Registration Closed</h5> <p style=\"color: red;\">Unfortunately, the Versailles hackathon is completely full! <br> If you would like to be added to a waiting list please reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline; color: red;\">a BrAPI Coordinator</a></p><p>The next BrAPI Hackathon will take place in Versailles, France, on February 5th through 9th. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI.</p>",
         "upcoming": true,
         "links": [
             {
@@ -26,7 +26,7 @@
         "location": "Seattle WA, USA",
         "date": "Jun 12, 2017 - Jun 16, 2017",
         "image": "assets/images/events/seattle_thumb.jpg",
-        "description": "BrAPI Community Hackathon in Seattle.",
+        "description": "<p>BrAPI Community Hackathon in Seattle.</p>",
         "upcoming": false,
         "links": [
             {
