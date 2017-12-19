@@ -1,5 +1,19 @@
 [
     {
+        "title": "BrAPI At PAG",
+        "location": "San Diego, USA",
+        "date": "Jan 13, 2018 - Jan 17, 2018",
+        "image": "assets/images/events/hackathon_thumb.jpg",
+        "description": "<p>There will be an informal BrAPI community meetup during the PAG Conference. Come meet, talk to, and network with other members in the BrAPI community. Keep watching for more details about time and place.</p>",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "PAG Website",
+                "url": "http://www.intlpag.org/"
+            }
+        ]
+    },
+    {
         "title": "Versailles Hackathon",
         "location": "Versailles, France",
         "date": "Feb 5, 2018 - Feb 9, 2018",
