@@ -19,6 +19,9 @@
                 include("html/page-title-section.php");
             ?>
             <div class="main">
+                <div class="row">
+                    <p>Welcome to the BrAPI Application Showcase, or BrAPPs for short. Each of these BrAPPs is an independent tool which can run on its own or can be easily integrated with a larger system. And of course, each BrAPP should be completely BrAPI driven and can be used with any BrAPI complient system. The goal is to keep the BrAPI community informed about what tools are available and encourage functionality sharing. If you have a BrAPP you would like to share with the community please reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\">a BrAPI Coordinator</a></p>
+                </div>
                 <?php
                     include("html/links-section.html");
                     include("html/footer.html");
