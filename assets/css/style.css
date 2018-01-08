@@ -2271,8 +2271,8 @@ p > a {
 
 @media (min-width: 1200px) {
   .post-thumbnail.col-md-12{
-    overflow: unset;
-    height: auto;
+    overflow: unset !important;
+    height: auto !important;
     transition: unset;
   }
   .post {
