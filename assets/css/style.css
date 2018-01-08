@@ -2269,11 +2269,27 @@ p > a {
   margin: 0 0 20px;
 }
 
-@media (min-width: 970px) {
-.post-thumbnail.col-md-12{
-  overflow: hidden;
-  height: 80px
+@media (min-width: 1200px) {
+  .post-thumbnail.col-md-12{
+    transition: unset;
+  }
+  .post {
+    min-height: 160px;
+  }
 }
+@media (min-width: 991px) {
+  .post-thumbnail.col-md-12{
+    overflow: hidden;
+    height: 80px
+  }
+  .post {
+    min-height: 220px;
+  }
+}
+@media (min-width: 767px) {
+  .post {
+    min-height: 200px;
+  }
 }
 
 .post-quote {
@@ -2285,7 +2301,6 @@ p > a {
 /* Post columns */
 .post-columns .post {
   margin: 0 0 40px;
-  min-height: 240px;
 }
 
 .post-columns .post-header {
