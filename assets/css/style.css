@@ -2285,7 +2285,7 @@ p > a {
 /* Post columns */
 .post-columns .post {
   margin: 0 0 40px;
-  min-height: 250px;
+  min-height: 240px;
 }
 
 .post-columns .post-header {
