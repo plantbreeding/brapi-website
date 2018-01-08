@@ -2269,7 +2269,7 @@ p > a {
   margin: 0 0 20px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
   .post-thumbnail.col-md-12{
     transition: unset;
   }
@@ -2286,7 +2286,7 @@ p > a {
     min-height: 220px;
   }
 }
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 990px) {
   .post-thumbnail.col-md-12{
     transition: unset;
   }
