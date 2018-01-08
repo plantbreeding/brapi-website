@@ -2269,6 +2269,11 @@ p > a {
   margin: 0 0 20px;
 }
 
+.post-thumbnail.col-md-12{
+  overflow: hidden;
+  height: 80px
+}
+
 .post-quote {
   background: #f5f5f5;
   text-align: center;
@@ -2278,7 +2283,7 @@ p > a {
 /* Post columns */
 .post-columns .post {
   margin: 0 0 40px;
-  min-height: 401px;
+  min-height: 180px;
 }
 
 .post-columns .post-header {
