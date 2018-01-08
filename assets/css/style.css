@@ -2269,9 +2269,11 @@ p > a {
   margin: 0 0 20px;
 }
 
+@media (min-width: 970px) {
 .post-thumbnail.col-md-12{
   overflow: hidden;
   height: 80px
+}
 }
 
 .post-quote {
@@ -2283,7 +2285,7 @@ p > a {
 /* Post columns */
 .post-columns .post {
   margin: 0 0 40px;
-  min-height: 180px;
+  min-height: 250px;
 }
 
 .post-columns .post-header {
