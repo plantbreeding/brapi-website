@@ -1,0 +1,96 @@
+<section class="module">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="module-subtitle">Welcome to the BrAPI Application Showcase, or BrAPPs for short. Each of these BrAPPs is an independent tool which
+          can run on its own or can be easily integrated with a larger system. And of course, each BrAPP should be completely
+          BrAPI driven and can be used with any BrAPI complient system. The goal is to keep the BrAPI community informed
+          about what tools are available and encourage functionality sharing. If you have a BrAPP you would like to share
+          with the community please reach out to
+          <a href=\ "mailto:brapicoordinatorselby@gmail.com\">a BrAPI Coordinator</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row multi-columns-row post-columns" id="brapp-grid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script id="brapp-template" type="x-tmpl-mustache">
+    <div class="col-md-6 col-lg-6">
+        <div class="post">
+            <div class="post-thumbnail col-xs-12 col-sm-4 col-md-12 col-lg-4">
+            <a href="{{ url }}">
+              <img src="{{ image }}" alt="{{ title }}" />
+            </a>
+          </div>
+          <div class="post-header font-alt col-xs-12 col-sm-8 col-sm-4-offset col-md-12 col-lg-8 col-lg-4-offset">
+            <h2 class="post-title">
+              <a href="{{ url }}">{{ title }}</a>
+            </h2>
+            <p style="margin-bottom:  0;">From <a href="{{ team-url }}"> {{ team }} </a></p>
+          </div>      
+          <div class="col-xs-12 col-sm-7 col-sm-4-offset col-md-12 col-lg-12 post-entry" style="border-top: 0; padding-left: 15px; padding-right:  15px;">
+              <div>
+                {{#demo-url}}
+                <a href="{{ demo-url }}">
+                  <button class="btn btn-d btn-round" type="button" style="padding: 6px 12px;">Demo</button>
+                </a>
+                {{/demo-url}}
+                {{#source-url}}
+                <a href="{{ source-url }}">
+                  <button class="btn btn-d btn-round" type="button" style="padding: 6px 12px;">Source</button>
+                </a>
+                {{/source-url}}
+                {{#doc-url}}
+                <a href="{{ doc-url }}">
+                  <button class="btn btn-d btn-round" type="button" style="padding: 6px 12px;">Docs</button>
+                </a>
+                {{/doc-url}}
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 post-entry" style="border-top: 0; padding-left: 15px; padding-right:  15px;">            
+            <p>{{{ description }}}</p>
+          </div>
+        </div>
+      </div>
+</script>
+<div class="col-md-6 col-lg-6">
+    <div class="post">
+      <div class="post-thumbnail col-xs-12 col-sm-4 col-md-12 col-lg-4">
+        <a href="https://solgenomics.github.io/BrAPI-Graphical-Filtering/">
+          <img src="assets/images/code.jpg" alt="Graphical Filtering Tool">
+        </a>
+      </div>
+      <div class="post-header font-alt col-xs-12 col-sm-8 col-sm-4-offset col-md-12 col-lg-8 col-lg-4-offset">
+        <h2 class="post-title">
+          <a href="https://solgenomics.github.io/BrAPI-Graphical-Filtering/">Graphical Filtering Tool</a>
+        </h2>
+    <p style="margin-bottom:  0;">From <a href="https://solgenomics.net/">SolGenomics</a></p>
+      </div>
+      <div class="col-xs-12 col-sm-7 col-sm-4-offset col-md-12 col-lg-12 post-entry" style="padding-left: 15px; padding-right:  15px;">
+                      <div style="/* text-align: center; */">
+                      <a href="developers.php">
+                        <button class="btn btn-d btn-round" type="button" style="padding: 6px 12px;">Demo</button>
+                      </a>
+                      <a href="news.php">
+                        <button class="btn btn-d btn-round" type="button" style="
+    padding: 6px 12px;
+">Source</button>
+                      </a>
+                      <a href="partners.php">
+                        <button class="btn btn-d btn-round" type="button" style="
+    padding: 6px 12px;
+">Docs</button>
+                      </a>
+                  </div>
+                </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 post-entry" style="padding-left:  15px; padding-right:  15px;">
+        <p>Built by SolGenomics, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. </p>
+      </div>
+    </div>
+  </div>

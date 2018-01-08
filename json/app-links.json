@@ -2,7 +2,12 @@
     {
         "image": "assets/images/code.jpg",
         "url": "https://solgenomics.github.io/BrAPI-Graphical-Filtering/",
+        "demo-url": "https://solgenomics.github.io/BrAPI-Graphical-Filtering/",
+        "source-url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering",
+        "doc-url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering/blob/master/README.md",
         "title": "Graphical Filtering Tool",
+        "team": "SolGenomics",
+        "team-url": "https://solgenomics.net/",
         "description": "Built by SolGenomics, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. "
     }
 ]

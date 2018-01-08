@@ -20,7 +20,7 @@
             ?>
             <div class="main">
                 <?php
-                    include("html/links-section.html");
+                    include("html/brapps-section.html");
                     include("html/footer.html");
                 ?>
             </div>
@@ -32,10 +32,10 @@
         <script>
             $.getJSON("json/app-links.json", function(links){
               $(links).each(function(i, e) {
-                var template = $('#link-template').html();
+                var template = $('#brapp-template').html();
                 Mustache.parse(template); // optional, speeds up future uses
                 var rendered = Mustache.render(template, e);
-                $('#links-grid').append(rendered);
+                $('#brapp-grid').append(rendered);
               });
             });
         </script>
