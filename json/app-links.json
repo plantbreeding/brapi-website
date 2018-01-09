@@ -9,5 +9,16 @@
         "team": "SolGenomics",
         "team-url": "https://solgenomics.net/",
         "description": "Built by SolGenomics, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. "
+    },
+    {
+        "image": "assets/images/apps/variable-ontology-widget.png",
+        "url": "https://github.com/gnpis/trait-ontology-widget",
+        "demo-url": "https://urgi.versailles.inra.fr/ephesis/ephesis/ontologyportal.do",
+        "source-url": "https://github.com/gnpis/trait-ontology-widget",
+        "doc-url": "https://github.com/gnpis/trait-ontology-widget/blob/master/README.md",
+        "title": "Variable Ontology Widget",
+        "team": "URGI - INRA",
+        "team-url": "http://urgi.versailles.inra.fr/",
+        "description": "Built by URGI - INRA, this is a JavaScript widget displaying all the observation variables of a BrAPI endpoint. "
     }
 ]
