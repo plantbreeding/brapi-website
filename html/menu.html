@@ -55,12 +55,14 @@
             </li>
             <li class="dropdown">
                 <a class="dropdown-toggle" href="brapps.php" data-toggle="dropdown">Applications</a>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="https://solgenomics.github.io/BrAPI-Graphical-Filtering/">Graphical Filtering</a>
-                    </li>
-                </ul>
+                <ul class="dropdown-menu" id="brapp-links"></ul>
             </li>
         </ul>
     </div>
 </div>
+
+<script id="brapp-links-template" type="x-tmpl-mustache">
+    <li>
+        <a href="{{ url }}">{{ title }}</a>
+    </li>
+</script>
