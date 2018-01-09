@@ -30,4 +30,17 @@
         addEventTag($(events)['0']);
         addEventTag($(events)['1']);
     });
+
+    // Load JSON once, use twice (here and in 'brapps.php')
+    var brappLinks = $.getJSON("json/app-links.json");
+
+    // Load BrAPP links template in menu
+    brappLinks.done(function(links){
+      $(links).each(function(i, e) {
+        var template = $('#brapp-links-template').html();
+        Mustache.parse(template); // optional, speeds up future uses
+        var rendered = Mustache.render(template, e);
+        $('#brapp-links').append(rendered);
+      });
+    });
 </script>

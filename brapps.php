@@ -30,7 +30,9 @@
             include("html/scripts.html");
         ?>
         <script>
-            $.getJSON("json/app-links.json", function(links){
+            // Load BrAPPs section template
+            // 'brappLinks' is defined in 'html/scripts.html'
+            brappLinks.done(function(links){
               $(links).each(function(i, e) {
                 var template = $('#brapp-template').html();
                 Mustache.parse(template); // optional, speeds up future uses
@@ -39,6 +41,6 @@
               });
             });
         </script>
-        
+
     </body>
 </html>
