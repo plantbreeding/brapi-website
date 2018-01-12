@@ -1,4 +1,4 @@
-# Build with : Docker build -t brapi.org ./
+# Build with : Docker build -t brapicoordinatorselby/brapi.org ./
 # run with : docker run --name="brapi.org" -v /etc/ssl/:/etc/ssl/ --network=bridge -p 80:80 -p 443:443 -d brapi.org
 
 FROM php:7.2-rc-fpm-alpine

@@ -1,4 +1,10 @@
 {
+    "jan-12-2018": {
+        "title": "Introducing BrAPPs!",
+        "date": "January 12, 2018",
+        "author": "Peter Selby",
+        "article": "<p>We are happy to officially introduce BrAPPs to the BrAPI ecosystem. <br/> Go to <a href=\"https://brapi.org/brapps.php\">brapi.org/brapps.php</a> to check out the BrAPP Showcase, and keep checking back because we will be adding more BrAPPs as they become available. </p><p> What is a BrAPP? <br/> A BrAPP is a BrAPI Application. <br/>  Each BrAPP is a stand alone tool, widget, or plugin built by a member of the BrAPI community. Each BrAPP, as the name implies, should be entirely BrAPI driven. This means a BrAPP can easily be shared with the whole BrAPI community and can be easily added to any system which has a BrAPI implementation.  </p><p> The goal is to keep the BrAPI community informed about what tools are available and encourage sharing of useful functionality. </p><p> If you have a tool or widget you feel can become a BrAPP, please reach out to a <a href=\"mailto:brapicoordinatorselby@gmail.com\">BrAPI Coordinator</a>. At a minimum you'll need a public link to the source code, a name and a description. You should also think about a documentation link and a demo page of some kind, so people can see your BrAPP in action.</p>"
+    },
     "jan-2-2018": {
         "title": "BrAPI at PAG",
         "date": "January 2, 2018",
