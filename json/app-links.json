@@ -1,7 +1,7 @@
 [
     {
         "image": "assets/images/code.jpg",
-        "url": "https://solgenomics.github.io/BrAPI-Graphical-Filtering/",
+        "url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering",
         "demo-url": "https://solgenomics.github.io/BrAPI-Graphical-Filtering/",
         "source-url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering",
         "doc-url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering/blob/master/README.md",
@@ -20,5 +20,27 @@
         "team": "URGI - INRA",
         "team-url": "http://urgi.versailles.inra.fr/",
         "description": "Built by URGI - INRA, this is a JavaScript widget displaying all the observation variables of a BrAPI endpoint. "
+    },
+    {
+        "image": "assets/images/code.jpg",
+        "url": "https://github.com/solgenomics/BrAPI-Study-Comparison",
+        "demo-url": "https://solgenomics.github.io/BrAPI-Study-Comparison/",
+        "source-url": "https://github.com/solgenomics/BrAPI-Study-Comparison",
+        "doc-url": "https://github.com/solgenomics/BrAPI-Study-Comparison/blob/master/README.md",
+        "title": "Study Comparison Tool",
+        "team": "SolGenomics",
+        "team-url": "https://solgenomics.net/",
+        "description": "Built by SolGenomics, this is a fully BrAPI compliant tool for comparing the performance of germplasm across studies. "
+    },
+    {
+        "image": "assets/images/code.jpg",
+        "url": "https://github.com/solgenomics/BrAPI-Pedigree-Viewer",
+        "demo-url": "https://solgenomics.github.io/BrAPI-Pedigree-Viewer/",
+        "source-url": "https://github.com/solgenomics/BrAPI-Pedigree-Viewer",
+        "doc-url": "https://github.com/solgenomics/BrAPI-Study-Comparison/blob/master/README.md",
+        "title": "Pedigree Viewer",
+        "team": "SolGenomics",
+        "team-url": "https://solgenomics.net/",
+        "description": "Built by SolGenomics, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. "
     }
 ]
