@@ -1,19 +1,5 @@
 [
     {
-        "title": "BrAPI At PAG",
-        "location": "San Diego, USA",
-        "date": "12:00 - 14:00, Jan 14, 2018",
-        "image": "assets/images/events/san-diego_thumb.jpg",
-        "description": "<p>There will be an informal BrAPI community meetup during the PAG Conference. Come meet, talk to, and network with other members in the BrAPI community. Ascot Hall (near Charlie's Bar) in the Town and Country convention center from noon to 2pm on Sunday, Jan 14.</p><p>Can't make it on Sunday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
-        "upcoming": true,
-        "links": [
-            {
-                "name": "PAG Website",
-                "url": "http://www.intlpag.org/"
-            }
-        ]
-    },
-    {
         "title": "Versailles Hackathon",
         "location": "Versailles, France",
         "date": "Feb 5, 2018 - Feb 9, 2018",
@@ -32,6 +18,20 @@
             {
                 "name": "Travel Guide",
                 "url": "https://docs.google.com/document/d/12Z5hW5QTO5xQ92hmfz5TVWzO02PMNlFn-Q0mFcc_tlU"
+            }
+        ]
+    },
+    {
+        "title": "BrAPI At PAG",
+        "location": "San Diego, USA",
+        "date": "12:00 - 14:00, Jan 14, 2018",
+        "image": "assets/images/events/san-diego_thumb.jpg",
+        "description": "<p>There will be an informal BrAPI community meetup during the PAG Conference. Come meet, talk to, and network with other members in the BrAPI community. Ascot Hall (near Charlie's Bar) in the Town and Country convention center from noon to 2pm on Sunday, Jan 14.</p><p>Can't make it on Sunday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
+        "upcoming": false,
+        "links": [
+            {
+                "name": "PAG Website",
+                "url": "http://www.intlpag.org/"
             }
         ]
     },
