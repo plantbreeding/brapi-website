@@ -2270,40 +2270,46 @@ p > a {
 }
 
 @media (min-width: 1200px) {
-  .post-thumbnail.col-md-12{
+  .brapi-post-thumbnail{
     overflow: unset !important;
-    height: auto !important;
+    height: 88px;
     transition: unset;
   }
-  .post {
+  .brapi-post {
     min-height: 160px;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-  .post-thumbnail.col-md-12{
+  .brapi-post-thumbnail-img{
+    margin-top: -80px;
+  }
+  .brapi-post-thumbnail{
     overflow: hidden;
     height: 80px;
   }
-  .post {
+  .brapi-post {
     min-height: 220px;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-  .post-thumbnail.col-md-12{
+  .brapi-post-thumbnail{
     overflow: unset !important;
-    height: auto !important;
+    height: 119px;
     transition: unset;
   }
-  .post {
+  .brapi-post {
     min-height: 200px;
   }
 }
 @media (max-width: 768px) {
-  .post-thumbnail.col-md-12{
+  .brapi-post-thumbnail-img{
+    margin-top: -150px;
+  }
+  .brapi-post-thumbnail{
     overflow: hidden;
     height: 80px;
   }
-  .post {
+  .brapi-post {
     min-height: 220px;
   }
 }
@@ -2316,7 +2322,7 @@ p > a {
 
 /* Post columns */
 .post-columns .post {
-  margin: 0 0 40px;
+  margin: 0 0 80px;
 }
 
 .post-columns .post-header {
