@@ -1,6 +1,6 @@
 [
     {
-        "image": "assets/images/code.jpg",
+        "image": "assets/images/apps/graphical-filtering-snap-small.png",
         "url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering",
         "demo-url": "https://solgenomics.github.io/BrAPI-Graphical-Filtering/",
         "source-url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering",
@@ -22,7 +22,7 @@
         "description": "Built by URGI - INRA, this is a JavaScript widget displaying all the observation variables of a BrAPI endpoint. "
     },
     {
-        "image": "assets/images/code.jpg",
+        "image": "assets/images/apps/trial-comp-snap-small.png",
         "url": "https://github.com/solgenomics/BrAPI-Study-Comparison",
         "demo-url": "https://solgenomics.github.io/BrAPI-Study-Comparison/",
         "source-url": "https://github.com/solgenomics/BrAPI-Study-Comparison",
@@ -33,7 +33,7 @@
         "description": "Built by SolGenomics, this is a fully BrAPI compliant tool for comparing the performance of germplasm across studies. "
     },
     {
-        "image": "assets/images/code.jpg",
+        "image": "assets/images/apps/pedigree-snap-small.png",
         "url": "https://github.com/solgenomics/BrAPI-Pedigree-Viewer",
         "demo-url": "https://solgenomics.github.io/BrAPI-Pedigree-Viewer/",
         "source-url": "https://github.com/solgenomics/BrAPI-Pedigree-Viewer",
