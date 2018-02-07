@@ -13,13 +13,13 @@
     },
     {
         "image": "assets/images/server.jpg",
-        "url": "https://test.brapi.org/",
+        "url": "https://test-server.brapi.org/brapi/v1",
         "title": "BrAPI Test Server",
         "description": "Check out our official, BrAPI cetrified test server. This server hosts a complete BrAPI implementation connected to a database full of sample data."
     },
     {
         "image": "assets/images/pirate.jpg",
-        "url": "https://github.com/c5sire/brapi",
+        "url": "https://github.com/CIP-RIU/brapi",
         "title": "BrAPI R Module",
         "description": "This GitHub repository is the home of the BrAPI R Module. The R Module has a complete set of R functions and data to implement BrAPI."
     },
