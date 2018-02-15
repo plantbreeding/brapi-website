@@ -646,6 +646,10 @@ a,
 /*--------------------------------------------------------------
 	Buttons
 --------------------------------------------------------------*/
+.brapi-sponsor-tag-img {
+  height: 50px;border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
 .brapi-btn-width {
   width: 225px;
   margin: 3px 0;
@@ -2088,7 +2092,7 @@ Google map
 
 .callout-title {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   margin: 0;
 }
@@ -2100,7 +2104,7 @@ Google map
 
 .callout-title-dark {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   color: #333;
   margin: 0;
 }

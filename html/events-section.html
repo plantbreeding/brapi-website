@@ -22,13 +22,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-md-8 col-lg-8 col-lg-offset-1">
-                    <div style="height: 75px">
-                        <div class="widget-posts-image" style="margin: 0 10px 0 0;">
+                    <div>
+                        <div class="widget-posts-image" style="margin: 0 10px 0 0; width: 90px;">
                             <img src="{{ image }}" alt="Post Thumbnail" />
                         </div>
-                        <div class="callout-text-dark font-alt" style="padding: 15px 0 0 0;">
+                        <div class="callout-text-dark font-alt" style="padding: 22px 0 0 0; {{#showSponsors}} padding-top:7px; {{/showSponsors}}">
                             <h3 class="callout-title-dark">{{ title }}</h3>
-                            <p>{{ location }} | {{ date }}</p>
+                            <div>{{ location }} | {{ date }}</div>
+                            {{#showSponsors}}
+                            <div>Sponsored By:
+                                {{#sponsorsLogos}}
+                                    <a href="{{ url }}">
+                                        <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
+                                    </a>
+                                {{/sponsorsLogos}}
+                                </div>
+                            {{/showSponsors}}
                         </div>
                     </div>
                     <div class="font-alt">
@@ -52,13 +61,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-md-8 col-lg-8 col-lg-offset-1">
-                    <div style="height: 75px">
-                        <div class="widget-posts-image" style="margin: 0 10px 0 0;">
+                    <div>
+                        <div class="widget-posts-image" style="margin: 0 10px 0 0; width: 90px;">
                             <img src="{{ image }}" alt="Post Thumbnail" />
                         </div>
-                        <div class="callout-text-dark font-alt" style="padding: 15px 0 0 0;">
+                        <div class="callout-text-dark font-alt" style="padding: 22px 0 0 0; {{#showSponsors}} padding-top:7px; {{/showSponsors}}">
                             <h3 class="callout-title-dark">{{ title }}</h3>
-                            <p>{{ location }} | {{ date }}</p>
+                            <div>{{ location }} | {{ date }}</div>
+                            {{#showSponsors}}
+                            <div>Sponsored By:
+                                {{#sponsorsLogos}}
+                                    <a href="{{ url }}">
+                                        <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
+                                    </a>
+                                {{/sponsorsLogos}}
+                                </div>
+                            {{/showSponsors}}
                         </div>
                     </div>
                 </div>

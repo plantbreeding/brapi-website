@@ -122,5 +122,10 @@
     "img": "earlham.svg",
     "name": "Earlham Institute",
     "url": "http://www.earlham.ac.uk/"
+  },
+  {
+    "img": "eiblogo.png",
+    "name": "Excellence in Breeding Platform",
+    "url": "http://excellenceinbreeding.org/"
   }
 ]

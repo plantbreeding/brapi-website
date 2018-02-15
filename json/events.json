@@ -15,6 +15,21 @@
                 "name": "Projects List",
                 "url": "https://docs.google.com/document/d/11u0qMTgCBjlYfqed5w_CKZULiJAhC4xscIph1Qc3sEY/edit"
             }
+        ],
+        "showSponsors": true,
+        "sponsorsLogos":[
+            {
+                "logo": "assets/images/institutions/inra.png",
+                "url": "http://institut.inra.fr/en"
+            },
+            {
+                "logo": "assets/images/institutions/phenome.png",
+                "url": "https://www.phenome-fppn.fr/phenome_eng/"
+            },
+            {
+                "logo": "assets/images/institutions/eiblogo.png",
+                "url": "http://excellenceinbreeding.org/"
+            }
         ]
     },
     {
