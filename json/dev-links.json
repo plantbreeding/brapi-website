@@ -1,38 +1,72 @@
 [
     {
+        "title": "GitHub",
         "image": "assets/images/code.jpg",
         "url": "https://github.com/plantbreeding/API",
-        "title": "BrAPI on GitHub",
+        "type": "doc",
         "description": "Raise issues, submit change propsals, and check on upcoming enhancments. Become part of the BrAPI developer community by checking out the GitHub project."
     },
     {
+        "title": "Apiary",
         "image": "assets/images/documentation.jpg",
         "url": "http://docs.brapi.apiary.io/",
-        "title": "BrAPI on Apiary",
+        "type": "doc",
         "description": "Don't like reading raw markdown files? Take a look at the human readable version of BrAPI, hosted by Apiary."
     },
     {
+        "title": "BrAPI Test Server",
         "image": "assets/images/server.jpg",
         "url": "https://test-server.brapi.org/brapi/v1",
-        "title": "BrAPI Test Server",
+        "type": "tool",
         "description": "Check out our official, BrAPI cetrified test server. This server hosts a complete BrAPI implementation connected to a database full of sample data."
     },
     {
+        "title": "BrAPI R",
         "image": "assets/images/pirate.jpg",
         "url": "https://github.com/CIP-RIU/brapi",
-        "title": "BrAPI R Module",
-        "description": "This GitHub repository is the home of the BrAPI R Module. The R Module has a complete set of R functions and data to implement BrAPI."
+        "type": "lib",
+        "description": "The BrAPI R library has a complete BrAPI Client implementation written in R."
     },
     {
+        "title": "BrAPI X (R)",
+        "image": "assets/images/pirate.jpg",
+        "url": "https://github.com/c5sire/brapix",
+        "type": "lib",
+        "description": "BrAPI X provides eXtra tools to the BrAPI R library for convenient bulk download breeding data and for creating quick summaries and quality checks."
+    },
+    {
+        "title": "BrAPI UI (R)",
+        "image": "assets/images/pirate.jpg",
+        "url": "https://github.com/c5sire/brapiui",
+        "type": "lib",
+        "description": "BrAPI UI integrates the visualization tools of RStudio with the BrAPI R library."
+    },
+    {
+        "title": "BrAPI.js",
+        "image": "assets/images/code.jpg",
+        "url": "https://github.com/solgenomics/BrAPI.js",
+        "type": "lib",
+        "description": "The BrAPI.js library has a complete BrAPI Client implementation written in JavaScript."
+    },
+    {
+        "title": "BrAVA",
+        "image": "assets/images/documentation.jpg",
+        "url": "https://github.com/solgenomics/BrAPI.js",
+        "type": "tool",
+        "description": "The BrAPI Validation App is a BrAPI test client designed to run a set of validation tests on any BrAPI compliant server."
+    },
+    {
+        "title": "Sample Data",
         "image": "assets/images/harddrive.jpg",
         "url": "https://github.com/c5sire/brapiTS/tree/master/inst/apps/brapi/data",
-        "title": "Sample Data",
+        "type": "tool",
         "description": "Download a full sample data set here."
     },
     {
+        "title": "SwaggerHub",
         "image": "assets/images/code.jpg",
         "url": "coming_soon.php",
-        "title": "BrAPI on SwaggerHub",
+        "type": "doc",
         "description": "<div style=\"color: orange; font-weight: bold;\"> COMING SOON </div>"
     }
 ]

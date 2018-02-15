@@ -15,7 +15,7 @@
                 ?>
             </nav>
             <?php
-                $PageTitle = "Application Showcase";
+                $PageTitle = "BrAPP Showcase";
                 include("html/page-title-section.php");
             ?>
             <div class="main">
@@ -30,8 +30,8 @@
             include("html/scripts.html");
         ?>
         <script>
-            // Load BrAPPs section template
-            // 'brappLinks' is defined in 'html/scripts.html'
+            // Load BrAPPs section template            
+            var brappLinks = $.getJSON("json/app-links.json");
             brappLinks.done(function(links){
               $(links).each(function(i, e) {
                 var template = $('#brapp-template').html();

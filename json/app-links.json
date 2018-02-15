@@ -6,9 +6,9 @@
         "source-url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering",
         "doc-url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering/blob/master/README.md",
         "title": "Graphical Filtering Tool",
-        "team": "SolGenomics",
-        "team-url": "https://solgenomics.net/",
-        "description": "Built by SolGenomics, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. "
+        "team": "CassavaBase",
+        "team-url": "https://cassavabase.org/",
+        "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. "
     },
     {
         "image": "assets/images/apps/variable-ontology-widget.png",
@@ -28,9 +28,9 @@
         "source-url": "https://github.com/solgenomics/BrAPI-Study-Comparison",
         "doc-url": "https://github.com/solgenomics/BrAPI-Study-Comparison/blob/master/README.md",
         "title": "Study Comparison Tool",
-        "team": "SolGenomics",
-        "team-url": "https://solgenomics.net/",
-        "description": "Built by SolGenomics, this is a fully BrAPI compliant tool for comparing the performance of germplasm across studies. "
+        "team": "CassavaBase",
+        "team-url": "https://cassavabase.org/",
+        "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for comparing the performance of germplasm across studies. "
     },
     {
         "image": "assets/images/apps/pedigree-snap.png",
@@ -39,8 +39,8 @@
         "source-url": "https://github.com/solgenomics/BrAPI-Pedigree-Viewer",
         "doc-url": "https://github.com/solgenomics/BrAPI-Study-Comparison/blob/master/README.md",
         "title": "Pedigree Viewer",
-        "team": "SolGenomics",
-        "team-url": "https://solgenomics.net/",
-        "description": "Built by SolGenomics, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. "
+        "team": "CassavaBase",
+        "team-url": "https://cassavabase.org/",
+        "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. "
     }
 ]

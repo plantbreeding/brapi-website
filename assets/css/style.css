@@ -9,7 +9,7 @@ html {
 
 body {
   background: #fff;
-  font: 400 12px/1.8 "Open Sans", sans-serif;
+  font: 400 14px/1.8 "Open Sans", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
 }
@@ -2235,7 +2235,7 @@ p > a {
 
 .post-title {
   line-height: 1.4;
-  font-size: 22px;
+  font-size: 24px;
   color: #111;
   margin: 0;
 }
@@ -2331,7 +2331,7 @@ p > a {
 
 .post-columns .post-title {
   line-height: 1.8;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .post-columns .post-entry {

@@ -30,12 +30,19 @@
             include("html/scripts.html");
         ?>
         <script>
-            $.getJSON("json/dev-links.json", function(links){
+            devLinks.done(function(links){
               $(links).each(function(i, e) {
                 var template = $('#link-template').html();
                 Mustache.parse(template); // optional, speeds up future uses
                 var rendered = Mustache.render(template, e);
-                $('#links-grid').append(rendered);
+                
+                if($(e)[0]['type'] == 'doc'){
+                    $('#links-grid-docs').append(rendered);
+                }else if($(e)[0]['type'] == 'tool'){
+                    $('#links-grid-tools').append(rendered);
+                }else if($(e)[0]['type'] == 'lib'){
+                    $('#links-grid-libs').append(rendered);
+                }
               });
             });
         </script>

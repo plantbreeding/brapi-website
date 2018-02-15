@@ -27,20 +27,47 @@
                 $('#event-tags').append(rendered);
             }
         }
+        // add just top 2 upcoming events to footer
         addEventTag($(events)['0']);
         addEventTag($(events)['1']);
     });
 
-    // Load JSON once, use twice (here and in 'brapps.php')
-    var brappLinks = $.getJSON("json/app-links.json");
+    // Load JSON once, use twice (here and in 'developers.php')
+    var devLinks = $.getJSON("json/dev-links.json");
 
-    // Load BrAPP links template in menu
-    brappLinks.done(function(links){
-      $(links).each(function(i, e) {
-        var template = $('#brapp-links-template').html();
+    function renderTemplate(template, id, obj){
+        var template = $(template).html();
         Mustache.parse(template); // optional, speeds up future uses
-        var rendered = Mustache.render(template, e);
-        $('#brapp-links').append(rendered);
-      });
+        var rendered = Mustache.render(template, obj);
+        $(id).append(rendered);
+    }
+
+    devLinks.done(function(links){
+        var docs = new Array();
+        var libs = new Array();
+        var tools = new Array();
+        $(links).each(function(i, e) {
+            if($(e)[0]['type'] == 'doc'){
+                docs.push(e);
+            }else if($(e)[0]['type'] == 'tool'){
+                tools.push(e);
+            }else if($(e)[0]['type'] == 'lib'){
+                libs.push(e);
+            }
+        });
+
+        renderTemplate('#dev-links-template-header', '#dev-menu', {'url':'developers.php#', 'title':'Documentation'});
+        $(docs).each(function(i, e) {
+            renderTemplate('#dev-links-template', '#dev-menu', e);
+        });
+        renderTemplate('#dev-links-template-header', '#dev-menu', {'url':'developers.php#libraries', 'title':'Libraries'});
+        $(libs).each(function(i, e) {
+            renderTemplate('#dev-links-template', '#dev-menu', e);
+        });
+        renderTemplate('#dev-links-template-header', '#dev-menu', {'url':'developers.php#tools', 'title':'Tools'});
+        $(tools).each(function(i, e) {
+            renderTemplate('#dev-links-template', '#dev-menu', e);
+        });
+
     });
 </script>

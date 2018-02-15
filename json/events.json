@@ -5,7 +5,7 @@
         "date": "Feb 5, 2018 - Feb 9, 2018",
         "image": "assets/images/events/hackathon_thumb.jpg",
         "description": "<h5 style=\"color: red;\">Registration Closed</h5> <p style=\"color: red;\">Unfortunately, the Versailles hackathon is completely full! <br> If you would like to be added to a waiting list please reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline; color: red;\">a BrAPI Coordinator</a></p><p>The next BrAPI Hackathon will take place in Versailles, France, on February 5th through 9th. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI.</p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [
             {
                 "name": "Hackathon Agenda",
@@ -14,10 +14,6 @@
             {
                 "name": "Projects List",
                 "url": "https://docs.google.com/document/d/11u0qMTgCBjlYfqed5w_CKZULiJAhC4xscIph1Qc3sEY/edit"
-            },
-            {
-                "name": "Travel Guide",
-                "url": "https://docs.google.com/document/d/12Z5hW5QTO5xQ92hmfz5TVWzO02PMNlFn-Q0mFcc_tlU"
             }
         ]
     },

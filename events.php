@@ -32,13 +32,15 @@
         <script>
             $.getJSON("json/events.json", function(event){
                 $(event).each(function(i, e){
-                    var template = $('#event-template').html();
-                    Mustache.parse(template); // optional, speeds up future uses
-                    var rendered = Mustache.render(template, e);
-                    console.log($(e)[0]['image']);
                     if($(e)[0]['upcoming']){
+                        var template = $('#event-template').html();
+                        Mustache.parse(template); // optional, speeds up future uses
+                        var rendered = Mustache.render(template, e);
                         $('#event-list').append(rendered);
                     }else{
+                        var template = $('#past-event-template').html();
+                        Mustache.parse(template); // optional, speeds up future uses
+                        var rendered = Mustache.render(template, e);
                         $('#past-event-list').append(rendered);
                     }
                 });

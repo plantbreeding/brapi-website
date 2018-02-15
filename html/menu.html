@@ -27,41 +27,24 @@
             <li>
                 <a href="events.php">Events</a>
             </li>
-            <li class="dropdown">
-                <a class="dropdown-toggle" href="developers.php" data-toggle="dropdown">Developers</a>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="https://github.com/plantbreeding/API">GitHub</a>
-                    </li>
-                    <li>
-                        <a href="https://brapi.docs.apiary.io/#">Apiary</a>
-                    </li>
-                    <li>
-                        <a href="coming_soon.php">SwaggerHub</a>
-                    </li>
-                    <li>
-                        <a href="https://test.brapi.org/">Test Server</a>
-                    </li>
-                    <li>
-                        <a href="http://webapps.ipk-gatersleben.de/brapivalidator/">BrAPI Validator</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/c5sire/brapi">R Module</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/c5sire/brapiTS/tree/master/inst/apps/brapi/data">Sample Data</a>
-                    </li>
-                </ul>
+            <li>
+                <a href="brapps.php">BrAPPs</a>
             </li>
             <li class="dropdown">
-                <a class="dropdown-toggle" href="brapps.php" data-toggle="dropdown">Applications</a>
-                <ul class="dropdown-menu" id="brapp-links"></ul>
+                <a class="dropdown-toggle" href="developers.php" data-toggle="dropdown">Dev Tools</a>
+                <ul class="dropdown-menu" id="dev-menu">
+                </ul>
             </li>
         </ul>
     </div>
 </div>
 
-<script id="brapp-links-template" type="x-tmpl-mustache">
+<script id="dev-links-template" type="x-tmpl-mustache">
+        <li>
+            <a style="padding-left:25px" href="{{ url }}">- {{ title }}</a>
+        </li>
+</script>
+<script id="dev-links-template-header" type="x-tmpl-mustache">
     <li>
         <a href="{{ url }}">{{ title }}</a>
     </li>
