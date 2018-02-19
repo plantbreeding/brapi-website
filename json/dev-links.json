@@ -51,7 +51,7 @@
     {
         "title": "BrAVA",
         "image": "assets/images/documentation.jpg",
-        "url": "https://github.com/solgenomics/BrAPI.js",
+        "url": "http://webapps.ipk-gatersleben.de/brapivalidator",
         "type": "tool",
         "description": "The BrAPI Validation App is a BrAPI test client designed to run a set of validation tests on any BrAPI compliant server."
     },
