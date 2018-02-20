@@ -1,9 +1,23 @@
 [
     {
+        "title": "PhenoHarmonIS 2018",
+        "location": "Montpellier, France",
+        "date": "Mar 14, 2018 - Mar 18, 2018",
+        "image": "assets/images/events/montpellier_thumb.jpg",
+        "description": "<p>There will be several BrAPI workshops at the PhenoHarmonIS 2018 conference. Whether you are new to BrAPI or a seasoned veteran there will be something for you. Check the Event Website for more information.</p>",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "Event Website",
+                "url": "https://sites.google.com/a/cgxchange.org/cropontologycommunity/home/2018-phenoharmonis"
+            }
+        ]
+    },
+    {
         "title": "Versailles Hackathon",
         "location": "Versailles, France",
         "date": "Feb 5, 2018 - Feb 9, 2018",
-        "image": "assets/images/events/hackathon_thumb.jpg",
+        "image": "assets/images/events/versailles_thumb.jpg",
         "description": "<h5 style=\"color: red;\">Registration Closed</h5> <p style=\"color: red;\">Unfortunately, the Versailles hackathon is completely full! <br> If you would like to be added to a waiting list please reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline; color: red;\">a BrAPI Coordinator</a></p><p>The next BrAPI Hackathon will take place in Versailles, France, on February 5th through 9th. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI.</p>",
         "upcoming": false,
         "links": [
