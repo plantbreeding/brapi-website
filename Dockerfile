@@ -139,7 +139,7 @@ COPY ./server/nginx.conf /etc/nginx/nginx.conf
 COPY ./server/brapi-ssl.conf /etc/nginx/sites-available/brapi-ssl.conf
 
 # brapi.org content
-COPY ./ /var/www/html/
+# COPY ./ /var/www/html/
 
 EXPOSE 80 443
 
