@@ -12,7 +12,7 @@
 
 # Protect against web entry
 if ( !defined( 'MEDIAWIKI' ) ) {
-	exit;
+        exit;
 }
 
 ## Uncomment this to disable output compression
@@ -28,22 +28,22 @@ $wgSitename = "BrAPI-Wiki";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://localhost:8888";
+$wgServer = "https://wiki.brapi.org";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
 
 ## The URL path to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
-$wgLogo = "/images/brapi-logo.svg";
+$wgLogo = "$wgResourceBasePath/images/brapi-logo.svg";
 
 ## UPO means: this is also a user preference option
 
-$wgEnableEmail = true;
-$wgEnableUserEmail = true; # UPO
+$wgEnableEmail = false;
+$wgEnableUserEmail = false; # UPO
 
-$wgEmergencyContact = "apache@localhost";
-$wgPasswordSender = "apache@localhost";
+$wgEmergencyContact = "apache@test.brapi.org";
+$wgPasswordSender = "apache@test.brapi.org";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
@@ -51,10 +51,10 @@ $wgEmailAuthentication = true;
 
 ## Database settings
 $wgDBtype = "mysql";
-$wgDBserver = "mysql-wiki:3306";
+$wgDBserver = "brapi-wiki-db:3306";
 $wgDBname = "mediawiki";
 $wgDBuser = "mediawiki";
-$wgDBpassword = "bandjocake_mediawiki";
+$wgDBpassword = "";
 
 # MySQL specific settings
 $wgDBprefix = "";
@@ -71,7 +71,7 @@ $wgMemCachedServers = [];
 
 ## To enable image uploads, make sure the 'images' directory
 ## is writable, then set this to true:
-$wgEnableUploads = false;
+$wgEnableUploads = true;
 $wgUseImageMagick = true;
 $wgImageMagickConvertCommand = "/usr/bin/convert";
 
@@ -96,14 +96,14 @@ $wgShellLocale = "C.UTF-8";
 # Site language code, should be one of the list in ./languages/data/Names.php
 $wgLanguageCode = "en";
 
-$wgSecretKey = "d6fab544686d10983c7b1c8b10a92dd6bbdec3b26920c331e41c93754119967f";
+$wgSecretKey = "";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "55d17d2941f59ecc";
+$wgUpgradeKey = "58060de5c7f691e5";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
@@ -116,6 +116,11 @@ $wgRightsIcon = "";
 # Path to the GNU diff3 utility. Used for conflict resolution.
 $wgDiff3 = "/usr/bin/diff3";
 
+# The following permissions were set based on your choice in the installer
+$wgGroupPermissions['*']['edit'] = false;
+$wgGroupPermissions['*']['createaccount'] = false;
+$wgGroupPermissions['*']['autocreateaccount'] = true;
+
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
 $wgDefaultSkin = "vector";
@@ -124,6 +129,12 @@ $wgDefaultSkin = "vector";
 # The following skins were automatically enabled:
 wfLoadSkin( 'Vector' );
 
+
+# Enabled extensions. Most of the extensions are enabled by adding
+# wfLoadExtensions('ExtensionName');
+# to LocalSettings.php. Check specific extension documentation for more details.
+# The following extensions were automatically enabled:
+wfLoadExtension( 'MediaWiki-OAuth2-Github' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
