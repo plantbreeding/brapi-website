@@ -3,7 +3,7 @@ class OAuth2GithubHooks {
 
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 
-	    $script = '<link rel="stylesheet" type="text/css" href="/wiki/extensions/OAuth2Github/modules/OAuth2Github.css">';
+	    $script = '<link rel="stylesheet" type="text/css" href="/extensions/MediaWiki-OAuth2-Github/modules/OAuth2Github.css">';
 
 	    $out->addHeadItem("jsonTree script", $script);
 
