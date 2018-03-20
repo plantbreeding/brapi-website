@@ -28,6 +28,18 @@ class SpecialOAuth2Github extends SpecialPage {
 
 	public function execute( $parameter ) {
 		var_dump( $parameter );
+
+                global $wgOAuth2Github, $wgServer, $wgArticlePath;
+
+                $this->client = new OAuth2([
+                        "client_id"              => $wgOAuth2Github['client']['id'],
+                        "client_secret"          => $wgOAuth2Github['client']['secret'],
+                        "redirect_uri"           => $wgServer . str_replace( '$1', 'Special:OAuth2Github/callback', $wgArticlePath),
+                        "auth"                           => $wgOAuth2Github['config']['auth_endpoint'],
+                        "token"                          => $wgOAuth2Github['config']['token_endpoint'],
+                        "authorization_type" => $wgOAuth2Github['config']['auth_type'],
+                        "scope"                          => "user:email, read:org"]);
+
 		$this->setHeaders();
 		switch($parameter) {
 			case 'redirect':
@@ -251,4 +263,15 @@ class SpecialOAuth2Github extends SpecialPage {
 		);
 	}
 
+	public function getLocalName() {
+		return self::getName();
+	}
+
+	public function getName() {
+		return 'OAuth2Github';
+	}
+
+	public function getPageTitle( $subpage = false ) {
+		return self::getTitleFor( self::getName(), $subpage );
+	}
 }
