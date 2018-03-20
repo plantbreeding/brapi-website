@@ -75,5 +75,12 @@
         "url": "https://www.drupal.org/project/brapi",
         "type": "lib",
         "description": "This is a BrAPI client module written for the Drupal CMS. Check out a demo <a href=\"https://www.crop-diversity.org/mgis/brapi/query\">HERE</a>"
+    },
+    {
+        "title": "Wiki",
+        "image": "assets/images/tools/encyclopedia.jpeg",
+        "url": "https://wiki.brapi.org/index.php/BrAPI",
+        "type": "doc",
+        "description": "From a history of BrAPI to development best practices, the BrAPI Wiki is the #1 repository for all BrAPI related documentation."
     }
 ]
