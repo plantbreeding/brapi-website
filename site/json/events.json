@@ -1,5 +1,19 @@
 [
     {
+        "title": "BrAPI @ IFLRC #7",
+        "location": "Marrakech, Morocco",
+        "date": "May 6, 2018 - May 8, 2018",
+        "image": "assets/images/events/marrakesh_thumb.jpg",
+        "description": "<p>The 7th International Food Legume Research Conference will include a short presentation about BrAPI, and representatives for the BrAPI community will be present for the disccussion forums during the event.</p>",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "Event Website",
+                "url": "http://www.iflrc.org/"
+            }
+        ]
+    },
+    {
         "title": "PhenoHarmonIS 2018",
         "location": "Montpellier, France",
         "date": "May 14, 2018 - May 18, 2018",
