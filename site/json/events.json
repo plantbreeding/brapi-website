@@ -28,6 +28,35 @@
         ]
     },
     {
+        "title": "Texcoco Hackathon",
+        "location": "Texcoco, Mexico",
+        "date": "Sept 10, 2018 - Sept 14, 2018",
+        "image": "assets/images/events/texcoco_thumb.jpg",
+        "description": "<p>The next BrAPI Hackathon will take place in Texcoco, Mexico, September 10th through 14th. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI.</p>",
+        "upcoming": false,
+        "links": [
+            {
+                "name": "Sign Up (Coming Soon)",
+                "url": ""
+            },
+            {
+                "name": "Hackathon Agenda",
+                "url": "https://docs.google.com/document/d/1paVkn6GspcO9CW2bhMLrE0q42RkTZ7XSq_-nd3-sQ8c"
+            },
+            {
+                "name": "Projects List",
+                "url": "https://docs.google.com/document/d/1TmqhC5xFHxYpEQXflXwX_y7H7kRLJaYMEaSPKjNf2G4"
+            }
+        ],
+        "showSponsors": true,
+        "sponsorsLogos":[
+            {
+                "logo": "assets/images/institutions/eiblogo.png",
+                "url": "http://excellenceinbreeding.org/"
+            }
+        ]
+    },
+    {
         "title": "Versailles Hackathon",
         "location": "Versailles, France",
         "date": "Feb 5, 2018 - Feb 9, 2018",
