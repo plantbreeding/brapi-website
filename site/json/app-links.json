@@ -42,5 +42,16 @@
         "team": "CassavaBase",
         "team-url": "https://cassavabase.org/",
         "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. "
+    },
+    {
+        "image": "assets/images/apps/pedigree-snap.png",
+        "url": "",
+        "demo-url": "http://webtools.southgreen.fr/BrAPI/Beegmac/",
+        "source-url": "",
+        "doc-url": "",
+        "title": "Beegmac",
+        "team": "CIRAD",
+        "team-url": "",
+        "description": ""
     }
 ]
