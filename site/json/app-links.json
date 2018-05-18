@@ -44,14 +44,14 @@
         "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. "
     },
     {
-        "image": "assets/images/apps/pedigree-snap.png",
-        "url": "",
+        "image": "assets/images/apps/beegmac-snap.png",
+        "url": "https://github.com/SouthGreenPlatform/beegmac",
         "demo-url": "http://webtools.southgreen.fr/BrAPI/Beegmac/",
-        "source-url": "",
-        "doc-url": "",
+        "source-url": "https://github.com/SouthGreenPlatform/beegmac",
+        "doc-url": "http://webtools.southgreen.fr/BrAPI/Beegmac/jsdoc/",
         "title": "Beegmac",
-        "team": "CIRAD",
-        "team-url": "",
-        "description": ""
+        "team": "South Green",
+        "team-url": "http://www.southgreen.fr/",
+        "description": "Brapi-Enabled Embeddable Genomic-Marker Allele Client"
     }
 ]
