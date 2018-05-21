@@ -21,6 +21,7 @@
             <div class="main">
                 <?php
                     include("html/brapps-section.html");
+                    /* include("html/brapps-dev-section.html"); */
                     include("html/footer.html");
                 ?>
             </div>
@@ -34,10 +35,17 @@
             var brappLinks = $.getJSON("json/app-links.json");
             brappLinks.done(function(links){
               $(links).each(function(i, e) {
-                var template = $('#brapp-template').html();
-                Mustache.parse(template); // optional, speeds up future uses
-                var rendered = Mustache.render(template, e);
-                $('#brapp-grid').append(rendered);
+                if($(e)[0]['published']){
+                    var template = $('#brapp-template').html();
+                    Mustache.parse(template); // optional, speeds up future uses
+                    var rendered = Mustache.render(template, e);
+                    $('#brapp-grid').append(rendered);
+                } else {
+                    var template = $('#brapp-dev-template').html();
+                    Mustache.parse(template); // optional, speeds up future uses
+                    var rendered = Mustache.render(template, e);
+                    $('#brapp-dev-grid').append(rendered);
+                }
               });
             });
         </script>
