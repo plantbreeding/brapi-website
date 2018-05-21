@@ -1,5 +1,6 @@
 [
     {
+        "published": true,
         "image": "assets/images/apps/graphical-filtering-snap.png",
         "url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering",
         "demo-url": "https://solgenomics.github.io/BrAPI-Graphical-Filtering/",
@@ -11,6 +12,7 @@
         "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. "
     },
     {
+        "published": true,
         "image": "assets/images/apps/variable-ontology-widget.png",
         "url": "https://github.com/gnpis/trait-ontology-widget",
         "demo-url": "https://urgi.versailles.inra.fr/ephesis/ephesis/ontologyportal.do",
@@ -22,6 +24,7 @@
         "description": "Built by URGI - INRA, this is a JavaScript widget displaying all the observation variables of a BrAPI endpoint. "
     },
     {
+        "published": true,
         "image": "assets/images/apps/trial-comp-snap.png",
         "url": "https://github.com/solgenomics/BrAPI-Study-Comparison",
         "demo-url": "https://solgenomics.github.io/BrAPI-Study-Comparison/",
@@ -33,6 +36,7 @@
         "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for comparing the performance of germplasm across studies. "
     },
     {
+        "published": true,
         "image": "assets/images/apps/pedigree-snap.png",
         "url": "https://github.com/solgenomics/BrAPI-Pedigree-Viewer",
         "demo-url": "https://solgenomics.github.io/BrAPI-Pedigree-Viewer/",
@@ -44,6 +48,7 @@
         "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. "
     },
     {
+        "published": true,
         "image": "assets/images/apps/beegmac-snap.png",
         "url": "https://github.com/SouthGreenPlatform/beegmac",
         "demo-url": "http://webtools.southgreen.fr/BrAPI/Beegmac/",
