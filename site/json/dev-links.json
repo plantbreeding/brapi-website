@@ -65,9 +65,9 @@
     {
         "title": "SwaggerHub",
         "image": "assets/images/tools/crane.jpeg",
-        "url": "coming_soon.php",
+        "url": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI",
         "type": "doc",
-        "description": "<div style=\"color: orange; font-weight: bold;\"> COMING SOON </div>"
+        "description": "Browser the BrAPI specification on SwaggerHub."
     },
     {
         "title": "BrAPI + Drupal",
