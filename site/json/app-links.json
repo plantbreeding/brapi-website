@@ -58,5 +58,17 @@
         "team": "South Green",
         "team-url": "http://www.southgreen.fr/",
         "description": "Brapi-Enabled Embeddable Genomic-Marker Allele Client"
+    },
+    {
+        "published": true,
+        "image": "assets/images/apps/cmv-snap.png",
+        "url": "https://github.com/solgenomics/jscview",
+        "demo-url": "http://maps.solgenomics.net/",
+        "source-url": "https://github.com/solgenomics/jscview",
+        "doc-url": "https://github.com/solgenomics/jscview",
+        "title": "Comparative Map Viewer",
+        "team": "Solgenomics",
+        "team-url": "https://www.solgenomics.net/",
+        "description": "Comparative Map Viewer, this is a fully BrAPI compliant tool for viewing and comparing genetic maps "
     }
 ]
