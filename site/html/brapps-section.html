@@ -63,6 +63,9 @@
             <div style="margin-top: 15px">
               <p>{{{ description }}}</p>
               <p>BrAPI Dependencies</p>
+              {{#dependencies}}
+                <p>{{ this }}</p>
+              {{/dependencies}}
             </div>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 post-entry" style="border-top: 0;margin: initial;padding:  initial;">
