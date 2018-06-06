@@ -57,9 +57,10 @@
                   <button class="btn btn-d btn-round" type="button" style="padding: 6px 12px;">Docs</button>
                 </a>
                 {{/doc-url}}
+                <button class="btn btn-d btn-round" type="button" onclick="toggleVisible('{{ title }}')" style="padding: 6px 12px;">Docs</button>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 post-entry" style="border-top: 0; padding-left: 15px; padding-right:  15px;">            
+          <div id="{{ title }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 post-entry" style="border-top: 0; padding-left: 15px; padding-right:  15px;">            
             <p>{{{ description }}}</p>
           </div>
         </div>

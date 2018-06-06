@@ -17,6 +17,14 @@
 
 
 <script>
+    function toggleVisible(id) {
+        var x = document.getElementById(id);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
     $.getJSON("json/events.json", function (events) {
         addEventTag = function (event) {
             if (event['upcoming']) {
