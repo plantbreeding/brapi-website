@@ -9,7 +9,11 @@
         "title": "Graphical Filtering Tool",
         "team": "CassavaBase",
         "team-url": "https://cassavabase.org/",
-        "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. "
+        "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. ",
+        "dependencies": [
+            {"version": "v1.1", "call": "/germplasm/{germplasmDbId}/pedigree"},
+            {"version": "v1.2", "call": "/germplasm/{germplasmDbId}/progeny"}
+        ]
     },
     {
         "published": true,
@@ -21,7 +25,11 @@
         "title": "Variable Ontology Widget",
         "team": "URGI - INRA",
         "team-url": "http://urgi.versailles.inra.fr/",
-        "description": "Built by URGI - INRA, this is a JavaScript widget displaying all the observation variables of a BrAPI endpoint. "
+        "description": "Built by URGI - INRA, this is a JavaScript widget displaying all the observation variables of a BrAPI endpoint. ",
+        "dependencies": [
+            {"version": "v1.0", "call": "ontologies"},
+            {"version": "v1.0", "call": "variables"}
+        ]
     },
     {
         "published": true,
@@ -33,7 +41,8 @@
         "title": "Study Comparison Tool",
         "team": "CassavaBase",
         "team-url": "https://cassavabase.org/",
-        "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for comparing the performance of germplasm across studies. "
+        "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for comparing the performance of germplasm across studies. ",
+        "dependencies": []
     },
     {
         "published": true,
@@ -45,7 +54,8 @@
         "title": "Pedigree Viewer",
         "team": "CassavaBase",
         "team-url": "https://cassavabase.org/",
-        "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. "
+        "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. ",
+        "dependencies": []
     },
     {
         "published": true,
@@ -57,7 +67,8 @@
         "title": "Beegmac",
         "team": "South Green",
         "team-url": "http://www.southgreen.fr/",
-        "description": "Brapi-Enabled Embeddable Genomic-Marker Allele Client"
+        "description": "Brapi-Enabled Embeddable Genomic-Marker Allele Client",
+        "dependencies": []
     },
     {
         "published": true,
@@ -69,6 +80,7 @@
         "title": "Comparative Map Viewer",
         "team": "Solgenomics",
         "team-url": "https://www.solgenomics.net/",
-        "description": "Comparative Map Viewer, this is a fully BrAPI compliant tool for viewing and comparing genetic maps "
+        "description": "Comparative Map Viewer, this is a fully BrAPI compliant tool for viewing and comparing genetic maps ",
+        "dependencies": []
     }
 ]
