@@ -64,9 +64,9 @@
               <p>{{{ description }}}</p>
               <p>BrAPI Dependancies</p>
               {{#each dependencies}}
-              {{#with this}}
-              <p>{{ version }} - {{ call }}</p>
-              {{/with}}
+                <p>{{ version }} - {{ call }}</p>
+              {{else}}
+                <p>No dependancies</p>
               {{/each}}
             </div>
           </div>
