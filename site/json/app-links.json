@@ -10,10 +10,7 @@
         "team": "CassavaBase",
         "team-url": "https://cassavabase.org/",
         "description": "Built by CassavaBase, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. ",
-        "dependencies": [
-            {"version": "v1.1", "call": "/germplasm/{germplasmDbId}/pedigree"},
-            {"version": "v1.2", "call": "/germplasm/{germplasmDbId}/progeny"}
-        ]
+        "dependencies": ["/germplasm/{germplasmDbId}/pedigree",  "/germplasm/{germplasmDbId}/progeny"]
     },
     {
         "published": true,
@@ -26,10 +23,7 @@
         "team": "URGI - INRA",
         "team-url": "http://urgi.versailles.inra.fr/",
         "description": "Built by URGI - INRA, this is a JavaScript widget displaying all the observation variables of a BrAPI endpoint. ",
-        "dependencies": [
-            {"version": "v1.0", "call": "ontologies"},
-            {"version": "v1.0", "call": "variables"}
-        ]
+        "dependencies": ["/ontologies", "/variables"]
     },
     {
         "published": true,

@@ -62,11 +62,11 @@
             </div>
             <div style="margin-top: 15px">
               <p>{{{ description }}}</p>
-              <p>BrAPI Dependancies</p>
+              <p>BrAPI Dependencies</p>
               {{#each dependencies}}
-                <p>{{ version }} - {{ call }}</p>
+                <p>{{ this }}</p>
               {{else}}
-                <p>No dependancies</p>
+                <p>No dependencies</p>
               {{/each}}
             </div>
           </div>
