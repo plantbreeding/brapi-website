@@ -82,5 +82,12 @@
         "url": "https://wiki.brapi.org/index.php/BrAPI",
         "type": "doc",
         "description": "From a history of BrAPI to development best practices, the BrAPI Wiki is the #1 repository for all BrAPI related documentation."
+    },
+    {
+        "title": "Java Client Library",
+        "image": "assets/images/tools/encyclopedia.jpeg",
+        "url": "https://github.com/imilne/jhi-brapi",
+        "type": "lib",
+        "description": "For developers using Java, we also maintain a small library that provides an easier route for end-clients to utilize BrAPI."
     }
 ]
