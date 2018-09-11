@@ -48,12 +48,12 @@
         "showSponsors": true,
         "sponsorsLogos":[
             {
-                "logo": "assets/images/institutions/eiblogo.png",
-                "url": "http://excellenceinbreeding.org/"
-            },
-            {
               "logo": "assets/images/institutions/wageningen.png",
               "url": "http://www.wur.nl/en/wageningen-university.htm"
+            },
+            {
+                "logo": "assets/images/institutions/eiblogo.png",
+                "url": "http://excellenceinbreeding.org/"
             }
         ]
     },
