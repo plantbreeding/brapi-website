@@ -33,6 +33,31 @@
         ]
     },
     {
+        "title": "Wageningen Hackathon",
+        "location": "Wageningen, Netherlands",
+        "date": "April 29, 2019 - May 3, 2019",
+        "image": "assets/images/events/texcoco_thumb.jpg",
+        "description": "<p>The next BrAPI Hackathon will take place at Wageningen University, April 29th through May 3rd. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. </p>",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "Sign Up (Comming Soon)",
+                "url": ""
+            }
+        ],
+        "showSponsors": true,
+        "sponsorsLogos":[
+            {
+                "logo": "assets/images/institutions/eiblogo.png",
+                "url": "http://excellenceinbreeding.org/"
+            },
+            {
+              "logo": "assets/images/institutions/wageningen.png",
+              "url": "http://www.wur.nl/en/wageningen-university.htm"
+            }
+        ]
+    },
+    {
         "title": "PhenoHarmonIS 2018",
         "location": "Montpellier, France",
         "date": "May 14, 2018 - May 18, 2018",
