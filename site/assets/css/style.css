@@ -647,8 +647,10 @@ a,
 	Buttons
 --------------------------------------------------------------*/
 .brapi-sponsor-tag-img {
-  height: 50px;border-bottom: 1px solid lightgray;
+  height: 50px;
+  border-bottom: 1px solid lightgray;
   border-right: 1px solid lightgray;
+  background-color: white;
 }
 .brapi-btn-width {
   width: 225px;

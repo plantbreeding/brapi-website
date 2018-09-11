@@ -37,7 +37,7 @@
         "location": "Wageningen, Netherlands",
         "date": "April 29, 2019 - May 3, 2019",
         "image": "assets/images/events/wageningen_thumb.jpeg",
-        "description": "<p>The next BrAPI Hackathon will take place at Wageningen University, April 29th through May 3rd. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. </p>",
+        "description": "<p>The next BrAPI Hackathon will take place at Wageningen University & Research, April 29th through May 3rd. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. </p>",
         "upcoming": true,
         "links": [
             {
@@ -48,7 +48,7 @@
         "showSponsors": true,
         "sponsorsLogos":[
             {
-              "logo": "assets/images/institutions/wageningen.png",
+              "logo": "assets/images/institutions/wageningen_logo_thumb.png",
               "url": "http://www.wur.nl/en/wageningen-university.htm"
             },
             {
