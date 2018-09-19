@@ -132,5 +132,10 @@
     "img": "patranca_banner.png",
     "name": "Patranca EIRL",
     "url": "http://patranca.pe"
+  },
+  {
+    "img": "ipk_logo.JPG",
+    "name": "IPK-Gatersleben",
+    "url": "http://www.ipk-gatersleben.de/en/breeding-research/bioinformatics-and-information-technology"
   }
 ]
