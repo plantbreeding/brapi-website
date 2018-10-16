@@ -64,15 +64,15 @@
 
         renderTemplate('#dev-links-template-header', '#menu-list', {'url':'developers.php#', 'title':'Documentation'});
         $(docs).each(function(i, e) {
-            renderTemplate('#dev-links-template', '#menu-list', e);
+            renderTemplate('#dev-links-template', '#Documentation-menu', e);
         });
         renderTemplate('#dev-links-template-header', '#menu-list', {'url':'developers.php#libraries', 'title':'Libraries'});
         $(libs).each(function(i, e) {
-            renderTemplate('#dev-links-template', '#menu-list', e);
+            renderTemplate('#dev-links-template', '#Libraries-menu', e);
         });
         renderTemplate('#dev-links-template-header', '#menu-list', {'url':'developers.php#tools', 'title':'Tools'});
         $(tools).each(function(i, e) {
-            renderTemplate('#dev-links-template', '#menu-list', e);
+            renderTemplate('#dev-links-template', 'Tools-menu', e);
         });
 
     });

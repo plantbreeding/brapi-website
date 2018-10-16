@@ -18,9 +18,6 @@
             <li>
                 <a href="index.php#about">About</a>
             </li>
-            <li>
-                <a href="brapps.php">BrAPPs</a>
-            </li>
             <li class="dropdown">
                 <a class="dropdown-toggle" href="partners.php" data-toggle="dropdown">Community</a>
                 <ul class="dropdown-menu" id="community-menu">
@@ -48,7 +45,7 @@
         </li>
 </script>
 <script id="dev-links-template-header" type="x-tmpl-mustache">
-    <li>
+    <li id="{{ title }}-menu">
         <a href="{{ url }}">{{ title }}</a>
     </li>
 </script>
