@@ -7,11 +7,11 @@
         "description": "Raise issues, submit change propsals, and check on upcoming enhancments. Become part of the BrAPI developer community by checking out the GitHub project."
     },
     {
-        "title": "BrAPPs",
-        "image": "assets/images/tools/drums.jpeg",
-        "url": "https://brapi.org/brapps.php",
-        "type": "tool",
-        "description": "Explore, download, and integrate with the community library of BrAPI enabled Apps"
+        "title": "SwaggerHub",
+        "image": "assets/images/tools/crane.jpeg",
+        "url": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI",
+        "type": "doc",
+        "description": "Browser the BrAPI specification on SwaggerHub."
     },
     {
         "title": "Apiary",
@@ -21,11 +21,11 @@
         "description": "Don't like reading raw markdown files? Take a look at the human readable version of BrAPI, hosted by Apiary."
     },
     {
-        "title": "BrAPI Test Server",
-        "image": "assets/images/tools/server.jpg",
-        "url": "https://test-server.brapi.org/brapi/v1",
-        "type": "tool",
-        "description": "Check out our official, BrAPI cetrified test server. This server hosts a complete BrAPI implementation connected to a database full of sample data."
+        "title": "Wiki",
+        "image": "assets/images/tools/encyclopedia.jpeg",
+        "url": "https://wiki.brapi.org/index.php/BrAPI",
+        "type": "doc",
+        "description": "From a history of BrAPI to development best practices, the BrAPI Wiki is the #1 repository for all BrAPI related documentation."
     },
     {
         "title": "BrAPI R",
@@ -56,20 +56,6 @@
         "description": "The BrAPI.js library has a complete BrAPI Client implementation written in JavaScript."
     },
     {
-        "title": "BrAVA",
-        "image": "assets/images/tools/testbook.jpeg",
-        "url": "http://webapps.ipk-gatersleben.de/brapivalidator",
-        "type": "tool",
-        "description": "The BrAPI Validation App is a BrAPI test client designed to run a set of validation tests on any BrAPI compliant server."
-    },
-    {
-        "title": "SwaggerHub",
-        "image": "assets/images/tools/crane.jpeg",
-        "url": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI",
-        "type": "doc",
-        "description": "Browser the BrAPI specification on SwaggerHub."
-    },
-    {
         "title": "BrAPI + Drupal",
         "image": "assets/images/tools/water_drop.jpeg",
         "url": "https://www.drupal.org/project/brapi",
@@ -77,17 +63,31 @@
         "description": "This is a BrAPI client module written for the Drupal CMS. Check out a demo <a href=\"https://www.crop-diversity.org/mgis/brapi/query\">HERE</a>"
     },
     {
-        "title": "Wiki",
-        "image": "assets/images/tools/encyclopedia.jpeg",
-        "url": "https://wiki.brapi.org/index.php/BrAPI",
-        "type": "doc",
-        "description": "From a history of BrAPI to development best practices, the BrAPI Wiki is the #1 repository for all BrAPI related documentation."
-    },
-    {
         "title": "Java Client Library",
         "image": "assets/images/tools/harddrive.jpeg",
         "url": "https://github.com/imilne/jhi-brapi",
         "type": "lib",
         "description": "For developers using Java, we also maintain a small library that provides an easier route for end-clients to utilize BrAPI."
+    },
+    {
+        "title": "BrAPPs",
+        "image": "assets/images/tools/drums.jpeg",
+        "url": "https://brapi.org/brapps.php",
+        "type": "tool",
+        "description": "Explore, download, and integrate with the community library of BrAPI enabled Apps"
+    },
+    {
+        "title": "BrAVA",
+        "image": "assets/images/tools/testbook.jpeg",
+        "url": "http://webapps.ipk-gatersleben.de/brapivalidator",
+        "type": "tool",
+        "description": "The BrAPI Validation App is a BrAPI test client designed to run a set of validation tests on any BrAPI compliant server."
+    },
+    {
+        "title": "BrAPI Test Server",
+        "image": "assets/images/tools/server.jpg",
+        "url": "https://test-server.brapi.org/brapi/v1",
+        "type": "tool",
+        "description": "Check out our official, BrAPI cetrified test server. This server hosts a complete BrAPI implementation connected to a database full of sample data."
     }
 ]
