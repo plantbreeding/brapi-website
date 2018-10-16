@@ -45,7 +45,9 @@
         </li>
 </script>
 <script id="dev-links-template-header" type="x-tmpl-mustache">
-    <li id="{{ title }}-menu">
+    <li>
         <a href="{{ url }}">{{ title }}</a>
+        <ul class="dropdown-menu" id="{{ title }}-menu">
+        </ul>
     </li>
 </script>
