@@ -64,7 +64,7 @@
     },
     {
         "title": "Java Client Library",
-        "image": "assets/images/tools/harddrive.jpeg",
+        "image": "assets/images/tools/harddrive.jpg",
         "url": "https://github.com/imilne/jhi-brapi",
         "type": "lib",
         "description": "For developers using Java, we also maintain a small library that provides an easier route for end-clients to utilize BrAPI."
