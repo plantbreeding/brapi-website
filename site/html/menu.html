@@ -11,7 +11,7 @@
         </a>
     </div>
     <div class="collapse navbar-collapse" id="custom-collapse">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right" id="menu-list">
             <li>
                 <a href="index.php#">Home</a>
             </li>
@@ -38,18 +38,13 @@
                     </li>
                 </ul>
             </li>
-            <li class="dropdown">
-                <a class="dropdown-toggle" href="developers.php" data-toggle="dropdown">Dev Tools</a>
-                <ul class="dropdown-menu" id="dev-menu">
-                </ul>
-            </li>
         </ul>
     </div>
 </div>
 
 <script id="dev-links-template" type="x-tmpl-mustache">
         <li>
-            <a style="padding-left:25px" href="{{ url }}">- {{ title }}</a>
+            <a href="{{ url }}" target="_blank">{{ title }}</a>
         </li>
 </script>
 <script id="dev-links-template-header" type="x-tmpl-mustache">

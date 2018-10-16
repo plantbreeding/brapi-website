@@ -7,6 +7,13 @@
         "description": "Raise issues, submit change propsals, and check on upcoming enhancments. Become part of the BrAPI developer community by checking out the GitHub project."
     },
     {
+        "title": "BrAPPs",
+        "image": "assets/images/tools/drums.jpeg",
+        "url": "https://brapi.org/brapps.php",
+        "type": "tool",
+        "description": "Explore, download, and integrate with the community library of BrAPI enabled Apps"
+    },
+    {
         "title": "Apiary",
         "image": "assets/images/tools/documentation.jpg",
         "url": "http://docs.brapi.apiary.io/",
@@ -56,13 +63,6 @@
         "description": "The BrAPI Validation App is a BrAPI test client designed to run a set of validation tests on any BrAPI compliant server."
     },
     {
-        "title": "Sample Data",
-        "image": "assets/images/tools/harddrive.jpg",
-        "url": "https://github.com/c5sire/brapiTS/tree/master/inst/apps/brapi/data",
-        "type": "tool",
-        "description": "Download a full sample data set here."
-    },
-    {
         "title": "SwaggerHub",
         "image": "assets/images/tools/crane.jpeg",
         "url": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI",
@@ -85,7 +85,7 @@
     },
     {
         "title": "Java Client Library",
-        "image": "assets/images/tools/encyclopedia.jpeg",
+        "image": "assets/images/tools/harddrive.jpeg",
         "url": "https://github.com/imilne/jhi-brapi",
         "type": "lib",
         "description": "For developers using Java, we also maintain a small library that provides an easier route for end-clients to utilize BrAPI."

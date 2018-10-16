@@ -25,14 +25,19 @@
             x.style.display = "none";
         }
     }
+    
+    function renderTemplate(template, id, obj){
+        var template = $(template).html();
+        Mustache.parse(template); // optional, speeds up future uses
+        var rendered = Mustache.render(template, obj);
+        $(id).append(rendered);
+    }
+
     $.getJSON("json/events.json", function (events) {
         addEventTag = function (event) {
             if (event['upcoming']) {
                 event.primary_link = event['links'][0]['url'];
-                var template = $('#event-tag-template').html();
-                Mustache.parse(template); // optional, speeds up future uses
-                var rendered = Mustache.render(template, event);
-                $('#event-tags').append(rendered);
+                renderTemplate('#event-tag-template', '#event-tags', event)
             }
         }
         // add just top 2 upcoming events to footer
@@ -42,13 +47,6 @@
 
     // Load JSON once, use twice (here and in 'developers.php')
     var devLinks = $.getJSON("json/dev-links.json");
-
-    function renderTemplate(template, id, obj){
-        var template = $(template).html();
-        Mustache.parse(template); // optional, speeds up future uses
-        var rendered = Mustache.render(template, obj);
-        $(id).append(rendered);
-    }
 
     devLinks.done(function(links){
         var docs = new Array();
@@ -64,17 +62,17 @@
             }
         });
 
-        renderTemplate('#dev-links-template-header', '#dev-menu', {'url':'developers.php#', 'title':'Documentation'});
+        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'developers.php#', 'title':'Documentation'});
         $(docs).each(function(i, e) {
-            renderTemplate('#dev-links-template', '#dev-menu', e);
+            renderTemplate('#dev-links-template', '#menu-list', e);
         });
-        renderTemplate('#dev-links-template-header', '#dev-menu', {'url':'developers.php#libraries', 'title':'Libraries'});
+        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'developers.php#libraries', 'title':'Libraries'});
         $(libs).each(function(i, e) {
-            renderTemplate('#dev-links-template', '#dev-menu', e);
+            renderTemplate('#dev-links-template', '#menu-list', e);
         });
-        renderTemplate('#dev-links-template-header', '#dev-menu', {'url':'developers.php#tools', 'title':'Tools'});
+        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'developers.php#tools', 'title':'Tools'});
         $(tools).each(function(i, e) {
-            renderTemplate('#dev-links-template', '#dev-menu', e);
+            renderTemplate('#dev-links-template', '#menu-list', e);
         });
 
     });
