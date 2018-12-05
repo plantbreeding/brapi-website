@@ -1,4 +1,10 @@
 {
+    "dec-5-2018": {
+        "title": "BrAPI Monthly Update - December 2018",
+        "date": "December 5, 2018",
+        "author": "Peter Selby",
+        "article": "<h3>Hello BrAPI Community,</h3> <h4>PAG</h4> <p>I have reserved a meeting room for a BrAPI community discussion at PAG again this year. The title of this discussion is \"Genotyping Data Structures\" and we will focus the discussion around redesigning the Marker, MarkerProfile, AlleleMatrix, and Sample objects currently used in the BrAPI specification. I am trying to produce a small survey which will be sent out ahead of time to further focus the discussion and try to produce some meaningful results. </p> <p>We will gather in the Crescent room (right behind Charlie's) on Sunday from 13:00 - 14:30. Details are also posted on brapi.org. I hope to see you all there!</p> <h4>BRAVA and Test-Server</h4> <p>The BrAPI Validator (BRAVA) and the BrAPI Test Server have both been successfully upgraded to support V1.3. Both tools are hosted publicly (links on brapi.org) or they can be downloaded from GitHub and are ready to run locally. If you have any questions about usage, contact me.</p> <h4>V1.3 Hot Fix</h4> <p>A few days ago, it was brought the my attention that the word \"Refernce\" was scattered throughout BrAPI V1.3, and it is missing an \"e\". I have made a quick patch to the BrAPI V1.3 release and fixed the silly misspelling in all the relevant documentation (GitHub, SwaggerHub, Apiary, etc). If you have been working with BrAPI V1.3, please double check that you have spelled the word \"Reference\" correctly in all the appropriate places. I will be working on adding Spell Check to the new version release process so that I can catch silly mistakes like this in the future.</p> "
+    },
     "sept-27-2018": {
         "title": "Texcoco BrAPI Hackathon Debrief - Sept 2018",
         "date": "September 27, 2018",
