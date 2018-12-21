@@ -22,8 +22,12 @@
         "upcoming": true,
         "links": [
             {
-                "name": "Comming Soon",
-                "url": ""
+                "name": "Sign Up",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSfMcc5fzWipdSovIq5x6uPBYyNb1sjw5wqkb7DKgxIk3FfCYA/viewform?usp=sf_link"
+            },
+            {
+                "name": "Agenda",
+                "url": "https://docs.google.com/document/d/1gxJ5NaGSAcIUi0KIGWhVqAW6Qkl3XogRExOCHi4zPKY/edit?usp=sharing"
             }
         ],
         "showSponsors": true,
