@@ -27,7 +27,11 @@
             },
             {
                 "name": "Agenda",
-                "url": "https://docs.google.com/document/d/1gxJ5NaGSAcIUi0KIGWhVqAW6Qkl3XogRExOCHi4zPKY/edit?usp=sharing"
+                "url": "assets/docs/Wageningen_Hackathon_2019_Agenda.pdf"
+            },
+            {
+                "name": "Travel Guide",
+                "url": "assets/docs/Wageningen_Hackathon_Travel_Guide.pdf"
             }
         ],
         "showSponsors": true,
