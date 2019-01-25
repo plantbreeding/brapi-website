@@ -1,4 +1,10 @@
 {
+    "jan-8-2019": {
+        "title": "BrAPI Monthly Update - January 2019",
+        "date": "January 8, 2019",
+        "author": "Peter Selby",
+        "article": "<h3>Happy New Year BrAPI Community</h3><h4>Wageningen Hackathon</h4><p>The sign up sheet for the next BrAPI hackathon is now available on <a href=\"https://brapi.org/events.php\">brapi.org</a>! It will take place at Wageningen University & Research, April 29th through May 3rd. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. The travel guide and tentative agenda are also available on <a href=\"https://brapi.org/events.php\">brapi.org</a>. Our hosts were able fix a group discount at a hotel nearby, so please check the travel guide for details on how to take advantage of that.</p><p><a class=\"btn btn-d btn-round\" style=\"margin-left:10px\" href=\"https://brapi.org/events.php\">SIGN UP HERE</a></p><p><a class=\"btn btn-d btn-round\" style=\"margin-left:10px\" href=\"https://brapi.org/assets/docs/Wageningen_Hackathon_Travel_Guide.pdf\">Travel Guide</a></p><h4>PAG BrAPI Meeting</h4><p>For those who are at PAG next week, a quick reminder that we will be having a BrAPI community meeting on Sunday (details on <a href=\"https://brapi.org/events.php\">brapi.org</a>). Genotyping APIs is the planned focus of the discussion, however if anyone has other topics they would like to discuss with the community, please feel free to bring additional talking points.</p>"
+    },
     "dec-5-2018": {
         "title": "BrAPI Monthly Update - December 2018",
         "date": "December 5, 2018",
