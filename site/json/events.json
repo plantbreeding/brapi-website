@@ -1,19 +1,5 @@
 [
     {
-        "title": "BrAPI At PAG: Genotyping Data Structures",
-        "location": "San Diego, USA",
-        "date": "13:00 - 14:30, Sunday, Jan 13, 2019",
-        "image": "assets/images/events/san-diego_thumb.jpg",
-        "description": "<p>Join us in San Diego for a BrAPI community meetup on Sunday afternoon of the PAG Conference. The focus of the discussion for this meet up will be around the genotyping data models used in BrAPI. We will be in the Crescent room (Right next to Charlie's).</p><p>Can't make it on Sunday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
-        "upcoming": true,
-        "links": [
-            {
-                "name": "PAG Website",
-                "url": "http://www.intlpag.org/2019/"
-            }
-        ]
-    },
-    {
         "title": "Wageningen Hackathon",
         "location": "Wageningen, Netherlands",
         "date": "April 29, 2019 - May 3, 2019",
@@ -43,6 +29,20 @@
             {
                 "logo": "assets/images/institutions/eiblogo.png",
                 "url": "http://excellenceinbreeding.org/"
+            }
+        ]
+    },
+    {
+        "title": "BrAPI At PAG: Genotyping Data Structures",
+        "location": "San Diego, USA",
+        "date": "13:00 - 14:30, Sunday, Jan 13, 2019",
+        "image": "assets/images/events/san-diego_thumb.jpg",
+        "description": "<p>Join us in San Diego for a BrAPI community meetup on Sunday afternoon of the PAG Conference. The focus of the discussion for this meet up will be around the genotyping data models used in BrAPI. We will be in the Crescent room (Right next to Charlie's).</p><p>Can't make it on Sunday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
+        "upcoming": false,
+        "links": [
+            {
+                "name": "PAG Website",
+                "url": "http://www.intlpag.org/2019/"
             }
         ]
     },
