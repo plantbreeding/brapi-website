@@ -49,7 +49,7 @@
                     for (var key in $(news)[0]) {
                         var story = $(news)[0][key];
                         story.id = key;
-                        console.log(story);
+                        // console.log(story);
                         var template = $('#news-list-template').html();
                         Mustache.parse(template); // optional, speeds up future uses
                         var rendered = Mustache.render(template, story);
