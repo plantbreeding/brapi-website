@@ -135,15 +135,15 @@ RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 ########################################################################################
 
 # nginx config
-COPY ./server/nginx.conf /etc/nginx/nginx.conf
-COPY ./server/brapi-ssl.conf /etc/nginx/sites-available/brapi-ssl.conf
+COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY ./brapi-ssl.conf /etc/nginx/sites-available/brapi-ssl.conf
 
 # brapi.org content
 # COPY ./ /var/www/html/
 
 EXPOSE 80 443
 
-COPY ./server/start.sh /start.sh
+COPY ./start.sh /start.sh
 RUN chmod 544 /start.sh
 
 ENTRYPOINT [""]

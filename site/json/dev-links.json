@@ -72,7 +72,7 @@
     {
         "title": "BrAPPs",
         "image": "assets/images/tools/drums.jpeg",
-        "url": "https://brapi.org/brapps.php",
+        "url": "https://brapi.org/brapps",
         "type": "tool",
         "description": "Explore, download, and integrate with the community library of BrAPI enabled Apps"
     },

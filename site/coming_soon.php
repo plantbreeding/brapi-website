@@ -20,7 +20,7 @@
                     <div class="font-alt mb-30 titan-title-size-4">COMING SOON</div>
                     <div class="font-alt">Site under construction
                     </div>
-                    <div class="font-alt mt-30"><a class="btn btn-border-w btn-round" href="index.php">Back to home page</a></div>
+                    <div class="font-alt mt-30"><a class="btn btn-border-w btn-round" href="/">Back to home page</a></div>
                 </div>
                 </div>
             </section>

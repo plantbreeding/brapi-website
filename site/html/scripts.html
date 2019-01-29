@@ -62,15 +62,15 @@
             }
         });
 
-        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'developers.php#', 'title':'Documentation'});
+        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'/developers#', 'title':'Documentation'});
         $(docs).each(function(i, e) {
             renderTemplate('#dev-links-template', '#Documentation-menu', e);
         });
-        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'developers.php#libraries', 'title':'Libraries'});
+        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'/developers#libraries', 'title':'Libraries'});
         $(libs).each(function(i, e) {
             renderTemplate('#dev-links-template', '#Libraries-menu', e);
         });
-        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'developers.php#tools', 'title':'Tools'});
+        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'/developers#tools', 'title':'Tools'});
         $(tools).each(function(i, e) {
             renderTemplate('#dev-links-template', '#Tools-menu', e);
         });
