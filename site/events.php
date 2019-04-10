@@ -30,7 +30,7 @@
             include("html/scripts.html");
         ?>
         <script>
-            $.getJSON("json/events.json?x=" + Data.now(), function(event){
+            $.getJSON("json/events.json?x=" + Date.now(), function(event){
                 $(event).each(function(i, e){
                     if($(e)[0]['upcoming']){
                         var template = $('#event-template').html();
