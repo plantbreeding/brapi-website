@@ -137,5 +137,10 @@
     "img": "ipk_logo.JPG",
     "name": "IPK-Gatersleben",
     "url": "http://www.ipk-gatersleben.de/en/breeding-research/bioinformatics-and-information-technology"
+  },
+  {
+    "img": "DivSeekCanada.png",
+    "name": "DivSeek Canada",
+    "url": "http://divseekcanada.ca/"
   }
 ]
