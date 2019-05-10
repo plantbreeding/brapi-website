@@ -5,7 +5,7 @@
         "date": "April 29, 2019 - May 3, 2019",
         "image": "assets/images/events/wageningen_thumb.jpeg",
         "description": "<p>The next BrAPI Hackathon will take place at Wageningen University & Research, April 29th through May 3rd. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. </p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [
             {
                 "name": "Waiting List",
