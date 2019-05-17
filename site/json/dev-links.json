@@ -89,5 +89,12 @@
         "url": "https://test-server.brapi.org/brapi/v1",
         "type": "tool",
         "description": "Check out our official, BrAPI cetrified test server. This server hosts a complete BrAPI implementation connected to a database full of sample data."
+    },
+    {
+        "title": "Publication",
+        "image": "assets/images/tools/newspaper.jpg",
+        "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz190/5418796",
+        "type": "doc",
+        "description": "The official BrAPI publication. Share, cite, and enjoy!"
     }
 ]
