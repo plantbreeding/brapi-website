@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "abbreviations": {
+            "@container": "@list",
+            "@id": "brapi:abbreviations",
+            "@type": "xsd:string"
+        },
+        "altitudeMax": {
+            "@id": "brapi:altitudeMax",
+            "@type": "xsd:number"
+        },
+        "altitudeMin": {
+            "@id": "brapi:altitudeMin",
+            "@type": "xsd:number"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "countryCodes": {
+            "@container": "@list",
+            "@id": "brapi:countryCodes",
+            "@type": "xsd:string"
+        },
+        "countryNames": {
+            "@container": "@list",
+            "@id": "brapi:countryNames",
+            "@type": "xsd:string"
+        },
+        "instituteAddresses": {
+            "@container": "@list",
+            "@id": "brapi:instituteAddresses",
+            "@type": "xsd:string"
+        },
+        "instituteNames": {
+            "@container": "@list",
+            "@id": "brapi:instituteNames",
+            "@type": "xsd:string"
+        },
+        "latitudeMax": {
+            "@id": "brapi:latitudeMax",
+            "@type": "xsd:number"
+        },
+        "latitudeMin": {
+            "@id": "brapi:latitudeMin",
+            "@type": "xsd:number"
+        },
+        "locationDbIds": {
+            "@container": "@list",
+            "@id": "brapi:locationDbIds",
+            "@type": "xsd:string"
+        },
+        "locationNames": {
+            "@container": "@list",
+            "@id": "brapi:locationNames",
+            "@type": "xsd:string"
+        },
+        "locationTypes": {
+            "@container": "@list",
+            "@id": "brapi:locationTypes",
+            "@type": "xsd:string"
+        },
+        "longitudeMin": {
+            "@id": "brapi:longitudeMin",
+            "@type": "xsd:number"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

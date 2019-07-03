@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "attributes": {
+            "@id": "brapi:attributes",
+            "@type": "brapi:Attributes"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "isDerived": {
+            "@id": "brapi:isDerived",
+            "@type": "xsd:boolean"
+        },
+        "length": "brapi:length",
+        "md5checksum": "brapi:md5checksum",
+        "referenceDbId": "brapi:referenceDbId",
+        "referenceName": "brapi:referenceName",
+        "sourceAccessions": {
+            "@container": "@list",
+            "@id": "brapi:sourceAccessions",
+            "@type": "xsd:string"
+        },
+        "sourceDivergence": {
+            "@id": "brapi:sourceDivergence",
+            "@type": "xsd:number"
+        },
+        "sourceURI": "brapi:sourceURI",
+        "species": {
+            "@id": "brapi:species",
+            "@type": "brapi:OntologyTerm"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

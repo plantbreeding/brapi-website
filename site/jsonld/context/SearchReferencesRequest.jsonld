@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "accession": "brapi:accession",
+        "brapi": "https://brapi.org/jsonld.html#",
+        "md5checksum": "brapi:md5checksum",
+        "page_size": {
+            "@id": "brapi:page_size",
+            "@type": "xsd:integer"
+        },
+        "page_token": "brapi:page_token",
+        "referenceSetDbId": "brapi:referenceSetDbId",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

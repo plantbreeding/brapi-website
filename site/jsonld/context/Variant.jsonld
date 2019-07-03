@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "additionalInfo": {
+            "@id": "brapi:additionalInfo",
+            "@type": "xsd:object"
+        },
+        "alternate_bases": {
+            "@container": "@list",
+            "@id": "brapi:alternate_bases",
+            "@type": "xsd:string"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "ciend": {
+            "@container": "@list",
+            "@id": "brapi:ciend",
+            "@type": "xsd:integer"
+        },
+        "cipos": {
+            "@container": "@list",
+            "@id": "brapi:cipos",
+            "@type": "xsd:integer"
+        },
+        "created": "brapi:created",
+        "end": "brapi:end",
+        "filtersApplied": {
+            "@id": "brapi:filtersApplied",
+            "@type": "xsd:boolean"
+        },
+        "filtersFailed": {
+            "@container": "@list",
+            "@id": "brapi:filtersFailed",
+            "@type": "xsd:string"
+        },
+        "filtersPassed": {
+            "@id": "brapi:filtersPassed",
+            "@type": "xsd:boolean"
+        },
+        "referenceBases": "brapi:referenceBases",
+        "referenceName": "brapi:referenceName",
+        "start": "brapi:start",
+        "svlen": "brapi:svlen",
+        "updated": "brapi:updated",
+        "variantDbId": "brapi:variantDbId",
+        "variantNames": {
+            "@container": "@list",
+            "@id": "brapi:variantNames",
+            "@type": "xsd:string"
+        },
+        "variantSetDbId": "brapi:variantSetDbId",
+        "variantType": "brapi:variantType",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

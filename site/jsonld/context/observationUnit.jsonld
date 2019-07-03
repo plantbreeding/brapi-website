@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "additionalInfo": {
+            "@id": "brapi:additionalInfo",
+            "@type": "xsd:object"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "germplasmDbId": "brapi:germplasmDbId",
+        "germplasmName": "brapi:germplasmName",
+        "locationDbId": "brapi:locationDbId",
+        "locationName": "brapi:locationName",
+        "observationLevel": "brapi:observationLevel",
+        "observationUnitDbId": "brapi:observationUnitDbId",
+        "observationUnitName": "brapi:observationUnitName",
+        "observationUnitPosition": {
+            "@id": "brapi:observationUnitPosition",
+            "@type": "brapi:observationUnitPosition"
+        },
+        "observationUnitXref": {
+            "@container": "@list",
+            "@id": "brapi:observationUnitXref",
+            "@type": "brapi:observationUnitXref"
+        },
+        "plantNumber": "brapi:plantNumber",
+        "plotNumber": "brapi:plotNumber",
+        "programDbId": "brapi:programDbId",
+        "programName": "brapi:programName",
+        "studyDbId": "brapi:studyDbId",
+        "studyName": "brapi:studyName",
+        "treatments": {
+            "@container": "@list",
+            "@id": "brapi:treatments",
+            "@type": "brapi:observationTreatment"
+        },
+        "trialDbId": "brapi:trialDbId",
+        "trialName": "brapi:trialName",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

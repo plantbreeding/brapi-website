@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "callSetDbIds": {
+            "@container": "@list",
+            "@id": "brapi:callSetDbIds",
+            "@type": "xsd:string"
+        },
+        "end": "brapi:end",
+        "page": {
+            "@id": "brapi:page",
+            "@type": "xsd:integer"
+        },
+        "pageSize": {
+            "@id": "brapi:pageSize",
+            "@type": "xsd:integer"
+        },
+        "reference_name": "brapi:reference_name",
+        "start": "brapi:start",
+        "variantSetDbIds": {
+            "@container": "@list",
+            "@id": "brapi:variantSetDbIds",
+            "@type": "xsd:string"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "attributes": {
+            "@id": "brapi:attributes",
+            "@type": "brapi:Attributes"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "description": "brapi:description",
+        "experimentDbId": "brapi:experimentDbId",
+        "experimentName": "brapi:experimentName",
+        "instrumentDataFile": "brapi:instrumentDataFile",
+        "instrumentModel": "brapi:instrumentModel",
+        "library": "brapi:library",
+        "libraryLayout": "brapi:libraryLayout",
+        "messageCreateTime": "brapi:messageCreateTime",
+        "messageUpdateTime": "brapi:messageUpdateTime",
+        "molecule": "brapi:molecule",
+        "platformUnit": "brapi:platformUnit",
+        "runTime": "brapi:runTime",
+        "selection": "brapi:selection",
+        "sequencingCenter": "brapi:sequencingCenter",
+        "strategy": "brapi:strategy",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

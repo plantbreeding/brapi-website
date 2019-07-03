@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "abbreviation": "brapi:abbreviation",
+        "brapi": "https://brapi.org/jsonld.html#",
+        "commonCropName": "brapi:commonCropName",
+        "documentationURL": "brapi:documentationURL",
+        "leadPersonDbId": "brapi:leadPersonDbId",
+        "leadPersonName": "brapi:leadPersonName",
+        "objective": "brapi:objective",
+        "programName": "brapi:programName",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

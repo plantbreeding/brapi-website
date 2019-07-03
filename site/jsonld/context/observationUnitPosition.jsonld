@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "blockNumber": "brapi:blockNumber",
+        "brapi": "https://brapi.org/jsonld.html#",
+        "entryNumber": "brapi:entryNumber",
+        "entryType": "brapi:entryType",
+        "positionCoordinateX": "brapi:positionCoordinateX",
+        "positionCoordinateXType": "brapi:positionCoordinateXType",
+        "positionCoordinateY": "brapi:positionCoordinateY",
+        "positionCoordinateYType": "brapi:positionCoordinateYType",
+        "replicate": "brapi:replicate",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

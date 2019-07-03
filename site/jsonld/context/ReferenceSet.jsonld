@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "assemblyPUI": "brapi:assemblyPUI",
+        "attributes": {
+            "@id": "brapi:attributes",
+            "@type": "brapi:Attributes"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "description": "brapi:description",
+        "isDerived": {
+            "@id": "brapi:isDerived",
+            "@type": "xsd:boolean"
+        },
+        "md5checksum": "brapi:md5checksum",
+        "referenceSetDbId": "brapi:referenceSetDbId",
+        "referenceSetName": "brapi:referenceSetName",
+        "sourceAccessions": {
+            "@container": "@list",
+            "@id": "brapi:sourceAccessions",
+            "@type": "xsd:string"
+        },
+        "sourceURI": "brapi:sourceURI",
+        "species": {
+            "@id": "brapi:species",
+            "@type": "brapi:OntologyTerm"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

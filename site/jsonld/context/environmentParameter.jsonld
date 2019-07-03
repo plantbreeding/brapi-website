@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "description": "brapi:description",
+        "parameterName": "brapi:parameterName",
+        "parameterPUI": "brapi:parameterPUI",
+        "unit": "brapi:unit",
+        "unitPUI": "brapi:unitPUI",
+        "value": "brapi:value",
+        "valuePUI": "brapi:valuePUI",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

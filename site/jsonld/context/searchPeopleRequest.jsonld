@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "emailAddresses": {
+            "@container": "@list",
+            "@id": "brapi:emailAddresses",
+            "@type": "xsd:string"
+        },
+        "firstNames": {
+            "@container": "@list",
+            "@id": "brapi:firstNames",
+            "@type": "xsd:string"
+        },
+        "lastNames": {
+            "@container": "@list",
+            "@id": "brapi:lastNames",
+            "@type": "xsd:string"
+        },
+        "mailingAddresses": {
+            "@container": "@list",
+            "@id": "brapi:mailingAddresses",
+            "@type": "xsd:string"
+        },
+        "middleNames": {
+            "@container": "@list",
+            "@id": "brapi:middleNames",
+            "@type": "xsd:string"
+        },
+        "personDbIds": {
+            "@container": "@list",
+            "@id": "brapi:personDbIds",
+            "@type": "xsd:string"
+        },
+        "phoneNumbers": {
+            "@container": "@list",
+            "@id": "brapi:phoneNumbers",
+            "@type": "xsd:string"
+        },
+        "userIDs": {
+            "@container": "@list",
+            "@id": "brapi:userIDs",
+            "@type": "xsd:string"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

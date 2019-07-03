@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "analysis": {
+            "@id": "brapi:analysis",
+            "@type": "brapi:Analysis"
+        },
+        "attributeList": {
+            "@id": "brapi:attributeList",
+            "@type": "brapi:AttributeValueList"
+        },
+        "attributes": {
+            "@id": "brapi:attributes",
+            "@type": "brapi:Attributes"
+        },
+        "bool_value": {
+            "@id": "brapi:bool_value",
+            "@type": "xsd:boolean"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "double_value": {
+            "@id": "brapi:double_value",
+            "@type": "xsd:number"
+        },
+        "experiment": {
+            "@id": "brapi:experiment",
+            "@type": "brapi:Experiment"
+        },
+        "external_identifier": {
+            "@id": "brapi:external_identifier",
+            "@type": "brapi:ExternalIdentifier"
+        },
+        "int32_value": {
+            "@id": "brapi:int32_value",
+            "@type": "xsd:integer"
+        },
+        "int64_value": "brapi:int64_value",
+        "null_value": {
+            "@id": "brapi:null_value",
+            "@type": "brapi:NullValue"
+        },
+        "ontology_term": {
+            "@id": "brapi:ontology_term",
+            "@type": "brapi:OntologyTerm"
+        },
+        "program": {
+            "@id": "brapi:program",
+            "@type": "brapi:Program"
+        },
+        "string_value": "brapi:string_value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

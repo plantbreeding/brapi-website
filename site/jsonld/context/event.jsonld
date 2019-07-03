@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "additionalInfo": {
+            "@container": "@list",
+            "@id": "brapi:additionalInfo",
+            "@type": "xsd:object"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "date": {
+            "@container": "@list",
+            "@id": "brapi:date",
+            "@type": "xsd:string"
+        },
+        "description": "brapi:description",
+        "eventDbId": "brapi:eventDbId",
+        "eventType": "brapi:eventType",
+        "eventTypeDbId": "brapi:eventTypeDbId",
+        "observationUnitDbIds": {
+            "@container": "@list",
+            "@id": "brapi:observationUnitDbIds",
+            "@type": "xsd:string"
+        },
+        "studyDbId": "brapi:studyDbId",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

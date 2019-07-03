@@ -1,0 +1,13 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "altitude": "brapi:altitude",
+        "brapi": "https://brapi.org/jsonld.html#",
+        "coordinateUncertainty": "brapi:coordinateUncertainty",
+        "latitudeDecimal": "brapi:latitudeDecimal",
+        "latitudeDegrees": "brapi:latitudeDegrees",
+        "longitudeDecimal": "brapi:longitudeDecimal",
+        "longitudeDegrees": "brapi:longitudeDegrees",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

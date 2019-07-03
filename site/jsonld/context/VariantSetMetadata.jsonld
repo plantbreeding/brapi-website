@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "attributes": {
+            "@id": "brapi:attributes",
+            "@type": "brapi:Attributes"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "description": "brapi:description",
+        "id": "brapi:id",
+        "key": "brapi:key",
+        "number": "brapi:number",
+        "type": "brapi:type",
+        "value": "brapi:value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}
