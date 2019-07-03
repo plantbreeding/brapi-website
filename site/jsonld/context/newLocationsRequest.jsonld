@@ -4,7 +4,7 @@
         "abbreviation": "brapi:abbreviation",
         "additionalInfo": {
             "@id": "brapi:additionalInfo",
-            "@type": "xsd:object"
+            "@type": "brapi:additionalInfo"
         },
         "altitude": {
             "@id": "brapi:altitude",

@@ -15,7 +15,7 @@
         "servicePlatformName": "brapi:servicePlatformName",
         "specificRequirements": {
             "@id": "brapi:specificRequirements",
-            "@type": "xsd:object"
+            "@type": "brapi:specificRequirements"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

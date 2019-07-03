@@ -5,7 +5,7 @@
         "data": "brapi:datacd",
         "fields": {
             "@id": "brapi:fields",
-            "@type": "xsd:object"
+            "@type": "brapi:fields"
         },
         "metadata": {
             "@id": "brapi:metadata",

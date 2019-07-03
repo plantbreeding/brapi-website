@@ -4,7 +4,7 @@
         "active": "brapi:active",
         "additionalInfo": {
             "@id": "brapi:additionalInfo",
-            "@type": "xsd:object"
+            "@type": "brapi:additionalInfo"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",

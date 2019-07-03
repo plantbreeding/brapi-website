@@ -15,7 +15,7 @@
         "orderId": "brapi:orderId",
         "requiredServiceInfo": {
             "@id": "brapi:requiredServiceInfo",
-            "@type": "xsd:object"
+            "@type": "brapi:requiredServiceInfo"
         },
         "result": "brapi:result",
         "serviceId": "brapi:serviceId",

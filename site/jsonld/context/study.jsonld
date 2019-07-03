@@ -1,10 +1,11 @@
 {
     "@context": {
         "@version": 1.1,
+        "PUI": "brapi:PUI",
         "active": "brapi:active",
         "additionalInfo": {
             "@id": "brapi:additionalInfo",
-            "@type": "xsd:object"
+            "@type": "brapi:additionalInfo"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",
@@ -20,6 +21,7 @@
             "@id": "brapi:dataLinks",
             "@type": "brapi:dataLink"
         },
+        "description": "brapi:description",
         "documentationURL": "brapi:documentationURL",
         "endDate": "brapi:endDate",
         "environmentParameters": {
@@ -29,15 +31,15 @@
         },
         "experimentalDesign": {
             "@id": "brapi:experimentalDesign",
-            "@type": "xsd:object"
+            "@type": "brapi:experimentalDesign"
         },
         "growthFacility": {
             "@id": "brapi:growthFacility",
-            "@type": "xsd:object"
+            "@type": "brapi:growthFacility"
         },
         "lastUpdate": {
             "@id": "brapi:lastUpdate",
-            "@type": "xsd:object"
+            "@type": "brapi:lastUpdate"
         },
         "license": "brapi:license",
         "location": {
@@ -63,8 +65,10 @@
         "studyName": "brapi:studyName",
         "studyTypeDbId": "brapi:studyTypeDbId",
         "studyTypeName": "brapi:studyTypeName",
+        "timestamp": "brapi:timestamp",
         "trialDbId": "brapi:trialDbId",
         "trialName": "brapi:trialName",
+        "version": "brapi:version",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

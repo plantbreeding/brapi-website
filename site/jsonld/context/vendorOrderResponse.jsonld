@@ -3,12 +3,21 @@
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:datacd",
+        "fileDescription": "brapi:fileDescription",
+        "fileName": "brapi:fileName",
+        "fileURL": "brapi:fileURL",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
         },
+        "orderId": "brapi:orderId",
         "result": {
             "@id": "brapi:result",
+            "@type": "brapi:result"
+        },
+        "shipmentForms": {
+            "@container": "@list",
+            "@id": "brapi:shipmentForms",
             "@type": "xsd:object"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"

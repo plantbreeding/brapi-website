@@ -8,6 +8,9 @@
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:datacd",
+        "dataFormat": "brapi:dataFormat",
+        "fileFormat": "brapi:fileFormat",
+        "fileURL": "brapi:fileURL",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"

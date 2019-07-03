@@ -9,6 +9,7 @@
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
         },
+        "parentType": "brapi:parentType",
         "progeny": {
             "@container": "@list",
             "@id": "brapi:progeny",

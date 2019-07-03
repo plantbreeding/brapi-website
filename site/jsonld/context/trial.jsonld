@@ -7,7 +7,7 @@
         },
         "additionalInfo": {
             "@id": "brapi:additionalInfo",
-            "@type": "xsd:object"
+            "@type": "brapi:additionalInfo"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",
@@ -22,14 +22,19 @@
             "@id": "brapi:datasetAuthorships",
             "@type": "xsd:object"
         },
+        "datasetPUI": "brapi:datasetPUI",
         "documentationURL": "brapi:documentationURL",
         "endDate": "brapi:endDate",
+        "license": "brapi:license",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
         },
         "programDbId": "brapi:programDbId",
         "programName": "brapi:programName",
+        "publicReleaseDate": "brapi:publicReleaseDate",
+        "publicationPUI": "brapi:publicationPUI",
+        "publicationReference": "brapi:publicationReference",
         "publications": {
             "@container": "@list",
             "@id": "brapi:publications",
@@ -37,6 +42,7 @@
         },
         "result": "brapi:result",
         "startDate": "brapi:startDate",
+        "submissionDate": "brapi:submissionDate",
         "trialDbId": "brapi:trialDbId",
         "trialDescription": "brapi:trialDescription",
         "trialName": "brapi:trialName",

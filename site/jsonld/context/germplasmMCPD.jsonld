@@ -22,21 +22,49 @@
             "@id": "brapi:breedingInstitutes",
             "@type": "xsd:object"
         },
+        "collectingDate": "brapi:collectingDate",
         "collectingInfo": {
             "@id": "brapi:collectingInfo",
+            "@type": "brapi:collectingInfo"
+        },
+        "collectingInstitutes": {
+            "@container": "@list",
+            "@id": "brapi:collectingInstitutes",
             "@type": "xsd:object"
+        },
+        "collectingMissionIdentifier": "brapi:collectingMissionIdentifier",
+        "collectingNumber": "brapi:collectingNumber",
+        "collectingSite": {
+            "@id": "brapi:collectingSite",
+            "@type": "brapi:collectingSite"
         },
         "commonCropName": "brapi:commonCropName",
+        "coordinateUncertainty": "brapi:coordinateUncertainty",
         "countryOfOrigin": "brapi:countryOfOrigin",
         "data": "brapi:datacd",
+        "donorAccessionNumber": "brapi:donorAccessionNumber",
+        "donorAccessionPui": "brapi:donorAccessionPui",
         "donorInfo": {
             "@id": "brapi:donorInfo",
-            "@type": "xsd:object"
+            "@type": "brapi:donorInfo"
         },
+        "donorInstitute": {
+            "@id": "brapi:donorInstitute",
+            "@type": "brapi:donorInstitute"
+        },
+        "elevation": "brapi:elevation",
         "genus": "brapi:genus",
+        "georeferencingMethod": "brapi:georeferencingMethod",
         "germplasmDbId": "brapi:germplasmDbId",
         "germplasmPUI": "brapi:germplasmPUI",
+        "instituteAddress": "brapi:instituteAddress",
         "instituteCode": "brapi:instituteCode",
+        "instituteName": "brapi:instituteName",
+        "latitudeDecimal": "brapi:latitudeDecimal",
+        "latitudeDegrees": "brapi:latitudeDegrees",
+        "locationDescription": "brapi:locationDescription",
+        "longitudeDecimal": "brapi:longitudeDecimal",
+        "longitudeDegrees": "brapi:longitudeDegrees",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
@@ -49,6 +77,7 @@
             "@id": "brapi:safetyDuplicateInstitues",
             "@type": "xsd:object"
         },
+        "spatialReferenceSystem": "brapi:spatialReferenceSystem",
         "species": "brapi:species",
         "speciesAuthority": "brapi:speciesAuthority",
         "storageTypeCodes": {

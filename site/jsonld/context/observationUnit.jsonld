@@ -3,7 +3,7 @@
         "@version": 1.1,
         "additionalInfo": {
             "@id": "brapi:additionalInfo",
-            "@type": "xsd:object"
+            "@type": "brapi:additionalInfo"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:datacd",

@@ -9,8 +9,9 @@
         },
         "result": {
             "@id": "brapi:result",
-            "@type": "xsd:object"
+            "@type": "brapi:result"
         },
+        "searchResultDbId": "brapi:searchResultDbId",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

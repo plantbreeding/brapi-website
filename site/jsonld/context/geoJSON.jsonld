@@ -5,7 +5,7 @@
         "data": "brapi:datacd",
         "geometry": {
             "@id": "brapi:geometry",
-            "@type": "xsd:object"
+            "@type": "brapi:geometry"
         },
         "metadata": {
             "@id": "brapi:metadata",

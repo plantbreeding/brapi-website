@@ -3,6 +3,8 @@
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "clientId": "brapi:clientId",
+        "clientPlateBarcode": "brapi:clientPlateBarcode",
+        "clientPlateId": "brapi:clientPlateId",
         "data": "brapi:datacd",
         "metadata": {
             "@id": "brapi:metadata",
@@ -19,10 +21,19 @@
         },
         "requiredServiceInfo": {
             "@id": "brapi:requiredServiceInfo",
-            "@type": "xsd:object"
+            "@type": "brapi:requiredServiceInfo"
         },
         "result": "brapi:result",
+        "sampleSubmissionFormat": {
+            "@id": "brapi:sampleSubmissionFormat",
+            "@type": "brapi:plateFormat"
+        },
         "sampleType": "brapi:sampleType",
+        "samples": {
+            "@container": "@list",
+            "@id": "brapi:samples",
+            "@type": "brapi:vendorSample"
+        },
         "serviceIds": {
             "@container": "@list",
             "@id": "brapi:serviceIds",

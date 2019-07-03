@@ -17,6 +17,7 @@
         "eventDbId": "brapi:eventDbId",
         "eventType": "brapi:eventType",
         "eventTypeDbId": "brapi:eventTypeDbId",
+        "key": "brapi:key",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
@@ -26,8 +27,10 @@
             "@id": "brapi:observationUnitDbIds",
             "@type": "xsd:string"
         },
+        "rdfValue": "brapi:rdfValue",
         "result": "brapi:result",
         "studyDbId": "brapi:studyDbId",
+        "value": "brapi:value",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

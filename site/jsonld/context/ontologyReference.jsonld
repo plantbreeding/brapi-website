@@ -1,6 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
+        "URL": "brapi:URL",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:datacd",
         "documentationLinks": {
@@ -15,6 +16,7 @@
         "ontologyDbId": "brapi:ontologyDbId",
         "ontologyName": "brapi:ontologyName",
         "result": "brapi:result",
+        "type": "brapi:type",
         "version": "brapi:version",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
