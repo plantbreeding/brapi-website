@@ -1,8 +1,13 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "clientId": "brapi:clientId",
+        "data": "brapi:datacd",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "numberOfSamples": {
             "@id": "brapi:numberOfSamples",
             "@type": "xsd:integer"
@@ -12,6 +17,7 @@
             "@id": "brapi:plates",
             "@type": "xsd:object"
         },
+        "result": "brapi:result",
         "sampleType": "brapi:sampleType",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

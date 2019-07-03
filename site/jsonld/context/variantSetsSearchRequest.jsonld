@@ -1,7 +1,12 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "page": {
             "@id": "brapi:page",
             "@type": "xsd:integer"
@@ -10,6 +15,7 @@
             "@id": "brapi:pageSize",
             "@type": "xsd:integer"
         },
+        "result": "brapi:result",
         "studyDbIds": {
             "@container": "@list",
             "@id": "brapi:studyDbIds",

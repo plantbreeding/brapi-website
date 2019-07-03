@@ -2,12 +2,18 @@
     "@context": {
         "@version": 1.1,
         "altitude": "brapi:altitude",
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "coordinateUncertainty": "brapi:coordinateUncertainty",
+        "data": "brapi:datacd",
         "latitudeDecimal": "brapi:latitudeDecimal",
         "latitudeDegrees": "brapi:latitudeDegrees",
         "longitudeDecimal": "brapi:longitudeDecimal",
         "longitudeDegrees": "brapi:longitudeDegrees",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

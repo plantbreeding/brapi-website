@@ -1,7 +1,8 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "emailAddresses": {
             "@container": "@list",
             "@id": "brapi:emailAddresses",
@@ -22,6 +23,10 @@
             "@id": "brapi:mailingAddresses",
             "@type": "xsd:string"
         },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "middleNames": {
             "@container": "@list",
             "@id": "brapi:middleNames",
@@ -37,6 +42,7 @@
             "@id": "brapi:phoneNumbers",
             "@type": "xsd:string"
         },
+        "result": "brapi:result",
         "userIDs": {
             "@container": "@list",
             "@id": "brapi:userIDs",

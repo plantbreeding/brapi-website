@@ -3,13 +3,19 @@
         "@version": 1.1,
         "accession": "brapi:accession",
         "assemblyPUI": "brapi:assemblyPUI",
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "md5checksum": "brapi:md5checksum",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "page_size": {
             "@id": "brapi:page_size",
             "@type": "xsd:integer"
         },
         "page_token": "brapi:page_token",
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

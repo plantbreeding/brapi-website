@@ -5,11 +5,16 @@
             "@id": "brapi:additionalInfo",
             "@type": "xsd:object"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "germplasmDbId": "brapi:germplasmDbId",
         "germplasmName": "brapi:germplasmName",
         "locationDbId": "brapi:locationDbId",
         "locationName": "brapi:locationName",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "observationLevel": "brapi:observationLevel",
         "observationUnitDbId": "brapi:observationUnitDbId",
         "observationUnitName": "brapi:observationUnitName",
@@ -26,6 +31,7 @@
         "plotNumber": "brapi:plotNumber",
         "programDbId": "brapi:programDbId",
         "programName": "brapi:programName",
+        "result": "brapi:result",
         "studyDbId": "brapi:studyDbId",
         "studyName": "brapi:studyName",
         "treatments": {

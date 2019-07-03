@@ -5,7 +5,8 @@
             "@id": "brapi:additionalInfo",
             "@type": "xsd:object"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "dateCreated": "brapi:dateCreated",
         "dateModified": "brapi:dateModified",
         "description": "brapi:description",
@@ -22,6 +23,11 @@
             "@id": "brapi:listType",
             "@type": "brapi:listTypes"
         },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

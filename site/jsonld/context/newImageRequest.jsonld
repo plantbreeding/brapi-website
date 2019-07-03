@@ -5,8 +5,9 @@
             "@id": "brapi:additionalInfo",
             "@type": "xsd:object"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "copyright": "brapi:copyright",
+        "data": "brapi:datacd",
         "description": "brapi:description",
         "descriptiveOntologyTerms": {
             "@container": "@list",
@@ -32,6 +33,10 @@
             "@id": "brapi:imageWidth",
             "@type": "xsd:integer"
         },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "mimeType": "brapi:mimeType",
         "observationDbIds": {
             "@container": "@list",
@@ -39,6 +44,7 @@
             "@type": "xsd:string"
         },
         "observationUnitDbId": "brapi:observationUnitDbId",
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

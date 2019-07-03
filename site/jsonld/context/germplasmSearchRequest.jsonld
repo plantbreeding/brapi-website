@@ -6,12 +6,13 @@
             "@id": "brapi:accessionNumbers",
             "@type": "xsd:string"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropNames": {
             "@container": "@list",
             "@id": "brapi:commonCropNames",
             "@type": "xsd:string"
         },
+        "data": "brapi:datacd",
         "germplasmDbIds": {
             "@container": "@list",
             "@id": "brapi:germplasmDbIds",
@@ -37,6 +38,10 @@
             "@id": "brapi:germplasmSpecies",
             "@type": "xsd:string"
         },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "parentDbIds": {
             "@container": "@list",
             "@id": "brapi:parentDbIds",
@@ -47,6 +52,7 @@
             "@id": "brapi:progenyDbIds",
             "@type": "xsd:string"
         },
+        "result": "brapi:result",
         "studyDbIds": {
             "@container": "@list",
             "@id": "brapi:studyDbIds",

@@ -5,15 +5,21 @@
             "@id": "brapi:attributes",
             "@type": "brapi:Attributes"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "isDerived": {
             "@id": "brapi:isDerived",
             "@type": "xsd:boolean"
         },
         "length": "brapi:length",
         "md5checksum": "brapi:md5checksum",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "referenceDbId": "brapi:referenceDbId",
         "referenceName": "brapi:referenceName",
+        "result": "brapi:result",
         "sourceAccessions": {
             "@container": "@list",
             "@id": "brapi:sourceAccessions",

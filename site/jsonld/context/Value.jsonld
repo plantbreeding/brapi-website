@@ -5,10 +5,15 @@
             "@id": "brapi:bool_value",
             "@type": "xsd:boolean"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "list_value": {
             "@id": "brapi:list_value",
             "@type": "brapi:ListValue"
+        },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
         },
         "null_value": {
             "@id": "brapi:null_value",
@@ -18,6 +23,7 @@
             "@id": "brapi:number_value",
             "@type": "xsd:number"
         },
+        "result": "brapi:result",
         "string_value": "brapi:string_value",
         "struct_value": {
             "@id": "brapi:struct_value",

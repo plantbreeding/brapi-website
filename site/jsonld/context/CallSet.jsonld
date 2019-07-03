@@ -5,10 +5,16 @@
             "@id": "brapi:additionalInfo",
             "@type": "xsd:object"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "callSetDbId": "brapi:callSetDbId",
         "callSetName": "brapi:callSetName",
         "created": "brapi:created",
+        "data": "brapi:datacd",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
+        "result": "brapi:result",
         "sampleDbId": "brapi:sampleDbId",
         "studyDbId": "brapi:studyDbId",
         "updated": "brapi:updated",

@@ -2,10 +2,15 @@
     "@context": {
         "@version": 1.1,
         "blockNumber": "brapi:blockNumber",
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "entryNumber": "brapi:entryNumber",
         "entryType": "brapi:entryType",
         "germplasmDbId": "brapi:germplasmDbId",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "observationLevel": "brapi:observationLevel",
         "observationUnitDbId": "brapi:observationUnitDbId",
         "observationUnitName": "brapi:observationUnitName",
@@ -26,6 +31,7 @@
         "positionCoordinateY": "brapi:positionCoordinateY",
         "positionCoordinateYType": "brapi:positionCoordinateYType",
         "replicate": "brapi:replicate",
+        "result": "brapi:result",
         "studyDbId": "brapi:studyDbId",
         "treatments": {
             "@container": "@list",

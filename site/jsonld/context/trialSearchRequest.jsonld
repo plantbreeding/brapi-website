@@ -5,7 +5,7 @@
             "@id": "brapi:active",
             "@type": "xsd:boolean"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropNames": {
             "@container": "@list",
             "@id": "brapi:commonCropNames",
@@ -16,11 +16,17 @@
             "@id": "brapi:contactDbIds",
             "@type": "xsd:string"
         },
+        "data": "brapi:datacd",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "programDbIds": {
             "@container": "@list",
             "@id": "brapi:programDbIds",
             "@type": "xsd:string"
         },
+        "result": "brapi:result",
         "searchDateRangeEnd": "brapi:searchDateRangeEnd",
         "searchDateRangeStart": "brapi:searchDateRangeStart",
         "studyDbIds": {

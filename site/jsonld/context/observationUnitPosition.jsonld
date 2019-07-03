@@ -2,14 +2,20 @@
     "@context": {
         "@version": 1.1,
         "blockNumber": "brapi:blockNumber",
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "entryNumber": "brapi:entryNumber",
         "entryType": "brapi:entryType",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "positionCoordinateX": "brapi:positionCoordinateX",
         "positionCoordinateXType": "brapi:positionCoordinateXType",
         "positionCoordinateY": "brapi:positionCoordinateY",
         "positionCoordinateYType": "brapi:positionCoordinateYType",
         "replicate": "brapi:replicate",
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

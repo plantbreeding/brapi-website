@@ -6,7 +6,8 @@
             "@id": "brapi:additionalInfo",
             "@type": "xsd:object"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "date": {
             "@container": "@list",
             "@id": "brapi:date",
@@ -16,11 +17,16 @@
         "eventDbId": "brapi:eventDbId",
         "eventType": "brapi:eventType",
         "eventTypeDbId": "brapi:eventTypeDbId",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "observationUnitDbIds": {
             "@container": "@list",
             "@id": "brapi:observationUnitDbIds",
             "@type": "xsd:string"
         },
+        "result": "brapi:result",
         "studyDbId": "brapi:studyDbId",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

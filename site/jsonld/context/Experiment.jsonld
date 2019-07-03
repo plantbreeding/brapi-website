@@ -5,7 +5,8 @@
             "@id": "brapi:attributes",
             "@type": "brapi:Attributes"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "description": "brapi:description",
         "experimentDbId": "brapi:experimentDbId",
         "experimentName": "brapi:experimentName",
@@ -15,8 +16,13 @@
         "libraryLayout": "brapi:libraryLayout",
         "messageCreateTime": "brapi:messageCreateTime",
         "messageUpdateTime": "brapi:messageUpdateTime",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "molecule": "brapi:molecule",
         "platformUnit": "brapi:platformUnit",
+        "result": "brapi:result",
         "runTime": "brapi:runTime",
         "selection": "brapi:selection",
         "sequencingCenter": "brapi:sequencingCenter",

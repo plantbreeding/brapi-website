@@ -1,11 +1,17 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commandLine": "brapi:commandLine",
+        "data": "brapi:datacd",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "prevProgramDbId": "brapi:prevProgramDbId",
         "programDbId": "brapi:programDbId",
         "programName": "brapi:programName",
+        "result": "brapi:result",
         "version": "brapi:version",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

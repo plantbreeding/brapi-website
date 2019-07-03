@@ -10,7 +10,7 @@
             "@id": "brapi:alternate_bases",
             "@type": "xsd:string"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "ciend": {
             "@container": "@list",
             "@id": "brapi:ciend",
@@ -22,6 +22,7 @@
             "@type": "xsd:integer"
         },
         "created": "brapi:created",
+        "data": "brapi:datacd",
         "end": "brapi:end",
         "filtersApplied": {
             "@id": "brapi:filtersApplied",
@@ -36,8 +37,13 @@
             "@id": "brapi:filtersPassed",
             "@type": "xsd:boolean"
         },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "referenceBases": "brapi:referenceBases",
         "referenceName": "brapi:referenceName",
+        "result": "brapi:result",
         "start": "brapi:start",
         "svlen": "brapi:svlen",
         "updated": "brapi:updated",

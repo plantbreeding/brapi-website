@@ -6,12 +6,13 @@
             "@id": "brapi:abbreviations",
             "@type": "xsd:string"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropNames": {
             "@container": "@list",
             "@id": "brapi:commonCropNames",
             "@type": "xsd:string"
         },
+        "data": "brapi:datacd",
         "leadPersonDbIds": {
             "@container": "@list",
             "@id": "brapi:leadPersonDbIds",
@@ -21,6 +22,10 @@
             "@container": "@list",
             "@id": "brapi:leadPersonNames",
             "@type": "xsd:string"
+        },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
         },
         "objectives": {
             "@container": "@list",
@@ -37,6 +42,7 @@
             "@id": "brapi:programNames",
             "@type": "xsd:string"
         },
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

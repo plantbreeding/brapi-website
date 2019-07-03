@@ -7,10 +7,11 @@
             "@id": "brapi:biologicalStatusOfAccessionCode",
             "@type": "xsd:integer"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "breedingMethodDbId": "brapi:breedingMethodDbId",
         "commonCropName": "brapi:commonCropName",
         "countryOfOriginCode": "brapi:countryOfOriginCode",
+        "data": "brapi:datacd",
         "defaultDisplayName": "brapi:defaultDisplayName",
         "documentationURL": "brapi:documentationURL",
         "donors": {
@@ -31,7 +32,12 @@
         "germplasmSpecies": "brapi:germplasmSpecies",
         "instituteCode": "brapi:instituteCode",
         "instituteName": "brapi:instituteName",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "pedigree": "brapi:pedigree",
+        "result": "brapi:result",
         "seedSource": "brapi:seedSource",
         "seedSourseDescription": "brapi:seedSourseDescription",
         "speciesAuthority": "brapi:speciesAuthority",

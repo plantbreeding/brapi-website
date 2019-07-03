@@ -5,12 +5,13 @@
             "@id": "brapi:active",
             "@type": "xsd:boolean"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropNames": {
             "@container": "@list",
             "@id": "brapi:commonCropNames",
             "@type": "xsd:string"
         },
+        "data": "brapi:datacd",
         "germplasmDbIds": {
             "@container": "@list",
             "@id": "brapi:germplasmDbIds",
@@ -20,6 +21,10 @@
             "@container": "@list",
             "@id": "brapi:locationDbIds",
             "@type": "xsd:string"
+        },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
         },
         "observationVariableDbIds": {
             "@container": "@list",
@@ -44,6 +49,7 @@
             "@id": "brapi:programNames",
             "@type": "xsd:string"
         },
+        "result": "brapi:result",
         "seasonDbIds": {
             "@container": "@list",
             "@id": "brapi:seasonDbIds",

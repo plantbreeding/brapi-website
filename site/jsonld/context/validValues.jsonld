@@ -1,20 +1,26 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "categories": {
             "@container": "@list",
             "@id": "brapi:categories",
             "@type": "xsd:string"
         },
+        "data": "brapi:datacd",
         "max": {
             "@id": "brapi:max",
             "@type": "xsd:integer"
+        },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
         },
         "min": {
             "@id": "brapi:min",
             "@type": "xsd:integer"
         },
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

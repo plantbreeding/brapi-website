@@ -6,7 +6,7 @@
             "@id": "brapi:additionalInfo",
             "@type": "xsd:object"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",
         "contacts": {
             "@container": "@list",
@@ -14,6 +14,7 @@
             "@type": "brapi:contact"
         },
         "culturalPractices": "brapi:culturalPractices",
+        "data": "brapi:datacd",
         "dataLinks": {
             "@container": "@list",
             "@id": "brapi:dataLinks",
@@ -43,7 +44,12 @@
             "@id": "brapi:location",
             "@type": "brapi:location"
         },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "observationUnitsDescription": "brapi:observationUnitsDescription",
+        "result": "brapi:result",
         "seasons": {
             "@container": "@list",
             "@id": "brapi:seasons",

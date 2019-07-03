@@ -5,12 +5,18 @@
             "@id": "brapi:additionalInfo",
             "@type": "xsd:object"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "collector": "brapi:collector",
+        "data": "brapi:datacd",
         "germplasmDbId": "brapi:germplasmDbId",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "observationTimeStamp": "brapi:observationTimeStamp",
         "observationUnitDbId": "brapi:observationUnitDbId",
         "observationVariableDbId": "brapi:observationVariableDbId",
+        "result": "brapi:result",
         "season": {
             "@id": "brapi:season",
             "@type": "brapi:season"

@@ -1,7 +1,8 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "germplasmDbIds": {
             "@container": "@list",
             "@id": "brapi:germplasmDbIds",
@@ -11,6 +12,10 @@
             "@container": "@list",
             "@id": "brapi:locationDbIds",
             "@type": "xsd:string"
+        },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
         },
         "observationLevel": "brapi:observationLevel",
         "observationTimeStampRangeEnd": "brapi:observationTimeStampRangeEnd",
@@ -25,6 +30,7 @@
             "@id": "brapi:programDbIds",
             "@type": "xsd:string"
         },
+        "result": "brapi:result",
         "seasonDbIds": {
             "@container": "@list",
             "@id": "brapi:seasonDbIds",

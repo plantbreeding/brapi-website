@@ -17,7 +17,8 @@
             "@id": "brapi:bool_value",
             "@type": "xsd:boolean"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "double_value": {
             "@id": "brapi:double_value",
             "@type": "xsd:number"
@@ -35,6 +36,10 @@
             "@type": "xsd:integer"
         },
         "int64_value": "brapi:int64_value",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "null_value": {
             "@id": "brapi:null_value",
             "@type": "brapi:NullValue"
@@ -47,6 +52,7 @@
             "@id": "brapi:program",
             "@type": "brapi:Program"
         },
+        "result": "brapi:result",
         "string_value": "brapi:string_value",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

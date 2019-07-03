@@ -5,14 +5,20 @@
             "@id": "brapi:additionalInfo",
             "@type": "xsd:object"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "description": "brapi:description",
         "emailAddress": "brapi:emailAddress",
         "firstName": "brapi:firstName",
         "lastName": "brapi:lastName",
         "mailingAddress": "brapi:mailingAddress",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "middleName": "brapi:middleName",
         "phoneNumber": "brapi:phoneNumber",
+        "result": "brapi:result",
         "userID": "brapi:userID",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

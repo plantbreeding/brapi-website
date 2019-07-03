@@ -1,12 +1,18 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "contactDbId": "brapi:contactDbId",
+        "data": "brapi:datacd",
         "email": "brapi:email",
         "instituteName": "brapi:instituteName",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "name": "brapi:name",
         "orcid": "brapi:orcid",
+        "result": "brapi:result",
         "type": "brapi:type",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

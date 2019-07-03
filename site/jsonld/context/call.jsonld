@@ -1,9 +1,10 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "callSetDbId": "brapi:callSetDbId",
         "callSetName": "brapi:callSetName",
+        "data": "brapi:datacd",
         "genotype": {
             "@id": "brapi:genotype",
             "@type": "brapi:ListValue"
@@ -13,7 +14,12 @@
             "@id": "brapi:genotype_likelihood",
             "@type": "xsd:number"
         },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "phaseset": "brapi:phaseset",
+        "result": "brapi:result",
         "variantDbId": "brapi:variantDbId",
         "variantName": "brapi:variantName",
         "xsd": "http://www.w3.org/2001/XMLSchema#"

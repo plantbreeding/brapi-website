@@ -5,16 +5,22 @@
             "@id": "brapi:additionalInfo",
             "@type": "xsd:object"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "clientSampleIds": {
             "@container": "@list",
             "@id": "brapi:clientSampleIds",
             "@type": "xsd:string"
         },
+        "data": "brapi:datacd",
         "fileName": "brapi:fileName",
         "fileType": "brapi:fileType",
         "fileURL": "brapi:fileURL",
         "md5sum": "brapi:md5sum",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

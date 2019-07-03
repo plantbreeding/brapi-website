@@ -1,10 +1,16 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "description": "brapi:description",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "parameterName": "brapi:parameterName",
         "parameterPUI": "brapi:parameterPUI",
+        "result": "brapi:result",
         "unit": "brapi:unit",
         "unitPUI": "brapi:unitPUI",
         "value": "brapi:value",

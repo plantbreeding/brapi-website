@@ -7,15 +7,21 @@
             "@type": "xsd:string"
         },
         "attribute": "brapi:attribute",
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "class": "brapi:class",
+        "data": "brapi:datacd",
         "description": "brapi:description",
         "entity": "brapi:entity",
         "mainAbbreviation": "brapi:mainAbbreviation",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "ontologyReference": {
             "@id": "brapi:ontologyReference",
             "@type": "brapi:ontologyReference"
         },
+        "result": "brapi:result",
         "status": "brapi:status",
         "synonyms": {
             "@container": "@list",

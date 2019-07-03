@@ -5,11 +5,17 @@
             "@id": "brapi:attributes",
             "@type": "brapi:Attributes"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:datacd",
         "description": "brapi:description",
         "id": "brapi:id",
         "key": "brapi:key",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "number": "brapi:number",
+        "result": "brapi:result",
         "type": "brapi:type",
         "value": "brapi:value",
         "xsd": "http://www.w3.org/2001/XMLSchema#"

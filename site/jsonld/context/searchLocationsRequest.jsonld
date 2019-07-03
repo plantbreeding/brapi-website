@@ -14,7 +14,7 @@
             "@id": "brapi:altitudeMin",
             "@type": "xsd:number"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "countryCodes": {
             "@container": "@list",
             "@id": "brapi:countryCodes",
@@ -25,6 +25,7 @@
             "@id": "brapi:countryNames",
             "@type": "xsd:string"
         },
+        "data": "brapi:datacd",
         "instituteAddresses": {
             "@container": "@list",
             "@id": "brapi:instituteAddresses",
@@ -62,6 +63,11 @@
             "@id": "brapi:longitudeMin",
             "@type": "xsd:number"
         },
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

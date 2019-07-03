@@ -1,18 +1,23 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "contextOfUse": {
             "@container": "@list",
             "@id": "brapi:contextOfUse",
             "@type": "xsd:string"
         },
         "crop": "brapi:crop",
+        "data": "brapi:datacd",
         "defaultValue": "brapi:defaultValue",
         "documentationURL": "brapi:documentationURL",
         "growthStage": "brapi:growthStage",
         "institution": "brapi:institution",
         "language": "brapi:language",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
         "method": {
             "@id": "brapi:method",
             "@type": "brapi:method"
@@ -21,6 +26,7 @@
             "@id": "brapi:ontologyReference",
             "@type": "brapi:ontologyReference"
         },
+        "result": "brapi:result",
         "scale": {
             "@id": "brapi:scale",
             "@type": "brapi:scale"

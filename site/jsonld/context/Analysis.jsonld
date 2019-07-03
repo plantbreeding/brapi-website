@@ -7,9 +7,15 @@
             "@id": "brapi:attributes",
             "@type": "brapi:Attributes"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "created": "brapi:created",
+        "data": "brapi:datacd",
         "description": "brapi:description",
+        "metadata": {
+            "@id": "brapi:metadata",
+            "@type": "brapi:metadata"
+        },
+        "result": "brapi:result",
         "software": {
             "@container": "@list",
             "@id": "brapi:software",
