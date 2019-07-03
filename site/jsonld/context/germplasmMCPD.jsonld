@@ -20,34 +20,22 @@
             "@id": "brapi:breedingInstitutes"
         },
         "collectingDate": "brapi:collectingDate",
-        "collectingInfo": {
-            "@id": "brapi:collectingInfo",
-            "@type": "brapi:collectingInfo"
-        },
+        "collectingInfo": "brapi:collectingInfo",
         "collectingInstitutes": {
             "@container": "@list",
             "@id": "brapi:collectingInstitutes"
         },
         "collectingMissionIdentifier": "brapi:collectingMissionIdentifier",
         "collectingNumber": "brapi:collectingNumber",
-        "collectingSite": {
-            "@id": "brapi:collectingSite",
-            "@type": "brapi:collectingSite"
-        },
+        "collectingSite": "brapi:collectingSite",
         "commonCropName": "brapi:commonCropName",
         "coordinateUncertainty": "brapi:coordinateUncertainty",
         "countryOfOrigin": "brapi:countryOfOrigin",
         "data": "brapi:data",
         "donorAccessionNumber": "brapi:donorAccessionNumber",
         "donorAccessionPui": "brapi:donorAccessionPui",
-        "donorInfo": {
-            "@id": "brapi:donorInfo",
-            "@type": "brapi:donorInfo"
-        },
-        "donorInstitute": {
-            "@id": "brapi:donorInstitute",
-            "@type": "brapi:donorInstitute"
-        },
+        "donorInfo": "brapi:donorInfo",
+        "donorInstitute": "brapi:donorInstitute",
         "elevation": "brapi:elevation",
         "genus": "brapi:genus",
         "georeferencingMethod": "brapi:georeferencingMethod",
@@ -61,10 +49,7 @@
         "locationDescription": "brapi:locationDescription",
         "longitudeDecimal": "brapi:longitudeDecimal",
         "longitudeDegrees": "brapi:longitudeDegrees",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "mlsStatus": "brapi:mlsStatus",
         "remarks": "brapi:remarks",
         "result": "brapi:result",

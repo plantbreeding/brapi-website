@@ -4,10 +4,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
         "germplasmDbId": "brapi:germplasmDbId",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "notes": "brapi:notes",
         "observationUnitDbId": "brapi:observationUnitDbId",
         "plantDbId": "brapi:plantDbId",

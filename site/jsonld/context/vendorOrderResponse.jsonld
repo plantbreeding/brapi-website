@@ -11,10 +11,7 @@
             "@type": "brapi:metadata"
         },
         "orderId": "brapi:orderId",
-        "result": {
-            "@id": "brapi:result",
-            "@type": "brapi:result"
-        },
+        "result": "brapi:result",
         "shipmentForms": {
             "@container": "@list",
             "@id": "brapi:shipmentForms"

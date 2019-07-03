@@ -5,10 +5,7 @@
             "@id": "brapi:active",
             "@type": "xsd:boolean"
         },
-        "additionalInfo": {
-            "@id": "brapi:additionalInfo",
-            "@type": "brapi:additionalInfo"
-        },
+        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",
         "contacts": {
@@ -24,10 +21,7 @@
         "documentationURL": "brapi:documentationURL",
         "endDate": "brapi:endDate",
         "license": "brapi:license",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "programDbId": "brapi:programDbId",
         "programName": "brapi:programName",
         "publicReleaseDate": "brapi:publicReleaseDate",

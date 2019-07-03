@@ -13,10 +13,7 @@
         "growthStage": "brapi:growthStage",
         "institution": "brapi:institution",
         "language": "brapi:language",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "method": {
             "@id": "brapi:method",
             "@type": "brapi:method"

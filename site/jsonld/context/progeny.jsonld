@@ -5,10 +5,7 @@
         "data": "brapi:data",
         "defaultDisplayName": "brapi:defaultDisplayName",
         "germplasmDbId": "brapi:germplasmDbId",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "parentType": "brapi:parentType",
         "progeny": {
             "@container": "@list",

@@ -31,10 +31,7 @@
             "@container": "@list",
             "@id": "brapi:germplasmSpecies"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "parentDbIds": {
             "@container": "@list",
             "@id": "brapi:parentDbIds"

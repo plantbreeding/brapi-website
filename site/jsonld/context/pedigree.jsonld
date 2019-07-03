@@ -8,10 +8,7 @@
         "defaultDisplayName": "brapi:defaultDisplayName",
         "familyCode": "brapi:familyCode",
         "germplasmDbId": "brapi:germplasmDbId",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "parent1DbId": "brapi:parent1DbId",
         "parent1Name": "brapi:parent1Name",
         "parent1Type": "brapi:parent1Type",

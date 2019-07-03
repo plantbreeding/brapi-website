@@ -16,10 +16,7 @@
         "libraryLayout": "brapi:libraryLayout",
         "messageCreateTime": "brapi:messageCreateTime",
         "messageUpdateTime": "brapi:messageUpdateTime",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "molecule": "brapi:molecule",
         "platformUnit": "brapi:platformUnit",
         "result": "brapi:result",

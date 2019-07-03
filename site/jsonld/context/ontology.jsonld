@@ -8,10 +8,7 @@
         "description": "brapi:description",
         "documentationURL": "brapi:documentationURL",
         "licence": "brapi:licence",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "ontologyDbId": "brapi:ontologyDbId",
         "ontologyName": "brapi:ontologyName",
         "result": "brapi:result",

@@ -4,10 +4,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commandLine": "brapi:commandLine",
         "data": "brapi:data",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "prevProgramDbId": "brapi:prevProgramDbId",
         "programDbId": "brapi:programDbId",
         "programName": "brapi:programName",

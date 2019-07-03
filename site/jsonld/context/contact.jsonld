@@ -6,10 +6,7 @@
         "data": "brapi:data",
         "email": "brapi:email",
         "instituteName": "brapi:instituteName",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "name": "brapi:name",
         "orcid": "brapi:orcid",
         "result": "brapi:result",

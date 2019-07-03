@@ -13,10 +13,7 @@
             "@container": "@list",
             "@id": "brapi:genotype_likelihood"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "phaseset": "brapi:phaseset",
         "result": "brapi:result",
         "variantDbId": "brapi:variantDbId",

@@ -5,10 +5,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
         "md5checksum": "brapi:md5checksum",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "page_size": {
             "@id": "brapi:page_size",
             "@type": "xsd:integer"

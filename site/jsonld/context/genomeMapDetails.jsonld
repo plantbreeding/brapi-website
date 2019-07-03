@@ -9,10 +9,7 @@
         "documentationURL": "brapi:documentationURL",
         "mapDbId": "brapi:mapDbId",
         "mapName": "brapi:mapName",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "result": "brapi:result",
         "type": "brapi:type",
         "unit": "brapi:unit",

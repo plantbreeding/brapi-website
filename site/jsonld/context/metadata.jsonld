@@ -11,18 +11,12 @@
             "@container": "@list",
             "@id": "brapi:datafiles"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "pageSize": {
             "@id": "brapi:pageSize",
             "@type": "xsd:integer"
         },
-        "pagination": {
-            "@id": "brapi:pagination",
-            "@type": "brapi:pagination"
-        },
+        "pagination": "brapi:pagination",
         "result": "brapi:result",
         "status": {
             "@container": "@list",

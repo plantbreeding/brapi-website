@@ -11,10 +11,7 @@
             "@id": "brapi:list_value",
             "@type": "brapi:ListValue"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "null_value": {
             "@id": "brapi:null_value",
             "@type": "brapi:NullValue"

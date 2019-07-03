@@ -8,10 +8,7 @@
         "documentationURL": "brapi:documentationURL",
         "leadPersonDbId": "brapi:leadPersonDbId",
         "leadPersonName": "brapi:leadPersonName",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "objective": "brapi:objective",
         "programName": "brapi:programName",
         "result": "brapi:result",

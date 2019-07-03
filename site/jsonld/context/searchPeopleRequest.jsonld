@@ -19,10 +19,7 @@
             "@container": "@list",
             "@id": "brapi:mailingAddresses"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "middleNames": {
             "@container": "@list",
             "@id": "brapi:middleNames"

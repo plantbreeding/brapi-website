@@ -2,17 +2,11 @@
     "@context": {
         "@version": 1.1,
         "asynchId": "brapi:asynchId",
-        "asynchStatus": {
-            "@id": "brapi:asynchStatus",
-            "@type": "brapi:asynchStatus"
-        },
+        "asynchStatus": "brapi:asynchStatus",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
         "endTime": "brapi:endTime",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "percentComplete": {
             "@id": "brapi:percentComplete",
             "@type": "xsd:integer"

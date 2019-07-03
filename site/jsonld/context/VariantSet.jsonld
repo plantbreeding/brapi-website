@@ -10,10 +10,7 @@
         "dataFormat": "brapi:dataFormat",
         "fileFormat": "brapi:fileFormat",
         "fileURL": "brapi:fileURL",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "referenceSetDbId": "brapi:referenceSetDbId",
         "result": "brapi:result",
         "studyDbId": "brapi:studyDbId",

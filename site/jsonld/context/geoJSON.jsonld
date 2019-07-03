@@ -3,14 +3,8 @@
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
-        "geometry": {
-            "@id": "brapi:geometry",
-            "@type": "brapi:geometry"
-        },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "geometry": "brapi:geometry",
+        "metadata": "brapi:metadata",
         "result": "brapi:result",
         "type": "brapi:type",
         "xsd": "http://www.w3.org/2001/XMLSchema#"

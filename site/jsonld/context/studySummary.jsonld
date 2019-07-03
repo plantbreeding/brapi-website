@@ -2,10 +2,7 @@
     "@context": {
         "@version": 1.1,
         "active": "brapi:active",
-        "additionalInfo": {
-            "@id": "brapi:additionalInfo",
-            "@type": "brapi:additionalInfo"
-        },
+        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",
         "data": "brapi:data",
@@ -13,10 +10,7 @@
         "endDate": "brapi:endDate",
         "locationDbId": "brapi:locationDbId",
         "locationName": "brapi:locationName",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "programDbId": "brapi:programDbId",
         "programName": "brapi:programName",
         "result": "brapi:result",

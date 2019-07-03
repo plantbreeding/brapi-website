@@ -4,10 +4,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
         "id": "brapi:id",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "result": "brapi:result",
         "source": "brapi:source",
         "xsd": "http://www.w3.org/2001/XMLSchema#"

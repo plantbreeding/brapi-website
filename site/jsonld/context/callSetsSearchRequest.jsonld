@@ -15,10 +15,7 @@
             "@container": "@list",
             "@id": "brapi:germplasmDbIds"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "result": "brapi:result",
         "sampleDbIds": {
             "@container": "@list",

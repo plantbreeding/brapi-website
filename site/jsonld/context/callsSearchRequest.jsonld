@@ -7,10 +7,7 @@
             "@id": "brapi:callSetDbIds"
         },
         "data": "brapi:data",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "page": {
             "@id": "brapi:page",
             "@type": "xsd:integer"

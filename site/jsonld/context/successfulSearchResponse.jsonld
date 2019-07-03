@@ -7,10 +7,7 @@
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
         },
-        "result": {
-            "@id": "brapi:result",
-            "@type": "brapi:result"
-        },
+        "result": "brapi:result",
         "searchResultDbId": "brapi:searchResultDbId",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

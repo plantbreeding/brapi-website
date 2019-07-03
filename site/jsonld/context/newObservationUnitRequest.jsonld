@@ -7,10 +7,7 @@
         "entryNumber": "brapi:entryNumber",
         "entryType": "brapi:entryType",
         "germplasmDbId": "brapi:germplasmDbId",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "observationLevel": "brapi:observationLevel",
         "observationUnitDbId": "brapi:observationUnitDbId",
         "observationUnitName": "brapi:observationUnitName",

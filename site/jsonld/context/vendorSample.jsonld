@@ -11,10 +11,7 @@
             "@type": "brapi:measurement"
         },
         "data": "brapi:data",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "organismName": "brapi:organismName",
         "result": "brapi:result",
         "row": "brapi:row",

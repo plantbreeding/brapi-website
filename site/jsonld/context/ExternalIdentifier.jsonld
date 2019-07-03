@@ -5,10 +5,7 @@
         "data": "brapi:data",
         "database": "brapi:database",
         "identifier": "brapi:identifier",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "result": "brapi:result",
         "version": "brapi:version",
         "xsd": "http://www.w3.org/2001/XMLSchema#"

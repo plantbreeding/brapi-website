@@ -7,10 +7,7 @@
             "@container": "@list",
             "@id": "brapi:germplasmDbIds"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "observationUnitDbIds": {
             "@container": "@list",
             "@id": "brapi:observationUnitDbIds"

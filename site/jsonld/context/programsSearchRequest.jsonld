@@ -19,10 +19,7 @@
             "@container": "@list",
             "@id": "brapi:leadPersonNames"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "objectives": {
             "@container": "@list",
             "@id": "brapi:objectives"

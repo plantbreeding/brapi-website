@@ -6,10 +6,7 @@
         "location": "brapi:location",
         "markerDbId": "brapi:markerDbId",
         "markerName": "brapi:markerName",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

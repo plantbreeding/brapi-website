@@ -14,10 +14,7 @@
             "@type": "xsd:boolean"
         },
         "md5checksum": "brapi:md5checksum",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "referenceSetDbId": "brapi:referenceSetDbId",
         "referenceSetName": "brapi:referenceSetName",
         "result": "brapi:result",

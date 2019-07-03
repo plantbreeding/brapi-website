@@ -7,10 +7,7 @@
             "@container": "@list",
             "@id": "brapi:dataTypes"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "methodDbIds": {
             "@container": "@list",
             "@id": "brapi:methodDbIds"

@@ -3,20 +3,14 @@
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "result": "brapi:result",
         "serviceDescription": "brapi:serviceDescription",
         "serviceId": "brapi:serviceId",
         "serviceName": "brapi:serviceName",
         "servicePlatformMarkerType": "brapi:servicePlatformMarkerType",
         "servicePlatformName": "brapi:servicePlatformName",
-        "specificRequirements": {
-            "@id": "brapi:specificRequirements",
-            "@type": "brapi:specificRequirements"
-        },
+        "specificRequirements": "brapi:specificRequirements",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

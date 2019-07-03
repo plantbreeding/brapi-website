@@ -3,10 +3,7 @@
         "@version": 1.1,
         "PUI": "brapi:PUI",
         "active": "brapi:active",
-        "additionalInfo": {
-            "@id": "brapi:additionalInfo",
-            "@type": "brapi:additionalInfo"
-        },
+        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",
         "contacts": {
@@ -26,27 +23,15 @@
             "@container": "@list",
             "@id": "brapi:environmentParameters"
         },
-        "experimentalDesign": {
-            "@id": "brapi:experimentalDesign",
-            "@type": "brapi:experimentalDesign"
-        },
-        "growthFacility": {
-            "@id": "brapi:growthFacility",
-            "@type": "brapi:growthFacility"
-        },
-        "lastUpdate": {
-            "@id": "brapi:lastUpdate",
-            "@type": "brapi:lastUpdate"
-        },
+        "experimentalDesign": "brapi:experimentalDesign",
+        "growthFacility": "brapi:growthFacility",
+        "lastUpdate": "brapi:lastUpdate",
         "license": "brapi:license",
         "location": {
             "@id": "brapi:location",
             "@type": "brapi:location"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "observationUnitsDescription": "brapi:observationUnitsDescription",
         "programDbId": "brapi:programDbId",
         "programName": "brapi:programName",

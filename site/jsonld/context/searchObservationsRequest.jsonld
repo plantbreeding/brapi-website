@@ -11,10 +11,7 @@
             "@container": "@list",
             "@id": "brapi:locationDbIds"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "observationLevel": "brapi:observationLevel",
         "observationTimeStampRangeEnd": "brapi:observationTimeStampRangeEnd",
         "observationTimeStampRangeStart": "brapi:observationTimeStampRangeStart",

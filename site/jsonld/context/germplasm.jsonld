@@ -32,10 +32,7 @@
         "germplasmSpecies": "brapi:germplasmSpecies",
         "instituteCode": "brapi:instituteCode",
         "instituteName": "brapi:instituteName",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "pedigree": "brapi:pedigree",
         "result": "brapi:result",
         "seedSource": "brapi:seedSource",

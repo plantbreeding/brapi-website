@@ -1,16 +1,10 @@
 {
     "@context": {
         "@version": 1.1,
-        "additionalInfo": {
-            "@id": "brapi:additionalInfo",
-            "@type": "brapi:additionalInfo"
-        },
+        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "result": "brapi:result",
         "services": {
             "@container": "@list",

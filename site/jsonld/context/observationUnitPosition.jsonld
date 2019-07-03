@@ -6,10 +6,7 @@
         "data": "brapi:data",
         "entryNumber": "brapi:entryNumber",
         "entryType": "brapi:entryType",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "positionCoordinateX": "brapi:positionCoordinateX",
         "positionCoordinateXType": "brapi:positionCoordinateXType",
         "positionCoordinateY": "brapi:positionCoordinateY",

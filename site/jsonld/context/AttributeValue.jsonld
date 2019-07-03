@@ -36,10 +36,7 @@
             "@type": "xsd:integer"
         },
         "int64_value": "brapi:int64_value",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "null_value": {
             "@id": "brapi:null_value",
             "@type": "brapi:NullValue"

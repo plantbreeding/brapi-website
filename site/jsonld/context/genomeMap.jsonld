@@ -16,10 +16,7 @@
             "@id": "brapi:markerCount",
             "@type": "xsd:integer"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "publishedDate": "brapi:publishedDate",
         "result": "brapi:result",
         "scientificName": "brapi:scientificName",

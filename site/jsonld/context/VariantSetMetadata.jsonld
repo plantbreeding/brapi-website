@@ -10,10 +10,7 @@
         "description": "brapi:description",
         "id": "brapi:id",
         "key": "brapi:key",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "number": "brapi:number",
         "result": "brapi:result",
         "type": "brapi:type",

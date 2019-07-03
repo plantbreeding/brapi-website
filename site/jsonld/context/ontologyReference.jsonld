@@ -8,10 +8,7 @@
             "@container": "@list",
             "@id": "brapi:documentationLinks"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "ontologyDbId": "brapi:ontologyDbId",
         "ontologyName": "brapi:ontologyName",
         "result": "brapi:result",

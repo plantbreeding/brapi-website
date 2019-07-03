@@ -11,10 +11,7 @@
             "@id": "brapi:max",
             "@type": "xsd:integer"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "min": {
             "@id": "brapi:min",
             "@type": "xsd:integer"

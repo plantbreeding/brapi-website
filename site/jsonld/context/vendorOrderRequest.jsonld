@@ -6,10 +6,7 @@
         "clientPlateBarcode": "brapi:clientPlateBarcode",
         "clientPlateId": "brapi:clientPlateId",
         "data": "brapi:data",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "numberOfSamples": {
             "@id": "brapi:numberOfSamples",
             "@type": "xsd:integer"
@@ -18,10 +15,7 @@
             "@container": "@list",
             "@id": "brapi:plates"
         },
-        "requiredServiceInfo": {
-            "@id": "brapi:requiredServiceInfo",
-            "@type": "brapi:requiredServiceInfo"
-        },
+        "requiredServiceInfo": "brapi:requiredServiceInfo",
         "result": "brapi:result",
         "sampleSubmissionFormat": {
             "@id": "brapi:sampleSubmissionFormat",

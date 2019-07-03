@@ -10,10 +10,7 @@
             "@container": "@list",
             "@id": "brapi:headerRow"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "observationVariableDbIds": {
             "@container": "@list",
             "@id": "brapi:observationVariableDbIds"

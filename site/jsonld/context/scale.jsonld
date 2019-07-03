@@ -11,10 +11,7 @@
             "@id": "brapi:decimalPlaces",
             "@type": "xsd:integer"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "ontologyReference": {
             "@id": "brapi:ontologyReference",
             "@type": "brapi:ontologyReference"

@@ -6,10 +6,7 @@
         "data": "brapi:data",
         "description": "brapi:description",
         "formula": "brapi:formula",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "methodName": "brapi:methodName",
         "ontologyReference": {
             "@id": "brapi:ontologyReference",

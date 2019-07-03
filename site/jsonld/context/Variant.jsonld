@@ -1,10 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "additionalInfo": {
-            "@id": "brapi:additionalInfo",
-            "@type": "brapi:additionalInfo"
-        },
+        "additionalInfo": "brapi:additionalInfo",
         "alternate_bases": {
             "@container": "@list",
             "@id": "brapi:alternate_bases"
@@ -33,10 +30,7 @@
             "@id": "brapi:filtersPassed",
             "@type": "xsd:boolean"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "referenceBases": "brapi:referenceBases",
         "referenceName": "brapi:referenceName",
         "result": "brapi:result",

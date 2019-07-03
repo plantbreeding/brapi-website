@@ -45,10 +45,7 @@
             "@id": "brapi:imageWidthMin",
             "@type": "xsd:integer"
         },
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "mimeTypes": {
             "@container": "@list",
             "@id": "brapi:mimeTypes"

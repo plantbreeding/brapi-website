@@ -13,10 +13,7 @@
         },
         "length": "brapi:length",
         "md5checksum": "brapi:md5checksum",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "referenceDbId": "brapi:referenceDbId",
         "referenceName": "brapi:referenceName",
         "result": "brapi:result",

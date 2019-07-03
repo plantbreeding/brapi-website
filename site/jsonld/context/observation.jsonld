@@ -1,19 +1,13 @@
 {
     "@context": {
         "@version": 1.1,
-        "additionalInfo": {
-            "@id": "brapi:additionalInfo",
-            "@type": "brapi:additionalInfo"
-        },
+        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "collector": "brapi:collector",
         "data": "brapi:data",
         "germplasmDbId": "brapi:germplasmDbId",
         "germplasmName": "brapi:germplasmName",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "observationDbId": "brapi:observationDbId",
         "observationTimeStamp": "brapi:observationTimeStamp",
         "observationUnitDbId": "brapi:observationUnitDbId",

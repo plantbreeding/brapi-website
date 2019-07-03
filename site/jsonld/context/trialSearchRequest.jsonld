@@ -15,10 +15,7 @@
             "@id": "brapi:contactDbIds"
         },
         "data": "brapi:data",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "programDbIds": {
             "@container": "@list",
             "@id": "brapi:programDbIds"

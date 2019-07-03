@@ -16,10 +16,7 @@
         "eventType": "brapi:eventType",
         "eventTypeDbId": "brapi:eventTypeDbId",
         "key": "brapi:key",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "observationUnitDbIds": {
             "@container": "@list",
             "@id": "brapi:observationUnitDbIds"

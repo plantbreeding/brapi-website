@@ -12,10 +12,7 @@
         "description": "brapi:description",
         "entity": "brapi:entity",
         "mainAbbreviation": "brapi:mainAbbreviation",
-        "metadata": {
-            "@id": "brapi:metadata",
-            "@type": "brapi:metadata"
-        },
+        "metadata": "brapi:metadata",
         "ontologyReference": {
             "@id": "brapi:ontologyReference",
             "@type": "brapi:ontologyReference"
