@@ -3,7 +3,7 @@
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "contactDbId": "brapi:contactDbId",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "email": "brapi:email",
         "instituteName": "brapi:instituteName",
         "metadata": {

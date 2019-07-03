@@ -9,7 +9,7 @@
         "callSetDbId": "brapi:callSetDbId",
         "callSetName": "brapi:callSetName",
         "created": "brapi:created",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
@@ -20,8 +20,7 @@
         "updated": "brapi:updated",
         "variantSetIds": {
             "@container": "@list",
-            "@id": "brapi:variantSetIds",
-            "@type": "xsd:string"
+            "@id": "brapi:variantSetIds"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

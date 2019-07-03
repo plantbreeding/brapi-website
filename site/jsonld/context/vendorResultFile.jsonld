@@ -8,10 +8,9 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "clientSampleIds": {
             "@container": "@list",
-            "@id": "brapi:clientSampleIds",
-            "@type": "xsd:string"
+            "@id": "brapi:clientSampleIds"
         },
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "fileName": "brapi:fileName",
         "fileType": "brapi:fileType",
         "fileURL": "brapi:fileURL",

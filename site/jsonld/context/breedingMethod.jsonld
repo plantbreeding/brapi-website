@@ -5,7 +5,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "breedingMethodDbId": "brapi:breedingMethodDbId",
         "breedingMethodName": "brapi:breedingMethodName",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "description": "brapi:description",
         "metadata": {
             "@id": "brapi:metadata",

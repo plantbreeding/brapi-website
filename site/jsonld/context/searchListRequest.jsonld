@@ -2,35 +2,30 @@
     "@context": {
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "dateCreatedRangeEnd": "brapi:dateCreatedRangeEnd",
         "dateCreatedRangeStart": "brapi:dateCreatedRangeStart",
         "dateModifiedRangeEnd": "brapi:dateModifiedRangeEnd",
         "dateModifiedRangeStart": "brapi:dateModifiedRangeStart",
         "listDbIds": {
             "@container": "@list",
-            "@id": "brapi:listDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:listDbIds"
         },
         "listNames": {
             "@container": "@list",
-            "@id": "brapi:listNames",
-            "@type": "xsd:string"
+            "@id": "brapi:listNames"
         },
         "listOwnerNames": {
             "@container": "@list",
-            "@id": "brapi:listOwnerNames",
-            "@type": "xsd:string"
+            "@id": "brapi:listOwnerNames"
         },
         "listOwnerPersonDbIds": {
             "@container": "@list",
-            "@id": "brapi:listOwnerPersonDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:listOwnerPersonDbIds"
         },
         "listSources": {
             "@container": "@list",
-            "@id": "brapi:listSources",
-            "@type": "xsd:string"
+            "@id": "brapi:listSources"
         },
         "listType": {
             "@id": "brapi:listType",

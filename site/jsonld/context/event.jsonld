@@ -3,15 +3,13 @@
         "@version": 1.1,
         "additionalInfo": {
             "@container": "@list",
-            "@id": "brapi:additionalInfo",
-            "@type": "xsd:object"
+            "@id": "brapi:additionalInfo"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "date": {
             "@container": "@list",
-            "@id": "brapi:date",
-            "@type": "xsd:string"
+            "@id": "brapi:date"
         },
         "description": "brapi:description",
         "eventDbId": "brapi:eventDbId",
@@ -24,8 +22,7 @@
         },
         "observationUnitDbIds": {
             "@container": "@list",
-            "@id": "brapi:observationUnitDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:observationUnitDbIds"
         },
         "rdfValue": "brapi:rdfValue",
         "result": "brapi:result",

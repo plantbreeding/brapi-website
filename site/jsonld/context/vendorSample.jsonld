@@ -10,7 +10,7 @@
             "@id": "brapi:concentration",
             "@type": "brapi:measurement"
         },
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"

@@ -4,7 +4,7 @@
         "authors": "brapi:authors",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "copyright": "brapi:copyright",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "description": "brapi:description",
         "documentationURL": "brapi:documentationURL",
         "licence": "brapi:licence",

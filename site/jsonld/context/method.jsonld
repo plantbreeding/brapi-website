@@ -3,7 +3,7 @@
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "class": "brapi:class",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "description": "brapi:description",
         "formula": "brapi:formula",
         "metadata": {

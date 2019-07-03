@@ -2,7 +2,7 @@
     "@context": {
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
@@ -18,13 +18,11 @@
         "result": "brapi:result",
         "studyDbIds": {
             "@container": "@list",
-            "@id": "brapi:studyDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:studyDbIds"
         },
         "variantSetDbIds": {
             "@container": "@list",
-            "@id": "brapi:variantSetDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:variantSetDbIds"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

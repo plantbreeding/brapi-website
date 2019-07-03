@@ -7,7 +7,7 @@
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "collector": "brapi:collector",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "germplasmDbId": "brapi:germplasmDbId",
         "metadata": {
             "@id": "brapi:metadata",

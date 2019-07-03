@@ -3,11 +3,10 @@
         "@version": 1.1,
         "availableFormats": {
             "@container": "@list",
-            "@id": "brapi:availableFormats",
-            "@type": "xsd:object"
+            "@id": "brapi:availableFormats"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "dataFormat": "brapi:dataFormat",
         "fileFormat": "brapi:fileFormat",
         "fileURL": "brapi:fileURL",
@@ -21,8 +20,7 @@
         "variantSetDbId": "brapi:variantSetDbId",
         "variantSetMetadata": {
             "@container": "@list",
-            "@id": "brapi:variantSetMetadata",
-            "@type": "brapi:VariantSetMetadata"
+            "@id": "brapi:variantSetMetadata"
         },
         "variantSetName": "brapi:variantSetName",
         "xsd": "http://www.w3.org/2001/XMLSchema#"

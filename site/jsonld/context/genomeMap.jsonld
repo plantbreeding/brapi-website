@@ -4,7 +4,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "comments": "brapi:comments",
         "commonCropName": "brapi:commonCropName",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "documentationURL": "brapi:documentationURL",
         "linkageGroupCount": {
             "@id": "brapi:linkageGroupCount",

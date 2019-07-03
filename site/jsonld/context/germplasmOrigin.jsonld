@@ -4,7 +4,7 @@
         "altitude": "brapi:altitude",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "coordinateUncertainty": "brapi:coordinateUncertainty",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "latitudeDecimal": "brapi:latitudeDecimal",
         "latitudeDegrees": "brapi:latitudeDegrees",
         "longitudeDecimal": "brapi:longitudeDecimal",

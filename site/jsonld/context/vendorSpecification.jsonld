@@ -6,7 +6,7 @@
             "@type": "brapi:additionalInfo"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
@@ -14,8 +14,7 @@
         "result": "brapi:result",
         "services": {
             "@container": "@list",
-            "@id": "brapi:services",
-            "@type": "brapi:vendorSpecificationService"
+            "@id": "brapi:services"
         },
         "vendorContact": {
             "@id": "brapi:vendorContact",

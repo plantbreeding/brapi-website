@@ -2,16 +2,14 @@
     "@context": {
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "descriptiveOntologyTerms": {
             "@container": "@list",
-            "@id": "brapi:descriptiveOntologyTerms",
-            "@type": "xsd:string"
+            "@id": "brapi:descriptiveOntologyTerms"
         },
         "imageFileNames": {
             "@container": "@list",
-            "@id": "brapi:imageFileNames",
-            "@type": "xsd:string"
+            "@id": "brapi:imageFileNames"
         },
         "imageFileSizeMax": {
             "@id": "brapi:imageFileSizeMax",
@@ -35,8 +33,7 @@
         },
         "imageNames": {
             "@container": "@list",
-            "@id": "brapi:imageNames",
-            "@type": "xsd:string"
+            "@id": "brapi:imageNames"
         },
         "imageTimeStampRangeEnd": "brapi:imageTimeStampRangeEnd",
         "imageTimeStampRangeStart": "brapi:imageTimeStampRangeStart",
@@ -54,18 +51,15 @@
         },
         "mimeTypes": {
             "@container": "@list",
-            "@id": "brapi:mimeTypes",
-            "@type": "xsd:string"
+            "@id": "brapi:mimeTypes"
         },
         "observationDbIds": {
             "@container": "@list",
-            "@id": "brapi:observationDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:observationDbIds"
         },
         "observationUnitDbIds": {
             "@container": "@list",
-            "@id": "brapi:observationUnitDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:observationUnitDbIds"
         },
         "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"

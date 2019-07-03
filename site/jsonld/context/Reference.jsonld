@@ -6,7 +6,7 @@
             "@type": "brapi:Attributes"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "isDerived": {
             "@id": "brapi:isDerived",
             "@type": "xsd:boolean"
@@ -22,8 +22,7 @@
         "result": "brapi:result",
         "sourceAccessions": {
             "@container": "@list",
-            "@id": "brapi:sourceAccessions",
-            "@type": "xsd:string"
+            "@id": "brapi:sourceAccessions"
         },
         "sourceDivergence": {
             "@id": "brapi:sourceDivergence",

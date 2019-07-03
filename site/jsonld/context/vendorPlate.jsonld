@@ -4,7 +4,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "clientPlateBarcode": "brapi:clientPlateBarcode",
         "clientPlateId": "brapi:clientPlateId",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
@@ -16,8 +16,7 @@
         },
         "samples": {
             "@container": "@list",
-            "@id": "brapi:samples",
-            "@type": "brapi:vendorSample"
+            "@id": "brapi:samples"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

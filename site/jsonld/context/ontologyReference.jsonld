@@ -3,11 +3,10 @@
         "@version": 1.1,
         "URL": "brapi:URL",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "documentationLinks": {
             "@container": "@list",
-            "@id": "brapi:documentationLinks",
-            "@type": "xsd:object"
+            "@id": "brapi:documentationLinks"
         },
         "metadata": {
             "@id": "brapi:metadata",

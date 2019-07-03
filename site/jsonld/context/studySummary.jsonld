@@ -8,7 +8,7 @@
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "documentationURL": "brapi:documentationURL",
         "endDate": "brapi:endDate",
         "locationDbId": "brapi:locationDbId",
@@ -22,8 +22,7 @@
         "result": "brapi:result",
         "seasons": {
             "@container": "@list",
-            "@id": "brapi:seasons",
-            "@type": "brapi:season"
+            "@id": "brapi:seasons"
         },
         "startDate": "brapi:startDate",
         "studyDbId": "brapi:studyDbId",

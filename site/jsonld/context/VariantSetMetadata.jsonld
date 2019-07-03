@@ -6,7 +6,7 @@
             "@type": "brapi:Attributes"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "description": "brapi:description",
         "id": "brapi:id",
         "key": "brapi:key",

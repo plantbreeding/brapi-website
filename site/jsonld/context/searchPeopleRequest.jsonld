@@ -2,26 +2,22 @@
     "@context": {
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "emailAddresses": {
             "@container": "@list",
-            "@id": "brapi:emailAddresses",
-            "@type": "xsd:string"
+            "@id": "brapi:emailAddresses"
         },
         "firstNames": {
             "@container": "@list",
-            "@id": "brapi:firstNames",
-            "@type": "xsd:string"
+            "@id": "brapi:firstNames"
         },
         "lastNames": {
             "@container": "@list",
-            "@id": "brapi:lastNames",
-            "@type": "xsd:string"
+            "@id": "brapi:lastNames"
         },
         "mailingAddresses": {
             "@container": "@list",
-            "@id": "brapi:mailingAddresses",
-            "@type": "xsd:string"
+            "@id": "brapi:mailingAddresses"
         },
         "metadata": {
             "@id": "brapi:metadata",
@@ -29,24 +25,20 @@
         },
         "middleNames": {
             "@container": "@list",
-            "@id": "brapi:middleNames",
-            "@type": "xsd:string"
+            "@id": "brapi:middleNames"
         },
         "personDbIds": {
             "@container": "@list",
-            "@id": "brapi:personDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:personDbIds"
         },
         "phoneNumbers": {
             "@container": "@list",
-            "@id": "brapi:phoneNumbers",
-            "@type": "xsd:string"
+            "@id": "brapi:phoneNumbers"
         },
         "result": "brapi:result",
         "userIDs": {
             "@container": "@list",
-            "@id": "brapi:userIDs",
-            "@type": "xsd:string"
+            "@id": "brapi:userIDs"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

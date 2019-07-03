@@ -3,7 +3,7 @@
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "clientId": "brapi:clientId",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"

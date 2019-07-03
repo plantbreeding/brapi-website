@@ -13,14 +13,12 @@
         "commonCropName": "brapi:commonCropName",
         "contacts": {
             "@container": "@list",
-            "@id": "brapi:contacts",
-            "@type": "brapi:contact"
+            "@id": "brapi:contacts"
         },
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "datasetAuthorships": {
             "@container": "@list",
-            "@id": "brapi:datasetAuthorships",
-            "@type": "xsd:object"
+            "@id": "brapi:datasetAuthorships"
         },
         "datasetPUI": "brapi:datasetPUI",
         "documentationURL": "brapi:documentationURL",
@@ -37,8 +35,7 @@
         "publicationReference": "brapi:publicationReference",
         "publications": {
             "@container": "@list",
-            "@id": "brapi:publications",
-            "@type": "xsd:object"
+            "@id": "brapi:publications"
         },
         "result": "brapi:result",
         "startDate": "brapi:startDate",

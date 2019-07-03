@@ -3,13 +3,12 @@
         "@version": 1.1,
         "alternativeAbbreviations": {
             "@container": "@list",
-            "@id": "brapi:alternativeAbbreviations",
-            "@type": "xsd:string"
+            "@id": "brapi:alternativeAbbreviations"
         },
         "attribute": "brapi:attribute",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "class": "brapi:class",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "description": "brapi:description",
         "entity": "brapi:entity",
         "mainAbbreviation": "brapi:mainAbbreviation",
@@ -25,8 +24,7 @@
         "status": "brapi:status",
         "synonyms": {
             "@container": "@list",
-            "@id": "brapi:synonyms",
-            "@type": "xsd:string"
+            "@id": "brapi:synonyms"
         },
         "traitName": "brapi:traitName",
         "xsd": "http://www.w3.org/2001/XMLSchema#"

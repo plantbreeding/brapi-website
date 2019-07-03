@@ -8,41 +8,35 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropNames": {
             "@container": "@list",
-            "@id": "brapi:commonCropNames",
-            "@type": "xsd:string"
+            "@id": "brapi:commonCropNames"
         },
         "contactDbIds": {
             "@container": "@list",
-            "@id": "brapi:contactDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:contactDbIds"
         },
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
         },
         "programDbIds": {
             "@container": "@list",
-            "@id": "brapi:programDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:programDbIds"
         },
         "result": "brapi:result",
         "searchDateRangeEnd": "brapi:searchDateRangeEnd",
         "searchDateRangeStart": "brapi:searchDateRangeStart",
         "studyDbIds": {
             "@container": "@list",
-            "@id": "brapi:studyDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:studyDbIds"
         },
         "trialDbIds": {
             "@container": "@list",
-            "@id": "brapi:trialDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:trialDbIds"
         },
         "trialNames": {
             "@container": "@list",
-            "@id": "brapi:trialNames",
-            "@type": "xsd:string"
+            "@id": "brapi:trialNames"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

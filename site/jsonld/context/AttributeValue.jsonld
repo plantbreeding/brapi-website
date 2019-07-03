@@ -18,7 +18,7 @@
             "@type": "xsd:boolean"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "double_value": {
             "@id": "brapi:double_value",
             "@type": "xsd:number"

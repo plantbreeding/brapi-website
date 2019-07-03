@@ -4,15 +4,14 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "callSetDbId": "brapi:callSetDbId",
         "callSetName": "brapi:callSetName",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "genotype": {
             "@id": "brapi:genotype",
             "@type": "brapi:ListValue"
         },
         "genotype_likelihood": {
             "@container": "@list",
-            "@id": "brapi:genotype_likelihood",
-            "@type": "xsd:number"
+            "@id": "brapi:genotype_likelihood"
         },
         "metadata": {
             "@id": "brapi:metadata",

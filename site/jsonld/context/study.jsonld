@@ -11,23 +11,20 @@
         "commonCropName": "brapi:commonCropName",
         "contacts": {
             "@container": "@list",
-            "@id": "brapi:contacts",
-            "@type": "brapi:contact"
+            "@id": "brapi:contacts"
         },
         "culturalPractices": "brapi:culturalPractices",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "dataLinks": {
             "@container": "@list",
-            "@id": "brapi:dataLinks",
-            "@type": "brapi:dataLink"
+            "@id": "brapi:dataLinks"
         },
         "description": "brapi:description",
         "documentationURL": "brapi:documentationURL",
         "endDate": "brapi:endDate",
         "environmentParameters": {
             "@container": "@list",
-            "@id": "brapi:environmentParameters",
-            "@type": "brapi:environmentParameter"
+            "@id": "brapi:environmentParameters"
         },
         "experimentalDesign": {
             "@id": "brapi:experimentalDesign",
@@ -56,8 +53,7 @@
         "result": "brapi:result",
         "seasons": {
             "@container": "@list",
-            "@id": "brapi:seasons",
-            "@type": "xsd:string"
+            "@id": "brapi:seasons"
         },
         "startDate": "brapi:startDate",
         "studyDbId": "brapi:studyDbId",

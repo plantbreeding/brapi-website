@@ -6,7 +6,7 @@
             "@type": "brapi:additionalInfo"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "dateCreated": "brapi:dateCreated",
         "dateModified": "brapi:dateModified",
         "description": "brapi:description",

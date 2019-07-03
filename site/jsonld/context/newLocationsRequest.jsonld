@@ -13,7 +13,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "countryCode": "brapi:countryCode",
         "countryName": "brapi:countryName",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "documentationURL": "brapi:documentationURL",
         "instituteAddress": "brapi:instituteAddress",
         "instituteName": "brapi:instituteName",

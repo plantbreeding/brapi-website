@@ -6,11 +6,10 @@
             "@id": "brapi:currentPage",
             "@type": "xsd:integer"
         },
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "datafiles": {
             "@container": "@list",
-            "@id": "brapi:datafiles",
-            "@type": "xsd:string"
+            "@id": "brapi:datafiles"
         },
         "metadata": {
             "@id": "brapi:metadata",
@@ -27,8 +26,7 @@
         "result": "brapi:result",
         "status": {
             "@container": "@list",
-            "@id": "brapi:status",
-            "@type": "brapi:status"
+            "@id": "brapi:status"
         },
         "totalCount": {
             "@id": "brapi:totalCount",

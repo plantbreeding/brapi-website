@@ -7,12 +7,11 @@
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "copyright": "brapi:copyright",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "description": "brapi:description",
         "descriptiveOntologyTerms": {
             "@container": "@list",
-            "@id": "brapi:descriptiveOntologyTerms",
-            "@type": "xsd:string"
+            "@id": "brapi:descriptiveOntologyTerms"
         },
         "imageFileName": "brapi:imageFileName",
         "imageFileSize": {
@@ -40,8 +39,7 @@
         "mimeType": "brapi:mimeType",
         "observationDbIds": {
             "@container": "@list",
-            "@id": "brapi:observationDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:observationDbIds"
         },
         "observationUnitDbId": "brapi:observationUnitDbId",
         "result": "brapi:result",

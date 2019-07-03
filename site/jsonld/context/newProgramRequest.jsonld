@@ -4,7 +4,7 @@
         "abbreviation": "brapi:abbreviation",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "documentationURL": "brapi:documentationURL",
         "leadPersonDbId": "brapi:leadPersonDbId",
         "leadPersonName": "brapi:leadPersonName",

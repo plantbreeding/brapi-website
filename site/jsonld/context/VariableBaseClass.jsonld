@@ -4,11 +4,10 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "contextOfUse": {
             "@container": "@list",
-            "@id": "brapi:contextOfUse",
-            "@type": "xsd:string"
+            "@id": "brapi:contextOfUse"
         },
         "crop": "brapi:crop",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "defaultValue": "brapi:defaultValue",
         "documentationURL": "brapi:documentationURL",
         "growthStage": "brapi:growthStage",
@@ -36,8 +35,7 @@
         "submissionTimestamp": "brapi:submissionTimestamp",
         "synonyms": {
             "@container": "@list",
-            "@id": "brapi:synonyms",
-            "@type": "xsd:string"
+            "@id": "brapi:synonyms"
         },
         "trait": {
             "@id": "brapi:trait",

@@ -3,7 +3,7 @@
         "@version": 1.1,
         "blockNumber": "brapi:blockNumber",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "entryNumber": "brapi:entryNumber",
         "entryType": "brapi:entryType",
         "metadata": {

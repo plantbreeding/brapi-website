@@ -4,19 +4,16 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "callSetDbIds": {
             "@container": "@list",
-            "@id": "brapi:callSetDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:callSetDbIds"
         },
         "callSetNames": {
             "@container": "@list",
-            "@id": "brapi:callSetNames",
-            "@type": "xsd:string"
+            "@id": "brapi:callSetNames"
         },
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "germplasmDbIds": {
             "@container": "@list",
-            "@id": "brapi:germplasmDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:germplasmDbIds"
         },
         "metadata": {
             "@id": "brapi:metadata",
@@ -25,13 +22,11 @@
         "result": "brapi:result",
         "sampleDbIds": {
             "@container": "@list",
-            "@id": "brapi:sampleDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:sampleDbIds"
         },
         "variantSetDbIds": {
             "@container": "@list",
-            "@id": "brapi:variantSetDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:variantSetDbIds"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

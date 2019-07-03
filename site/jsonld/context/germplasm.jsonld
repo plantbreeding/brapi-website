@@ -11,23 +11,21 @@
         "breedingMethodDbId": "brapi:breedingMethodDbId",
         "commonCropName": "brapi:commonCropName",
         "countryOfOriginCode": "brapi:countryOfOriginCode",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "defaultDisplayName": "brapi:defaultDisplayName",
         "documentationURL": "brapi:documentationURL",
         "donorAccessionNumber": "brapi:donorAccessionNumber",
         "donorInstituteCode": "brapi:donorInstituteCode",
         "donors": {
             "@container": "@list",
-            "@id": "brapi:donors",
-            "@type": "xsd:object"
+            "@id": "brapi:donors"
         },
         "germplasmDbId": "brapi:germplasmDbId",
         "germplasmGenus": "brapi:germplasmGenus",
         "germplasmName": "brapi:germplasmName",
         "germplasmOrigin": {
             "@container": "@list",
-            "@id": "brapi:germplasmOrigin",
-            "@type": "brapi:germplasmOrigin"
+            "@id": "brapi:germplasmOrigin"
         },
         "germplasmPUI": "brapi:germplasmPUI",
         "germplasmPreprocessing": "brapi:germplasmPreprocessing",
@@ -47,18 +45,15 @@
         "subtaxaAuthority": "brapi:subtaxaAuthority",
         "synonyms": {
             "@container": "@list",
-            "@id": "brapi:synonyms",
-            "@type": "xsd:string"
+            "@id": "brapi:synonyms"
         },
         "taxonIds": {
             "@container": "@list",
-            "@id": "brapi:taxonIds",
-            "@type": "brapi:taxonID"
+            "@id": "brapi:taxonIds"
         },
         "typeOfGermplasmStorageCode": {
             "@container": "@list",
-            "@id": "brapi:typeOfGermplasmStorageCode",
-            "@type": "xsd:string"
+            "@id": "brapi:typeOfGermplasmStorageCode"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

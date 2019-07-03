@@ -2,7 +2,7 @@
     "@context": {
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "fileDescription": "brapi:fileDescription",
         "fileName": "brapi:fileName",
         "fileURL": "brapi:fileURL",
@@ -17,8 +17,7 @@
         },
         "shipmentForms": {
             "@container": "@list",
-            "@id": "brapi:shipmentForms",
-            "@type": "xsd:object"
+            "@id": "brapi:shipmentForms"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

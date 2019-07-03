@@ -8,8 +8,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": {
             "@container": "@list",
-            "@id": "brapi:data",
-            "@type": "xsd:string"
+            "@id": "brapi:data"
         },
         "description": "brapi:description",
         "listName": "brapi:listName",

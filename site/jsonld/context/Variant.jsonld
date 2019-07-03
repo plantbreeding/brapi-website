@@ -7,22 +7,19 @@
         },
         "alternate_bases": {
             "@container": "@list",
-            "@id": "brapi:alternate_bases",
-            "@type": "xsd:string"
+            "@id": "brapi:alternate_bases"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "ciend": {
             "@container": "@list",
-            "@id": "brapi:ciend",
-            "@type": "xsd:integer"
+            "@id": "brapi:ciend"
         },
         "cipos": {
             "@container": "@list",
-            "@id": "brapi:cipos",
-            "@type": "xsd:integer"
+            "@id": "brapi:cipos"
         },
         "created": "brapi:created",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "end": "brapi:end",
         "filtersApplied": {
             "@id": "brapi:filtersApplied",
@@ -30,8 +27,7 @@
         },
         "filtersFailed": {
             "@container": "@list",
-            "@id": "brapi:filtersFailed",
-            "@type": "xsd:string"
+            "@id": "brapi:filtersFailed"
         },
         "filtersPassed": {
             "@id": "brapi:filtersPassed",
@@ -50,8 +46,7 @@
         "variantDbId": "brapi:variantDbId",
         "variantNames": {
             "@container": "@list",
-            "@id": "brapi:variantNames",
-            "@type": "xsd:string"
+            "@id": "brapi:variantNames"
         },
         "variantSetDbId": "brapi:variantSetDbId",
         "variantType": "brapi:variantType",

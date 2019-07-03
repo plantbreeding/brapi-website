@@ -4,7 +4,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "crossingPlan": "brapi:crossingPlan",
         "crossingYear": "brapi:crossingYear",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "defaultDisplayName": "brapi:defaultDisplayName",
         "familyCode": "brapi:familyCode",
         "germplasmDbId": "brapi:germplasmDbId",
@@ -22,8 +22,7 @@
         "result": "brapi:result",
         "siblings": {
             "@container": "@list",
-            "@id": "brapi:siblings",
-            "@type": "xsd:object"
+            "@id": "brapi:siblings"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

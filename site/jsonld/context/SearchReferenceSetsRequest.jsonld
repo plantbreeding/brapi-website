@@ -4,7 +4,7 @@
         "accession": "brapi:accession",
         "assemblyPUI": "brapi:assemblyPUI",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "md5checksum": "brapi:md5checksum",
         "metadata": {
             "@id": "brapi:metadata",

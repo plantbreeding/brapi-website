@@ -6,7 +6,7 @@
             "@type": "xsd:boolean"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "data": "brapi:datacd",
+        "data": "brapi:data",
         "list_value": {
             "@id": "brapi:list_value",
             "@type": "brapi:ListValue"
