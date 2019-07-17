@@ -1,4 +1,29 @@
-[
+[{
+        "title": "Hyderabad Hackathon",
+        "location": "Hyderabad, India",
+        "date": "February 3, 2020 - February 7, 2020",
+        "image": "assets/images/events/hyderabad_thumb.jpeg",
+        "description": "<p>The next BrAPI Hackathon will take place at ICRISAT Headquarters in Hyderabad, February 3rd through February 7th, 2020. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. </p>",
+        "upcoming": true,
+        "links": [{
+                "name": "Sign Up Now",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSf0ffj_suSWSxXajv5vpyWIUdz_F3I6ApLNV91uSmkTFgZ1mA/viewform?usp=sf_link"
+            },
+            {
+                "name": "Agenda",
+                "url": "https://docs.google.com/document/d/1av3E39rRSH9FETnLqyGCTFOMItHgz3SuMIz5T1L5ZKM"
+            },
+            {
+                "name": "Travel Guide",
+                "url": "https://docs.google.com/document/d/15BdBzXJsit_WB3bn5U379veioBltgihkpFtduTtKWVw"
+            }
+        ],
+        "showSponsors": true,
+        "sponsorsLogos": [{
+            "logo": "assets/images/institutions/eiblogo.png",
+            "url": "http://excellenceinbreeding.org/"
+        }]
+    },
     {
         "title": "Wageningen Hackathon",
         "location": "Wageningen, Netherlands",
@@ -6,8 +31,7 @@
         "image": "assets/images/events/wageningen_thumb.jpeg",
         "description": "<p>The next BrAPI Hackathon will take place at Wageningen University & Research, April 29th through May 3rd. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. </p>",
         "upcoming": false,
-        "links": [
-            {
+        "links": [{
                 "name": "Waiting List",
                 "url": "https://docs.google.com/forms/d/e/1FAIpQLSezNbsR0YX2ozE86Et5_zR-lSjzhOlPFlylHFB9ptzrUHkGgA/viewform?usp=sf_link"
             },
@@ -21,10 +45,9 @@
             }
         ],
         "showSponsors": true,
-        "sponsorsLogos":[
-            {
-              "logo": "assets/images/institutions/wageningen_logo_thumb.png",
-              "url": "http://www.wur.nl/en/wageningen-university.htm"
+        "sponsorsLogos": [{
+                "logo": "assets/images/institutions/wageningen_logo_thumb.png",
+                "url": "http://www.wur.nl/en/wageningen-university.htm"
             },
             {
                 "logo": "assets/images/institutions/eiblogo.png",
@@ -39,12 +62,10 @@
         "image": "assets/images/events/san-diego_thumb.jpg",
         "description": "<p>Join us in San Diego for a BrAPI community meetup on Sunday afternoon of the PAG Conference. The focus of the discussion for this meet up will be around the genotyping data models used in BrAPI. We will be in the Crescent room (Right next to Charlie's).</p><p>Can't make it on Sunday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
         "upcoming": false,
-        "links": [
-            {
-                "name": "PAG Website",
-                "url": "http://www.intlpag.org/2019/"
-            }
-        ]
+        "links": [{
+            "name": "PAG Website",
+            "url": "http://www.intlpag.org/2019/"
+        }]
     },
     {
         "title": "Texcoco Hackathon",
@@ -53,8 +74,7 @@
         "image": "assets/images/events/texcoco_thumb.jpg",
         "description": "<p>The next BrAPI Hackathon will take place in Texcoco, Mexico, September 10th through 14th. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI.</p>",
         "upcoming": false,
-        "links": [
-            {
+        "links": [{
                 "name": "Hackathon Agenda",
                 "url": "https://docs.google.com/document/d/1paVkn6GspcO9CW2bhMLrE0q42RkTZ7XSq_-nd3-sQ8c"
             },
@@ -64,12 +84,10 @@
             }
         ],
         "showSponsors": true,
-        "sponsorsLogos":[
-            {
-                "logo": "assets/images/institutions/eiblogo.png",
-                "url": "http://excellenceinbreeding.org/"
-            }
-        ]
+        "sponsorsLogos": [{
+            "logo": "assets/images/institutions/eiblogo.png",
+            "url": "http://excellenceinbreeding.org/"
+        }]
     },
     {
         "title": "PhenoHarmonIS 2018",
@@ -78,12 +96,10 @@
         "image": "assets/images/events/montpellier_thumb.jpg",
         "description": "<p>There will be several BrAPI workshops at the PhenoHarmonIS 2018 conference. Whether you are new to BrAPI or a seasoned veteran there will be something for you. Check the Event Website for more information.</p>",
         "upcoming": false,
-        "links": [
-            {
-                "name": "Event Website",
-                "url": "https://sites.google.com/a/cgxchange.org/cropontologycommunity/home/2018-phenoharmonis"
-            }
-        ]
+        "links": [{
+            "name": "Event Website",
+            "url": "https://sites.google.com/a/cgxchange.org/cropontologycommunity/home/2018-phenoharmonis"
+        }]
     },
     {
         "title": "BrAPI @ IFLRC #7",
@@ -92,12 +108,10 @@
         "image": "assets/images/events/marrakesh_thumb.jpg",
         "description": "<p>The 7th International Food Legume Research Conference will include a short presentation about BrAPI, and representatives for the BrAPI community will be present for the disccussion forums during the event.</p>",
         "upcoming": false,
-        "links": [
-            {
-                "name": "Event Website",
-                "url": "http://www.iflrc.org/"
-            }
-        ]
+        "links": [{
+            "name": "Event Website",
+            "url": "http://www.iflrc.org/"
+        }]
     },
     {
         "title": "Versailles Hackathon",
@@ -106,8 +120,7 @@
         "image": "assets/images/events/versailles_thumb.jpg",
         "description": "<h5 style=\"color: red;\">Registration Closed</h5> <p style=\"color: red;\">Unfortunately, the Versailles hackathon is completely full! <br> If you would like to be added to a waiting list please reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline; color: red;\">a BrAPI Coordinator</a></p><p>The next BrAPI Hackathon will take place in Versailles, France, on February 5th through 9th. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI.</p>",
         "upcoming": false,
-        "links": [
-            {
+        "links": [{
                 "name": "Hackathon Agenda",
                 "url": "https://docs.google.com/document/d/1G3XPLlu9MHLHP003ExmfgM0uaObX_2lVVBv4qKyZ8-g"
             },
@@ -117,8 +130,7 @@
             }
         ],
         "showSponsors": true,
-        "sponsorsLogos":[
-            {
+        "sponsorsLogos": [{
                 "logo": "assets/images/institutions/inra.png",
                 "url": "http://institut.inra.fr/en"
             },
@@ -139,12 +151,10 @@
         "image": "assets/images/events/san-diego_thumb.jpg",
         "description": "<p>There will be an informal BrAPI community meetup during the PAG Conference. Come meet, talk to, and network with other members in the BrAPI community. Ascot Hall (near Charlie's Bar) in the Town and Country convention center from noon to 2pm on Sunday, Jan 14.</p><p>Can't make it on Sunday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
         "upcoming": false,
-        "links": [
-            {
-                "name": "PAG Website",
-                "url": "http://www.intlpag.org/"
-            }
-        ]
+        "links": [{
+            "name": "PAG Website",
+            "url": "http://www.intlpag.org/"
+        }]
     },
     {
         "title": "Seattle Hackathon",
@@ -153,11 +163,9 @@
         "image": "assets/images/events/seattle_thumb.jpg",
         "description": "<p>BrAPI Community Hackathon in Seattle.</p>",
         "upcoming": false,
-        "links": [
-            {
-                "name": "Hackathon Agenda",
-                "url": "https://github.com/plantbreeding/Documentation/wiki"
-            }
-        ]
+        "links": [{
+            "name": "Hackathon Agenda",
+            "url": "https://github.com/plantbreeding/Documentation/wiki"
+        }]
     }
 ]
