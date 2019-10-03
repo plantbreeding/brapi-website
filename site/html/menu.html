@@ -38,14 +38,75 @@
                     </li>
                 </ul>
             </li>
+            <li class="dropdown">
+                <a href="/documentation" class="dropdown-toggle" data-toggle="dropdown">Documentation</a>
+                <ul class="dropdown-menu" id="Documentation-menu">
+                    <li>
+                        <a href="/specification" target="_blank">BrAPI Specification</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/plantbreeding/API" target="_blank">GitHub</a>
+                    </li>
+
+                    <li>
+                        <a href="https://wiki.brapi.org/index.php/BrAPI" target="_blank">Wiki</a>
+                    </li>
+
+                    <li>
+                        <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz190/5418796" target="_blank">Publication</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="/libraries" class="dropdown-toggle" data-toggle="dropdown">Libraries</a>
+                <ul class="dropdown-menu" id="Libraries-menu">
+                    <li>
+                        <a href="https://github.com/CIP-RIU/brapi" target="_blank">BrAPI R</a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/c5sire/brapix" target="_blank">BrAPI X (R)</a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/c5sire/brapiui" target="_blank">BrAPI UI (R)</a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/solgenomics/BrAPI.js" target="_blank">BrAPI.js</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.drupal.org/project/brapi" target="_blank">BrAPI + Drupal</a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/imilne/jhi-brapi" target="_blank">Java Client Library</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="/tools" class="dropdown-toggle" data-toggle="dropdown">Tools</a>
+                <ul class="dropdown-menu" id="Tools-menu">
+                    <li>
+                        <a href="https://brapi.org/brapps" target="_blank">BrAPPs</a>
+                    </li>
+                    <li>
+                        <a href="http://webapps.ipk-gatersleben.de/brapivalidator" target="_blank">BRAVA</a>
+                    </li>
+                    <li>
+                        <a href="https://test-server.brapi.org/brapi/v1" target="_blank">BrAPI Test Server</a>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
 </div>
 
 <script id="dev-links-template" type="x-tmpl-mustache">
-        <li>
-            <a href="{{ url }}" target="_blank">{{ title }}</a>
-        </li>
+    <li>
+        <a href="{{ url }}" target="_blank">{{ title }}</a>
+    </li>
 </script>
 <script id="dev-links-template-header" type="x-tmpl-mustache">
     <li class="dropdown">

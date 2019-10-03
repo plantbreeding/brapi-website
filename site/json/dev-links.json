@@ -1,5 +1,4 @@
-[
-    {
+[{
         "title": "GitHub",
         "image": "assets/images/tools/code.jpg",
         "url": "https://github.com/plantbreeding/API",
@@ -60,7 +59,7 @@
         "image": "assets/images/tools/water_drop.jpeg",
         "url": "https://www.drupal.org/project/brapi",
         "type": "lib",
-        "description": "This is a BrAPI client module written for the Drupal CMS. Check out a demo <a href=\"https://www.crop-diversity.org/mgis/brapi/query\">HERE</a>"
+        "description": "This is a BrAPI client module written for the Drupal CMS."
     },
     {
         "title": "Java Client Library",

@@ -15,12 +15,12 @@
                 ?>
             </nav>
             <?php
-                $PageTitle = "Developer Resources";
+                $PageTitle = "BrAPI Specification";
                 include("html/page-title-section.php");
             ?>
             <div class="main">
                 <?php
-                    include("html/links-section.html");
+                    include("html/specification.html");
                     include("html/footer.html");
                 ?>
             </div>
@@ -29,23 +29,6 @@
         <?php
             include("html/scripts.html");
         ?>
-        <script>
-            devLinks.done(function(links){
-              $(links).each(function(i, e) {
-                var template = $('#link-template').html();
-                Mustache.parse(template); // optional, speeds up future uses
-                var rendered = Mustache.render(template, e);
-                
-                if($(e)[0]['type'] == 'doc'){
-                    $('#links-grid-docs').append(rendered);
-                }else if($(e)[0]['type'] == 'tool'){
-                    $('#links-grid-tools').append(rendered);
-                }else if($(e)[0]['type'] == 'lib'){
-                    $('#links-grid-libs').append(rendered);
-                }
-              });
-            });
-        </script>
         
     </body>
 </html>

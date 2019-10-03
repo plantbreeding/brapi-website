@@ -23,57 +23,28 @@
             x.style.display = "none";
         }
     }
-    
-    function renderTemplate(template, id, obj){
+
+    function renderTemplate(template, id, obj) {
         var template = $(template).html();
         Mustache.parse(template); // optional, speeds up future uses
         var rendered = Mustache.render(template, obj);
         $(id).append(rendered);
     }
 
-    $.getJSON("json/events.json", function (events) {
-        addEventTag = function (event) {
-            if (event['upcoming']) {
-                event.primary_link = event['links'][0]['url'];
-                renderTemplate('#event-tag-template', '#event-tags', event)
+    $.getJSON("json/events.json", function(events) {
+        addEventTag = function(event) {
+                if (event['upcoming']) {
+                    event.primary_link = event['links'][0]['url'];
+                    renderTemplate('#event-tag-template', '#event-tags', event)
+                }
             }
-        }
-        // add just top 2 upcoming events to footer
+            // add just top 2 upcoming events to footer
         addEventTag($(events)['0']);
         addEventTag($(events)['1']);
     });
 
     // Load JSON once, use twice (here and in 'developers.php')
     var devLinks = $.getJSON("json/dev-links.json");
-
-    devLinks.done(function(links){
-        var docs = new Array();
-        var libs = new Array();
-        var tools = new Array();
-        $(links).each(function(i, e) {
-            if($(e)[0]['type'] == 'doc'){
-                docs.push(e);
-            }else if($(e)[0]['type'] == 'tool'){
-                tools.push(e);
-            }else if($(e)[0]['type'] == 'lib'){
-                libs.push(e);
-            }
-        });
-
-        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'/developers#', 'title':'Documentation'});
-        $(docs).each(function(i, e) {
-            renderTemplate('#dev-links-template', '#Documentation-menu', e);
-        });
-        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'/developers#libraries', 'title':'Libraries'});
-        $(libs).each(function(i, e) {
-            renderTemplate('#dev-links-template', '#Libraries-menu', e);
-        });
-        renderTemplate('#dev-links-template-header', '#menu-list', {'url':'/developers#tools', 'title':'Tools'});
-        $(tools).each(function(i, e) {
-            renderTemplate('#dev-links-template', '#Tools-menu', e);
-        });
-
-    });
 </script>
 
 <script src="assets/js/main.js"></script>
