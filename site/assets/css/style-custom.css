@@ -81,3 +81,55 @@
 .brapi-section-description {
     margin: 5px 0 0 5px;
 }
+
+
+/* brapps */
+
+.brapp {
+    padding-top: 20px;
+    overflow: auto;
+}
+
+.brapp-box {
+    border: lightgray solid 1px;
+    overflow: auto;
+}
+
+.brapp-thumbnail {
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.brapp-header {
+    margin: 15px 0 10px 0;
+}
+
+.brapp-header p,
+h2 {
+    margin: 0;
+}
+
+.brapp-links {
+    margin: 20px 0 0 0;
+}
+
+.brapp-links button {
+    padding: 6px 12px;
+}
+
+.brapp-details {
+    border-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: none;
+}
+
+.brapp-details p {
+    margin: 0;
+}
+
+.brapp-details-btn button {
+    padding: 0px 0px;
+    width: 100%;
+    height: 20px;
+}

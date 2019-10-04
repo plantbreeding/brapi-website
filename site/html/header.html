@@ -37,4 +37,40 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style-titan.css" rel="stylesheet">
     <link href="assets/css/style-custom.css" rel="stylesheet">
+
+
+
+    <script src="assets/lib/mustache/mustache.min.js"></script>
+    <script src="assets/lib/jquery/dist/jquery-3.2.1.min.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        function renderTemplate(template, id, obj) {
+            var template = $(template).html();
+            Mustache.parse(template); // optional, speeds up future uses
+            var rendered = Mustache.render(template, obj);
+            $(id).append(rendered);
+        }
+
+        $(document).ready(function() {
+            $.getJSON("json/events.json", function(events) {
+                addEventTag = function(event) {
+                        if (event['upcoming']) {
+                            event.primary_link = event['links'][0]['url'];
+                            renderTemplate('#event-tag-template', '#event-tags', event)
+                        }
+                    }
+                    // add just top 2 upcoming events to footer
+                addEventTag($(events)['0']);
+                addEventTag($(events)['1']);
+            });
+        });
+    </script>
+
 </head>

@@ -26,8 +26,5 @@
             </div>
             <div class="scroll-up"><a href="#totop"><i class="mdi mdi-chevron-up"></i></a></div>
         </main>
-        <?php
-            include("html/scripts.html");
-        ?>
     </body>
 </html>

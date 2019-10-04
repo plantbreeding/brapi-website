@@ -26,23 +26,25 @@
             </div>
             <div class="scroll-up"><a href="#totop"><i class="mdi mdi-chevron-up"></i></a></div>
         </main>
-        <?php
-            include("html/scripts.html");
-        ?>
         <script>
-            $.getJSON("json/events.json?x=" + Date.now(), function(event){
-                $(event).each(function(i, e){
-                    if($(e)[0]['upcoming']){
-                        var template = $('#event-template').html();
-                        Mustache.parse(template); // optional, speeds up future uses
-                        var rendered = Mustache.render(template, e);
-                        $('#event-list').append(rendered);
-                    }else{
-                        var template = $('#past-event-template').html();
-                        Mustache.parse(template); // optional, speeds up future uses
-                        var rendered = Mustache.render(template, e);
-                        $('#past-event-list').append(rendered);
-                    }
+            $( document ).ready(function() {
+                $.getJSON("json/events.json?nocache=" + Date.now(), function(event){
+                    
+                    var event_template = $('#event-template').html();
+                    Mustache.parse(event_template); // optional, speeds up future uses
+
+                    var past_event_template = $('#past-event-template').html();
+                    Mustache.parse(past_event_template); // optional, speeds up future uses
+
+                    $(event).each(function(i, e){
+                        if($(e)[0]['upcoming']){
+                            var rendered = Mustache.render(event_template, e);
+                            $('#event-list').append(rendered);
+                        }else{
+                            var rendered = Mustache.render(past_event_template, e);
+                            $('#past-event-list').append(rendered);
+                        }
+                    });
                 });
             });
         </script>

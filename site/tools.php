@@ -35,20 +35,20 @@
             </div>
             <div class="scroll-up"><a href="#totop"><i class="mdi mdi-chevron-up"></i></a></div>
         </main>
-        <?php
-            include("html/scripts.html");
-        ?>
         <script>
-            devLinks.done(function(links){
-              $(links).each(function(i, e) {
-                var template = $('#link-template').html();
-                Mustache.parse(template); // optional, speeds up future uses
-                var rendered = Mustache.render(template, e);
-                
-                if($(e)[0]['type'] == 'tool'){
-                    $('#links-grid-docs').append(rendered);
-                }
-              });
+            $( document ).ready(function() {
+                var devLinks = $.getJSON("json/dev-links.json?nocache=" + Date.now());
+                devLinks.done(function(links){
+                    var template = $('#link-template').html();
+                    Mustache.parse(template); // optional, speeds up future uses
+                    
+                    $(links).each(function(i, e) {
+                        if($(e)[0]['type'] == 'tool'){
+                            var rendered = Mustache.render(template, e);
+                            $('#links-grid-docs').append(rendered);
+                        }
+                    });
+                });
             });
         </script>
         

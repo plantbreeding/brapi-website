@@ -27,22 +27,22 @@
             </div>
             <div class="scroll-up"><a href="#totop"><i class="mdi mdi-chevron-up"></i></a></div>
         </main>
-        <?php
-            include("html/scripts.html");
-        ?>
-        <script>
-            $.getJSON("json/partners.json", function(partners){
-                  // Sort them by name
-              partners.sort(function(a, b) {
-                return a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
-              });
         
-              $(partners).each(function(i, e) {
-                var template = $('#partner-template').html();
-                Mustache.parse(template); // optional, speeds up future uses
-                var rendered = Mustache.render(template, e);
-                $('#works-grid').append(rendered);
-              });
+        <script>
+            $( document ).ready(function() {
+                $.getJSON("json/partners.json?nocache=" + Date.now(), function(partners){
+                    // Sort them by name
+                    partners.sort(function(a, b) {
+                        return a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
+                    });
+            
+                    var template = $('#partner-template').html();
+                    Mustache.parse(template); // optional, speeds up future uses
+                    $(partners).each(function(index, element) {
+                        var rendered = Mustache.render(template, element);
+                        $('#works-grid').append(rendered);
+                    });
+                });
             });
         </script>
     </body>

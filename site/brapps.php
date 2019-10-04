@@ -27,26 +27,37 @@
             </div>
             <div class="scroll-up"><a href="#totop"><i class="mdi mdi-chevron-up"></i></a></div>
         </main>
-        <?php
-            include("html/scripts.html");
-        ?>
         <script>
-            // Load BrAPPs section template            
-            var brappLinks = $.getJSON("json/app-links.json");
-            brappLinks.done(function(links){
-              $(links).each(function(i, e) {
-                if($(e)[0]['published']){
-                    var template = $('#brapp-template').html();
-                    Mustache.parse(template); // optional, speeds up future uses
-                    var rendered = Mustache.render(template, e);
-                    $('#brapp-grid').append(rendered);
+            function toggleVisible(id) {
+                var x = document.getElementById(id);
+                if (x.style.display === "block") {
+                    x.style.display = "none";
                 } else {
-                    var template = $('#brapp-dev-template').html();
-                    Mustache.parse(template); // optional, speeds up future uses
-                    var rendered = Mustache.render(template, e);
-                    $('#brapp-dev-grid').append(rendered);
+                    x.style.display = "block";
                 }
-              });
+            }
+            
+            $( document ).ready(function() {
+                
+                var brapp_template = $('#brapp-template').html();
+                Mustache.parse(brapp_template); // optional, speeds up future uses
+                
+                var brapp_dev_template = $('#brapp-dev-template').html();
+                Mustache.parse(brapp_dev_template); // optional, speeds up future uses
+                
+                // Load BrAPPs section template            
+                var brappLinks = $.getJSON("json/app-links.json?nocache=" + Date.now());
+                brappLinks.done(function(links){
+                    $(links).each(function(i, e) {
+                        if($(e)[0]['published']){
+                            var rendered = Mustache.render(brapp_template, e);
+                            $('#brapp-grid').append(rendered);
+                        } else {
+                            var rendered = Mustache.render(brapp_dev_template, e);
+                            $('#brapp-dev-grid').append(rendered);
+                        }
+                    });
+                });
             });
         </script>
 

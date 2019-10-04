@@ -1,23 +1,16 @@
 [{
+        "title": "BrAPI Specification",
+        "image": "assets/images/tools/documentation.jpg",
+        "url": "/specification",
+        "type": "doc",
+        "description": "The official BrAPI specification. Links available for all versions and repositories."
+    },
+    {
         "title": "GitHub",
         "image": "assets/images/tools/code.jpg",
         "url": "https://github.com/plantbreeding/API",
         "type": "doc",
         "description": "Raise issues, submit change propsals, and check on upcoming enhancments. Become part of the BrAPI developer community by checking out the GitHub project."
-    },
-    {
-        "title": "SwaggerHub",
-        "image": "assets/images/tools/crane.jpeg",
-        "url": "https://app.swaggerhub.com/apis-docs/PlantBreedingAPI/BrAPI",
-        "type": "doc",
-        "description": "Browser the BrAPI specification on SwaggerHub."
-    },
-    {
-        "title": "Apiary",
-        "image": "assets/images/tools/documentation.jpg",
-        "url": "http://docs.brapi.apiary.io/",
-        "type": "doc",
-        "description": "Don't like reading raw markdown files? Take a look at the human readable version of BrAPI, hosted by Apiary."
     },
     {
         "title": "Wiki",
