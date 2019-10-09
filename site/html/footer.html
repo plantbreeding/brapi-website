@@ -1,56 +1,50 @@
 <div class="module-small bg-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="widget">
-          <h5 class="widget-title font-alt">Project Coordinators</h5>
-          <ul class="icon-list">
-            <li>
-              <a href="mailto:jeback1@gmail.com">Jan-Erik Backlund </a>
-              <i class="mdi mdi-email"></i>
-            </li>
-            <li>
-              <a href="mailto:lam87@cornell.edu">Lukas Mueller </a>
-              <i class="mdi mdi-email"></i>
-            </li>
-            <li>
-              <a href="mailto:brapicoordinatorselby@gmail.com">Peter Selby </a>
-              <i class="mdi mdi-email"></i>
-            </li>
-          </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Project Coordinator</h5>
+                    <ul class="icon-list">
+                        <li>
+                            <a href="mailto:brapicoordinatorselby@gmail.com">Peter Selby </a>
+                            <i class="mdi mdi-email"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Upcoming events</h5>
+                    <ul class="widget-posts" id="event-tags">
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="widget">
-          <h5 class="widget-title font-alt">Upcoming events</h5>
-          <ul class="widget-posts" id="event-tags">
-          </ul>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
 <footer class="footer bg-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <p class="copyright font-alt">&copy;
-          <script>document.write(new Date().getFullYear())</script>&nbsp;BrAPI, All Rights Reserved</p>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="copyright font-alt">&copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>&nbsp;BrAPI, All Rights Reserved</p>
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
 
 <script id="event-tag-template" type="x-tmpl-mustache">
-  <li class="clearfix">
-    <a href="{{ primary_link }}">
-      <div class="widget-posts-image">
-        <img src="{{ image }}" alt="Post Thumbnail" />
-      </div>
-      <div class="widget-posts-body">
-        <div class="widget-posts-title">{{ title }}</div>
-        <div class="widget-posts-meta">{{ location }} | {{ date }}</div>
-      </div>
-    </a>
-  </li>
+    <li class="clearfix">
+        <a href="{{ primary_link }}">
+            <div class="widget-posts-image">
+                <img src="{{ image }}" alt="Post Thumbnail" />
+            </div>
+            <div class="widget-posts-body">
+                <div class="widget-posts-title">{{ title }}</div>
+                <div class="widget-posts-meta">{{ location }} | {{ date }}</div>
+            </div>
+        </a>
+    </li>
 </script>

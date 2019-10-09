@@ -27,16 +27,7 @@
             </div>
             <div class="scroll-up"><a href="#totop"><i class="mdi mdi-chevron-up"></i></a></div>
         </main>
-        <script>
-            function toggleVisible(id) {
-                var x = document.getElementById(id);
-                if (x.style.display === "block") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "block";
-                }
-            }
-            
+        <script>            
             $( document ).ready(function() {
                 
                 var brapp_template = $('#brapp-template').html();
