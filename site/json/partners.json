@@ -147,5 +147,10 @@
         "img": "BreedingInsightLogo.png",
         "name": "Breeding Insight",
         "url": "https://www.breedinginsight.org/"
+    },
+    {
+        "img": "PFR_logo.jpg",
+        "name": "Plant & Food Research",
+        "url": "https://www.plantandfood.co.nz/"
     }
 ]
