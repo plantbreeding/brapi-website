@@ -152,5 +152,15 @@
         "img": "PFR_logo.jpg",
         "name": "Plant & Food Research",
         "url": "https://www.plantandfood.co.nz/"
+    },
+    {
+        "img": "breedbase.png",
+        "name": "Breedbase",
+        "url": "https://breedbase.org/"
+    },
+    {
+        "img": "ListenField_logo.png",
+        "name": "ListenField",
+        "url": "https://www.listenfield.com/"
     }
 ]
