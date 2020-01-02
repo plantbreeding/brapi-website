@@ -3,7 +3,7 @@
         "location": "San Diego, USA",
         "date": "10:30 - 12:30, Sunday, Jan 12, 2020",
         "image": "assets/images/events/san-diego_thumb.jpg",
-        "description": "<p>Join us in San Diego for a BrAPI community meetup on Sunday afternoon of the PAG Conference. The focus of the discussion for this meet up will be BrAPI V2.0. We will be at the <a target=\"_blank\" href=\"https://sd.handlery.com/contact-location-en.html\">Handlery Hotel</a>.</p><p>Can't make it on Sunday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
+        "description": "<p>Join us in San Diego at PAG for a BrAPI community meetup on Sunday morning at the <a target=\"_blank\" href=\"https://sd.handlery.com/contact-location-en.html\">Handlery Hotel</a>. The focus of the discussion for this meet up will be BrAPI V2.0. </p><p>Can't make it on Sunday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
         "upcoming": true,
         "links": [{
             "name": "PAG Website",
@@ -47,18 +47,9 @@
         "description": "<p>The next BrAPI Hackathon will take place at Wageningen University & Research, April 29th through May 3rd. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. </p>",
         "upcoming": false,
         "links": [{
-                "name": "Waiting List",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSezNbsR0YX2ozE86Et5_zR-lSjzhOlPFlylHFB9ptzrUHkGgA/viewform?usp=sf_link"
-            },
-            {
-                "name": "Agenda",
-                "url": "assets/docs/Wageningen_Hackathon_2019_Agenda_4.pdf"
-            },
-            {
-                "name": "Travel Guide",
-                "url": "assets/docs/Wageningen_Hackathon_Travel_Guide.pdf"
-            }
-        ],
+            "name": "Agenda",
+            "url": "assets/docs/Wageningen_Hackathon_2019_Agenda_4.pdf"
+        }],
         "showSponsors": true,
         "sponsorsLogos": [{
                 "logo": "assets/images/institutions/wageningen_logo_thumb.png",

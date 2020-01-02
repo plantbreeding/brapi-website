@@ -48,3 +48,22 @@
         </a>
     </li>
 </script>
+
+<script>
+    $(document).ready(function() {
+        $.getJSON("json/events.json?nocache=" + Date.now(), function(events) {
+            addEventTag = function(event) {
+                    if (event['upcoming']) {
+                        event.primary_link = event['links'][0]['url'];
+                        var template = $('#event-tag-template').html();
+                        Mustache.parse(template);
+                        var rendered = Mustache.render(template, event);
+                        $('#event-tags').append(rendered);
+                    }
+                }
+                // add just top 2 upcoming events to footer
+            addEventTag($(events)['0']);
+            addEventTag($(events)['1']);
+        });
+    });
+</script>

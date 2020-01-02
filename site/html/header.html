@@ -51,13 +51,6 @@
     <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-        function renderTemplate(template, id, obj) {
-            var template = $(template).html();
-            Mustache.parse(template); // optional, speeds up future uses
-            var rendered = Mustache.render(template, obj);
-            $(id).append(rendered);
-        }
-
         function toggleVisible(toggleId, btnId, displayTxt, hideTxt) {
             var toggleElm = document.getElementById(toggleId);
             var btnElm = document.getElementById(btnId);
@@ -69,20 +62,6 @@
                 btnElm.innerText = displayTxt;
             }
         }
-
-        $(document).ready(function() {
-            $.getJSON("json/events.json", function(events) {
-                addEventTag = function(event) {
-                        if (event['upcoming']) {
-                            event.primary_link = event['links'][0]['url'];
-                            renderTemplate('#event-tag-template', '#event-tags', event)
-                        }
-                    }
-                    // add just top 2 upcoming events to footer
-                addEventTag($(events)['0']);
-                addEventTag($(events)['1']);
-            });
-        });
     </script>
 
 </head>
