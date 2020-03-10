@@ -4,7 +4,7 @@
         "date": "February 3, 2020 - February 7, 2020",
         "image": "assets/images/events/hyderabad_thumb.jpg",
         "description": "<p>The next BrAPI Hackathon will take place at ICRISAT Headquarters in Hyderabad, February 3rd through February 7th, 2020. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. </p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [{
                 "name": "Sign Up Now",
                 "url": "https://docs.google.com/forms/d/e/1FAIpQLSf0ffj_suSWSxXajv5vpyWIUdz_F3I6ApLNV91uSmkTFgZ1mA/viewform?usp=sf_link"
