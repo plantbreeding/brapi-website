@@ -1,31 +1,36 @@
 {
     "@context": {
         "@version": 1.1,
+        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "commonCropName": "brapi:commonCropName",
         "contextOfUse": {
             "@container": "@list",
             "@id": "brapi:contextOfUse"
         },
-        "crop": "brapi:crop",
         "data": "brapi:data",
         "defaultValue": "brapi:defaultValue",
         "documentationURL": "brapi:documentationURL",
+        "externalReferences": {
+            "@id": "brapi:externalReferences",
+            "@type": "brapi:ExternalReferences"
+        },
         "growthStage": "brapi:growthStage",
         "institution": "brapi:institution",
         "language": "brapi:language",
         "metadata": "brapi:metadata",
         "method": {
             "@id": "brapi:method",
-            "@type": "brapi:method"
+            "@type": "xsd:string"
         },
         "ontologyReference": {
             "@id": "brapi:ontologyReference",
-            "@type": "brapi:ontologyReference"
+            "@type": "brapi:OntologyReference"
         },
         "result": "brapi:result",
         "scale": {
             "@id": "brapi:scale",
-            "@type": "brapi:scale"
+            "@type": "xsd:string"
         },
         "scientist": "brapi:scientist",
         "status": "brapi:status",
@@ -36,9 +41,8 @@
         },
         "trait": {
             "@id": "brapi:trait",
-            "@type": "brapi:trait"
+            "@type": "xsd:string"
         },
-        "xref": "brapi:xref",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

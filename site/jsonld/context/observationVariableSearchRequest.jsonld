@@ -3,56 +3,8 @@
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
-        "dataTypes": {
-            "@container": "@list",
-            "@id": "brapi:dataTypes"
-        },
         "metadata": "brapi:metadata",
-        "methodDbIds": {
-            "@container": "@list",
-            "@id": "brapi:methodDbIds"
-        },
-        "observationVariableDbIds": {
-            "@container": "@list",
-            "@id": "brapi:observationVariableDbIds"
-        },
-        "observationVariableNames": {
-            "@container": "@list",
-            "@id": "brapi:observationVariableNames"
-        },
-        "observationVariableXrefs": {
-            "@container": "@list",
-            "@id": "brapi:observationVariableXrefs"
-        },
-        "ontologyDbIds": {
-            "@container": "@list",
-            "@id": "brapi:ontologyDbIds"
-        },
         "result": "brapi:result",
-        "scaleDbIds": {
-            "@container": "@list",
-            "@id": "brapi:scaleDbIds"
-        },
-        "scaleXrefs": {
-            "@container": "@list",
-            "@id": "brapi:scaleXrefs"
-        },
-        "studyDbId": {
-            "@container": "@list",
-            "@id": "brapi:studyDbId"
-        },
-        "traitClasses": {
-            "@container": "@list",
-            "@id": "brapi:traitClasses"
-        },
-        "traitDbIds": {
-            "@container": "@list",
-            "@id": "brapi:traitDbIds"
-        },
-        "traitXrefs": {
-            "@container": "@list",
-            "@id": "brapi:traitXrefs"
-        },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

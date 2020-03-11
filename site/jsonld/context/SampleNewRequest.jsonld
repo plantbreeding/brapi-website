@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "additionalInfo": "brapi:additionalInfo",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "column": {
+            "@id": "brapi:column",
+            "@type": "xsd:integer"
+        },
+        "data": "brapi:data",
+        "externalReferences": {
+            "@id": "brapi:externalReferences",
+            "@type": "brapi:ExternalReferences"
+        },
+        "germplasmDbId": "brapi:germplasmDbId",
+        "metadata": "brapi:metadata",
+        "observationUnitDbId": "brapi:observationUnitDbId",
+        "plateDbId": "brapi:plateDbId",
+        "plateName": "brapi:plateName",
+        "programDbId": "brapi:programDbId",
+        "result": "brapi:result",
+        "row": "brapi:row",
+        "sampleBarcode": "brapi:sampleBarcode",
+        "sampleDescription": "brapi:sampleDescription",
+        "sampleGroupDbId": "brapi:sampleGroupDbId",
+        "sampleName": "brapi:sampleName",
+        "samplePUI": "brapi:samplePUI",
+        "sampleTimestamp": "brapi:sampleTimestamp",
+        "sampleType": "brapi:sampleType",
+        "studyDbId": "brapi:studyDbId",
+        "takenBy": "brapi:takenBy",
+        "tissueType": "brapi:tissueType",
+        "trialDbId": "brapi:trialDbId",
+        "well": "brapi:well",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

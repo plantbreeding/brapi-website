@@ -1,17 +1,17 @@
 {
     "@context": {
         "@version": 1.1,
-        "attributes": {
-            "@id": "brapi:attributes",
-            "@type": "brapi:Attributes"
-        },
+        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
         "isDerived": {
             "@id": "brapi:isDerived",
             "@type": "xsd:boolean"
         },
-        "length": "brapi:length",
+        "length": {
+            "@id": "brapi:length",
+            "@type": "xsd:integer"
+        },
         "md5checksum": "brapi:md5checksum",
         "metadata": "brapi:metadata",
         "referenceDbId": "brapi:referenceDbId",

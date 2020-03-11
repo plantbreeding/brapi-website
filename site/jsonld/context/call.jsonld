@@ -1,6 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
+        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "callSetDbId": "brapi:callSetDbId",
         "callSetName": "brapi:callSetName",
@@ -14,7 +15,7 @@
             "@id": "brapi:genotype_likelihood"
         },
         "metadata": "brapi:metadata",
-        "phaseset": "brapi:phaseset",
+        "phaseSet": "brapi:phaseSet",
         "result": "brapi:result",
         "variantDbId": "brapi:variantDbId",
         "variantName": "brapi:variantName",

@@ -1,6 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
+        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "comments": "brapi:comments",
         "commonCropName": "brapi:commonCropName",
@@ -12,6 +13,7 @@
         },
         "mapDbId": "brapi:mapDbId",
         "mapName": "brapi:mapName",
+        "mapPUI": "brapi:mapPUI",
         "markerCount": {
             "@id": "brapi:markerCount",
             "@type": "xsd:integer"

@@ -53,9 +53,9 @@
         "mlsStatus": "brapi:mlsStatus",
         "remarks": "brapi:remarks",
         "result": "brapi:result",
-        "safetyDuplicateInstitues": {
+        "safetyDuplicateInstitutes": {
             "@container": "@list",
-            "@id": "brapi:safetyDuplicateInstitues"
+            "@id": "brapi:safetyDuplicateInstitutes"
         },
         "spatialReferenceSystem": "brapi:spatialReferenceSystem",
         "species": "brapi:species",

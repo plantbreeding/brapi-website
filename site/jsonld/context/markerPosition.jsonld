@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "additionalInfo": "brapi:additionalInfo",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
+        "linkageGroupName": "brapi:linkageGroupName",
+        "mapDbId": "brapi:mapDbId",
+        "mapName": "brapi:mapName",
+        "metadata": "brapi:metadata",
+        "position": {
+            "@id": "brapi:position",
+            "@type": "xsd:integer"
+        },
+        "result": "brapi:result",
+        "variantDbId": "brapi:variantDbId",
+        "variantName": "brapi:variantName",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

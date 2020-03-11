@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
+        "germplasmDbId": "brapi:germplasmDbId",
+        "germplasmName": "brapi:germplasmName",
+        "metadata": "brapi:metadata",
+        "parentType": "brapi:parentType",
+        "progeny": {
+            "@container": "@list",
+            "@id": "brapi:progeny"
+        },
+        "result": "brapi:result",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

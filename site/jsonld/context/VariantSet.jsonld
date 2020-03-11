@@ -1,11 +1,20 @@
 {
     "@context": {
         "@version": 1.1,
+        "additionalInfo": "brapi:additionalInfo",
+        "analysis": {
+            "@container": "@list",
+            "@id": "brapi:analysis"
+        },
         "availableFormats": {
             "@container": "@list",
             "@id": "brapi:availableFormats"
         },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "callSetCount": {
+            "@id": "brapi:callSetCount",
+            "@type": "xsd:integer"
+        },
         "data": "brapi:data",
         "dataFormat": "brapi:dataFormat",
         "fileFormat": "brapi:fileFormat",
@@ -14,11 +23,11 @@
         "referenceSetDbId": "brapi:referenceSetDbId",
         "result": "brapi:result",
         "studyDbId": "brapi:studyDbId",
-        "variantSetDbId": "brapi:variantSetDbId",
-        "variantSetMetadata": {
-            "@container": "@list",
-            "@id": "brapi:variantSetMetadata"
+        "variantCount": {
+            "@id": "brapi:variantCount",
+            "@type": "xsd:integer"
         },
+        "variantSetDbId": "brapi:variantSetDbId",
         "variantSetName": "brapi:variantSetName",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

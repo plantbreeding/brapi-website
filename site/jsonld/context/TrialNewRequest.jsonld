@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "active": {
+            "@id": "brapi:active",
+            "@type": "xsd:boolean"
+        },
+        "additionalInfo": "brapi:additionalInfo",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "commonCropName": "brapi:commonCropName",
+        "contacts": {
+            "@container": "@list",
+            "@id": "brapi:contacts"
+        },
+        "data": "brapi:data",
+        "datasetAuthorships": {
+            "@container": "@list",
+            "@id": "brapi:datasetAuthorships"
+        },
+        "datasetPUI": "brapi:datasetPUI",
+        "documentationURL": "brapi:documentationURL",
+        "endDate": "brapi:endDate",
+        "externalReferences": {
+            "@id": "brapi:externalReferences",
+            "@type": "brapi:ExternalReferences"
+        },
+        "license": "brapi:license",
+        "metadata": "brapi:metadata",
+        "programDbId": "brapi:programDbId",
+        "programName": "brapi:programName",
+        "publicReleaseDate": "brapi:publicReleaseDate",
+        "publicationPUI": "brapi:publicationPUI",
+        "publicationReference": "brapi:publicationReference",
+        "publications": {
+            "@container": "@list",
+            "@id": "brapi:publications"
+        },
+        "result": "brapi:result",
+        "startDate": "brapi:startDate",
+        "submissionDate": "brapi:submissionDate",
+        "trialDescription": "brapi:trialDescription",
+        "trialName": "brapi:trialName",
+        "trialPUI": "brapi:trialPUI",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

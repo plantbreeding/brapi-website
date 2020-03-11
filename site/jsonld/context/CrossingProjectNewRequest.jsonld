@@ -1,0 +1,19 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "commonCropName": "brapi:commonCropName",
+        "crossingProjectDescription": "brapi:crossingProjectDescription",
+        "crossingProjectName": "brapi:crossingProjectName",
+        "data": "brapi:data",
+        "externalReferences": {
+            "@id": "brapi:externalReferences",
+            "@type": "brapi:ExternalReferences"
+        },
+        "metadata": "brapi:metadata",
+        "programDbId": "brapi:programDbId",
+        "programName": "brapi:programName",
+        "result": "brapi:result",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

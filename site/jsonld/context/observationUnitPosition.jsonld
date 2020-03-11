@@ -1,17 +1,26 @@
 {
     "@context": {
         "@version": 1.1,
-        "blockNumber": "brapi:blockNumber",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
-        "entryNumber": "brapi:entryNumber",
         "entryType": "brapi:entryType",
+        "geoCoordinates": {
+            "@id": "brapi:geoCoordinates",
+            "@type": "brapi:geoJSON"
+        },
         "metadata": "brapi:metadata",
+        "observationLevel": {
+            "@id": "brapi:observationLevel",
+            "@type": "xsd:string"
+        },
+        "observationLevelRelationships": {
+            "@container": "@list",
+            "@id": "brapi:observationLevelRelationships"
+        },
         "positionCoordinateX": "brapi:positionCoordinateX",
         "positionCoordinateXType": "brapi:positionCoordinateXType",
         "positionCoordinateY": "brapi:positionCoordinateY",
         "positionCoordinateYType": "brapi:positionCoordinateYType",
-        "replicate": "brapi:replicate",
         "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

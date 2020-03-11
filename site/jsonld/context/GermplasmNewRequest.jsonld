@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "accessionNumber": "brapi:accessionNumber",
+        "acquisitionDate": "brapi:acquisitionDate",
+        "additionalInfo": "brapi:additionalInfo",
+        "biologicalStatusOfAccessionCode": "brapi:biologicalStatusOfAccessionCode",
+        "biologicalStatusOfAccessionDescription": "brapi:biologicalStatusOfAccessionDescription",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "breedingMethodDbId": "brapi:breedingMethodDbId",
+        "code": "brapi:code",
+        "collection": "brapi:collection",
+        "commonCropName": "brapi:commonCropName",
+        "countryOfOriginCode": "brapi:countryOfOriginCode",
+        "data": "brapi:data",
+        "defaultDisplayName": "brapi:defaultDisplayName",
+        "description": "brapi:description",
+        "documentationURL": "brapi:documentationURL",
+        "donorAccessionNumber": "brapi:donorAccessionNumber",
+        "donorInstituteCode": "brapi:donorInstituteCode",
+        "donors": {
+            "@container": "@list",
+            "@id": "brapi:donors"
+        },
+        "externalReferences": {
+            "@id": "brapi:externalReferences",
+            "@type": "brapi:ExternalReferences"
+        },
+        "genus": "brapi:genus",
+        "germplasmName": "brapi:germplasmName",
+        "germplasmOrigin": {
+            "@container": "@list",
+            "@id": "brapi:germplasmOrigin"
+        },
+        "germplasmPUI": "brapi:germplasmPUI",
+        "germplasmPreprocessing": "brapi:germplasmPreprocessing",
+        "instituteCode": "brapi:instituteCode",
+        "instituteName": "brapi:instituteName",
+        "metadata": "brapi:metadata",
+        "pedigree": "brapi:pedigree",
+        "result": "brapi:result",
+        "seedSource": "brapi:seedSource",
+        "seedSourceDescription": "brapi:seedSourceDescription",
+        "species": "brapi:species",
+        "speciesAuthority": "brapi:speciesAuthority",
+        "storageTypes": {
+            "@container": "@list",
+            "@id": "brapi:storageTypes"
+        },
+        "subtaxa": "brapi:subtaxa",
+        "subtaxaAuthority": "brapi:subtaxaAuthority",
+        "synonym": "brapi:synonym",
+        "synonyms": {
+            "@container": "@list",
+            "@id": "brapi:synonyms"
+        },
+        "taxonIds": {
+            "@container": "@list",
+            "@id": "brapi:taxonIds"
+        },
+        "type": "brapi:type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

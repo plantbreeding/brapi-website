@@ -5,7 +5,10 @@
         "data": "brapi:data",
         "metadata": "brapi:metadata",
         "nextPageToken": "brapi:nextPageToken",
-        "offset": "brapi:offset",
+        "offset": {
+            "@id": "brapi:offset",
+            "@type": "xsd:integer"
+        },
         "result": "brapi:result",
         "sequence": "brapi:sequence",
         "xsd": "http://www.w3.org/2001/XMLSchema#"

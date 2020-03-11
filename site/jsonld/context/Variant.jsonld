@@ -17,7 +17,10 @@
         },
         "created": "brapi:created",
         "data": "brapi:data",
-        "end": "brapi:end",
+        "end": {
+            "@id": "brapi:end",
+            "@type": "xsd:integer"
+        },
         "filtersApplied": {
             "@id": "brapi:filtersApplied",
             "@type": "xsd:boolean"
@@ -34,15 +37,24 @@
         "referenceBases": "brapi:referenceBases",
         "referenceName": "brapi:referenceName",
         "result": "brapi:result",
-        "start": "brapi:start",
-        "svlen": "brapi:svlen",
+        "start": {
+            "@id": "brapi:start",
+            "@type": "xsd:integer"
+        },
+        "svlen": {
+            "@id": "brapi:svlen",
+            "@type": "xsd:integer"
+        },
         "updated": "brapi:updated",
         "variantDbId": "brapi:variantDbId",
         "variantNames": {
             "@container": "@list",
             "@id": "brapi:variantNames"
         },
-        "variantSetDbId": "brapi:variantSetDbId",
+        "variantSetDbId": {
+            "@container": "@list",
+            "@id": "brapi:variantSetDbId"
+        },
         "variantType": "brapi:variantType",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "additionalInfo": "brapi:additionalInfo",
+        "amount": {
+            "@id": "brapi:amount",
+            "@type": "xsd:number"
+        },
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "createdDate": "brapi:createdDate",
+        "data": "brapi:data",
+        "externalReferences": {
+            "@id": "brapi:externalReferences",
+            "@type": "brapi:ExternalReferences"
+        },
+        "germplasmDbId": "brapi:germplasmDbId",
+        "lastUpdated": "brapi:lastUpdated",
+        "locationDbId": "brapi:locationDbId",
+        "metadata": "brapi:metadata",
+        "programDbId": "brapi:programDbId",
+        "result": "brapi:result",
+        "seedLotDescription": "brapi:seedLotDescription",
+        "seedLotName": "brapi:seedLotName",
+        "sourceCollection": "brapi:sourceCollection",
+        "storageLocation": "brapi:storageLocation",
+        "units": "brapi:units",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

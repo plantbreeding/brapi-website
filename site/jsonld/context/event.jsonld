@@ -1,18 +1,19 @@
 {
     "@context": {
         "@version": 1.1,
-        "additionalInfo": {
-            "@container": "@list",
-            "@id": "brapi:additionalInfo"
-        },
+        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
         "date": {
             "@container": "@list",
             "@id": "brapi:date"
         },
-        "description": "brapi:description",
         "eventDbId": "brapi:eventDbId",
+        "eventDescription": "brapi:eventDescription",
+        "eventParameters": {
+            "@container": "@list",
+            "@id": "brapi:eventParameters"
+        },
         "eventType": "brapi:eventType",
         "eventTypeDbId": "brapi:eventTypeDbId",
         "key": "brapi:key",

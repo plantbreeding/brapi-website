@@ -1,0 +1,21 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "calls": {
+            "@container": "@list",
+            "@id": "brapi:calls"
+        },
+        "contactEmail": "brapi:contactEmail",
+        "data": "brapi:data",
+        "documentationURL": "brapi:documentationURL",
+        "location": "brapi:location",
+        "metadata": "brapi:metadata",
+        "organizationName": "brapi:organizationName",
+        "organizationURL": "brapi:organizationURL",
+        "result": "brapi:result",
+        "serverDescription": "brapi:serverDescription",
+        "serverName": "brapi:serverName",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

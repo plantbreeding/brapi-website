@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "alternativeAbbreviations": {
+            "@container": "@list",
+            "@id": "brapi:alternativeAbbreviations"
+        },
+        "attribute": "brapi:attribute",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
+        "entity": "brapi:entity",
+        "externalReferences": {
+            "@id": "brapi:externalReferences",
+            "@type": "brapi:ExternalReferences"
+        },
+        "mainAbbreviation": "brapi:mainAbbreviation",
+        "metadata": "brapi:metadata",
+        "ontologyReference": {
+            "@id": "brapi:ontologyReference",
+            "@type": "brapi:OntologyReference"
+        },
+        "result": "brapi:result",
+        "status": "brapi:status",
+        "synonyms": {
+            "@container": "@list",
+            "@id": "brapi:synonyms"
+        },
+        "traitClass": "brapi:traitClass",
+        "traitDescription": "brapi:traitDescription",
+        "traitName": "brapi:traitName",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

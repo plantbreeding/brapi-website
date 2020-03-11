@@ -8,6 +8,9 @@
         "season": "brapi:season",
         "seasonDbId": "brapi:seasonDbId",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "year": "brapi:year"
+        "year": {
+            "@id": "brapi:year",
+            "@type": "xsd:integer"
+        }
     }
 }

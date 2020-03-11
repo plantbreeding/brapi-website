@@ -4,23 +4,7 @@
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": "brapi:data",
         "metadata": "brapi:metadata",
-        "page": {
-            "@id": "brapi:page",
-            "@type": "xsd:integer"
-        },
-        "pageSize": {
-            "@id": "brapi:pageSize",
-            "@type": "xsd:integer"
-        },
         "result": "brapi:result",
-        "studyDbIds": {
-            "@container": "@list",
-            "@id": "brapi:studyDbIds"
-        },
-        "variantSetDbIds": {
-            "@container": "@list",
-            "@id": "brapi:variantSetDbIds"
-        },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

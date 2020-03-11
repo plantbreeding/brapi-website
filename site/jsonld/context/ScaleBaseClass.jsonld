@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "categories": {
+            "@container": "@list",
+            "@id": "brapi:categories"
+        },
+        "data": "brapi:data",
+        "dataType": {
+            "@id": "brapi:dataType",
+            "@type": "brapi:TraitDataType"
+        },
+        "decimalPlaces": {
+            "@id": "brapi:decimalPlaces",
+            "@type": "xsd:integer"
+        },
+        "externalReferences": {
+            "@id": "brapi:externalReferences",
+            "@type": "brapi:ExternalReferences"
+        },
+        "label": "brapi:label",
+        "max": {
+            "@id": "brapi:max",
+            "@type": "xsd:integer"
+        },
+        "metadata": "brapi:metadata",
+        "min": {
+            "@id": "brapi:min",
+            "@type": "xsd:integer"
+        },
+        "ontologyReference": {
+            "@id": "brapi:ontologyReference",
+            "@type": "brapi:OntologyReference"
+        },
+        "result": "brapi:result",
+        "scaleName": "brapi:scaleName",
+        "validValues": "brapi:validValues",
+        "value": "brapi:value",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

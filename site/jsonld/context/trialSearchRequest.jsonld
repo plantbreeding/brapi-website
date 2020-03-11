@@ -1,40 +1,10 @@
 {
     "@context": {
         "@version": 1.1,
-        "active": {
-            "@id": "brapi:active",
-            "@type": "xsd:boolean"
-        },
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "commonCropNames": {
-            "@container": "@list",
-            "@id": "brapi:commonCropNames"
-        },
-        "contactDbIds": {
-            "@container": "@list",
-            "@id": "brapi:contactDbIds"
-        },
         "data": "brapi:data",
         "metadata": "brapi:metadata",
-        "programDbIds": {
-            "@container": "@list",
-            "@id": "brapi:programDbIds"
-        },
         "result": "brapi:result",
-        "searchDateRangeEnd": "brapi:searchDateRangeEnd",
-        "searchDateRangeStart": "brapi:searchDateRangeStart",
-        "studyDbIds": {
-            "@container": "@list",
-            "@id": "brapi:studyDbIds"
-        },
-        "trialDbIds": {
-            "@container": "@list",
-            "@id": "brapi:trialDbIds"
-        },
-        "trialNames": {
-            "@container": "@list",
-            "@id": "brapi:trialNames"
-        },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "additionalInfo": "brapi:additionalInfo",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
+        "dateCreated": "brapi:dateCreated",
+        "dateModified": "brapi:dateModified",
+        "externalReferences": {
+            "@id": "brapi:externalReferences",
+            "@type": "brapi:ExternalReferences"
+        },
+        "listDescription": "brapi:listDescription",
+        "listName": "brapi:listName",
+        "listOwnerName": "brapi:listOwnerName",
+        "listOwnerPersonDbId": "brapi:listOwnerPersonDbId",
+        "listSize": {
+            "@id": "brapi:listSize",
+            "@type": "xsd:integer"
+        },
+        "listSource": "brapi:listSource",
+        "listType": {
+            "@id": "brapi:listType",
+            "@type": "brapi:ListTypes"
+        },
+        "metadata": "brapi:metadata",
+        "result": "brapi:result",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

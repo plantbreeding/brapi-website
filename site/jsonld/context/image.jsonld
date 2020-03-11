@@ -1,43 +1,9 @@
 {
     "@context": {
         "@version": 1.1,
-        "additionalInfo": "brapi:additionalInfo",
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "copyright": "brapi:copyright",
         "data": "brapi:data",
-        "description": "brapi:description",
-        "descriptiveOntologyTerms": {
-            "@container": "@list",
-            "@id": "brapi:descriptiveOntologyTerms"
-        },
-        "imageDbId": "brapi:imageDbId",
-        "imageFileName": "brapi:imageFileName",
-        "imageFileSize": {
-            "@id": "brapi:imageFileSize",
-            "@type": "xsd:integer"
-        },
-        "imageHeight": {
-            "@id": "brapi:imageHeight",
-            "@type": "xsd:integer"
-        },
-        "imageLocation": {
-            "@id": "brapi:imageLocation",
-            "@type": "brapi:geoJSON"
-        },
-        "imageName": "brapi:imageName",
-        "imageTimeStamp": "brapi:imageTimeStamp",
-        "imageURL": "brapi:imageURL",
-        "imageWidth": {
-            "@id": "brapi:imageWidth",
-            "@type": "xsd:integer"
-        },
         "metadata": "brapi:metadata",
-        "mimeType": "brapi:mimeType",
-        "observationDbIds": {
-            "@container": "@list",
-            "@id": "brapi:observationDbIds"
-        },
-        "observationUnitDbId": "brapi:observationUnitDbId",
         "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

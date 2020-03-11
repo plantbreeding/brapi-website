@@ -2,34 +2,9 @@
     "@context": {
         "@version": 1.1,
         "brapi": "https://brapi.org/jsonld/jsonld.html#",
-        "currentPage": {
-            "@id": "brapi:currentPage",
-            "@type": "xsd:integer"
-        },
         "data": "brapi:data",
-        "datafiles": {
-            "@container": "@list",
-            "@id": "brapi:datafiles"
-        },
         "metadata": "brapi:metadata",
-        "pageSize": {
-            "@id": "brapi:pageSize",
-            "@type": "xsd:integer"
-        },
-        "pagination": "brapi:pagination",
         "result": "brapi:result",
-        "status": {
-            "@container": "@list",
-            "@id": "brapi:status"
-        },
-        "totalCount": {
-            "@id": "brapi:totalCount",
-            "@type": "xsd:integer"
-        },
-        "totalPages": {
-            "@id": "brapi:totalPages",
-            "@type": "xsd:integer"
-        },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

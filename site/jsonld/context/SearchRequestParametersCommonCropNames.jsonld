@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "commonCropNames": {
+            "@container": "@list",
+            "@id": "brapi:commonCropNames"
+        },
+        "data": "brapi:data",
+        "metadata": "brapi:metadata",
+        "result": "brapi:result",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

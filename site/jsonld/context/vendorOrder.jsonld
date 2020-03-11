@@ -12,7 +12,10 @@
         "orderId": "brapi:orderId",
         "requiredServiceInfo": "brapi:requiredServiceInfo",
         "result": "brapi:result",
-        "serviceId": "brapi:serviceId",
+        "serviceIds": {
+            "@container": "@list",
+            "@id": "brapi:serviceIds"
+        },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

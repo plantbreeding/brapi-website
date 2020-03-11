@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "additionalInfo": "brapi:additionalInfo",
+        "bibliographicalReference": "brapi:bibliographicalReference",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
+        "description": "brapi:description",
+        "externalReferences": {
+            "@id": "brapi:externalReferences",
+            "@type": "brapi:ExternalReferences"
+        },
+        "formula": "brapi:formula",
+        "metadata": "brapi:metadata",
+        "methodClass": "brapi:methodClass",
+        "methodName": "brapi:methodName",
+        "ontologyReference": {
+            "@id": "brapi:ontologyReference",
+            "@type": "brapi:OntologyReference"
+        },
+        "result": "brapi:result",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

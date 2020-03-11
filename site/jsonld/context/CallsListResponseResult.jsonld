@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": {
+            "@container": "@list",
+            "@id": "brapi:data"
+        },
+        "expandHomozygotes": {
+            "@id": "brapi:expandHomozygotes",
+            "@type": "xsd:boolean"
+        },
+        "metadata": "brapi:metadata",
+        "result": "brapi:result",
+        "sepPhased": "brapi:sepPhased",
+        "sepUnphased": "brapi:sepUnphased",
+        "unknownString": "brapi:unknownString",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

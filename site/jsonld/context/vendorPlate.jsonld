@@ -9,7 +9,7 @@
         "result": "brapi:result",
         "sampleSubmissionFormat": {
             "@id": "brapi:sampleSubmissionFormat",
-            "@type": "brapi:plateFormat"
+            "@type": "brapi:PlateFormat"
         },
         "samples": {
             "@container": "@list",
