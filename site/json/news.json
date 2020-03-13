@@ -1,4 +1,10 @@
 {
+    "mar-13-2020": {
+        "title": "BrAPI V2.0 Release",
+        "date": "March 13, 2020",
+        "author": "Peter Selby",
+        "article": "<p>BrAPI V2.0 is officially released!</p> <p>This release is the culmination of all the lessons we as a community have learned from V1 and some critical new features. Over 100 issues from Github were resolved as part of this release, and 102 new endpoints were added to the specification. BrAPI now has a total of 179 possible endpoints to implement.</p> <p>One of the biggest changes in V2.0 is the separation into modules. There are now four BrAPI modules: BrAPI-Core, BrAPI-Phenotyping, BrAPI-Genotyping, and BrAPI-Germplasm. This divide helps organize the specification into more manageable pieces, making it easier to work with.</p> <p>All of the links for all of the documentation for all of the modules can be found here: <a href=\"https://brapi.org/specification\">https://brapi.org/specification</a> <br/>If you are interested in moving from V1.3 to V2.0, the full change log is available here: <a href=\"https://github.com/plantbreeding/API/releases/download/V2.0/BrAPI_V2-0_Release_Notes.xlsx\">https://github.com/plantbreeding/API/releases/download/V2.0/BrAPI_V2-0_Release_Notes.xlsx</a></p> <p>I am currently working on upgrading the BRAVA validation app and the BrAPI Test Server. Please be patient as this upgrade could take some time. I will communicate when all the changes have been made and V2.0 testing services are available.</p> <p>Thank you so much to everyone in the BrAPI community who made this possible! I’m very excited to see where the next few years take us! As always, if you have any questions, comments, or concerns, please reach out to me. I am here to help.</p>"
+    },
     "mar-10-2020": {
         "title": "Hyderabad BrAPI Hackathon Debrief - March 2020",
         "date": "March 10, 2020",
