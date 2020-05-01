@@ -6,13 +6,12 @@
         "source-url": "https://github.com/cropgeeks/flapjack-bytes",
         "doc-url": "https://github.com/cropgeeks/flapjack-bytes/blob/master/README.md",
         "title": "Flapjack-Bytes",
-        "team": "JHI",
+        "team": "James Hutton Institute",
         "team-url": "https://ics.hutton.ac.uk/",
         "description": "Flapjack-Bytes is a graphical genotype visualization library. The visualization is modelled on the pre-existing Java desktop application Flapjack. ",
         "dependencies": [
-            { "version": "v2.0", "call": "PUT /observationunits/{observationUnitDbId}" },
-            { "version": "v2.0", "call": "POST /search/observationunits" },
-            { "version": "v2.0", "call": "GET /studies/{studyDbId}" }
+            { "version": "v2.0", "call": "GET variantsets/{variantSetDbId}/calls" },
+            { "version": "v2.0", "call": "GET markerpositions?mapDbId={mapDbId}" }
         ]
     },
     {
@@ -23,7 +22,7 @@
         "source-url": "https://github.com/solgenomics/brapi-fieldmap",
         "doc-url": "https://github.com/solgenomics/brapi-fieldmap/blob/master/README.md",
         "title": "BrAPI Fieldmap",
-        "team": "IBP/BMS",
+        "team": "IBP - BMS",
         "team-url": "https://www.integratedbreeding.net/",
         "description": "Built by the IBP/BMS Team, this is a fully BrAPI compliant tool for editing field spatial layout using GeoJson information.",
         "dependencies": [
@@ -44,8 +43,7 @@
         "team-url": "https://breedbase.org/",
         "description": "Built by BreedBase, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. ",
         "dependencies": [
-            { "version": "v1.1", "call": "/germplasm/{germplasmDbId}/pedigree" },
-            { "version": "v1.2", "call": "/germplasm/{germplasmDbId}/progeny" }
+            { "version": "v1.2", "call": "POST /phenotypes-search" }
         ]
     },
     {
@@ -60,8 +58,8 @@
         "team-url": "http://urgi.versailles.inra.fr/",
         "description": "Built by URGI - INRA, this is a JavaScript widget displaying all the observation variables of a BrAPI endpoint. ",
         "dependencies": [
-            { "version": "v1.0", "call": "/ontologies" },
-            { "version": "v1.0", "call": "/variables" }
+            { "version": "v1.0", "call": "GET /ontologies" },
+            { "version": "v1.0", "call": "GET /variables" }
         ]
     },
     {
@@ -75,7 +73,9 @@
         "team": "BreedBase",
         "team-url": "https://breedbase.org/",
         "description": "Built by BreedBase, this is a fully BrAPI compliant tool for comparing the performance of germplasm across studies. ",
-        "dependencies": []
+        "dependencies": [
+            { "version": "v1.2", "call": "POST /phenotypes-search" }
+        ]
     },
     {
         "published": true,
@@ -88,7 +88,10 @@
         "team": "BreedBase",
         "team-url": "https://breedbase.org/",
         "description": "Built by BreedBase, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. ",
-        "dependencies": []
+        "dependencies": [
+            { "version": "v1.2", "call": "GET /germplasm/{germplasmDbId}/pedigree" },
+            { "version": "v1.2", "call": "GET /germplasm/{germplasmDbId}/progeny" }
+        ]
     },
     {
         "published": true,
@@ -101,7 +104,14 @@
         "team": "South Green",
         "team-url": "http://www.southgreen.fr/",
         "description": "Brapi-Enabled Embeddable Genomic-Marker Allele Client",
-        "dependencies": []
+        "dependencies": [
+            { "version": "v1.1", "call": "GET /maps" },
+            { "version": "v1.1", "call": "POST /markers-search" },
+            { "version": "v1.1", "call": "GET /studies-search" },
+            { "version": "v1.1", "call": "GET /markerprofiles" },
+            { "version": "v1.1", "call": "POST /allelematrix-search" },
+            { "version": "v1.1", "call": "GET /calls" }
+        ]
     },
     {
         "published": true,
@@ -114,6 +124,10 @@
         "team": "BreedBase",
         "team-url": "https://breedbase.org/",
         "description": "Comparative Map Viewer, this is a fully BrAPI compliant tool for viewing and comparing genetic maps ",
-        "dependencies": []
+        "dependencies": [
+            { "version": "v1.3", "call": "GET /maps" },
+            { "version": "v1.3", "call": "GET /maps/{mapDbId}" },
+            { "version": "v1.3", "call": "GET /maps/{mapDbId}/positions" }
+        ]
     }
 ]
