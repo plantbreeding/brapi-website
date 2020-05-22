@@ -20,7 +20,6 @@
             <div class="main">
                 <?php
                     include("html/about-section.html");
-                    include("html/usecases-section.html");
                     include("html/footer.html");
                 ?>
             </div>

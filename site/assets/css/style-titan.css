@@ -963,14 +963,14 @@ blockquote {
     font-weight: 400;
     font-size: 30px;
     color: #111;
-    margin: 0 0 70px;
+    margin: 0 0 50px;
 }
 
 .module-subtitle {
     text-align: center;
     font-size: 16px;
     color: #111;
-    margin-bottom: 70px;
+    margin-bottom: 15px;
 }
 
 .module-icon {
@@ -1690,6 +1690,7 @@ Google map
 .features-item {
     margin: 20px 0;
     text-align: center;
+    min-height: 230px;
 }
 
 .features-icon,
@@ -1713,6 +1714,7 @@ Google map
     position: relative;
     padding-left: 55px;
     margin: 65px 0 0 0;
+    min-height: 80px;
 }
 
 .alt-features-icon {
