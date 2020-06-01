@@ -2,11 +2,25 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1">
-                <h2 class="module-title font-alt">Introduction</h2>
-                <p>The Breeding API (BrAPI) project is an effort to enable interoperability among plant breeding databases. BrAPI is a standardized RESTful web service API specificaiton for communicating plant breeding data. This community driven standard
-                    is open and free to use by anyone interested in plant breeding data management.</p>
-                <p>More Coming Soon!</p>
+                <div class="col-xs-4 col-md-3 col-xl-2" id="menu">
+                </div>
+                <div class="col-xs-8 col-md-9 col-xl-10" id="content">
+                </div>
             </div>
         </div>
     </div>
 </section>
+<script id="gs-content-template" type="x-tmpl-mustache">
+    <h2 class="module-title font-alt" id="title">{{ title }}</h2>
+    {{{ html }}}
+    <div class="col-sm-4 col-sm-offset-8" style="text-align: right;">
+        <a href="{{ next-id }}">
+            <button class="btn btn-info btn-border-d btn-round" type="button">Next: {{ next-title }} >></button>
+        </a>
+    </div>
+</script>
+<script id="gs-menu-template" type="x-tmpl-mustache">
+    <div>
+        <a href="/get-started?id={{ id }}">- {{ title }}</a>
+    </div>
+</script>
