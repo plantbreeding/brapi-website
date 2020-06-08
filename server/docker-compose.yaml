@@ -15,8 +15,8 @@ services:
     image: certbot/certbot
     restart: unless-stopped
     volumes:
-      - /home/selbyp/brapi.org/data/server-conf/data/certbot/conf:/etc/letsencrypt
-      - /home/selbyp/brapi.org/data/server-conf/data/certbot/www:/var/www/certbot
+      - /home/selbyp/brapi.org/data/server-conf/certbot/conf:/etc/letsencrypt
+      - /home/selbyp/brapi.org/data/server-conf/certbot/www:/var/www/certbot
     entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
 networks:
     default:
