@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Start the first process
+echo "Starting the php process"
 php-fpm -D
 status=$?
 if [ $status -ne 0 ]; then
@@ -8,7 +8,13 @@ if [ $status -ne 0 ]; then
   exit $status
 fi
 
-# Start the second process
+echo "Load Nginx config"
+while /bin/true; do
+  sleep 6h
+  nginx -s reload
+done &
+
+echo "Starting the Nginx process"
 nginx -g "daemon off;" &
 status=$?
 if [ $status -ne 0 ]; then
