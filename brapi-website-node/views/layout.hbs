@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+{{> header}}
+
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+  <main>
+    <div class="page-loader">
+      <div class="loader">Loading...</div>
+    </div>
+    <nav class="navbar navbar-custom navbar-fixed-top {{#if isHomePage}} navbar-transparent {{/if}}" role="navigation">
+      {{> menu}}
+    </nav>
+    {{#if isHomePage}}
+    {{> homePageTitle}}
+    {{else}}
+    <section class="module-small bg-dark-60 about-page-header" data-background="/images/header.jpg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <h1 class="brapi-page-title font-alt">{{title}}</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{/if}}
+
+    <div class="main">
+
+      {{{body}}}
+
+      {{> footer}}
+    </div>
+    <div class="scroll-up"><a href="#totop"><i class="mdi mdi-chevron-up"></i></a></div>
+  </main>
+</body>
+
+</html>

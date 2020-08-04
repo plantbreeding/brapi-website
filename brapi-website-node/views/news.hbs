@@ -1,0 +1,33 @@
+<section class="module-small">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" id="brapi-posts">
+                {{#if showList}}
+                {{#each posts}}
+                <div class="post" style="min-height: 55px; margin-bottom: 25px;">
+                    <div class="post-header font-alt">
+                        <h1 class="post-title"><a href="/news/{{ @key }}">{{ title }}</a></h1>
+                        <div class="post-meta">By&nbsp;{{ author }} | {{ date }}
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+                {{else}}
+                <a href="/news" style="text-decoration: none;">
+                    <button class="btn btn-d btn-round mb-20" type="button">&lt; Back</button>&nbsp;
+                </a>
+                <div class="post" style="min-height: 55px; margin-bottom: 25px;">
+                    <div class="post-header font-alt">
+                        <h1 class="post-title">{{ post.title }}</h1>
+                        <div class="post-meta">By&nbsp;{{ post.author }} | {{ post.date }}
+                        </div>
+                    </div>
+                    <div class="post-entry">
+                        {{{ post.article }}}
+                    </div>
+                </div>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</section>

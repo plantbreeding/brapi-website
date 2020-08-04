@@ -1,0 +1,106 @@
+[{
+        "title": "BrAPI Specification",
+        "image": "/images/tools/documentation.jpg",
+        "url": "/specification",
+        "type": "doc",
+        "description": "The official BrAPI specification. Links available for all versions and repositories."
+    },
+    {
+        "title": "GitHub",
+        "image": "/images/tools/code.jpg",
+        "url": "https://github.com/plantbreeding/API",
+        "type": "doc",
+        "description": "Raise issues, submit change propsals, and check on upcoming enhancments. Become part of the BrAPI developer community by checking out the GitHub project."
+    },
+    {
+        "title": "Wiki",
+        "image": "/images/tools/encyclopedia.jpeg",
+        "url": "https://wiki.brapi.org/index.php/BrAPI",
+        "type": "doc",
+        "description": "From a history of BrAPI to development best practices, the BrAPI Wiki is the #1 repository for all BrAPI related documentation."
+    },
+    {
+        "title": "BrAPI R",
+        "image": "/images/tools/pirate.jpg",
+        "url": "https://github.com/CIP-RIU/brapi",
+        "type": "lib",
+        "description": "The BrAPI R library has a complete BrAPI Client implementation written in R."
+    },
+    {
+        "title": "BrAPI R - X",
+        "image": "/images/tools/analysis.jpeg",
+        "url": "https://github.com/c5sire/brapix",
+        "type": "lib",
+        "description": "BrAPI X provides eXtra tools to the BrAPI R library for convenient bulk download breeding data and for creating quick summaries and quality checks."
+    },
+    {
+        "title": "BrAPI R - UI",
+        "image": "/images/tools/meeples.jpeg",
+        "url": "https://github.com/c5sire/brapiui",
+        "type": "lib",
+        "description": "BrAPI UI integrates the visualization tools of RStudio with the BrAPI R library."
+    },
+    {
+        "title": "BrAPI.js",
+        "image": "/images/tools/computer.jpeg",
+        "url": "https://github.com/solgenomics/BrAPI.js",
+        "type": "lib",
+        "description": "The BrAPI.js library has a complete BrAPI Client implementation written in JavaScript."
+    },
+    {
+        "title": "BrAPI + Drupal",
+        "image": "/images/tools/water_drop.jpeg",
+        "url": "https://www.drupal.org/project/brapi",
+        "type": "lib",
+        "description": "This is a BrAPI client module written for the Drupal CMS."
+    },
+    {
+        "title": "Java Client Library V1.0",
+        "image": "/images/tools/coffee_paper.jpg",
+        "url": "https://github.com/imilne/jhi-brapi",
+        "type": "lib",
+        "description": "For developers using Java, we also maintain a small library that provides an easier route for end-clients to utilize BrAPI."
+    },
+    {
+        "title": "Java Client Library V1.3",
+        "image": "/images/tools/coffee_white.jpg",
+        "url": "https://github.com/PhenoLibs/JavaLibraryBuilder",
+        "type": "lib",
+        "description": "For developers using Java, we also maintain a small library that provides an easier route for end-clients to utilize BrAPI."
+    },
+    {
+        "title": "Java Client Library V2.0",
+        "image": "/images/tools/coffee_whitewhite.jpg",
+        "url": "https://github.com/Breeding-Insight/brapi",
+        "type": "lib",
+        "description": "For developers using Java, we also maintain a small library that provides an easier route for end-clients to utilize BrAPI."
+    },
+    {
+        "title": "BrAPPs",
+        "image": "/images/tools/drums.jpeg",
+        "url": "https://brapi.org/brapps",
+        "type": "tool",
+        "description": "Explore, download, and integrate with the community library of BrAPI enabled Apps"
+    },
+    {
+        "title": "BrAVA",
+        "image": "/images/tools/testbook.jpeg",
+        "url": "http://webapps.ipk-gatersleben.de/brapivalidator",
+        "type": "tool",
+        "description": "The BrAPI Validation App is a BrAPI test client designed to run a set of validation tests on any BrAPI compliant server."
+    },
+    {
+        "title": "BrAPI Test Server",
+        "image": "/images/tools/harddrive.jpg",
+        "url": "https://test-server.brapi.org/brapi/v1",
+        "type": "tool",
+        "description": "Check out our official, BrAPI cetrified test server. This server hosts a complete BrAPI implementation connected to a database full of sample data."
+    },
+    {
+        "title": "Publication",
+        "image": "/images/tools/newspaper.jpg",
+        "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz190/5418796",
+        "type": "doc",
+        "description": "The official BrAPI publication. Share, cite, and enjoy!"
+    }
+]

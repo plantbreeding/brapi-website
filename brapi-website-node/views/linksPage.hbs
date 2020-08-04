@@ -1,0 +1,27 @@
+<section class="module-small">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row multi-columns-row post-columns" id="links-grid-docs">
+                    {{#each links}}
+                    <div class="col-xs-12 col-md-6">
+                        <a href="{{ url }}" target="_blank">
+                            <div class="post brapi-post">
+                                <div class="post-thumbnail brapi-post-thumbnail col-xs-12">
+                                    <img src="{{ image }}" alt="{{ title }}" class="brapi-post-thumbnail-img" />
+                                </div>
+                                <div class="post-header font-alt col-xs-12">
+                                    <h2 class="post-title">{{ title }}</h2>
+                                </div>
+                                <div class="post-entry col-xs-12" style="padding-left: 15px; padding-right: 15px;">
+                                    <p>{{{ description }}}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
