@@ -4,10 +4,12 @@ services:
   brapi.org:
     image: brapicoordinatorselby/brapi.org
     restart: unless-stopped
+    depends_on: 
+      - brapi-web
+      - certbot
     volumes:
       - /home/selbyp/brapi.org/data/server-conf/certbot/conf:/etc/letsencrypt
       - /home/selbyp/brapi.org/data/server-conf/certbot/www:/var/www/certbot
-      - /home/selbyp/brapi.org/brapi-website/site:/var/www/html
     ports:
       - "80:80"
       - "443:443"
@@ -18,6 +20,15 @@ services:
       - /home/selbyp/brapi.org/data/server-conf/certbot/conf:/etc/letsencrypt
       - /home/selbyp/brapi.org/data/server-conf/certbot/www:/var/www/certbot
     entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+  brapi-web:
+    image: brapicoordinatorselby/brapi-web
+    restart: unless-stopped
+    environment:
+      - MIALING_LIST_PATH=/usr/src/app/data/mailingListChanges.txt
+    volumes:
+      - /home/selbyp/brapi.org/data/email-data:/usr/src/app/data/
+    ports:
+      - "3000:3000"
 networks:
     default:
         external:
