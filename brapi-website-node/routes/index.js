@@ -78,4 +78,16 @@ router.get('/brapps', function(req, res, next) {
     });
 });
 
+router.get('/contact', function(req, res, next) {
+    res.render('contact', {
+        title: 'Contact'
+    });
+});
+
+router.get('/unsubscribe', function(req, res, next) {
+    res.render('unsubscribe', {
+        title: 'Unsubscribe'
+    });
+});
+
 module.exports = router;

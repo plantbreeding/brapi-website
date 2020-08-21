@@ -1276,6 +1276,11 @@ General Styles - Owlcarousel
     animation: load 0.8s infinite linear;
 }
 
+.loader-dark {
+    position: unset;
+    border-left: 2px solid #000;
+}
+
 .loader,
 .loader:after {
     border-radius: 50%;
