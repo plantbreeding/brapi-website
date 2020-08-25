@@ -70,10 +70,12 @@ class SpecialOAuth2Github extends SpecialPage {
 
 		var_dump( '2' );
 		$dbw = wfGetDB(DB_MASTER);
+		var_dump( '2.1' );
 		$dbw->insert( 'github_states',
 			array( 'state' => $state,
 				   'return_to' => $url ),
 				   'Database::insert' );
+		var_dump( '2.2' );
 		$dbw->begin();
 		var_dump( '3' );
 		$this->client->redirect($state);

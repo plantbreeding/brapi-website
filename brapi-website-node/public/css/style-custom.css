@@ -133,3 +133,31 @@ h2 {
     width: 100%;
     height: 20px;
 }
+
+.cookie-btn {
+    position: fixed;
+    display: block;
+    bottom: 7px;
+    right: 7px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.cookie-btn div {
+    background: #fff;
+    display: block;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 23px;
+    color: #000;
+    opacity: 0.6;
+    border-radius: 2px;
+}
+
+.cookie-btn div:hover,
+.cookie-btn div:active {
+    opacity: 1;
+    color: #000;
+}
