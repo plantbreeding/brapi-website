@@ -34,8 +34,6 @@ router.post('/newServerSubmit', function(req, res, next) {
         newServerStr = "New Org\n";
         newServerStr += JSON.stringify(newOrg, null, 4)
     }
-    console.log("json " + newServerStr);
-    console.log("file " + process.env.NEW_SERVER_LIST_PATH)
 
     fs.appendFile(process.env.NEW_SERVER_LIST_PATH, newServerStr + '\n-------------\n', function(err) {
         if (err) throw err;
