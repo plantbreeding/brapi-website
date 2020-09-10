@@ -100,6 +100,26 @@
     margin: 5px 0;
 }
 
+.provider-thumbnail {
+    margin: 5px 0;
+    width: 100px;
+    height: 100px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.provider-thumbnail span {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.provider-thumbnail img {
+    vertical-align: middle;
+    max-height: 100px;
+    max-width: 100px;
+}
+
 .brapp-header {
     margin: 15px 0 10px 0;
 }
@@ -160,4 +180,32 @@ h2 {
 .cookie-btn div:active {
     opacity: 1;
     color: #000;
+}
+
+.badge-holder {
+    margin: auto auto auto 30px;
+}
+
+.badge {
+    border-radius: .5rem;
+    background-color: #00748C;
+}
+
+.badge-icon {
+    font-size: 170%;
+    float: left;
+}
+
+.badge-text {
+    margin: 4px 3px 0px 3px;
+    display: inline-block;
+}
+
+.server-url {
+    display: inline-block;
+    margin: 8px 0 8px 15px;
+}
+
+.server-desc {
+    margin: 8px 0 0 30px;
 }

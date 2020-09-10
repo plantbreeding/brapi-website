@@ -75,7 +75,9 @@ class SpecialOAuth2Github extends SpecialPage {
 			array( 'state' => $state,
 				   'return_to' => $url ),
 				   'Database::insert' );
-		var_dump( '2.2' );
+				   var_dump( '2.2' );
+				   var_dump( $state );
+				   var_dump( $url );
 		$dbw->begin();
 		var_dump( '3' );
 		$this->client->redirect($state);

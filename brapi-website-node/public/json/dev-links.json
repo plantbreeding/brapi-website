@@ -78,9 +78,16 @@
     {
         "title": "BrAPPs",
         "image": "/images/tools/drums.jpeg",
-        "url": "https://brapi.org/brapps",
+        "url": "/brapps",
         "type": "tool",
         "description": "Explore, download, and integrate with the community library of BrAPI enabled Apps"
+    },
+    {
+        "title": "Servers List",
+        "image": "/images/tools/server.jpg",
+        "url": "/servers",
+        "type": "tool",
+        "description": "Find and connect with other BrAPI Compatible servers."
     },
     {
         "title": "BrAVA",
