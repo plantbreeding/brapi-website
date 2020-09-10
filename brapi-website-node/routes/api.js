@@ -1,12 +1,10 @@
 var express = require('express');
 var router = express.Router();
-const { body, validationResult } = require('express-validator/check');
-const { sanitizeBody } = require('express-validator/filter');
+const exval = require('express-validator');
 var nodemailer = require('nodemailer');
 var fs = require('fs');
 
 router.post('/mailingListSubscribe', function(req, res, next) {
-    const errors = validationResult(req);
     fs.appendFile(process.env.MIALING_LIST_PATH, '+ ' + req.body.name + ' (' + req.body.org + ')<' + req.body.email + '>\n', function(err) {
         if (err) throw err;
         res.json({ "success": "true" })
@@ -14,13 +12,48 @@ router.post('/mailingListSubscribe', function(req, res, next) {
 });
 
 router.post('/mailingListUnsubscribe', function(req, res, next) {
-    const errors = validationResult(req);
     fs.appendFile(process.env.MIALING_LIST_PATH, '- <' + req.body.email + '>\n', function(err) {
         if (err) throw err;
         res.json({ "success": "true" })
     });
 });
 
+router.post('/newServerSubmit', function(req, res, next) {
+    var newServerStr = "";
+
+    if (req.body.existingOrg == "true") {
+        newServerStr = "Add to " + req.body.orgsList + "\n";
+        newServerStr += JSON.stringify(newServerJSON(req.body), null, 4)
+    } else {
+        var newOrg = {};
+        newOrg.name = req.body.orgName;
+        newOrg.logo = req.body.orgLogo;
+        newOrg.description = req.body.orgDesc;
+        newOrg.resources = [];
+        newOrg.resources.push(newServerJSON(req.body));
+        newServerStr = "New Org\n";
+        newServerStr += JSON.stringify(newOrg, null, 4)
+    }
+
+    fs.appendFile(process.env.NEW_SERVER_LIST_PATH, newServerStr + '\n-------------\n', function(err) {
+        if (err) throw err;
+        res.json({ "success": "true" })
+    });
+});
+
+function newServerJSON(reqBody) {
+    var serverBody = {};
+    serverBody.name = reqBody.serverName;
+    serverBody["base-url"] = reqBody.serverBaseUrl;
+    serverBody.description = reqBody.serverDesc;
+    serverBody.badges = [];
+    for (var field in reqBody) {
+        if (field.startsWith("badge")) {
+            serverBody.badges.push(reqBody[field]);
+        }
+    }
+    return serverBody;
+}
 
 // Google blocked for security reasons
 // TODO try again with MailGun

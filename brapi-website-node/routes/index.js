@@ -70,7 +70,7 @@ function renderLinksPage(title, type, res) {
 }
 
 router.get('/brapps', function(req, res, next) {
-    var brapps = require('../public/json/brapps.json')
+    var brapps = require('../public/json/brapps.json');
 
     res.render('brapps', {
         title: 'BrAPPs',

@@ -51,11 +51,9 @@
                         <div class="col-xs-12">Email Address:</div>
                         <div class="col-xs-12"><input id="emailInput" type="text" name="email" style="width:100%" />
                         </div>
-                        <div class="col-sm-offset-4 col-xs-4">
-                            <input type="submit" value="Submit" class="btn btn-d btn-round"
-                                style="margin-top: 10px; margin-bottom: 10px;">
-
-                            <p style="text-align: center; font-size: 8pt;"><a href='/unsubscribe'>Unsubscribe</a></p>
+                        <div class="col-xs-offset-4 col-xs-4" style="text-align: center;">
+                            <input type="submit" value="Submit" class="btn btn-d btn-round" style="margin: 10px auto;">
+                            <p style="min-width: 123px; font-size: 8pt;"><a href='/unsubscribe'>Unsubscribe</a></p>
                         </div>
                     </form>
                 </div>
@@ -72,7 +70,9 @@
             var req = $(this).serializeArray();
             $.post('/api/mailingListSubscribe', req, function (data, status) {
                 console.log(data);
-                $("#mailingListSubscribeContainer").html("<p style='color: black;'>Thanks For Subscribing! <br/> <a href='/news'>Click here to read past articles.</a><br/><a href='/unsubscribe'>Unsubscribe</a></p>")
+                $("#mailingListSubscribeContainer").html("<p style='color: black;'>Thanks For Subscribing! <br/> "+
+                "<a href='/news'>Click here to read past articles.</a><br/>"+
+                "<a href='/unsubscribe'>Unsubscribe</a></p>")
             });
             event.preventDefault();
         });

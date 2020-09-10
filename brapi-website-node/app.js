@@ -22,11 +22,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 var indexRouter = require('./routes/index');
 var getStartedRouter = require('./routes/getStarted');
 var newsRouter = require('./routes/news');
+var serversRouter = require('./routes/servers');
 var apiRouter = require('./routes/api');
 
 app.use('/', indexRouter);
 app.use('/get-started', getStartedRouter);
 app.use('/news', newsRouter);
+app.use('/servers', serversRouter);
 app.use('/api', apiRouter);
 
 // catch 404 and forward to error handler

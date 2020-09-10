@@ -1,0 +1,70 @@
+<section class="module-small">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="module-subtitle">
+                    <p>
+                        <a class="btn btn-d btn-round" style="margin-left:10px" href="/servers/submit">
+                        Register A New Server</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row" id="brapp-grid">
+                    {{#each providers}}
+                    <div class="col-xs-12 brapp">
+                        <div class="brapp-box">
+                            <div style="float: left; margin: 5px 30px;">
+                                <div class="provider-thumbnail">
+                                    {{#if logo }}
+                                    <span></span>
+                                    <img src="{{ logo }}" alt="{{ name }}">
+                                    {{else}}
+                                    <span class="mdi mdi-account-group"
+                                        style="font-size: 6.5em; line-height: 1.2em;"></span>
+                                    {{/if}}
+                                </div>
+                            </div>
+                            <div class="brapp-header font-alt">
+                                <h2>{{ name }}</h2>
+                                <p style="margin-left: 15px;">{{ description }}</p>
+                            </div>
+                            <div id="servers-for-{{ name }}" class="col-xs-12 brapp-details">
+                                {{#each resources}}
+                                <div style="margin-top: 15px">
+                                    <div class="col-xs-12">
+                                        <h4>{{ name }}</h4>
+                                    </div>
+                                    <div class="badge-holder">
+                                        {{#each badges }}
+                                        <div class="badge" style="background-color: {{ badge-color }};">
+                                            <div class="mdi {{ badge-icon-class }} badge-icon"></div>
+                                            <div class="badge-text">{{ badge-text }}</div>
+                                        </div>
+                                        {{/each}}
+                                    </div>
+                                    <div class="server-desc">
+                                        <p>Base URL</p>
+                                        <div class="server-url">
+                                            <a target="_blank" href="{{ base-url }}"><pre><code>{{ base-url }}</code></pre></a>
+                                        </div>
+                                        <p>{{ description }}</p>
+                                    </div>
+                                </div>
+                                {{/each}}
+                            </div>
+                            <div class="brapp-details-btn">
+                                <button id="toggle-{{ name }}" class="btn btn btn-round" type="button"
+                                    onclick="toggleVisible('servers-for-{{ name }}', 'toggle-{{ name }}', '&#x2B9D; Servers &#x2B9D;', '&#x2B9F; Servers &#x2B9F;')">&#x2B9F;
+                                    Servers &#x2B9F;</button>
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
