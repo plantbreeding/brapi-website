@@ -70,7 +70,7 @@
     {
         "name": "MGIS",
         "description": "Musa Germplasm Information System",
-        "logo": "http://www.crop-diversity.org/mgis/sites/crop-diversity.org.mgis/themes/mgis_theme/logo.png",
+        "logo": "https://www.crop-diversity.org/mgis/sites/crop-diversity.org.mgis/themes/mgis_theme/logo.png",
         "resources": [{
             "name": "Musa Germplasm Information System",
             "base-url": "https://www.crop-diversity.org/mgis/brapi/v1/",
@@ -146,10 +146,10 @@
     {
         "name": "Crop Ontology",
         "description": "The Crop Ontology project website.",
-        "logo": "http://www.cropontology.org/images/Crop_Ontology_logo.png",
+        "logo": "https://www.cropontology.org/images/Crop_Ontology_logo.png",
         "resources": [{
             "name": "Crop Ontology BrAPI implementation",
-            "base-url": "http://www.cropontology.org/brapi/v1/",
+            "base-url": "https://www.cropontology.org/brapi/v1/",
             "badges": ["auth-open", "data-prod", "brapi-v1"]
         }]
     },
@@ -166,7 +166,7 @@
     {
         "name": "ITPGRFA",
         "description": "International Treaty on Plant Genetic Resources for Food and Agriculture",
-        "logo": "http://www.fao.org/uploads/pics/logo_en.jpg",
+        "logo": "https://www.fao.org/uploads/pics/logo_en.jpg",
         "resources": [{
             "name": "GLIS Germplasm DOI Repository",
             "base-url": "https://ssl.fao.org/glisapi/v1",
