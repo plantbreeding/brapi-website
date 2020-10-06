@@ -6,6 +6,8 @@
                     <p>
                         <a class="btn btn-d btn-round" style="margin-left:10px" href="/servers/submit">
                         Register A New Server</a>
+                    <br/>
+                        <a style="font-size: 12px;" target="_blank" href="/json/brapi-resources.json">Get this list as JSON</a>
                     </p>
                 </div>
             </div>
@@ -46,11 +48,11 @@
                                         {{/each}}
                                     </div>
                                     <div class="server-desc">
-                                        <p>Base URL</p>
+                                        <div style="width:65px; float:left; margin-top:15px">Base URL</div>
                                         <div class="server-url">
                                             <a target="_blank" href="{{ base-url }}"><pre><code>{{ base-url }}</code></pre></a>
                                         </div>
-                                        <p>{{ description }}</p>
+                                        <p>{{{ description }}}</p>
                                     </div>
                                 </div>
                                 {{/each}}

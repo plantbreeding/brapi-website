@@ -92,7 +92,7 @@
     {
         "title": "BrAVA",
         "image": "/images/tools/testbook.jpeg",
-        "url": "http://webapps.ipk-gatersleben.de/brapivalidator",
+        "url": "https://webapps.ipk-gatersleben.de/brapivalidator",
         "type": "tool",
         "description": "The BrAPI Validation App is a BrAPI test client designed to run a set of validation tests on any BrAPI compliant server."
     },
