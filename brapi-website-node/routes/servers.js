@@ -14,8 +14,11 @@ var badges = {
 
 router.get('/', function(req, res, next) {
     var providers = JSON.parse(fs.readFileSync(path.join(__dirname, '../public/json/brapi-resources.json'), 'utf-8'));
+    const regThe = /^[tT]he /
     providers.sort(function(a, b) {
-        return a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
+        var aName = a.name.replace(regThe, '');
+        var bName = b.name.replace(regThe, '');
+        return aName > bName ? 1 : ((bName > aName) ? -1 : 0);
     });
 
     for (prov of providers) {
