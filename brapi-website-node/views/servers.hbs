@@ -48,11 +48,23 @@
                                         {{/each}}
                                     </div>
                                     <div class="server-desc">
-                                        <div style="width:65px; float:left; margin-top:15px">Base URL</div>
+                                        <p style="margin:5px 30px 5px 0">{{{ description }}}</p>
+                                        {{#if v1-url }}
+                                        <div>
+                                        <div style="width:85px; float:left; margin-top:15px">V1 Base URL</div>
                                         <div class="server-url">
-                                            <a target="_blank" href="{{ base-url }}"><pre><code>{{ base-url }}</code></pre></a>
+                                            <a target="_blank" href="{{ v1-url }}calls/"><pre><code>{{ v1-url }}</code></pre></a>
                                         </div>
-                                        <p>{{{ description }}}</p>
+                                        </div>
+                                        {{/if}}
+                                        {{#if v2-url }}
+                                        <div>
+                                        <div style="width:85px; float:left; margin-top:15px">V2 Base URL</div>
+                                        <div class="server-url">
+                                            <a target="_blank" href="{{ v2-url }}serverinfo/"><pre><code>{{ v2-url }}</code></pre></a>
+                                        </div>
+                                        </div>
+                                        {{/if}}
                                     </div>
                                 </div>
                                 {{/each}}
