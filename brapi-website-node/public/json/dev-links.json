@@ -22,7 +22,7 @@
     {
         "title": "BrAPI R",
         "image": "/images/tools/pirate.jpg",
-        "url": "https://github.com/CIP-RIU/brapi",
+        "url": "https://github.com/mverouden/brapir-v1",
         "type": "lib",
         "description": "The BrAPI R library has a complete BrAPI Client implementation written in R."
     },
