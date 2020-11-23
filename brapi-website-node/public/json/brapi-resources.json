@@ -95,6 +95,7 @@
     {
         "name": "Wageningen Plant Sciences, Plant Breeding BrAPI resources",
         "description": "Core BrAPI resources of Wageningen Plant Sciences, deployed by department of Plant Breeding.",
+        "logo": "/images/institutions/wageningen_logo_thumb.png",
         "resources": [{
             "name": "EU-SOL Tomato collection",
             "v1-url": "https://www.eu-sol.wur.nl/webapi/tomato/brapi/v1/",
@@ -145,7 +146,7 @@
     {
         "name": "BrAPI",
         "description": "The BrAPI Community",
-        "logo": "https://brapi.org/images/brapi-logo.svg",
+        "logo": "/images/brapi-logo.svg",
         "resources": [{
             "name": "BrAPI Test Server V1",
             "v1-url": "https://test-server.brapi.org/brapi/v1/",
