@@ -2,7 +2,7 @@ version: '3'
 
 services:
   brapi.org:
-    image: brapicoordinatorselby/brapi.org
+    image: nginx:stable
     restart: unless-stopped
     depends_on: 
       - brapi-web
@@ -11,6 +11,8 @@ services:
     volumes:
       - /home/jenkins/brapi.org/data/server-conf/certbot/conf:/etc/letsencrypt
       - /home/jenkins/brapi.org/data/server-conf/certbot/www:/var/www/certbot
+      - /home/jenkins/brapi.org/brapi-website/server/nginx.conf:/etc/nginx/nginx.conf
+      - /home/jenkins/brapi.org/brapi-website/server/brapi-ssl.conf:/etc/nginx/sites-available/brapi-ssl.conf
     ports:
       - "80:80"
       - "443:443"
@@ -29,8 +31,6 @@ services:
       - NEW_SERVER_LIST_PATH=/usr/src/app/data/serverListChanges.txt
     volumes:
       - /home/jenkins/brapi.org/data/email-data:/usr/src/app/data/
-    ports:
-      - "3000:3000"
   brapi-wiki:
     image: mediawiki:1.31.0
     restart: unless-stopped
