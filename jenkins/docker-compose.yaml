@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  jenkins:
+    image: jenkins_python
+    restart: unless-stopped
+    volumes:
+      - /home/jenkins/jenkins_home:/var/jenkins_home 
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "50003:50000"
+      - "8443:8443"

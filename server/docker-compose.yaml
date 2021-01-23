@@ -5,9 +5,7 @@ services:
     image: nginx:stable
     restart: unless-stopped
     depends_on: 
-      - brapi-web
       - certbot
-      - brapi-wiki
     volumes:
       - /home/jenkins/brapi.org/data/server-conf/certbot/conf:/etc/letsencrypt
       - /home/jenkins/brapi.org/data/server-conf/certbot/www:/var/www/certbot
@@ -23,36 +21,6 @@ services:
       - /home/jenkins/brapi.org/data/server-conf/certbot/conf:/etc/letsencrypt
       - /home/jenkins/brapi.org/data/server-conf/certbot/www:/var/www/certbot
     entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
-  brapi-web:
-    image: brapicoordinatorselby/brapi-web
-    restart: unless-stopped
-    environment:
-      - MIALING_LIST_PATH=/usr/src/app/data/mailingListChanges.txt
-      - NEW_SERVER_LIST_PATH=/usr/src/app/data/serverListChanges.txt
-    volumes:
-      - /home/jenkins/brapi.org/data/email-data:/usr/src/app/data/
-  brapi-wiki:
-    image: mediawiki:1.31.0
-    restart: unless-stopped
-    depends_on: 
-      - brapi-wiki-db
-    volumes:
-      - /home/jenkins/brapi.org/data/wiki-files/LocalSettings.php:/var/www/html/LocalSettings.php
-      - /home/jenkins/brapi.org/data/wiki-files/images:/var/www/html/images
-      - /home/jenkins/brapi.org/brapi-website/wiki/extensions:/var/www/html/extensions
-    environment:
-      - GITHUB_CLIENTID
-      - GITHUB_CLIENTSECRET
-  brapi-wiki-db:
-    image: mysql:5.7.31
-    restart: unless-stopped
-    volumes:
-      - /home/jenkins/brapi.org/data/wiki:/var/lib/mysql
-    environment:
-      - MYSQL_RANDOM_ROOT_PASSWORD=yes
-      - MYSQL_DATABASE=mediawiki
-      - MYSQL_USER
-      - MYSQL_PASSWORD
 networks:
     default:
         external:
