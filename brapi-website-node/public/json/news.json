@@ -1,4 +1,10 @@
 {
+    "feb-02-2021": {
+        "title": "BrAPI Update - February 2021",
+        "date": "February, 2021",
+        "author": "Peter Selby",
+        "article": "<h4>BrAPI Virtual Hackathon</h4><p>Mark Your Calendars! I am pleased to announce that the BrAPI Virtual Hackathon will be March 8-19, 2021. Please watch your <a target=\"_blank\" href=\" /contact\">Email</a>, <a target=\"_blank\"href=\"https://join.slack.com/t/plantbreedingapi/shared_invite/enQtNjA4NTA3OTI5NjUxLWE5ZmI0NDE0NGM1ODkxMjVmMDU1MGVjY2Q5M2QxNGNkYzMyODhkNDVmZjM0ZGI1YzEwYjEwNmY0MDM1YjllZDU\">Slack</a>, and <a target=\"_blank\" href=\"https://twitter.com/breedingapi\">Twitter</a> for more information about registration and agenda coming soon. Thank you to everyone who completed the survey. The general plan is to stretch a normal BrAPI Hackathon over two weeks instead of one. This will relax the schedule for each day and allow for more flexibility with time zones. From the survey results, the top three focus points will be 1) Project updates from the community; 2) Focused discussions improving the BrAPI spec; and 3) Dedicated project work time.  I encourage everyone to take a little time to prep a short update and be ready with some BrAPI related projects to share and work on. </p><h4>Server and DNS updates</h4><p>This week, I am doing some maintenance to the brapi.org infrastructure. Thanks to all those who reached out to me on Monday about the DNS error, that error should be resolved now. You might see some other service interruptions as I get everything settled into its new home (as I write this, the BrAPI Wiki site is still down). There should not be any visible changes to the site, but the change in infrastructure will make things much easier for me to manage in the background. This marks a step toward BrAPI becoming more independent and sustainable, so please forgive the bumps along the way. </p>"
+    },
     "jan-04-2021": {
         "title": "BrAPI Virtual Hackathon Survey",
         "date": "January 04, 2021",
