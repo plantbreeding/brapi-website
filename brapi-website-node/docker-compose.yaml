@@ -15,8 +15,8 @@ services:
     depends_on: 
       - brapi-wiki-db
     volumes:
-      - /home/jenkins/brapi.org/data/wiki-files/LocalSettings.php:/var/www/html/LocalSettings.php
-      - /home/jenkins/brapi.org/data/wiki-files/images:/var/www/html/images
+      - /home/jenkins/brapi.org/brapi-website/wiki/LocalSettings.php:/var/www/html/LocalSettings.php
+      - /home/jenkins/brapi.org/brapi-website/wiki/images:/var/www/html/images
       - /home/jenkins/brapi.org/brapi-website/wiki/extensions:/var/www/html/extensions
     environment:
       - GITHUB_CLIENTID
