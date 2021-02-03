@@ -1,4 +1,9 @@
 [{
+        "name": "T3",
+        "url": "https://triticeaetoolbox.org/",
+        "img": "t3-wide.png"
+    },
+    {
         "name": "The James Hutton Institute",
         "url": "https://ics.hutton.ac.uk",
         "img": "jhi.svg"
@@ -6,7 +11,7 @@
     {
         "img": "cimmyt.png",
         "name": "International Maize and Wheat Improvement Center",
-        "url": "http://www.cimmyt.org"
+        "url": "https://www.cimmyt.org"
     },
     {
         "img": "bti.png",
