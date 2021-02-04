@@ -21,7 +21,7 @@ services:
     env_file:
       - /home/jenkins/brapi.org/brapi-website/wiki/wiki_variables.env
   brapi-wiki-db:
-    image: mysql:8.0.23
+    image: mysql:5.7.33
     restart: unless-stopped
     volumes:
       - /home/jenkins/brapi.org/data/wiki:/var/lib/mysql
