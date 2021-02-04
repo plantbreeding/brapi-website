@@ -23,7 +23,7 @@
     {
         "name": "The Triticeae Toolbox",
         "description": "The Triticeae Toolbox (T3) is a USDA-funded, publicly-accessible centralized database used for storing and retrieving germplasm, phenotype, and genotype data collected by small grains breeders.",
-        "logo": "/images/institutions/t3.png",
+        "logo": "/images/institutions/T3_black.png",
         "resources": [{
             "name": "T3/Wheat",
             "v1-url": "https://wheat.triticeaetoolbox.org/brapi/v1/",
