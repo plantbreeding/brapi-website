@@ -15,22 +15,18 @@ services:
     depends_on: 
       - brapi-wiki-db
     volumes:
-      - /home/jenkins/brapi.org/brapi-website/wiki/LocalSettings_1.php:/var/www/html/LocalSettings.php
+      - /home/jenkins/brapi.org/brapi-website/wiki/LocalSettings.php:/var/www/html/LocalSettings.php
       - /home/jenkins/brapi.org/brapi-website/wiki/images:/var/www/html/images
       - /home/jenkins/brapi.org/brapi-website/wiki/extensions:/var/www/html/extensions
-    environment:
-      - GITHUB_CLIENTID
-      - GITHUB_CLIENTSECRET
+    env_file:
+      - wiki_variables.env
   brapi-wiki-db:
     image: mysql:8.0.23
     restart: unless-stopped
     volumes:
       - /home/jenkins/brapi.org/data/wiki:/var/lib/mysql
-    environment:
-      - MYSQL_RANDOM_ROOT_PASSWORD=yes
-      - MYSQL_DATABASE=mediawiki
-      - MYSQL_USER
-      - MYSQL_PASSWORD
+    env_file:
+      - wiki_variables.env
 networks:
     default:
         external:
