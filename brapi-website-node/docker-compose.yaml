@@ -19,14 +19,14 @@ services:
       - /home/jenkins/brapi.org/brapi-website/wiki/images:/var/www/html/images
       - /home/jenkins/brapi.org/brapi-website/wiki/extensions:/var/www/html/extensions
     env_file:
-      - wiki_variables.env
+      - /home/jenkins/brapi.org/brapi-website/wiki/wiki_variables.env
   brapi-wiki-db:
     image: mysql:8.0.23
     restart: unless-stopped
     volumes:
       - /home/jenkins/brapi.org/data/wiki:/var/lib/mysql
     env_file:
-      - wiki_variables.env
+      - /home/jenkins/brapi.org/brapi-website/wiki/wiki_variables.env
 networks:
     default:
         external:
