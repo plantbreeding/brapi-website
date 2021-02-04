@@ -10,7 +10,7 @@ services:
     volumes:
       - /home/jenkins/brapi.org/data/email-data:/usr/src/app/data/
   brapi-wiki:
-    image: mediawiki:1.31.0
+    image: mediawiki:1.35.1
     restart: unless-stopped
     depends_on: 
       - brapi-wiki-db
@@ -22,7 +22,7 @@ services:
       - GITHUB_CLIENTID
       - GITHUB_CLIENTSECRET
   brapi-wiki-db:
-    image: mysql:5.7.31
+    image: mysql:8.0.23
     restart: unless-stopped
     volumes:
       - /home/jenkins/brapi.org/data/wiki:/var/lib/mysql
