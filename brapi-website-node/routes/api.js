@@ -44,7 +44,8 @@ router.post('/newServerSubmit', function(req, res, next) {
 function newServerJSON(reqBody) {
     var serverBody = {};
     serverBody.name = reqBody.serverName;
-    serverBody["base-url"] = reqBody.serverBaseUrl;
+    serverBody["v1-url"] = reqBody.serverV1Url;
+    serverBody["v2-url"] = reqBody.serverV2Url;
     serverBody.description = reqBody.serverDesc;
     serverBody.badges = [];
     for (var field in reqBody) {
