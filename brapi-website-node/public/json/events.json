@@ -1,4 +1,20 @@
 [{
+        "title": "BrAPI Virtual Hackathon",
+        "location": "From Home",
+        "date": "March 8, 2021 - March 19, 2021",
+        "image": "/images/events/home_thumb.jpg",
+        "description": "",
+        "upcoming": true,
+        "links": [{
+                "name": "Sign Up Now",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLScCBIy57jhOEauA0-zvubVdzLE6xnfBXqI0NS9E4te5Ea-DfQ/viewform"
+            },
+            {
+                "name": "Agenda",
+                "url": "https://docs.google.com/spreadsheets/d/1z9whaJlzTMNuNpq5vVgSxwsmbJfCedPGj3jRfcIX0oE/edit?usp=sharing"
+            }
+        ]
+    }, {
         "title": "Hyderabad Hackathon",
         "location": "Hyderabad, India",
         "date": "February 3, 2020 - February 7, 2020",
