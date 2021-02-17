@@ -14,12 +14,14 @@ function renderNews(res, postID) {
     if (postID in posts) {
         res.render('news', {
             title: 'News',
+            footerEvents: require('./events').getTrailerEvents(),
             showList: false,
             post: posts[postID]
         });
     } else {
         res.render('news', {
             title: 'News',
+            footerEvents: require('./events').getTrailerEvents(),
             showList: true,
             posts: posts
         });

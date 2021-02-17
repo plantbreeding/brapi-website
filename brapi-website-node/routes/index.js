@@ -4,6 +4,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     res.render('index', {
         title: 'BrAPI',
+        footerEvents: require('./events').getTrailerEvents(),
         isHomePage: true
     });
 });
@@ -15,32 +16,15 @@ router.get('/partners', function(req, res, next) {
     });
     res.render('partners', {
         title: 'Partners',
+        footerEvents: require('./events').getTrailerEvents(),
         partners: partners
-    });
-});
-
-router.get('/events', function(req, res, next) {
-    var events = require('../public/json/events.json')
-    var currentEvents = []
-    var pastEvents = []
-    for (event of events) {
-        if (event['upcoming']) {
-            currentEvents.push(event)
-        } else {
-            pastEvents.push(event)
-        }
-    }
-
-    res.render('events', {
-        title: 'Events',
-        currentEvents: currentEvents,
-        pastEvents: pastEvents
     });
 });
 
 router.get('/specification', function(req, res, next) {
     res.render('specification', {
-        title: 'BrAPI Specification'
+        title: 'BrAPI Specification',
+        footerEvents: require('./events').getTrailerEvents()
     });
 });
 
@@ -65,6 +49,7 @@ function renderLinksPage(title, type, res) {
     }
     res.render('linksPage', {
         title: title,
+        footerEvents: require('./events').getTrailerEvents(),
         links: links
     });
 }
@@ -74,19 +59,22 @@ router.get('/brapps', function(req, res, next) {
 
     res.render('brapps', {
         title: 'BrAPPs',
+        footerEvents: require('./events').getTrailerEvents(),
         brapps: brapps
     });
 });
 
 router.get('/contact', function(req, res, next) {
     res.render('contact', {
-        title: 'Contact'
+        title: 'Contact',
+        footerEvents: require('./events').getTrailerEvents(),
     });
 });
 
 router.get('/unsubscribe', function(req, res, next) {
     res.render('unsubscribe', {
-        title: 'Unsubscribe'
+        title: 'Unsubscribe',
+        footerEvents: require('./events').getTrailerEvents(),
     });
 });
 

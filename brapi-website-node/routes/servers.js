@@ -33,6 +33,7 @@ router.get('/', function(req, res, next) {
 
     res.render('servers', {
         title: 'Servers',
+        footerEvents: require('./events').getTrailerEvents(),
         providers: providers
     });
 });
@@ -45,6 +46,7 @@ router.get('/submit', function(req, res, next) {
 
     res.render('serversSubmit', {
         title: 'Servers',
+        footerEvents: require('./events').getTrailerEvents(),
         providers: providers,
         badges: badges
     });

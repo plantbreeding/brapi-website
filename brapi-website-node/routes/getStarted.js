@@ -5,6 +5,7 @@ router.get('/', function(req, res, next) {
     var getStartedArr = require('../public/json/get-started-pages.json')
     res.render('getStarted', {
         title: 'Getting Started',
+        footerEvents: require('./events').getTrailerEvents(),
         page: getStartedArr[0],
         pages: getStartedArr,
         nextHref: '/get-started/1',
@@ -38,6 +39,7 @@ router.get('/:pageNum', function(req, res, next) {
 
     res.render('getStarted', {
         title: 'Getting Started',
+        footerEvents: require('./events').getTrailerEvents(),
         page: getStartedArr[pageNum],
         pages: getStartedArr,
         nextHref: nextHref,

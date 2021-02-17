@@ -6,14 +6,12 @@
         "description": "<p>Join the BrAPI community for two weeks of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from March 8-19, 2021. Everyone in the BrAPI community is welcome! Please register to receive meeting links and other important information. </p>",
         "upcoming": true,
         "links": [{
-                "name": "Sign Up Now",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLScCBIy57jhOEauA0-zvubVdzLE6xnfBXqI0NS9E4te5Ea-DfQ/viewform"
-            },
-            {
-                "name": "Agenda",
-                "url": "https://docs.google.com/spreadsheets/d/1z9whaJlzTMNuNpq5vVgSxwsmbJfCedPGj3jRfcIX0oE/edit?usp=sharing"
-            }
-        ]
+            "name": "Event Page",
+            "url": "/events/hackathon-mar-2021"
+        }, {
+            "name": "Sign Up Now",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScCBIy57jhOEauA0-zvubVdzLE6xnfBXqI0NS9E4te5Ea-DfQ/viewform"
+        }]
     }, {
         "title": "Hyderabad Hackathon",
         "location": "Hyderabad, India",
