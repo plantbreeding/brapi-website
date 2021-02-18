@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(brapi.org www.brapi.org wiki.brapi.org test-server.brapi.org)
+domains=(brapi.org www.brapi.org wiki.brapi.org test-server.brapi.org jenkins.brapi.org auth.brapi.org)
 rsa_key_size=4096
 data_path="/home/jenkins/brapi.org/data/server-conf/certbot"
 email="brapicoordinatorselby@gmail.com" # Adding a valid address is strongly recommended
