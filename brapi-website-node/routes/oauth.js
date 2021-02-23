@@ -6,7 +6,7 @@ var client;
 
 function buildOauthClient() {
     custom.setHttpOptionsDefaults({
-        timeout: 5000,
+        timeout: 10000,
     });
     return Issuer.discover('https://test-server.brapi.org/brapi/auth/') // => Promise
         .then(function(issuerResponse) {
@@ -22,20 +22,20 @@ function buildOauthClient() {
 }
 
 router.get('/', function(req, res, next) {
-    buildOauthClient().then(function() {
-        res.render('oauth', {
-            title: 'OAuth',
-            footerEvents: require('./events').getTrailerEvents()
-        });
+    res.render('oauth', {
+        title: 'OAuth',
+        footerEvents: require('./events').getTrailerEvents()
     });
 });
 
 router.get('/login', function(req, res, next) {
-    const nonce = generators.nonce();
-    var authURL = client.authorizationUrl({
-        scope: 'profile',
+    buildOauthClient().then(function() {
+        const nonce = generators.nonce();
+        var authURL = client.authorizationUrl({
+            scope: 'profile',
+        });
+        res.redirect(authURL);
     });
-    res.redirect(authURL);
 });
 
 
