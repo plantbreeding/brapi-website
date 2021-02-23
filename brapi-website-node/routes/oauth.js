@@ -1,10 +1,13 @@
 var express = require('express');
 var router = express.Router();
 
-const { Issuer, generators } = require('openid-client');
+const { Issuer, generators, custom } = require('openid-client');
 var client;
 
 function buildOauthClient() {
+    custom.setHttpOptionsDefaults({
+        timeout: 5000,
+    });
     return Issuer.discover('https://test-server.brapi.org/brapi/auth/') // => Promise
         .then(function(issuerResponse) {
             console.log('Discovered issuer %s %O', issuerResponse.issuer, issuerResponse.authorization_endpoint);
