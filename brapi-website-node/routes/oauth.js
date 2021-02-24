@@ -15,7 +15,8 @@ function buildOauthClient() {
 
             client = new issuerResponse.Client({
                 client_id: 'exampleClient',
-                redirect_uris: ['http://localhost:3000/oauth/redirect'],
+                //redirect_uris: ['http://localhost:3000/oauth/redirect'],
+                redirect_uris: ['https://brapi.org/oauth/redirect'],
                 //response_types: ['code']
                 response_types: ['token'],
             }); // => Client
