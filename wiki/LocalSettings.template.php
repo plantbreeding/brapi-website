@@ -34,6 +34,7 @@ $wgServer = "https://wiki.brapi.org";
 $wgResourceBasePath = $wgScriptPath;
 $wgUploadPath = "/var/www/html/images/";
 $wgUploadDirectory = "/var/www/html/images/";
+$wgGenerateThumbnailOnParse = true;
 
 ## The URL path to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
