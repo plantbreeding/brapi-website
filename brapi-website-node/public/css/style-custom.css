@@ -227,3 +227,12 @@ pre.token {
     word-wrap: break-word;
     white-space: pre-wrap;
 }
+
+tr th,
+tr td {
+    padding-left: 10px;
+}
+
+table a {
+    text-decoration: underline;
+}
