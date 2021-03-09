@@ -32,8 +32,8 @@ $wgServer = "https://wiki.brapi.org";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
-$wgUploadPath = "/var/www/html/images/";
-$wgUploadDirectory = "/var/www/html/images/";
+$wgUploadPath = "$wgResourceBasePath/images";
+$wgUploadDirectory = "/var/www/html/images";
 $wgGenerateThumbnailOnParse = true;
 
 ## The URL path to the logo.  Make sure you change this from the default,
