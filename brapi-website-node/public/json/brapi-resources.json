@@ -1,4 +1,21 @@
 [{
+        "name": "Gobii",
+        "logo": "http://cbsugobii05.biohpc.cornell.edu/wordpress/wp-content/uploads/2018/03/GOBII-tm.png",
+        "description": "The first large-scale public-sector effort with the goal to systematically apply high-density genotypic information to the breeding of staple crops in the developing world. Initially the focus is on rice, wheat, maize, sorghum and chickpea in South Asia and Sub-Saharan Africa. The genomic data management systems will include databases, imputation systems, and decision support tools for plant breeders.",
+        "resources": [{
+            "name": "GDM",
+            "v1-url": "http://api.gobii.org/gobii-dev/brapi/v1",
+            "v2-url": "http://api.gobii.org/gobii-dev/brapi/v2",
+            "description": "Test server for Gobii Data Manager",
+            "badges": [
+                "auth-required",
+                "data-demo",
+                "brapi-v1",
+                "brapi-v2"
+            ]
+        }]
+    },
+    {
         "name": "Integrated Breeding Platform",
         "logo": "https://integratedbreeding.net/res/img/logofull.png",
         "description": "The IBP provides the tools, technologies and expertise sought by plant breeding programs in the public and private sectors, mainly in developing countries, as well as by universities engaged in teaching and research for the next generation of plant breeders. We build on the considerable legacy and networks of the former Generation Challenge Programme (GCP) to connect researchers, technicians and students at the local, regional and international levels. In doing so, the IBP is able to draw upon comprehensive knowledge and resources that are invaluable to strengthen the delivery chain for key staple food crops.",
