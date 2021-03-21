@@ -10,14 +10,13 @@ services:
     volumes:
       - /home/jenkins/brapi.org/data/email-data:/usr/src/app/data/
   brapi-wiki:
-    image: mediawiki:1.35.1
+    image: brapicoordinatorselby/brapi-wiki
     restart: unless-stopped
     depends_on: 
       - brapi-wiki-db
     volumes:
       - /home/jenkins/brapi.org/brapi-website/wiki/LocalSettings.php:/var/www/html/LocalSettings.php
       - /home/jenkins/brapi.org/brapi-website/wiki/images:/var/www/html/images
-      - /home/jenkins/brapi.org/brapi-website/wiki/extensions:/var/www/html/extensions
     env_file:
       - /home/jenkins/brapi.org/brapi-website/wiki/wiki_variables.env
   brapi-wiki-db:
