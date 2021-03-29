@@ -24,6 +24,7 @@ var getStartedRouter = require('./routes/getStarted');
 var newsRouter = require('./routes/news');
 var serversRouter = require('./routes/servers');
 var eventsRouter = require('./routes/events').router;
+var oauthRouter = require('./routes/oauth');
 var apiRouter = require('./routes/api');
 
 app.use('/', indexRouter);
@@ -31,6 +32,7 @@ app.use('/get-started', getStartedRouter);
 app.use('/news', newsRouter);
 app.use('/servers', serversRouter);
 app.use('/events', eventsRouter);
+app.use('/oauth', oauthRouter);
 app.use('/api', apiRouter);
 
 // catch 404 and forward to error handler

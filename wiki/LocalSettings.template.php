@@ -32,8 +32,9 @@ $wgServer = "https://wiki.brapi.org";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
-$wgUploadPath = "/var/www/html/images/";
-$wgUploadDirectory = "/var/www/html/images/";
+$wgUploadPath = "$wgResourceBasePath/images";
+$wgUploadDirectory = "/var/www/html/images";
+$wgGenerateThumbnailOnParse = true;
 
 ## The URL path to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
@@ -136,7 +137,18 @@ wfLoadSkin( 'Vector' );
 # wfLoadExtensions('ExtensionName');
 # to LocalSettings.php. Check specific extension documentation for more details.
 # The following extensions were automatically enabled:
-wfLoadExtension( 'MediaWiki-OAuth2-Github' );
 
+# Run the update command to finish setup in the database
+## php /var/www/html/maintenance/update.php
+wfLoadExtension( 'PluggableAuth' );
+wfLoadExtension( 'OpenIDConnect' );
+$wgOpenIDConnect_Config['http://keycloak-brapi:8080/auth/realms/brapi/'] = [
+        'clientID' => 'brapi-wiki',
+        'clientsecret' => '',
+        'scope' => [ 'openid', 'profile', 'email' ]
+    ];
+    
+    
+    $wgGenerateThumbnailOnParse = true;
 # End of automatically generated settings.
 # Add more configuration options below.
