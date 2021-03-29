@@ -1,2 +1,5 @@
 /.vscode/
 .env
+/wiki/images
+/wiki/LocalSettings.php
+/wiki/wiki_variables.env
