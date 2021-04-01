@@ -4,7 +4,7 @@
         "date": "March 8, 2021 - March 19, 2021",
         "image": "/images/events/home_thumb.jpg",
         "description": "<p>Join the BrAPI community for two weeks of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from March 8-19, 2021. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [{
             "name": "Event Page",
             "url": "/events/hackathon-mar-2021"
