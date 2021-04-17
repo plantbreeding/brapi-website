@@ -23,3 +23,5 @@ RUN echo '{ "extra": { "merge-plugin": { "include": [ "extensions/OpenIDConnect/
 
 WORKDIR /var/www/html/
 RUN composer update
+
+COPY ./block-files.conf /etc/apache2/conf-enabled
