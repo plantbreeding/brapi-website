@@ -3,23 +3,31 @@
 
 FROM mediawiki:1.35.1
 
-RUN curl -sSL https://extdist.wmflabs.org/dist/extensions/PluggableAuth-REL1_35-2a465ae.tar.gz -o PluggableAuth-REL1_35-2a465ae.tar.gz
-RUN tar -xzf PluggableAuth-REL1_35-2a465ae.tar.gz -C /var/www/html/extensions
 
-RUN curl -sSL https://extdist.wmflabs.org/dist/extensions/OpenIDConnect-REL1_35-05d76c0.tar.gz -o OpenIDConnect-REL1_35-05d76c0.tar.gz
-RUN tar -xzf OpenIDConnect-REL1_35-05d76c0.tar.gz -C /var/www/html/extensions
-
-RUN curl -sSL https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer --version=1.10.20
-
-RUN apt-get -y update \
-     && apt-get -y autoremove \
-     && apt-get clean \
-     && apt-get install -y \
+WORKDIR /var/www/html/extensions
+RUN echo "" \
+# Download and extract PluggableAuth plugin
+ && curl -sSL https://extdist.wmflabs.org/dist/extensions/PluggableAuth-REL1_35-2a465ae.tar.gz -o PluggableAuth-REL1_35-2a465ae.tar.gz \
+ && tar -xzf PluggableAuth-REL1_35-2a465ae.tar.gz -C /var/www/html/extensions \
+# Download and extract OpenIDConnect plugin
+ && curl -sSL https://extdist.wmflabs.org/dist/extensions/OpenIDConnect-REL1_35-05d76c0.tar.gz -o OpenIDConnect-REL1_35-05d76c0.tar.gz \
+ && tar -xzf OpenIDConnect-REL1_35-05d76c0.tar.gz -C /var/www/html/extensions \
+# Download and extract php composer
+ && curl -sSL https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer --version=1.10.20 \
+# update apt-get
+ && apt-get -y update \
+ && apt-get -y autoremove \
+ && apt-get clean \
+# install libzip-dev and zip packages
+ && apt-get install -y \
         libzip-dev \
         zip \
-  && docker-php-ext-install zip
-
-RUN echo '{ "extra": { "merge-plugin": { "include": [ "extensions/OpenIDConnect/composer.json" ] } } }' >> /var/www/html/composer.local.json
+ && docker-php-ext-install zip \
+# connect OpenIDConnect plugin with composer
+ && echo '{ "extra": { "merge-plugin": { "include": [ "extensions/OpenIDConnect/composer.json" ] } } }' >> /var/www/html/composer.local.json
 
 WORKDIR /var/www/html/
 RUN composer update
+
+# black list files from being served by apache
+COPY ./block-files.conf /etc/apache2/conf-enabled
