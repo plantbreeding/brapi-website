@@ -109,5 +109,12 @@
         "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz190/5418796",
         "type": "doc",
         "description": "The official BrAPI publication. Share, cite, and enjoy!"
+    },
+    {
+        "title": "Python Server Stub",
+        "image": "/images/tools/newspaper.jpg",
+        "url": "https://github.com/agostof/BrAPI-FastAPI",
+        "type": "lib",
+        "description": "A BrAPI server stub written in Python using FastAPI"
     }
 ]
