@@ -1,4 +1,18 @@
 [{
+        "title": "BOSC 2021",
+        "location": "Virtual",
+        "date": "July 29, 2021 - July 30, 2021",
+        "image": "/images/events/BOSC2021_thumb.png",
+        "description": "<p>The Bioinformatics Open Source Conference (BOSC) will be July 29-30. I will be giving a short talk about BrAPI as a standard and as a community, followed by a short Q&A session. My talk has been pre-recorded, with a YouTube link below if you can't make it to the conference.</p>",
+        "upcoming": true,
+        "links": [{
+            "name": "Event Page",
+            "url": "https://www.open-bio.org/events/bosc-2021/"
+        }, {
+            "name": "BrAPI Presentation",
+            "url": "https://youtu.be/f1G9HYY_onU"
+        }]
+    }, {
         "title": "BrAPI Virtual Hackathon",
         "location": "From Home",
         "date": "March 8, 2021 - March 19, 2021",
