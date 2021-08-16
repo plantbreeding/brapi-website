@@ -1,18 +1,38 @@
 [{
+        "title": "BrAPI Virtual Hackathon",
+        "location": "Virtual",
+        "date": "October 4, 2021 - October 8, 2021",
+        "image": "/images/events/home2_thumb.jpg",
+        "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from Oct 4-8, 2021. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
+        "upcoming": true,
+        "links": [{
+                "name": "Event Page",
+                "url": "/events/hackathon-oct-2021"
+            },
+            {
+                "name": "Sign Up Now",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLScH8L3M_0r7uqi1rvjWe7EJn01VC5DFg6tFv4x33YbZxIvcWw/viewform"
+            }
+        ]
+    },
+    {
         "title": "BOSC 2021",
         "location": "Virtual",
         "date": "July 29, 2021 - July 30, 2021",
         "image": "/images/events/BOSC2021_thumb.png",
         "description": "<p>The Bioinformatics Open Source Conference (BOSC) will be July 29-30. I will be giving a short talk about BrAPI as a standard and as a community, followed by a short Q&A session. My talk has been pre-recorded, with a YouTube link below if you can't make it to the conference.</p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [{
-            "name": "Event Page",
-            "url": "https://www.open-bio.org/events/bosc-2021/"
-        }, {
-            "name": "BrAPI Presentation",
-            "url": "https://youtu.be/f1G9HYY_onU"
-        }]
-    }, {
+                "name": "Event Page",
+                "url": "https://www.open-bio.org/events/bosc-2021/"
+            },
+            {
+                "name": "BrAPI Presentation",
+                "url": "https://youtu.be/f1G9HYY_onU"
+            }
+        ]
+    },
+    {
         "title": "BrAPI Virtual Hackathon",
         "location": "From Home",
         "date": "March 8, 2021 - March 19, 2021",
@@ -20,13 +40,16 @@
         "description": "<p>Join the BrAPI community for two weeks of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from March 8-19, 2021. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
         "upcoming": false,
         "links": [{
-            "name": "Event Page",
-            "url": "/events/hackathon-mar-2021"
-        }, {
-            "name": "Sign Up Now",
-            "url": "https://docs.google.com/forms/d/e/1FAIpQLScCBIy57jhOEauA0-zvubVdzLE6xnfBXqI0NS9E4te5Ea-DfQ/viewform"
-        }]
-    }, {
+                "name": "Event Page",
+                "url": "/events/hackathon-mar-2021"
+            },
+            {
+                "name": "Sign Up Now",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLScCBIy57jhOEauA0-zvubVdzLE6xnfBXqI0NS9E4te5Ea-DfQ/viewform"
+            }
+        ]
+    },
+    {
         "title": "Hyderabad Hackathon",
         "location": "Hyderabad, India",
         "date": "February 3, 2020 - February 7, 2020",
@@ -48,12 +71,14 @@
         ],
         "showSponsors": true,
         "sponsorsLogos": [{
-            "logo": "/images/institutions/eiblogo.png",
-            "url": "http://excellenceinbreeding.org/"
-        }, {
-            "logo": "/images/institutions/ICRISAT.png",
-            "url": "https://www.icrisat.org/"
-        }]
+                "logo": "/images/institutions/eiblogo.png",
+                "url": "http://excellenceinbreeding.org/"
+            },
+            {
+                "logo": "/images/institutions/ICRISAT.png",
+                "url": "https://www.icrisat.org/"
+            }
+        ]
     },
     {
         "title": "BrAPI At PAG: V2.0",
@@ -63,12 +88,14 @@
         "description": "<p>Join us in San Diego at PAG for a BrAPI community meetup on Sunday morning at the <a target=\"_blank\" href=\"https://sd.handlery.com/contact-location-en.html\">Handlery Hotel</a>. The focus of the discussion for this meet up will be BrAPI V2.0. </p><p>Can't make it on Sunday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
         "upcoming": false,
         "links": [{
-            "name": "PAG Website",
-            "url": "http://www.intlpag.org/2020/"
-        }, {
-            "name": "Handlery Hotel",
-            "url": "https://sd.handlery.com/contact-location-en.html"
-        }]
+                "name": "PAG Website",
+                "url": "http://www.intlpag.org/2020/"
+            },
+            {
+                "name": "Handlery Hotel",
+                "url": "https://sd.handlery.com/contact-location-en.html"
+            }
+        ]
     },
     {
         "title": "Wageningen Hackathon",

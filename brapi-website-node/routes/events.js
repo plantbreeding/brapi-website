@@ -22,8 +22,8 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.get('/hackathon-mar-2021', function(req, res, next) {
-    res.render('hackathon', {
+router.get('/:id', function(req, res, next) {
+    res.render('hackathons/' + req.params.id, {
         title: 'BrAPI Virtual Hackathon',
         footerEvents: getTrailerEvents()
     });
