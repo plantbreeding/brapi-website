@@ -17,7 +17,9 @@ router.get('/', function(req, res, next) {
         title: 'Events',
         footerEvents: getTrailerEvents(),
         currentEvents: currentEvents,
-        pastEvents: pastEvents
+        pastEvents: pastEvents,
+        twitterDesc: currentEvents[0].title + ", " + currentEvents[0].date,
+        twitterImg: currentEvents[0].image
     });
 });
 
