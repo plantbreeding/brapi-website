@@ -18,7 +18,8 @@ router.get('/', function(req, res, next) {
         footerEvents: getTrailerEvents(),
         currentEvents: currentEvents,
         pastEvents: pastEvents,
-        twitterDesc: currentEvents[0].title + ", " + currentEvents[0].date,
+        twitterTitle: currentEvents[0].title,
+        twitterDesc: currentEvents[0].date,
         twitterImg: currentEvents[0].image
     });
 });
@@ -27,7 +28,9 @@ router.get('/', function(req, res, next) {
 router.get('/:id', function(req, res, next) {
     res.render('hackathons/' + req.params.id, {
         title: 'BrAPI Virtual Hackathon',
-        footerEvents: getTrailerEvents()
+        footerEvents: getTrailerEvents(),
+        twitterTitle: 'BrAPI Virtual Hackathon',
+        twitterDesc: req.params.id
     });
 });
 

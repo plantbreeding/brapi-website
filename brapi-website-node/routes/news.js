@@ -17,6 +17,7 @@ function renderNews(res, postID) {
             footerEvents: require('./events').getTrailerEvents(),
             showList: false,
             post: posts[postID],
+            twitterTitle: posts[postID].title,
             twitterDesc: posts[postID].article
         });
     } else {
