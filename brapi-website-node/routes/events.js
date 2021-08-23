@@ -18,8 +18,8 @@ router.get('/', function(req, res, next) {
         footerEvents: getTrailerEvents(),
         currentEvents: currentEvents,
         pastEvents: pastEvents,
-        twitterTitle: currentEvents[0].title,
-        twitterDesc: currentEvents[0].date,
+        twitterTitle: currentEvents[0].title + ', ' + currentEvents[0].date,
+        twitterDesc: currentEvents[0].description,
         twitterImg: currentEvents[0].image
     });
 });
