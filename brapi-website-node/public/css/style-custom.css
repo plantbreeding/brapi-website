@@ -230,9 +230,27 @@ pre.token {
 
 tr th,
 tr td {
-    padding-left: 10px;
+    padding: 0 10px 0 10px;
 }
 
 table a {
     text-decoration: underline;
+}
+
+tr th.agenda {
+    padding: 20px 0 0 0;
+}
+
+tr td.agenda {
+    padding: 0 10px 0 10px;
+}
+
+tr.agenda-session1 {
+    background-color: #d6e6ff;
+    border-bottom: #b0b0b0 solid 1px;
+}
+
+tr.agenda-session2 {
+    background-color: #deffd6;
+    border-bottom: #b0b0b0 solid 1px;
 }

@@ -2,65 +2,222 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="col-xs-12" id="content">
-                    <h3 class="font-alt" id="title"> Overview </h3>
-                    <div style="margin-left:10px">
-                        <p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community.
-                            This weeklong event will reserve time for the members of the community to discuss the BrAPI
-                            specification, collaborate on projects, socialize and learn from each other. The hackathon
-                            is largely self-organizing project work time, with a few scheduled public discussion
-                            sessions addressing important community topics. The overall goal is to be as productive as
-                            possible in a small window of time, to explore ideas and start on collaborative projects
-                            that can be more formally developed after the event. </p>
-                        <p>Due to the COVID-19 pandemic, it is not possible to bring
-                            everyone together in person, so the BrAPI Hackathons have gone virtual. Based on the
-                            feedback from the first virtual hackathon in March, the ideal plan would be a mix of virtual
-                            and in-person events, when international travel becomes possible again. For now, expect
-                            virtual BrAPI hackathons every 6 months to maintain momentum and growth of the community. </p>
-                        <p >One major take away from the last virtual hackathon was that
-                            attendees were feeling distracted by other work. If you can, try to reserve the whole week
-                            in your schedule so normal work does not intrude on the project work time. Of course,
-                            deadlines and emergencies happen, and BrAPI will not always be the top priority. This is
-                            just a reminder that you will get more out of the virtual hackathon experience if you can
-                            dedicate the time to focus on it. </p>
-                    </div>
-
-                    <h3 class="font-alt" id="title"> Register </h3>
-                    <div style="margin-left:10px">
-                        <p>Join the BrAPI community for two weeks of fun as we hack code together and discuss the future
-                            of BrAPI. This virtual event will run from Oct 4 – 8, 2021. Everyone in the BrAPI community
-                            is welcome! Please register to receive meeting invitations and other important information.
-                        </p>
-                        <p><a class="btn btn-d btn-round" target="_blank"
+                <div class="col-xs-4 col-md-3 col-xl-2" id="menu">
+                    <div>
+                        <p><a class="btn btn-d btn-round col-xs-12" target="_blank"
                                 href="https://docs.google.com/forms/d/e/1FAIpQLScH8L3M_0r7uqi1rvjWe7EJn01VC5DFg6tFv4x33YbZxIvcWw/viewform?usp=sf_link">Register</a>
                         </p>
                     </div>
+                    <div>
+                        <button id="toggle-overview" class="btn btn-round col-xs-12" type="button"
+                            onclick="toggleVisibleXor('overview-section', ['agenda-section', 'attendees-section', 'projects-section', 'notes-section'])">Overview</button>
+                    </div>
+                    <div>
+                        <button id="toggle-agenda" class="btn btn-round col-xs-12" type="button"
+                            onclick="toggleVisibleXor('agenda-section', ['overview-section', 'attendees-section', 'projects-section', 'notes-section'])">Agenda</button>
+                    </div>
+                    <div>
+                        <button id="toggle-attendees" class="btn btn-round col-xs-12" type="button"
+                            onclick="toggleVisibleXor('attendees-section', ['overview-section', 'agenda-section', 'projects-section', 'notes-section'])">Attendees</button>
+                    </div>
+                    <div>
+                        <button id="toggle-projects" class="btn btn-round col-xs-12" type="button"
+                            onclick="toggleVisibleXor('projects-section', ['overview-section', 'agenda-section', 'attendees-section', 'notes-section'])">Project
+                            List</button>
+                    </div>
+                    <div>
+                        <button id="toggle-notes" class="btn btn-round col-xs-12" type="button"
+                            onclick="toggleVisibleXor('notes-section', ['overview-section', 'agenda-section', 'attendees-section', 'projects-section'])">Notes
+                            and Recordings</button>
+                    </div>
+                </div>
 
-                    <h3 class="font-alt" id="title"> Agenda </h3>
-                    <div style="margin-left:10px">
-                        <p>This event will take place from Oct 4 – 8, 2021. There will be two sessions
-                            per day to accommodate many different time zones.
-                        <ul>
-                            <li> Session #1: every day from 08:00 UTC to 11:00 UTC <a target="_blank"
-                                    href="https://www.google.com/search?q=08%3A00+UTC"> (Click for local time) </a> for
-                                Europe, Africa, and Asia. </li>
-                            <li> Session #2: every day from 16:00 UTC to 19:00 UTC <a target="_blank"
-                                    href="https://www.google.com/search?q=16%3A00+UTC"> (Click for local time) </a> for
-                                the Americas, Europe and Africa.</li>
-                        </ul>
-                        </p>
-                        <p>Agenda Coming Soon </p>
+                <div class="col-xs-8 col-md-9 col-xl-10" id="content">
+                    <div id="overview-section" style="display: block;">
+
+                        <h3 class="font-alt" id="title"> Register </h3>
+                        <div style="margin-left:10px"> 
+                            <p>
+                            <strong>When: </strong> October 4-8, 2021<br/>
+                            <strong>Where: </strong> Virtual<br/>
+                            Join the BrAPI community for two weeks of fun as we hack code together and discuss the
+                                future of BrAPI. This virtual event will run from Oct 4 – 8, 2021. Everyone in the BrAPI
+                                community is welcome! Please register to receive meeting invitations and other important
+                                information. 
+                                </p>
+                            <p><a class="btn btn-d btn-round" target="_blank"
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLScH8L3M_0r7uqi1rvjWe7EJn01VC5DFg6tFv4x33YbZxIvcWw/viewform?usp=sf_link">Register</a>
+                            </p>
+                        </div>
+
+                        <h3 class="font-alt" id="title"> Overview </h3>
+                        <div style="margin-left:10px">
+                            <p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI                                community.                                This weeklong event will reserve time for the members of the community to discuss the                                BrAPI                                specification, collaborate on projects, socialize and learn from each other. The                                hackathon                                is largely self-organizing project work time, with a few scheduled public discussion                                sessions addressing important community topics. The overall goal is to be as productive                                as                                possible in a small window of time, to explore ideas and start on collaborative projects                                that can be more formally developed after the event. </p>
+                            <p>Due to the COVID-19 pandemic, it is not possible to bring                                everyone together in person, so the BrAPI Hackathons have gone virtual. Based on the                                feedback from the first virtual hackathon in March, the ideal plan would be a mix of                                virtual                                and in-person events, when international travel becomes possible again. For now, expect                                virtual BrAPI hackathons every 6 months to maintain momentum and growth of the                                community. </p>
+                            <p>One major take away from the last virtual hackathon was that                                attendees were feeling distracted by other work. If you can, try to reserve the whole                                week                                in your schedule so normal work does not intrude on the project work time. Of course,                                deadlines and emergencies happen, and BrAPI will not always be the top priority. This is                                just a reminder that you will get more out of the virtual hackathon experience if you                                can                                dedicate the time to focus on it. </p>
+                        </div>
+
                     </div>
 
-                    <h3 class="font-alt" id="title"> Project List </h3>
-                    <div style="margin-left:10px">
-                        <p> Project List Coming Soon </p>
+                    <div id="agenda-section" style="display: none;">
+                        <h3 class="font-alt" id="title"> Agenda </h3>
+                        <div style="margin-left:10px">
+                            <p>This event will take place from Oct 4 – 8, 2021. There will be two sessions per day to accommodate many different time zones. Attendees are welcome to attend any and all sessions.
+                            <ul>
+                                <li> <span style="background-color: #d6e6ff;">Discussion Session #1:</span>  every day from 08:00 UTC to 11:00 UTC <a target="_blank" href="https://www.google.com/search?q=08%3A00+UTC"> (Click for local time) </a> </li>
+                                <li> <span style="background-color: #deffd6;">Discussion Session #2:</span>  every day from 16:00 UTC to 19:00 UTC <a target="_blank" href="https://www.google.com/search?q=16%3A00+UTC"> (Click for local time) </a> </li>
+                                <li> Collabrative project work time: All day, every day of the hackathon</li>
+                            </ul>
+                            This agenda is subject to change without warning, please check back regularly. If you have a discussion topic you would like to address with the rest of the BrAPI Community, please contact the BrAPI Coordinator. 
+                            Project work time is assumed to be happening all day, the agenda is only to organize community discussions. To get the most out of the hackithon expirience, please try to reserve the whole week to participate 
+                            in colabrative development projects. 
+                            </p>
+
+                            <table>
+                                <tr>  <th class="agenda" colspan="2"> Monday, October 4, 2021</th>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> Session #1 </td>             <td> </td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 08:00 - 09:00 UTC</td>       <td> Welcome! Tech setup, setting expectations, general organizing</td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 09:00 - 10:00 UTC</td>       <td> Community Updates - Application demos and presentations from the BrAPI community</td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 10:00 - 11:00 UTC</td>       <td> BrAPI 101 - Introduction class for people who are new to BrAPI</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> Session #2</td>              <td> </td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 16:00 - 17:00 UTC</td>       <td> Welcome! Tech setup, setting expectations, general organizing</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 17:00 - 18:00 UTC</td>       <td> Community Updates - Application demos and presentations from the BrAPI community</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 18:00 - 19:00 UTC</td>       <td> BrAPI 101 - Introduction class for people who are new to BrAPI</td>  </tr>
+                                
+                                <tr>  <th class="agenda" colspan="2"> Tuesday, October 5, 2021</th>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> Session #1 </td>             <td> </td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 08:00 - 09:00 UTC</td>       <td> Agronomy Working Group - Identify use cases and create a work plan</td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 09:00 - 10:00 UTC</td>       <td> High Dimensional Phenotyping Working Group - NIRS, Transcriptomics, Metabalomics, etc</td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 10:00 - 11:00 UTC</td>       <td> Empty Slot</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> Session #2</td>              <td> </td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 16:00 - 17:00 UTC</td>       <td> Agronomy Working Group - Identify use cases and create a work plan</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 17:00 - 18:00 UTC</td>       <td> High Dimensional Phenotyping Working Group - NIRS, Transcriptomics, Metabalomics, etc</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 18:00 - 19:00 UTC</td>       <td> Empty Slot</td>  </tr>
+
+                                <tr>  <th class="agenda" colspan="2"> Wednesday, October 6, 2021</th>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> Session #1 </td>             <td> </td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 08:00 - 09:00 UTC</td>       <td> BrAPI Infrastructure - Developer support tools review and new ideas</td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 09:00 - 10:00 UTC</td>       <td> Project Sustainability and Governanace - Review plans from recent grant proposal</td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 10:00 - 11:00 UTC</td>       <td> Empty Slot</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> Session #2</td>              <td> </td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 16:00 - 17:00 UTC</td>       <td> BrAPI Infrastructure - Developer support tools review and new ideas</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 17:00 - 18:00 UTC</td>       <td> Project Sustainability and Governanace - Review plans from recent grant proposal</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 18:00 - 19:00 UTC</td>       <td> Empty Slot</td>  </tr>
+                                
+                                <tr>  <th class="agenda" colspan="2"> Thursday, October 7, 2021</th>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> Session #1 </td>             <td> </td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 08:00 - 09:00 UTC</td>       <td> Authentication (suggested by Bryan Ellerbrock) <br/> Review BrAPI authentication policy and best practices</td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 09:00 - 10:00 UTC</td>       <td> Image Analysis (suggested by Bryan Ellerbrock) <br/> Continue the discussion concerning image analysis pipelines</td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 10:00 - 11:00 UTC</td>       <td> Empty Slot</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> Session #2</td>              <td> </td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 16:00 - 17:00 UTC</td>       <td> Authentication (suggested by Bryan Ellerbrock) <br/> Review BrAPI authentication policy and best practices</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 17:00 - 18:00 UTC</td>       <td> Image Analysis (suggested by Bryan Ellerbrock) <br/> Continue the discussion concerning image analysis pipelines</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 18:00 - 19:00 UTC</td>       <td> Empty Slot</td>  </tr>
+                                
+                                <tr>  <th class="agenda" colspan="2"> Friday, October 8, 2021</th>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> Session #1 </td>             <td> </td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 08:00 - 09:00 UTC</td>       <td> Empty Slot</td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 09:00 - 10:00 UTC</td>       <td> Project presentations and wrap up</td>  </tr>
+                                <tr class="agenda-session1">  <td class="agenda"> 10:00 - 11:00 UTC</td>       <td> Project presentations and wrap up</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> Session #2</td>              <td> </td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 16:00 - 17:00 UTC</td>       <td> Empty Slot</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 17:00 - 18:00 UTC</td>       <td> Project presentations and wrap up</td>  </tr>
+                                <tr class="agenda-session2">  <td class="agenda"> 18:00 - 19:00 UTC</td>       <td> Project presentations and wrap up</td>  </tr>
+                            </table>
+
+
+
+                        </div>
+
                     </div>
 
-                    <h3 class="font-alt" id="title"> Meeting Notes and Recordings </h3>
-                    <div style="margin-left:10px">
-                        <p> Meeting Notes and Recordings Coming Soon </p>
+                    <div id="attendees-section" style="display: none;">
+                        <h3 class="font-alt" id="title"> Attendees List </h3>
+                        <div style="margin-left:10px">
+                            <p> Public list of registered attendees </p>
+                            
+                            <table>
+                                <tr>  <td class="agenda"> Trevor Rife			 </td>      <td class="agenda"> Kansas State University          </td>    <td class="agenda"> trife@ksu.sedu				  </td>  </tr>
+                                <tr>  <td class="agenda"> Chaney Courtney		 </td>      <td class="agenda"> PhenoApps                        </td>    <td class="agenda"> chaneylc@gmail.com			  </td>  </tr>
+                                <tr>  <td class="agenda"> Khaled Al-Shamaa		 </td>      <td class="agenda"> ICARDA                           </td>    <td class="agenda"> k.el-shamaa@cgiar.org		      </td>  </tr>
+                                <tr>  <td class="agenda"> Juan Cesar D. Pineda	 </td>      <td class="agenda"> ListenField                      </td>    <td class="agenda"> Juan.p@listenfiel.com		      </td>  </tr>
+                                <tr>  <td class="agenda"> Cyril Pommier			 </td>      <td class="agenda"> INRAE ELIXIR                     </td>    <td class="agenda"> cyril.pommier@inrae.fr		  </td>  </tr>
+                                <tr>  <td class="agenda"> WAJIHA ABDULLAHI MU'AZ </td>      <td class="agenda"> IITA KANO STATION                </td>    <td class="agenda"> aswaj@yahoo.com				  </td>  </tr>
+                                <tr>  <td class="agenda"> David LeBauer			 </td>      <td class="agenda"> The University of Arizona        </td>    <td class="agenda"> dlebauer@email.arizona.edu	  </td>  </tr>
+                                <tr>  <td class="agenda"> Bryan Ellerbrock		 </td>      <td class="agenda"> BTI                              </td>    <td class="agenda"> bje24@cornell.edu			      </td>  </tr>
+                                <tr>  <td class="agenda"> Bert Droesbeke		 </td>      <td class="agenda"> ELIXIR Belgium / VIB-UGent       </td>    <td class="agenda"> bedro@psb.vib-ugent.be		  </td>  </tr>
+                                <tr>  <td class="agenda"> Alessandro Cestaro	 </td>      <td class="agenda"> Fondazione Edmund Mach           </td>    <td class="agenda"> alessandro.cestaro@fmach.it     </td>  </tr>
+                                <tr>  <td class="agenda"> Diego Micheletti		 </td>      <td class="agenda"> Fondazione Edmund Mach           </td>    <td class="agenda"> diego.micheletti@fmach.it	      </td>  </tr>
+                                <tr>  <td class="agenda"> Avneesh Kumar			 </td>      <td class="agenda"> Colorado State University        </td>    <td class="agenda"> avneesh.kumar@colostate.edu     </td>  </tr>
+                                <tr>  <td class="agenda"> Nahuel Soldevilla      </td>      <td class="agenda"> IBP / Leafnode                   </td>    <td class="agenda"> nahuel@leafnode.io              </td>  </tr>
+                                <tr>  <td class="agenda"> Marie-Angélique Laporte</td>      <td class="agenda"> Alliance of Bioversity and CIAT  </td>    <td class="agenda"> m.a.laporte@cgiar.org           </td>  </tr>
+                                <tr>  <td class="agenda"> </td>      <td class="agenda"> </td>    <td class="agenda"> </td>  </tr>
+                            </table>
+                        </div>
+
                     </div>
+
+                    <div id="projects-section" style="display: none;">
+                        <h3 class="font-alt" id="title"> Project List </h3>
+                        <div style="margin-left:10px">
+                            <p>Projects are listed in the order they were recieved in the registration from. If you would like to edit any of the infomration below, please contact the BrAPI Coordinator.</p>
+                            <table>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">PhenoLib and Android Account Manager</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Trevor Rife
+                                                                                              <br/>PhenoLib and Android Account Manager <a target="_blank" href="https://github.com/PhenoApps/PhenoLib">https://github.com/PhenoApps/PhenoLib</a></p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">PhenoApps integration</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Chaney Courtney
+                                                                                              <br/>PhenoApps integration, creating general Android service and moving it to a library, creating a Room persistence database using OpenAPI for use in Android</p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">QBMS R Package</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Khaled Al-Shamaa
+                                                                                              <br/>QBMS R Package from ICARDA <a target="_blank" href="https://github.com/icarda-git/QBMS">https://github.com/icarda-git/QBMS</a>
+                                                                                              <br/>Looking for BMS developer/support</p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">BRAPP: Command Line Tool</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Juan Cesar (JC) Pineda
+                                                                                              <br/>A BrAPI-compliant command-line tool for uploading, viewing, and editing breeding data. Written in python. This application connects with an instance of the BrAPI V2 Test Server that is hosted in Google Cloud.</p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">TERRA REF v2 Implementation</p>
+                                                                 <p style="margin: 0 0 10px 10px;">David LeBauer
+                                                                                              <br/>Implementing BrAPI v2 in the TERRA REF project server</p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">BrAPI to ARDN</p>
+                                                                 <p style="margin: 0 0 10px 10px;">David LeBauer
+                                                                                              <br/>Using BrAPI data for crop modeling by converting BrAPI data to the ARDN format</p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">Trial Design Tool (R Shiny)</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Bryan Ellerbrock
+                                                                                              <br/>Considering working on an R shiny trial design tool that can pull germplasm names, locations, etc from a BrAPI db and then post a completed design</p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">PIPPA v2 Implementation</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Bert Droesbeke
+                                                                                              <br/>Adding support for BrAPI v2.0 to our phenotyping platform PIPPA
+                                                                                              <br/>Looking for people with experience on adding BrAPI 2.0 to their database</p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">FEM BrAPI Implementation</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Alessandro Cestaro, Diego Micheletti
+                                                                                              <br/>Integrate our database with BrAPI </p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">BRAPP: brapi-sync</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Nahuel Soldevilla
+                                                                                              <br/>Improve brapi-sync app </p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">BRAPP: brapi-fieldmap</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Nahuel Soldevilla
+                                                                                              <br/>Improve brapi-fieldmap app </p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">Crop Ontology v2 Implementation</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Marie-Angélique Laporte
+                                                                                              <br/>We are moving Crop Ontology to a new system. I am will be implementing the version 2 of the BRAPI calls that are relevant to the CO website. </p>  </tr>
+                                <tr>  <td class="agenda"> <p style="font-weight: bold; margin: 0;">Germplasm data exchange with ClimMob</p>
+                                                                 <p style="margin: 0 0 10px 10px;">Marie-Angélique Laporte
+                                                                                              <br/>It would be great to see how germplasm information can be exchanged from the Breedbases/BMS to ClimMob as a first step to provide on farm experiment information back to breeders
+                                                                                              <br/>If some people from BMS and/or Breedbase are interested and available, that would be great </p>  </tr>
+                            </table>
+                        </div>
+
+                    </div>
+
+
+                    <div id="notes-section" style="display: none;">
+                        <h3 class="font-alt" id="title"> Meeting Notes and Recordings </h3>
+                        <div style="margin-left:10px">
+                            <p> Meeting Notes and Recordings Coming Soon </p>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
