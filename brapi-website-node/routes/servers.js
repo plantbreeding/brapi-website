@@ -8,8 +8,8 @@ var badges = {
     "auth-required": { "badge-text": "Auth Required", "badge-icon-class": "mdi-lock", "badge-color": "#00288c" },
     "data-prod": { "badge-text": "Real Data", "badge-icon-class": "mdi-database-check", "badge-color": "#8c7000" },
     "data-demo": { "badge-text": "Demo Data", "badge-icon-class": "mdi-database-remove", "badge-color": "#8c4d00" },
-    "brapi-v1": { "badge-text": "BrAPI V1", "badge-icon-class": "mdi-numeric-1-circle", "badge-color": "#008c56" },
-    "brapi-v2": { "badge-text": "BrAPI V2", "badge-icon-class": "mdi-numeric-2-circle", "badge-color": "#178c00" }
+    "brapi-v1": { "badge-text": "BrAPI V1", "badge-icon-class": "mdi-numeric-1-circle", "badge-color": "#006633" },
+    "brapi-v2": { "badge-text": "BrAPI V2", "badge-icon-class": "mdi-numeric-2-circle", "badge-color": "#446100" }
 }
 
 router.get('/', function(req, res, next) {

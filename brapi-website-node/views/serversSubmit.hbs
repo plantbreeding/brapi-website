@@ -21,23 +21,23 @@
                             <label for="existingOrgFalse">New Organization</label><br>
                         </div>
                         <div id="existingOrgForm" class="col-xs-12">
-                            <div>Organization:</div>
-                            <select name="orgsList" id="orgsList" style="width: 100%;">
+                            <div><label for="orgsList" style="font-weight: 600;">Organization: </label></div>
+                            <select name="orgsList" id="orgsList" style="width: 100%; color: #000;">
                                 {{#each providers}}
                                 <option value="{{name}}">{{name}}</option>
                                 {{/each}}
                             </select>
                         </div>
                         <div id="newOrgForm" style="display: none;">
-                            <div class="col-xs-12">Organization Name:</div>
+                            <div class="col-xs-12"> <label for="orgNameInput" style="font-weight: 600;"> Organization Name:</label></div>
                             <div class="col-xs-12"><input id="orgNameInput" type="text" name="orgName"
                                     style="width:100%" />
                             </div>
-                            <div class="col-xs-12">Organization Description:</div>
+                            <div class="col-xs-12"> <label for="orgDescInput" style="font-weight: 600;"> Organization Description:</label></div>
                             <div class="col-xs-12"><textarea id="orgDescInput" name="orgDesc"
                                     style="width:100%"></textarea>
                             </div>
-                            <div class="col-xs-12">Organization Logo URL:</div>
+                            <div class="col-xs-12"> <label for="orgLogoInput" style="font-weight: 600;"> Organization Logo URL:</label></div>
                             <div class="col-xs-12"><input id="orgLogoInput" type="text" name="orgLogo"
                                     style="width:100%" />
                             </div>
@@ -47,19 +47,19 @@
                             <hr class="divider-w">
                         </div>
 
-                        <div class="col-xs-12">Server Name:</div>
+                        <div class="col-xs-12"> <label for="serverNameInput" style="font-weight: 600;"> Server Name:</label></div>
                         <div class="col-xs-12"><input id="serverNameInput" type="text" name="serverName"
                                 style="width:100%" />
                         </div>
-                        <div class="col-xs-12">Server Description:</div>
+                        <div class="col-xs-12"> <label for="serverDescInput" style="font-weight: 600;"> Server Description:</label></div>
                         <div class="col-xs-12"><textarea id="serverDescInput" name="serverDesc"
                                 style="width:100%"></textarea>
                         </div>
-                        <div class="col-xs-12">Server V1 URL (ending with "/brapi/v1"):</div>
+                        <div class="col-xs-12"> <label for="serverV1Input" style="font-weight: 600;"> Server V1 URL (ending with "/brapi/v1"):</label></div>
                         <div class="col-xs-12"><input id="serverV1Input" type="url" name="serverV1Url"
                                 style="width:100%" />
                         </div>
-                        <div class="col-xs-12">Server V2 URL (ending with "/brapi/v2"):</div>
+                        <div class="col-xs-12"> <label for="serverV2Input" style="font-weight: 600;"> Server V2 URL (ending with "/brapi/v2"):</label></div>
                         <div class="col-xs-12"><input id="serverV2Input" type="url" name="serverV2Url"
                                 style="width:100%" />
                         </div>
@@ -72,7 +72,7 @@
                             <div class="badge-holder">
                                 <div class="badge" style="background-color: {{ badge-color }};">
                                     <div class="mdi {{ badge-icon-class }} badge-icon"></div>
-                                    <div class="badge-text">{{ badge-text }}</div>
+                                    <div class="badge-text"><label for="badge-{{ @key }}">{{ badge-text }}</label></div>
                                 </div>
                             </div>
                         </div>

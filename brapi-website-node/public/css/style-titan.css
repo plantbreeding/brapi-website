@@ -1533,7 +1533,7 @@ General Styles - Owlcarousel
 /* About us Page Header */
 
 .about-page-header:before {
-    background: rgba(2, 2, 2, 0.5);
+    background: rgba(2, 2, 2, 0.7);
 }
 
 
@@ -2368,7 +2368,7 @@ p>a {
 
 .post-meta {
     font-size: 11px;
-    color: #aaa;
+    color: #555;
 }
 
 .post-entry {

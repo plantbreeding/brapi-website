@@ -22,7 +22,7 @@
                                 <div class="provider-thumbnail">
                                     {{#if logo }}
                                     <span></span>
-                                    <img src="{{ logo }}" alt="{{ name }}">
+                                    <img src="{{ logo }}" alt="{{ name }} Thumbnail">
                                     {{else}}
                                     <span class="mdi mdi-account-group"
                                         style="font-size: 6.5em; line-height: 1.2em;"></span>
@@ -37,7 +37,7 @@
                                 {{#each resources}}
                                 <div style="margin-top: 15px">
                                     <div class="col-xs-12">
-                                        <h4>{{ name }}</h4>
+                                        <h3 style="font-size: 20px;">{{ name }}</h3>
                                     </div>
                                     <div class="badge-holder">
                                         {{#each badges }}
