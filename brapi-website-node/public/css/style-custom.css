@@ -19,6 +19,23 @@
     color: #fff;
 }
 
+.brapi-home {
+    height: 100% !important;
+    width: 100%;
+    padding: 0;
+    margin: 0 !important;
+}
+
+.brapi-home-img {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100% !important;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 .brapi-home-section {
     position: relative;
     background-color: #fff;
