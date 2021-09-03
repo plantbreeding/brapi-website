@@ -1,54 +1,55 @@
-<div class="module-small bg-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="widget">
-          <h5 class="widget-title font-alt">Project Coordinator</h5>
-          <ul class="icon-list">
-            <li>
-              <a href="mailto:brapicoordinatorselby@gmail.com">Peter Selby </a>
-              <i class="mdi mdi-email"></i>
-            </li>
-          </ul>
+
+<footer class="footer bg-dark">
+  <div class="module-small bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="widget">
+            <p class="widget-title font-alt">Project Coordinator</p>
+            <ul class="icon-list">
+              <li>
+                <a href="mailto:brapicoordinatorselby@gmail.com">Peter Selby </a>
+                <i class="mdi mdi-email"></i>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="widget">
-          <h5 class="widget-title font-alt">Upcoming events</h5>
-          <ul class="widget-posts" id="event-tags">
-            {{#if footerEvents.event1}}
-            <li class="clearfix">
-                <a href="{{ footerEvents.event1.primary_link }}">
-                    <div class="widget-posts-image">
-                        <img src="{{ footerEvents.event1.image }}" alt="Post Thumbnail" />
-                    </div>
-                    <div class="widget-posts-body">
-                        <div class="widget-posts-title">{{ footerEvents.event1.title }}</div>
-                        <div class="widget-posts-meta">{{ footerEvents.event1.location }} | {{ footerEvents.event1.date }}</div>
-                    </div>
-                </a>
-            </li>
-            {{/if}}
-            {{#if footerEvents.event2}}
-            <li class="clearfix">
-                <a href="{{ footerEvents.event2.primary_link }}">
-                    <div class="widget-posts-image">
-                        <img src="{{ footerEvents.event2.image }}" alt="Post Thumbnail" />
-                    </div>
-                    <div class="widget-posts-body">
-                        <div class="widget-posts-title">{{ footerEvents.event2.title }}</div>
-                        <div class="widget-posts-meta">{{ footerEvents.event2.location }} | {{ footerEvents.event2.date }}</div>
-                    </div>
-                </a>
-            </li>
-            {{/if}}
-          </ul>
+        <div class="col-sm-6">
+          <div class="widget">
+            <p class="widget-title font-alt">Upcoming events</p>
+            <ul class="widget-posts" id="event-tags">
+              {{#if footerEvents.event1}}
+              <li class="clearfix">
+                  <a href="{{ footerEvents.event1.primary_link }}">
+                      <div class="widget-posts-image">
+                          <img src="{{ footerEvents.event1.image }}" alt="Post Thumbnail" />
+                      </div>
+                      <div class="widget-posts-body">
+                          <div class="widget-posts-title">{{ footerEvents.event1.title }}</div>
+                          <div class="widget-posts-meta">{{ footerEvents.event1.location }} | {{ footerEvents.event1.date }}</div>
+                      </div>
+                  </a>
+              </li>
+              {{/if}}
+              {{#if footerEvents.event2}}
+              <li class="clearfix">
+                  <a href="{{ footerEvents.event2.primary_link }}">
+                      <div class="widget-posts-image">
+                          <img src="{{ footerEvents.event2.image }}" alt="Post Thumbnail" />
+                      </div>
+                      <div class="widget-posts-body">
+                          <div class="widget-posts-title">{{ footerEvents.event2.title }}</div>
+                          <div class="widget-posts-meta">{{ footerEvents.event2.location }} | {{ footerEvents.event2.date }}</div>
+                      </div>
+                  </a>
+              </li>
+              {{/if}}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<footer class="footer bg-dark">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
