@@ -271,3 +271,8 @@ tr.agenda-session2 {
     background-color: #deffd6;
     border-bottom: #b0b0b0 solid 1px;
 }
+
+tr.agenda-session3 {
+    background-color: #f3d6ff;
+    border-bottom: #b0b0b0 solid 1px;
+}

@@ -1,6 +1,6 @@
 [{
         "name": "Gobii",
-        "logo": "http://cbsugobii05.biohpc.cornell.edu/wordpress/wp-content/uploads/2018/03/GOBII-tm.png",
+        "logo": "https://brapi.org/images/institutions/gobii.png",
         "description": "The first large-scale public-sector effort with the goal to systematically apply high-density genotypic information to the breeding of staple crops in the developing world. Initially the focus is on rice, wheat, maize, sorghum and chickpea in South Asia and Sub-Saharan Africa. The genomic data management systems will include databases, imputation systems, and decision support tools for plant breeders.",
         "resources": [{
             "name": "GDM",
@@ -36,7 +36,7 @@
     {
         "name": "IPK-Gatersleben",
         "description": "Leibniz Institute of Plant Genetics and Crop Plant Research",
-        "logo": "https://www.ipk-gatersleben.de/fileadmin/template/main/images-ipk/ipklogo.png",
+        "logo": "https://www.ipk-gatersleben.de/typo3conf/ext/ipk_gatersleben/Resources/Public/Icons/ipk_logo_de.png",
         "resources": [{
             "name": "IPK Gatersleben - Germplasm and Phenotypic Data",
             "v1-url": "https://webapps.ipk-gatersleben.de/api/brapi/v1/",
@@ -182,7 +182,7 @@
     {
         "name": "Wageningen Plant Sciences, Plant Breeding BrAPI resources",
         "description": "Core BrAPI resources of Wageningen Plant Sciences, deployed by department of Plant Breeding.",
-        "logo": "/images/institutions/wageningen_logo_thumb.png",
+        "logo": "https://brapi.org/images/institutions/wageningen_logo_thumb.png",
         "resources": [{
             "name": "EU-SOL Tomato collection",
             "v1-url": "https://www.eu-sol.wur.nl/webapi/tomato/brapi/v1/",
