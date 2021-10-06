@@ -299,7 +299,7 @@
     {
         "name": "ITPGRFA",
         "description": "International Treaty on Plant Genetic Resources for Food and Agriculture",
-        "logo": "https://www.fao.org/uploads/pics/logo_en.jpg",
+        "logo": "https://brapi.org/images/institutions/ITPGRFA_logo.png",
         "resources": [{
             "name": "GLIS Germplasm DOI Repository",
             "v1-url": "https://ssl.fao.org/glisapi/v1/",

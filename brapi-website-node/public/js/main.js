@@ -28,7 +28,7 @@ function toggleVisibleXor(visibleId, invisibleIds) {
 }
 
 $(document).ready(function() {
-    console.log("document loaded");
+    // console.log("document loaded");
     if (window.location.pathname === "/events/hackathon-oct-2021") {
         hackathonLoadPage();
     }
