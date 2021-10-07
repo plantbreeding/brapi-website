@@ -9,7 +9,7 @@ function buildOauthClient() {
         timeout: 10000,
     });
     //return Issuer.discover('https://test-server.brapi.org/brapi/auth/') // => Promise
-    return Issuer.discover('http://keycloak-brapi:8080/auth/realms/brapi/') // => Promise
+    return Issuer.discover('http://keycloak-brapi:8080/auth/realms/brapi/') // => Promise .well-known/openid-configuration
         .then(function(issuerResponse) {
             console.log('Discovered issuer %s %O', issuerResponse.issuer, issuerResponse.authorization_endpoint);
 
