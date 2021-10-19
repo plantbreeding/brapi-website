@@ -1,5 +1,30 @@
 [{
         "published": true,
+        "image": "/images/apps/brapi-sync-thumb.png",
+        "url": "https://github.com/IntegratedBreedingPlatform/brapi-sync",
+        "source-url": "https://github.com/IntegratedBreedingPlatform/brapi-sync",
+        "doc-url": "https://github.com/IntegratedBreedingPlatform/brapi-sync/blob/master/README.md",
+        "title": "BrAPI-Sync",
+        "team": "The Integrated Breeding Platform (IBP)",
+        "team-url": "https://www.integratedbreeding.net/",
+        "description": "Built by the IBP Team, this tool allows for the automated transfer of data between BrAPI compliant systems. ",
+        "dependencies": [
+            { "version": "v2.0", "call": "GET /programs" },
+            { "version": "v2.0", "call": "GET /germplasm" },
+            { "version": "v2.0", "call": "POST /germplasm" },
+            { "version": "v2.0", "call": "GET /locations" },
+            { "version": "v2.0", "call": "GET /breedingmethods" },
+            { "version": "v2.0", "call": "GET /trials" },
+            { "version": "v2.0", "call": "POST /trials" },
+            { "version": "v2.0", "call": "GET /studies" },
+            { "version": "v2.0", "call": "GET /studies/{studyDbId}" },
+            { "version": "v2.0", "call": "POST /studies" },
+            { "version": "v2.0", "call": "GET /search/observationunits" },
+            { "version": "v2.0", "call": "POST /search/observationunits" },
+            { "version": "v2.0", "call": "POST /observationunits" }
+        ]
+    }, {
+        "published": true,
         "image": "/images/apps/flapjack-bytes-thumb.png",
         "url": "https://github.com/cropgeeks/flapjack-bytes",
         "demo-url": "http://bioinf.hutton.ac.uk/gobii-flapjack-bytes/#/",
@@ -22,9 +47,9 @@
         "source-url": "https://github.com/solgenomics/brapi-fieldmap",
         "doc-url": "https://github.com/solgenomics/brapi-fieldmap/blob/master/README.md",
         "title": "BrAPI Fieldmap",
-        "team": "IBP - BMS",
+        "team": "The Integrated Breeding Platform (IBP)",
         "team-url": "https://www.integratedbreeding.net/",
-        "description": "Built by the IBP/BMS Team, this is a fully BrAPI compliant tool for editing field spatial layout using GeoJson information.",
+        "description": "Built by the IBP Team, this is a fully BrAPI compliant tool for editing field spatial layout using GeoJson information.",
         "dependencies": [
             { "version": "v2.0", "call": "PUT /observationunits/{observationUnitDbId}" },
             { "version": "v2.0", "call": "POST /search/observationunits" },
