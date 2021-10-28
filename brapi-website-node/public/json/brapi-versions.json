@@ -1,0 +1,130 @@
+{
+    "v1": [{
+            "version": "V1.3",
+            "status": "Archived",
+            "description": "Released on November 1, 2018. This version is now Archived for reference, please use the Latest Stable Release.",
+            "githubURL": "https://github.com/plantbreeding/API/tree/V1.3",
+            "apiaryURL": "https://brapi.docs.apiary.io/#",
+            "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI",
+            "releaseNotesURL": "https://github.com/plantbreeding/API/releases/tag/V1.3",
+            "changeLogURL": "https://github.com/plantbreeding/API/compare/V1.2...V1.3"
+        },
+        {
+            "version": "V1.2",
+            "status": "Archived",
+            "description": "Released on April 27, 2018. This version is now Archived for reference, please use the Latest Stable Release.",
+            "githubURL": "https://github.com/plantbreeding/API/tree/V1.2",
+            "apiaryURL": "https://brapiarchive12.docs.apiary.io/#",
+            "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI/1.2",
+            "releaseNotesURL": "https://github.com/plantbreeding/API/releases/tag/V1.2",
+            "changeLogURL": "https://github.com/plantbreeding/API/files/1668289/BrAPI_V1-2_Release_Notes.xlsx"
+        },
+        {
+            "version": "V1.1",
+            "status": "Archived",
+            "description": "Released on January 26, 2018. This version is now Archived for reference, please use the Latest Stable Release.",
+            "githubURL": "https://github.com/plantbreeding/API/tree/V1.1",
+            "apiaryURL": "https://brapiarchive11.docs.apiary.io/#",
+            "releaseNotesURL": "https://github.com/plantbreeding/API/releases/tag/V1.1",
+            "changeLogURL": "https://github.com/plantbreeding/API/files/1668289/BrAPI_V1-1_Release_Notes.xlsx"
+        },
+        {
+            "version": "V1.0",
+            "status": "Archived",
+            "description": "Released on November 13, 2017. This version is now Archived for reference, please use the Latest Stable Release.",
+            "githubURL": "https://github.com/plantbreeding/API/tree/V1.0",
+            "apiaryURL": "https://brapiarchive10.docs.apiary.io/#",
+            "releaseNotesURL": "https://github.com/plantbreeding/API/releases/tag/V1.0"
+        }
+    ],
+    "v2": [{
+        "version": "V2.1",
+        "status": "Developer Preview",
+        "description": "This is a Developer Preview of V2.1. <br/> This set of documentation is subject to change without warning until it is formally released",
+        "isPreview": true,
+        "links": [{
+            "label": "Issues Board",
+            "URL": "https://github.com/plantbreeding/BrAPI/projects/6"
+        }],
+        "modules": [{
+                "name": "BrAPI-Core",
+                "description": "The BrAPI-Core module contains high level entities used for organization and management. This includes Programs, Trials, Studies, Locations, People, and Lists",
+                "githubURL": "https://github.com/plantbreeding/BrAPI/tree/brapi-v2.1-dev/Specification/BrAPI-Core",
+                "apiaryURL": "https://brapicore21.docs.apiary.io/#",
+                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Core/2.1"
+            },
+            {
+                "name": "BrAPI-Phenotyping",
+                "description": "The BrAPI-Phenotyping module contains entities related to phenotypic observations. This includes Observation Units, Observations, Observation Variables, Traits, Scales, Methods, and Images",
+                "githubURL": "https://github.com/plantbreeding/BrAPI/tree/brapi-v2.1-dev/Specification/BrAPI-Phenotyping",
+                "apiaryURL": "https://brapiphenotyping21.docs.apiary.io/#",
+                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Phenotyping/2.1"
+            },
+            {
+                "name": "BrAPI-Genotyping",
+                "description": "The BrAPI-Genotyping module contains entities related to genotyping analysis. This includes Samples, Markers, Variant Sets, Variants, Call Sets, Calls, References, Reads, and Vendor Orders",
+                "githubURL": "https://github.com/plantbreeding/BrAPI/tree/brapi-v2.1-dev/Specification/BrAPI-Genotyping",
+                "apiaryURL": "https://brapigenotyping21.docs.apiary.io/#",
+                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Genotyping/2.1"
+            },
+            {
+                "name": "BrAPI-Germplasm",
+                "description": "The BrAPI-Germplasm module contains entities related to germplasm management. This includes Germplasm, Germplasm Attributes, Seed Lots, Crosses, Pedigree, and Progeny",
+                "githubURL": "https://github.com/plantbreeding/BrAPI/tree/brapi-v2.1-dev/Specification/BrAPI-Germplasm",
+                "apiaryURL": "https://brapigermplasm21.docs.apiary.io/#",
+                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Germplasm/2.1"
+            }
+        ]
+    }, {
+        "version": "V2.0",
+        "status": "Latest Stable Release",
+        "description": "Released on March 11, 2020. This version is the Latest Stable Release. This version is recommended for all new development efforts. <br/> BrAPI V2 is separated into modules to help maintain organization and consistency within the API.",
+        "isCurrent": true,
+        "links": [{
+                "label": "Release Notes",
+                "URL": "https://github.com/plantbreeding/API/releases/tag/V2.0"
+            },
+            {
+                "label": "Change Log",
+                "URL": "https://github.com/plantbreeding/API/releases/download/V2.0/BrAPI_V2-0_Release_Notes.xlsx"
+            },
+            {
+                "label": "JSON Schema",
+                "URL": "http://localhost:3000/docs/BrAPI_JSON_Schema.zip"
+            },
+            {
+                "label": "UML Diagram",
+                "URL": "http://localhost:3000/docs/brapi_test_server_data_model_v2.0.svg"
+            }
+        ],
+        "modules": [{
+                "name": "BrAPI-Core",
+                "description": "The BrAPI-Core module contains high level entities used for organization and management. This includes Programs, Trials, Studies, Locations, People, and Lists",
+                "githubURL": "https://github.com/plantbreeding/BrAPI/tree/V2.0/Specification/BrAPI-Core",
+                "apiaryURL": "https://brapicore20.docs.apiary.io/#",
+                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Core/2.0"
+            },
+            {
+                "name": "BrAPI-Phenotyping",
+                "description": "The BrAPI-Phenotyping module contains entities related to phenotypic observations. This includes Observation Units, Observations, Observation Variables, Traits, Scales, Methods, and Images",
+                "githubURL": "https://github.com/plantbreeding/BrAPI/tree/V2.0/Specification/BrAPI-Phenotyping",
+                "apiaryURL": "https://brapiphenotyping20.docs.apiary.io/#",
+                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Phenotyping/2.0"
+            },
+            {
+                "name": "BrAPI-Genotyping",
+                "description": "The BrAPI-Genotyping module contains entities related to genotyping analysis. This includes Samples, Markers, Variant Sets, Variants, Call Sets, Calls, References, Reads, and Vendor Orders",
+                "githubURL": "https://github.com/plantbreeding/BrAPI/tree/V2.0/Specification/BrAPI-Genotyping",
+                "apiaryURL": "https://brapigenotyping20.docs.apiary.io/#",
+                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Genotyping/2.0"
+            },
+            {
+                "name": "BrAPI-Germplasm",
+                "description": "The BrAPI-Germplasm module contains entities related to germplasm management. This includes Germplasm, Germplasm Attributes, Seed Lots, Crosses, Pedigree, and Progeny",
+                "githubURL": "https://github.com/plantbreeding/BrAPI/tree/V2.0/Specification/BrAPI-Germplasm",
+                "apiaryURL": "https://brapigermplasm20.docs.apiary.io/#",
+                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Germplasm/2.0"
+            }
+        ]
+    }]
+}

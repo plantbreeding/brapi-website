@@ -13,14 +13,21 @@ router.get('/', function(req, res, next) {
         }
     }
 
+    var twitterEvent = { "title": "BrAPI Events", "description": "", "image": "" };
+    if (currentEvents.length > 0) {
+        twitterEvent.title = currentEvents[0].title + ', ' + currentEvents[0].date;
+        twitterEvent.description = currentEvents[0].description,
+            twitterEvent.image = currentEvents[0].image
+    }
+
     res.render('events', {
         title: 'Events',
         footerEvents: getTrailerEvents(),
         currentEvents: currentEvents,
         pastEvents: pastEvents,
-        twitterTitle: currentEvents[0].title + ', ' + currentEvents[0].date,
-        twitterDesc: currentEvents[0].description,
-        twitterImg: currentEvents[0].image
+        twitterTitle: twitterEvent.title,
+        twitterDesc: twitterEvent.description,
+        twitterImg: twitterEvent.image
     });
 });
 

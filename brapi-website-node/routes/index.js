@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/partners', function(req, res, next) {
-    var partners = require('../public/json/partners.json')
+    var partners = require('../public/json/partners.json');
     partners.sort(function(a, b) {
         return a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
     });
@@ -22,9 +22,12 @@ router.get('/partners', function(req, res, next) {
 });
 
 router.get('/specification', function(req, res, next) {
+    var versions = require('../public/json/brapi-versions.json');
     res.render('specification', {
         title: 'BrAPI Specification',
-        footerEvents: require('./events').getTrailerEvents()
+        footerEvents: require('./events').getTrailerEvents(),
+        v1: versions.v1,
+        v2: versions.v2
     });
 });
 

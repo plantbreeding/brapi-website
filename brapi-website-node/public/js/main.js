@@ -9,7 +9,7 @@ function setVisible(elemId, isVis) {
 
 function toggleVisible(toggleId, btnId, displayTxt, hideTxt) {
     var toggleElm = document.getElementById(toggleId);
-    setVisible(toggleId, !(toggleElm.style.display === "block"));
+    setVisible(toggleId, (toggleElm.style.display === "none"));
 
     var btnElm = document.getElementById(btnId);
     if (toggleElm.style.display === "block")

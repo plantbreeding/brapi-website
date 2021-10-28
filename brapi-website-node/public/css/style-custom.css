@@ -84,11 +84,23 @@
     margin: 5px 0 0 0;
 }
 
+.brapi-section-subtitle {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
 .current-brapi-section {
     border-radius: 5px;
     background-color: #eaffc9;
     font-weight: bold;
-    padding: 0 0 10px 0;
+    /* padding: 0 0 10px 0; */
+}
+
+.preview-brapi-section {
+    border-radius: 5px;
+    background-color: #fffbc9;
+    /* font-weight: bold; */
+    /* padding: 0 0 10px 0; */
 }
 
 .brapi-section {
