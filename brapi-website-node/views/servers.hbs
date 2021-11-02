@@ -33,7 +33,7 @@
                                 <h2>{{ name }}</h2>
                                 <p style="margin-left: 15px;">{{ description }}</p>
                             </div>
-                            <div id="servers-for-{{ name }}" class="col-xs-12 brapp-details">
+                            <div id="servers-for-{{ name }}" class="col-xs-12 brapp-details" style="display: none;">
                                 {{#each resources}}
                                 <div style="margin-top: 15px">
                                     <div class="col-xs-12">
@@ -71,8 +71,9 @@
                             </div>
                             <div class="brapp-details-btn">
                                 <button id="toggle-{{ name }}" class="btn btn btn-round" type="button"
-                                    onclick="toggleVisible('servers-for-{{ name }}', 'toggle-{{ name }}', '&#x2B9D; Servers &#x2B9D;', '&#x2B9F; Servers &#x2B9F;')">&#x2B9F;
-                                    Servers &#x2B9F;</button>
+                                    onclick="toggleVisible('servers-for-{{ name }}', 'toggle-{{ name }}', 'Servers', 'Servers')">
+                                    <span class="mdi mdi-chevron-double-down"></span> Servers <span class="mdi mdi-chevron-double-down"></span>
+                                    </button>
                             </div>
                         </div>
                     </div>

@@ -54,7 +54,7 @@
                                 </a>
                                 {{/if}}
                             </div>
-                            <div id="{{ title }}" class="col-xs-12 brapp-details">
+                            <div id="{{ title }}" class="col-xs-12 brapp-details" style="display: none;">
                                 <div style="margin-top: 15px">
                                     <p>BrAPI Dependencies</p>
                                     {{#each dependencies}}
@@ -64,8 +64,9 @@
                             </div>
                             <div class="brapp-details-btn">
                                 <button id="toggle-{{ title }}" class="btn btn btn-round" type="button"
-                                    onclick="toggleVisible('{{ title }}', 'toggle-{{ title }}', '&#x2B9D; Less &#x2B9D;', '&#x2B9F; Details &#x2B9F;')">&#x2B9F;
-                                    Details &#x2B9F;</button>
+                                    onclick="toggleVisible('{{ title }}', 'toggle-{{ title }}', 'Less', 'Details')">
+                                    <span class="mdi mdi-chevron-double-down"></span> Details <span class="mdi mdi-chevron-double-down"></span> 
+                                    </button>
                             </div>
                         </div>
                     </div>

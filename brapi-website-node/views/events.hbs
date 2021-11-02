@@ -65,11 +65,11 @@
 
             <div class="col-xs-1" style="margin: 5px 0 0 0">
                 <button id="toggle-button" class="btn btn btn-round" type="button"
-                    onclick="toggleVisible('past-event-list', 'toggle-button', '&#x2B9D; Show Less &#x2B9D;', '&#x2B9F; Show More &#x2B9F;')">
+                    onclick="toggleVisible('past-event-list', 'toggle-button', 'Show Less;', 'Show More')">
                     {{#if currentEvents}}
-                    &#x2B9F; Show More &#x2B9F;
+                    <span class="mdi mdi-chevron-double-down"></span> Show More <span class="mdi mdi-chevron-double-down"></span>
                     {{else}}
-                    &#x2B9D; Show Less &#x2B9D;
+                    <span class="mdi mdi-chevron-double-up"></span> Show Less <span class="mdi mdi-chevron-double-up"></span>
                     {{/if}}
                     </button>
             </div>
