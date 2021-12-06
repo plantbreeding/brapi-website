@@ -1,5 +1,22 @@
 [{
         "published": true,
+        "image": "/images/apps/MrBean_thumb.png",
+        "url": "https://github.com/AparicioJohan/MrBeanApp",
+        "demo-url": "https://beanteam.shinyapps.io/MrBean_BETA/",
+        "source-url": "https://github.com/AparicioJohan/MrBeanApp",
+        "doc-url": "https://apariciojohan.github.io/MrBeanApp/",
+        "title": "Mr.Bean",
+        "team": "Alliance Bioversity - CIAT",
+        "team-url": "https://alliancebioversityciat.org/",
+        "description": "Mr.Bean is an easy to use R-Shiny web-app that simplifies the analysis of large-scale plant breeding experimental analysis by using the power and versatility of Linear Mixed Models (LMM).",
+        "dependencies": [
+            { "version": "v1.3", "call": "GET /programs" },
+            { "version": "v1.3", "call": "GET /studies" },
+            { "version": "v1.3", "call": "POST /search/observationtables" },
+            { "version": "v1.3", "call": "GET /search/observationtables/searchResultsDbId" }
+        ]
+    }, {
+        "published": true,
         "image": "/images/apps/brapi-sync-thumb.png",
         "url": "https://github.com/IntegratedBreedingPlatform/brapi-sync",
         "source-url": "https://github.com/IntegratedBreedingPlatform/brapi-sync",
