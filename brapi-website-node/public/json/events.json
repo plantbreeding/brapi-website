@@ -1,4 +1,15 @@
 [{
+        "title": "FOSDEM 22",
+        "location": "Virtual",
+        "date": "February 5, 2022 - February 6, 2022",
+        "image": "/images/events/fosdem_thumb.jpg",
+        "description": "<p>FOSDEM is a free event for software developers to meet, share ideas, and collaborate. This year, BrAPI will be presented to the open source, scientific community in a lightning talk, focusing on the development of open source standards. </p>",
+        "upcoming": true,
+        "links": [{
+            "name": "Event Page",
+            "url": "https://fosdem.org/2022/"
+        }]
+    }, {
         "title": "BrAPI Virtual Hackathon",
         "location": "Virtual",
         "date": "October 4, 2021 - October 8, 2021",
