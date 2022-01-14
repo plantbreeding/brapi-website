@@ -8,6 +8,9 @@
         "links": [{
             "name": "Event Page",
             "url": "https://fosdem.org/2022/"
+        }, {
+            "name": "BrAPI Session",
+            "url": "https://fosdem.org/2022/schedule/event/open_research_brapi/"
         }]
     }, {
         "title": "BrAPI Virtual Hackathon",
