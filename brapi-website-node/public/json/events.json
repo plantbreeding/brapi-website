@@ -5,7 +5,10 @@
         "image": "/images/events/home2_thumb.jpg",
         "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from April 4-8, 2022. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
         "upcoming": true,
-        "links": []
+        "links": [{
+            "name": "Event Page",
+            "url": "/"
+        }]
     },
     {
         "title": "FOSDEM 22",

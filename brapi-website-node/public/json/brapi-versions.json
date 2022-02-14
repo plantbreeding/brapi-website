@@ -90,11 +90,11 @@
             },
             {
                 "label": "JSON Schema",
-                "URL": "https://brapi.org/docs/BrAPI_JSON_Schema.zip"
+                "URL": "/docs/BrAPI_JSON_Schema.zip"
             },
             {
                 "label": "UML Diagram",
-                "URL": "https://brapi.org/docs/brapi_test_server_data_model_v2.0.svg"
+                "URL": "/docs/brapi_test_server_data_model_v2.0.svg"
             }
         ],
         "modules": [{
