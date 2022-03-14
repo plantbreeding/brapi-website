@@ -33,9 +33,11 @@ router.get('/', function(req, res, next) {
 
 
 router.get('/:id', function(req, res, next) {
+    var hackathonData = require('../public/json/hackathons.json')
     res.render('hackathons/' + req.params.id, {
         title: 'BrAPI Virtual Hackathon',
         footerEvents: getTrailerEvents(),
+        hackathonData: hackathonData[req.params.id],
         twitterTitle: 'BrAPI Virtual Hackathon',
         twitterDesc: req.params.id
     });

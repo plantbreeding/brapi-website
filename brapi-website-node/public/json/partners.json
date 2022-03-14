@@ -1,4 +1,8 @@
 [{
+        "name": "Agronomix Software",
+        "url": "https://www.agronomix.com/",
+        "img": "Agronomix.png"
+    }, {
         "name": "International Center for Agricultural Research in the Dry Areas",
         "url": "https://www.icarda.org/",
         "img": "ICARDA.png"

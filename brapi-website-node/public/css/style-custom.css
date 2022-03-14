@@ -266,25 +266,37 @@ table a {
     text-decoration: underline;
 }
 
-tr th.agenda {
-    padding: 20px 0 0 0;
+p.agenda-row {
+    border-top: #b0b0b0 solid 1px;
+    margin: 0;
 }
 
-tr td.agenda {
-    padding: 0 10px 0 10px;
-}
-
-tr.agenda-session1 {
-    background-color: #d6e6ff;
+.agenda-row {
     border-bottom: #b0b0b0 solid 1px;
+    display: flex;
+    padding: 0 0 0 10px;
 }
 
-tr.agenda-session2 {
+.agenda-date {
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
+
+.agenda-bg-green {
     background-color: #deffd6;
-    border-bottom: #b0b0b0 solid 1px;
+    padding: 0;
 }
 
-tr.agenda-session3 {
+.agenda-bg-blue {
+    background-color: #d6e6ff;
+    padding: 0
+}
+
+.agenda-bg-pink {
     background-color: #f3d6ff;
-    border-bottom: #b0b0b0 solid 1px;
+    padding: 0
+}
+
+.no-pad {
+    padding: 0;
 }

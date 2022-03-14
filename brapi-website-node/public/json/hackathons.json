@@ -1,0 +1,129 @@
+{
+    "hackathon-apr-2022": {
+        "agenda": [{
+            "date": "Monday, April 25, 2022",
+            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
+            "sessions": [{
+                    "session": "Session #1",
+                    "class": "agenda-session1",
+                    "discussions": [
+                        { "time": "08:00 - 08:30 UTC", "title": "Welcome! Tech setup, setting expectations, general organizing" },
+                        { "time": "08:30 - 10:00 UTC", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                        { "time": "10:00 - 11:00 UTC", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI" }
+                    ]
+                },
+                {
+                    "session": "Session #2",
+                    "class": "agenda-session2",
+                    "discussions": [
+                        { "time": "16:00 - 16:30 UTC", "title": "Welcome! Tech setup, setting expectations, general organizing" },
+                        { "time": "16:30 - 18:00 UTC", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                        { "time": "18:00 - 19:00 UTC", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI" }
+                    ]
+                }
+            ]
+
+        }, {
+            "date": "Tuesday, April 26, 2022",
+            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
+            "sessions": [{
+                    "session": "Session #1",
+                    "class": "agenda-session1",
+                    "discussions": [
+                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
+                        { "time": "09:00 - 10:00 UTC", "title": "TBD" },
+                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
+                    ]
+                },
+                {
+                    "session": "Session #2",
+                    "class": "agenda-session2",
+                    "discussions": [
+                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
+                        { "time": "17:00 - 18:00 UTC", "title": "TBD" },
+                        { "time": "18:00 - 19:00 UTC", "title": "TBD" }
+                    ]
+                }
+            ]
+
+        }, {
+            "date": "Wednesday, April 27, 2022",
+            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
+            "sessions": [{
+                    "session": "Session #1",
+                    "class": "agenda-session1",
+                    "discussions": [
+                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
+                        { "time": "09:00 - 10:00 UTC", "title": "TBD" },
+                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
+                    ]
+                },
+                {
+                    "session": "Session #2",
+                    "class": "agenda-session2",
+                    "discussions": [
+                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
+                        { "time": "17:00 - 18:00 UTC", "title": "TBD" },
+                        { "time": "18:00 - 19:00 UTC", "title": "TBD" }
+                    ]
+                }
+            ]
+
+        }, {
+            "date": "Thursday, April 28, 2022",
+            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
+            "sessions": [{
+                    "session": "Session #1",
+                    "class": "agenda-session1",
+                    "discussions": [
+                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
+                        { "time": "09:00 - 10:00 UTC", "title": "TBD" },
+                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
+                    ]
+                },
+                {
+                    "session": "Session #2",
+                    "class": "agenda-session2",
+                    "discussions": [
+                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
+                        { "time": "17:00 - 18:00 UTC", "title": "TBD" },
+                        { "time": "18:00 - 19:00 UTC", "title": "TBD" }
+                    ]
+                }
+            ]
+
+        }, {
+            "date": "Friday, April 29, 2022",
+            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
+            "sessions": [{
+                    "session": "Session #1",
+                    "class": "agenda-session1",
+                    "discussions": [
+                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
+                        { "time": "09:00 - 10:00 UTC", "title": "Project presentations and wrap up" },
+                        { "time": "10:00 - 11:00 UTC", "title": "Project presentations and wrap up" }
+                    ]
+                },
+                {
+                    "session": "Session #2",
+                    "class": "agenda-session2",
+                    "discussions": [
+                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
+                        { "time": "17:00 - 18:00 UTC", "title": "Project presentations and wrap up" },
+                        { "time": "18:00 - 19:00 UTC", "title": "Project presentations and wrap up" }
+                    ]
+                }
+            ]
+
+        }],
+        "attendees": {
+
+        },
+        "projects": {
+
+        },
+        "notes": {
+
+        }
+    }
+}
