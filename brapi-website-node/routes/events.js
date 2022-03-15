@@ -34,6 +34,16 @@ router.get('/', function(req, res, next) {
 
 router.get('/:id', function(req, res, next) {
     var hackathonData = require('../public/json/hackathons.json')
+
+    var attendees = hackathonData[req.params.id].attendees;
+    attendees.sort(function(a, b) {
+        var result = a.org > b.org ? 1 : ((b.org > a.org) ? -1 : 0);
+        if (result === 0)
+            var result = a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
+        return result;
+    });
+    hackathonData[req.params.id]["attendees"] = attendees;
+
     res.render('hackathons/' + req.params.id, {
         title: 'BrAPI Virtual Hackathon',
         footerEvents: getTrailerEvents(),

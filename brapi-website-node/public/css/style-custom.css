@@ -266,6 +266,14 @@ table a {
     text-decoration: underline;
 }
 
+tr th.agenda {
+    padding: 20px 0 0 0;
+}
+
+tr td.agenda {
+    padding: 0 10px 0 10px;
+}
+
 p.agenda-row {
     border-top: #b0b0b0 solid 1px;
     margin: 0;

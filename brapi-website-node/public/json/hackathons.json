@@ -1,5 +1,26 @@
 {
     "hackathon-apr-2022": {
+        "attendees": [
+            { "name": "Khaled Al-Shamaa", "org": "ICARDA", "email": "k.el-shamaa@cgiar.org" },
+            { "name": "Valentin Guignon", "org": "The Alliance Bioversity International - CIAT", "email": "v.guignon@cgiar.org" },
+            { "name": "Cyril Pommier", "org": "INRAE", "email": "cyril.pommier@inrae.fr" },
+            { "name": "Trevor Rife", "org": "KSU", "email": "trife@ksu.edu" },
+            { "name": "Lynn Johncon", "org": "Cornell Buckler Lab", "email": "lcj34@cornell.edu" },
+            { "name": "Heather Sweeney", "org": "Breeding Insight", "email": "hms243@cornell.edu" },
+            { "name": "Peter Selby", "org": "Cornell University", "email": "peter.selby@cornell.edu" }
+        ],
+        "projects": [
+            { "team": "Khaled Al-Shamaa, EiB, BMS, Breedbase", "title": "Enhance QBMS R Package", "description": "Enhance QBMS R package functionalities to serve developers of analysis pipelines efficiently.", "needs": null, "repo": "https://github.com/khaled-alshamaa/QBMS" },
+            { "team": "Valentin Guignon", "title": "BrAPI 2 for Drupal 9", "description": "Develop a BrAPI V2 implementation library for Drupal 9 compatible with Tripal", "needs": null, "repo": null },
+            { "team": "Cyril Pommier", "title": "ICASA/AgMIP and BrAPI", "description": "ICASA/AgMIP and BrAPI ", "needs": null, "repo": null },
+
+            { "team": "Lynn Johnson, Buckler Lab", "title": "BrAPI Genotyping in PHG", "description": "Implementing brAPI endpoints (genotyping in specific) for the Buckler Lab PHG application", "needs": null, "repo": "https://bitbucket.org/bucklerlab/phg-web-service/src/master/" },
+
+            { "team": null, "title": "Germplasm Supply Chain Tracking ", "description": "Supply chain tracking of various species ", "needs": "Planning on working with GeoJSON and MCPD. Any open regional data sets (import/export/shipping etc) if they exist would also be helpful. ", "repo": null }
+        ],
+        "notes": {
+
+        },
         "agenda": [{
             "date": "Monday, April 25, 2022",
             "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
@@ -115,15 +136,6 @@
                 }
             ]
 
-        }],
-        "attendees": {
-
-        },
-        "projects": {
-
-        },
-        "notes": {
-
-        }
+        }]
     }
 }
