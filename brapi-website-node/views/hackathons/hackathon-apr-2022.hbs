@@ -115,12 +115,16 @@
 
                     <div id="attendees-section" style="display: none;">
                         <h3 class="font-alt" id="title"> Attendees List </h3>
-                        <div style="margin-left:10px">
-                            <p> Public list of registered attendees </p>
-                            
+                        <div style="margin-left:10px">                            
                             <table>
-                                {{#each hackathonData.attendees}}
-                                <tr>  <td class="agenda">{{name}}</td> <td class="agenda">{{org}}</td>  <td class="agenda">{{email}}</td>  </tr>
+                                <tr><th class="agenda">Session #1</th></tr>
+                                {{#each hackathonData.session1List}}
+                                <tr>  <td class="agenda">{{name}}</td> <td class="agenda">{{email}}</td> <td class="agenda">{{org}}</td>  </tr>
+                                {{/each}}
+
+                                <tr><th class="agenda">Session #2</th></tr>
+                                {{#each hackathonData.session2List}}
+                                <tr>  <td class="agenda">{{name}}</td> <td class="agenda">{{email}}</td> <td class="agenda">{{org}}</td>  </tr>
                                 {{/each}}
                             </table>
                         </div>
@@ -133,7 +137,8 @@
                             <p>Projects are listed in the order they were recieved in the registration from. If you would like to edit any of the infomration below, please contact the BrAPI Coordinator.</p>
 
                                 {{#each hackathonData.projects}}
-                                <div class="col-xs-12" style="font-weight: bold; margin: 15px 0 1px 0;"> {{title}}</div>
+                                {{#if title}}<div class="col-xs-12" style="font-weight: bold; margin: 15px 0 1px 0;"> {{title}}</div>
+                                {{else}}<div class="col-xs-12" style="font-weight: bold; margin: 15px 0 1px 0;"> Project Title TBD</div>{{/if}}
                                 <div class="col-xs-12">  
                                     {{#if team}}<div class="col-xs-12"> <span style="font-weight: bold;">Team: </span>{{team}}</div>{{/if}}
                                     {{#if repo}}<div class="col-xs-12"> <span style="font-weight: bold;">Repository: </span><a target="_blank" href="{{repo}}">{{repo}}</a></div>{{/if}}
