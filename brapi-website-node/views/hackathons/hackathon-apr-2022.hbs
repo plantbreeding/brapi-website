@@ -86,7 +86,8 @@
                                         {{#each sessions.[0].discussions}}
                                             <div class="agenda-row">
                                                 <div class="col-xs-2 no-pad">{{time}}</div>
-                                                <div class="col-xs-10 no-pad">{{title}}</div>
+                                                <div class="col-xs-10 no-pad">{{title}}
+                                                {{#if lead}}<br/>Discussion Lead: {{lead}}{{/if}}</div>
                                             </div>
                                         {{/each}}
                                     </div>
@@ -99,7 +100,8 @@
                                         {{#each sessions.[1].discussions}}
                                             <div class="agenda-row">
                                                 <div class="col-xs-2 no-pad">{{time}}</div>
-                                                <div class="col-xs-10 no-pad">{{title}}</div>
+                                                <div class="col-xs-10 no-pad">{{title}}
+                                                {{#if lead}}<br/>Discussion Lead: {{lead}}{{/if}}</div>
                                             </div>
                                         {{/each}}
                                     </div>

@@ -38,7 +38,7 @@
                     "discussions": [
                         { "time": "08:00 - 08:30 UTC", "title": "Welcome! Tech setup, setting expectations, general organizing" },
                         { "time": "08:30 - 10:00 UTC", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                        { "time": "10:00 - 11:00 UTC", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI" }
+                        { "time": "10:00 - 11:00 UTC", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" }
                     ]
                 },
                 {
@@ -47,7 +47,7 @@
                     "discussions": [
                         { "time": "16:00 - 16:30 UTC", "title": "Welcome! Tech setup, setting expectations, general organizing" },
                         { "time": "16:30 - 18:00 UTC", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                        { "time": "18:00 - 19:00 UTC", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI" }
+                        { "time": "18:00 - 19:00 UTC", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" }
                     ]
                 }
             ]
@@ -59,18 +59,18 @@
                     "session": "Session #1",
                     "class": "agenda-session1",
                     "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
-                        { "time": "09:00 - 10:00 UTC", "title": "TBD" },
-                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
+                        { "time": "08:00 - 09:00 UTC", "title": "Genotyping Working Group - Updates and discussion", "lead": "TBD" },
+                        { "time": "09:00 - 10:00 UTC", "title": "Agronomy/Crop Modeling Working Group - Updates and discussion", "lead": "TBD" },
+                        { "time": "10:00 - 11:00 UTC", "title": "High Dimensional Phenotyping Working Group - Updates and discussion", "lead": "TBD" }
                     ]
                 },
                 {
                     "session": "Session #2",
                     "class": "agenda-session2",
                     "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
-                        { "time": "17:00 - 18:00 UTC", "title": "TBD" },
-                        { "time": "18:00 - 19:00 UTC", "title": "TBD" }
+                        { "time": "16:00 - 17:00 UTC", "title": "Genotyping Working Group - Updates and discussion", "lead": "TBD" },
+                        { "time": "17:00 - 18:00 UTC", "title": "Agronomy/Crop Modeling Working Group - Updates and discussion", "lead": "TBD" },
+                        { "time": "18:00 - 19:00 UTC", "title": "High Dimensional Phenotyping Working Group - Updates and discussion", "lead": "TBD" }
                     ]
                 }
             ]
@@ -82,18 +82,18 @@
                     "session": "Session #1",
                     "class": "agenda-session1",
                     "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
-                        { "time": "09:00 - 10:00 UTC", "title": "TBD" },
-                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
+                        { "time": "08:00 - 09:00 UTC", "title": "Analytics/Statistics Outputs in BrAPI", "lead": "TBD" },
+                        { "time": "09:00 - 10:00 UTC", "title": "Data Versioning - How to handle data sets after edits or QC", "lead": "TBD" },
+                        { "time": "10:00 - 11:00 UTC", "title": "BrAPI2RDF - Converting between BrAPI and RDF", "lead": "Cyril Pommier, Pierre Larmande" }
                     ]
                 },
                 {
                     "session": "Session #2",
                     "class": "agenda-session2",
                     "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
-                        { "time": "17:00 - 18:00 UTC", "title": "TBD" },
-                        { "time": "18:00 - 19:00 UTC", "title": "TBD" }
+                        { "time": "16:00 - 17:00 UTC", "title": "Analytics/Statistics Outputs in BrAPI", "lead": "TBD" },
+                        { "time": "17:00 - 18:00 UTC", "title": "Data Versioning - How to handle data sets after edits or QC", "lead": "Tim Parsons" },
+                        { "time": "18:00 - 19:00 UTC", "title": "BrAPI2RDF - Converting between BrAPI and RDF", "lead": "Cyril Pommier, Pierre Larmande" }
                     ]
                 }
             ]
@@ -105,7 +105,7 @@
                     "session": "Session #1",
                     "class": "agenda-session1",
                     "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
+                        { "time": "08:00 - 09:00 UTC", "title": "Community Tools Development Plan for 2022", "lead": "Peter Selby" },
                         { "time": "09:00 - 10:00 UTC", "title": "TBD" },
                         { "time": "10:00 - 11:00 UTC", "title": "TBD" }
                     ]
@@ -114,7 +114,7 @@
                     "session": "Session #2",
                     "class": "agenda-session2",
                     "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
+                        { "time": "16:00 - 17:00 UTC", "title": "Community Tools Development Plan for 2022", "lead": "Peter Selby" },
                         { "time": "17:00 - 18:00 UTC", "title": "TBD" },
                         { "time": "18:00 - 19:00 UTC", "title": "TBD" }
                     ]
