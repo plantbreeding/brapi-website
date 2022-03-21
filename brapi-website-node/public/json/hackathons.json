@@ -7,24 +7,22 @@
             { "name": "Trevor Rife", "org": "KSU", "email": "trife@ksu.edu", "session1": false, "session2": true },
             { "name": "Lynn Johnson", "org": "Cornell Buckler Lab", "email": "lcj34@cornell.edu", "session1": false, "session2": true },
             { "name": "Heather Sweeney", "org": "Breeding Insight", "email": "hms243@cornell.edu", "session1": false, "session2": true },
-
             { "name": "Peter Selby", "org": "Cornell University", "email": "peter.selby@cornell.edu", "session1": true, "session2": true },
             { "name": "Chris Tucker", "org": "Breeding Insight", "email": "ct447@cornell.edu", "session1": false, "session2": true },
             { "name": "Star Yanxin Gao", "org": "BrIN", "email": "yg28@cornell.edu", "session1": false, "session2": true },
-            { "name": "Kidist Kibret", "org": "Agronomix.", "email": "support@agronomix.com", "session1": false, "session2": true }
+            { "name": "Kidist Kibret", "org": "Agronomix.", "email": "support@agronomix.com", "session1": false, "session2": true },
+            { "name": "Shawn Yarnes", "org": "Breeding Insight", "email": "scy32@cornell.edu", "session1": false, "session2": true },
+            { "name": "Terry Casstevens", "org": "Cornell University", "email": "tmc46@cornell.edu", "session1": false, "session2": true }
 
         ],
         "projects": [
             { "team": "Khaled Al-Shamaa, Representatives from EiB, BMS, Breedbase", "title": "Enhance QBMS R Package", "description": "Enhance QBMS R package functionalities to serve developers of analysis pipelines efficiently.", "needs": null, "repo": "https://github.com/khaled-alshamaa/QBMS" },
             { "team": "Valentin Guignon", "title": "BrAPI 2 for Drupal 9", "description": "Develop a BrAPI V2 implementation library for Drupal 9 compatible with Tripal", "needs": null, "repo": null },
             { "team": "Cyril Pommier", "title": "ICASA/AgMIP and BrAPI", "description": "ICASA/AgMIP and BrAPI ", "needs": null, "repo": null },
-
-            { "team": "Lynn Johnson, Buckler Lab", "title": "BrAPI Genotyping in PHG", "description": "Implementing brAPI endpoints (genotyping in specific) for the Buckler Lab PHG application", "needs": null, "repo": "https://bitbucket.org/bucklerlab/phg-web-service/src/master/" },
-
+            { "team": "Lynn Johnson, Terry Casstevens, Zack Miller, Buckler Lab", "title": "BrAPI Genotyping in PHG", "description": "Implementing brAPI endpoints (genotyping in specific) for the Buckler Lab PHG application", "needs": null, "repo": "https://bitbucket.org/bucklerlab/phg_webktor_service/src/master/" },
             { "team": null, "title": "Germplasm Supply Chain Tracking ", "description": "Supply chain tracking of various species ", "needs": "Planning on working with GeoJSON and MCPD. Any open regional data sets (import/export/shipping etc) if they exist would also be helpful. ", "repo": null },
             { "team": "Chris Tucker, Chaney Courtney (Field Book)", "title": "BrAPI Importer Tool", "description": "BrAPI Importer tool improvements, maybe brapi graphql", "needs": null, "repo": null },
             { "team": "Star Yanxin Gao, Luis (EBS), Faustino (EBS), Representatives from Breedbase, BMS, ILCI, Intertek, DArT", "title": "Sample Tracking and Submitting Vendor Jobs", "description": "Sample tracking, vendor job order, data report, pre-processing before loading to data management systems", "needs": "Luis, Faustino from EBS, representatives from Lukas and Kelly's group", "repo": null }
-
         ],
         "notes": {
 
