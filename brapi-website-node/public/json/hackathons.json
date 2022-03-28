@@ -12,7 +12,13 @@
             { "name": "Star Yanxin Gao", "org": "BrIN", "email": "yg28@cornell.edu", "session1": false, "session2": true },
             { "name": "Kidist Kibret", "org": "Agronomix.", "email": "support@agronomix.com", "session1": false, "session2": true },
             { "name": "Shawn Yarnes", "org": "Breeding Insight", "email": "scy32@cornell.edu", "session1": false, "session2": true },
-            { "name": "Terry Casstevens", "org": "Cornell University", "email": "tmc46@cornell.edu", "session1": false, "session2": true }
+            { "name": "Terry Casstevens", "org": "Cornell University", "email": "tmc46@cornell.edu", "session1": false, "session2": true },
+            { "name": "Tim Parsons", "org": "Breeding Insight/Cornell University", "email": "tim.parsons@cornell.edu", "session1": false, "session2": true },
+            { "name": "Julius Peter Mbiu ", "org": "Tanzania Agricultural Research Institute ", "email": "JULIUSDARCY@YAHOO.COM", "session1": true, "session2": false },
+            { "name": "Sam Bouabane", "org": "ILCI", "email": "sb2597@cornell.edu", "session1": false, "session2": true },
+            { "name": "Abhishek Rathore", "org": "EiB-CIMMYT", "email": "abhishek.rathore@cgiar.org", "session1": true, "session2": false },
+            { "name": "Victor Jun Ulat", "org": "CIMMYT/EiB", "email": "v.ulat@cgiar.org", "session1": false, "session2": true },
+            { "name": "Jenna Hershberger", "org": "Danforth Center / Land Institute / Clemson University", "email": "jmh579@cornell.edu", "session1": false, "session2": true }
 
         ],
         "projects": [
@@ -22,7 +28,9 @@
             { "team": "Lynn Johnson, Terry Casstevens, Zack Miller, Buckler Lab", "title": "BrAPI Genotyping in PHG", "description": "Implementing brAPI endpoints (genotyping in specific) for the Buckler Lab PHG application", "needs": null, "repo": "https://bitbucket.org/bucklerlab/phg_webktor_service/src/master/" },
             { "team": null, "title": "Germplasm Supply Chain Tracking ", "description": "Supply chain tracking of various species ", "needs": "Planning on working with GeoJSON and MCPD. Any open regional data sets (import/export/shipping etc) if they exist would also be helpful. ", "repo": null },
             { "team": "Chris Tucker, Chaney Courtney (Field Book)", "title": "BrAPI Importer Tool", "description": "BrAPI Importer tool improvements, maybe brapi graphql", "needs": null, "repo": null },
-            { "team": "Star Yanxin Gao, Luis (EBS), Faustino (EBS), Representatives from Breedbase, BMS, ILCI, Intertek, DArT", "title": "Sample Tracking and Submitting Vendor Jobs", "description": "Sample tracking, vendor job order, data report, pre-processing before loading to data management systems", "needs": "Luis, Faustino from EBS, representatives from Lukas and Kelly's group", "repo": null }
+            { "team": "Star Yanxin Gao, Luis (EBS), Faustino (EBS), Representatives from Breedbase, BMS, ILCI, Intertek, DArT", "title": "Sample Tracking and Submitting Vendor Jobs", "description": "Sample tracking, vendor job order, data report, pre-processing before loading to data management systems", "needs": "Luis, Faustino from EBS, representatives from Lukas and Kelly's group", "repo": null },
+            { "team": "Tim Parsons", "title": "Field Book on iOS", "description": "Field Book on iOS - A port of Field Book to work on iOS devices. The repository is temporary,  plan to eventually move it to the PhenoApps org", "needs": null, "repo": "https://github.com/timparsons/Field-Book-iOS" },
+            { "team": "Victor Jun Ulat, Abhishek Rathore", "title": "QC/F1 verification", "description": "Building a QC/F1 verification tool", "needs": null, "repo": null }
         ],
         "notes": {
 
