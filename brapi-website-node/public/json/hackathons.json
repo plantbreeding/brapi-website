@@ -2,7 +2,7 @@
     "hackathon-apr-2022": {
         "attendees": [
             { "name": "Khaled Al-Shamaa", "org": "ICARDA", "email": "k.el-shamaa@cgiar.org", "session1": true, "session2": false },
-            { "name": "Valentin Guignon", "org": "The Alliance Bioversity International - CIAT", "email": "v.guignon@cgiar.org", "session1": true, "session2": false },
+            { "name": "Valentin Guignon", "org": "Alliance of Bioversity and CIAT", "email": "v.guignon@cgiar.org", "session1": true, "session2": false },
             { "name": "Cyril Pommier", "org": "INRAE", "email": "cyril.pommier@inrae.fr", "session1": true, "session2": false },
             { "name": "Trevor Rife", "org": "KSU", "email": "trife@ksu.edu", "session1": false, "session2": true },
             { "name": "Lynn Johnson", "org": "Cornell Buckler Lab", "email": "lcj34@cornell.edu", "session1": false, "session2": true },
@@ -25,7 +25,7 @@
             { "name": "Nahuel Soldevilla", "org": "IBP, Leafnode, BMS", "email": "nahuel@leafnode.io", "session1": false, "session2": true },
             { "name": "Aldrin Batac", "org": "IBP, Leafnode", "email": "aldrin.batac@leafnode.io", "session1": true, "session2": false },
             { "name": "Iain Milne", "org": "The James Hutton Institute", "email": "iain.milne@hutton.ac.uk", "session1": true, "session2": false },
-            { "name": "Chaney Courtney", "org": "PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true }
+            { "name": "Chaney Courtney", "org": "KSU, PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true }
 
         ],
         "projects": [
