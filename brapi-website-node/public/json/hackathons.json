@@ -18,7 +18,14 @@
             { "name": "Sam Bouabane", "org": "ILCI", "email": "sb2597@cornell.edu", "session1": false, "session2": true },
             { "name": "Abhishek Rathore", "org": "EiB-CIMMYT", "email": "abhishek.rathore@cgiar.org", "session1": true, "session2": false },
             { "name": "Victor Jun Ulat", "org": "CIMMYT/EiB", "email": "v.ulat@cgiar.org", "session1": false, "session2": true },
-            { "name": "Jenna Hershberger", "org": "Danforth Center / Land Institute / Clemson University", "email": "jmh579@cornell.edu", "session1": false, "session2": true }
+            { "name": "Jenna Hershberger", "org": "Danforth Center / Land Institute / Clemson University", "email": "jmh579@cornell.edu", "session1": false, "session2": true },
+            { "name": "Guy Davenport", "org": "Daveneti Limited", "email": "guy@daveneti.com", "session1": true, "session2": false },
+            { "name": "Marie-Angélique Laporte", "org": "Alliance of Bioversity and CIAT", "email": "m.a.laporte@cgiar.org", "session1": true, "session2": false },
+            { "name": "Kristina Riemer", "org": "University of Arizona", "email": "kristinariemer@email.arizona.edu", "session1": false, "session2": true },
+            { "name": "Nahuel Soldevilla", "org": "IBP, Leafnode, BMS", "email": "nahuel@leafnode.io", "session1": false, "session2": true },
+            { "name": "Aldrin Batac", "org": "IBP, Leafnode", "email": "aldrin.batac@leafnode.io", "session1": true, "session2": false },
+            { "name": "Iain Milne", "org": "The James Hutton Institute", "email": "iain.milne@hutton.ac.uk", "session1": true, "session2": false },
+            { "name": "Chaney Courtney", "org": "PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true }
 
         ],
         "projects": [
@@ -30,7 +37,11 @@
             { "team": "Chris Tucker, Chaney Courtney (Field Book)", "title": "BrAPI Importer Tool", "description": "BrAPI Importer tool improvements, maybe brapi graphql", "needs": null, "repo": null },
             { "team": "Star Yanxin Gao, Luis (EBS), Faustino (EBS), Representatives from Breedbase, BMS, ILCI, Intertek, DArT", "title": "Sample Tracking and Submitting Vendor Jobs", "description": "Sample tracking, vendor job order, data report, pre-processing before loading to data management systems", "needs": "Luis, Faustino from EBS, representatives from Lukas and Kelly's group", "repo": null },
             { "team": "Tim Parsons", "title": "Field Book on iOS", "description": "Field Book on iOS - A port of Field Book to work on iOS devices. The repository is temporary,  plan to eventually move it to the PhenoApps org", "needs": null, "repo": "https://github.com/timparsons/Field-Book-iOS" },
-            { "team": "Victor Jun Ulat, Abhishek Rathore", "title": "QC/F1 verification", "description": "Building a QC/F1 verification tool", "needs": null, "repo": null }
+            { "team": "Victor Jun Ulat, Abhishek Rathore", "title": "QC/F1 verification", "description": "Building a QC/F1 verification tool", "needs": null, "repo": null },
+            { "team": "Marie-Angélique Laporte", "title": "ClimMob Data Exchange", "description": "I will like to take part on any developments/discussion related to how ClimMob data can be exchanged with breeding databases, as this is relevant to the 1000Farms project", "needs": null, "repo": null },
+            { "team": "Kristina Riemer, University of Arizona on BrAPI TERRA REF", "title": "BrAPI to ICASA", "description": "Developing/improving the agronomy events endpoint; converting Brapi to ICASA standards", "needs": "Anyone else who is working on improving events endpoint", "repo": null },
+            { "team": "Iain Milne", "title": "BrAPI 2.1 in Flapjack", "description": "Flapjack->2.1 if I can find the time. I haven't done any Flapjack work for a while, never mind BrAPI so I'm rusty as all hell :)", "needs": null, "repo": "https://github.com/cropgeeks/flapjack" },
+            { "team": "Chaney Courtney", "title": "Coordinate Mobile App", "description": "Working on implementing BrAPI functionality into an app, Coordinate. Discussing what calls would be useful for querying sample data.", "needs": null, "repo": "https://github.com/PhenoApps/Coordinate" }
         ],
         "notes": {
 
