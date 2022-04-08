@@ -25,7 +25,8 @@
             { "name": "Nahuel Soldevilla", "org": "IBP, Leafnode, BMS", "email": "nahuel@leafnode.io", "session1": false, "session2": true },
             { "name": "Aldrin Batac", "org": "IBP, Leafnode", "email": "aldrin.batac@leafnode.io", "session1": true, "session2": false },
             { "name": "Iain Milne", "org": "The James Hutton Institute", "email": "iain.milne@hutton.ac.uk", "session1": true, "session2": false },
-            { "name": "Chaney Courtney", "org": "KSU, PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true }
+            { "name": "Chaney Courtney", "org": "KSU, PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true },
+            { "name": "Clarysabel Tovar", "org": "IBP", "email": "clarysabel@leafnode.io", "session1": false, "session2": true }
 
         ],
         "projects": [
@@ -76,8 +77,8 @@
                     "session": "Session #1",
                     "class": "agenda-session1",
                     "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "Genotyping Working Group - Updates and discussion", "lead": "TBD" },
-                        { "time": "09:00 - 10:00 UTC", "title": "Agronomy/Crop Modeling Working Group - Updates and discussion", "lead": "TBD" },
+                        { "time": "08:00 - 09:00 UTC", "title": "Genotyping Working Group - Updates and discussion", "lead": "Alice Boizet" },
+                        { "time": "09:00 - 10:00 UTC", "title": "Agronomy/Crop Modeling Working Group - Updates and discussion", "lead": "Marie-Angélique Laporte" },
                         { "time": "10:00 - 11:00 UTC", "title": "High Dimensional Phenotyping Working Group - Updates and discussion", "lead": "TBD" }
                     ]
                 },
@@ -85,8 +86,8 @@
                     "session": "Session #2",
                     "class": "agenda-session2",
                     "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "Genotyping Working Group - Updates and discussion", "lead": "TBD" },
-                        { "time": "17:00 - 18:00 UTC", "title": "Agronomy/Crop Modeling Working Group - Updates and discussion", "lead": "TBD" },
+                        { "time": "16:00 - 17:00 UTC", "title": "Genotyping Working Group - Updates and discussion", "lead": "Lynn Johnson" },
+                        { "time": "17:00 - 18:00 UTC", "title": "Agronomy/Crop Modeling Working Group - Updates and discussion", "lead": "David LeBauer" },
                         { "time": "18:00 - 19:00 UTC", "title": "High Dimensional Phenotyping Working Group - Updates and discussion", "lead": "TBD" }
                     ]
                 }
