@@ -26,23 +26,36 @@
             { "name": "Aldrin Batac", "org": "IBP, Leafnode", "email": "aldrin.batac@leafnode.io", "session1": true, "session2": false },
             { "name": "Iain Milne", "org": "The James Hutton Institute", "email": "iain.milne@hutton.ac.uk", "session1": true, "session2": false },
             { "name": "Chaney Courtney", "org": "KSU, PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true },
-            { "name": "Clarysabel Tovar", "org": "IBP", "email": "clarysabel@leafnode.io", "session1": false, "session2": true }
+            { "name": "Clarysabel Tovar", "org": "IBP", "email": "clarysabel@leafnode.io", "session1": false, "session2": true },
+            { "name": "Zack Miller", "org": "Buckler Lab Cornell", "email": "zrm22@cornell.edu", "session1": false, "session2": true },
+            { "name": "Vishnu Govindaraj", "org": "Boyce Thompson Institute", "email": "vg249@cornell.edu", "session1": false, "session2": true },
+            { "name": "Adrian Powell", "org": "Boyce Thompson Institute", "email": "afp43@cornell.edu", "session1": false, "session2": true },
+            { "name": "Alice Boizet", "org": "CIRAD", "email": "alice.boizet@cirad.fr", "session1": true, "session2": false },
+            { "name": "Mirella Flores", "org": "BTI", "email": "mrf252@cornell.edu", "session1": false, "session2": true },
+            { "name": "David LeBauer", "org": "University of Arizona", "email": "dlebauer@email.arizona.edu", "session1": false, "session2": true },
+            { "name": "Gavin Tomlins", "org": "Diversity Arrays Technology", "email": "gavint@diversityarrays.com", "session1": true, "session2": false },
+            { "name": "Brandon Monier", "org": "Cornell University", "email": "bm646@cornell.edu", "session1": false, "session2": true },
+            { "name": "Joel Byrnes", "org": "BTI / EBS", "email": "jrb468@cornell.edu", "session1": false, "session2": true },
+            { "name": "Prasad Peteti", "org": "International Institute of Tropical Agriculture (IITA)", "email": "p.prasad@cgiar.org", "session1": true, "session2": false }
 
         ],
         "projects": [
             { "team": "Khaled Al-Shamaa, Representatives from EiB, BMS, Breedbase", "title": "Enhance QBMS R Package", "description": "Enhance QBMS R package functionalities to serve developers of analysis pipelines efficiently.", "needs": null, "repo": "https://github.com/khaled-alshamaa/QBMS" },
             { "team": "Valentin Guignon", "title": "BrAPI 2 for Drupal 9", "description": "Develop a BrAPI V2 implementation library for Drupal 9 compatible with Tripal", "needs": null, "repo": null },
             { "team": "Cyril Pommier", "title": "ICASA/AgMIP and BrAPI", "description": "ICASA/AgMIP and BrAPI ", "needs": null, "repo": null },
-            { "team": "Lynn Johnson, Terry Casstevens, Zack Miller, Buckler Lab", "title": "BrAPI Genotyping in PHG", "description": "Implementing BrAPI endpoints (genotyping in specific) for the Buckler Lab PHG application", "needs": null, "repo": "https://bitbucket.org/bucklerlab/phg_webktor_service/src/master/" },
+            { "team": "Lynn Johnson, Terry Casstevens, Zack Miller, Brandon Monier, Buckler Lab", "title": "BrAPI Genotyping in PHG", "description": "Implementing brAPI endpoints (genotyping in specific) for the Buckler Lab PHG application", "needs": null, "repo": "https://bitbucket.org/bucklerlab/practicalhaplotypegraph/src/master/" },
             { "team": null, "title": "Germplasm Supply Chain Tracking ", "description": "Supply chain tracking of various species ", "needs": "Planning on working with GeoJSON and MCPD. Any open regional data sets (import/export/shipping etc) if they exist would also be helpful. ", "repo": null },
             { "team": "Chris Tucker, Chaney Courtney (Field Book)", "title": "BrAPI Importer Tool", "description": "BrAPI Importer tool improvements, maybe brapi graphql", "needs": null, "repo": null },
             { "team": "Star Yanxin Gao, Luis (EBS), Faustino (EBS), Representatives from Breedbase, BMS, ILCI, Intertek, DArT", "title": "Sample Tracking and Submitting Vendor Jobs", "description": "Sample tracking, vendor job order, data report, pre-processing before loading to data management systems", "needs": "Luis, Faustino from EBS, representatives from Lukas and Kelly's group", "repo": null },
             { "team": "Tim Parsons", "title": "Field Book on iOS", "description": "Field Book on iOS - A port of Field Book to work on iOS devices. The repository is temporary,  plan to eventually move it to the PhenoApps org", "needs": null, "repo": "https://github.com/timparsons/Field-Book-iOS" },
             { "team": "Victor Jun Ulat, Abhishek Rathore", "title": "QC/F1 verification", "description": "Building a QC/F1 verification tool", "needs": null, "repo": null },
             { "team": "Marie-Angélique Laporte", "title": "ClimMob Data Exchange", "description": "I will like to take part on any developments/discussion related to how ClimMob data can be exchanged with breeding databases, as this is relevant to the 1000Farms project", "needs": null, "repo": null },
-            { "team": "Kristina Riemer, University of Arizona on BrAPI TERRA REF", "title": "BrAPI to ICASA", "description": "Developing/improving the agronomy events endpoint; converting Brapi to ICASA standards", "needs": "Anyone else who is working on improving events endpoint", "repo": null },
+            { "team": "Kristina Riemer, David LeBauer, University of Arizona on BrAPI TERRA REF", "title": "BrAPI to ICASA", "description": "Developing/improving the agronomy events endpoint; converting Brapi to ICASA standards", "needs": "Anyone else who is working on improving events endpoint", "repo": null },
             { "team": "Iain Milne", "title": "BrAPI 2.1 in Flapjack", "description": "Flapjack->2.1 if I can find the time. I haven't done any Flapjack work for a while, never mind BrAPI so I'm rusty as all hell :)", "needs": null, "repo": "https://github.com/cropgeeks/flapjack" },
-            { "team": "Chaney Courtney", "title": "Coordinate Mobile App", "description": "Working on implementing BrAPI functionality into an app, Coordinate. Discussing what calls would be useful for querying sample data.", "needs": null, "repo": "https://github.com/PhenoApps/Coordinate" }
+            { "team": "Chaney Courtney", "title": "Coordinate Mobile App", "description": "Working on implementing BrAPI functionality into an app, Coordinate. Discussing what calls would be useful for querying sample data.", "needs": null, "repo": "https://github.com/PhenoApps/Coordinate" },
+            { "team": "Vishnu Govindaraj, Joel Byrnes, Jorge from EBS", "title": "Genotype Client Application", "description": "Build a BrAPI client to download genotypes for Brapi 2.1 spec, BrAPI 2.1 variant matrix API for EBS Gobii DB in Java Spring", "needs": null, "repo": "https://bitbucket.org/ebsproject/gobii.gdm-api/src/develop/" },
+            { "team": "Adrian Powell", "title": "High-dimensional phenotypes", "description": "Continue development of the High-dimensional phenotypes endpoints in Breedbase", "needs": null, "repo": null },
+            { "team": "Brandon Monier, Buckler Lab", "title": "PHG + BrAPI + R", "description": "Integrating PHG and BrAPI into base R and the R package, rTASSEL.", "needs": null, "repo": null }
         ],
         "notes": {
 
