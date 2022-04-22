@@ -92,7 +92,7 @@
                     "discussions": [
                         { "time": "08:00 - 09:00 UTC", "title": "Genotyping Working Group - Updates and discussion", "lead": "Alice Boizet" },
                         { "time": "09:00 - 10:00 UTC", "title": "Agronomy/Crop Modeling Working Group - Updates and discussion", "lead": "Marie-Angélique Laporte" },
-                        { "time": "10:00 - 11:00 UTC", "title": "High Dimensional Phenotyping Working Group - Updates and discussion", "lead": "TBD" }
+                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
                     ]
                 },
                 {
@@ -101,7 +101,7 @@
                     "discussions": [
                         { "time": "16:00 - 17:00 UTC", "title": "Genotyping Working Group - Updates and discussion", "lead": "Lynn Johnson" },
                         { "time": "17:00 - 18:00 UTC", "title": "Agronomy/Crop Modeling Working Group - Updates and discussion", "lead": "David LeBauer" },
-                        { "time": "18:00 - 19:00 UTC", "title": "High Dimensional Phenotyping Working Group - Updates and discussion", "lead": "TBD" }
+                        { "time": "18:00 - 19:00 UTC", "title": "High Dimensional Phenotyping Working Group - Updates and discussion", "lead": "Adrian Powell" }
                     ]
                 }
             ]
@@ -113,8 +113,8 @@
                     "session": "Session #1",
                     "class": "agenda-session1",
                     "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "Analytics/Statistics Outputs in BrAPI", "lead": "TBD" },
-                        { "time": "09:00 - 10:00 UTC", "title": "Data Versioning - How to handle data sets after edits or QC", "lead": "TBD" },
+                        { "time": "08:00 - 09:00 UTC", "title": "Analytics/Statistics Outputs in BrAPI", "lead": "Peter Selby" },
+                        { "time": "09:00 - 10:00 UTC", "title": "Data Versioning - How to handle data sets after edits or QC", "lead": "Peter Selby" },
                         { "time": "10:00 - 11:00 UTC", "title": "BrAPI2RDF - Converting between BrAPI and RDF", "lead": "Cyril Pommier, Pierre Larmande" }
                     ]
                 },
@@ -122,7 +122,7 @@
                     "session": "Session #2",
                     "class": "agenda-session2",
                     "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "Analytics/Statistics Outputs in BrAPI", "lead": "TBD" },
+                        { "time": "16:00 - 17:00 UTC", "title": "Analytics/Statistics Outputs in BrAPI", "lead": "Sam Bouabane" },
                         { "time": "17:00 - 18:00 UTC", "title": "Data Versioning - How to handle data sets after edits or QC", "lead": "Tim Parsons" },
                         { "time": "18:00 - 19:00 UTC", "title": "BrAPI2RDF - Converting between BrAPI and RDF", "lead": "Cyril Pommier, Pierre Larmande" }
                     ]
@@ -145,6 +145,7 @@
                     "session": "Session #2",
                     "class": "agenda-session2",
                     "discussions": [
+                        { "time": "15:00 - 16:00 UTC", "title": "Project Discussion: Image Sharing between Fieldbook and BMS", "lead": "Shawn Yarnes" },
                         { "time": "16:00 - 17:00 UTC", "title": "Community Tools Development Plan for 2022", "lead": "Peter Selby" },
                         { "time": "17:00 - 18:00 UTC", "title": "TBD" },
                         { "time": "18:00 - 19:00 UTC", "title": "TBD" }

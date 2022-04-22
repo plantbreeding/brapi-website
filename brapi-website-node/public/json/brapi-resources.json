@@ -309,5 +309,21 @@
                 "brapi-v1"
             ]
         }]
+    },
+    {
+        "name": "AVT NATURAL PRODUCTS LRD",
+        "logo": "https://brapi.org/images/institutions/AVTNatural.png",
+        "description": "Agricultural Processing, research & development",
+        "resources": [{
+            "name": "AVT NPL",
+            "v1-url": "https://www.avtnatural.com/brapi/v1/",
+            "v2-url": "https://www.avtnatural.com/brapi/v2/",
+            "description": "AVT NPL AGRO PROJECT STUDIES",
+            "badges": [
+                "auth-open",
+                "data-prod",
+                "brapi-v2"
+            ]
+        }]
     }
 ]
