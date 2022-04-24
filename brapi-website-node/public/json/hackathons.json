@@ -40,8 +40,9 @@
             { "name": "Manuel Feser", "org": "IPK Gatersleben", "email": "feser@ipk-gatersleben.de", "session1": true, "session2": true },
             { "name": "Lukas Mueller", "org": "BTI", "email": "lam87@cornell.edu", "session1": false, "session2": true },
             { "name": "Bryce Meyering", "org": "University of Florida", "email": "bomeyering@mailbox.org", "session1": false, "session2": true },
-            { "name": "Clay Birkett", "org": "USDA", "email": "clb343@cornell.edu", "session1": false, "session2": true }
-
+            { "name": "Clay Birkett", "org": "USDA", "email": "clb343@cornell.edu", "session1": false, "session2": true },
+            { "name": "Shahana Mustafa ", "org": "Breeding Insight", "email": "sam562@cornell.edu", "session1": false, "session2": true },
+            { "name": "Solomon Nsumba", "org": "Makerere Artificial Intelligence Lab", "email": "snsumba@gmail.com", "session1": true, "session2": false }
         ],
         "projects": [
             { "team": "Khaled Al-Shamaa, Representatives from EiB, BMS, Breedbase", "title": "Enhance QBMS R Package", "description": "Enhance QBMS R package functionalities to serve developers of analysis pipelines efficiently.", "needs": null, "repo": "https://github.com/khaled-alshamaa/QBMS" },
@@ -61,7 +62,8 @@
             { "team": "Adrian Powell", "title": "High-dimensional phenotypes", "description": "Continue development of the High-dimensional phenotypes endpoints in Breedbase", "needs": null, "repo": null },
             { "team": "Brandon Monier, Buckler Lab", "title": "PHG + BrAPI + R", "description": "Integrating PHG and BrAPI into base R and the R package, rTASSEL.", "needs": null, "repo": null },
             { "team": null, "title": "BrAPI-PyModels Package", "description": "Add preliminary support for the new genotype matrix draft to BrAPI-PyModels.", "needs": null, "repo": "https://github.com/agostof/BrAPI-PyModels" },
-            { "team": "Lukas Mueller, Breedbase", "title": "Field Viewer BRAPP", "description": "we have a new field viewer that needs some tweaks to the brapi specs", "needs": null, "repo": "https://github.com/solgenomics" }
+            { "team": "Lukas Mueller, Breedbase", "title": "Field Viewer BRAPP", "description": "we have a new field viewer that needs some tweaks to the brapi specs", "needs": null, "repo": "https://github.com/solgenomics" },
+            { "team": "Solomon Nsumba, Bryan Bellerbrock ,Lukas Mueller from Breedbase AND Jeremy Tusubira(Makerere AI Lab)", "title": "Image Analysis Service with BrAPI", "description": "BrAPI calls for image analysis service.", "needs": null, "repo": null }
         ],
         "notes": {
 
