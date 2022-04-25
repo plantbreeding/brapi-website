@@ -47,7 +47,8 @@
             { "name": "Patrick König", "org": "IPK Gatersleben", "email": "koenig@ipk-gatersleben.de", "session1": true, "session2": false },
             { "name": "Bryan Ellerbrock", "org": "BTI", "email": "bje24@cornell.edu", "session1": false, "session2": true },
             { "name": "Maleika Harris", "org": "Tax Pros", "email": "maleikatax@gmail.com", "session1": true, "session2": false },
-            { "name": "David R Phillips", "org": "Breeding Insight", "email": "drp227@cornell.edu", "session1": false, "session2": true }
+            { "name": "David R Phillips", "org": "Breeding Insight", "email": "drp227@cornell.edu", "session1": false, "session2": true },
+            { "name": "Brandon Schlautman", "org": "The Land Institute", "email": "schlautman@landinstitute.org", "session1": true, "session2": true }
         ],
         "projects": [
             { "team": "Khaled Al-Shamaa, Representatives from GIGWA", "title": "Enhance QBMS R Package", "description": "Query and retrieve genotypic data from GIGWA enabling researchers to build their GWAS/GS analysis pipelines.", "needs": null, "repo": "https://icarda-git.github.io/QBMS/" },
@@ -78,11 +79,12 @@
             "meetingNotes": null,
             "slides": "https://brapi.org/docs/Welcome_Hackathon.pptx",
             "session1": "https://youtu.be/rwnTCJE0f7E",
-            "session2": null,
+            "session2": "https://youtu.be/ogP6coShfgg",
             "nothing": false
         }, {
             "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
-            "session1": "https://youtu.be/ahiVJ4g1fMc"
+            "session1": "https://youtu.be/ahiVJ4g1fMc",
+            "session2": "https://youtu.be/KDcXioH11ek"
         }, {
             "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
             "slides": "https://brapi.org/docs/BrAPI_101.pptx",
