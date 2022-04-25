@@ -47,7 +47,7 @@
             { "name": "Patrick König", "org": "IPK Gatersleben", "email": "koenig@ipk-gatersleben.de", "session1": true, "session2": false }
         ],
         "projects": [
-            { "team": "Khaled Al-Shamaa, Representatives from EiB, BMS, Breedbase", "title": "Enhance QBMS R Package", "description": "Enhance QBMS R package functionalities to serve developers of analysis pipelines efficiently.", "needs": null, "repo": "https://github.com/khaled-alshamaa/QBMS" },
+            { "team": "Khaled Al-Shamaa, Representatives from GIGWA", "title": "Enhance QBMS R Package", "description": "Query and retrieve genotypic data from GIGWA enabling researchers to build their GWAS/GS analysis pipelines.", "needs": null, "repo": "https://icarda-git.github.io/QBMS/" },
             { "team": "Valentin Guignon", "title": "BrAPI 2 for Drupal 9", "description": "Develop a BrAPI V2 implementation library for Drupal 9 compatible with Tripal", "needs": null, "repo": null },
             { "team": "Cyril Pommier", "title": "ICASA/AgMIP and BrAPI", "description": "ICASA/AgMIP and BrAPI ", "needs": null, "repo": null },
             { "team": "Lynn Johnson, Terry Casstevens, Zack Miller, Brandon Monier, Buckler Lab", "title": "BrAPI Genotyping in PHG", "description": "Implementing brAPI endpoints (genotyping in specific) for the Buckler Lab PHG application", "needs": null, "repo": "https://bitbucket.org/bucklerlab/practicalhaplotypegraph/src/master/" },
@@ -68,9 +68,22 @@
             { "team": "Solomon Nsumba, Bryan Bellerbrock ,Lukas Mueller from Breedbase AND Jeremy Tusubira(Makerere AI Lab)", "title": "Image Analysis Service with BrAPI", "description": "BrAPI calls for image analysis service.", "needs": null, "repo": null },
             { "team": "Patrick König", "title": "DivBrowse with New Genotype Endpoint", "description": "Testwise implementation of the refactored genotype data model in DivBrowse", "needs": null, "repo": "https://github.com/IPK-BIT/divbrowse" }
         ],
-        "notes": {
-
-        },
+        "notes": [{
+            "discussion": "Welcome! Tech setup, setting expectations, general organizing",
+            "meetingNotes": null,
+            "slides": "https://brapi.org/docs/Welcome_Hackathon.pptx",
+            "session1": "https://youtu.be/rwnTCJE0f7E",
+            "session2": null
+        }, {
+            "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
+            "session1": "https://youtu.be/ahiVJ4g1fMc",
+            "session2": null
+        }, {
+            "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
+            "slides": "https://brapi.org/docs/BrAPI_101.pptx",
+            "session1": "https://youtu.be/q0ntm2pXv3U",
+            "session2": null
+        }],
         "agenda": [{
             "date": "Monday, April 25, 2022",
             "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
