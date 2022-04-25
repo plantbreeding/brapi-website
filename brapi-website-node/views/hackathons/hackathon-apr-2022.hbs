@@ -160,10 +160,12 @@
                             <div class="col-xs-12" style="margin: 15px 0 0 0">  
                                 <span style="">{{discussion}} </span>
                                 <div style="margin: 0 0 0 15px">  
-                                    {{#if slides}} <a href="{{slides}}" target="_blank"><span class="mdi mdi-presentation fa-lg" style="margin: 0 2px 0 5px;"></span>Slides</a>{{/if}}
-                                    {{#if meetingNotes}} <a href="{{meetingNotes}}" target="_blank"><span class="mdi mdi-google-drive fa-lg" style="margin: 0 2px 0 5px;"></span>Meeting Notes</a>{{/if}}
-                                    {{#if session1}} <a href="{{session1}}" target="_blank"><span class="mdi mdi-youtube fa-lg" style="margin: 0 2px 0 5px;"></span>Session #1</a>{{/if}}
-                                    {{#if session2}} <a href="{{session2}}" target="_blank"><span class="mdi mdi-youtube fa-lg" style="margin: 0 2px 0 5px;"></span>Session #2</a>{{/if}}
+                                    {{#if nothing}} -- {{else}}
+                                        {{#if slides}} <a href="{{slides}}" target="_blank"><span class="mdi mdi-presentation fa-lg" style="margin: 0 2px 0 5px;"></span>Slides</a>{{/if}}
+                                        {{#if meetingNotes}} <a href="{{meetingNotes}}" target="_blank"><span class="mdi mdi-google-drive fa-lg" style="margin: 0 2px 0 5px;"></span>Meeting Notes</a>{{/if}}
+                                        {{#if session1}} <a href="{{session1}}" target="_blank"><span class="mdi mdi-youtube fa-lg" style="margin: 0 2px 0 5px;"></span>Session #1</a>{{/if}}
+                                        {{#if session2}} <a href="{{session2}}" target="_blank"><span class="mdi mdi-youtube fa-lg" style="margin: 0 2px 0 5px;"></span>Session #2</a>{{/if}}
+                                    {{/if}}
                                 </div>
                             </div>
                             {{/if}}

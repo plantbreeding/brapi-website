@@ -73,16 +73,39 @@
             "meetingNotes": null,
             "slides": "https://brapi.org/docs/Welcome_Hackathon.pptx",
             "session1": "https://youtu.be/rwnTCJE0f7E",
-            "session2": null
+            "session2": null,
+            "nothing": false
         }, {
             "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
-            "session1": "https://youtu.be/ahiVJ4g1fMc",
-            "session2": null
+            "session1": "https://youtu.be/ahiVJ4g1fMc"
         }, {
             "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
             "slides": "https://brapi.org/docs/BrAPI_101.pptx",
-            "session1": "https://youtu.be/q0ntm2pXv3U",
-            "session2": null
+            "session1": "https://youtu.be/q0ntm2pXv3U"
+        }, {
+            "discussion": "Genotyping Working Group - Updates and discussion",
+            "slides": "https://docs.google.com/presentation/d/1l-LdgAntsu2Tr9mnpn7n2g1yUvI_rXo_puqaAHC4_p8"
+        }, {
+            "discussion": "Agronomy/Crop Modeling Working Group - Updates and discussion",
+            "slides": "https://docs.google.com/presentation/d/17eCpYhMtgx0rOraKkzr9edUHuYhs9Zl0VCqfJIf7v5M"
+        }, {
+            "discussion": "High Dimensional Phenotyping Working Group - Updates and discussion",
+            "nothing": true
+        }, {
+            "discussion": "Analytics/Statistics Outputs in BrAPI",
+            "nothing": true
+        }, {
+            "discussion": "Data Versioning - How to handle data sets after edits or QC",
+            "nothing": true
+        }, {
+            "discussion": "BrAPI2RDF - Converting between BrAPI and RDF",
+            "nothing": true
+        }, {
+            "discussion": "V2.1 Release & Community Tools Development Plan for 2022",
+            "nothing": true
+        }, {
+            "discussion": "Project presentations and wrap up",
+            "nothing": true
         }],
         "agenda": [{
             "date": "Monday, April 25, 2022",
