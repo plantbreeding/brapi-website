@@ -44,7 +44,10 @@
             { "name": "Shahana Mustafa ", "org": "Breeding Insight", "email": "sam562@cornell.edu", "session1": false, "session2": true },
             { "name": "Solomon Nsumba", "org": "Makerere Artificial Intelligence Lab", "email": "snsumba@gmail.com", "session1": true, "session2": false },
             { "name": "Dariusz Bienkowski", "org": "Boyce Thompson Institute", "email": "db738@cornell.edu", "session1": false, "session2": true },
-            { "name": "Patrick König", "org": "IPK Gatersleben", "email": "koenig@ipk-gatersleben.de", "session1": true, "session2": false }
+            { "name": "Patrick König", "org": "IPK Gatersleben", "email": "koenig@ipk-gatersleben.de", "session1": true, "session2": false },
+            { "name": "Bryan Ellerbrock", "org": "BTI", "email": "bje24@cornell.edu", "session1": false, "session2": true },
+            { "name": "Maleika Harris", "org": "Tax Pros", "email": "maleikatax@gmail.com", "session1": true, "session2": false },
+            { "name": "David R Phillips", "org": "Breeding Insight", "email": "drp227@cornell.edu", "session1": false, "session2": true }
         ],
         "projects": [
             { "team": "Khaled Al-Shamaa, Representatives from GIGWA", "title": "Enhance QBMS R Package", "description": "Query and retrieve genotypic data from GIGWA enabling researchers to build their GWAS/GS analysis pipelines.", "needs": null, "repo": "https://icarda-git.github.io/QBMS/" },
@@ -66,7 +69,9 @@
             { "team": null, "title": "BrAPI-PyModels Package", "description": "Add preliminary support for the new genotype matrix draft to BrAPI-PyModels.", "needs": null, "repo": "https://github.com/agostof/BrAPI-PyModels" },
             { "team": "Lukas Mueller, Breedbase", "title": "Field Viewer BRAPP", "description": "we have a new field viewer that needs some tweaks to the brapi specs", "needs": null, "repo": "https://github.com/solgenomics" },
             { "team": "Solomon Nsumba, Bryan Bellerbrock ,Lukas Mueller from Breedbase AND Jeremy Tusubira(Makerere AI Lab)", "title": "Image Analysis Service with BrAPI", "description": "BrAPI calls for image analysis service.", "needs": null, "repo": null },
-            { "team": "Patrick König", "title": "DivBrowse with New Genotype Endpoint", "description": "Testwise implementation of the refactored genotype data model in DivBrowse", "needs": null, "repo": "https://github.com/IPK-BIT/divbrowse" }
+            { "team": "Patrick König", "title": "DivBrowse with New Genotype Endpoint", "description": "Testwise implementation of the refactored genotype data model in DivBrowse", "needs": null, "repo": "https://github.com/IPK-BIT/divbrowse" },
+            { "team": "Bryan Ellerbrock", "title": "Trial Completeness Heatmap", "description": "Working on Trial Completeness Heatmap app", "needs": "Breedbase and BrAPI R package", "repo": null },
+            { "team": "David R Phillips", "title": "Breeding Insight Trials", "description": "Import of Trial data from Breeding Insight", "needs": null, "repo": null }
         ],
         "notes": [{
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
