@@ -95,14 +95,17 @@
         }, {
             "discussion": "Genotyping Working Group - Updates and discussion",
             "slides": "https://docs.google.com/presentation/d/1l-LdgAntsu2Tr9mnpn7n2g1yUvI_rXo_puqaAHC4_p8",
-            "session1": "https://youtu.be/NseaTldFw5k"
+            "session1": "https://youtu.be/NseaTldFw5k",
+            "session2": "https://youtu.be/1T9yNn7KTVQ"
         }, {
             "discussion": "Agronomy/Crop Modeling Working Group - Updates and discussion",
             "slides": "https://docs.google.com/presentation/d/17eCpYhMtgx0rOraKkzr9edUHuYhs9Zl0VCqfJIf7v5M",
-            "session1": "https://youtu.be/doqqmHG4uyE"
+            "session1": "https://youtu.be/doqqmHG4uyE",
+            "session2": "https://youtu.be/tHBUg_Wfwac"
         }, {
             "discussion": "High Dimensional Phenotyping Working Group - Updates and discussion",
-            "nothing": true
+            "slides": "https://brapi.org/docs/Brapi_Hackathon_2022_High_dimensional_phenotypes_v3.pdf",
+            "session2": "https://youtu.be/E9vxOY9T9JA"
         }, {
             "discussion": "Analytics/Statistics Outputs in BrAPI",
             "nothing": true
