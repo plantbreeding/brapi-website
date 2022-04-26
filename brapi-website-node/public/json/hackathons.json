@@ -231,7 +231,7 @@
                     "session": "Session #2",
                     "class": "agenda-session2",
                     "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
+                        { "time": "16:00 - 17:00 UTC", "title": "Agronomix Software Presentation", "lead": "Kidist Kibret" },
                         { "time": "17:00 - 18:00 UTC", "title": "Project presentations and wrap up" },
                         { "time": "18:00 - 19:00 UTC", "title": "Project presentations and wrap up" }
                     ]
