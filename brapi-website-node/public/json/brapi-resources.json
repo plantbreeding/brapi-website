@@ -102,7 +102,7 @@
     {
         "name": "The Boyce Thompson Institute",
         "description": "Discovery and inovation in the life sciences",
-        "logo": "https://cassavabase.org/static/img/bti_logo_2016.png",
+        "logo": "https://brapi.org/images/institutions/breedbase.png",
         "resources": [{
                 "name": "Cassavabase",
                 "v1-url": "https://cassavabase.org/brapi/v1/",
@@ -271,7 +271,7 @@
     {
         "name": "The Crop Ontology",
         "description": "The Crop Ontology project website.",
-        "logo": "https://www.cropontology.org/images/Crop_Ontology_logo.png",
+        "logo": "https://brapi.org/images/institutions/cropontology.png",
         "resources": [{
             "name": "Crop Ontology BrAPI implementation",
             "v1-url": "https://www.cropontology.org/brapi/v1/",
