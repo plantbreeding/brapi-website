@@ -108,12 +108,17 @@
             "slides": "https://brapi.org/docs/Brapi_Hackathon_2022_High_dimensional_phenotypes_v3.pdf",
             "session2": "https://youtu.be/E9vxOY9T9JA"
         }, {
+            "discussion": "Sample Tracking and Vendor Job Submission Discussion",
+            "session2": "https://youtu.be/F_dIVL3wXsY"
+        }, {
             "discussion": "Analytics/Statistics Outputs in BrAPI",
             "session1": "https://youtu.be/uGsnT1wYAp4",
+            "session2": "https://youtu.be/4o_HGOSJA8A",
             "meetingNotes": "https://docs.google.com/document/d/1gbSPCgTLivhp-HDr-ljVhTsUK1ZbwVGvz5K6yHoZ3KA/edit"
         }, {
             "discussion": "Data Versioning - How to handle data sets after edits or QC",
             "session1": "https://youtu.be/oalfYcfp81o",
+            "session2": "https://youtu.be/GiR_UChOtn8",
             "meetingNotes": "https://docs.google.com/document/d/1tDPqu-1HZqoc5bdHjQW5dEK3dFb3qP5n3CRS4h0pWdY/edit"
         }, {
             "discussion": "BrAPI2RDF - Converting between BrAPI and RDF",
