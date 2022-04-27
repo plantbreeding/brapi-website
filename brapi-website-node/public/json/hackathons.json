@@ -117,6 +117,7 @@
             "meetingNotes": "https://docs.google.com/document/d/1tDPqu-1HZqoc5bdHjQW5dEK3dFb3qP5n3CRS4h0pWdY/edit"
         }, {
             "discussion": "BrAPI2RDF - Converting between BrAPI and RDF",
+            "slides": "https://brapi.org/docs/2022-04-27-BrAPI2RDF.pdf",
             "session1": "https://youtu.be/Kmfcg2NdFGY"
         }, {
             "discussion": "V2.1 Release & Community Tools Development Plan for 2022",
@@ -189,7 +190,7 @@
                     "discussions": [
                         { "time": "16:00 - 17:00 UTC", "title": "Analytics/Statistics Outputs in BrAPI", "lead": "Sam Bouabane" },
                         { "time": "17:00 - 18:00 UTC", "title": "Data Versioning - How to handle data sets after edits or QC", "lead": "Tim Parsons" },
-                        { "time": "18:00 - 19:00 UTC", "title": "BrAPI2RDF - Converting between BrAPI and RDF", "lead": "Cyril Pommier, Pierre Larmande" }
+                        { "time": "10:00 - 11:00 UTC", "title": "Canceled" }
                     ]
                 }
             ]
