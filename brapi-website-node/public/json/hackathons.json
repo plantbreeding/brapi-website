@@ -50,7 +50,8 @@
             { "name": "David R Phillips", "org": "Breeding Insight", "email": "drp227@cornell.edu", "session1": false, "session2": true },
             { "name": "Brandon Schlautman", "org": "The Land Institute", "email": "schlautman@landinstitute.org", "session1": true, "session2": true },
             { "name": "Ana Maria Heilman", "org": "North Dakota State University", "email": "ana.heilman.morales@ndsu.edu", "session1": false, "session2": true },
-            { "name": "Lane O'Brien", "org": "North Dakota State University", "email": "lane.obrien@ndsu.edu", "session1": false, "session2": true }
+            { "name": "Lane O'Brien", "org": "North Dakota State University", "email": "lane.obrien@ndsu.edu", "session1": false, "session2": true },
+            { "name": "Pierre Larmande", "org": "IRD", "email": "pierre.larmande@ird.fr", "session1": true, "session2": false }
         ],
         "projects": [
             { "team": "Khaled Al-Shamaa, Representatives from GIGWA", "title": "Enhance QBMS R Package", "description": "Query and retrieve genotypic data from GIGWA enabling researchers to build their GWAS/GS analysis pipelines.", "needs": null, "repo": "https://icarda-git.github.io/QBMS/" },
@@ -108,13 +109,15 @@
             "session2": "https://youtu.be/E9vxOY9T9JA"
         }, {
             "discussion": "Analytics/Statistics Outputs in BrAPI",
+            "session1": "https://youtu.be/uGsnT1wYAp4",
             "meetingNotes": "https://docs.google.com/document/d/1gbSPCgTLivhp-HDr-ljVhTsUK1ZbwVGvz5K6yHoZ3KA/edit"
         }, {
             "discussion": "Data Versioning - How to handle data sets after edits or QC",
-            "nothing": true
+            "session1": "https://youtu.be/oalfYcfp81o",
+            "meetingNotes": "https://docs.google.com/document/d/1tDPqu-1HZqoc5bdHjQW5dEK3dFb3qP5n3CRS4h0pWdY/edit"
         }, {
             "discussion": "BrAPI2RDF - Converting between BrAPI and RDF",
-            "nothing": true
+            "session1": "https://youtu.be/Kmfcg2NdFGY"
         }, {
             "discussion": "V2.1 Release & Community Tools Development Plan for 2022",
             "nothing": true
