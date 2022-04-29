@@ -131,8 +131,12 @@
             "session2": "https://youtu.be/cQPhEO_zTSk",
             "slides": "https://brapi.org/docs/BrAPI_V2.1_2022_dev_plan.pdf"
         }, {
+            "discussion": "Agronomix Presentation",
+            "session2": "https://youtu.be/aRHOgSxSti8"
+        }, {
             "discussion": "Project presentations and wrap up",
-            "session1": "https://youtu.be/0Q6kh2NIzgA"
+            "session1": "https://youtu.be/0Q6kh2NIzgA",
+            "session2": "https://youtu.be/8LE7lzbxgZc"
         }],
         "agenda": [{
             "date": "Monday, April 25, 2022",
