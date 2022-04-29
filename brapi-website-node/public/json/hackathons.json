@@ -51,7 +51,8 @@
             { "name": "Brandon Schlautman", "org": "The Land Institute", "email": "schlautman@landinstitute.org", "session1": true, "session2": true },
             { "name": "Ana Maria Heilman", "org": "North Dakota State University", "email": "ana.heilman.morales@ndsu.edu", "session1": false, "session2": true },
             { "name": "Lane O'Brien", "org": "North Dakota State University", "email": "lane.obrien@ndsu.edu", "session1": false, "session2": true },
-            { "name": "Pierre Larmande", "org": "IRD", "email": "pierre.larmande@ird.fr", "session1": true, "session2": false }
+            { "name": "Pierre Larmande", "org": "IRD", "email": "pierre.larmande@ird.fr", "session1": true, "session2": false },
+            { "name": "Didier Murillo", "org": "North Dakota State University", "email": "didier.murilloflorez@ndsu.edu", "session1": true, "session2": true }
         ],
         "projects": [
             { "team": "Khaled Al-Shamaa, Representatives from GIGWA", "title": "Enhance QBMS R Package", "description": "Query and retrieve genotypic data from GIGWA enabling researchers to build their GWAS/GS analysis pipelines.", "needs": null, "repo": "https://icarda-git.github.io/QBMS/" },
@@ -127,10 +128,11 @@
         }, {
             "discussion": "V2.1 Release & Community Tools Development Plan for 2022",
             "session1": "https://youtu.be/SX7vpRpzpKE",
+            "session2": "https://youtu.be/cQPhEO_zTSk",
             "slides": "https://brapi.org/docs/BrAPI_V2.1_2022_dev_plan.pdf"
         }, {
             "discussion": "Project presentations and wrap up",
-            "nothing": true
+            "session1": "https://youtu.be/0Q6kh2NIzgA"
         }],
         "agenda": [{
             "date": "Monday, April 25, 2022",
