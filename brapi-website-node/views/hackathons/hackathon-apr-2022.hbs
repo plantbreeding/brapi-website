@@ -3,11 +3,11 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="col-xs-4 col-md-3 col-xl-2" id="menu">
-                    <div>
+                    {{!-- <div>
                         <p><a class="btn btn-d btn-round col-xs-12" target="_blank"
                                 href="https://forms.gle/YhfyQphw75u8BuJu9">Register</a>
                         </p>
-                    </div>
+                    </div> --}}
                     <div>
                         <button id="toggle-overview" class="btn btn-round col-xs-12" type="button"
                             onclick="toggleVisibleXor('overview-section', ['agenda-section', 'attendees-section', 'projects-section', 'notes-section'])">Overview</button>
@@ -35,7 +35,7 @@
                 <div class="col-xs-8 col-md-9 col-xl-10" id="content">
                     <div id="overview-section" style="display: block;">
 
-                        <h3 class="font-alt" id="title"> Register </h3>
+                        {{!-- <h3 class="font-alt" id="title"> Register </h3> --}}
                         <div style="margin-left:10px"> 
                             <p>
                             <strong>When: </strong> April 25-29, 2022<br/>
@@ -45,9 +45,11 @@
                                 community is welcome! Please register to receive meeting invitations and other important
                                 information. 
                                 </p>
-                            <p><a class="btn btn-d btn-round" target="_blank"
+                            {{!-- <p><a class="btn btn-d btn-round" target="_blank"
                                     href="https://forms.gle/YhfyQphw75u8BuJu9">Register</a>
-                            </p>
+                            </p> --}}
+                            
+                            <p>Registration CLosed</p>
                         </div>
 
                         <h3 class="font-alt" id="title"> Overview </h3>
