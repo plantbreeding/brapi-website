@@ -274,7 +274,7 @@
         "logo": "https://brapi.org/images/institutions/cropontology.png",
         "resources": [{
             "name": "Crop Ontology BrAPI implementation",
-            "v1-url": "https://www.cropontology.org/brapi/v1/",
+            "v1-url": "https://cropontology.org/brapi/v1/",
             "badges": [
                 "auth-open",
                 "data-prod",
