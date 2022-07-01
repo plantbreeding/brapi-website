@@ -1,4 +1,10 @@
 {
+    "jul-01-2022": {
+        "title": "BrAPI V2.1 Release",
+        "date": "July 1, 2022",
+        "author": "Peter Selby",
+        "article": "<h4 class=\"news-post-header\">BrAPI V2.1 is officially released!</h4> <p class=\"news-post-paragraph\">  This release contains many smaller updates designed to make BrAPI clearer and easier to use. This release also includes the results from two community working groups, the Genotype Refactoring WG and the Agronomy/Crop Modeling WG. A total of 50 Github issues were resolved as part of this release, and 22 new endpoints were added to the specification. BrAPI now has a total of 197 possible endpoints available. All of the links for all of the documentation for all of the modules can be found at <a target=\"_blank\" href=\"https://brapi.org/specification\">brapi.org/specification</a>. To assist in moving from v2.0 to v2.1, please download <a target=\"_blank\" href=\"https://github.com/plantbreeding/API/releases/download/V2.1/BrAPI_V2-1_Release_Notes.xlsx\"> full change log </a> from the GitHub release notes.  The BrAPI Validator App (BRAVA) and the BrAPI Test Server are both upgraded to support v2.1. Please feel free to use both of these tools as tests and examples as you upgrade your own implementation.</p>  <p class=\"news-post-links\"><a target=\"_blank\" href=\"https://brapi.org/specification\">BrAPI Specification Page</a> <br> <a target=\"_blank\" href=\"https://github.com/plantbreeding/API/releases/download/V2.1/BrAPI_V2-1_Release_Notes.xlsx\"> Change Log </a> </p>  <p class=\"news-post-paragraph\"> Thank you so much to everyone in the BrAPI community who made this possible! I’m very excited to see where the next few years take us! As always, if you have any questions, comments, or concerns, please reach out to me. I am here to help. </p>"
+    },
     "jun-24-2022": {
         "title": "Community Announcement – BrAPI Funding Update",
         "date": "June 24, 2022",

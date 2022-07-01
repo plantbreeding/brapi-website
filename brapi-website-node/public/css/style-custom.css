@@ -314,10 +314,9 @@ p.agenda-row {
 }
 
 .news-post-paragraph {
-    margin: 5px 0 0 30px;
-    text-indent: -15px;
+    margin: 5px 0 0 15px;
 }
 
 .news-post-links {
-    margin: 10px 0 20px 15px;
+    margin: 10px 0 20px 30px;
 }
