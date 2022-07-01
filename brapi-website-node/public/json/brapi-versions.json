@@ -52,13 +52,29 @@
         }]
     }, {
         "version": "V2.1",
-        "status": "Developer Review",
-        "description": "This is a Developer Preview of V2.1. <br/> This set of documentation is subject to change without warning until it is formally released",
-        "isPreview": true,
+        "status": "Latest Stable Release",
+        "description": "Released on July 1, 2022. This version is the Latest Stable Release. This version is recommended for all new development efforts. <br/> BrAPI V2 is separated into modules to help maintain organization and consistency within the API.",
+        "isCurrent": true,
         "links": [{
-            "label": "Issues Board",
-            "URL": "https://github.com/plantbreeding/BrAPI/projects/6"
-        }],
+                "label": "Issues Board",
+                "URL": "https://github.com/plantbreeding/BrAPI/projects/6"
+            }, {
+                "label": "Release Notes",
+                "URL": "https://github.com/plantbreeding/API/releases/tag/V2.1"
+            },
+            {
+                "label": "Change Log",
+                "URL": "https://github.com/plantbreeding/API/releases/download/V2.1/BrAPI_V2-1_Release_Notes.xlsx"
+            },
+            {
+                "label": "JSON Schema",
+                "URL": "/docs/BrAPI_JSON_Schema_2-1.zip"
+            },
+            {
+                "label": "ERD Diagram",
+                "URL": "https://plantbreeding.github.io/brapi-ontology/uml.html"
+            }
+        ],
         "modules": [{
                 "name": "BrAPI-Core",
                 "description": "The BrAPI-Core module contains high level entities used for organization and management. This includes Programs, Trials, Studies, Locations, People, and Lists",
@@ -90,9 +106,8 @@
         ]
     }, {
         "version": "V2.0",
-        "status": "Latest Stable Release",
-        "description": "Released on March 11, 2020. This version is the Latest Stable Release. This version is recommended for all new development efforts. <br/> BrAPI V2 is separated into modules to help maintain organization and consistency within the API.",
-        "isCurrent": true,
+        "status": "Archived",
+        "description": "Released on March 11, 2020. This version is now Archived.",
         "links": [{
                 "label": "Release Notes",
                 "URL": "https://github.com/plantbreeding/API/releases/tag/V2.0"
@@ -103,10 +118,10 @@
             },
             {
                 "label": "JSON Schema",
-                "URL": "/docs/BrAPI_JSON_Schema.zip"
+                "URL": "/docs/BrAPI_JSON_Schema_2-0.zip"
             },
             {
-                "label": "UML Diagram",
+                "label": "ERD Diagram",
                 "URL": "/docs/brapi_test_server_data_model_v2.0.svg"
             }
         ],
