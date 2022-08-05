@@ -320,3 +320,14 @@ p.agenda-row {
 .news-post-links {
     margin: 10px 0 20px 30px;
 }
+
+span.custom-bullet-point {
+    font-size: 30px;
+    margin: 0 10px 0 0;
+    line-height: 50px;
+}
+
+span.custom-bullet-point+span {
+    vertical-align: top;
+    line-height: 50px;
+}

@@ -1,0 +1,58 @@
+{
+    "projectManagement": [{
+            "name": "Kelly Robbins",
+            "title": "PI",
+            "org": "Cornell University",
+            "pic": null
+        },
+        {
+            "name": "Lukas Mueller",
+            "title": "Co-PI",
+            "org": "The Boyce Thompson Institute",
+            "pic": null
+        },
+        {
+            "name": "Peter Selby",
+            "title": "BrAPI Project Coordinator",
+            "org": "Cornell University",
+            "pic": "/images/people/selfie_casual_479x479.jpg"
+        }
+    ],
+    "advisoryBoard": [{
+            "name": "Cyril Pommier",
+            "title": "Advisory Board Member",
+            "org": "INRAe",
+            "pic": null
+        },
+        {
+            "name": "Iain Milne",
+            "title": "Advisory Board Member",
+            "org": "James Hutton Institute",
+            "pic": null
+        },
+        {
+            "name": "Jan-Erik Backlund",
+            "title": "Advisory Board Member",
+            "org": "Integrated Breeding Platform",
+            "pic": null
+        },
+        {
+            "name": "Matthias Lange",
+            "title": "Advisory Board Member",
+            "org": "IPK-Gatersleben",
+            "pic": null
+        },
+        {
+            "name": "Rob Kooper",
+            "title": "Advisory Board Member",
+            "org": "University of Illinois",
+            "pic": null
+        },
+        {
+            "name": "Tim Parsons",
+            "title": "Advisory Board Member",
+            "org": "Cornell University",
+            "pic": null
+        }
+    ]
+}

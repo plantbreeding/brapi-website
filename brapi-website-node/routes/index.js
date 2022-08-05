@@ -74,6 +74,24 @@ router.get('/contact', function(req, res, next) {
     });
 });
 
+router.get('/projectLeadership', function(req, res, next) {
+    var projectLeadership = require('../public/json/project-leadership.json');
+
+    res.render('projectLeadership', {
+        title: 'Project Governance',
+        footerEvents: require('./events').getTrailerEvents(),
+        management: projectLeadership.projectManagement,
+        board: projectLeadership.advisoryBoard
+    });
+});
+
+router.get('/brapiAdvisoryBoard', function(req, res, next) {
+    res.render('advisoryBoard', {
+        title: 'Advisory Board',
+        footerEvents: require('./events').getTrailerEvents(),
+    });
+});
+
 router.get('/unsubscribe', function(req, res, next) {
     res.render('unsubscribe', {
         title: 'Unsubscribe',

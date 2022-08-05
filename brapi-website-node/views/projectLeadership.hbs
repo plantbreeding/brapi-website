@@ -1,0 +1,83 @@
+<section class="module-small" style="min-height: 470px;">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12" style="margin: 35px 0 10px 0;">
+                <h2> Guiding Principles </h2>
+
+                <p style="font-size: 18px; margin: 0 0 0 10px">
+                    <span class="mdi mdi-star custom-bullet-point"></span> <span>
+                        Always create something that is useful, usable, and used</span>
+                    <br><span class="mdi mdi-thought-bubble custom-bullet-point"></span> <span>
+                        Know your use case. Solves real technical problems, not theoretical ones</span>
+                    <br><span class="mdi mdi-boom-gate-up custom-bullet-point"></span> <span>
+                        Maintain the lowest possible barrier to entry. Make it easy for new members to join the
+                        community</span>
+                    <br><span class="mdi mdi-cog custom-bullet-point"></span> <span>
+                        There is no reason to reinvent the wheel or create competition. Use existing standards and best
+                        practices when possible</span>
+                </p>
+            </div>
+
+            <div class="col-xs-12" style="margin: 10px 0 10px 0;">
+                <h2> Project Management </h2>
+                <p>The Project Management group is responsible for the day-to-day management of the BrAPI project. These
+                    day-to-day activities include: managing project finances, maintaining the project infrastructure and
+                    documentation, organizing community events, and meeting potential new members to the community.</p>
+            </div>
+
+            {{#each management}}
+            <div class="col-xs-12 col-md-6 brapp">
+                <div class="brapp-box">
+                    <div class="brapp-thumbnail col-xs-3">
+                        {{#if pic }}
+                        <img src="{{ pic }}" alt="{{ name }} Thumbnail">
+                        {{else}}
+                        <span class="mdi mdi-account-box fa-lg" style="font-size: 6.5em; line-height: 1.1em;"></span>
+                        {{/if}}
+                    </div>
+                    <div class="font-alt col-xs-9">
+                        <h3 style="margin: 10px 0 5px 0">{{ name }}</h3>
+                        <p style="margin: 0">{{ title }}</p>
+                        <p style="margin: 0">{{ org }}</p>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+
+            <div class="col-xs-12" style="margin: 35px 0 10px 0;">
+                <h2> Advisory Board </h2>
+                <p>The Advisory Board is a group of elected community representatives. This group is responsible for
+                    providing advice and guidance to support the Project Management group. They are also responsible for
+                    representing the community in making long term project decisions. </p>
+                <div class="link-btn  col-xs-6 col-sm-5 col-md-3">
+                    <a href="/brapiAdvisoryBoard">
+                        <button class="btn-default btn-border-d btn-round col-xs-12" type="button">Roles and
+                            Responsibilities</button>
+                    </a>
+                </div>
+            </div>
+
+            {{#each board}}
+            <div class="col-xs-12 col-md-6 brapp">
+                <div class="brapp-box">
+                    <div class="brapp-thumbnail col-xs-3">
+                        {{#if pic }}
+                        <span></span>
+                        <img src="{{ pic }}" alt="{{ name }} Thumbnail">
+                        {{else}}
+                        <span class="mdi mdi-account-box fa-lg" style="font-size: 6.5em; line-height: 1.1em;"></span>
+                        {{/if}}
+                    </div>
+                    <div class="font-alt col-xs-9">
+                        <h3 style="margin: 10px 0 5px 0">{{ name }}</h3>
+                        <p style="margin: 0">{{ title }}</p>
+                        <p style="margin: 0">{{ org }}</p>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+
+        </div>
+    </div>
+</section>
