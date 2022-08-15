@@ -37,10 +37,11 @@
             "pic": null
         },
         {
-            "name": "Matthias Lange",
-            "title": "Advisory Board Member",
+            "name": "Dr Matthias Lange",
+            "title": "Senior Scientist",
             "org": "IPK-Gatersleben",
-            "pic": null
+            "pic": "/images/people/matthias_lange_400x400.jpg",
+            "orcid": "https://orcid.org/0000-0002-4316-078X"
         },
         {
             "name": "Rob Kooper",
