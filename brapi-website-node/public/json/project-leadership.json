@@ -3,7 +3,8 @@
             "name": "Kelly Robbins",
             "title": "PI",
             "org": "Cornell University",
-            "pic": null
+            "pic": null,
+            "orcid": "https://orcid.org/0000-0001-9522-9585"
         },
         {
             "name": "Lukas Mueller",
@@ -15,7 +16,8 @@
             "name": "Peter Selby",
             "title": "BrAPI Project Coordinator",
             "org": "Cornell University",
-            "pic": "/images/people/selfie_casual_479x479.jpg"
+            "pic": "/images/people/selfie_casual_479x479.jpg",
+            "orcid": "https://orcid.org/0000-0001-7151-4445"
         }
     ],
     "advisoryBoard": [{
