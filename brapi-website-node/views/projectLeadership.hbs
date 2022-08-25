@@ -28,20 +28,30 @@
 
             {{#each management}}
             <div class="col-xs-12 col-md-6 brapp">
-                <div class="brapp-box">
-                    <div class="brapp-thumbnail col-xs-3">
-                        {{#if pic }}
-                        <img src="{{ pic }}" alt="{{ name }} Thumbnail">
-                        {{else}}
-                        <span class="mdi mdi-account-box fa-lg" style="font-size: 6.5em; line-height: 1.1em;"></span>
-                        {{/if}}
+                {{#if orcid }}
+                <a target="_blank" href="{{ orcid }}">
+                    {{/if}}
+                    <div class="brapp-box">
+                        <div class="brapp-thumbnail col-xs-3">
+                            {{#if pic }}
+                            <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90" style="margin: 5px auto 5.6px auto;">
+                            {{else}}
+                            <span class="mdi mdi-account-box fa-lg"
+                                style="font-size: 6.5em; line-height: 1.1em;"></span>
+                            {{/if}}
+                        </div>
+                        <div class="font-alt col-xs-9">
+                            <h3 style="margin: 10px 0 5px 0">{{ name }}
+                            {{#if orcid }} <img alt="ORCID logo"
+                                src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="20"
+                                height="20" /> {{/if}}</h3>
+                            <p style="margin: 0">{{ title }}</p>
+                            <p style="margin: 0">{{ org }}</p>
+                        </div>
                     </div>
-                    <div class="font-alt col-xs-9">
-                        <h3 style="margin: 10px 0 5px 0">{{ name }}</h3>
-                        <p style="margin: 0">{{ title }}</p>
-                        <p style="margin: 0">{{ org }}</p>
-                    </div>
-                </div>
+                    {{#if orcid }}
+                </a>
+                {{/if}}
             </div>
             {{/each}}
 
@@ -67,15 +77,17 @@
                         <div class="brapp-thumbnail col-xs-3">
                             {{#if pic }}
                             <span></span>
-                            <img src="{{ pic }}" alt="{{ name }} Thumbnail">
+                            <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90" style="margin: 5px auto 5.6px auto;">
                             {{else}}
                             <span class="mdi mdi-account-box fa-lg"
                                 style="font-size: 6.5em; line-height: 1.1em;"></span>
                             {{/if}}
                         </div>
                         <div class="font-alt col-xs-9">
-                            <h3 style="margin: 10px 0 5px 0">{{ name }}  
-                                {{#if orcid }} <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="20" height="20" /> {{/if}}</h3>
+                            <h3 style="margin: 10px 0 5px 0">{{ name }}
+                                {{#if orcid }} <img alt="ORCID logo"
+                                    src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="20"
+                                    height="20" /> {{/if}}</h3>
                             <p style="margin: 0">{{ title }}</p>
                             <p style="margin: 0">{{ org }}</p>
                         </div>
