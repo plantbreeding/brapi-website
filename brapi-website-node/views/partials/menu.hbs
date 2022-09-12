@@ -1,108 +1,107 @@
 <div class="container">
-  <div class="navbar-header">
-    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="/">
-      <img src="/images/brapi-logo.svg" alt="BrAPI Logo - Go to home page">
-    </a>
-  </div>
+  
+  <a class="navbar-brand" href="/">
+    <img src="/images/brapi-logo.svg" alt="BrAPI Logo - Go to home page">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#custom-collapse"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
   <div class="collapse navbar-collapse" id="custom-collapse">
-    <ul class="nav navbar-nav navbar-right" id="menu-list">
-      <li>
-        <a href="/">Home</a>
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="menu-list">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
       </li>
-      <li>
-        <a href="/get-started">Get Started</a>
+      <li class="nav-item">
+        <a class="nav-link" href="/get-started">Get Started</a>
       </li>
-      <li class="dropdown">
-        <a class="dropdown-toggle" href="/partners" data-toggle="dropdown">Community</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="/partners" data-toggle="dropdown">Community</a>
         <ul class="dropdown-menu" id="community-menu">
           <li>
-            <a href="/partners">Partners</a>
+            <a class="dropdown-item" href="/partners">Partners</a>
           </li>
           <li>
-            <a href="/news">News</a>
+            <a class="dropdown-item" href="/news">News</a>
           </li>
           <li>
-            <a href="/events">Events</a>
+            <a class="dropdown-item" href="/events">Events</a>
           </li>
           <li>
-            <a href="/projectLeadership">Project Governance</a>
+            <a class="dropdown-item" href="/projectLeadership">Project Governance</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a class="dropdown-item" href="/contact">Contact</a>
           </li>
         </ul>
       </li>
-      <li class="dropdown">
-        <a href="/documentation" class="dropdown-toggle" data-toggle="dropdown">Documentation</a>
+      <li class="nav-item dropdown">
+        <a href="/documentation" class="nav-link dropdown-toggle" data-toggle="dropdown">Documentation</a>
         <ul class="dropdown-menu" id="Documentation-menu">
           <li>
-            <a href="/specification">BrAPI Specification</a>
+            <a class="dropdown-item" href="/specification">BrAPI Specification</a>
           </li>
           <li>
-            <a href="https://github.com/plantbreeding/API" target="_blank">GitHub</a>
+            <a class="dropdown-item" href="https://github.com/plantbreeding/API" target="_blank">GitHub</a>
           </li>
 
           <li>
-            <a href="https://wiki.brapi.org/index.php/BrAPI" target="_blank">Wiki</a>
+            <a class="dropdown-item" href="https://wiki.brapi.org/index.php/BrAPI" target="_blank">Wiki</a>
           </li>
           <li>
-            <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz190/5418796"
+            <a class="dropdown-item" href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz190/5418796"
               target="_blank">Publication</a>
           </li>
         </ul>
       </li>
-      <li class="dropdown">
-        <a href="/libraries" class="dropdown-toggle" data-toggle="dropdown">Libraries</a>
+      <li class="nav-item dropdown">
+        <a href="/libraries" class="nav-link dropdown-toggle" data-toggle="dropdown">Libraries</a>
         <ul class="dropdown-menu" id="Libraries-menu">
           <li>
-            <a href="https://github.com/mverouden/brapir-v1" target="_blank">BrAPI R</a>
+            <a class="dropdown-item" href="https://github.com/mverouden/brapir-v1" target="_blank">BrAPI R</a>
           </li>
           <li>
-            <a href="https://github.com/c5sire/brapix" target="_blank">BrAPI R - X</a>
+            <a class="dropdown-item" href="https://github.com/c5sire/brapix" target="_blank">BrAPI R - X</a>
           </li>
           <li>
-            <a href="https://github.com/c5sire/brapiui" target="_blank">BrAPI R - UI</a>
+            <a class="dropdown-item" href="https://github.com/c5sire/brapiui" target="_blank">BrAPI R - UI</a>
           </li>
           <li>
-            <a href="https://github.com/solgenomics/BrAPI.js" target="_blank">BrAPI.js</a>
+            <a class="dropdown-item" href="https://github.com/solgenomics/BrAPI.js" target="_blank">BrAPI.js</a>
           </li>
           <li>
-            <a href="https://www.drupal.org/project/brapi" target="_blank">BrAPI + Drupal</a>
+            <a class="dropdown-item" href="https://www.drupal.org/project/brapi" target="_blank">BrAPI + Drupal</a>
           </li>
           <li>
-            <a href="https://github.com/imilne/jhi-brapi" target="_blank">Java Client Library V1.0</a>
+            <a class="dropdown-item" href="https://github.com/imilne/jhi-brapi" target="_blank">Java Client Library V1.0</a>
           </li>
           <li>
-            <a href="https://github.com/PhenoLibs/JavaLibraryBuilder" target="_blank">Java Client Library V1.3</a>
+            <a class="dropdown-item" href="https://github.com/PhenoLibs/JavaLibraryBuilder" target="_blank">Java Client Library V1.3</a>
           </li>
           <li>
-            <a href="https://github.com/Breeding-Insight/brapi" target="_blank">Java Client Library V2.0</a>
+            <a class="dropdown-item" href="https://github.com/Breeding-Insight/brapi" target="_blank">Java Client Library V2.0</a>
           </li>
           <li>
-            <a href="https://github.com/agostof/BrAPI-FastAPI" target="_blank">Python Server Stub</a>
+            <a class="dropdown-item" href="https://github.com/agostof/BrAPI-FastAPI" target="_blank">Python Server Stub</a>
           </li>
         </ul>
       </li>
-      <li class="dropdown">
-        <a href="/tools" class="dropdown-toggle" data-toggle="dropdown">Tools</a>
+      <li class="nav-item dropdown">
+        <a href="/tools" class="nav-link dropdown-toggle" data-toggle="dropdown">Tools</a>
         <ul class="dropdown-menu" id="Tools-menu">
           <li>
-            <a href="/brapps">BrAPPs</a>
+            <a class="dropdown-item" href="/brapps">BrAPPs</a>
           </li>
           <li>
-            <a href="/servers">Servers List</a>
+            <a class="dropdown-item" href="/servers">Servers List</a>
           </li>
           <li>
-            <a href="https://webapps.ipk-gatersleben.de/brapivalidator" target="_blank">BRAVA</a>
+            <a class="dropdown-item" href="https://webapps.ipk-gatersleben.de/brapivalidator" target="_blank">BRAVA</a>
           </li>
           <li>
-            <a href="https://test-server.brapi.org/brapi/v1" target="_blank">BrAPI Test Server</a>
+            <a class="dropdown-item" href="https://test-server.brapi.org/brapi/v1" target="_blank">BrAPI Test Server</a>
           </li>
         </ul>
       </li>

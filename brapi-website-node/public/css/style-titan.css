@@ -1325,6 +1325,12 @@ General Styles - Owlcarousel
     letter-spacing: 3px;
     font-size: 11px;
     transition: background, padding 0.4s ease-in-out 0s;
+    padding: 2px 0 2px 0;
+}
+
+.nav-link:hover,
+.nav-link.disabled {
+    color: #eee;
 }
 
 .navbar a {
@@ -1389,19 +1395,10 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .dropdown-toggle:after {
-    position: absolute;
-    right: -6px;
-    top: 50%;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-image: url('/images/arrow_drop_down_white.png');
-    background-size: 25px 25px;
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    content: "";
-    margin: -13px 0 0 0;
+    border-top: .5em solid #eee;
+    border-right: .5em solid transparent #eee;
+    border-bottom: 0;
+    border-left: .5em solid transparent #eee;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
@@ -1441,6 +1438,7 @@ General Styles - Owlcarousel
 
 .navbar a.navbar-brand {
     height: 60px;
+    display: inline-block;
 }
 
 @media (max-width: 767px) {
