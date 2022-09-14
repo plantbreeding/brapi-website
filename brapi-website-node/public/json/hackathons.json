@@ -1,10 +1,27 @@
 {
     "hackathon-oct-2022": {
         "attendees": [
-            { "name": "name", "org": "organization", "email": "email", "session1": false, "session2": false }
+            { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "session1": true, "session2": true },
+            { "name": "Guy Davenport", "org": "Daveneti Ltd", "email": "guy@daveneti.com", "session1": true, "session2": false },
+            { "name": "Daniel Perondi", "org": "North Carolina State University", "email": "dperond@ncsu.edu", "session1": false, "session2": true },
+            { "name": "Khaled Al-Shamaa", "org": "ICARDA", "email": "k.el-shamaa@cgiar.org", "session1": true, "session2": false },
+            { "name": "Patrick König", "org": "IPK Gatersleben", "email": "koenig@ipk-gatersleben.de", "session1": true, "session2": false },
+            { "name": "Trevor Rife", "org": "Clemson University", "email": "twrife@clemson.edu", "session1": false, "session2": true },
+            { "name": "RAJ MADAM", "org": "EMERZENE", "email": "rmadam@emerzenetx.com", "session1": false, "session2": true },
+            { "name": "Manuel Feser", "org": "IPK Gatersleben", "email": "feser@ipk-gatersleben.de", "session1": true, "session2": false },
+            { "name": "Chaney Courtney", "org": "PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true },
+            { "name": "Lynn Johnson", "org": "Cornell Buckler Lab", "email": "lcj34@cornell.edu", "session1": false, "session2": true },
+            { "name": "Yannick De Oliveira", "org": "INRAE", "email": "yannick.de-oliveira@inrae.fr", "session1": true, "session2": false },
+            { "name": "Jacques Lagnel", "org": "INRAE", "email": "jacques.lagnel@inrae.fr", "session1": true, "session2": true },
+            { "name": "NUISSIER Franciane", "org": "INRAE", "email": "franciane.nuissier@inrae.fr", "session1": false, "session2": true }
         ],
         "projects": [
-            { "team": "team", "title": "Project Title", "description": "Description", "needs": "needs", "repo": "repo" }
+            { "team": null, "title": "U of Manatoba BrAPI Implementation", "description": "Integration of BRAPI in university bioinformatics system ", "needs": null, "repo": null },
+            { "team": "Khaled Al-Shamaa", "title": "Enhance QBMS R Package", "description": "QBMS R package is used to Query the Breeding Management System(s) like BMS, BreeBase, and GIGWA (using BrAPI calls) and retrieve phenotypic and genotypic data directly into any analyzing pipeline developed in R statistical environment. During the hackathon, we will implement several tactics like cache requests, gzip to limit payload, fine-tune pagination setup, async calls to get all pages, preventing abuse (e.g., DDoS filtering) by setting a rate-limit, converting DNS to IP, use BrAPI v2.1 " / search / allelematrix " endpoint, etc.", "needs": "Interested collaborators from BMS, BreedBase, and GIGWA.", "repo": "https://icarda-git.github.io/QBMS/" },
+            { "team": "Patrick König", "title": "DivBrowse from IPK", "description": "Implementation of BrAPI V2.1 Genotyping Calls into DivBrowse (https://divbrowse.ipk-gatersleben.de/)", "needs": null, "repo": "https://github.com/IPK-BIT/divbrowse" },
+            { "team": null, "title": "BeetBase", "description": "I am making a sugar beet web database and analysis platform, called BeetBase.", "needs": null, "repo": null },
+            { "team": "Chaney Courtney, Trevor Rife", "title": "PhenoApps Coordinate", "description": "PhenoApps Coordinate", "needs": null, "repo": "github.com/phenoapps" },
+            { "team": "Lynn Johnson, Buckler Lab", "title": "Enhance PHG", "description": "TBD - but probably related to genotype endpoints", "needs": null, "repo": "https://bitbucket.org/bucklerlab/phg_webktor_service/src/master/" },
         ],
         "notes": [{
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
@@ -53,8 +70,9 @@
                     "session": "Session #1",
                     "class": "agenda-session1",
                     "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
-                        { "time": "09:00 - 10:00 UTC", "title": "TBD" },
+                        { "time": "08:00 - 08:30 UTC", "title": "BrAPI Advisory Board Nominations - Informational Session" },
+                        { "time": "08:30 - 09:00 UTC", "title": "Community Sabaticals - Informational Session" },
+                        { "time": "09:00 - 10:00 UTC", "title": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper" },
                         { "time": "10:00 - 11:00 UTC", "title": "TBD" }
                     ]
                 },
@@ -62,8 +80,9 @@
                     "session": "Session #2",
                     "class": "agenda-session2",
                     "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
-                        { "time": "17:00 - 18:00 UTC", "title": "TBD" },
+                        { "time": "16:00 - 16:30 UTC", "title": "BrAPI Advisory Board Nominations - Informational Session" },
+                        { "time": "16:30 - 17:00 UTC", "title": "Community Sabaticals - Informational Session" },
+                        { "time": "17:00 - 18:00 UTC", "title": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper" },
                         { "time": "18:00 - 19:00 UTC", "title": "TBD" }
                     ]
                 }
@@ -76,18 +95,18 @@
                     "session": "Session #1",
                     "class": "agenda-session1",
                     "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
-                        { "time": "09:00 - 10:00 UTC", "title": "TBD" },
-                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
+                        { "time": "08:00 - 09:00 UTC", "title": "Analytics WG - New Working Group Interest Meeting" },
+                        { "time": "09:00 - 10:00 UTC", "title": "GraphQL WG - New Working Group Interest Meeting" },
+                        { "time": "10:00 - 11:00 UTC", "title": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps" }
                     ]
                 },
                 {
                     "session": "Session #2",
                     "class": "agenda-session2",
                     "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
-                        { "time": "17:00 - 18:00 UTC", "title": "TBD" },
-                        { "time": "18:00 - 19:00 UTC", "title": "TBD" }
+                        { "time": "16:00 - 17:00 UTC", "title": "Analytics WG - New Working Group Interest Meeting" },
+                        { "time": "17:00 - 18:00 UTC", "title": "GraphQL WG - New Working Group Interest Meeting" },
+                        { "time": "18:00 - 19:00 UTC", "title": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps" }
                     ]
                 }
             ]
