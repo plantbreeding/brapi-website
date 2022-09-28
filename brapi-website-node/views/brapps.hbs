@@ -23,21 +23,21 @@
             <div class="col-sm-12">
                 <div class="row" id="brapp-grid">
                     {{#each brapps}}
-                    <div class="col-xs-12 brapp">
+                    <div class="col-sm-12 brapp">
                         <div class="brapp-box">
-                            <div class="brapp-thumbnail col-xs-12 col-md-4">
+                            <div class="brapp-thumbnail col-sm-12 col-md-4">
                                 <a href="{{ url }}" target="_blank">
                                     <img src="{{ image }}" alt="{{ title }}">
                                 </a>
                             </div>
-                            <div class="brapp-header font-alt col-xs-12 col-md-8">
+                            <div class="brapp-header font-alt col-sm-12 col-md-8">
                                 <h2>
                                     <a href="{{ url }}" target="_blank">{{ title }}</a>
                                 </h2>
                                 <p>From <a href="{{ team-url }}"> {{ team }} </a> </p>
                                 <p>{{{ description }}}</p>
                             </div>
-                            <div class="col-xs-12 col-md-8 brapp-links">
+                            <div class="col-sm-12 col-md-8 brapp-links">
                                 {{#if demo-url}}
                                 <a href="{{ demo-url }}" target="_blank">
                                     <button class="btn btn-d btn-round" type="button">Demonstration Site</button>
@@ -54,7 +54,7 @@
                                 </a>
                                 {{/if}}
                             </div>
-                            <div id="{{ title }}" class="col-xs-12 brapp-details" style="display: none;">
+                            <div id="{{ title }}" class="col-sm-12 brapp-details" style="display: none;">
                                 <div style="margin-top: 15px">
                                     <p>BrAPI Dependencies</p>
                                     {{#each dependencies}}
