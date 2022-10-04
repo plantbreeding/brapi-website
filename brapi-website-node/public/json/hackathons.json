@@ -18,6 +18,12 @@
             { "name": "Thiago Bérgamo Cardoso", "org": "SEMPRE Agtech", "email": "tbc@sempre.agr.br", "session1": false, "session2": true },
             { "name": "Azizah Conerly", "org": "North Carolina State University ", "email": "azconerl@ncsu.edu", "session1": false, "session2": true },
             { "name": "Kazim Wazir ", "org": "University of Karachi ", "email": "ali.kazimm@gmail.com", "session1": false, "session2": true },
+            { "name": "Heather Sweeney", "org": "Breeding Insight", "email": "hms243@cornell.edu", "session1": false, "session2": true },
+            { "name": "Shawn Yarnes", "org": "Breeding Insight at Cornell University", "email": "scy32@cornell.edu", "session1": false, "session2": false },
+            { "name": "Clarysabel Tovar", "org": "IBP", "email": "clarysabel@leafnode.io", "session1": false, "session2": true },
+            { "name": "Nahuel Rodrigo Soldevilla", "org": "IBP/Leafnode - BMS", "email": "nahuel@leafnode.io", "session1": false, "session2": true },
+            { "name": "Aldrin Batac", "org": "IBP, Leafnode", "email": "aldrin.batac@leafnode.io", "session1": true, "session2": false },
+            { "name": "Terry Casstevens", "org": "Buckler Lab at Cornell University", "email": "tmc46@cornell.edu", "session1": false, "session2": true }
         ],
         "projects": [
             { "team": null, "title": "U of Manatoba BrAPI Implementation", "description": "Integration of BRAPI in university bioinformatics system ", "needs": null, "repo": null },
@@ -25,7 +31,7 @@
             { "team": "Patrick König", "title": "DivBrowse from IPK", "description": "Implementation of BrAPI V2.1 Genotyping Calls into DivBrowse (https://divbrowse.ipk-gatersleben.de/)", "needs": null, "repo": "https://github.com/IPK-BIT/divbrowse" },
             { "team": null, "title": "BeetBase", "description": "I am making a sugar beet web database and analysis platform, called BeetBase.", "needs": null, "repo": null },
             { "team": "Chaney Courtney, Trevor Rife", "title": "PhenoApps Coordinate", "description": "PhenoApps Coordinate", "needs": null, "repo": "github.com/phenoapps" },
-            { "team": "Lynn Johnson, Buckler Lab", "title": "Enhance PHG", "description": "TBD - but probably related to genotype endpoints", "needs": null, "repo": "https://bitbucket.org/bucklerlab/phg_webktor_service/src/master/" }
+            { "team": "Lynn Johnson, Terry Casstevens, Buckler Lab", "title": "Enhance PHG", "description": "TBD - but probably related to genotype endpoints", "needs": null, "repo": "https://bitbucket.org/bucklerlab/phg_webktor_service/src/master/" }
         ],
         "notes": [{
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
