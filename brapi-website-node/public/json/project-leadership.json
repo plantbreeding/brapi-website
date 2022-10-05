@@ -23,14 +23,16 @@
     "advisoryBoard": [{
             "name": "Cyril Pommier",
             "title": "Advisory Board Member",
-            "org": "INRAe",
-            "pic": null
+            "org": "INRAE URGI",
+            "pic": null,
+            "orcid": "https://orcid.org/0000-0002-9040-8733"
         },
         {
             "name": "Iain Milne",
             "title": "Advisory Board Member",
             "org": "James Hutton Institute",
-            "pic": null
+            "pic": null,
+            "orcid": "https://orcid.org/0000-0002-4126-0859"
         },
         {
             "name": "Jan-Erik Backlund",

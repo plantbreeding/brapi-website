@@ -51,7 +51,7 @@
             "nothing": true
         }],
         "agenda": [{
-            "date": "Monday, April 25, 2022",
+            "date": "Monday, October 24, 2022",
             "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
             "sessions": [{
                     "session": "Session #1",
@@ -74,7 +74,7 @@
             ]
 
         }, {
-            "date": "Tuesday, April 26, 2022",
+            "date": "Tuesday, October 25, 2022",
             "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
             "sessions": [{
                     "session": "Session #1",
@@ -99,7 +99,7 @@
             ]
 
         }, {
-            "date": "Wednesday, April 27, 2022",
+            "date": "Wednesday, October 26, 2022",
             "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
             "sessions": [{
                     "session": "Session #1",
@@ -122,7 +122,7 @@
             ]
 
         }, {
-            "date": "Thursday, April 28, 2022",
+            "date": "Thursday, October 27, 2022",
             "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
             "sessions": [{
                     "session": "Session #1",
@@ -145,7 +145,7 @@
             ]
 
         }, {
-            "date": "Friday, April 29, 2022",
+            "date": "Friday, October 28, 2022",
             "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
             "sessions": [{
                     "session": "Session #1",
