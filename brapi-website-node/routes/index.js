@@ -92,6 +92,13 @@ router.get('/brapiAdvisoryBoard', function(req, res, next) {
     });
 });
 
+router.get('/sabbaticals', function(req, res, next) {
+    res.render('sabbaticals', {
+        title: 'BrAPI Sabbatical Program',
+        footerEvents: require('./events').getTrailerEvents(),
+    });
+});
+
 router.get('/unsubscribe', function(req, res, next) {
     res.render('unsubscribe', {
         title: 'Unsubscribe',

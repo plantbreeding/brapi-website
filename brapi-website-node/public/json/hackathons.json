@@ -4,6 +4,7 @@
             { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "session1": true, "session2": true },
             { "name": "Guy Davenport", "org": "Daveneti Ltd", "email": "guy@daveneti.com", "session1": true, "session2": false },
             { "name": "Daniel Perondi", "org": "North Carolina State University", "email": "dperond@ncsu.edu", "session1": false, "session2": true },
+            { "name": "Kidist Kibret", "org": "University of Manitoba ", "email": "kidist.kibret@gmail.com", "session1": false, "session2": true },
             { "name": "Khaled Al-Shamaa", "org": "ICARDA", "email": "k.el-shamaa@cgiar.org", "session1": true, "session2": false },
             { "name": "Patrick König", "org": "IPK Gatersleben", "email": "koenig@ipk-gatersleben.de", "session1": true, "session2": false },
             { "name": "Trevor Rife", "org": "Clemson University", "email": "twrife@clemson.edu", "session1": false, "session2": true },
@@ -29,7 +30,14 @@
             { "name": "Adrian Powell", "org": "Boyce Thompson Institute", "email": "afp43@cornell.edu", "session1": false, "session2": true },
             { "name": "Dariusz Bienkowski", "org": "BTI", "email": "db738@cornell.edu", "session1": false, "session2": true },
             { "name": "Amber Lockrow", "org": "Boyce Thompson Institute", "email": "awl67@cornell.edu", "session1": false, "session2": true },
-            { "name": "Bryan Ellerbrock", "org": "BTI, NCSU", "email": "bje24@cornell.edu", "session1": false, "session2": true }
+            { "name": "Bryan Ellerbrock", "org": "BTI, NCSU", "email": "bje24@cornell.edu", "session1": false, "session2": true },
+            { "name": "Sook Jung", "org": "Washington State University", "email": "sook_jung@wsu.edu", "session1": false, "session2": true },
+            { "name": "Jenna Hershberger", "org": "Clemson", "email": "jmhersh@clemson.edu", "session1": false, "session2": true },
+            { "name": "David Meidlinger", "org": "Breeding Insight", "email": "djm226@cornell.edu", "session1": false, "session2": true },
+            { "name": "Nicolas Morales", "org": "Cornell University", "email": "nmorales3142@gmail.com", "session1": false, "session2": true },
+            { "name": "Jacques Lagnel", "org": "INRAE", "email": "jacques.lagnel@inrae.fr", "session1": false, "session2": true },
+            { "name": "Valentin Guignon", "org": "The Alliance Bioversity CIAT", "email": "v.guignon@cgiar.org", "session1": true, "session2": false },
+            { "name": "Taein Lee", "org": "Washington State University", "email": "leetaei@wsu.edu", "session1": false, "session2": true }
         ],
         "projects": [
             { "team": null, "title": "U of Manatoba BrAPI Implementation", "description": "Integration of BRAPI in university bioinformatics system ", "needs": null, "repo": null },
