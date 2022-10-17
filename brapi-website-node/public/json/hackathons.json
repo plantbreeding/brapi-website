@@ -37,7 +37,11 @@
             { "name": "Nicolas Morales", "org": "Cornell University", "email": "nmorales3142@gmail.com", "session1": false, "session2": true },
             { "name": "Jacques Lagnel", "org": "INRAE", "email": "jacques.lagnel@inrae.fr", "session1": false, "session2": true },
             { "name": "Valentin Guignon", "org": "The Alliance Bioversity CIAT", "email": "v.guignon@cgiar.org", "session1": true, "session2": false },
-            { "name": "Taein Lee", "org": "Washington State University", "email": "leetaei@wsu.edu", "session1": false, "session2": true }
+            { "name": "Taein Lee", "org": "Washington State University", "email": "leetaei@wsu.edu", "session1": false, "session2": true },
+            { "name": "David R Phillips", "org": "BI (Cornell)", "email": "drp227@cornell.edu", "session1": false, "session2": true },
+            { "name": "Nick Palladino", "org": "Breeding Insight", "email": "np398@cornell.edu", "session1": false, "session2": true },
+            { "name": "Moses Nderitu", "org": "SEQART AFRICA", "email": "mosendirits@gmail.com", "session1": true, "session2": false },
+            { "name": "David Waring", "org": "Cornell University / T3", "email": "djw64@cornell.edu", "session1": false, "session2": true }
         ],
         "projects": [
             { "team": null, "title": "U of Manatoba BrAPI Implementation", "description": "Integration of BRAPI in university bioinformatics system ", "needs": null, "repo": null },
@@ -49,7 +53,9 @@
             { "team": "Clarysabel Tovar", "title": "BrAPI Sync ", "description": "BrAPI Sync ", "needs": null, "repo": null },
             { "team": "Lukas Mueller, Mirella Flores, Dariusz Bienkowski", "title": "Pedigree Endpoints", "description": "Implementation of new v2.1 pedigree queries in Breedbase", "needs": null, "repo": null },
             { "team": "Tim Parsons", "title": "Field Book Enhancements", "description": "Importing the same trial via BrAPI at different OU levels into Field Book.  Field Book for iOS.", "needs": null, "repo": "https://github.com/Breeding-Insight/Field-Book-iOS" },
-            { "team": "Adrian Powell, Lukas Mueller (Breedbase), Bryan Ellerbrock", "title": "High Dimensional Phenotypes", "description": "High dimensional phenotype BrAPI calls in Breedbase", "needs": "NA", "repo": null }
+            { "team": "Adrian Powell, Lukas Mueller (Breedbase), Bryan Ellerbrock", "title": "High Dimensional Phenotypes", "description": "High dimensional phenotype BrAPI calls in Breedbase", "needs": "NA", "repo": null },
+            { "team": "Valentin Guignon", "title": "Drupal 9", "description": "BrAPI v1 & v2 module for Drupal 9 and above", "needs": null, "repo": "https://git.drupalcode.org/project/brapi" },
+            { "team": "Nick Palladino, Field Book team, Breedbase team", "title": "Field Book data exchange enhancements", "description": "Field Book, Breedbase, BI", "needs": null, "repo": "https://github.com/Breeding-Insight/" }
         ],
         "notes": [{
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
