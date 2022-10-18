@@ -86,7 +86,7 @@
                                     <div class="col-xs-11 agenda-bg-blue">
                                         <p class="agenda-row"> {{sessions.[0].session}} </p>
                                         {{#each sessions.[0].discussions}}
-                                            <div class="agenda-row">
+                                            <div class="agenda-row" {{#if canceled}} style="text-decoration: line-through;"{{/if}}>
                                                 <div class="col-xs-2 no-pad">{{time}}</div>
                                                 <div class="col-xs-10 no-pad">{{title}}
                                                 {{#if lead}}<br/>Discussion Lead: {{lead}}{{/if}}</div>

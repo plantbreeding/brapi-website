@@ -104,7 +104,7 @@
                     "session": "Session #1",
                     "class": "agenda-session1",
                     "discussions": [
-                        { "time": "08:00 - 08:30 UTC", "title": "BrAPI Advisory Board Nominations - Informational Session" },
+                        { "time": "08:00 - 08:30 UTC", "title": "BrAPI Advisory Board Nominations - Informational Session", "canceled": true },
                         { "time": "08:30 - 09:00 UTC", "title": "Community Sabaticals - Informational Session" },
                         { "time": "09:00 - 10:00 UTC", "title": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper" },
                         { "time": "10:00 - 11:00 UTC", "title": "TBD" }
