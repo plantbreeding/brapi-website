@@ -9,31 +9,24 @@
                         </p>
                     </div> 
                     <div>
-                        <button id="toggle-overview" class="btn btn-round col-xs-12" type="button"
-                            onclick="toggleVisibleXor('overview-section', ['agenda-section', 'attendees-section', 'projects-section', 'notes-section'])">Overview</button>
+                        <button id="toggle-overview" class="btn btn-round col-xs-12" type="button" onclick="toggleVisibleXorHackathon('overview-section')">Overview</button>
                     </div>
                     <div>
-                        <button id="toggle-agenda" class="btn btn-round col-xs-12" type="button"
-                            onclick="toggleVisibleXor('agenda-section', ['overview-section', 'attendees-section', 'projects-section', 'notes-section'])">Agenda</button>
+                        <button id="toggle-agenda" class="btn btn-round col-xs-12" type="button" onclick="toggleVisibleXorHackathon('agenda-section')">Agenda</button>
                     </div>
                     <div>
-                        <button id="toggle-attendees" class="btn btn-round col-xs-12" type="button"
-                            onclick="toggleVisibleXor('attendees-section', ['overview-section', 'agenda-section', 'projects-section', 'notes-section'])">Attendees</button>
+                        <button id="toggle-attendees" class="btn btn-round col-xs-12" type="button" onclick="toggleVisibleXorHackathon('attendees-section')">Attendees</button>
                     </div>
                     <div>
-                        <button id="toggle-projects" class="btn btn-round col-xs-12" type="button"
-                            onclick="toggleVisibleXor('projects-section', ['overview-section', 'agenda-section', 'attendees-section', 'notes-section'])">Project
-                            List</button>
+                        <button id="toggle-projects" class="btn btn-round col-xs-12" type="button" onclick="toggleVisibleXorHackathon('projects-section')">Project List</button>
                     </div>
                     <div>
-                        <button id="toggle-notes" class="btn btn-round col-xs-12" type="button"
-                            onclick="toggleVisibleXor('notes-section', ['overview-section', 'agenda-section', 'attendees-section', 'projects-section'])">Notes
-                            and Recordings</button>
+                        <button id="toggle-notes" class="btn btn-round col-xs-12" type="button" onclick="toggleVisibleXorHackathon('notes-section')">Notes and Recordings</button>
                     </div>
                 </div>
 
                 <div class="col-xs-8 col-md-9 col-xl-10" id="content">
-                    <div id="overview-section" style="display: block;">
+                    <div id="overview-section" style="display: block; scroll-margin-top: 400px;">
 
                         <h3 class="font-alt" id="title"> Register </h3>
                         <div style="margin-left:10px"> 
@@ -61,7 +54,7 @@
 
                     </div>
 
-                    <div id="agenda-section" style="display: none;">
+                    <div id="agenda-section" style="display: none; scroll-margin-top: 400px;">
                         <h3 class="font-alt" id="title"> Agenda </h3>
                         <div style="margin-left:10px">
                             <p>This event will take place from April 25-29, 2022. There will be two sessions per day to accommodate many different time zones. Attendees are welcome to attend any and all sessions.
@@ -117,7 +110,7 @@
                         </div>
                     </div>
 
-                    <div id="attendees-section" style="display: none;">
+                    <div id="attendees-section" style="display: none; scroll-margin-top: 400px;">
                         <h3 class="font-alt" id="title"> Attendees List </h3>
                         <div style="margin-left:10px">                            
                             <table>
@@ -135,7 +128,7 @@
 
                     </div>
 
-                    <div id="projects-section" style="display: none;">
+                    <div id="projects-section" style="display: none; scroll-margin-top: 400px;">
                         <h3 class="font-alt" id="title"> Project List </h3>
                         <div style="margin-left:10px">
                             <p>Projects are listed in the order they were recieved in the registration from. If you would like to edit any of the infomration below, please contact the BrAPI Coordinator.</p>
@@ -154,7 +147,7 @@
                     </div>
 
 
-                    <div id="notes-section" style="display: none;">
+                    <div id="notes-section" style="display: none; scroll-margin-top: 400px;">
                         <h3 class="font-alt" id="title"> Meeting Notes and Recordings </h3>
                         <div style="margin-left:10px">                                    
                             {{#each hackathonData.notes}}

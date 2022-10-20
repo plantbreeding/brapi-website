@@ -74,6 +74,13 @@ router.get('/contact', function(req, res, next) {
     });
 });
 
+router.get('/unsubscribe', function(req, res, next) {
+    res.render('unsubscribe', {
+        title: 'Unsubscribe',
+        footerEvents: require('./events').getTrailerEvents(),
+    });
+});
+
 router.get('/projectLeadership', function(req, res, next) {
     var projectLeadership = require('../public/json/project-leadership.json');
 
@@ -92,16 +99,27 @@ router.get('/brapiAdvisoryBoard', function(req, res, next) {
     });
 });
 
-router.get('/sabbaticals', function(req, res, next) {
-    res.render('sabbaticals', {
-        title: 'BrAPI Sabbatical Program',
+router.get('/advisoryBoardCandidates', function(req, res, next) {
+    var json = require('../public/json/advisory-board-candidates.json');
+    var candidates = json.candidates;
+
+    let i = candidates.length;
+    while (i--) {
+        const ri = Math.floor(Math.random() * i);
+        [candidates[i], candidates[ri]] = [candidates[ri], candidates[i]];
+    }
+
+    res.render('advisoryBoardCandidates', {
+        pollsOpen: false,
+        candidates: candidates,
+        title: 'Advisory Board Candidates',
         footerEvents: require('./events').getTrailerEvents(),
     });
 });
 
-router.get('/unsubscribe', function(req, res, next) {
-    res.render('unsubscribe', {
-        title: 'Unsubscribe',
+router.get('/sabbaticals', function(req, res, next) {
+    res.render('sabbaticals', {
+        title: 'BrAPI Sabbatical Program',
         footerEvents: require('./events').getTrailerEvents(),
     });
 });

@@ -18,44 +18,32 @@ function toggleVisible(toggleId, btnId, displayTxt, hideTxt) {
         btnElm.innerHTML = "<span class=\"mdi mdi-chevron-double-down\"></span> " + hideTxt + " <span class=\"mdi mdi-chevron-double-down\"></span>";
 }
 
-function toggleVisibleXor(visibleId, invisibleIds) {
+function toggleVisibleXor(visibleId, allIds, defaultIndex) {
+    var i = allIds.indexOf(visibleId)
+    if (i < 0) {
+        i = defaultIndex;
+    }
+    var hideIds = JSON.parse(JSON.stringify(allIds));
+    hideIds.splice(i, 1);
+
     setVisible(visibleId, true);
-    window.location.hash = '#' + visibleId;
-    for (const id of invisibleIds) {
+    for (const id of hideIds) {
         setVisible(id, false);
     }
-    window.scrollTo(0, 0);
 }
 
 $(document).ready(function() {
-    // console.log("document loaded");
     if (window.location.pathname.startsWith("/events/hackathon")) {
-        hackathonLoadPage();
+        var page = window.location.hash.replace("#", "");
+        toggleVisibleXorHackathon(page);
     }
 });
 
-function hackathonLoadPage() {
-    page = window.location.hash.replace("#", "");
-    switch (page) {
-        case 'agenda-section':
-            toggleVisibleXor('agenda-section', ['overview-section', 'attendees-section', 'projects-section', 'notes-section']);
-            break;
-        case 'attendees-section':
-            toggleVisibleXor('attendees-section', ['overview-section', 'agenda-section', 'projects-section', 'notes-section']);
-            break;
-        case 'projects-section':
-            toggleVisibleXor('projects-section', ['overview-section', 'agenda-section', 'attendees-section', 'notes-section']);
-            break;
-        case 'notes-section':
-            toggleVisibleXor('notes-section', ['overview-section', 'agenda-section', 'attendees-section', 'projects-section']);
-            break;
-        case 'overview-section':
-        default:
-            toggleVisibleXor('overview-section', ['agenda-section', 'attendees-section', 'projects-section', 'notes-section']);
-    }
+function toggleVisibleXorHackathon(page) {
+    toggleVisibleXor(page, ['overview-section', 'agenda-section', 'attendees-section', 'projects-section', 'notes-section'])
 
+    window.location.hash = '#' + page;
 }
-
 
 (function() {
 

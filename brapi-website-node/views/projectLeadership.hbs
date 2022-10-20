@@ -34,7 +34,8 @@
                     <div class="brapp-box">
                         <div class="brapp-thumbnail col-xs-3">
                             {{#if pic }}
-                            <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90" style="margin: 5px auto 5.6px auto;">
+                            <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90"
+                                style="margin: 5px auto 5.6px auto;">
                             {{else}}
                             <span class="mdi mdi-account-box fa-lg"
                                 style="font-size: 6.5em; line-height: 1.1em;"></span>
@@ -42,9 +43,9 @@
                         </div>
                         <div class="font-alt col-xs-9">
                             <h3 style="margin: 10px 0 5px 0">{{ name }}
-                            {{#if orcid }} <img alt="ORCID logo"
-                                src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="20"
-                                height="20" /> {{/if}}</h3>
+                                {{#if orcid }} <img alt="ORCID logo"
+                                    src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="20"
+                                    height="20" /> {{/if}}</h3>
                             <p style="margin: 0">{{ title }}</p>
                             <p style="margin: 0">{{ org }}</p>
                         </div>
@@ -60,15 +61,11 @@
                 <p>The Advisory Board is a group of elected community representatives. This group is responsible for
                     providing advice and guidance to support the Project Management group. They are also responsible for
                     representing the community in making long term project decisions. </p>
-                <div class="link-btn  col-xs-6 col-sm-5 col-md-3">
-                    <a href="/brapiAdvisoryBoard">
-                        <button class="btn-default btn-border-d btn-round col-xs-12" type="button">Roles and Responsibilities</button>
-                    </a>
-                </div>
-                <div class="link-btn  col-xs-6 col-sm-5 col-md-3">
-                    <a href="/docs/BrAPI_Advisory_Board_Candidate_Report_TEMPLATE.docx">
-                        <button class="btn-default btn-border-d btn-round col-xs-12" type="button">Nominate A New Board Member</button>
-                    </a>
+                <div class="link-btn">
+                    <a href="/brapiAdvisoryBoard" class="btn btn-default btn-round">Roles and Responsibilities </a>
+                    <a href="/docs/BrAPI_Advisory_Board_Candidate_Report_TEMPLATE.docx"
+                        class="btn btn-default btn-round">Nominate A New Board Member</a>
+                    <a href="/advisoryBoardCandidates" class="btn btn-default btn-round">New Board Member Candidates</a>
                 </div>
             </div>
 
@@ -81,7 +78,8 @@
                         <div class="brapp-thumbnail col-xs-3">
                             {{#if pic }}
                             <span></span>
-                            <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90" style="margin: 5px auto 5.6px auto;">
+                            <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90"
+                                style="margin: 5px auto 5.6px auto;">
                             {{else}}
                             <span class="mdi mdi-account-box fa-lg"
                                 style="font-size: 6.5em; line-height: 1.1em;"></span>

@@ -1,0 +1,103 @@
+{
+    "candidates": [{
+        "name": "Dr Sebastian Beier",
+        "title": "Postdoctoral researcher (Bioinformatics) and Project lead for FONDUE",
+        "org": "Research center Juelich GmbH, ELIXIR, de.NBI, AgBioData",
+        "country": "Germany",
+        "motivation": "Over the last few years, a lot has happened in terms of digitizing plant data and metadata. Especially the movement around FAIR has brought a big change in the way data is described in science and breeding. For almost 10 years I have been working in the field of sequence analysis of plant data and I have noticed that the degree of connectivity of plant data is not yet as advanced as we would like and need it to be. It starts with the correct description of plant data based on metadata using a specialized vocabulary in the form of ontologies. Such standardization efforts in how we as a community deal with data are hugely important and with this application for the advisory board position I would like to help both raise awareness and contribute my expertise in the context of genomics. As co-lead of the Plant Community of ELIXIR and member of the standardization of genomic variants working group of AgBioData, I have a good overview of international projects and initiatives relevant to the further development of BrAPI, including MIAPPE, MCPD, ISA-Tab /-JSON, RO-Crate, among others.",
+        "experience": [{
+            "title": "General Breeding Workflow",
+            "text": "I have a basic understanding of the breeding cycle and worked in larger genotyping and phenotyping projects in cereals (wheat and barley) with industry partners."
+        }, {
+            "title": "Phenotyping and Phenomics",
+            "text": "Due to my experience within projects directly involved with MIAPPE (the ELIXIR Implementation Study FONDUE comes to mind, where we worked closely with EMBL-EBI to generate a minimum set of parameters used for characterization of plant material in genotyping studies - enabling to link geno- and phenotyping studies), I have a general overview about phenotyping techniques but would not consider myself an expert. I have however very capable connections into EMPHASIS and EPPN. "
+        }, {
+            "title": "Genotyping and Genomics",
+            "text": "During my time as a graduate student, I worked on the barley genome sequencing project, including the assembly of many thousands of individual BAC clones. After that, much of my research was in genotyping, especially genotyping-by-sequencing and exome capture sequencing in barley and bread wheat. Among other things, I was involved in one of the first pan-transcriptome projects in wheat and am currently advancing pan-genomics in Cuscuta. With this said, I have done most of this work from the bioinformatics perspective implementing both the software pipelines and the data management part."
+        }, {
+            "title": "Computer Programming",
+            "text": "I would consider myself a Bioinformatician first and a plant scientist second, so I have experience with a few programming languages (Java, Perl, Python), working with databases (SQL, Oracle, APEX) and have also some minor experience in web development using HTML, CSS, Javascript and some visualization frameworks (d3.js, cytoscape.js, plotly.js). When I talk to plant phenotyping experts, I hear over and over that they need more data to run their experiments. BrAPI could play a key role in delivering the data (and metadata) from the fields faster and more reliably if they are connected directly through data collection devices with the ability to feed it into a database. So building up a whole ecosystem of interconnected devices and applications is needed to accelerate plant phenotyping."
+        }, {
+            "title": "Data Management",
+            "text": "Over the past 4 years, since I have been actively working in and with ELIXIR, data management has become an integral part of my daily work. In terms of the data lifecycle, my main focus is on the planning and preservation / reuse steps. In this regard, I can look back on training experience that we have been able to publish and conduct under the mantle of FONDUE. I was involved with writing guides on the RDMkit (https://rdmkit.elixir-europe.org/) and on the FAIR cookbook (https://faircookbook.elixir-europe.org/) and worked together with the EMBL-EBI on their sequencer submission guidelines. Furthermore, I am coordinating the data management plan for the upcoming PHENET Horizon-Europe project that will start in early 2023."
+        }, {
+            "title": "Additional Relevant Experience ",
+            "text": "Apart from the connections to both ELIXIR and the German counterpart de.NBI, I actively collaborate with the German NFDIs (National Research Data Infrastructures) DataPLANT, NFDI4Biodiversity and FAIRagro. Furthermore, my interest also lies with MIAPPE and I have very good connections to the German ex situ Genebank in Gatersleben, where I worked for almost 10 years."
+        }]
+    }, {
+        "name": "Guy Davenport",
+        "title": "Breeding Information Consultant",
+        "org": "Daveneti Limited (currently contracted to BASF Seeds)",
+        "country": "New Zealand",
+        "motivation": "I have been working in the field of Plant Breeding Informatics for 24 years, for public and private, international and national breeding programs for annual seed and perennial clonal crops. I have been involved with the BrAPI project for the last 4 years when I was working at Plant and Food Research, and more recently I am working with my client on implementing and extending BrAPI in their organisation. I have been involved in Plant Breeding data standards development starting with the International Crop Information System at CIMMYT, then later the early stages of Crop Ontology under the Generation Challenge Programme of CGIAR. I believe I can contribute to BrAPI project by providing advice based on my extensive experience in Plant Breeding Informatics. <br> BrAPI was conceived as a REST API to allow the interoperability of data and tools in the Breeding community. In the future I would like BrAPI to move to developing a true domain model, which although has reference implementations such as REST and GraphQL, could be implemented in any framework. I would like BrAPI to become the de facto standard for Breeding terms and establish a glossary / ontology in collaboration with breeding organisations and other ontology efforts, that is used worldwide. ",
+        "experience": [{
+            "title": "General Breeding Workflow",
+            "text": "I have extensive knowledge in the breeding workflows for annual seed and perennial clonal crops, having worked alongside plant breeders at the John Innes Centre, CIMMYT, Bayer CropScience and Plant and Food Research. "
+        }, {
+            "title": "Phenotyping and Phenomics",
+            "text": "I was involved in the early days of the development of an ontology for phenotyping at CIMMYT. More recently I have helped in the field at CIMMYT and orchard at Plant and Food Research making phenotyping observations. "
+        }, {
+            "title": "Genotyping and Genomics",
+            "text": "I have carried out scientific research as part of my PhD in Plant Molecular Virology. Since then I have been involved in the construction of database systems for Genotyping and Genomics."
+        }, {
+            "title": "Computer Programming",
+            "text": "I have over 25 years’ experience in Java Programming in the field of scientific computing, having co-developed the CoreHunter software and breeding information systems at CIMMYT, Bayer Crop Science and Plant and Food Research. "
+        }, {
+            "title": "New and Emerging Breeding Technologies",
+            "text": "I have a good understand of emerging breeding technologies such as Genomic selection. "
+        }, {
+            "title": "Germplasm and Accession Management",
+            "text": "During my time at John Innes and CIMMYT in was involved in data curation activities in their Genebanks. "
+        }, {
+            "title": "Data Management",
+            "text": "I have worked in Data Management projects most of my life, taking the following roles: Database and Java services developer, Bioinformatics Specialist, Project and Programme Leader, Business Analyst"
+        }]
+    }, {
+        "name": "Shawn Yarnes, PhD",
+        "title": "Product Owner",
+        "org": "Breeding Insight, Cornell University",
+        "country": "USA",
+        "motivation": "I have contributed to the development of two software initiatives that have utilized BrAPI specifications; the Integrated Breeding Platform’s Breeding Management System and now the Breeding Insight’s yet-to-be named application. Since its inception, BrAPI has brought to together and added value to numerous diverse publicly funded software initiatives. BrAPI provides specifications important to help software projects avoid costly mistakes from the past, such as implementing non-optimal data formats, and leverages diverse community expertise into set a course for the future. I am interested in helping to ensure that the BrAPI initiative continues to develop as an important standard for the breeding community.",
+        "experience": [{
+            "title": "General Breeding Workflow",
+            "text": "I have hands on experience working in a back-cross breeding program at The American Chestnut Foundation and developing Recombinant Inbred Line populations at the UC Davis Seed Biotechnology Center. I also have experience translating the needs of over 20 different species into user stories for software development; including programs supporting: forestry, row crops, hybrid development, orchard trees, horticultural crops, and animal systems. "
+        }, {
+            "title": "Phenotyping and Phenomics",
+            "text": "I have hands on experience with many different types of phenotyping measurements and analysis: field observations, biochemical quantification, fruit quality assessments, disease resistance scoring, and image analysis. In my current role at BI I am responsible for planning and testing the implementation of loading/downloading, QC, and analysis of diverse and high-throughput phenotypic data."
+        }, {
+            "title": "Genotyping and Genomics",
+            "text": "I have experience identifying marker-trait associations and implementing these analyses into decision-making pipelines."
+        }, {
+            "title": "Germplasm and Accession Management",
+            "text": "I have experience using information systems, defining system workflows, and testing software used to manage; pedigrees, breeding methods, and naming conventions. "
+        }, {
+            "title": "New and Emerging Breeding Technologies",
+            "text": "For the past ten years I have worked to integrate vetted technologies into breeding workflows and software pipelines. Examples include; digital data collection, marker-assisted selection, genomic prediction, and image analysis pipelines. "
+        }, {
+            "title": "Additional Relevant Experience ",
+            "text": "I have been involved in numerous publicly funded research and breeding initiatives. I am committed to progressing publicly available breeding and research software as a public good. "
+        }, {
+            "title": "Data Management",
+            "text": "I have experience with breeding data management in several different roles as a; breeder/researcher, data curator, and as a part of software planning and development. I was responsible for collection, QC, and publishing Solanaceae Coordinated Agricultural Project (SolCAP) phenotyping records in a public online repository. I have managed and consulted on the migration/reconstruction of many historical data records including: SNP marker panels, pedigree reconstruction of multi-parent advanced generation inter-cross (MAGIC) populations, and 30 years of USDA pecan program records. I am currently working to implement a QC pipeline for phenotypic data upload into the Breeding Insight yet-to-be named app."
+        }]
+    }, {
+        "name": "Dr. Stephan Weise",
+        "title": "Head of Genebank Documentation; EURISCO coordinator (European Search Catalogue for Plant Genetic resources)",
+        "org": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK)",
+        "country": "Germany",
+        "motivation": "I have been following the development of the BrAPI community for several years. As coordinator of the EURISCO network (European Search Catalogue for Plant Genetic Resources), I am responsible for the exchange of data on plant genetic resources from collections in 43 member countries. In this context, the use of standardised APIs is becoming increasingly important. Against this background and further motivated by discussions in our institute, I would like to get involved in the BrAPI community. On the one hand, to make BrAPI generally better known in the field of plant genebanks. On the other hand, to give suggestions for the BrAPI specification in order to increase the usability of BrAPI for this field.",
+        "experience": [{
+            "title": "Phenotyping and Phenomics",
+            "text": "As a computer scientist, I have no experience with phenotyping itself, but I do have experience with the management and analysis of phenotypic data. I have been responsible for the management of phenotypic data in various research projects and am currently working within the EURISCO network on the harmonisation of phenotypic traits with the aim of making them comparable. In this regard, I have also been involved in the MIAPPE consortium."
+        }, {
+            "title": "Germplasm and Accession Management",
+            "text": "As head of Genebank Documentation, I am responsible for the IT-side support of the collection management of the German national genebank for cultivated plants as well as for the management of the associated data on germplasm accessions. To this end, my working group has been operating an information system for a number of years to manage a wide range of data from different domains and to support the daily work processes of the genebank. In addition, there are aspects of data curation and the regular exchange of data with other information systems."
+        }, {
+            "title": "Computer Programming",
+            "text": "As a trained database and application developer, I have been involved in designing information systems for storing, searching and analysing data on crop plants for more than 20 years. This also includes the development and provision of REST services for data exchange."
+        }, {
+            "title": "Data Management",
+            "text": "Structured data management is essential for the documentation of plant genetic resources in genebanks. Through my role as head of Genebank Documentation, I have the relevant experience in this area. In addition, as coordinator, I am responsible for the smooth operation and further development of the EURISCO information system. This system manages data on more than two million germplasm accessions provided by over 400 data providers from all over Europe."
+        }]
+    }]
+}
