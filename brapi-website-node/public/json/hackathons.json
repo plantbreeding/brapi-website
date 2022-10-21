@@ -13,13 +13,12 @@
             { "name": "Chaney Courtney", "org": "PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true },
             { "name": "Lynn Johnson", "org": "Cornell Buckler Lab", "email": "lcj34@cornell.edu", "session1": false, "session2": true },
             { "name": "Yannick De Oliveira", "org": "INRAE", "email": "yannick.de-oliveira@inrae.fr", "session1": true, "session2": false },
-            { "name": "Jacques Lagnel", "org": "INRAE", "email": "jacques.lagnel@inrae.fr", "session1": true, "session2": true },
             { "name": "Franciane Nuissier", "org": "INRAE", "email": "franciane.nuissier@inrae.fr", "session1": false, "session2": true },
             { "name": "Thiago Bérgamo Cardoso", "org": "SEMPRE Agtech", "email": "tbc@sempre.agr.br", "session1": false, "session2": true },
             { "name": "Azizah Conerly", "org": "North Carolina State University ", "email": "azconerl@ncsu.edu", "session1": false, "session2": true },
             { "name": "Kazim Wazir ", "org": "University of Karachi ", "email": "ali.kazimm@gmail.com", "session1": false, "session2": true },
             { "name": "Heather Sweeney", "org": "Breeding Insight", "email": "hms243@cornell.edu", "session1": false, "session2": true },
-            { "name": "Shawn Yarnes", "org": "Breeding Insight at Cornell University", "email": "scy32@cornell.edu", "session1": false, "session2": false },
+            { "name": "Shawn Yarnes", "org": "Breeding Insight at Cornell University", "email": "scy32@cornell.edu", "session1": false, "session2": true },
             { "name": "Clarysabel Tovar", "org": "IBP", "email": "clarysabel@leafnode.io", "session1": false, "session2": true },
             { "name": "Nahuel Rodrigo Soldevilla", "org": "IBP/Leafnode - BMS", "email": "nahuel@leafnode.io", "session1": false, "session2": true },
             { "name": "Aldrin Batac", "org": "IBP, Leafnode", "email": "aldrin.batac@leafnode.io", "session1": true, "session2": false },
@@ -41,7 +40,10 @@
             { "name": "David R Phillips", "org": "BI (Cornell)", "email": "drp227@cornell.edu", "session1": false, "session2": true },
             { "name": "Nick Palladino", "org": "Breeding Insight", "email": "np398@cornell.edu", "session1": false, "session2": true },
             { "name": "Moses Nderitu", "org": "SEQART AFRICA", "email": "mosendirits@gmail.com", "session1": true, "session2": false },
-            { "name": "David Waring", "org": "Cornell University / T3", "email": "djw64@cornell.edu", "session1": false, "session2": true }
+            { "name": "David Waring", "org": "Cornell University / T3", "email": "djw64@cornell.edu", "session1": false, "session2": true },
+            { "name": "Zack Miller", "org": "Cornell University, Buckler Lab", "email": "zrm22@cornell.edu", "session1": false, "session2": true },
+            { "name": "Ana Berthel", "org": "Cornell University, Buckler Lab", "email": "ahb232@cornell.edu", "session1": false, "session2": true },
+            { "name": "Mariano Crimi", "org": "IBP", "email": "m.crimi@cgiar.org", "session1": true, "session2": false }
         ],
         "projects": [
             { "team": null, "title": "U of Manatoba BrAPI Implementation", "description": "Integration of BRAPI in university bioinformatics system ", "needs": null, "repo": null },
@@ -55,23 +57,49 @@
             { "team": "Tim Parsons", "title": "Field Book Enhancements", "description": "Importing the same trial via BrAPI at different OU levels into Field Book.  Field Book for iOS.", "needs": null, "repo": "https://github.com/Breeding-Insight/Field-Book-iOS" },
             { "team": "Adrian Powell, Lukas Mueller (Breedbase), Bryan Ellerbrock", "title": "High Dimensional Phenotypes", "description": "High dimensional phenotype BrAPI calls in Breedbase", "needs": "NA", "repo": null },
             { "team": "Valentin Guignon", "title": "Drupal 9", "description": "BrAPI v1 & v2 module for Drupal 9 and above", "needs": null, "repo": "https://git.drupalcode.org/project/brapi" },
-            { "team": "Nick Palladino, Field Book team, Breedbase team", "title": "Field Book data exchange enhancements", "description": "Field Book, Breedbase, BI", "needs": null, "repo": "https://github.com/Breeding-Insight/" }
+            { "team": "Nick Palladino, Field Book team, Breedbase team", "title": "Field Book data exchange enhancements", "description": "Field Book, Breedbase, BI", "needs": null, "repo": "https://github.com/Breeding-Insight/" },
+            { "team": "Zack Miller, Someone from Phenoapps to help with pulling in fieldbook code.", "title": "Field Book Enhancements", "description": "Fieldbook Observation Syncing, PHG+Brapi updates", "needs": null, "repo": null },
+            { "team": "Solomon Nsumba", "title": "Image Analysis", "description": "I am interested in image analysis projects", "needs": null, "repo": null }
         ],
         "notes": [{
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
-            "meetingNotes": null,
-            "slides": null,
+            "slides": "https://docs.google.com/presentation/d/1dO6HW1fNN3NPI3HmdoCvh5uOyCH6Lv0n/edit",
+            "session1": null,
+            "session2": null
+        }, {
+            "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
             "session1": null,
             "session2": null,
             "nothing": true
         }, {
-            "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
+            "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
+            "slides": "https://brapi.org/docs/BrAPI_101.pptx",
+            "session1": null,
+            "session2": null
+        }, {
+            "discussion": "BrAPI Advisory Board Nominations - Informational Session",
             "nothing": true
         }, {
-            "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
+            "discussion": "Community Sabaticals - Informational Session",
+            "nothing": true
+        }, {
+            "discussion": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper",
+            "meetingNotes": "https://docs.google.com/document/d/1t7BzV3_8CkvAmukZ0gpz_9Ukvmz9N5XwVRTN8RUk0w4/edit"
+        }, {
+            "discussion": "Analytics WG - New Working Group Interest Meeting",
+            "meetingNotes": "https://docs.google.com/document/d/141Di0QiT2jW1mHELwZbA3B4GEgqYtSRLAONh1yaiDT4/edit",
+            "session1": null,
+            "session2": null
+        }, {
+            "discussion": "GraphQL WG - New Working Group Interest Meeting",
+            "nothing": true
+        }, {
+            "discussion": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps",
             "nothing": true
         }, {
             "discussion": "Project presentations and wrap up",
+            "session1": null,
+            "session2": null,
             "nothing": true
         }],
         "agenda": [{
