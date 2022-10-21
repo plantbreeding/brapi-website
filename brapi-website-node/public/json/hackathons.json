@@ -92,7 +92,9 @@
             "session2": null
         }, {
             "discussion": "GraphQL WG - New Working Group Interest Meeting",
-            "nothing": true
+            "meetingNotes": "https://docs.google.com/document/d/1RQQ9QwVZezNKFtBbAn_i_pj7HUHykgvSOHQ-W8dVL38/edit",
+            "session1": null,
+            "session2": null
         }, {
             "discussion": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps",
             "nothing": true
@@ -159,7 +161,7 @@
                     "discussions": [
                         { "time": "08:00 - 09:00 UTC", "title": "Analytics WG - New Working Group Interest Meeting" },
                         { "time": "09:00 - 10:00 UTC", "title": "GraphQL WG - New Working Group Interest Meeting" },
-                        { "time": "10:00 - 11:00 UTC", "title": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps" }
+                        { "time": "10:00 - 11:00 UTC", "title": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps", "canceled": true }
                     ]
                 },
                 {
