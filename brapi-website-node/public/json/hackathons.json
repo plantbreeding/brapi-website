@@ -66,22 +66,21 @@
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
             "slides": "https://docs.google.com/presentation/d/1dO6HW1fNN3NPI3HmdoCvh5uOyCH6Lv0n/edit",
             "session1": "https://youtu.be/DotnYpRwSuw",
-            "session2": null
+            "session2": "https://youtu.be/A6pkgvLYkoI"
         }, {
             "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
             "session1": "https://youtu.be/FOOTcjnVNL4",
-            "session2": null
+            "session2": "https://youtu.be/t6tCEzb9H-Q"
         }, {
             "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
             "slides": "https://brapi.org/docs/BrAPI_101.pptx",
-            "session1": null,
-            "session2": null
+            "session2": "https://youtu.be/sAunFXOvlpY"
         }, {
             "discussion": "BrAPI Advisory Board Nominations - Informational Session",
-            "nothing": true
+            "slides": "https://docs.google.com/presentation/d/1m6hl5QCh4WXjO1L_R7Ot-OXg_g0GHF-A/edit"
         }, {
             "discussion": "Community Sabaticals - Informational Session",
-            "nothing": true
+            "slides": "https://docs.google.com/presentation/d/1MY9PRHTDwzMpS6_RH6ZgqoKL1Ropa_d3/edit"
         }, {
             "discussion": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper",
             "meetingNotes": "https://docs.google.com/document/d/1t7BzV3_8CkvAmukZ0gpz_9Ukvmz9N5XwVRTN8RUk0w4/edit"
