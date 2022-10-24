@@ -64,13 +64,12 @@
         "notes": [{
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
             "slides": "https://docs.google.com/presentation/d/1dO6HW1fNN3NPI3HmdoCvh5uOyCH6Lv0n/edit",
-            "session1": null,
+            "session1": "https://youtu.be/DotnYpRwSuw",
             "session2": null
         }, {
             "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
-            "session1": null,
-            "session2": null,
-            "nothing": true
+            "session1": "https://youtu.be/FOOTcjnVNL4",
+            "session2": null
         }, {
             "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
             "slides": "https://brapi.org/docs/BrAPI_101.pptx",
