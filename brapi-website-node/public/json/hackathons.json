@@ -43,7 +43,8 @@
             { "name": "David Waring", "org": "Cornell University / T3", "email": "djw64@cornell.edu", "session1": false, "session2": true },
             { "name": "Zack Miller", "org": "Cornell University, Buckler Lab", "email": "zrm22@cornell.edu", "session1": false, "session2": true },
             { "name": "Ana Berthel", "org": "Cornell University, Buckler Lab", "email": "ahb232@cornell.edu", "session1": false, "session2": true },
-            { "name": "Mariano Crimi", "org": "IBP", "email": "m.crimi@cgiar.org", "session1": true, "session2": false }
+            { "name": "Mariano Crimi", "org": "IBP", "email": "m.crimi@cgiar.org", "session1": true, "session2": false },
+            { "name": "Ajay Siluveru", "org": "John Innes Centre ", "email": "ajaysiluveru@gmail.com", "session1": false, "session2": true }
         ],
         "projects": [
             { "team": null, "title": "U of Manatoba BrAPI Implementation", "description": "Integration of BRAPI in university bioinformatics system ", "needs": null, "repo": null },
@@ -134,7 +135,7 @@
                     "class": "agenda-session1",
                     "discussions": [
                         { "time": "08:00 - 08:30 UTC", "title": "BrAPI Advisory Board Nominations - Informational Session", "canceled": true },
-                        { "time": "08:30 - 09:00 UTC", "title": "Community Sabaticals - Informational Session" },
+                        { "time": "08:30 - 09:00 UTC", "title": "Community Sabbaticals - Informational Session" },
                         { "time": "09:00 - 10:00 UTC", "title": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper" },
                         { "time": "10:00 - 11:00 UTC", "title": "TBD" }
                     ]
@@ -144,7 +145,7 @@
                     "class": "agenda-session2",
                     "discussions": [
                         { "time": "16:00 - 16:30 UTC", "title": "BrAPI Advisory Board Nominations - Informational Session" },
-                        { "time": "16:30 - 17:00 UTC", "title": "Community Sabaticals - Informational Session" },
+                        { "time": "16:30 - 17:00 UTC", "title": "Community Sabbaticals - Informational Session" },
                         { "time": "17:00 - 18:00 UTC", "title": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper" },
                         { "time": "18:00 - 19:00 UTC", "title": "TBD" }
                     ]
