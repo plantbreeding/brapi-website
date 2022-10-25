@@ -1,4 +1,4 @@
-<section class="module-extra-small" id="get-started-intro">
+<section class="module-small" id="get-started-intro">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-10">
@@ -17,19 +17,17 @@
 
                         <div class="row justify-content-between">
                             {{#if prevHref}}
-                            <div class="col" style="text-align: left;">
-                                <a href="{{ prevHref }}">
-                                    <button class="btn btn-info btn-border-d btn-round" type="button">
-                                        &lt;&lt; {{ prevTitle }} </button>
+                            <div class="col-4" style="text-align: left;">
+                                <a href="{{ prevHref }}" class="btn btn-sm btn-outline-success col-12">
+                                    &lt;&lt; {{prevTitle}}
                                 </a>
                             </div>
-                            <div class="col" style="text-align: right;">
+                            <div class="col-4" style="text-align: right;">
                                 {{else}}
-                                <div class="col" style="text-align: right;">
+                                <div class="col-4" style="text-align: right;">
                                     {{/if}}
-                                    <a href="{{ nextHref }}">
-                                        <button class="btn btn-info btn-border-d btn-round" type="button">
-                                            {{ nextTitle }} &gt;&gt; </button>
+                                    <a href="{{ nextHref }}" class="btn btn-sm btn-outline-success col-12">
+                                        {{nextTitle}} &gt;&gt;
                                     </a>
                                 </div>
                             </div>
