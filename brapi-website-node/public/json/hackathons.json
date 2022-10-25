@@ -163,8 +163,8 @@
                     "session": "Session #1",
                     "class": "agenda-session1",
                     "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "Analytics WG - New Working Group Interest Meeting" },
-                        { "time": "09:00 - 10:00 UTC", "title": "GraphQL WG - New Working Group Interest Meeting" },
+                        { "time": "08:00 - 09:00 UTC", "title": "Analytics WG - New Working Group Interest Meeting", "canceled": true },
+                        { "time": "09:00 - 10:00 UTC", "title": "GraphQL WG - New Working Group Interest Meeting", "canceled": true },
                         { "time": "10:00 - 11:00 UTC", "title": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps", "canceled": true }
                     ]
                 },
