@@ -44,7 +44,8 @@
             { "name": "Zack Miller", "org": "Cornell University, Buckler Lab", "email": "zrm22@cornell.edu", "session1": false, "session2": true },
             { "name": "Ana Berthel", "org": "Cornell University, Buckler Lab", "email": "ahb232@cornell.edu", "session1": false, "session2": true },
             { "name": "Mariano Crimi", "org": "IBP", "email": "m.crimi@cgiar.org", "session1": true, "session2": false },
-            { "name": "Ajay Siluveru", "org": "John Innes Centre ", "email": "ajaysiluveru@gmail.com", "session1": false, "session2": true }
+            { "name": "Ajay Siluveru", "org": "John Innes Centre ", "email": "ajaysiluveru@gmail.com", "session1": false, "session2": true },
+            { "name": "Cyril Pommier", "org": "INRAE", "email": "cyril.pommier@inrae.fr", "session1": true, "session2": false }
         ],
         "projects": [
             { "team": null, "title": "U of Manatoba BrAPI Implementation", "description": "Integration of BRAPI in university bioinformatics system ", "needs": null, "repo": null },
@@ -99,6 +100,7 @@
             "session2": null
         }, {
             "discussion": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps",
+            "meetingNotes": "https://docs.google.com/document/d/16EDmjlt3DbHQoYy9Kl7Y0x6vS5tdGCyFHFV26S618lM/edit",
             "session2": null
         }, {
             "discussion": "Project presentations and wrap up",
