@@ -1,14 +1,14 @@
-<section class="module-small">
+<section class="module-extra-small">
     <div class="container">
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
+        <div class="row justify-content-center">
+            <div class="col-8">
                 <div class="module-subtitle">
-                    <p>Welcome to the BrAPI Application Showcase, or BrAPPs for short. Each of these BrAPPs is an
+                    <p class="justified" style="padding: 0 11px;">
+                        Welcome to the BrAPI APPlication showcase, or BrAPPs for short. Each of these BrAPPs is an
                         independent tool which can run on its own or can be easily integrated with a larger system. And
-                        of course, each BrAPP is completely BrAPI driven
-                        and can be used with any BrAPI-compliant system. The goal is to keep the BrAPI community
-                        informed about what tools are available and encourage functionality sharing. If you have a BrAPP
-                        you would like to share with the community
+                        of course, each BrAPP is completely BrAPI driven and can be used with any BrAPI-compliant
+                        system. The goal is to keep the BrAPI community informed about what tools are available and
+                        encourage functionality sharing. If you have a BrAPP you would like to share with the community
                         please reach out to
                         <a href="mailto:brapicoordinatorselby@gmail.com">a BrAPI Coordinator</a>
                     </p>
@@ -19,60 +19,54 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="row" id="brapp-grid">
-                    {{#each brapps}}
-                    <div class="col-sm-12 brapp">
-                        <div class="brapp-box">
-                            <div class="brapp-thumbnail col-sm-12 col-md-4">
-                                <a href="{{ url }}" target="_blank">
-                                    <img src="{{ image }}" alt="{{ title }}">
-                                </a>
-                            </div>
-                            <div class="brapp-header font-alt col-sm-12 col-md-8">
-                                <h2>
-                                    <a href="{{ url }}" target="_blank">{{ title }}</a>
-                                </h2>
-                                <p>From <a href="{{ team-url }}"> {{ team }} </a> </p>
-                                <p>{{{ description }}}</p>
-                            </div>
-                            <div class="col-sm-12 col-md-8 brapp-links">
-                                {{#if demo-url}}
-                                <a href="{{ demo-url }}" target="_blank">
-                                    <button class="btn btn-d btn-round" type="button">Demonstration Site</button>
-                                </a>
-                                {{/if}}
-                                {{#if source-url}}
-                                <a href="{{ source-url }}" target="_blank">
-                                    <button class="btn btn-d btn-round" type="button">Source Code Repo</button>
-                                </a>
-                                {{/if}}
-                                {{#if doc-url}}
-                                <a href="{{ doc-url }}" target="_blank">
-                                    <button class="btn btn-d btn-round" type="button">User Documentation</button>
-                                </a>
-                                {{/if}}
-                            </div>
-                            <div id="{{ title }}" class="col-sm-12 brapp-details" style="display: none;">
-                                <div style="margin-top: 15px">
-                                    <p>BrAPI Dependencies</p>
-                                    {{#each dependencies}}
-                                    <p>{{ version }} - {{ call }}</p>
-                                    {{/each}}
-                                </div>
-                            </div>
-                            <div class="brapp-details-btn">
-                                <button id="toggle-{{ title }}" class="btn btn btn-round" type="button"
-                                    onclick="toggleVisible('{{ title }}', 'toggle-{{ title }}', 'Less', 'Details')">
-                                    <span class="mdi mdi-chevron-double-down"></span> Details <span class="mdi mdi-chevron-double-down"></span> 
-                                    </button>
-                            </div>
+        <div class="row" id="brapp-grid" style="margin-bottom: 30px;">
+            {{#each brapps}}
+            <div class="col-12 brapp">
+                <div class="row brapp-box">
+                    <div class="brapp-thumbnail col-sm-12 col-md-4">
+                        <a href="{{ url }}" target="_blank">
+                            <img src="{{ image }}" alt="{{ title }}">
+                        </a>
+                    </div>
+                    <div class="brapp-header font-alt col-sm-12 col-md-8">
+                        <h2>
+                            <a href="{{ url }}" target="_blank">{{ title }}</a>
+                        </h2>
+                        <p>From <a href="{{ team-url }}"> {{ team }} </a> </p>
+                        <p>{{{ description }}}</p>
+                        <div class="brapp-links">
+                            {{#if demo-url}}
+                            <a href="{{ demo-url }}" target="_blank" class="btn btn-sm btn-outline-success col-3">
+                                Demonstration Site </a>
+                            {{/if}}
+                            {{#if source-url}}
+                            <a href="{{ source-url }}" target="_blank" class="btn btn-sm btn-outline-success col-3">
+                                Source Code Repo </a>
+                            {{/if}}
+                            {{#if doc-url}}
+                            <a href="{{ doc-url }}" target="_blank" class="btn btn-sm btn-outline-success col-3">
+                                User Documentation </a>
+                            {{/if}}
                         </div>
                     </div>
-                    {{/each}}
+                    <div id="{{ title }}" class="col-12 brapp-details" style="display: none;">
+                        <div style="margin-top: 15px">
+                            <p>BrAPI Dependencies</p>
+                            {{#each dependencies}}
+                            <p>{{ version }} - {{ call }}</p>
+                            {{/each}}
+                        </div>
+                    </div>
+                    <div class="brapp-details-btn" style="margin-bottom: 10px;">
+                        <button id="toggle-{{ title }}" class="btn btn-secondary btn-light-gray" type="button"
+                            onclick="toggleVisible('{{ title }}', 'toggle-{{ title }}', 'Less', 'Details')">
+                            <span class="mdi mdi-chevron-double-down"></span> Details <span
+                                class="mdi mdi-chevron-double-down"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
+            {{/each}}
         </div>
     </div>
 </section>

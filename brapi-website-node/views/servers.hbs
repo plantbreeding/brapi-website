@@ -1,85 +1,83 @@
-<section class="module-small">
+<section class="module-extra-small">
     <div class="container">
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <div class="module-subtitle">
-                    <p>
-                        <a class="btn btn-d btn-round" style="margin-left:10px" href="/servers/submit">
-                        Register A New Server</a>
-                    <br/>
-                        <a style="font-size: 12px;" target="_blank" href="/json/brapi-resources.json">Get this list as JSON</a>
-                    </p>
-                </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 module-subtitle">
+                <a class="btn btn-d btn-round" style="margin-left:10px" href="/servers/submit">
+                    Register A New Server</a>
+                <br />
+                <p><a style="font-size: 12px;" target="_blank" href="/json/brapi-resources.json">
+                        Get this list as JSON</a></p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="row" id="brapp-grid">
-                    {{#each providers}}
-                    <div class="col-sm-12 brapp">
-                        <div class="brapp-box">
-                            <div style="float: left; margin: 5px 30px;">
-                                <div class="provider-thumbnail">
-                                    {{#if logo }}
-                                    <span></span>
-                                    <img src="{{ logo }}" alt="{{ name }} Thumbnail">
-                                    {{else}}
-                                    <span class="mdi mdi-account-group"
-                                        style="font-size: 6.5em; line-height: 1.2em;"></span>
-                                    {{/if}}
-                                </div>
+        <div class="row" id="brapp-grid" style="margin: 20px auto;">
+            {{#each providers}}
+            <div class="col-12 brapp">
+                <div class="row brapp-box">
+                    <div class="col-2" style="display: inherit;">
+                        <div class="provider-thumbnail">
+                            {{#if logo }}
+                            <span></span>
+                            <img src="{{ logo }}" alt="{{ name }} Thumbnail">
+                            {{else}}
+                            <span class="mdi mdi-account-group" style="font-size: 6.5em; line-height: 1.2em;"></span>
+                            {{/if}}
+                        </div>
+                    </div>
+                    <div class="col-10 brapp-header font-alt">
+                        <h2>{{ name }}</h2>
+                        <p style="margin-left: 15px;">{{ description }}</p>
+                    </div>
+                    <div id="servers-for-{{ name }}" class="col-12 brapp-details" style="display: none;">
+                        {{#each resources}}
+                        <div class="row justify-content-center" style="margin-top: 15px">
+                            <div class="col-11">
+                                <h3 style="font-size: 20px;">{{ name }}</h3>
                             </div>
-                            <div class="brapp-header font-alt">
-                                <h2>{{ name }}</h2>
-                                <p style="margin-left: 15px;">{{ description }}</p>
-                            </div>
-                            <div id="servers-for-{{ name }}" class="col-sm-12 brapp-details" style="display: none;">
-                                {{#each resources}}
-                                <div style="margin-top: 15px">
-                                    <div class="col-sm-12">
-                                        <h3 style="font-size: 20px;">{{ name }}</h3>
-                                    </div>
-                                    <div class="badge-holder">
-                                        {{#each badges }}
-                                        <div class="badge" style="background-color: {{ badge-color }};">
-                                            <div class="mdi {{ badge-icon-class }} badge-icon"></div>
-                                            <div class="badge-text">{{ badge-text }}</div>
-                                        </div>
-                                        {{/each}}
-                                    </div>
-                                    <div class="server-desc">
-                                        <p style="margin:5px 30px 5px 0">{{{ description }}}</p>
-                                        {{#if v1-url }}
-                                        <div>
-                                        <div style="width:85px; float:left; margin-top:15px">V1 Base URL</div>
-                                        <div class="server-url">
-                                            <a target="_blank" href="{{ v1-url }}calls"><pre><code>{{ v1-url }}</code></pre></a>
-                                        </div>
-                                        </div>
-                                        {{/if}}
-                                        {{#if v2-url }}
-                                        <div>
-                                        <div style="width:85px; float:left; margin-top:15px">V2 Base URL</div>
-                                        <div class="server-url">
-                                            <a target="_blank" href="{{ v2-url }}serverinfo"><pre><code>{{ v2-url }}</code></pre></a>
-                                        </div>
-                                        </div>
-                                        {{/if}}
-                                    </div>
+                            <div class="col-10 badge-holder">
+                                {{#each badges }}
+                                <div class="badge" style="background-color: {{ badge-color }};">
+                                    <div class="mdi {{ badge-icon-class }} badge-icon"></div>
+                                    <div class="badge-text">{{ badge-text }}</div>
                                 </div>
                                 {{/each}}
                             </div>
-                            <div class="brapp-details-btn">
-                                <button id="toggle-{{ name }}" class="btn btn btn-round" type="button"
-                                    onclick="toggleVisible('servers-for-{{ name }}', 'toggle-{{ name }}', 'Servers', 'Servers')">
-                                    <span class="mdi mdi-chevron-double-down"></span> Servers <span class="mdi mdi-chevron-double-down"></span>
-                                    </button>
+                            <div class="col-10 server-desc">
+                                <p style="margin:5px 30px 5px 0">{{{ description }}}</p>
+                                {{#if v1-url }}
+                                <div>
+                                    <div style="width:85px; float:left; margin-top:15px">V1 Base URL</div>
+                                    <div class="server-url">
+                                        <a target="_blank" href="{{ v1-url }}calls">
+                                            <pre><code>{{ v1-url }}</code></pre>
+                                        </a>
+                                    </div>
+                                </div>
+                                {{/if}}
+                                {{#if v2-url }}
+                                <div>
+                                    <div style="width:85px; float:left; margin-top:15px">V2 Base URL</div>
+                                    <div class="server-url">
+                                        <a target="_blank" href="{{ v2-url }}serverinfo">
+                                            <pre><code>{{ v2-url }}</code></pre>
+                                        </a>
+                                    </div>
+                                </div>
+                                {{/if}}
                             </div>
                         </div>
+                        {{/each}}
                     </div>
-                    {{/each}}
+                    <div class="brapp-details-btn" style="margin-bottom: 10px;">
+                        <button id="toggle-{{ name }}" class="btn btn-secondary btn-light-gray" type="button"
+                            onclick="toggleVisible('servers-for-{{ name }}', 'toggle-{{ name }}', 'Servers', 'Servers')">
+                            <span class="mdi mdi-chevron-double-down"></span>
+                            Servers
+                            <span class="mdi mdi-chevron-double-down"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
+            {{/each}}
         </div>
     </div>
 </section>

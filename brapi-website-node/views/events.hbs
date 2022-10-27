@@ -6,7 +6,7 @@
             </div>
             {{#each currentEvents}}
             <div class="row justify-content-center" style="margin: 20px 0 0 0">
-                <div class="col-7">
+                <div class="col-8">
                     <div class="widget-posts-image" style="margin: 0 10px 0 0; width: 90px;">
                         <img src="{{ image }}" alt="{{ title }} Thumbnail" />
                     </div>
@@ -36,7 +36,6 @@
                     {{/each}}
                 </div>
             </div>
-            <hr class="divider-w">
             {{/each}}
         </div>
     </section>
@@ -56,11 +55,11 @@
 <div>
     <section class="module-extra-small bg-light">
         <div class="container">
-            <div class="row">
+            <div class="row" style="margin-bottom: 25px;">
                 <h2 class="col-sm-2">Past Events</h2>
 
                 <div class="col" style="margin: 8px 0 0 0">
-                    <button id="toggle-button" class="btn btn-light" style="border: lightgray 1px solid;" type="button"
+                    <button id="toggle-button" class="btn btn-secondary btn-light-gray" type="button"
                         onclick="toggleVisible('past-event-list', 'toggle-button', 'Show Less;', 'Show More')">
                         {{#if currentEvents}}
                         <span class="mdi mdi-chevron-double-down"></span> Show More <span
@@ -74,7 +73,7 @@
             </div>
             <div id="past-event-list" {{#if currentEvents}}style="display: none;" {{/if}}>
                 {{#each pastEvents}}
-                <div class="row justify-content-center" style="margin: 20px 0 0 0">
+                <div class="row justify-content-center" style="margin: 10px 0 20px 0">
                     <div class="col-7">
                         <div>
                             <div class="widget-posts-image" style="margin: 0 10px 0 0; width: 90px;">

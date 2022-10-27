@@ -62,45 +62,48 @@
                     providing advice and guidance to support the Project Management group. They are also responsible for
                     representing the community in making long term project decisions. </p>
                 <div class="link-btn">
-                    <a href="/brapiAdvisoryBoard" class="btn btn-default btn-round">Roles and Responsibilities </a>
+                    <a href="/brapiAdvisoryBoard" class="btn btn-sm btn-outline-success col-3">Roles and
+                        Responsibilities </a>
                     <a href="/docs/BrAPI_Advisory_Board_Candidate_Report_TEMPLATE.docx"
-                        class="btn btn-default btn-round">Nominate A New Board Member</a>
-                    <a href="/advisoryBoardCandidates" class="btn btn-default btn-round">New Board Member Candidates</a>
+                        class="btn btn-sm btn-outline-success col-3">Nominate A New Board Member</a>
+                    <a href="/advisoryBoardCandidates" class="btn btn-sm btn-outline-success col-3">New Board Member
+                        Candidates</a>
                 </div>
             </div>
 
-            {{#each board}}
-            <div class="col-sm-12 col-md-5 brapp">
-                {{#if orcid }}
-                <a target="_blank" href="{{ orcid }}">
-                    {{/if}}
-                    <div class="row brapp-box">
-                        <div class="brapp-thumbnail col-sm-3" style="min-height: 102px;">
-                            {{#if pic }}
-                            <span></span>
-                            <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90"
-                                style="margin: 5px auto 5.6px auto;">
-                            {{else}}
-                            <span class="mdi mdi-account-box fa-lg"
-                                style="font-size: 6.5em; line-height: 1.1em;"></span>
-                            {{/if}}
-                        </div>
-                        <div class="font-alt col-sm-9">
-                            <h3 style="margin: 10px 0 5px 0">{{ name }}
-                                {{#if orcid }} <img alt="ORCID logo"
-                                    src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="20"
-                                    height="20" /> {{/if}}</h3>
-                            <p style="margin: 0">{{ title }}</p>
-                            <p style="margin: 0">{{ org }}</p>
-                        </div>
-                    </div>
-
+            <div class="row justify-content-around" style="margin: 30px 0;">
+                {{#each board}}
+                <div class="col-sm-12 col-md-5 brapp">
                     {{#if orcid }}
-                </a>
-                {{/if}}
-            </div>
-            {{/each}}
+                    <a target="_blank" href="{{ orcid }}">
+                        {{/if}}
+                        <div class="row brapp-box">
+                            <div class="brapp-thumbnail col-sm-3" style="min-height: 102px;">
+                                {{#if pic }}
+                                <span></span>
+                                <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90"
+                                    style="margin: 5px auto 5.6px auto;">
+                                {{else}}
+                                <span class="mdi mdi-account-box fa-lg"
+                                    style="font-size: 6.5em; line-height: 1.1em;"></span>
+                                {{/if}}
+                            </div>
+                            <div class="font-alt col-sm-9">
+                                <h3 style="margin: 10px 0 5px 0">{{ name }}
+                                    {{#if orcid }} <img alt="ORCID logo"
+                                        src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"
+                                        width="20" height="20" /> {{/if}}</h3>
+                                <p style="margin: 0">{{ title }}</p>
+                                <p style="margin: 0">{{ org }}</p>
+                            </div>
+                        </div>
 
+                        {{#if orcid }}
+                    </a>
+                    {{/if}}
+                </div>
+                {{/each}}
+            </div>
         </div>
     </div>
 </section>

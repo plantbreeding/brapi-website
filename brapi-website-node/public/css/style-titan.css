@@ -985,7 +985,7 @@ blockquote {
     text-align: center;
     font-size: 16px;
     color: #111;
-    margin-bottom: 15px;
+    margin: 20px auto 10px auto;
 }
 
 .module-icon {
@@ -1338,9 +1338,11 @@ General Styles - Owlcarousel
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 11px;
+    font-size: 15px;
     transition: background, padding 0.4s ease-in-out 0s;
     padding: 2px 0 2px 0;
+    --bs-nav-link-color: rgba(255, 255, 255, 0.7);
+    --bs-nav-link-font-size: 15px;
 }
 
 .nav-link:hover,
@@ -1410,10 +1412,11 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .dropdown-toggle:after {
-    border-top: .5em solid #eee;
-    border-right: .5em solid transparent #eee;
+    border-top: 0.6em solid #eee;
+    border-right: .4em solid transparent;
     border-bottom: 0;
-    border-left: .5em solid transparent #eee;
+    border-left: .4em solid transparent;
+    vertical-align: 0.1em;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
@@ -1422,7 +1425,7 @@ General Styles - Owlcarousel
 
 .dropdown-menu {
     min-width: 180px;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .fa-lg {
