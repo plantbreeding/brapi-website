@@ -57,6 +57,8 @@ function renderLinksPage(title, type, res) {
     });
 }
 
+router.get('/brapps.php', function(req, res, next) { res.redirect('/brapps') });
+
 router.get('/brapps', function(req, res, next) {
     var brapps = require('../public/json/brapps.json');
 

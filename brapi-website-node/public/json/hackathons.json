@@ -44,7 +44,8 @@
             { "name": "Zack Miller", "org": "Cornell University, Buckler Lab", "email": "zrm22@cornell.edu", "session1": false, "session2": true },
             { "name": "Ana Berthel", "org": "Cornell University, Buckler Lab", "email": "ahb232@cornell.edu", "session1": false, "session2": true },
             { "name": "Mariano Crimi", "org": "IBP", "email": "m.crimi@cgiar.org", "session1": true, "session2": false },
-            { "name": "Ajay Siluveru", "org": "John Innes Centre ", "email": "ajaysiluveru@gmail.com", "session1": false, "session2": true }
+            { "name": "Ajay Siluveru", "org": "John Innes Centre ", "email": "ajaysiluveru@gmail.com", "session1": false, "session2": true },
+            { "name": "Cyril Pommier", "org": "INRAE", "email": "cyril.pommier@inrae.fr", "session1": true, "session2": false }
         ],
         "projects": [
             { "team": null, "title": "U of Manatoba BrAPI Implementation", "description": "Integration of BRAPI in university bioinformatics system ", "needs": null, "repo": null },
@@ -78,35 +79,33 @@
         }, {
             "discussion": "BrAPI Advisory Board Nominations - Informational Session",
             "slides": "https://docs.google.com/presentation/d/1m6hl5QCh4WXjO1L_R7Ot-OXg_g0GHF-A/edit",
-            "session2": null
+            "session2": "https://youtu.be/OSsafwzZvsI"
         }, {
             "discussion": "Community Sabbaticals - Informational Session",
             "slides": "https://docs.google.com/presentation/d/1MY9PRHTDwzMpS6_RH6ZgqoKL1Ropa_d3/edit",
             "session1": "https://youtu.be/_MNGwJcxAqY",
-            "session2": null
+            "session2": "https://youtu.be/NiK4b1GXk6c"
         }, {
             "discussion": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper",
             "meetingNotes": "https://docs.google.com/document/d/1t7BzV3_8CkvAmukZ0gpz_9Ukvmz9N5XwVRTN8RUk0w4/edit",
             "session1": "https://youtu.be/fMSYUIXj3JA",
-            "session2": null
+            "session2": "https://youtu.be/YowyhknxYnw"
         }, {
             "discussion": "Analytics WG - New Working Group Interest Meeting",
             "meetingNotes": "https://docs.google.com/document/d/141Di0QiT2jW1mHELwZbA3B4GEgqYtSRLAONh1yaiDT4/edit",
-            "session1": null,
-            "session2": null
+            "session2": "https://youtu.be/OzRU3v_FjkQ"
         }, {
             "discussion": "GraphQL WG - New Working Group Interest Meeting",
             "meetingNotes": "https://docs.google.com/document/d/1RQQ9QwVZezNKFtBbAn_i_pj7HUHykgvSOHQ-W8dVL38/edit",
-            "session1": null,
-            "session2": null
+            "session2": "https://youtu.be/hAOyapEjvuI"
         }, {
             "discussion": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps",
-            "nothing": true
+            "meetingNotes": "https://docs.google.com/document/d/16EDmjlt3DbHQoYy9Kl7Y0x6vS5tdGCyFHFV26S618lM/edit",
+            "session2": "https://youtu.be/wbakzJOdETc"
         }, {
             "discussion": "Project presentations and wrap up",
             "session1": null,
-            "session2": null,
-            "nothing": true
+            "session2": null
         }],
         "agenda": [{
             "date": "Monday, October 24, 2022",
