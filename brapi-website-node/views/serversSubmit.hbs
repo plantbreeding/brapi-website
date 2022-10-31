@@ -2,25 +2,25 @@
     <div class="container">
         <div class="row">
             <div id="submitServerContainer"
-                class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
-                <div class="col-xs-12">
-                    <div class="col-xs-12" style="color: black">
+                class="offset-xs-1 col-sm-10 offset-sm-2 col-sm-8 offset-md-3 col-md-6">
+                <div class="col-sm-12">
+                    <div class="col-sm-12" style="color: black">
                         Add a BrAPI compliant server to the list here. Please note all submissions are reviewed and will
                         not appear immediately.
                     </div>
 
-                    <div class="col-xs-12" style="margin-top: 20px; margin-bottom: 10px;">
+                    <div class="col-sm-12" style="margin-top: 20px; margin-bottom: 10px;">
                         <hr class="divider-w">
                     </div>
 
                     <form id="submitServerForm">
-                        <div class="col-xs-12">
+                        <div class="col-sm-12">
                             <input type="radio" id="existingOrgTrue" name="existingOrg" value="true" checked>
                             <label for="existingOrgTrue">Existing Organization</label><br>
                             <input type="radio" id="existingOrgFalse" name="existingOrg" value="false">
                             <label for="existingOrgFalse">New Organization</label><br>
                         </div>
-                        <div id="existingOrgForm" class="col-xs-12">
+                        <div id="existingOrgForm" class="col-sm-12">
                             <div><label for="orgsList" style="font-weight: 600;">Organization: </label></div>
                             <select name="orgsList" id="orgsList" style="width: 100%; color: #000;">
                                 {{#each providers}}
@@ -29,44 +29,44 @@
                             </select>
                         </div>
                         <div id="newOrgForm" style="display: none;">
-                            <div class="col-xs-12"> <label for="orgNameInput" style="font-weight: 600;"> Organization Name:</label></div>
-                            <div class="col-xs-12"><input id="orgNameInput" type="text" name="orgName"
+                            <div class="col-sm-12"> <label for="orgNameInput" style="font-weight: 600;"> Organization Name:</label></div>
+                            <div class="col-sm-12"><input id="orgNameInput" type="text" name="orgName"
                                     style="width:100%" />
                             </div>
-                            <div class="col-xs-12"> <label for="orgDescInput" style="font-weight: 600;"> Organization Description:</label></div>
-                            <div class="col-xs-12"><textarea id="orgDescInput" name="orgDesc"
+                            <div class="col-sm-12"> <label for="orgDescInput" style="font-weight: 600;"> Organization Description:</label></div>
+                            <div class="col-sm-12"><textarea id="orgDescInput" name="orgDesc"
                                     style="width:100%"></textarea>
                             </div>
-                            <div class="col-xs-12"> <label for="orgLogoInput" style="font-weight: 600;"> Organization Logo URL:</label></div>
-                            <div class="col-xs-12"><input id="orgLogoInput" type="text" name="orgLogo"
+                            <div class="col-sm-12"> <label for="orgLogoInput" style="font-weight: 600;"> Organization Logo URL:</label></div>
+                            <div class="col-sm-12"><input id="orgLogoInput" type="text" name="orgLogo"
                                     style="width:100%" />
                             </div>
                         </div>
 
-                        <div class="col-xs-12" style="margin-top: 20px; margin-bottom: 10px;">
+                        <div class="col-sm-12" style="margin-top: 20px; margin-bottom: 10px;">
                             <hr class="divider-w">
                         </div>
 
-                        <div class="col-xs-12"> <label for="serverNameInput" style="font-weight: 600;"> Server Name:</label></div>
-                        <div class="col-xs-12"><input id="serverNameInput" type="text" name="serverName"
+                        <div class="col-sm-12"> <label for="serverNameInput" style="font-weight: 600;"> Server Name:</label></div>
+                        <div class="col-sm-12"><input id="serverNameInput" type="text" name="serverName"
                                 style="width:100%" />
                         </div>
-                        <div class="col-xs-12"> <label for="serverDescInput" style="font-weight: 600;"> Server Description:</label></div>
-                        <div class="col-xs-12"><textarea id="serverDescInput" name="serverDesc"
+                        <div class="col-sm-12"> <label for="serverDescInput" style="font-weight: 600;"> Server Description:</label></div>
+                        <div class="col-sm-12"><textarea id="serverDescInput" name="serverDesc"
                                 style="width:100%"></textarea>
                         </div>
-                        <div class="col-xs-12"> <label for="serverV1Input" style="font-weight: 600;"> Server V1 URL (ending with "/brapi/v1"):</label></div>
-                        <div class="col-xs-12"><input id="serverV1Input" type="url" name="serverV1Url"
+                        <div class="col-sm-12"> <label for="serverV1Input" style="font-weight: 600;"> Server V1 URL (ending with "/brapi/v1"):</label></div>
+                        <div class="col-sm-12"><input id="serverV1Input" type="url" name="serverV1Url"
                                 style="width:100%" />
                         </div>
-                        <div class="col-xs-12"> <label for="serverV2Input" style="font-weight: 600;"> Server V2 URL (ending with "/brapi/v2"):</label></div>
-                        <div class="col-xs-12"><input id="serverV2Input" type="url" name="serverV2Url"
+                        <div class="col-sm-12"> <label for="serverV2Input" style="font-weight: 600;"> Server V2 URL (ending with "/brapi/v2"):</label></div>
+                        <div class="col-sm-12"><input id="serverV2Input" type="url" name="serverV2Url"
                                 style="width:100%" />
                         </div>
 
-                        <div class="col-xs-12">Badges:</div>
+                        <div class="col-sm-12">Badges:</div>
                         {{#each badges }}
-                        <div class="col-xs-6">
+                        <div class="col-sm-6">
                             <input id="badge-{{ @key }}" type="checkbox" name="badge-{{ @key }}" value="{{ @key }}"
                                 style="float: left; margin: 9px 0 0 5px;" />
                             <div class="badge-holder">
@@ -78,7 +78,7 @@
                         </div>
                         {{/each}}
 
-                        <div class="col-xs-4" style="text-align: center;">
+                        <div class="col-sm-4" style="text-align: center;">
                             <input type="submit" value="Submit For Review" class="btn btn-d btn-round"
                                 style="margin: 20px auto;">
                         </div>

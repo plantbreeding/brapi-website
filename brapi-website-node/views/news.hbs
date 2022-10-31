@@ -1,4 +1,4 @@
-<section class="module-small">
+<section class="module-extra-small">
     <div class="container">
         <div class="row">
             <div class="col-sm-12" id="brapi-posts">
@@ -6,20 +6,21 @@
                 {{#each posts}}
                 <div class="post" style="min-height: 55px; margin-bottom: 25px;">
                     <div class="post-header font-alt">
-                        <h2 class="post-title"><a href="/news/{{ @key }}">{{ title }}</a></h2>
-                        <div class="post-meta">By&nbsp;{{ author }} | {{ date }}
-                        </div>
+                        <a href="/news/{{ @key }}">
+                            <h2 class="post-title">{{ title }}</h2>
+                            <div class="post-meta">By {{ author }} | {{ date }}</div>
+                        </a>
                     </div>
                 </div>
                 {{/each}}
                 {{else}}
-                <a href="/news" style="text-decoration: none;">
-                    <button class="btn btn-d btn-round mb-20" type="button">&lt; Back</button>&nbsp;
+                <a href="/news" style="margin: 10px 0;" class="btn btn-sm btn-outline-success col-1">
+                    &lt; Back
                 </a>
                 <div class="post" style="min-height: 55px; margin-bottom: 25px;">
                     <div class="post-header font-alt">
                         <h2 class="post-title">{{ post.title }}</h2>
-                        <div class="post-meta">By&nbsp;{{ post.author }} | {{ post.date }}
+                        <div class="post-meta">By {{ post.author }} | {{ post.date }}
                         </div>
                     </div>
                     <div class="post-entry">

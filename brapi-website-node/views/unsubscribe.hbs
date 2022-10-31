@@ -1,19 +1,20 @@
-<section class="module-small" style="min-height: 470px;">
+<section class="module-extra-small" style="min-height: 470px;">
     <div class="container">
-        <div class="row">
-            <div id="mailingListUnsubscribeContainer"
-                class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
-                <div class="col-xs-12" style="color: black;">
+        <div class="row justify-content-center">
+            <div id="mailingListUnsubscribeContainer" class="col-7">
+                <div class="col-12" style="color: black; margin-bottom: 10px;">
                     <h2 style="font-size: 16px;"> Unsubscribe from the BrAPI Mailing List </h2>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-sm-12">
                     <form id="mailingListUnsubscribeForm">
-                        <div class="col-xs-12"><label for="emailInput" style="font-weight: 600;">Email Address: </label></div>
-                        <div class="col-xs-12"><input id="emailInput" type="text" name="email" style="width:100%" />
-                        </div>
-                        <div class="col-sm-offset-4 col-xs-4">
-                            <input type="submit" value="Submit" class="btn btn-d btn-round"
-                                style="margin-top: 10px; margin-bottom: 10px; width:100%;">
+                        <div class="row justify-content-center">
+                            <div class="col-12"><label for="emailInput" style="font-weight: 600;">Email Address:
+                                </label></div>
+                            <div class="col-12"><input id="emailInput" type="text" name="email" style="width:100%" />
+                            </div>
+                            <div class="col-sm-4" style="margin: 30px 0;">
+                                <input type="submit" value="Submit" class="btn btn-sm btn-outline-success col-12">
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -21,7 +22,7 @@
         </div>
     </div>
 </section>
-<script type="text/plain"  cookie-consent="strictly-necessary">
+<script type="text/plain" cookie-consent="strictly-necessary">
 
     $(document).ready(function () {
         $("#mailingListUnsubscribeForm").submit(function (event) {

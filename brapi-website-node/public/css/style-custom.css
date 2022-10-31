@@ -1,3 +1,9 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
 .brapi-sponsor-tag-img {
     height: 50px;
     border-bottom: 1px solid lightgray;
@@ -104,7 +110,7 @@
 }
 
 .brapi-section {
-    margin: 0 0 15px 0;
+    margin: 7px 0 15px 0;
 }
 
 .brapi-section-description {
@@ -130,11 +136,12 @@
 }
 
 .provider-thumbnail {
-    margin: 5px 0;
-    width: 100px;
-    height: 100px;
+    margin: 15px auto;
     white-space: nowrap;
     text-align: center;
+    min-height: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .provider-thumbnail span {
@@ -145,8 +152,6 @@
 
 .provider-thumbnail img {
     vertical-align: middle;
-    max-height: 100px;
-    max-width: 100px;
 }
 
 .brapp-header {
@@ -212,7 +217,7 @@ h2 {
 }
 
 .badge-holder {
-    margin: 2px auto auto 30px;
+    margin: 5px auto auto auto;
 }
 
 .badge {
@@ -236,7 +241,7 @@ h2 {
 }
 
 .server-desc {
-    margin: 8px 0 0 30px;
+    margin: 10px auto auto auto;
 }
 
 pre.token {
@@ -330,4 +335,32 @@ span.custom-bullet-point {
 span.custom-bullet-point+span {
     vertical-align: top;
     line-height: 50px;
+}
+
+p.justified {
+    text-align: justify;
+    text-justify: inter-character;
+}
+
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+pre code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
 }

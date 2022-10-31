@@ -182,11 +182,11 @@ a,
 /* Module header */
 
 .module-small {
-    padding: 70px 0;
+    padding: 100px 0 60px 0;
 }
 
 .module-extra-small {
-    padding: 25px 0px;
+    padding: 30px 0 10px 0;
 }
 
 .module-medium {
@@ -675,8 +675,7 @@ a,
 
 .btn {
     border-radius: 0;
-    font-family: "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
+    font-family: inherit;
     letter-spacing: 2px;
     font-size: 11px;
     padding: 8px 37px;
@@ -781,13 +780,14 @@ a,
 
 .btn.btn-lg {
     padding: 12px 45px;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .btn.btn-sm {
-    padding: 6px 25px;
-    font-size: 10px;
-    letter-spacing: 1px;
+    padding: 6px 0;
+    font-size: 12px;
+    letter-spacing: 0px;
+    font-weight: bold;
 }
 
 .btn.btn-xs {
@@ -818,6 +818,17 @@ a,
 
 .image-button {
     margin: 0px 5px;
+}
+
+.btn-light-gray {
+    --bs-btn-color: #000;
+    --bs-btn-bg: rgb(223, 223, 223);
+    --bs-btn-border-color: rgb(223, 223, 223);
+}
+
+.btn-outline-success {
+    --bs-btn-color: #000;
+    --bs-btn-border-color: #000;
 }
 
 
@@ -923,6 +934,10 @@ h6 {
     font-weight: 400;
 }
 
+h4 {
+    font-size: 1.2rem;
+}
+
 p,
 ol,
 ul,
@@ -970,7 +985,7 @@ blockquote {
     text-align: center;
     font-size: 16px;
     color: #111;
-    margin-bottom: 15px;
+    margin: 20px auto 10px auto;
 }
 
 .module-icon {
@@ -1323,8 +1338,16 @@ General Styles - Owlcarousel
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 11px;
+    font-size: 15px;
     transition: background, padding 0.4s ease-in-out 0s;
+    padding: 2px 0 2px 0;
+    --bs-nav-link-color: rgba(255, 255, 255, 0.7);
+    --bs-nav-link-font-size: 15px;
+}
+
+.nav-link:hover,
+.nav-link.disabled {
+    color: #eee;
 }
 
 .navbar a {
@@ -1389,19 +1412,11 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .dropdown-toggle:after {
-    position: absolute;
-    right: -6px;
-    top: 50%;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-image: url('/images/arrow_drop_down_white.png');
-    background-size: 25px 25px;
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    content: "";
-    margin: -13px 0 0 0;
+    border-top: 0.6em solid #eee;
+    border-right: .4em solid transparent;
+    border-bottom: 0;
+    border-left: .4em solid transparent;
+    vertical-align: 0.1em;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
@@ -1410,7 +1425,7 @@ General Styles - Owlcarousel
 
 .dropdown-menu {
     min-width: 180px;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .fa-lg {
@@ -1441,6 +1456,7 @@ General Styles - Owlcarousel
 
 .navbar a.navbar-brand {
     height: 60px;
+    display: inline-block;
 }
 
 @media (max-width: 767px) {
@@ -2347,7 +2363,11 @@ Google map
 	Blog Post
 --------------------------------------------------------------*/
 
-p>a {
+a {
+    text-decoration: none;
+}
+
+p a {
     text-decoration: underline;
 }
 

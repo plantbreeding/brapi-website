@@ -1,28 +1,20 @@
-<section class="module-small" style="min-height: 470px;">
+<section class="module-extra-small" style="min-height: 470px;">
     <div class="container">
-
-        <div class="row">
-            <div class="col-xs-12" style="margin: 35px 0 10px 0;">
-                <div class="link-btn">
-                    {{#if pollsOpen}}
-                    <a target="_blank"
-                        href="https://app.rankedvote.co/decisions/24518/BrAPI-Advisory-Board-2022/25370/vote"
-                        class="btn btn-d btn-round col-xs-3"
-                        style="font-size:medium; padding-top:16px; padding-bottom:16px;">Vote Now!! </a>
-                    {{else}}
-                    <a target="_blank"
-                        href="https://app.rankedvote.co/decisions/24518/BrAPI-Advisory-Board-2022/25370/vote?preview=true"
-                        class="btn btn-d btn-round col-xs-3"
-                        style="font-size:medium; padding-top:16px; padding-bottom:16px;">Preview Ballot </a>
-                    {{/if}}
-                    <p class="col-xs-8">Voting will begin Tuesday, Nov 1, 2022 <br> Voting will end Tuesday, Nov 15,
-                        2022 </p>
-                </div>
-            </div>
+        <div class="row link-btn" style="margin: 35px 0 10px 0;">
+            {{#if pollsOpen}}
+            <a target="_blank" href="https://app.rankedvote.co/decisions/24518/BrAPI-Advisory-Board-2022/25370/vote"
+                class="btn btn-lg btn-success col-3">Vote Now!! </a>
+            {{else}}
+            <a target="_blank"
+                href="https://app.rankedvote.co/decisions/24518/BrAPI-Advisory-Board-2022/25370/vote?preview=true"
+                class="btn btn-lg btn-success col-3">Preview Ballot </a>
+            {{/if}}
+            <p class="col-8" style="margin: 0;">
+                Voting will begin Tuesday, Nov 1, 2022 <br> Voting will end Tuesday, Nov 15, 2022 </p>
         </div>
         <div class="row">
             {{#each candidates}}
-            <div id="candidate-{{@index}}" class="col-xs-12" style="margin: 10px 0 10px 0; scroll-margin-top: 75px;">
+            <div id="candidate-{{@index}}" class="col-12" style="margin: 10px 0 10px 0; scroll-margin-top: 75px;">
                 <h2> {{ name }} </h2>
                 <p style="font-weight: bold; font-style: italic;">
                     <span class="mdi mdi-account" style="margin: 0 5px 0 0;"></span>{{ title }}
@@ -31,40 +23,34 @@
                 </p>
                 <p>{{{motivation}}}</p>
                 <div>
-                    <button id="toggle-overview" class="btn btn-round col-xs-12" type="button"
+                    <button id="toggle-overview" class="btn btn-secondary btn-light-gray col-12" type="button"
                         onclick="toggleCandidateExpirience('{{@index}}')">Technical
                         Expirience (show/hide)</button>
                 </div>
-                <div id="expirience-{{@index}}" class="expirience-group" style="display: none;">
-                    {{#each experience}}
-
-                    <div class="col-xs-6" style="margin: 10px 0 10px 0;">
-                        <p><span style="font-weight: bold;">{{title}}</span><br>{{{text}}}</p>
+                <div id="expirience-{{@index}}" class="rexpirience-group" style="display: none;">
+                    <div class="row">
+                        {{#each experience}}
+                        <div class="col-5" style="margin: 10px 0 10px 0;">
+                            <p><span style="font-weight: bold;">{{title}}</span><br>{{{text}}}</p>
+                        </div>
+                        {{/each}}
                     </div>
-                    {{/each}}
                 </div>
             </div>
             {{/each}}
         </div>
 
-        <div class="row">
-            <div class="col-xs-12" style="margin: 35px 0 10px 0;">
-                <div class="link-btn">
-                    {{#if pollsOpen}}
-                    <a target="_blank"
-                        href="https://app.rankedvote.co/decisions/24518/BrAPI-Advisory-Board-2022/25370/vote"
-                        class="btn btn-d btn-round col-xs-3"
-                        style="font-size:medium; padding-top:16px; padding-bottom:16px;">Vote Now!! </a>
-                    {{else}}
-                    <a target="_blank"
-                        href="https://app.rankedvote.co/decisions/24518/BrAPI-Advisory-Board-2022/25370/vote?preview=true"
-                        class="btn btn-d btn-round col-xs-3"
-                        style="font-size:medium; padding-top:16px; padding-bottom:16px;">Preview Ballot </a>
-                    {{/if}}
-                    <p class="col-xs-8">Voting will begin Tuesday, Nov 1, 2022 <br> Voting will end Tuesday, Nov 15,
-                        2022 </p>
-                </div>
-            </div>
+        <div class="row link-btn" style="margin: 35px 0 10px 0;">
+            {{#if pollsOpen}}
+            <a target="_blank" href="https://app.rankedvote.co/decisions/24518/BrAPI-Advisory-Board-2022/25370/vote"
+                class="btn btn-lg btn-success col-3">Vote Now!! </a>
+            {{else}}
+            <a target="_blank"
+                href="https://app.rankedvote.co/decisions/24518/BrAPI-Advisory-Board-2022/25370/vote?preview=true"
+                class="btn btn-lg btn-success col-3">Preview Ballot </a>
+            {{/if}}
+            <p class="col-8" style="margin: 0;">
+                Voting will begin Tuesday, Nov 1, 2022 <br> Voting will end Tuesday, Nov 15, 2022 </p>
         </div>
     </div>
 </section>
