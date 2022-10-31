@@ -4,16 +4,11 @@
         "date": "October 24, 2022 - October 28, 2022",
         "image": "/images/events/home6_thumb.jpg",
         "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from October 24-28, 2022. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [{
-                "name": "Event Page",
-                "url": "/events/hackathon-oct-2022"
-            },
-            {
-                "name": "Register Here",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSca4PpcQQT1ndxYJIxjctYTltOPO9uJwUZVgZ8IpgeGkVD68g/viewform?usp=sf_link"
-            }
-        ]
+            "name": "Event Page",
+            "url": "/events/hackathon-oct-2022"
+        }]
     }, {
         "title": "BrAPI Virtual Hackathon",
         "location": "Virtual",
@@ -22,14 +17,9 @@
         "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from April 25-29, 2022. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
         "upcoming": false,
         "links": [{
-                "name": "Event Page",
-                "url": "/events/hackathon-apr-2022"
-            },
-            {
-                "name": "Register Here",
-                "url": "https://forms.gle/YhfyQphw75u8BuJu9"
-            }
-        ]
+            "name": "Event Page",
+            "url": "/events/hackathon-apr-2022"
+        }]
     },
     {
         "title": "FOSDEM 22",
@@ -56,14 +46,9 @@
         "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from Oct 4-8, 2021. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
         "upcoming": false,
         "links": [{
-                "name": "Event Page",
-                "url": "/events/hackathon-oct-2021"
-            },
-            {
-                "name": "Sign Up Now",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLScH8L3M_0r7uqi1rvjWe7EJn01VC5DFg6tFv4x33YbZxIvcWw/viewform"
-            }
-        ]
+            "name": "Event Page",
+            "url": "/events/hackathon-oct-2021"
+        }]
     },
     {
         "title": "BOSC 2021",
@@ -90,14 +75,9 @@
         "description": "<p>Join the BrAPI community for two weeks of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from March 8-19, 2021. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
         "upcoming": false,
         "links": [{
-                "name": "Event Page",
-                "url": "/events/hackathon-mar-2021"
-            },
-            {
-                "name": "Sign Up Now",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLScCBIy57jhOEauA0-zvubVdzLE6xnfBXqI0NS9E4te5Ea-DfQ/viewform"
-            }
-        ]
+            "name": "Event Page",
+            "url": "/events/hackathon-mar-2021"
+        }]
     },
     {
         "title": "Hyderabad Hackathon",
@@ -107,10 +87,6 @@
         "description": "<p>The next BrAPI Hackathon will take place at ICRISAT Headquarters in Hyderabad, February 3rd through February 7th, 2020. Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. </p>",
         "upcoming": false,
         "links": [{
-                "name": "Sign Up Now",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSf0ffj_suSWSxXajv5vpyWIUdz_F3I6ApLNV91uSmkTFgZ1mA/viewform?usp=sf_link"
-            },
-            {
                 "name": "Agenda",
                 "url": "https://docs.google.com/document/d/1av3E39rRSH9FETnLqyGCTFOMItHgz3SuMIz5T1L5ZKM"
             },
