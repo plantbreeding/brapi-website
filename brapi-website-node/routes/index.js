@@ -112,7 +112,7 @@ router.get('/advisoryBoardCandidates', function(req, res, next) {
     }
 
     res.render('advisoryBoardCandidates', {
-        pollsOpen: false,
+        pollsOpen: true,
         candidates: candidates,
         title: 'Advisory Board Candidates',
         footerEvents: require('./events').getTrailerEvents(),
