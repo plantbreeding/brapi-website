@@ -326,6 +326,11 @@ p.agenda-row {
     margin: 10px 0 20px 30px;
 }
 
+.news-post-links>a {
+    width: 100%;
+    display: block;
+}
+
 span.custom-bullet-point {
     font-size: 30px;
     margin: 0 10px 0 0;
