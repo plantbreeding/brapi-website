@@ -1338,11 +1338,11 @@ General Styles - Owlcarousel
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 15px;
+    font-size: 14px;
     transition: background, padding 0.4s ease-in-out 0s;
     padding: 2px 0 2px 0;
     --bs-nav-link-color: rgba(255, 255, 255, 0.7);
-    --bs-nav-link-font-size: 15px;
+    --bs-nav-link-font-size: 14px;
 }
 
 .nav-link:hover,

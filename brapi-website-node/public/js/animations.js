@@ -9,6 +9,9 @@
 
     $(document).ready(function() {
 
+        var year = new Date().getFullYear();
+        $('.copyright').text('\u00A9 ' + year + ' BrAPI, All Rights Reserved');
+
         /* ---------------------------------------------- /*
          * Scroll top
          /* ---------------------------------------------- */
@@ -101,41 +104,6 @@
                 }
             }
         }
-
-        /* ---------------------------------------------- /*
-         * Intro slider setup
-         /* ---------------------------------------------- */
-
-        if ($('.hero-slider').length > 0) {
-            $('.hero-slider').flexslider({
-                animation: "fade",
-                animationSpeed: 1000,
-                animationLoop: true,
-                prevText: '',
-                nextText: '',
-                before: function(slider) {
-                    $('.titan-caption').fadeOut().animate({ top: '-80px' }, { queue: false, easing: 'swing', duration: 700 });
-                    slider.slides.eq(slider.currentSlide).delay(500);
-                    slider.slides.eq(slider.animatingTo).delay(500);
-                },
-                after: function(slider) {
-                    $('.titan-caption').fadeIn().animate({ top: '0' }, { queue: false, easing: 'swing', duration: 700 });
-                },
-                useCSS: true
-            });
-        }
-
-
-        /* ---------------------------------------------- /*
-         * Rotate
-         /* ---------------------------------------------- */
-
-        $(".rotate").textrotator({
-            animation: "dissolve",
-            separator: "|",
-            speed: 3000
-        });
-
 
         /* ---------------------------------------------- /*
          * Transparent navbar animation
@@ -240,18 +208,6 @@
                 itemSelector: '.work-item'
             });
         });
-
-        /* ---------------------------------------------- /*
-         * Testimonials
-         /* ---------------------------------------------- */
-
-        if ($('.testimonials-slider').length > 0) {
-            $('.testimonials-slider').flexslider({
-                animation: "slide",
-                smoothHeight: true
-            });
-        }
-
 
         /* ---------------------------------------------- /*
          * Scroll Animation

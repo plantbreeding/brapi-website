@@ -7,15 +7,15 @@
         {{#each v2}}
         <div class="row brapi-section {{#if isCurrent}} current-brapi-section {{/if}} {{#if isPreview}} preview-brapi-section {{/if}}"
             style="padding: 7px 10px; border: 1px solid lightgray">
-            <h3 class="brapi-section-title col-sm-3 col-md-2">{{version}}<br />{{status}}</h3>
-            <div class="col-sm-9 col-md-10">
+            <h3 class="brapi-section-title col-3 col-md-2">{{version}}<br />{{status}}</h3>
+            <div class="col-9 col-md-10">
                 <div class="row brapi-section">
                     <div class="brapi-section-description">
                         <p style="margin: 0 10px 0 10px;">{{{description}}}</p>
                     </div>
                     {{#each links}}
-                    <div class="link-btn col-sm-6 col-md-3 col-lg-2">
-                        <a target="_blank" href="{{URL}}" class="btn btn-sm btn-outline-success col-sm-12">{{label}}
+                    <div class="link-btn col-6 col-md-3 col-lg-2">
+                        <a target="_blank" href="{{URL}}" class="btn btn-sm btn-outline-success col-12">{{label}}
                         </a>
                     </div>
                     {{/each}}
@@ -37,26 +37,26 @@
 
             <div id="id-{{ version }}" class="row brapi-section"
                 style="background-color: white; {{#unless isCurrent}}display: none;{{/unless}}">
-                <div class="col-sm-12">
+                <div class="col-12">
                     {{#each modules}}
                     <div class="row brapi-section">
-                        <h4 class="brapi-section-subtitle col-sm-3 col-lg-2">{{name}}</h4>
+                        <h4 class="brapi-section-subtitle col-3 col-lg-2">{{name}}</h4>
                         <div class="col">
                             <div class="brapi-section-description">{{description}}</div>
                             <div class="row">
-                                <div class="link-btn col-sm-6 col-md-3 col-lg-2">
+                                <div class="link-btn col-6 col-md-3 col-lg-2">
                                     <a target="_blank" href="{{githubURL}}"
-                                        class="btn btn-sm btn-outline-success col-sm-12">GitHub
+                                        class="btn btn-sm btn-outline-success col-12">GitHub
                                     </a>
                                 </div>
-                                <div class="link-btn col-sm-6 col-md-3 col-lg-2">
+                                <div class="link-btn col-6 col-md-3 col-lg-2">
                                     <a target="_blank" href="{{apiaryURL}}"
-                                        class="btn btn-sm btn-outline-success col-sm-12">Apiary
+                                        class="btn btn-sm btn-outline-success col-12">Apiary
                                     </a>
                                 </div>
-                                <div class="link-btn col-sm-6 col-md-3 col-lg-2">
+                                <div class="link-btn col-6 col-md-3 col-lg-2">
                                     <a target="_blank" href="{{swaggerhubURL}}"
-                                        class="btn btn-sm btn-outline-success col-sm-12">SwaggerHub
+                                        class="btn btn-sm btn-outline-success col-12">SwaggerHub
                                     </a>
                                 </div>
                             </div>
@@ -75,47 +75,47 @@
             <h2>BrAPI V1</h2>
         </div>
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-12">
                 {{#each v1}}
                 <div class="row brapi-section">
-                    <h3 class="brapi-section-title col-sm-3 col-md-2">{{version}}<br />{{status}}</h3>
-                    <div class="col-sm-9 col-md-10">
+                    <h3 class="brapi-section-title col-3 col-md-2">{{version}}<br />{{status}}</h3>
+                    <div class="col-9 col-md-10">
                         <div class="brapi-section-description">{{description}}</div>
                         <div class="row">
-                            <div class="link-btn col-sm-6  col-md-3 col-lg-2">
+                            <div class="link-btn col-6  col-md-3 col-lg-2">
                                 <a target="_blank" href="{{githubURL}}"
-                                    class="btn btn-sm btn-outline-success col-sm-12">GitHub
+                                    class="btn btn-sm btn-outline-success col-12">GitHub
                                 </a>
                             </div>
-                            <div class="link-btn col-sm-6  col-md-3 col-lg-2">
+                            <div class="link-btn col-6  col-md-3 col-lg-2">
                                 <a target="_blank" href="{{apiaryURL}}"
-                                    class="btn btn-sm btn-outline-success col-sm-12">Apiary
+                                    class="btn btn-sm btn-outline-success col-12">Apiary
                                 </a>
                             </div>
-                            <div class="link-btn col-sm-6  col-md-3 col-lg-2">
+                            <div class="link-btn col-6  col-md-3 col-lg-2">
                                 {{#if swaggerhubURL}}
                                 <a target="_blank" href="{{swaggerhubURL}}"
-                                    class="btn btn-sm btn-outline-success col-sm-12">SwaggerHub
+                                    class="btn btn-sm btn-outline-success col-12">SwaggerHub
                                 </a>
                                 {{else}}
-                                <div class="btn-sm btn-round col-sm-12"
+                                <div class="btn-sm btn-round col-12"
                                     style="background-color: lightgray; height: 30px;">
                                 </div>
                                 {{/if}}
                             </div>
-                            <div class="link-btn col-sm-6  col-md-3 col-lg-2">
+                            <div class="link-btn col-6  col-md-3 col-lg-2">
                                 <a target="_blank" href="{{releaseNotesURL}}"
-                                    class="btn btn-sm btn-outline-success col-sm-12">Release Notes
+                                    class="btn btn-sm btn-outline-success col-12">Release Notes
                                 </a>
                             </div>
-                            <div class="link-btn col-sm-6  col-md-3 col-lg-2">
+                            <div class="link-btn col-6  col-md-3 col-lg-2">
                                 {{#if changeLogURL}}
                                 <a target="_blank" href="{{changeLogURL}}"
-                                    class="btn btn-sm btn-outline-success col-sm-12">Change
+                                    class="btn btn-sm btn-outline-success col-12">Change
                                     Log
                                 </a>
                                 {{else}}
-                                <div class="btn-sm btn-round col-sm-12"
+                                <div class="btn-sm btn-round col-12"
                                     style="background-color: lightgray; height: 30px;">
                                 </div>
                                 {{/if}}
@@ -135,32 +135,32 @@
             <div class="col-4 link-btn">
                 <a target="_blank"
                     href="https://github.com/plantbreeding/API/blob/master/Specification/GeneralInfo/URL_Structure.md"
-                    class="btn btn-sm btn-outline-success col-sm-12">URL Structure </a>
+                    class="btn btn-sm btn-outline-success col-12">URL Structure </a>
             </div>
             <div class="col-4 link-btn">
                 <a target="_blank"
                     href="https://github.com/plantbreeding/API/blob/master/Specification/GeneralInfo/Response_Structure.md"
-                    class="btn btn-sm btn-outline-success col-sm-12">Response Structure </a>
+                    class="btn btn-sm btn-outline-success col-12">Response Structure </a>
             </div>
             <div class="col-4 link-btn">
                 <a target="_blank"
                     href="https://github.com/plantbreeding/API/blob/master/Specification/GeneralInfo/Date_Time_Encoding.md"
-                    class="btn btn-sm btn-outline-success col-sm-12">Date/Time Encoding </a>
+                    class="btn btn-sm btn-outline-success col-12">Date/Time Encoding </a>
             </div>
             <div class="col-4 link-btn">
                 <a target="_blank"
                     href="https://github.com/plantbreeding/API/blob/master/Specification/GeneralInfo/Location_Encoding.md"
-                    class="btn btn-sm btn-outline-success col-sm-12">Location Encoding </a>
+                    class="btn btn-sm btn-outline-success col-12">Location Encoding </a>
             </div>
             <div class="col-4 link-btn">
                 <a target="_blank"
                     href="https://github.com/plantbreeding/API/blob/master/Specification/GeneralInfo/Error_Handling.md"
-                    class="btn btn-sm btn-outline-success col-sm-12">Error Handling </a>
+                    class="btn btn-sm btn-outline-success col-12">Error Handling </a>
             </div>
             <div class="col-4 link-btn">
                 <a target="_blank"
                     href="https://github.com/plantbreeding/API/blob/master/Specification/GeneralInfo/Search_Services.md"
-                    class="btn btn-sm btn-outline-success col-sm-12">Search Services </a>
+                    class="btn btn-sm btn-outline-success col-12">Search Services </a>
             </div>
         </div>
     </div>
