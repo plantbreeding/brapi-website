@@ -41,17 +41,18 @@
             "pic": null
         },
         {
-            "name": "Dr Matthias Lange",
-            "title": "Senior Scientist",
-            "org": "IPK-Gatersleben",
-            "pic": "/images/people/matthias_lange_400x400.jpg",
-            "orcid": "https://orcid.org/0000-0002-4316-078X"
+            "name": "Shawn Yarnes, PhD",
+            "title": "Product Owner, Breeding Insight",
+            "org": "Cornell University",
+            "pic": null,
+            "orcid": null
         },
         {
-            "name": "Rob Kooper",
-            "title": "Advisory Board Member",
-            "org": "University of Illinois",
-            "pic": null
+            "name": "Dr Sebastian Beier",
+            "title": "Postdoctoral Researcher",
+            "org": "Research Center Juelich, GMBH",
+            "pic": null,
+            "orcid": null
         },
         {
             "name": "Tim Parsons",
