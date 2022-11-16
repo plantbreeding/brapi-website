@@ -21,6 +21,11 @@
         }
     ],
     "advisoryBoard": [{
+            "name": "Jan-Erik Backlund",
+            "title": "Advisory Board Member",
+            "org": "Integrated Breeding Platform",
+            "pic": null
+        }, {
             "name": "Cyril Pommier",
             "title": "Advisory Board Member",
             "org": "INRAE URGI",
@@ -35,9 +40,9 @@
             "orcid": "https://orcid.org/0000-0002-4126-0859"
         },
         {
-            "name": "Jan-Erik Backlund",
+            "name": "Tim Parsons",
             "title": "Advisory Board Member",
-            "org": "Integrated Breeding Platform",
+            "org": "Cornell University",
             "pic": null
         },
         {
@@ -53,12 +58,6 @@
             "org": "Research Center Juelich, GMBH",
             "pic": null,
             "orcid": null
-        },
-        {
-            "name": "Tim Parsons",
-            "title": "Advisory Board Member",
-            "org": "Cornell University",
-            "pic": null
         }
     ]
 }
