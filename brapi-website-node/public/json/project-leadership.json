@@ -10,7 +10,8 @@
             "name": "Lukas Mueller",
             "title": "Co-PI",
             "org": "The Boyce Thompson Institute",
-            "pic": null
+            "pic": null,
+            "orcid": null
         },
         {
             "name": "Peter Selby",
@@ -24,7 +25,8 @@
             "name": "Jan-Erik Backlund",
             "title": "Advisory Board Member",
             "org": "Integrated Breeding Platform",
-            "pic": null
+            "pic": null,
+            "orcid": null
         }, {
             "name": "Cyril Pommier",
             "title": "Advisory Board Member",
@@ -41,9 +43,10 @@
         },
         {
             "name": "Tim Parsons",
-            "title": "Advisory Board Member",
+            "title": "Lead Software Engineer",
             "org": "Cornell University",
-            "pic": null
+            "pic": "/images/people/tim_parsons_400x400.jpg",
+            "orcid": "https://orcid.org/0000-0001-6209-2455"
         },
         {
             "name": "Shawn Yarnes, PhD",
