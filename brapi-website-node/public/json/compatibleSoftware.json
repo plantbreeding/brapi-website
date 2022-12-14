@@ -13,17 +13,17 @@
         "team-url": "https://www.diversityarrays.com/",
         "title": "DArT Genotyping Services",
         "description": "You can order DNA analysis and laboratory services from DArT through BrAPI",
-        "image": "/images/brapi-clover-alpha-700x394.png",
+        "image": "/images/apps/DArT-logo.png",
         "url": "https://ordering.diversityarrays.com/login.pl?dest=/order_mgmt.pl",
         "source-url": "",
         "doc-url": "https://github.com/plantbreeding/sample-orchestrator-test-client",
         "demo-url": ""
     }, {
-        "team": "Cornell University (BRC)",
+        "team": "Cornell University - BRC",
         "team-url": "https://www.biotech.cornell.edu/facilities-brc",
         "title": "Cornell Genotyping Services",
         "description": "You can order DNA analysis and laboratory services from Cornell BRC through BrAPI",
-        "image": "/images/brapi-clover-alpha-700x394.png",
+        "image": "/images/apps/biotech-cornell-thumb.png",
         "url": "https://slimstest.biotech.cornell.edu/",
         "source-url": "",
         "doc-url": "https://github.com/plantbreeding/sample-orchestrator-test-client",
@@ -43,7 +43,7 @@
         "team-url": "https://www.bioinfo.wsu.edu/",
         "title": "BIMS",
         "description": "Breeding Information Management System (BIMS) is a free, open-source, secure and online breeding management system which allows breeders to store, manage, archive and analyze their private breeding program data.",
-        "image": "/images/brapi-clover-alpha-700x394.png",
+        "image": "/images/apps/BIMS-Logo.png",
         "url": "https://www.breedwithbims.org/",
         "source-url": "https://gitlab.com/mainlabwsu/bims",
         "doc-url": "https://www.breedwithbims.org/bims_brapi",
@@ -102,9 +102,9 @@
         "title": "GRIN-Global",
         "team": "USDA-ARS",
         "team-url": "https://www.ars-grin.gov/",
-        "description": "GRIN-Global",
+        "description": "The GRIN-Global project's mission is to provide a scalable version of the Germplasm Resource Information Network (GRIN) suitable for use by any interested genebank in the world.",
         "tags": ["Web Service", "Client"],
-        "image": "/images/brapi-clover-alpha-700x394.png",
+        "image": "/images/apps/Grin-Global-logo.gif",
         "url": "https://www.grin-global.org/",
         "source-url": "https://gitlab.com/GRIN-Global/GRIN-Global-server/-/tree/master"
     }, {
@@ -113,26 +113,26 @@
         "team-url": "https://urgi.versailles.inra.fr/",
         "description": "FAIR Data-finder for Agronomic REsearch",
         "tags": ["Web Service", "Client"],
-        "image": "/images/brapi-clover-alpha-700x394.png",
+        "image": "/images/apps/faidare-thumb.png",
         "url": "https://urgi.versailles.inrae.fr/faidare/",
         "source-url": "https://github.com/elixir-europe/plant-brapi-etl-faidare",
         "doc-url": "https://urgi.versailles.inrae.fr/faidare/join"
     }, {
-        "title": "GLIS DOIs",
+        "title": "GLIS DOI Registration Service",
         "team": "Food and Agriculture Organization of the United Nations",
         "team-url": "https://www.fao.org/home",
-        "description": "DOI Registration Service of the Global Information System",
+        "description": "The DOI Registration Service of the GLobal Information System (GLIS) assigns Digital Object Identifiers (DOIs) to Plant Genetic Resources for Food and Agriculture (PGRFA) for reference in third party systems and scientific literature.",
         "tags": ["Web Service"],
-        "image": "/images/brapi-clover-alpha-700x394.png",
+        "image": "/images/apps/glis-thumb.png",
         "url": "https://ssl.fao.org/glis/site/doiindex",
         "demo-url": "https://glistest.planttreaty.org/glisapi/v1/calls"
     }, {
         "title": "Field Book",
         "team": "PhenoApps",
         "team-url": "https://www.phenoapps.org/",
-        "description": "Field Book",
+        "description": "Field Book is a simple app for taking phenotypic notes. Field Book was created to replace paper field books and to enable increased collection speed with greater data integrity.",
         "tags": ["Client", "Android"],
-        "image": "/images/brapi-clover-alpha-700x394.png",
+        "image": "/images/apps/fieldbook_icon.png",
         "url": "https://play.google.com/store/apps/details?id=com.fieldbook.tracker",
         "source-url": "https://github.com/PhenoApps/Field-Book"
     },
@@ -140,10 +140,12 @@
         "title": "Breeding Management System (BMS)",
         "team": "The Integrated Breeding Platform (IBP)",
         "team-url": "https://www.integratedbreeding.net/",
-        "description": "Breeding Management System",
+        "description": "The Breeding Management System (BMS) is a data management software specifically designed to meet the needs of modern plant breeders.",
         "tags": ["Server", "Database"],
-        "image": "/images/brapi-clover-alpha-700x394.png",
-        "url": "https://bmspro.io/"
+        "image": "/images/apps/bms-thumb.png",
+        "url": "https://bmspro.io/",
+        "source-url": "https://github.com/IntegratedBreedingPlatform/BMSAPI",
+        "doc-url": "https://bmspro.io/1742/how-to"
     },
     {
         "title": "Breedbase",
@@ -151,8 +153,11 @@
         "team-url": "https://breedbase.org/",
         "description": "Breedbase",
         "tags": ["Server", "Database"],
-        "image": "/images/brapi-clover-alpha-700x394.png",
-        "url": "https://breedbase.org/"
+        "image": "/images/apps/breedbase-thumb.png",
+        "url": "https://breedbase.org/",
+        "source-url": "https://github.com/solgenomics/sgn",
+        "demo-url": "https://breedbase.org/",
+        "doc-url": "https://github.com/solgenomics/sgn/wiki"
     },
     {
         "image": "/images/apps/MrBean_thumb.png",
