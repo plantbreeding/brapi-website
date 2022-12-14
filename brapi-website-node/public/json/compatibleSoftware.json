@@ -1,0 +1,312 @@
+[{
+        "team": "The James Hutton Institute (JHI)",
+        "team-url": "https://ics.hutton.ac.uk/software/",
+        "title": "Flapjack",
+        "description": "Flapjack is a multi-platform application providing interactive visualizations of high-throughput genotype data, allowing for rapid navigation and comparisons between lines, markers and chromosomes.",
+        "image": "https://ics.hutton.ac.uk/resources/flapjack/flapjack.png",
+        "url": "https://ics.hutton.ac.uk/flapjack/",
+        "source-url": "https://github.com/cropgeeks/flapjack",
+        "doc-url": "https://flapjack.hutton.ac.uk/en/latest/",
+        "demo-url": ""
+    }, {
+        "team": "Diversity Arrays Technology",
+        "team-url": "https://www.diversityarrays.com/",
+        "title": "DArT Genotyping Services",
+        "description": "You can order DNA analysis and laboratory services from DArT through BrAPI",
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://ordering.diversityarrays.com/login.pl?dest=/order_mgmt.pl",
+        "source-url": "",
+        "doc-url": "https://github.com/plantbreeding/sample-orchestrator-test-client",
+        "demo-url": ""
+    }, {
+        "team": "Cornell University (BRC)",
+        "team-url": "https://www.biotech.cornell.edu/facilities-brc",
+        "title": "Cornell Genotyping Services",
+        "description": "You can order DNA analysis and laboratory services from Cornell BRC through BrAPI",
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://slimstest.biotech.cornell.edu/",
+        "source-url": "",
+        "doc-url": "https://github.com/plantbreeding/sample-orchestrator-test-client",
+        "demo-url": ""
+    }, {
+        "team": "The James Hutton Institute (JHI)",
+        "team-url": "https://ics.hutton.ac.uk/software/",
+        "title": "Germinate",
+        "description": "Germinate provides a fully featured open-source plant genetic resources platform.",
+        "image": "https://germinateplatform.github.io/get-germinate/images/screenshot-1.png",
+        "url": "https://germinateplatform.github.io/get-germinate/",
+        "source-url": "https://github.com/germinateplatform/germinate-vue",
+        "doc-url": "https://germinateplatform.github.io/germinate-training/",
+        "demo-url": "https://ics.hutton.ac.uk/germinate-demo/#/home"
+    }, {
+        "team": "Main Lab Bioinformatics at WSU",
+        "team-url": "https://www.bioinfo.wsu.edu/",
+        "title": "BIMS",
+        "description": "Breeding Information Management System (BIMS) is a free, open-source, secure and online breeding management system which allows breeders to store, manage, archive and analyze their private breeding program data.",
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://www.breedwithbims.org/",
+        "source-url": "https://gitlab.com/mainlabwsu/bims",
+        "doc-url": "https://www.breedwithbims.org/bims_brapi",
+        "demo-url": ""
+    }, {
+        "team": "ICARDA",
+        "team-url": "https://www.icarda.org/",
+        "title": "QBMS",
+        "description": "Breeders can use this R package to Query the Breeding Management System(s) like BMS, BreeBase, and GIGWA (using BrAPI calls) and help them to retrieve phenotypic and genotypic data directly into their analyzing pipelines developed in R statistical environment.",
+        "image": "/images/apps/qbms-logo.png",
+        "url": "https://icarda-git.github.io/QBMS/",
+        "source-url": "https://github.com/icarda-git/QBMS/",
+        "doc-url": "https://icarda-git.github.io/QBMS/reference/index.html",
+        "demo-url": ""
+    }, {
+        "team": "Phenospex",
+        "team-url": "https://phenospex.com/",
+        "title": "HortControl",
+        "description": "HortControl is the central software to setup, visualize and analyze your PlantEye measurements. Designed to be used by staff with any professional background with a user friendly interface. You can access HortControl from your office or in the field.",
+        "image": "https://phenospex.com/wp-content/uploads/2018/12/Horcontrol-Mobile-device-image-2-1-768x388.jpg",
+        "url": "https://phenospex.com/products/plant-phenotyping/science-hortcontrol-data-management-software/",
+        "source-url": "",
+        "doc-url": "https://phenospex.com/blog/brapi-automate-the-data-transfer-into-your-workflow/",
+        "demo-url": ""
+    }, {
+        "team": "Forest Biotech Lab",
+        "team-url": "https://www.itqb.unl.pt/labs/forest-biotech",
+        "title": "BrAPI Node Server",
+        "description": "This is an implementation of BrAPI using NodeJS. It is being developed by the Portuguese Node within the context of ELIXIR-EXCELERATE.",
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://github.com/forestbiotech-lab/PHENO",
+        "source-url": "https://github.com/forestbiotech-lab/PHENO",
+        "doc-url": "https://github.com/forestbiotech-lab/PHENO#readme",
+        "demo-url": ""
+    }, {
+        "team": "The James Hutton Institute (JHI)",
+        "team-url": "https://ics.hutton.ac.uk/software/",
+        "title": "JHI BrAPI Java",
+        "description": "BrAPI Java is a Breeding API (BrAPI) implementation written in Java. It contains all data objects as well as a client interface that can be utilised using Retrofit and server inferfaces that are designed to be used with the Restlet library.",
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://github.com/cropgeeks/brapi-java",
+        "source-url": "https://github.com/cropgeeks/brapi-java",
+        "doc-url": "",
+        "demo-url": ""
+    }, {
+        "team": "AgMIP",
+        "team-url": "https://agmip.org/",
+        "title": "ARDN",
+        "description": "The Agricultural Research Data Network (ARDN) provides tools and protocols to allow researchers to not only share their data, but to make their data interoperable and reusable.",
+        "image": "https://github.com/cct-datascience/ardn-terra-ref/raw/master/README_images/ARDN_workflows.jpg",
+        "url": "https://agmip.github.io/ARDN/",
+        "source-url": "https://github.com/cct-datascience/ardn-terra-ref",
+        "doc-url": "https://github.com/cct-datascience/ardn-terra-ref/blob/master/README.md",
+        "demo-url": ""
+    }, {
+        "title": "GRIN-Global",
+        "team": "USDA-ARS",
+        "team-url": "https://www.ars-grin.gov/",
+        "description": "GRIN-Global",
+        "tags": ["Web Service", "Client"],
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://www.grin-global.org/",
+        "source-url": "https://gitlab.com/GRIN-Global/GRIN-Global-server/-/tree/master"
+    }, {
+        "title": "FAIDARE",
+        "team": "INRAe - URGI",
+        "team-url": "https://urgi.versailles.inra.fr/",
+        "description": "FAIR Data-finder for Agronomic REsearch",
+        "tags": ["Web Service", "Client"],
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://urgi.versailles.inrae.fr/faidare/",
+        "source-url": "https://github.com/elixir-europe/plant-brapi-etl-faidare",
+        "doc-url": "https://urgi.versailles.inrae.fr/faidare/join"
+    }, {
+        "title": "GLIS DOIs",
+        "team": "Food and Agriculture Organization of the United Nations",
+        "team-url": "https://www.fao.org/home",
+        "description": "DOI Registration Service of the Global Information System",
+        "tags": ["Web Service"],
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://ssl.fao.org/glis/site/doiindex",
+        "demo-url": "https://glistest.planttreaty.org/glisapi/v1/calls"
+    }, {
+        "title": "Field Book",
+        "team": "PhenoApps",
+        "team-url": "https://www.phenoapps.org/",
+        "description": "Field Book",
+        "tags": ["Client", "Android"],
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://play.google.com/store/apps/details?id=com.fieldbook.tracker",
+        "source-url": "https://github.com/PhenoApps/Field-Book"
+    },
+    {
+        "title": "Breeding Management System (BMS)",
+        "team": "The Integrated Breeding Platform (IBP)",
+        "team-url": "https://www.integratedbreeding.net/",
+        "description": "Breeding Management System",
+        "tags": ["Server", "Database"],
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://bmspro.io/"
+    },
+    {
+        "title": "Breedbase",
+        "team": "Breedbase",
+        "team-url": "https://breedbase.org/",
+        "description": "Breedbase",
+        "tags": ["Server", "Database"],
+        "image": "/images/brapi-clover-alpha-700x394.png",
+        "url": "https://breedbase.org/"
+    },
+    {
+        "image": "/images/apps/MrBean_thumb.png",
+        "url": "https://github.com/AparicioJohan/MrBeanApp",
+        "demo-url": "https://beanteam.shinyapps.io/MrBean_BETA/",
+        "source-url": "https://github.com/AparicioJohan/MrBeanApp",
+        "doc-url": "https://apariciojohan.github.io/MrBeanApp/",
+        "title": "Mr.Bean",
+        "team": "Alliance Bioversity - CIAT",
+        "team-url": "https://alliancebioversityciat.org/",
+        "description": "Mr.Bean is an easy to use R-Shiny web-app that simplifies the analysis of large-scale plant breeding experimental analysis by using the power and versatility of Linear Mixed Models (LMM).",
+        "tags": [
+            "BrAPP",
+            "Client",
+            "R-Shiny"
+        ]
+    },
+    {
+        "image": "/images/apps/brapi-sync-thumb.png",
+        "url": "https://github.com/IntegratedBreedingPlatform/brapi-sync",
+        "source-url": "https://github.com/IntegratedBreedingPlatform/brapi-sync",
+        "doc-url": "https://github.com/IntegratedBreedingPlatform/brapi-sync/blob/master/README.md",
+        "title": "BrAPI-Sync",
+        "team": "The Integrated Breeding Platform (IBP)",
+        "team-url": "https://www.integratedbreeding.net/",
+        "description": "Built by the IBP Team, this tool allows for the automated transfer of data between BrAPI compliant systems. ",
+        "tags": [
+            "BrAPP",
+            "Client",
+            "JS"
+        ]
+    },
+    {
+        "image": "/images/apps/flapjack-bytes-thumb.png",
+        "url": "https://github.com/cropgeeks/flapjack-bytes",
+        "demo-url": "https://bioinf.hutton.ac.uk/gobii-flapjack-bytes/#/",
+        "source-url": "https://github.com/cropgeeks/flapjack-bytes",
+        "doc-url": "https://github.com/cropgeeks/flapjack-bytes/blob/master/README.md",
+        "title": "Flapjack-Bytes",
+        "team": "James Hutton Institute (JHI)",
+        "team-url": "https://ics.hutton.ac.uk/",
+        "description": "Flapjack-Bytes is a graphical genotype visualization library. The visualization is modelled on the pre-existing Java desktop application Flapjack. ",
+        "tags": ["BrAPP", "Client", "JS"]
+    },
+    {
+        "image": "/images/apps/fieldmap-thumb.png",
+        "url": "https://github.com/solgenomics/brapi-fieldmap",
+        "demo-url": "https://github.com/solgenomics/brapi-fieldmap",
+        "source-url": "https://github.com/solgenomics/brapi-fieldmap",
+        "doc-url": "https://github.com/solgenomics/brapi-fieldmap/blob/master/README.md",
+        "title": "BrAPI Fieldmap",
+        "team": "The Integrated Breeding Platform (IBP)",
+        "team-url": "https://www.integratedbreeding.net/",
+        "description": "Built by the IBP Team, this is a fully BrAPI compliant tool for editing field spatial layout using GeoJson information.",
+        "tags": [
+            "BrAPP",
+            "Client",
+            "JS"
+        ]
+    },
+    {
+        "image": "/images/apps/graphical-filtering-thumb.png",
+        "url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering",
+        "demo-url": "https://solgenomics.github.io/BrAPI-Graphical-Filtering/",
+        "source-url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering",
+        "doc-url": "https://github.com/solgenomics/BrAPI-Graphical-Filtering/blob/master/README.md",
+        "title": "Graphical Filtering Tool",
+        "team": "BreedBase",
+        "team-url": "https://breedbase.org/",
+        "description": "Built by BreedBase, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. ",
+        "tags": [
+            "BrAPP",
+            "Client",
+            "JS"
+        ]
+    },
+    {
+        "image": "/images/apps/variable-ontology-widget-thumb.png",
+        "url": "https://github.com/gnpis/trait-ontology-widget",
+        "demo-url": "https://urgi.versailles.inra.fr/ephesis/ephesis/ontologyportal.do",
+        "source-url": "https://github.com/gnpis/trait-ontology-widget",
+        "doc-url": "https://github.com/gnpis/trait-ontology-widget/blob/master/README.md",
+        "title": "Variable Ontology Widget",
+        "team": "INRAe - URGI",
+        "team-url": "https://urgi.versailles.inra.fr/",
+        "description": "Built by URGI - INRA, this is a JavaScript widget displaying all the observation variables of a BrAPI endpoint. ",
+        "tags": [
+            "BrAPP",
+            "Client",
+            "JS"
+        ]
+    },
+    {
+        "image": "/images/apps/trial-comp-thumb.png",
+        "url": "https://github.com/solgenomics/BrAPI-Study-Comparison",
+        "demo-url": "https://solgenomics.github.io/BrAPI-Study-Comparison/",
+        "source-url": "https://github.com/solgenomics/BrAPI-Study-Comparison",
+        "doc-url": "https://github.com/solgenomics/BrAPI-Study-Comparison/blob/master/README.md",
+        "title": "Study Comparison Tool",
+        "team": "BreedBase",
+        "team-url": "https://breedbase.org/",
+        "description": "Built by BreedBase, this is a fully BrAPI compliant tool for comparing the performance of germplasm across studies. ",
+        "tags": [
+            "BrAPP",
+            "Client",
+            "JS"
+        ]
+    },
+    {
+        "image": "/images/apps/pedigree-thumb.png",
+        "url": "https://github.com/solgenomics/BrAPI-Pedigree-Viewer",
+        "demo-url": "https://solgenomics.github.io/BrAPI-Pedigree-Viewer/",
+        "source-url": "https://github.com/solgenomics/BrAPI-Pedigree-Viewer",
+        "doc-url": "https://github.com/solgenomics/BrAPI-Study-Comparison/blob/master/README.md",
+        "title": "Pedigree Viewer",
+        "team": "BreedBase",
+        "team-url": "https://breedbase.org/",
+        "description": "Built by BreedBase, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. ",
+        "tags": [
+            "BrAPP",
+            "Client",
+            "JS"
+        ]
+    },
+    {
+        "image": "/images/apps/beegmac-thumb.png",
+        "url": "https://github.com/SouthGreenPlatform/beegmac",
+        "demo-url": "https://webtools.southgreen.fr/BrAPI/Beegmac/",
+        "source-url": "https://github.com/SouthGreenPlatform/beegmac",
+        "doc-url": "https://webtools.southgreen.fr/BrAPI/Beegmac/jsdoc/",
+        "title": "Beegmac",
+        "team": "South Green",
+        "team-url": "https://www.southgreen.fr/",
+        "description": "Brapi-Enabled Embeddable Genomic-Marker Allele Client",
+        "tags": [
+            "BrAPP",
+            "Client",
+            "JS"
+        ]
+    },
+    {
+        "image": "/images/apps/cmv-thumb.png",
+        "url": "https://github.com/solgenomics/jscview",
+        "demo-url": "https://maps.solgenomics.net/",
+        "source-url": "https://github.com/solgenomics/jscview",
+        "doc-url": "https://github.com/solgenomics/jscview/blob/master/README.md",
+        "title": "Comparative Map Viewer",
+        "team": "BreedBase",
+        "team-url": "https://breedbase.org/",
+        "description": "Comparative Map Viewer, this is a fully BrAPI compliant tool for viewing and comparing genetic maps ",
+        "tags": [
+            "BrAPP",
+            "Client",
+            "Perl"
+        ]
+    }
+]

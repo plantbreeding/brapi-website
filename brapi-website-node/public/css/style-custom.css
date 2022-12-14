@@ -369,3 +369,8 @@ pre code {
     background-color: transparent;
     border-radius: 0;
 }
+
+label.form-label {
+    font-weight: 600;
+    margin: 10px 0 0 0;
+}

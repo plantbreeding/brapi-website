@@ -1,0 +1,141 @@
+<section class="module-extra-small" style="min-height: 470px;">
+    <div class="container">
+        <div id="submitSoftwareContainer" class="row justify-content-center">
+            <p class="col-7" style="color: black; margin: 10px 0; padding: 0;">
+                Complete the form to add BrAPI compatible software to the public software list.
+                Review the preview generated at the bottom to be sure you new list entry looks correct.
+                Please note all submissions are reviewed manually and will take some time to appear on the public list.
+            </p>
+
+            <form id="submitSoftwareForm" class="row justify-content-center col-7">
+
+                <label class="col-12 form-label" for="devTeamNameInput" style=""> Development Team Name:</label>
+                <input class="col-11 input" id="devTeamNameInput" type="text" name="team" placeholder="Team Name"/>
+
+                <label class="col-12 form-label" for="devTeamURLInput" > Development Team URL:</label>
+                <input class="col-11 input" id="devTeamURLInput" type="text" name="team-url" placeholder="https://example.org" />
+
+                <label class="col-12 form-label" for="softwareNameInput" > Software Title:</label>
+                <input class="col-11 input" id="softwareNameInput" type="text" name="title" placeholder="Example Software"/>
+
+                <label class="col-12 form-label" for="softwareDescInput" > Software Description:</label>
+                <textarea class="col-11 input" id="softwareDescInput" name="description" placeholder="Example Software is a ..."></textarea>
+
+                <label class="col-12 form-label" for="softwareImageURLInput" > Image URL:</label>
+                <input class="col-11 input" id="softwareImageURLInput" name="image"  placeholder="https://example.org/software/screenshot.png"></input>
+                <p style="margin: 0 0 0 25px;font-size: smaller;">** You can also email image files directly to the <a href='/contact'>BrAPI Coordinator</a></p>
+
+                <label class="col-12 form-label" for="softwareURLInput" > Software URL:</label>
+                <input class="col-11 input" id="softwareURLInput" name="url" placeholder="https://example.org/software"></input>
+
+                <label class="col-12 form-label" for="softwareSourceURLInput" > Source Code URL:</label>
+                <input class="col-11 input" id="softwareSourceURLInput" name="source-url"  placeholder="https://github.com/example/software"></input>
+
+                <label class="col-12 form-label" for="softwareDocURLInput" > Documentation URL:</label>
+                <input class="col-11 input" id="softwareDocURLInput" name="doc-url"  placeholder="https://readthedocs.org/example/software"></input>
+
+                <label class="col-12 form-label" for="softwareDemoURLInput" > Demo URL:</label>
+                <input class="col-11 input" id="softwareDemoURLInput" name="demo-url"  placeholder="https://example.org/software/demo"></input>
+
+                <input type="submit" value="Submit For Review" class="btn btn-sm btn-outline-success col-4" style="margin: 20px auto;">
+            </form>
+
+            <li class="row justify-content-center" style="margin: 5px 0 40px 0;">
+                <div class="col-10 brapp">
+                    <div class="row justify-content-center brapp-box">
+                        <div class="brapp-thumbnail col-12 col-md-4">
+                            <a class="software-url" href="https://example.org/software" target="_blank">
+                                <img class="software-image" src="/images/brapi-clover-alpha-700x394.png" alt="Example Software">
+                            </a>
+                        </div>
+                        <div class="brapp-header font-alt col-12 col-md-8">
+                            <h2>
+                                <a href="https://example.org/software" target="_blank" class="software-title software-url">Example Software</a>
+                            </h2>
+                            <p>From <a href="https://example.org" class="software-team"> Team Name </a> </p>
+                            <p class="software-desc">Example Software is ...</p>
+                            <div class="brapp-links row">
+                                <a href="https://example.org" target="_blank" class="software-demo btn btn-sm btn-outline-success col-3" style="display: none; margin-right: 5px;"> Demonstration Site </a>
+                                <a href="https://example.org" target="_blank" class="software-source btn btn-sm btn-outline-success col-3" style="display: none; margin-right: 5px;"> Source Code Repo </a>
+                                <a href="https://example.org" target="_blank" class="software-docs btn btn-sm btn-outline-success col-3" style="display: none; margin-right: 5px;"> User Documentation </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </div>
+    </div>
+</section>
+<script type="text/plain" cookie-consent="strictly-necessary">
+
+    $(document).ready(function () {
+
+        $("#submitSoftwareForm").submit(function (event) {
+            $("#submitSoftwareContainer").html("<div style='margin: 30px 0 0 35px;'><div class='loader loader-dark'></div></div>");
+
+            var req = $(this).serializeArray();
+            $.post('/api/newSoftwareSubmit', req, function (data, status) {
+                console.log(data);
+                $("#submitSoftwareContainer").html("" +
+                "<p class='col-7'>" + 
+                    "Thanks For Submitting a new Software! " + 
+                    "Your submission is being reviewed and will be added to the public list soon. <br/>" +
+                    "If you have any questions or concerns, please <a href='/contact'>Contact Us</a><br/>" + 
+                    "<a href='/compatibleSoftware'>Return to Software List</a>" +
+                "</p>");
+            });
+            event.preventDefault();
+        });
+
+        const buildPreview = function(event){
+            var teamName = $("#devTeamNameInput").val() ? $("#devTeamNameInput").val() : 'Team Name';
+            $('.software-team').html(teamName);
+            
+            var teamUrl = $("#devTeamURLInput").val() ? $("#devTeamURLInput").val() : 'https://example.org';
+            $('.software-team').attr('href', teamUrl);
+
+            var title = $("#softwareNameInput").val() ? $("#softwareNameInput").val() : 'Example Software';
+            $('.software-title').html(title);
+            $('.software-image').attr('alt', title);
+            
+            var description = $("#softwareDescInput").val() ? $("#softwareDescInput").val() : 'Example Software is a ...';
+            $('.software-desc').html(description);
+
+            var image = $("#softwareImageURLInput").val() ? $("#softwareImageURLInput").val() : '/images/brapi-clover-alpha-700x394.png';
+            $('.software-image').attr('src', image);
+            
+            var url = $("#softwareURLInput").val() ? $("#softwareURLInput").val() : 'https://example.org/software';
+            $('.software-url').attr('href', url);
+            
+            var source = $("#softwareSourceURLInput").val();
+            if (source){
+                $('.software-source').attr('href', source);
+                $('.software-source').css('display', 'block');
+            }else{
+                $('.software-source').css('display', 'none');
+            }
+            
+            var docs = $("#softwareDocURLInput").val();
+            if (docs){
+                $('.software-docs').attr('href', docs);
+                $('.software-docs').css('display', 'block');
+            }else{
+                $('.software-docs').css('display', 'none');
+            }
+            
+            var demo = $("#softwareDemoURLInput").val();
+            if (demo){
+                $('.software-demo').attr('href', demo);
+                $('.software-demo').css('display', 'block');
+            }else{
+                $('.software-demo').css('display', 'none');
+            }
+        }
+
+        $(".input").on('input', buildPreview);
+        buildPreview();
+
+    });
+
+</script>

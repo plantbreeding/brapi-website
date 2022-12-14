@@ -69,6 +69,23 @@ router.get('/brapps', function(req, res, next) {
     });
 });
 
+router.get('/compatibleSoftware', function(req, res, next) {
+    var software = require('../public/json/compatibleSoftware.json');
+
+    res.render('compatibleSoftware', {
+        title: 'Compatible Software',
+        footerEvents: require('./events').getTrailerEvents(),
+        software: software
+    });
+});
+
+router.get('/submitSoftware', function(req, res, next) {
+    res.render('submitSoftware', {
+        title: 'Register Software',
+        footerEvents: require('./events').getTrailerEvents(),
+    });
+});
+
 router.get('/contact', function(req, res, next) {
     res.render('contact', {
         title: 'Contact',

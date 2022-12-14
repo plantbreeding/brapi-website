@@ -1,0 +1,90 @@
+<section class="module-extra-small">
+    <div class="container">
+        <div class="row justify-content-center">
+            <p class="col-12" style="text-align: center; margin: 10px 0 10px 0;">Submit new BrAPI compatible software</p>
+            <a href="/submitSoftware" class="btn btn-sm btn-outline-success col-2">Register Software</a>
+            <div class="col-12" style="border-bottom: solid lightgray 1px; margin: 30px 0"></div>
+        </div>
+        <div id="software-list" style="margin-bottom: 30px;">
+            <div class="row justify-content-center">
+                <div class="col-6" style="margin: 10px 0 20px 0">
+                    <input class="search col-11" placeholder="Search for BrAPI Compatible Software" />
+                    <span class="mdi mdi-magnify custom-bullet-point" style="vertical-align: top; line-height: 30px;"></span>
+
+                    <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
+                </div>
+                <div class="col-8 row justify-content-center" style="margin: 5px 0 20px 0; display: none;">
+                    <p class="col-12" style="text-align: center; margin: 5px 0 0 0;">Filter by popular tags</p>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">BrAPP</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Server</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Client</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Service</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Desktop</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Mobile</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Visualization</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Analytics</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Data Input</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Search</button>
+                </div>
+            </div>
+
+            <ul class="list" style="list-style-type: none; padding: 0;">
+                {{#each software}}
+                <li class="row justify-content-center">
+                    <div class="col-12 brapp">
+                        <div class="row justify-content-center brapp-box">
+                            <div class="brapp-thumbnail col-12 col-md-4">
+                                <a href="{{ url }}" target="_blank">
+                                    <img src="{{ image }}" alt="{{ title }}">
+                                </a>
+                            </div>
+                            <div class="brapp-header font-alt col-12 col-md-8">
+                                <h2>
+                                    <a href="{{ url }}" target="_blank" class="software-title">{{ title }}</a>
+                                </h2>
+                                <p>From <a href="{{ team-url }}" class="software-team"> {{ team }} </a> </p>
+                                <p>{{{ description }}}</p>
+                                <div class="brapp-links">
+                                    {{#if demo-url}}
+                                    <a href="{{ demo-url }}" target="_blank"
+                                        class="btn btn-sm btn-outline-success col-3">
+                                        Demonstration Site </a>
+                                    {{/if}}
+                                    {{#if source-url}}
+                                    <a href="{{ source-url }}" target="_blank"
+                                        class="btn btn-sm btn-outline-success col-3">
+                                        Source Code Repo </a>
+                                    {{/if}}
+                                    {{#if doc-url}}
+                                    <a href="{{ doc-url }}" target="_blank"
+                                        class="btn btn-sm btn-outline-success col-3">
+                                        User Documentation </a>
+                                    {{/if}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                {{/each}}
+            </ul>
+            
+        </div>
+    </div>
+</section>
+<script type="text/plain" cookie-consent="strictly-necessary">
+
+    $(document).ready(function () {
+        var options = {
+            valueNames: [ 'software-title', 'software-team' ]
+        };
+
+        var softwareList = new List('software-list', options); 
+        softwareList.sort('software-title')
+
+        $('#list-size').html('Showing ' + softwareList.visibleItems.length + ' of ' + softwareList.size());
+        softwareList.on('searchComplete', function(e){
+            $('#list-size').html('Showing ' + softwareList.visibleItems.length + ' of ' + softwareList.size());
+        });
+    });
+
+</script>

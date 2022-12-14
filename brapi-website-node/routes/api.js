@@ -41,6 +41,15 @@ router.post('/newServerSubmit', function(req, res, next) {
     });
 });
 
+router.post('/newSoftwareSubmit', function(req, res, next) {
+    var newServerStr = JSON.stringify(req.body, null, 4);
+
+    fs.appendFile(process.env.NEW_SERVER_LIST_PATH, newServerStr + '\n-------------\n', function(err) {
+        if (err) throw err;
+        res.json({ "success": "true" })
+    });
+});
+
 function newServerJSON(reqBody) {
     var serverBody = {};
     serverBody.name = reqBody.serverName;
