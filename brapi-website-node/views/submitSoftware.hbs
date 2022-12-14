@@ -9,24 +9,24 @@
 
             <form id="submitSoftwareForm" class="row justify-content-center col-7">
 
-                <label class="col-12 form-label" for="devTeamNameInput" style=""> Development Team Name:</label>
-                <input class="col-11 input" id="devTeamNameInput" type="text" name="team" placeholder="Team Name"/>
+                <label class="col-12 form-label" for="devTeamNameInput" style=""> Development Team Name <span style="color: red;">*</span> :</label>
+                <input class="col-11 input" id="devTeamNameInput" type="text" name="team" placeholder="Team Name" required/>
 
                 <label class="col-12 form-label" for="devTeamURLInput" > Development Team URL:</label>
                 <input class="col-11 input" id="devTeamURLInput" type="text" name="team-url" placeholder="https://example.org" />
 
-                <label class="col-12 form-label" for="softwareNameInput" > Software Title:</label>
-                <input class="col-11 input" id="softwareNameInput" type="text" name="title" placeholder="Example Software"/>
+                <label class="col-12 form-label" for="softwareNameInput" > Software Title <span style="color: red;">*</span> :</label>
+                <input class="col-11 input" id="softwareNameInput" type="text" name="title" placeholder="Example Software" required/>
 
-                <label class="col-12 form-label" for="softwareDescInput" > Software Description:</label>
-                <textarea class="col-11 input" id="softwareDescInput" name="description" placeholder="Example Software is a ..."></textarea>
+                <label class="col-12 form-label" for="softwareDescInput" > Software Description <span style="color: red;">*</span> :</label>
+                <textarea class="col-11 input" id="softwareDescInput" name="description" placeholder="Example Software is a ..." required></textarea>
 
                 <label class="col-12 form-label" for="softwareImageURLInput" > Image URL:</label>
                 <input class="col-11 input" id="softwareImageURLInput" name="image"  placeholder="https://example.org/software/screenshot.png"></input>
                 <p style="margin: 0 0 0 25px;font-size: smaller;">** You can also email image files directly to the <a href='/contact'>BrAPI Coordinator</a></p>
 
-                <label class="col-12 form-label" for="softwareURLInput" > Software URL:</label>
-                <input class="col-11 input" id="softwareURLInput" name="url" placeholder="https://example.org/software"></input>
+                <label class="col-12 form-label" for="softwareURLInput" > Software URL <span style="color: red;">*</span> :</label>
+                <input class="col-11 input" id="softwareURLInput" name="url" placeholder="https://example.org/software" required></input>
 
                 <label class="col-12 form-label" for="softwareSourceURLInput" > Source Code URL:</label>
                 <input class="col-11 input" id="softwareSourceURLInput" name="source-url"  placeholder="https://github.com/example/software"></input>
