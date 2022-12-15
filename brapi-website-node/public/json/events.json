@@ -1,4 +1,12 @@
 [{
+        "title": "BrAPI Webinar - EMBL-EBI 2023 Plant Webinar Series",
+        "location": "Virtual",
+        "date": "April 26, 2023 at 15:30 UTC",
+        "image": "/images/events/EMBL-EBI-logo.jpg",
+        "description": "<p>The webinar series will comprise various topics to highlights general concepts and resources useful in plant research, including comparative genomics, metagenomics, plant breeding, etc. BrAPI will be presented on Wednesday, April 26, 2023. These webinars are free and open to everyone around the world to attend. </p>",
+        "upcoming": true,
+        "links": null
+    }, {
         "title": "BrAPI Virtual Hackathon",
         "location": "Virtual",
         "date": "October 24, 2022 - October 28, 2022",

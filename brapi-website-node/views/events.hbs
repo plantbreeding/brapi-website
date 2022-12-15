@@ -6,34 +6,39 @@
             </div>
             {{#each currentEvents}}
             <div class="row justify-content-center" style="margin: 20px 0 0 0">
-                <div class="col-8">
-                    <div class="widget-posts-image" style="margin: 0 10px 0 0; width: 90px;">
-                        <img src="{{ image }}" alt="{{ title }} Thumbnail" />
-                    </div>
-                    <div class="callout-text-dark font-alt"
-                        style="padding: 22px 0 0 0; {{#if showSponsors}} padding-top:7px; {{/if}}">
-                        <h3 class="callout-title-dark">{{ title }}</h3>
-                        <div>{{ location }} | {{ date }}</div>
-                        {{#if showSponsors}}
-                        <div>Sponsored By: {{#each sponsorsLogos}}
-                            <a target="_blank" href="{{ url }}">
-                                <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
-                            </a>
-                            {{/each}}
+                <div class="row col-10">
+                    <div class="col">
+                        <div class="widget-posts-image" style="margin: 0 10px 0 0; width: 90px;">
+                            <img src="{{ image }}" alt="{{ title }} Thumbnail" />
                         </div>
-                        {{/if}}
+                        <div class="callout-text-dark font-alt"
+                            style="padding: 22px 0 0 0; {{#if showSponsors}} padding-top:7px; {{/if}}">
+                            <h3 class="callout-title-dark">{{ title }}</h3>
+                            <div>{{ location }} | {{ date }}</div>
+                            {{#if showSponsors}}
+                            <div>Sponsored By: {{#each sponsorsLogos}}
+                                <a target="_blank" href="{{ url }}">
+                                    <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
+                                </a>
+                                {{/each}}
+                            </div>
+                            {{/if}}
+                        </div>
+                        <div class="font-alt">
+                            {{{ description }}}
+                        </div>
                     </div>
-                    <div class="font-alt">
-                        {{{ description }}}
+                    {{#if links}}
+                    <div class="col-3">
+                        {{#each links}}
+                        <div class="callout-btn-box">
+                            <a target="_blank" class="btn btn-d btn-round" style="width: 200px;" href="{{ url }}">{{
+                                name
+                                }}</a>
+                        </div>
+                        {{/each}}
                     </div>
-                </div>
-                <div class="col-3">
-                    {{#each links}}
-                    <div class="callout-btn-box">
-                        <a target="_blank" class="btn btn-d btn-round" style="width: 200px;" href="{{ url }}">{{ name
-                            }}</a>
-                    </div>
-                    {{/each}}
+                    {{/if}}
                 </div>
             </div>
             {{/each}}
@@ -74,8 +79,8 @@
             <div id="past-event-list" {{#if currentEvents}}style="display: none;" {{/if}}>
                 {{#each pastEvents}}
                 <div class="row justify-content-center" style="margin: 10px 0 20px 0">
-                    <div class="col-7">
-                        <div>
+                    <div class="row col-10">
+                        <div class="col">
                             <div class="widget-posts-image" style="margin: 0 10px 0 0; width: 90px;">
                                 <img src="{{ image }}" alt="{{ title }} Thumbnail" />
                             </div>
@@ -94,15 +99,17 @@
                                 {{/if}}
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        {{#each links}}
-                        <div class="callout-btn-box">
-                            <a target="_blank" class="btn btn-d btn-round" style="width: 200px;" href="{{ url }}">{{
-                                name
-                                }}</a>
+                        {{#if links}}
+                        <div class="col-3">
+                            {{#each links}}
+                            <div class="callout-btn-box">
+                                <a target="_blank" class="btn btn-d btn-round" style="width: 200px;" href="{{ url }}">{{
+                                    name
+                                    }}</a>
+                            </div>
+                            {{/each}}
                         </div>
-                        {{/each}}
+                        {{/if}}
                     </div>
                 </div>
                 <hr class="divider-w">

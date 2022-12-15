@@ -67,7 +67,12 @@ var getTrailerEvents = function() {
     var eventsOut = { "event1": null, "event2": null }
     for (ev of events) {
         if (ev['upcoming']) {
-            ev.primary_link = ev['links'][0]['url'];
+            if (ev.links) {
+                ev.primary_link = ev['links'][0]['url'];
+            } else {
+                ev.primary_link = '/events'
+            }
+
             if (eventsOut["event1"] == null) {
                 eventsOut["event1"] = ev;
             } else if (eventsOut["event2"] == null) {
