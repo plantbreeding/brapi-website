@@ -1,11 +1,28 @@
 [{
+        "title": "Greenville Hackathon",
+        "location": "Greenville, South Carolina, USA",
+        "date": "March 20, 2023 - March 24, 2023",
+        "image": "/images/events/greenville_thumb.jpg",
+        "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This hackathon is (hosted by Trevor Rife and Clemson University) will be in Greenville, South Carolina, USA on March 20-24, 2023. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
+        "upcoming": true,
+        "links": [{
+            "name": "Event Page",
+            "url": "/events/hackathon-mar-2023"
+        }, {
+            "name": "Register",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSeHJ2CYt2SXTUY6yElyHkJl9-vvorJ4F03T03hFDvGK3efSCw/viewform?usp=sf_link"
+        }]
+    }, {
         "title": "BrAPI Webinar - EMBL-EBI 2023 Plant Webinar Series",
         "location": "Virtual",
         "date": "April 26, 2023 at 15:30 UTC",
         "image": "/images/events/EMBL-EBI-logo.jpg",
         "description": "<p>The webinar series will comprise various topics to highlights general concepts and resources useful in plant research, including comparative genomics, metagenomics, plant breeding, etc. BrAPI will be presented on Wednesday, April 26, 2023. These webinars are free and open to everyone around the world to attend. </p>",
         "upcoming": true,
-        "links": null
+        "links": [{
+            "name": "EBI Events",
+            "url": "https://www.ebi.ac.uk/about/events/"
+        }]
     }, {
         "title": "BrAPI Virtual Hackathon",
         "location": "Virtual",

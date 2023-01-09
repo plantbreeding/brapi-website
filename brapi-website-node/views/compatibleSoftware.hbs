@@ -10,7 +10,6 @@
                 <div class="col-6" style="margin: 10px 0 20px 0">
                     <input class="search col-11" placeholder="Search for BrAPI Compatible Software" />
                     <span class="mdi mdi-magnify custom-bullet-point" style="vertical-align: top; line-height: 30px;"></span>
-
                     <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
                 </div>
                 <div class="col-8 row justify-content-center" style="margin: 5px 0 20px 0; display: none;">
@@ -28,16 +27,26 @@
                 </div>
             </div>
 
+                <div class="col-12" style="margin: 10px 0 0 0"> Sort By: 
+                    <span class='sort btn btn-sm btn-outline-secondary col-1' data-sort='software-title'>Name
+                        <span class="sort-sym mdi mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
+                        <span class="sort-sym mdi mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle;"></span>
+                    </span>
+                    <span class='sort btn btn-sm btn-outline-secondary col-1' data-sort='software-team'>Team
+                        <span class="sort-sym mdi mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
+                        <span class="sort-sym mdi mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
+                    </span>
+                </div>
             <ul class="list" style="list-style-type: none; padding: 0;">
                 {{#each software}}
                 <li class="row justify-content-center">
                     <div class="col-12 brapp">
                         <div class="row justify-content-center brapp-box">
-                            <div class="brapp-thumbnail col-12 col-md-4">
+                            <div class="brapp-thumbnail col-12 col-md-4 justify-content-center" style="display: flex;">
                                 <a href="{{ url }}" target="_blank">
-                                    <span style="vertical-align: middle; display: inline-flex;"></span>
-                                    <img src="{{ image }}" alt="{{ title }}">
-                                    <span style="vertical-align: middle; display: inline-flex;"></span>
+                                    <span style="vertical-align: middle; display: inline-flex;height: 100%;"></span>
+                                    <img src="{{ image }}" alt="{{ title }}" style="max-width:98%">
+                                    <span style="vertical-align: middle; display: inline-flex;height: 100%;"></span>
                                 </a>
                             </div>
                             <div class="brapp-header font-alt col-12 col-md-8">
@@ -87,6 +96,19 @@
         softwareList.on('searchComplete', function(e){
             $('#list-size').html('Showing ' + softwareList.visibleItems.length + ' of ' + softwareList.size());
         });
+
+
+        const toggleSortSymbol = function(event){
+            var selectedChild;
+            for(var child of $(event.currentTarget.children)){
+                if($(child).css('display') === 'none'){
+                    selectedChild = child;
+                }
+            }
+            $('.sort-sym').hide()
+            $(selectedChild).show()
+        }
+        $('.sort').on('click', toggleSortSymbol);
     });
 
 </script>

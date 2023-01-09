@@ -1,4 +1,14 @@
 [{
+        "team": "OpenSILEX",
+        "team-url": "http://opensilex.org/",
+        "title": "PHIS",
+        "description": "The open-source Phenotyping Hybrid Information System (PHIS), based on OpenSILEX, manages and collects data from Phenotyping and High Throughput Phenotyping experiments on a day to day basis. It can store, organize and manage highly heterogeneous (e.g. images, spectra, growth curves) and multi-spatial and temporal scale data (leaf to canopy level) originating from multiple sources (field, greenhouse). It unambiguously identifies all objects and traits in an experiment and establishes their relations via ontologies and semantics that apply to both field and controlled conditions. Its ontology-driven architecture is a powerful tool for integrating and managing data from multiple experiments and platforms, for creating relationships between objects and enriching datasets with knowledge and metadata. It is MIAPPE and BrAPI compliant, and naming conventions are recommended for users to declare their resources. Several experimental platforms use PHIS to manage their data, and PHIS instances dedicated to sharing resources (projects, genetic resources, variables) also exist to allow the sharing of studied concepts.",
+        "image": "/images/apps/phis_logo.png",
+        "url": "http://www.phis.inra.fr/",
+        "source-url": "https://github.com/OpenSILEX/opensilex",
+        "doc-url": "https://github.com/OpenSILEX/opensilex/blob/master/opensilex-doc/src/main/resources/index.md",
+        "demo-url": "http://opensilex.org/sandbox/app/"
+    }, {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/software/",
         "title": "Flapjack",
@@ -113,7 +123,7 @@
         "team-url": "https://urgi.versailles.inra.fr/",
         "description": "FAIR Data-finder for Agronomic REsearch",
         "tags": ["Web Service", "Client"],
-        "image": "/images/apps/faidare-thumb.png",
+        "image": "https://urgi.versailles.inra.fr/faidare/assets/logo.png",
         "url": "https://urgi.versailles.inrae.fr/faidare/",
         "source-url": "https://github.com/elixir-europe/plant-brapi-etl-faidare",
         "doc-url": "https://urgi.versailles.inrae.fr/faidare/join"

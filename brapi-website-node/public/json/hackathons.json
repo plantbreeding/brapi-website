@@ -1,4 +1,96 @@
 {
+    "hackathon-mar-2023": {
+        "attendees": [
+            { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "session1": true, "session2": true }
+        ],
+        "projects": [
+            { "team": null, "title": "", "description": "", "needs": null, "repo": null }
+        ],
+        "notes": [{
+            "discussion": "Welcome! Tech setup, setting expectations, general organizing",
+            "slides": null,
+            "meetingNotes": null,
+            "session1": null
+        }, {
+            "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
+            "session1": null
+        }, {
+            "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
+            "slides": "https://brapi.org/docs/BrAPI_101.pptx",
+            "session1": null
+        }, {
+            "discussion": "Community Sabbaticals - Informational Session"
+        }, {
+            "discussion": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper"
+        }, {
+            "discussion": "Analytics WG - New Working Group Interest Meeting"
+        }, {
+            "discussion": "GraphQL WG - New Working Group Interest Meeting"
+        }, {
+            "discussion": "Project presentations and wrap up"
+        }],
+        "agenda": [{
+            "date": "Monday, March 20, 2023",
+            "schedule": [
+                { "time": "09:00 - 09:30 EST", "class": "agenda-bg-blue", "title": "Welcome! Tech setup, setting expectations, general organizing" },
+                { "time": "09:30 - 11:00 EST", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                { "time": "11:00 - 12:00 EST", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
+                { "time": "12:00 - 13:00 EST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "16:50 - 17:00 EST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+            ]
+        }, {
+            "date": "Tuesday, March 21, 2022",
+            "schedule": [
+                { "time": "09:00 - 09:15 EST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": null },
+                { "time": "10:00 - 11:00 EST", "class": "agenda-bg-blue", "title": "Community Sabbaticals - Informational Session" },
+                { "time": "11:00 - 12:00 EST", "class": "agenda-bg-blue", "title": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper" },
+                { "time": "12:00 - 13:00 EST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": null },
+                { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null },
+                { "time": "16:50 - 17:00 EST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+            ]
+        }, {
+            "date": "Wednesday, March 22, 2022",
+            "schedule": [
+                { "time": "09:00 - 09:15 EST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": null },
+                { "time": "10:00 - 11:00 EST", "class": "agenda-bg-blue", "title": "Analytics WG - Progress Report" },
+                { "time": "11:00 - 12:00 EST", "class": "agenda-bg-blue", "title": "GraphQL WG - Progress Report" },
+                { "time": "12:00 - 13:00 EST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": null },
+                { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null },
+                { "time": "16:50 - 17:00 EST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+            ]
+        }, {
+            "date": "Thursday, March 23, 2022",
+            "schedule": [
+                { "time": "09:00 - 09:15 EST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": null },
+                { "time": "12:00 - 13:00 EST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": null },
+                { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null },
+                { "time": "16:50 - 17:00 EST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+            ]
+        }, {
+            "date": "Friday, March 24, 2022",
+            "schedule": [
+                { "time": "09:00 - 09:15 EST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": null },
+                { "time": "12:00 - 13:00 EST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": null },
+                { "time": "14:00 - 15:00 EST", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
+                { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": "15:30 - 17:00 EST", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" }
+            ]
+        }]
+    },
     "hackathon-oct-2022": {
         "attendees": [
             { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "session1": true, "session2": true },
