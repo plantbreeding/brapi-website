@@ -3,7 +3,8 @@
         <div class="row">
             <div class="col-4 col-md-3" id="menu">
                 <div>
-                    <a class="btn btn-d btn-round col-12" target="_blank" disabled href="https://docs.google.com/forms/d/e/1FAIpQLSeHJ2CYt2SXTUY6yElyHkJl9-vvorJ4F03T03hFDvGK3efSCw/viewform?usp=sf_link">Register</a>
+                    <a class="btn btn-d btn-round col-12" target="_blank" disabled
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSeHJ2CYt2SXTUY6yElyHkJl9-vvorJ4F03T03hFDvGK3efSCw/viewform?usp=sf_link">Register</a>
                 </div>
                 <div>
                     <button id="toggle-overview" class="btn btn-secondary btn-light-gray col-12" type="button"
@@ -31,20 +32,37 @@
                 <div id="overview-section" style="display: block; scroll-margin-top: 400px;">
                     <h3 class="font-alt" id="title"> Register </h3>
                     <div style="margin-left:10px">
-                        <p>
-                            <strong>When: </strong> March 20-24, 2023<br />
-                            <strong>Where: </strong> <br><a
-                                href="https://www.google.com/maps/place/Clemson+University+International+Center+for+Automotive+Research+(CU-ICAR)/@34.8143114,-82.3293133,17z/data=!3m1!4b1!4m5!3m4!1s0x88582f6bcc5dc13b:0x33730a1c8ebf1ce4!8m2!3d34.814307!4d-82.3271246"
-                                target="_blank">CU-ICAR TD Gallary and Plaza <br> 5 Research Drive <br> Greenville, SC
+                        <p style="margin: 2px 0 2px 0;"> <strong>When: </strong> March 20-24, 2023<br /> </p>
+                        <p style="margin: 2px 0 2px 0;"> <strong>Where: </strong> </p>
+                        <p style="margin: 2px 0 2px 15px;">
+                            <a href="https://www.google.com/maps/place/Clemson+University+International+Center+for+Automotive+Research+(CU-ICAR)/@34.8143114,-82.3293133,17z/data=!3m1!4b1!4m5!3m4!1s0x88582f6bcc5dc13b:0x33730a1c8ebf1ce4!8m2!3d34.814307!4d-82.3271246"
+                                target="_blank">CU-ICAR TD Gallary and Plaza <br> 5 Research
+                                Drive <br> Greenville, SC
                                 29607, USA </a><br>
                         </p>
-                        <p>
+                        <p style="margin: 10px 0 2px 0;"> <strong>Add To Calendar: </strong> <br> </p>
+                        <div style="text-align: center">
+                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                                href="{{calendarLinks.ics}}">.ICS (Outlook, iCal)</a>
+                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                                href="{{calendarLinks.google}}">Google Cal</a>
+                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                                href="{{calendarLinks.yahoo}}">Yahoo Cal</a>
+                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                                href="{{calendarLinks.office365}}">Office365</a>
+                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                                href="{{calendarLinks.outlook}}">Outlook (web)</a>
+                        </div>
+
+                        <p style="margin: 20px 0 15px 0;">
                             Join the BrAPI community for a week of fun as we hack code together and discuss the future
-                            of BrAPI. This hackathon is (hosted by Trevor Rife and Clemson University) will be in
-                            Greenville, South Carolina, USA on March 20-24, 2023. Everyone in the BrAPI community is
-                            welcome! Please register to receive meeting invitations and other important information.
+                            of BrAPI. This hackathon is will be in Greenville, South Carolina, USA on March 20-24, 2023.
+                            A big "thank you" to Trevor Rife and Clemson University for hosting this event. Everyone in
+                            the BrAPI community is welcome! Please register to receive meeting invitations and other
+                            important information.
                         </p>
-                        <p><a class="btn btn-d btn-round" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeHJ2CYt2SXTUY6yElyHkJl9-vvorJ4F03T03hFDvGK3efSCw/viewform?usp=sf_link">Register</a>
+                        <p style="text-align: center"><a class="btn btn-d btn-round col-4" target="_blank"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSeHJ2CYt2SXTUY6yElyHkJl9-vvorJ4F03T03hFDvGK3efSCw/viewform?usp=sf_link">Register</a>
                         </p>
 
                         {{!-- <p>Registration CLosed</p> --}}
@@ -53,7 +71,7 @@
                     <h3 class="font-alt" id="title"> Overview </h3>
                     <div style="margin-left:10px">
                         <p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community.
-                            This weeklong event will reserve time for the members of the community to discuss the BrAPI
+                            This weeklong event will provide time for the members of the community to discuss the BrAPI
                             specification, collaborate on projects, socialize and learn from each other. The hackathon
                             is largely self-organizing project work time, with a few scheduled public discussion
                             sessions addressing important community topics. The overall goal is to be as productive as
@@ -64,11 +82,12 @@
                             <img src="/images/events/greenville.jpg" alt="Greenville" />
                         </a>
                         <p style="font-size: smaller; font-weight: bold; float: left;">
-                            Eugenia Duke Bridge over the Reedy River - South Main St, Greenville SC 
+                            Eugenia Duke Bridge over the Reedy River - South Main St, Greenville SC
                         </p>
                         <p style="font-size: smaller; float: right;">
-                            <a href="https://www.shutterstock.com/image-photo/reedy-river-skyline-downtown-greenville-south-1165403800" target="_blank">
-                            Kevin Ruck - shutterstock.com
+                            <a href="https://www.shutterstock.com/image-photo/reedy-river-skyline-downtown-greenville-south-1165403800"
+                                target="_blank">
+                                Kevin Ruck - shutterstock.com
                             </a>
                         </p>
 
@@ -116,7 +135,8 @@
                                     {{/each}}
                                     <div class="col-12" style="padding: 0 0 0 10px; height: 10px;"></div>
                                 </div>
-                                <div class="col-1" style="writing-mode: vertical-rl; font-weight: bold; text-align: center;">
+                                <div class="col-1"
+                                    style="writing-mode: vertical-rl; font-weight: bold; text-align: center;">
                                     Project Work Time <br> All Day</div>
                             </div>
                             {{/each}}

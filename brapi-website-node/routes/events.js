@@ -1,4 +1,5 @@
 var express = require('express');
+const { google, outlook, office365, yahoo, ics } = require("calendar-link");
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
@@ -53,10 +54,13 @@ router.get('/:id', function(req, res, next) {
     hackathonData[req.params.id]["session1List"] = session1List;
     hackathonData[req.params.id]["session2List"] = session2List;
 
+    var calendarLinks = buildCalendarLinks(hackathonData[req.params.id].calendarInvite);
+
     res.render('hackathons/' + req.params.id, {
         title: 'BrAPI Virtual Hackathon',
         footerEvents: getTrailerEvents(),
         hackathonData: hackathonData[req.params.id],
+        calendarLinks: calendarLinks,
         twitterTitle: 'BrAPI Virtual Hackathon',
         twitterDesc: req.params.id
     });
@@ -83,6 +87,16 @@ var getTrailerEvents = function() {
         }
     }
     return eventsOut;
+}
+
+var buildCalendarLinks = function(event) {
+    return {
+        google: google(event),
+        outlook: outlook(event),
+        office365: office365(event),
+        yahoo: yahoo(event),
+        ics: ics(event)
+    };
 }
 
 module.exports = {
