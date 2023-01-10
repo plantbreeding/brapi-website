@@ -57,11 +57,11 @@ router.get('/:id', function(req, res, next) {
     var calendarLinks = buildCalendarLinks(hackathonData[req.params.id].calendarInvite);
 
     res.render('hackathons/' + req.params.id, {
-        title: 'BrAPI Virtual Hackathon',
+        title: 'BrAPI Hackathon',
         footerEvents: getTrailerEvents(),
         hackathonData: hackathonData[req.params.id],
         calendarLinks: calendarLinks,
-        twitterTitle: 'BrAPI Virtual Hackathon',
+        twitterTitle: 'BrAPI Hackathon',
         twitterDesc: req.params.id
     });
 });
