@@ -69,7 +69,7 @@
                 { "time": "10:00 - 11:00 EST", "class": "agenda-bg-blue", "title": "Analytics WG - Progress Report" },
                 { "time": "11:00 - 12:00 EST", "class": "agenda-bg-blue", "title": "GraphQL WG - Progress Report" },
                 { "time": "12:00 - 13:00 EST", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": null },
+                { "time": "13:00 - 14:00 EST", "class": "agenda-bg-blue", "title": "BrAPI-Sync - Demo and Community Feedback" } { "time": null },
                 { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
                 { "time": "16:50 - 17:00 EST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
@@ -80,7 +80,7 @@
                 { "time": "09:00 - 09:15 EST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
                 { "time": "10:00 - 11:00 EST", "class": "agenda-bg-blue", "title": "V2.1 Adoption - Progress, issues, and lessons learned" },
-                { "time": null },
+                { "time": "11:00 - 12:00 EST", "class": "agenda-bg-blue", "title": "Github Issues Review - Discuss and prioritize key issues for the next version" },
                 { "time": "12:00 - 13:00 EST", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": null },
                 { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
