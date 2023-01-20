@@ -69,7 +69,8 @@
                 { "time": "10:00 - 11:00 EST", "class": "agenda-bg-blue", "title": "Analytics WG - Progress Report" },
                 { "time": "11:00 - 12:00 EST", "class": "agenda-bg-blue", "title": "GraphQL WG - Progress Report" },
                 { "time": "12:00 - 13:00 EST", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": "13:00 - 14:00 EST", "class": "agenda-bg-blue", "title": "BrAPI-Sync - Demo and Community Feedback" } { "time": null },
+                { "time": "13:00 - 14:00 EST", "class": "agenda-bg-blue", "title": "BrAPI-Sync - Demo and Community Feedback" },
+                { "time": null },
                 { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
                 { "time": "16:50 - 17:00 EST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
