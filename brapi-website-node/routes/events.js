@@ -54,7 +54,9 @@ router.get('/:id', function(req, res, next) {
     hackathonData[req.params.id]["session1List"] = session1List;
     hackathonData[req.params.id]["session2List"] = session2List;
 
-    var calendarLinks = buildCalendarLinks(hackathonData[req.params.id].calendarInvite);
+    if (hackathonData[req.params.id].calendarInvite) {
+        var calendarLinks = buildCalendarLinks(hackathonData[req.params.id].calendarInvite);
+    }
 
     res.render('hackathons/' + req.params.id, {
         title: 'BrAPI Hackathon',

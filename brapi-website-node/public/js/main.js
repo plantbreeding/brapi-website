@@ -35,7 +35,9 @@ function toggleVisibleXor(visibleId, allIds, defaultIndex) {
 $(document).ready(function() {
     if (window.location.pathname.startsWith("/events/hackathon")) {
         var page = window.location.hash.replace("#", "");
-        toggleVisibleXorHackathon(page);
+        if (page) {
+            toggleVisibleXorHackathon(page);
+        }
     }
 });
 
