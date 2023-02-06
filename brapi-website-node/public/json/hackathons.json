@@ -1,14 +1,27 @@
 {
     "hackathon-mar-2023": {
-        "attendees": [{ "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu" },
+        "attendees": [
+            { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu" },
             { "name": "Leonel Ignacio Kovacic", "org": "IBP", "email": "leonel@leafnode.io" },
             { "name": "Margaret Karanja", "org": "IITA", "email": "m.karanja@cgiar.org" },
             { "name": "Trevor Rife", "org": "Clemson University", "email": "twrife@clemson.edu" },
             { "name": "Mark Watson", "org": "North Carolina State University", "email": "mtwatso2@ncsu.edu" },
-            { "name": "Bryan Ellerbrock ", "org": "BTI, Clemson", "email": "bje24@cornell.edu" }
+            { "name": "Bryan Ellerbrock ", "org": "BTI, Clemson", "email": "bje24@cornell.edu" },
+            { "name": "Chaney Courtney", "org": "PhenoApps", "email": "chaneylc@gmail.com" },
+            { "name": "Jenna Hershberger", "org": "Clemson University", "email": "jmhersh@clemson.edu" },
+            { "name": "Ernesto Briones Pereyra", "org": "CIMMYT", "email": "e.briones@cgiar.org" },
+            { "name": "Larise Landicho Gallardo", "org": "CGIAR, IRRI, CIMMYT", "email": "l.gallardo@irri.org" },
+            { "name": "Jahzeel Ramos Calosa", "org": "CGIAR, IRRI, CIMMYT", "email": "jp.ramos@irri.org" },
+            { "name": "Maria Relliza Asin Pasang", "org": "CGIAR, IRRI, CIMMYT", "email": "m.pasang@irri.org" },
+            { "name": "Mirella Flores", "org": "BTI", "email": "mrf252@cornell.edu" }
         ],
-        "projects": [{ "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU fieldbook", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
-            { "team": "Mark Watson, Any of the developers of the various brapir R packages (I'm not sure if any will be present or not).", "title": "BrAPI-R", "description": "I'm working on a set of modular R Shiny apps that use BrAPI via the brapir-v1 R package for interactive breeding data analyses (the goal is for these to be especially tinkerable, so breeders can modify them themselves for miscellaneous analyses that aren't covered in breedbase instances). I'm interested in integrating new BrAPI features (working with any brapir developers if they're present), along with improving performance and adding better documentation for GitHub.", "needs": null, "repo": "https://github.com/mtwatso2-eng/pollination-toolbox" }
+        "projects": [
+            { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU fieldbook", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
+            { "team": "Mark Watson, Any of the developers of the various brapir R packages (I'm not sure if any will be present or not).", "title": "BrAPI-R", "description": "I'm working on a set of modular R Shiny apps that use BrAPI via the brapir-v1 R package for interactive breeding data analyses (the goal is for these to be especially tinkerable, so breeders can modify them themselves for miscellaneous analyses that aren't covered in breedbase instances). I'm interested in integrating new BrAPI features (working with any brapir developers if they're present), along with improving performance and adding better documentation for GitHub.", "needs": null, "repo": "https://github.com/mtwatso2-eng/pollination-toolbox" },
+            { "team": "Chaney Courtney", "title": "Field Book", "description": "FieldBook", "needs": null, "repo": null },
+            { "team": "Ernesto Briones Pereyra, EBS' Team", "title": "GraphQL ", "description": "GraphQL Brapi standard", "needs": null, "repo": null },
+            { "team": "Maria Relliza Asin Pasang, Jahzeel Ramos Calosa (IRRI), Larise Gallardo (IRRI), Alfonso Joseph Caballero Ramirez (CIMMYT), Ernesto Briones (CIMMYT)", "title": "Integrate EBS and Field Book", "description": "Integrate the CGIAR Excellence in Breeding Platform-led Enterprise Breeding System (EBS) with the Field Book application so that breeders may easily collect and upload data to the system.", "needs": "Planning to consult Trevor Rife for the Field book app and BrAPI integration", "repo": "https://bitbucket.org/ebsproject/cb-brapi" },
+            { "team": "Mirella Flores", "title": "BrAPI Trait Selector", "description": "BrAPI trait selector", "needs": null, "repo": null }
         ],
         "notes": [{
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
