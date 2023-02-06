@@ -1,4 +1,14 @@
 [{
+        "team": "The James Hutton Institute (JHI)",
+        "team-url": "https://ics.hutton.ac.uk",
+        "title": "GridScore",
+        "description": "GridScore is a cross-platform open-source plant phenotyping app combining a visual view of the field layout with barcode system compatibility and a guided data collection approach allowing step-by-step collection of phenotypic data, supported by a set of powerful visualizations.",
+        "image": "https://cropgeeks.github.io/gridscore/img/screenshot-grid.png",
+        "url": "https://ics.hutton.ac.uk/gridscore",
+        "source-url": "https://github.com/cropgeeks/gridscore",
+        "doc-url": "https://cropgeeks.github.io/gridscore/",
+        "demo-url": "https://ics.hutton.ac.uk/gridscore"
+    }, {
         "team": "OpenSILEX",
         "team-url": "http://opensilex.org/",
         "title": "PHIS",
