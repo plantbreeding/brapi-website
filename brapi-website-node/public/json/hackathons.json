@@ -13,7 +13,8 @@
             { "name": "Larise Landicho Gallardo", "org": "CGIAR, IRRI, CIMMYT", "email": "l.gallardo@irri.org" },
             { "name": "Jahzeel Ramos Calosa", "org": "CGIAR, IRRI, CIMMYT", "email": "jp.ramos@irri.org" },
             { "name": "Maria Relliza Asin Pasang", "org": "CGIAR, IRRI, CIMMYT", "email": "m.pasang@irri.org" },
-            { "name": "Mirella Flores", "org": "BTI", "email": "mrf252@cornell.edu" }
+            { "name": "Mirella Flores", "org": "BTI", "email": "mrf252@cornell.edu" },
+            { "name": "Becky Smith", "org": "Jamed Hutton Institute", "email": "becky.smith@hutton.ac.uk" }
         ],
         "projects": [
             { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU fieldbook", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
