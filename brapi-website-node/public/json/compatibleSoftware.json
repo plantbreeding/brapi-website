@@ -217,7 +217,7 @@
         "source-url": "https://github.com/cropgeeks/flapjack-bytes",
         "doc-url": "https://github.com/cropgeeks/flapjack-bytes/blob/master/README.md",
         "title": "Flapjack-Bytes",
-        "team": "James Hutton Institute (JHI)",
+        "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/",
         "description": "Flapjack-Bytes is a graphical genotype visualization library. The visualization is modelled on the pre-existing Java desktop application Flapjack. ",
         "tags": ["BrAPP", "Client", "JS"]
