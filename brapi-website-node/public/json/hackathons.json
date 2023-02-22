@@ -1,21 +1,30 @@
 {
     "hackathon-mar-2023": {
         "attendees": [
-            { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu" },
-            { "name": "Leonel Ignacio Kovacic", "org": "IBP", "email": "leonel@leafnode.io" },
-            { "name": "Margaret Karanja", "org": "IITA", "email": "m.karanja@cgiar.org" },
-            { "name": "Trevor Rife", "org": "Clemson University", "email": "twrife@clemson.edu" },
-            { "name": "Mark Watson", "org": "North Carolina State University", "email": "mtwatso2@ncsu.edu" },
-            { "name": "Bryan Ellerbrock ", "org": "BTI, Clemson", "email": "bje24@cornell.edu" },
-            { "name": "Chaney Courtney", "org": "PhenoApps", "email": "chaneylc@gmail.com" },
-            { "name": "Jenna Hershberger", "org": "Clemson University", "email": "jmhersh@clemson.edu" },
-            { "name": "Ernesto Briones Pereyra", "org": "CIMMYT", "email": "e.briones@cgiar.org" },
-            { "name": "Larise Landicho Gallardo", "org": "CGIAR, IRRI, CIMMYT", "email": "l.gallardo@irri.org" },
-            { "name": "Jahzeel Ramos Calosa", "org": "CGIAR, IRRI, CIMMYT", "email": "jp.ramos@irri.org" },
-            { "name": "Maria Relliza Asin Pasang", "org": "CGIAR, IRRI, CIMMYT", "email": "m.pasang@irri.org" },
-            { "name": "Mirella Flores", "org": "BTI", "email": "mrf252@cornell.edu" },
-            { "name": "Becky Smith", "org": "Jamed Hutton Institute", "email": "becky.smith@hutton.ac.uk" },
-            { "name": "Tim Parsons", "org": "Breeding Insight - Cornell University", "email": "tim.parsons@cornell.edu" }
+            { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "remote": false },
+            { "name": "Leonel Ignacio Kovacic", "org": "IBP", "email": "leonel@leafnode.io", "remote": true },
+            { "name": "Margaret Karanja", "org": "IITA", "email": "m.karanja@cgiar.org", "remote": false },
+            { "name": "Trevor Rife", "org": "Clemson University", "email": "twrife@clemson.edu", "remote": false },
+            { "name": "Mark Watson", "org": "North Carolina State University", "email": "mtwatso2@ncsu.edu", "remote": true },
+            { "name": "Bryan Ellerbrock ", "org": "BTI, Clemson", "email": "bje24@cornell.edu", "remote": false },
+            { "name": "Chaney Courtney", "org": "PhenoApps", "email": "chaneylc@gmail.com", "remote": false },
+            { "name": "Jenna Hershberger", "org": "Clemson University", "email": "jmhersh@clemson.edu", "remote": false },
+            { "name": "Ernesto Briones Pereyra", "org": "CIMMYT", "email": "e.briones@cgiar.org", "remote": false },
+            { "name": "Larise Landicho Gallardo", "org": "CGIAR, IRRI, CIMMYT", "email": "l.gallardo@irri.org", "remote": true },
+            { "name": "Jahzeel Ramos Calosa", "org": "CGIAR, IRRI, CIMMYT", "email": "jp.ramos@irri.org", "remote": true },
+            { "name": "Maria Relliza Asin Pasang", "org": "CGIAR, IRRI, CIMMYT", "email": "m.pasang@irri.org", "remote": true },
+            { "name": "Mirella Flores", "org": "BTI", "email": "mrf252@cornell.edu", "remote": false },
+            { "name": "Becky Smith", "org": "Jamed Hutton Institute", "email": "becky.smith@hutton.ac.uk", "remote": false },
+            { "name": "Tim Parsons", "org": "Breeding Insight - Cornell University", "email": "tim.parsons@cornell.edu", "remote": false },
+            { "name": "Muhammad Kazim Ali ", "org": "University of Karachi ", "email": "ali.kazimm@gmail.com", "remote": true },
+            { "name": "Taein Lee", "org": "Washington State University", "email": "leetaei@wsu.edu", "remote": true },
+            { "name": "Terry Casstevens", "org": "Cornell University", "email": "tmc46@cornell.edu", "remote": false },
+            { "name": "Thiago Bergamo", "org": "Sempre Agtech", "email": "tbc@sempre.agr.br", "remote": true },
+            { "name": "Iain Milne", "org": "The James Hutton Institute", "email": "iain.milne@hutton.ac.uk", "remote": true },
+            { "name": "Khaled Al-Shamaa", "org": "ICARDA", "email": "k.el-shamaa@cgiar.org", "remote": true },
+            { "name": "Moses Nderitu", "org": "SEQART AFRICA", "email": "m.nderitu@seqart.net", "remote": true },
+            { "name": "Alfonso Caballero", "org": "CIMMYT", "email": "a.caballero@cgiar.org", "remote": false },
+            { "name": "Chun-Huai Cheng", "org": "Washington State University", "email": "chun-huai.cheng@wsu.edu", "remote": true }
         ],
         "projects": [
             { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU fieldbook", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
@@ -23,7 +32,9 @@
             { "team": "Chaney Courtney", "title": "Field Book", "description": "FieldBook", "needs": null, "repo": null },
             { "team": "Ernesto Briones Pereyra, EBS' Team", "title": "GraphQL ", "description": "GraphQL Brapi standard", "needs": null, "repo": null },
             { "team": "Maria Relliza Asin Pasang, Jahzeel Ramos Calosa (IRRI), Larise Gallardo (IRRI), Alfonso Joseph Caballero Ramirez (CIMMYT), Ernesto Briones (CIMMYT)", "title": "Integrate EBS and Field Book", "description": "Integrate the CGIAR Excellence in Breeding Platform-led Enterprise Breeding System (EBS) with the Field Book application so that breeders may easily collect and upload data to the system.", "needs": "Planning to consult Trevor Rife for the Field book app and BrAPI integration", "repo": "https://bitbucket.org/ebsproject/cb-brapi" },
-            { "team": "Mirella Flores", "title": "BrAPI Trait Selector", "description": "BrAPI trait selector", "needs": null, "repo": null }
+            { "team": "Mirella Flores", "title": "BrAPI Trait Selector", "description": "BrAPI trait selector", "needs": null, "repo": null },
+            { "team": "Tim Parsons", "title": "Workflow Configuration Tool or Field Book for iOS", "description": "Workflow Configuration Tool or Field Book for iOS", "needs": null, "repo": "https://github.com/Breeding-Insight/Field-Book-iOS" },
+            { "team": "Terry Casstevens, Becky Smith from JHI ", "title": "Flap Jack", "description": "Flap-Jack and Flap-Jack bytes", "needs": null, "repo": null }
         ],
         "notes": [{
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
