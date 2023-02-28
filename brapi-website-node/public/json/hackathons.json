@@ -24,17 +24,23 @@
             { "name": "Khaled Al-Shamaa", "org": "ICARDA", "email": "k.el-shamaa@cgiar.org", "remote": true },
             { "name": "Moses Nderitu", "org": "SEQART AFRICA", "email": "m.nderitu@seqart.net", "remote": true },
             { "name": "Alfonso Caballero", "org": "CIMMYT", "email": "a.caballero@cgiar.org", "remote": false },
-            { "name": "Chun-Huai Cheng", "org": "Washington State University", "email": "chun-huai.cheng@wsu.edu", "remote": true }
+            { "name": "Chun-Huai Cheng", "org": "Washington State University", "email": "chun-huai.cheng@wsu.edu", "remote": true },
+            { "name": "Star Yanxin Gao", "org": "Cornell University", "email": "yg28@cornell.edu", "remote": true },
+            { "name": "Guy Davenport", "org": "Daveneti Limited", "email": "guy@daveneti.com", "remote": true },
+            { "name": "Carlos Quiros", "org": "CGIAR", "email": "c.f.quiros@cgiar.org", "remote": false },
+            { "name": "Dinia Grace D. Gepte", "org": "International Rice Research Institute (IRRI)", "email": "d.gepte@irri.org", "remote": false }
         ],
         "projects": [
             { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU fieldbook", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
             { "team": "Mark Watson, Any of the developers of the various brapir R packages (I'm not sure if any will be present or not).", "title": "BrAPI-R", "description": "I'm working on a set of modular R Shiny apps that use BrAPI via the brapir-v1 R package for interactive breeding data analyses (the goal is for these to be especially tinkerable, so breeders can modify them themselves for miscellaneous analyses that aren't covered in breedbase instances). I'm interested in integrating new BrAPI features (working with any brapir developers if they're present), along with improving performance and adding better documentation for GitHub.", "needs": null, "repo": "https://github.com/mtwatso2-eng/pollination-toolbox" },
             { "team": "Chaney Courtney", "title": "Field Book", "description": "FieldBook", "needs": null, "repo": null },
             { "team": "Ernesto Briones Pereyra, EBS' Team", "title": "GraphQL ", "description": "GraphQL Brapi standard", "needs": null, "repo": null },
-            { "team": "Maria Relliza Asin Pasang, Jahzeel Ramos Calosa (IRRI), Larise Gallardo (IRRI), Alfonso Joseph Caballero Ramirez (CIMMYT), Ernesto Briones (CIMMYT)", "title": "Integrate EBS and Field Book", "description": "Integrate the CGIAR Excellence in Breeding Platform-led Enterprise Breeding System (EBS) with the Field Book application so that breeders may easily collect and upload data to the system.", "needs": "Planning to consult Trevor Rife for the Field book app and BrAPI integration", "repo": "https://bitbucket.org/ebsproject/cb-brapi" },
+            { "team": "Maria Relliza Asin Pasang, Jahzeel Ramos Calosa (IRRI), Larise Gallardo (IRRI), Alfonso Joseph Caballero Ramirez (CIMMYT), Ernesto Briones (CIMMYT), Dinia Grace D. Gepte", "title": "Integrate EBS and Field Book", "description": "Integrate the CGIAR Excellence in Breeding Platform-led Enterprise Breeding System (EBS) with the Field Book application so that breeders may easily collect and upload data to the system.", "needs": "Planning to consult Trevor Rife for the Field book app and BrAPI integration", "repo": "https://bitbucket.org/ebsproject/cb-brapi" },
             { "team": "Mirella Flores", "title": "BrAPI Trait Selector", "description": "BrAPI trait selector", "needs": null, "repo": null },
             { "team": "Tim Parsons", "title": "Workflow Configuration Tool or Field Book for iOS", "description": "Workflow Configuration Tool or Field Book for iOS", "needs": null, "repo": "https://github.com/Breeding-Insight/Field-Book-iOS" },
-            { "team": "Terry Casstevens, Becky Smith from JHI ", "title": "Flap Jack", "description": "Flap-Jack and Flap-Jack bytes", "needs": null, "repo": null }
+            { "team": "Terry Casstevens, Becky Smith from JHI ", "title": "Flap Jack", "description": "Flap-Jack and Flap-Jack bytes", "needs": null, "repo": null },
+            { "team": "Khaled Al-Shamaa, GIGWA team", "title": "QBMS R Package", "description": "QBMS R package enables your analysis pipeline to query and retrieve phenotypic and genotypic data from your breeding management system(s) like BMS, BreedBase, and GIGWA using BrAPI calls. During this hackathon, we plan to improve the efficiency of extracting genotypic data from the latest GIGWA server release (beta version 2.5.2) by implementing the BrAPI v2.1 “/search/allelematrix” endpoint support.", "needs": null, "repo": "https://github.com/icarda-git/QBMS/" },
+            { "team": "Carlos Quiros, Peter Selby or the BrAPI dev team", "title": "ClimMob", "description": "Advance BrAPI basic integration with ClimMob /  Expose ClimMob data using BrAPI standards", "needs": null, "repo": "https://github.com/BioversityCostaRica/py3ClimMob" }
         ],
         "notes": [{
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
