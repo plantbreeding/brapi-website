@@ -152,7 +152,19 @@
                     <div style="margin-left:10px">
                         <table>
                             <tr>
-                                <th class="agenda" colspan="3">Anticipated Hackathon Attendees</th>
+                                <th class="agenda" colspan="3">In-person</th>
+                            </tr>
+                            {{#each hackathonData.session2List}}
+                            <tr>
+                                <td class="agenda">{{name}}</td>
+                                <td class="agenda">{{email}}</td>
+                                <td class="agenda">{{org}}</td>
+                            </tr>
+                            {{/each}}
+                        </table>
+                        <table>
+                            <tr>
+                                <th class="agenda" colspan="3">Remote</th>
                             </tr>
                             {{#each hackathonData.session1List}}
                             <tr>
@@ -161,7 +173,6 @@
                                 <td class="agenda">{{org}}</td>
                             </tr>
                             {{/each}}
-
                         </table>
                     </div>
 
