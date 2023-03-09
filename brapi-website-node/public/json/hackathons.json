@@ -9,9 +9,9 @@
             { "name": "Bryan Ellerbrock ", "org": "BTI, Clemson", "email": "bje24@cornell.edu", "session1": false, "session2": true },
             { "name": "Chaney Courtney", "org": "PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true },
             { "name": "Jenna Hershberger", "org": "Clemson University", "email": "jmhersh@clemson.edu", "session1": false, "session2": true },
-            { "name": "Ernesto Briones Pereyra", "org": "CIMMYT", "email": "e.briones@cgiar.org", "session1": false, "session2": true },
+            { "name": "Ernesto Briones Pereyra", "org": "CIMMYT", "email": "e.briones@cgiar.org", "session1": true, "session2": false },
             { "name": "Larise Landicho Gallardo", "org": "CGIAR, IRRI, CIMMYT", "email": "l.gallardo@irri.org", "session1": true, "session2": false },
-            { "name": "Jahzeel Ramos Calosa", "org": "CGIAR, IRRI, CIMMYT", "email": "jp.ramos@irri.org", "session1": false, "session2": true },
+            { "name": "Jahzeel Ramos Calosa", "org": "CGIAR, IRRI, CIMMYT", "email": "jp.ramos@irri.org", "session1": true, "session2": false },
             { "name": "Maria Relliza Asin Pasang", "org": "CGIAR, IRRI, CIMMYT", "email": "m.pasang@irri.org", "session1": true, "session2": false },
             { "name": "Mirella Flores", "org": "BTI", "email": "mrf252@cornell.edu", "session1": false, "session2": true },
             { "name": "Becky Smith", "org": "Jamed Hutton Institute", "email": "becky.smith@hutton.ac.uk", "session1": false, "session2": true },
@@ -37,7 +37,8 @@
             { "name": "Dariusz Bienkowski", "org": "Boyce Thompson Institute", "email": "db738@cornell.edu", "session1": false, "session2": true },
             { "name": "Nick Palladino", "org": "Breeding Insight", "email": "np398@cornell.edu", "session1": true, "session2": false },
             { "name": "Shawn Yarnes", "org": "Breeding Insight, Cornell University", "email": "scy32@cornell.edu", "session1": true, "session2": false },
-            { "name": "David Meidlinger", "org": "Breeding Insight", "email": "djm226@cornell.edu", "session1": true, "session2": false }
+            { "name": "David Meidlinger", "org": "Breeding Insight", "email": "djm226@cornell.edu", "session1": true, "session2": false },
+            { "name": "Tyr Wiesner-Hanks", "org": "Breeding Insight", "email": "tw372@cornell.edu", "session1": true, "session2": false }
         ],
         "projects": [
             { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU fieldbook", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
