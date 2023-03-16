@@ -38,7 +38,9 @@
             { "name": "Nick Palladino", "org": "Breeding Insight", "email": "np398@cornell.edu", "session1": true, "session2": false },
             { "name": "Shawn Yarnes", "org": "Breeding Insight", "email": "scy32@cornell.edu", "session1": true, "session2": false },
             { "name": "David Meidlinger", "org": "Breeding Insight", "email": "djm226@cornell.edu", "session1": true, "session2": false },
-            { "name": "Tyr Wiesner-Hanks", "org": "Breeding Insight", "email": "tw372@cornell.edu", "session1": true, "session2": false }
+            { "name": "Tyr Wiesner-Hanks", "org": "Breeding Insight", "email": "tw372@cornell.edu", "session1": true, "session2": false },
+            { "name": "Keo Corak", "org": "USDA-ARS, Breeding Insight OnRamp, NCSU", "email": "keo.corak@usda.gov", "session1": false, "session2": true },
+            { "name": "Jan Erik Backlund", "org": "IBP ", "email": "jeback1@gmail.com", "session1": true, "session2": false }
         ],
         "projects": [
             { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU fieldbook", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
