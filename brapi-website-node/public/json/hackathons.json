@@ -123,7 +123,9 @@
                 { "time": null },
                 { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "16:50 - 17:00 EST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+                { "time": "16:50 - 17:00 EST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": null },
+                { "time": "19:00 - 21:00 EST", "class": "agenda-bg-pink", "title": "Community Dinner - Sassafras Southern Bistro" }
             ]
         }, {
             "date": "Thursday, March 23, 2022",
