@@ -77,9 +77,9 @@
             "meetingNotes": "https://docs.google.com/document/d/1AfhIF625gMzBZxjTH0YOh2ePsJIU45_ve7znaj2du7g",
             "session1": "https://youtu.be/WtV3svshC8k"
         }, {
-            "discussion": "Analytics WG - New Working Group Interest Meeting"
+            "discussion": "Analytics WG - James Clevenger presents the EBS Data Lake"
         }, {
-            "discussion": "GraphQL WG - New Working Group Interest Meeting"
+            "discussion": "GraphQL WG - Progress Report"
         }, {
             "discussion": "Project presentations and wrap up"
         }],
@@ -121,9 +121,11 @@
                 { "time": "09:00 - 09:15 EST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
                 { "time": "10:00 - 11:00 EST", "class": "agenda-bg-blue", "title": "GraphQL WG - Progress Report" },
-                { "time": "11:00 - 12:00 EST", "class": "agenda-bg-blue", "title": "Analytics WG - Progress Report" },
+                { "time": "11:00 - 12:00 EST", "class": "agenda-bg-blue", "title": "Analytics WG - James Clevenger presents the EBS Data Lake" },
                 { "time": "12:00 - 13:00 EST", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": "13:00 - 14:00 EST", "class": "agenda-bg-blue", "title": "BrAPI-Sync - Demo and Community Feedback" },
+                { "time": null },
+                { "time": "14:30 - 14:45 EST", "class": "agenda-bg-pink", "title": "Group Picture Time!!" },
                 { "time": null },
                 { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
