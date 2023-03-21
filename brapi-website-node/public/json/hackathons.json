@@ -69,9 +69,11 @@
             "slides": "https://brapi.org/docs/BrAPI_101.pptx",
             "session1": null
         }, {
-            "discussion": "Community Sabbaticals - Informational Session"
+            "discussion": "Community Sabbaticals - Informational Session",
+            "slides": "https://docs.google.com/presentation/d/1KD2e6Wgg7jcBHp5X6TVonipal7LyQIP9"
         }, {
-            "discussion": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper"
+            "discussion": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper",
+            "meetingNotes": "https://docs.google.com/document/d/1AfhIF625gMzBZxjTH0YOh2ePsJIU45_ve7znaj2du7g"
         }, {
             "discussion": "Analytics WG - New Working Group Interest Meeting"
         }, {
