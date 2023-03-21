@@ -70,10 +70,12 @@
             "session1": null
         }, {
             "discussion": "Community Sabbaticals - Informational Session",
-            "slides": "https://docs.google.com/presentation/d/1KD2e6Wgg7jcBHp5X6TVonipal7LyQIP9"
+            "slides": "https://docs.google.com/presentation/d/1KD2e6Wgg7jcBHp5X6TVonipal7LyQIP9",
+            "session1": "https://youtu.be/y71iB3D04eM"
         }, {
             "discussion": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper",
-            "meetingNotes": "https://docs.google.com/document/d/1AfhIF625gMzBZxjTH0YOh2ePsJIU45_ve7znaj2du7g"
+            "meetingNotes": "https://docs.google.com/document/d/1AfhIF625gMzBZxjTH0YOh2ePsJIU45_ve7znaj2du7g",
+            "session1": "https://youtu.be/WtV3svshC8k"
         }, {
             "discussion": "Analytics WG - New Working Group Interest Meeting"
         }, {
