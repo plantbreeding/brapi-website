@@ -3,6 +3,7 @@ var router = express.Router();
 const exval = require('express-validator');
 var nodemailer = require('nodemailer');
 var fs = require('fs');
+const fetch = require('node-fetch');
 
 router.post('/mailingListSubscribe', function(req, res, next) {
     fs.appendFile(process.env.MIALING_LIST_PATH, '+ ' + req.body.name + ' (' + req.body.org + ')<' + req.body.email + '>\n', function(err) {
@@ -48,6 +49,35 @@ router.post('/newSoftwareSubmit', function(req, res, next) {
         if (err) throw err;
         res.json({ "success": "true" })
     });
+});
+
+router.post('/testEndpoint', async function(req, res, next) {
+    console.log(req.body);
+    var server = req.body;
+    var v1URL = server["server-v1-url"]
+    var responseBody = { "v1Res": {}, "v2Res": {} };
+    if (v1URL) {
+        if (!v1URL.endsWith('/'))
+            v1URL = v1URL + '/';
+
+        const fetchPromise = fetch(v1URL + "calls");
+        fetchPromise.then(response => responseBody.v1Res = response)
+        await fetchPromise;
+    }
+
+    var v2URL = server["server-v2-url"]
+    if (v2URL) {
+        if (!v2URL.endsWith('/'))
+            v2URL = v2URL + '/';
+
+        const fetchPromise = fetch(v2URL + "serverinfo");
+        fetchPromise.then(response => responseBody.v2Res = response)
+        await fetchPromise;
+    }
+
+    console.log(responseBody);
+    res.json(responseBody);
+
 });
 
 function newServerJSON(reqBody) {
