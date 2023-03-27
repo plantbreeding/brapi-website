@@ -4,7 +4,7 @@
         "date": "March 20, 2023 - March 24, 2023",
         "image": "/images/events/greenville_thumb.jpg",
         "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This hackathon is (hosted by Trevor Rife and Clemson University) will be in Greenville, South Carolina, USA on March 20-24, 2023. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [{
             "name": "Event Page",
             "url": "/events/hackathon-mar-2023"
