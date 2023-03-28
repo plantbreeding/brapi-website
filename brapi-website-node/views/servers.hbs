@@ -53,9 +53,15 @@
                                                         <span class="spinner-border spinner-border-sm text-dark"
                                                             role="status">
                                                         </span>
-                                                        <span class="status-ok iconify" data-icon="mdi-check-bold" style="display: none;">200</span>
-                                                        <span class="status-unauth iconify" data-icon="mdi-lock-alert" style="display: none;">401</span>
-                                                        <span class="status-notfound iconify" data-icon="mdi-alert-decagram" style="display: none;">404</span>
+                                                        <span class="status-ok" style="display: none; font-size: 11px; font-weight: bold; color: #00990d;">
+                                                            <span class="iconify" data-icon="mdi-check-bold" style="margin-bottom: 5px; font-size: 16px; color: #00990d"></span>200
+                                                        </span>
+                                                        <span class="status-unauth" style="display: none; font-size: 11px; font-weight: bold; color: #0010c5">
+                                                            <span class="iconify" data-icon="mdi-lock" style="margin-bottom: 5px; font-size: 16px; color: #0010c5"></span>401
+                                                        </span>
+                                                        <span class="status-notfound" style="display: none; font-size: 11px; font-weight: bold; color:#c50000">
+                                                            <span class="iconify" data-icon="mdi-alert-decagram" style="margin-bottom: 5px; font-size: 16px; color: #c50000"></span>404
+                                                        </span>
                                                     </span>
                                                 </div>
                                                 <div class="col" style="margin-top: 8px;">
@@ -74,9 +80,15 @@
                                                         <span class="spinner-border spinner-border-sm text-dark"
                                                             role="status">
                                                         </span>
-                                                        <span class="status-ok iconify" data-icon="mdi-check-bold" style="display: none;">200</span>
-                                                        <span class="status-unauth iconify" data-icon="mdi-lock-alert" style="display: none;">401</span>
-                                                        <span class="status-notfound iconify" data-icon="mdi-alert-decagram" style="display: none;">404</span>
+                                                        <span class="status-ok" style="display: none; font-size: 11px; font-weight: bold; color: #00990d;">
+                                                            <span class="iconify" data-icon="mdi-check-bold" style="margin-bottom: 5px; font-size: 16px; color: #00990d"></span>200
+                                                        </span>
+                                                        <span class="status-unauth" style="display: none; font-size: 11px; font-weight: bold; color: #0010c5">
+                                                            <span class="iconify" data-icon="mdi-lock" style="margin-bottom: 5px; font-size: 16px; color: #0010c5"></span>401
+                                                        </span>
+                                                        <span class="status-notfound" style="display: none; font-size: 11px; font-weight: bold; color:#c50000">
+                                                            <span class="iconify" data-icon="mdi-alert-decagram" style="margin-bottom: 5px; font-size: 16px; color: #c50000"></span>404
+                                                        </span>
                                                     </span>
                                                 </div>
                                                 <div class="col" style="margin-top: 8px;">
@@ -113,10 +125,19 @@
         serverList.toJSON().forEach(server => {
             try{
                 var serverStr = JSON.stringify(server);
-                var req = {method: 'POST', body: serverStr}
-                console.log(req);
-                const fetchPromise = fetch("/api/testEndpoint", req);
-                fetchPromise.then(response => setServerStatus(response, server['server-id'] + '-v1'))
+                var req = {
+                    method: 'POST', 
+                    body: serverStr,
+                    headers: {
+                        "Content-Type": "application/json",
+                    }
+                }
+                fetch("/api/testEndpoint", req)
+                .then(response => response.json())
+                .then(data => {
+                    setServerStatus(data['v1Res'], server['server-id'] + '-v1')
+                    setServerStatus(data['v2Res'], server['server-id'] + '-v2')
+                })
                 .catch(error => {
                     console.log(error)
                     $('#' + server['server-id'] + '-v2 .spinner-border').hide() 
@@ -130,8 +151,6 @@
     });
 
     function setServerStatus(res, id){
-        console.log(id)
-        console.log(res)
         $('#' + id + ' .spinner-border').hide() 
         if(res.status == 200){
             $('#' + id + ' .status-ok').show() 

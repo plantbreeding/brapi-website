@@ -52,17 +52,19 @@ router.post('/newSoftwareSubmit', function(req, res, next) {
 });
 
 router.post('/testEndpoint', async function(req, res, next) {
-    console.log(req.body);
     var server = req.body;
     var v1URL = server["server-v1-url"]
-    var responseBody = { "v1Res": {}, "v2Res": {} };
+    var responseBody = { "v1Res": { "status": 0 }, "v2Res": { "status": 0 } };
     if (v1URL) {
         if (!v1URL.endsWith('/'))
             v1URL = v1URL + '/';
 
-        const fetchPromise = fetch(v1URL + "calls");
-        fetchPromise.then(response => responseBody.v1Res = response)
-        await fetchPromise;
+        await fetch(v1URL + "calls")
+            .then(res => {
+                responseBody.v1Res.status = res.status;
+            }).catch(error => {
+                responseBody.v1Res.status = 400;
+            })
     }
 
     var v2URL = server["server-v2-url"]
@@ -70,14 +72,15 @@ router.post('/testEndpoint', async function(req, res, next) {
         if (!v2URL.endsWith('/'))
             v2URL = v2URL + '/';
 
-        const fetchPromise = fetch(v2URL + "serverinfo");
-        fetchPromise.then(response => responseBody.v2Res = response)
-        await fetchPromise;
+        await fetch(v2URL + "serverinfo")
+            .then(res => {
+                responseBody.v2Res.status = res.status;
+            }).catch(error => {
+                responseBody.v2Res.status = 400;
+            })
     }
 
-    console.log(responseBody);
     res.json(responseBody);
-
 });
 
 function newServerJSON(reqBody) {
