@@ -57,7 +57,7 @@ router.post('/testEndpoint', async function(req, res, next) {
     var responseBody = { "v1Res": { "status": 0 }, "v2Res": { "status": 0 } };
     if (v1URL) {
         //Production Only Code
-        if (v1URL.contains('https://test-server.brapi.org'))
+        if (v1URL.includes('https://test-server.brapi.org'))
             v1URL = v1URL.replace('https://test-server.brapi.org', 'http://brapi-java-server-v1:8080')
             // ----
         if (!v1URL.endsWith('/'))
@@ -74,7 +74,7 @@ router.post('/testEndpoint', async function(req, res, next) {
     var v2URL = server["server-v2-url"]
     if (v2URL) {
         //Production Only Code
-        if (v2URL.contains('https://test-server.brapi.org'))
+        if (v2URL.includes('https://test-server.brapi.org'))
             v2URL = v2URL.replace('https://test-server.brapi.org', 'http://brapi-java-server-v2:8080')
             // ----
         if (!v2URL.endsWith('/'))
