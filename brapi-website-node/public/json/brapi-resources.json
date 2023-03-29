@@ -36,7 +36,7 @@
     {
         "name": "IPK-Gatersleben",
         "description": "Leibniz Institute of Plant Genetics and Crop Plant Research",
-        "logo": "https://www.ipk-gatersleben.de/typo3conf/ext/ipk_gatersleben/Resources/Public/Icons/ipk_logo_de.png",
+        "logo": "/images/institutions/ipk_logo_de.png",
         "resources": [{
             "name": "IPK Gatersleben - Germplasm and Phenotypic Data",
             "v1-url": "https://webapps.ipk-gatersleben.de/api/brapi/v1/",
