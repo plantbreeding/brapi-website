@@ -1,5 +1,15 @@
 [{
         "team": "The James Hutton Institute (JHI)",
+        "team-url": "https://www.hutton.ac.uk",
+        "title": "Helium",
+        "description": "Helium provides a BrAPI enabled visualization platform for plant pedigree data.",
+        "image": "https://ics.hutton.ac.uk/wp-content/uploads/2023/02/2023-02-10-13_39_09-Window.png",
+        "url": "https://helium.hutton.ac.uk",
+        "source-url": "https://github.com/cardinalb/helium-docs",
+        "doc-url": "https://github.com/cardinalb/helium-docs",
+        "demo-url": "https://helium.hutton.ac.uk"
+    }, {
+        "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk",
         "title": "GridScore",
         "description": "GridScore is a cross-platform open-source plant phenotyping app combining a visual view of the field layout with barcode system compatibility and a guided data collection approach allowing step-by-step collection of phenotypic data, supported by a set of powerful visualizations.",

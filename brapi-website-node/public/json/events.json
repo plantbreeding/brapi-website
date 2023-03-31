@@ -4,7 +4,7 @@
         "date": "March 20, 2023 - March 24, 2023",
         "image": "/images/events/greenville_thumb.jpg",
         "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This hackathon is (hosted by Trevor Rife and Clemson University) will be in Greenville, South Carolina, USA on March 20-24, 2023. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. </p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [{
             "name": "Event Page",
             "url": "/events/hackathon-mar-2023"
@@ -14,6 +14,17 @@
         }, {
             "name": "Travel Guide",
             "url": "https://docs.google.com/document/d/13Z6mKVnJxzi4CkqNVYE2OiL5hDcYC8SpNjX_l8AtdMM/edit?usp=sharing"
+        }]
+    }, {
+        "title": "BrAPI at AGBT",
+        "location": "San Antonio, Texas, USA",
+        "date": "March 27, 2023 - March 29, 2023",
+        "image": "/images/events/AGBT.png",
+        "description": "<p>BrAPI Project Coordinator Peter Selby will be presenting BrAPI at the AGBT Ag conference in San Antonio, Texas. This presentation will be a short flash talk, followed by a poster session. However, it will still provide a good networking opportunity and a chance to expand the BrAPI community. If you plan on attending AGBT, be sure to stop and say \"Hi\" at the BrAPI poster. </p>",
+        "upcoming": true,
+        "links": [{
+            "name": "Event Page",
+            "url": "https://www.agbt.org/events/agricultural-meeting-overview/"
         }]
     }, {
         "title": "BrAPI Webinar - EMBL-EBI 2023 Plant Webinar Series",

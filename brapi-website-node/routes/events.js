@@ -36,28 +36,29 @@ router.get('/', function(req, res, next) {
 router.get('/:id', function(req, res, next) {
     var hackathonData = require('../public/json/hackathons.json')
 
-    var attendees = hackathonData[req.params.id].attendees;
-    attendees.sort(function(a, b) {
-        var result = a.org > b.org ? 1 : ((b.org > a.org) ? -1 : 0);
-        if (result === 0)
-            var result = a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
-        return result;
-    });
-    var session1List = [],
-        session2List = [];
-    attendees.forEach(attendee => {
-        if (attendee.session1)
-            session1List.push(attendee);
-        if (attendee.session2)
-            session2List.push(attendee);
-    });
-    hackathonData[req.params.id]["session1List"] = session1List;
-    hackathonData[req.params.id]["session2List"] = session2List;
+    if (hackathonData[req.params.id]) {
+        var attendees = hackathonData[req.params.id].attendees;
+        attendees.sort(function(a, b) {
+            var result = a.org > b.org ? 1 : ((b.org > a.org) ? -1 : 0);
+            if (result === 0)
+                var result = a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
+            return result;
+        });
+        var session1List = [],
+            session2List = [];
+        attendees.forEach(attendee => {
+            if (attendee.session1)
+                session1List.push(attendee);
+            if (attendee.session2)
+                session2List.push(attendee);
+        });
+        hackathonData[req.params.id]["session1List"] = session1List;
+        hackathonData[req.params.id]["session2List"] = session2List;
 
-    if (hackathonData[req.params.id].calendarInvite) {
-        var calendarLinks = buildCalendarLinks(hackathonData[req.params.id].calendarInvite);
+        if (hackathonData[req.params.id].calendarInvite) {
+            var calendarLinks = buildCalendarLinks(hackathonData[req.params.id].calendarInvite);
+        }
     }
-
     res.render('hackathons/' + req.params.id, {
         title: 'BrAPI Hackathon',
         footerEvents: getTrailerEvents(),

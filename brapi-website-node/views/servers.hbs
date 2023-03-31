@@ -9,75 +9,158 @@
                         Get this list as JSON</a></p>
             </div>
         </div>
-        <div class="row" id="brapp-grid" style="margin: 20px auto;">
-            {{#each providers}}
-            <div class="col-12 brapp">
-                <div class="row brapp-box">
-                    <div class="col-2" style="display: inherit;">
-                        <div class="provider-thumbnail">
-                            {{#if logo }}
-                            <span></span>
-                            <img src="{{ logo }}" alt="{{ name }} Thumbnail">
-                            {{else}}
-                            <span class="mdi mdi-account-group" style="font-size: 6.5em; line-height: 1.2em;"></span>
-                            {{/if}}
-                        </div>
-                    </div>
-                    <div class="col-10 brapp-header font-alt">
-                        <h2>{{ name }}</h2>
-                        <p style="margin-left: 15px;">{{ description }}</p>
-                    </div>
-                    <div id="servers-for-{{ name }}" class="col-12 brapp-details" style="display: none;">
-                        {{#each resources}}
-                        <div class="row justify-content-center" style="margin-top: 15px">
-                            <div class="col-11">
-                                <h3 style="font-size: 20px;">{{ name }}</h3>
-                            </div>
-                            <div class="col-10 badge-holder">
-                                {{#each badges }}
-                                <div class="badge" style="background-color: {{ badge-color }};">
-                                    <div class="mdi {{ badge-icon-class }} badge-icon"></div>
-                                    <div class="badge-text">{{ badge-text }}</div>
+
+        <div id="servers-list" style="margin-bottom: 30px;">
+            <ul class="list" style="list-style-type: none; padding: 0;">
+                {{#each providers}}
+                {{#each resources}}
+                <li class="row justify-content-center">
+                    <div class="col-12 brapp">
+                        <div class="row brapp-box">
+                            <div class="col-2" style="display: inherit;">
+                                <div class="provider-thumbnail">
+                                    {{#if ../logo }}
+                                    <span></span>
+                                    <img src="{{ ../logo }}" alt="{{ ../name }} Thumbnail" style="min-width: 130px;">
+                                    {{else}}
+                                    <span class="mdi mdi-account-group"
+                                        style="font-size: 6.5em; line-height: 1.2em;"></span>
+                                    {{/if}}
                                 </div>
-                                {{/each}}
                             </div>
-                            <div class="col-10 server-desc">
-                                <p style="margin:5px 30px 5px 0">{{{ description }}}</p>
-                                {{#if v1-url }}
-                                <div>
-                                    <div style="width:85px; float:left; margin-top:15px">V1 Base URL</div>
-                                    <div class="server-url">
-                                        <a target="_blank" href="{{ v1-url }}calls">
-                                            <pre><code>{{ v1-url }}</code></pre>
-                                        </a>
+                            <div class="col-10 brapp-header">
+                                <h2 class="server-title">{{ name }}</h2>
+                                <p class="server-id" style="display: none;">{{ id }}</p>
+                                <p class="org-name" style="margin-left: 15px;">Hosted by: {{ ../name }}</p>
+                                <div id="servers-for-{{ id }}" class="col-12 brapp-details"
+                                    style="display: block;">
+                                    <div class="row justify-content-center" style="margin-top: 15px">
+                                        <div class="col-12 badge-holder">
+                                            {{#each badges }}
+                                            <div class="badge" style="background-color: {{ badge-color }};">
+                                                <div class="mdi {{ badge-icon-class }} badge-icon"></div>
+                                                <div class="badge-text">{{ badge-text }}</div>
+                                            </div>
+                                            {{/each}}
+                                        </div>
+                                        <div class="col-12 server-desc">
+                                            {{#if v1-url }}
+                                            <div id="{{ id }}-v1" class="row">
+                                                <div class="col-2"
+                                                    style="text-align: right; margin-top: auto; margin-bottom: auto;">
+                                                    V1 Base URL
+                                                    <span style="margin: 2px;">
+                                                        <span class="spinner-border spinner-border-sm text-dark"
+                                                            role="status">
+                                                        </span>
+                                                        <span class="status-ok" style="display: none; font-size: 11px; font-weight: bold; color: #00990d;">
+                                                            <span class="iconify" data-icon="mdi-check-bold" style="margin-bottom: 5px; font-size: 16px; color: #00990d"></span>200
+                                                        </span>
+                                                        <span class="status-unauth" style="display: none; font-size: 11px; font-weight: bold; color: #0010c5">
+                                                            <span class="iconify" data-icon="mdi-lock" style="margin-bottom: 5px; font-size: 16px; color: #0010c5"></span>401
+                                                        </span>
+                                                        <span class="status-notfound" style="display: none; font-size: 11px; font-weight: bold; color:#c50000">
+                                                            <span class="iconify" data-icon="mdi-alert-decagram" style="margin-bottom: 5px; font-size: 16px; color: #c50000"></span>404
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                                <div class="col" style="margin-top: 8px;">
+                                                    <a target="_blank" href="{{ v1-url }}calls">
+                                                        <pre><code class="server-v1-url">{{ v1-url }}</code></pre>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            {{/if}}
+                                            {{#if v2-url }}
+                                            <div id="{{ id }}-v2"  class="row">
+                                                <div class="col-2"
+                                                    style="text-align: right; margin-top: auto; margin-bottom: auto;">
+                                                    V2 Base URL
+                                                    <span style="margin: 2px;">
+                                                        <span class="spinner-border spinner-border-sm text-dark"
+                                                            role="status">
+                                                        </span>
+                                                        <span class="status-ok" style="display: none; font-size: 11px; font-weight: bold; color: #00990d;">
+                                                            <span class="iconify" data-icon="mdi-check-bold" style="margin-bottom: 5px; font-size: 16px; color: #00990d"></span>200
+                                                        </span>
+                                                        <span class="status-unauth" style="display: none; font-size: 11px; font-weight: bold; color: #0010c5">
+                                                            <span class="iconify" data-icon="mdi-lock" style="margin-bottom: 5px; font-size: 16px; color: #0010c5"></span>401
+                                                        </span>
+                                                        <span class="status-notfound" style="display: none; font-size: 11px; font-weight: bold; color:#c50000">
+                                                            <span class="iconify" data-icon="mdi-alert-decagram" style="margin-bottom: 5px; font-size: 16px; color: #c50000"></span>404
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                                <div class="col" style="margin-top: 8px;">
+                                                    <a target="_blank" href="{{ v2-url }}serverinfo">
+                                                        <pre><code class="server-v2-url">{{ v2-url }}</code></pre>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            {{/if}}
+                                        </div>
+                                        <p>{{ ../description }} {{{ description }}}</p>
                                     </div>
                                 </div>
-                                {{/if}}
-                                {{#if v2-url }}
-                                <div>
-                                    <div style="width:85px; float:left; margin-top:15px">V2 Base URL</div>
-                                    <div class="server-url">
-                                        <a target="_blank" href="{{ v2-url }}serverinfo">
-                                            <pre><code>{{ v2-url }}</code></pre>
-                                        </a>
-                                    </div>
-                                </div>
-                                {{/if}}
                             </div>
                         </div>
-                        {{/each}}
                     </div>
-                    <div class="brapp-details-btn" style="margin-bottom: 10px;">
-                        <button id="toggle-{{ name }}" class="btn btn-secondary btn-light-gray" type="button"
-                            onclick="toggleVisible('servers-for-{{ name }}', 'toggle-{{ name }}', 'Servers', 'Servers')">
-                            <span class="mdi mdi-chevron-double-down"></span>
-                            Servers
-                            <span class="mdi mdi-chevron-double-down"></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            {{/each}}
+                </li>
+                {{/each}}
+                {{/each}}
+            </ul>
         </div>
     </div>
 </section>
+<script type="text/plain" cookie-consent="strictly-necessary">
+
+    $(document).ready(function () {
+        var options = {
+            valueNames: [ 'server-title', 'server-id', 'org-name', "server-v1-url", "server-v2-url" ]
+        };
+
+        var serverList = new List('servers-list', options); 
+        serverList.sort('server-title');
+
+        serverList.toJSON().forEach(server => {
+            try{
+                var serverStr = JSON.stringify(server);
+                var req = {
+                    method: 'POST', 
+                    body: serverStr,
+                    headers: {
+                        "Content-Type": "application/json",
+                    }
+                }
+                fetch("/api/testEndpoint", req)
+                .then(response => response.json())
+                .then(data => {
+                    setServerStatus(data['v1Res'], server['server-id'] + '-v1')
+                    setServerStatus(data['v2Res'], server['server-id'] + '-v2')
+                })
+                .catch(error => {
+                    console.log(error)
+                    $('#' + server['server-id'] + '-v2 .spinner-border').hide() 
+                    $('#' + server['server-id'] + '-v2 .status-notfound').show()
+                });
+            }catch (error){
+                $('#' + server['server-id'] + '-v1 .spinner-border').hide() 
+                $('#' + server['server-id'] + '-v1 .status-notfound').show() 
+            }
+        });
+    });
+
+    function setServerStatus(res, id){
+        $('#' + id + ' .spinner-border').hide() 
+        if(res.status == 200){
+            $('#' + id + ' .status-ok').show() 
+        }else if(res.status == 401){
+            $('#' + id + ' .status-unauth').show() 
+        }else if(res.status == 404){
+            $('#' + id + ' .status-notfound').show() 
+        }else {
+            $('#' + id + ' .status-notfound').show() 
+        }
+    }
+
+</script>
