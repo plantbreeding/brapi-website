@@ -1,14 +1,60 @@
 {
     "hackathon-mar-2023": {
-        "attendees": [{ "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu" },
-            { "name": "Leonel Ignacio Kovacic", "org": "IBP", "email": "leonel@leafnode.io" },
-            { "name": "Margaret Karanja", "org": "IITA", "email": "m.karanja@cgiar.org" },
-            { "name": "Trevor Rife", "org": "Clemson University", "email": "twrife@clemson.edu" },
-            { "name": "Mark Watson", "org": "North Carolina State University", "email": "mtwatso2@ncsu.edu" },
-            { "name": "Bryan Ellerbrock ", "org": "BTI, Clemson", "email": "bje24@cornell.edu" }
+        "attendees": [
+            { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "session1": false, "session2": true },
+            { "name": "Leonel Ignacio Kovacic", "org": "IBP", "email": "leonel@leafnode.io", "session1": true, "session2": false },
+            { "name": "Margaret Karanja", "org": "IITA", "email": "m.karanja@cgiar.org", "session1": false, "session2": true },
+            { "name": "Trevor Rife", "org": "Clemson University", "email": "twrife@clemson.edu", "session1": false, "session2": true },
+            { "name": "Mark Watson", "org": "North Carolina State University", "email": "mtwatso2@ncsu.edu", "session1": true, "session2": false },
+            { "name": "Bryan Ellerbrock ", "org": "Boyce Thompson Institute, Clemson University", "email": "bje24@cornell.edu", "session1": false, "session2": true },
+            { "name": "Chaney Courtney", "org": "PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true },
+            { "name": "Jenna Hershberger", "org": "Clemson University", "email": "jmhersh@clemson.edu", "session1": false, "session2": true },
+            { "name": "Ernesto Briones Pereyra", "org": "CIMMYT", "email": "e.briones@cgiar.org", "session1": true, "session2": false },
+            { "name": "Larise Landicho Gallardo", "org": "CGIAR, IRRI, CIMMYT", "email": "l.gallardo@irri.org", "session1": true, "session2": false },
+            { "name": "Jahzeel Ramos Calosa", "org": "CGIAR, IRRI, CIMMYT", "email": "jp.ramos@irri.org", "session1": true, "session2": false },
+            { "name": "Maria Relliza Asin Pasang", "org": "CGIAR, IRRI, CIMMYT", "email": "m.pasang@irri.org", "session1": true, "session2": false },
+            { "name": "Mirella Flores", "org": "Boyce Thompson Institute", "email": "mrf252@cornell.edu", "session1": false, "session2": true },
+            { "name": "Becky Smith", "org": "The James Hutton Institute", "email": "becky.smith@hutton.ac.uk", "session1": false, "session2": true },
+            { "name": "Tim Parsons", "org": "Breeding Insight", "email": "tim.parsons@cornell.edu", "session1": false, "session2": true },
+            { "name": "Muhammad Kazim Ali ", "org": "University of Karachi ", "email": "ali.kazimm@gmail.com", "session1": true, "session2": false },
+            { "name": "Taein Lee", "org": "Washington State University", "email": "leetaei@wsu.edu", "session1": false, "session2": true },
+            { "name": "Terry Casstevens", "org": "Cornell University", "email": "tmc46@cornell.edu", "session1": false, "session2": true },
+            { "name": "Thiago Bergamo", "org": "Sempre Agtech", "email": "tbc@sempre.agr.br", "session1": true, "session2": false },
+            { "name": "Iain Milne", "org": "The James Hutton Institute", "email": "iain.milne@hutton.ac.uk", "session1": true, "session2": false },
+            { "name": "Khaled Al-Shamaa", "org": "ICARDA", "email": "k.el-shamaa@cgiar.org", "session1": true, "session2": false },
+            { "name": "Moses Nderitu", "org": "SEQART AFRICA", "email": "m.nderitu@seqart.net", "session1": true, "session2": false },
+            { "name": "Alfonso Caballero", "org": "CIMMYT", "email": "a.caballero@cgiar.org", "session1": false, "session2": true },
+            { "name": "Chun-Huai Cheng", "org": "Washington State University", "email": "chun-huai.cheng@wsu.edu", "session1": false, "session2": true },
+            { "name": "Star Yanxin Gao", "org": "Cornell University", "email": "yg28@cornell.edu", "session1": true, "session2": false },
+            { "name": "Guy Davenport", "org": "Daveneti Limited", "email": "guy@daveneti.com", "session1": true, "session2": false },
+            { "name": "Carlos Quiros", "org": "CGIAR", "email": "c.f.quiros@cgiar.org", "session1": false, "session2": true },
+            { "name": "Dinia Grace D. Gepte", "org": "International Rice Research Institute (IRRI)", "email": "d.gepte@irri.org", "session1": true, "session2": false },
+            { "name": "Marie-Angélique Laporte", "org": "Alliance of Bioversity and CIAT", "email": "m.a.laporte@cgiar.org", "session1": true, "session2": false },
+            { "name": "Dewey Preast ", "org": "-", "email": "webwalkin@me.com", "session1": true, "session2": false },
+            { "name": "Ping Zheng", "org": "Washington State University", "email": "ping_zheng@wsu.edu", "session1": false, "session2": true },
+            { "name": "Amber Lockrow", "org": "Boyce Thompson Institute", "email": "awl67@cornell.edu", "session1": false, "session2": true },
+            { "name": "Lukas Mueller", "org": "Boyce Thompson institute", "email": "lam87@cornell.edu", "session1": false, "session2": true },
+            { "name": "Dariusz Bienkowski", "org": "Boyce Thompson Institute", "email": "db738@cornell.edu", "session1": false, "session2": true },
+            { "name": "Nick Palladino", "org": "Breeding Insight", "email": "np398@cornell.edu", "session1": true, "session2": false },
+            { "name": "Shawn Yarnes", "org": "Breeding Insight", "email": "scy32@cornell.edu", "session1": true, "session2": false },
+            { "name": "David Meidlinger", "org": "Breeding Insight", "email": "djm226@cornell.edu", "session1": true, "session2": false },
+            { "name": "Tyr Wiesner-Hanks", "org": "Breeding Insight", "email": "tw372@cornell.edu", "session1": true, "session2": false },
+            { "name": "Keo Corak", "org": "USDA-ARS, Breeding Insight OnRamp, NCSU", "email": "keo.corak@usda.gov", "session1": false, "session2": true },
+            { "name": "Jan Erik Backlund", "org": "IBP ", "email": "jeback1@gmail.com", "session1": true, "session2": false }
         ],
-        "projects": [{ "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU fieldbook", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
-            { "team": "Mark Watson, Any of the developers of the various brapir R packages (I'm not sure if any will be present or not).", "title": "BrAPI-R", "description": "I'm working on a set of modular R Shiny apps that use BrAPI via the brapir-v1 R package for interactive breeding data analyses (the goal is for these to be especially tinkerable, so breeders can modify them themselves for miscellaneous analyses that aren't covered in breedbase instances). I'm interested in integrating new BrAPI features (working with any brapir developers if they're present), along with improving performance and adding better documentation for GitHub.", "needs": null, "repo": "https://github.com/mtwatso2-eng/pollination-toolbox" }
+        "projects": [
+            { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU fieldbook", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
+            { "team": "Mark Watson, Any of the developers of the various brapir R packages (I'm not sure if any will be present or not).", "title": "BrAPI-R", "description": "I'm working on a set of modular R Shiny apps that use BrAPI via the brapir-v1 R package for interactive breeding data analyses (the goal is for these to be especially tinkerable, so breeders can modify them themselves for miscellaneous analyses that aren't covered in breedbase instances). I'm interested in integrating new BrAPI features (working with any brapir developers if they're present), along with improving performance and adding better documentation for GitHub.", "needs": null, "repo": "https://github.com/mtwatso2-eng/pollination-toolbox" },
+            { "team": "Chaney Courtney", "title": "Field Book", "description": "FieldBook", "needs": null, "repo": null },
+            { "team": "Ernesto Briones Pereyra, EBS' Team", "title": "GraphQL ", "description": "GraphQL Brapi standard", "needs": null, "repo": null },
+            { "team": "Maria Relliza Asin Pasang, Jahzeel Ramos Calosa (IRRI), Larise Gallardo (IRRI), Alfonso Joseph Caballero Ramirez (CIMMYT), Ernesto Briones (CIMMYT), Dinia Grace D. Gepte", "title": "Integrate EBS and Field Book", "description": "Integrate the CGIAR Excellence in Breeding Platform-led Enterprise Breeding System (EBS) with the Field Book application so that breeders may easily collect and upload data to the system.", "needs": "Planning to consult Trevor Rife for the Field book app and BrAPI integration", "repo": "https://bitbucket.org/ebsproject/cb-brapi" },
+            { "team": "Mirella Flores", "title": "BrAPI Trait Selector", "description": "BrAPI trait selector", "needs": null, "repo": null },
+            { "team": "Tim Parsons", "title": "Workflow Configuration Tool or Field Book for iOS", "description": "Workflow Configuration Tool or Field Book for iOS", "needs": null, "repo": "https://github.com/Breeding-Insight/Field-Book-iOS" },
+            { "team": "Terry Casstevens, Becky Smith from JHI ", "title": "Flap Jack", "description": "Flap-Jack and Flap-Jack bytes", "needs": null, "repo": null },
+            { "team": "Khaled Al-Shamaa, GIGWA team", "title": "QBMS R Package", "description": "QBMS R package enables your analysis pipeline to query and retrieve phenotypic and genotypic data from your breeding management system(s) like BMS, BreedBase, and GIGWA using BrAPI calls. During this hackathon, we plan to improve the efficiency of extracting genotypic data from the latest GIGWA server release (beta version 2.5.2) by implementing the BrAPI v2.1 “/search/allelematrix” endpoint support.", "needs": null, "repo": "https://github.com/icarda-git/QBMS/" },
+            { "team": "Carlos Quiros, Marie-Angélique Laporte, Peter Selby or the BrAPI dev team", "title": "ClimMob", "description": "Advance BrAPI basic integration with ClimMob /  Expose ClimMob data using BrAPI standards", "needs": null, "repo": "https://github.com/BioversityCostaRica/py3ClimMob" },
+            { "team": "Amber Lockrow", "title": "GBSapp", "description": "Work on user interface for breedbase integration of GBSapp (variant calling and filtering application)", "needs": null, "repo": "https://github.com/solgenomics/gbsappui" },
+            { "team": "Dariusz Bienkowski, Lukas Mueller (Breedbase)", "title": "Breedbase GraphDB", "description": "Graph DB / QL ", "needs": null, "repo": null }
         ],
         "notes": [{
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
@@ -17,21 +63,38 @@
             "session1": null
         }, {
             "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
-            "session1": null
+            "session1": "https://youtu.be/0nDdlR0qRVw"
         }, {
             "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
             "slides": "https://brapi.org/docs/BrAPI_101.pptx",
             "session1": null
         }, {
-            "discussion": "Community Sabbaticals - Informational Session"
+            "discussion": "Community Sabbaticals - Informational Session",
+            "slides": "https://docs.google.com/presentation/d/1KD2e6Wgg7jcBHp5X6TVonipal7LyQIP9",
+            "session1": "https://youtu.be/y71iB3D04eM"
         }, {
-            "discussion": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper"
+            "discussion": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper",
+            "meetingNotes": "https://docs.google.com/document/d/1AfhIF625gMzBZxjTH0YOh2ePsJIU45_ve7znaj2du7g",
+            "session1": "https://youtu.be/WtV3svshC8k"
         }, {
-            "discussion": "Analytics WG - New Working Group Interest Meeting"
+            "discussion": "Analytics WG - James Clevenger presents the EBS Data Lake",
+            "session1": "https://youtu.be/rCfVhIw0fdc"
         }, {
-            "discussion": "GraphQL WG - New Working Group Interest Meeting"
+            "discussion": "GraphQL WG - Progress Report",
+            "session1": "https://youtu.be/hxoRifibX6E",
+            "meetingNotes": "https://docs.google.com/document/d/10ZLIneoJuNKjGGRBjUbS0LpLTseSRysSRQ_cV1F_UE4/edit"
         }, {
-            "discussion": "Project presentations and wrap up"
+            "discussion": "BrAPI-Sync - Demo and Community Feedback ",
+            "session1": "https://youtu.be/FRFuS2qUHF0"
+        }, {
+            "discussion": "V2.1 Adoption - Progress, issues, and lessons learned",
+            "session1": "https://youtu.be/c7e_MKaOZ54"
+        }, {
+            "discussion": "Github Issues Review - Discuss and prioritize key issues for the next version",
+            "session1": "https://youtu.be/rI6Tu6Zr8j8"
+        }, {
+            "discussion": "Project presentations and wrap up",
+            "session1": "https://youtu.be/QKk-VbMtloI"
         }],
         "calendarInvite": {
             "title": "BrAPI Hackathon - Greensville, SC, USA",
@@ -70,14 +133,18 @@
             "schedule": [
                 { "time": "09:00 - 09:15 EST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
-                { "time": "10:00 - 11:00 EST", "class": "agenda-bg-blue", "title": "Analytics WG - Progress Report" },
-                { "time": "11:00 - 12:00 EST", "class": "agenda-bg-blue", "title": "GraphQL WG - Progress Report" },
+                { "time": "10:00 - 11:00 EST", "class": "agenda-bg-blue", "title": "GraphQL WG - Progress Report" },
+                { "time": "11:00 - 12:00 EST", "class": "agenda-bg-blue", "title": "Analytics WG - James Clevenger presents the EBS Data Lake" },
                 { "time": "12:00 - 13:00 EST", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": "13:00 - 14:00 EST", "class": "agenda-bg-blue", "title": "BrAPI-Sync - Demo and Community Feedback" },
                 { "time": null },
+                { "time": "14:30 - 14:45 EST", "class": "agenda-bg-pink", "title": "Group Picture Time!!" },
+                { "time": null },
                 { "time": "15:00 - 15:30 EST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "16:50 - 17:00 EST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+                { "time": "16:50 - 17:00 EST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": null },
+                { "time": "19:00 - 21:00 EST", "class": "agenda-bg-pink", "title": "Community Dinner - Sassafras Southern Bistro" }
             ]
         }, {
             "date": "Thursday, March 23, 2022",

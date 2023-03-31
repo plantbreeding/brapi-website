@@ -3,6 +3,7 @@ var router = express.Router();
 const exval = require('express-validator');
 var nodemailer = require('nodemailer');
 var fs = require('fs');
+const fetch = require('node-fetch');
 
 router.post('/mailingListSubscribe', function(req, res, next) {
     fs.appendFile(process.env.MIALING_LIST_PATH, '+ ' + req.body.name + ' (' + req.body.org + ')<' + req.body.email + '>\n', function(err) {
@@ -48,6 +49,46 @@ router.post('/newSoftwareSubmit', function(req, res, next) {
         if (err) throw err;
         res.json({ "success": "true" })
     });
+});
+
+router.post('/testEndpoint', async function(req, res, next) {
+    var server = req.body;
+    var v1URL = server["server-v1-url"]
+    var responseBody = { "v1Res": { "status": 0 }, "v2Res": { "status": 0 } };
+    if (v1URL) {
+        //Production Only Code
+        if (v1URL.includes('https://test-server.brapi.org'))
+            v1URL = v1URL.replace('https://test-server.brapi.org', 'http://brapi-java-server-v1:8080')
+            // ----
+        if (!v1URL.endsWith('/'))
+            v1URL = v1URL + '/';
+
+        await fetch(v1URL + "calls")
+            .then(res => {
+                responseBody.v1Res.status = res.status;
+            }).catch(error => {
+                responseBody.v1Res.status = 400;
+            })
+    }
+
+    var v2URL = server["server-v2-url"]
+    if (v2URL) {
+        //Production Only Code
+        if (v2URL.includes('https://test-server.brapi.org'))
+            v2URL = v2URL.replace('https://test-server.brapi.org', 'http://brapi-java-server-v2:8080')
+            // ----
+        if (!v2URL.endsWith('/'))
+            v2URL = v2URL + '/';
+
+        await fetch(v2URL + "serverinfo")
+            .then(res => {
+                responseBody.v2Res.status = res.status;
+            }).catch(error => {
+                responseBody.v2Res.status = 400;
+            })
+    }
+
+    res.json(responseBody);
 });
 
 function newServerJSON(reqBody) {

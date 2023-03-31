@@ -36,7 +36,7 @@
     {
         "name": "IPK-Gatersleben",
         "description": "Leibniz Institute of Plant Genetics and Crop Plant Research",
-        "logo": "https://www.ipk-gatersleben.de/typo3conf/ext/ipk_gatersleben/Resources/Public/Icons/ipk_logo_de.png",
+        "logo": "/images/institutions/ipk_logo_de.png",
         "resources": [{
             "name": "IPK Gatersleben - Germplasm and Phenotypic Data",
             "v1-url": "https://webapps.ipk-gatersleben.de/api/brapi/v1/",
@@ -54,7 +54,8 @@
         "logo": "https://ics.hutton.ac.uk/resources/brapi/logos/jhi-128.png",
         "resources": [{
             "name": "Germinate 3 Demo (https://ics)",
-            "v1-url": "https://ics.hutton.ac.uk/germinate-demo/cactuar-devel/brapi/v1/",
+            "v1-url": "https://ics.hutton.ac.uk/germinate-demo/api/brapi/v1/",
+            "v2-url": "https://ics.hutton.ac.uk/germinate-demo/api/brapi/v2/",
             "description": "Small demo dataset using a Germinate 3 backend.",
             "badges": [
                 "auth-required",
