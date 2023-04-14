@@ -223,6 +223,7 @@
         "resources": [{
                 "name": "Musa Acuminata GWAS Panel - GBS - genome V1",
                 "v1-url": "https://www.crop-diversity.org/gigwa/rest/Musa_acuminata-v1/brapi/v1/",
+                "v2-url": "https://www.crop-diversity.org/gigwa/rest/brapi/v2",
                 "description": "The GWAS panel is a list of diploid accessions (composed of musa acuminata and AA) carefully selected to support Genome-Wide Association Study (GWAS) in banana in order to quickly and accurately link areas of the genome with important traits.",
                 "badges": [
                     "auth-open",
@@ -233,6 +234,7 @@
             {
                 "name": "Musa Acuminata GWAS Panel - GBS - genome V2",
                 "v1-url": "https://www.crop-diversity.org/gigwa/rest/Musa_acuminata-v2/brapi/v1/",
+                "v2-url": "https://www.crop-diversity.org/gigwa/rest/brapi/v2",
                 "description": "The GWAS panel is a list of diploid accessions (composed of musa acuminata and AA) carefully selected to support Genome-Wide Association Study (GWAS) in banana in order to quickly and accurately link areas of the genome with important traits.",
                 "badges": [
                     "auth-open",
