@@ -1,4 +1,14 @@
 [{
+        "team": "Breeding Insight, Cornell University",
+        "team-url": "https://breedinginsight.org/about-bi/",
+        "title": "DeltaBreed",
+        "description": "DeltaBreed is a user friendly interface designed to support USDA-ARS specialty crop and animal breeders to load, view, and retrieve breeding data. ",
+        "image": "/images/apps/DeltaBreed_logo.png",
+        "url": "https://app.breedinginsight.net",
+        "source-url": "https://github.com/Breeding-Insight/bi-api/releases",
+        "doc-url": "https://breedinginsight.atlassian.net/wiki/spaces/LH/pages/1680179235/DeltaBreed",
+        "demo-url": "https://sandbox.breedinginsight.net/"
+    }, {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://www.hutton.ac.uk",
         "title": "Helium",

@@ -1,16 +1,38 @@
 <section class="module-extra-small">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8 module-subtitle">
-                <a class="btn btn-d btn-round" style="margin-left:10px" href="/servers/submit">
-                    Register A New Server</a>
-                <br />
-                <p><a style="font-size: 12px;" target="_blank" href="/json/brapi-resources.json">
-                        Get this list as JSON</a></p>
-            </div>
+            <p class="col-12" style="text-align: center; margin: 10px 0 10px 0;">Submit a new BrAPI compatible server</p>
+            <a class="btn btn-sm btn-outline-success col-2" href="/servers/submit">Register Server</a>
+            <p class="col-12" style="text-align: center; margin: 0;"><a style="font-size: 12px;" target="_blank" href="/json/brapi-resources.json">Get this list as JSON</a></p>
+            <div class="col-12" style="border-bottom: solid lightgray 1px; margin: 20px 0"></div>
         </div>
 
         <div id="servers-list" style="margin-bottom: 30px;">
+            <div class="row justify-content-center">
+                <div class="col-6" style="margin: 10px 0 20px 0">
+                    <input class="search col-11" placeholder="Search for BrAPI Compatible Software" />
+                    <span class="mdi mdi-magnify custom-bullet-point"
+                        style="vertical-align: top; line-height: 30px;"></span>
+                    <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
+                </div>
+                <div class="col-8 row justify-content-center" style="margin: 5px 0 20px 0; display: none;">
+                    <p class="col-12" style="text-align: center; margin: 5px 0 0 0;">Filter by popular tags</p>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">BrAPP</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Server</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Client</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Service</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Desktop</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Mobile</button>
+                    <button class="btn btn-sm btn-outline-success col-2"
+                        style="margin: 5px 5px 0 5px;">Visualization</button>
+                    <button class="btn btn-sm btn-outline-success col-2"
+                        style="margin: 5px 5px 0 5px;">Analytics</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Data
+                        Input</button>
+                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Search</button>
+                </div>
+            </div>
+
             <ul class="list" style="list-style-type: none; padding: 0;">
                 {{#each providers}}
                 {{#each resources}}
@@ -32,9 +54,10 @@
                                 <h2 class="server-title">{{ name }}</h2>
                                 <p class="server-id" style="display: none;">{{ id }}</p>
                                 <p class="org-name" style="margin-left: 15px;">Hosted by: {{ ../name }}</p>
-                                <div id="servers-for-{{ id }}" class="col-12 brapp-details"
-                                    style="display: block;">
-                                    <div class="row justify-content-center" style="margin-top: 15px">
+                                <p style="margin-left: 15px;">{{ ../description }}</p>
+                                <div id="servers-for-{{ id }}" class="col-11"
+                                    style="display: block; margin-left: 15px;">
+                                    <div class="row justify-content-center" style="margin-top: 5px">
                                         <div class="col-12 badge-holder">
                                             {{#each badges }}
                                             <div class="badge" style="background-color: {{ badge-color }};">
@@ -43,65 +66,75 @@
                                             </div>
                                             {{/each}}
                                         </div>
-                                        <div class="col-12 server-desc">
-                                            {{#if v1-url }}
-                                            <div id="{{ id }}-v1" class="row">
-                                                <div class="col-2"
-                                                    style="text-align: right; margin-top: auto; margin-bottom: auto;">
-                                                    V1 Base URL
-                                                    <span style="margin: 2px;">
-                                                        <span class="spinner-border spinner-border-sm text-dark"
-                                                            role="status">
-                                                        </span>
-                                                        <span class="status-ok" style="display: none; font-size: 11px; font-weight: bold; color: #00990d;">
-                                                            <span class="iconify" data-icon="mdi-check-bold" style="margin-bottom: 5px; font-size: 16px; color: #00990d"></span>200
-                                                        </span>
-                                                        <span class="status-unauth" style="display: none; font-size: 11px; font-weight: bold; color: #0010c5">
-                                                            <span class="iconify" data-icon="mdi-lock" style="margin-bottom: 5px; font-size: 16px; color: #0010c5"></span>401
-                                                        </span>
-                                                        <span class="status-notfound" style="display: none; font-size: 11px; font-weight: bold; color:#c50000">
-                                                            <span class="iconify" data-icon="mdi-alert-decagram" style="margin-bottom: 5px; font-size: 16px; color: #c50000"></span>404
-                                                        </span>
-                                                    </span>
-                                                </div>
-                                                <div class="col" style="margin-top: 8px;">
-                                                    <a target="_blank" href="{{ v1-url }}calls">
-                                                        <pre><code class="server-v1-url">{{ v1-url }}</code></pre>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            {{/if}}
-                                            {{#if v2-url }}
-                                            <div id="{{ id }}-v2"  class="row">
-                                                <div class="col-2"
-                                                    style="text-align: right; margin-top: auto; margin-bottom: auto;">
-                                                    V2 Base URL
-                                                    <span style="margin: 2px;">
-                                                        <span class="spinner-border spinner-border-sm text-dark"
-                                                            role="status">
-                                                        </span>
-                                                        <span class="status-ok" style="display: none; font-size: 11px; font-weight: bold; color: #00990d;">
-                                                            <span class="iconify" data-icon="mdi-check-bold" style="margin-bottom: 5px; font-size: 16px; color: #00990d"></span>200
-                                                        </span>
-                                                        <span class="status-unauth" style="display: none; font-size: 11px; font-weight: bold; color: #0010c5">
-                                                            <span class="iconify" data-icon="mdi-lock" style="margin-bottom: 5px; font-size: 16px; color: #0010c5"></span>401
-                                                        </span>
-                                                        <span class="status-notfound" style="display: none; font-size: 11px; font-weight: bold; color:#c50000">
-                                                            <span class="iconify" data-icon="mdi-alert-decagram" style="margin-bottom: 5px; font-size: 16px; color: #c50000"></span>404
-                                                        </span>
-                                                    </span>
-                                                </div>
-                                                <div class="col" style="margin-top: 8px;">
-                                                    <a target="_blank" href="{{ v2-url }}serverinfo">
-                                                        <pre><code class="server-v2-url">{{ v2-url }}</code></pre>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            {{/if}}
-                                        </div>
-                                        <p>{{ ../description }} {{{ description }}}</p>
                                     </div>
                                 </div>
+                                <p style="margin: 10px 0 0 15px;">{{{ description }}}</p>
+                            </div>
+                            <div class="col-12">
+                                {{#if v1-url }}
+                                <div id="{{ id }}-v1" class="row">
+                                    <div class="col-2"
+                                        style="text-align: right; margin-top: auto; margin-bottom: auto;">
+                                        V1 Base URL
+                                        <span style="margin: 2px;">
+                                            <span class="spinner-border spinner-border-sm text-dark" role="status">
+                                            </span>
+                                            <span class="status-ok"
+                                                style="display: none; font-size: 11px; font-weight: bold; color: #00990d;">
+                                                <span class="iconify" data-icon="mdi-check-bold"
+                                                    style="margin-bottom: 5px; font-size: 16px; color: #00990d"></span>200
+                                            </span>
+                                            <span class="status-unauth"
+                                                style="display: none; font-size: 11px; font-weight: bold; color: #0010c5">
+                                                <span class="iconify" data-icon="mdi-lock"
+                                                    style="margin-bottom: 5px; font-size: 16px; color: #0010c5"></span>401
+                                            </span>
+                                            <span class="status-notfound"
+                                                style="display: none; font-size: 11px; font-weight: bold; color:#c50000">
+                                                <span class="iconify" data-icon="mdi-alert-decagram"
+                                                    style="margin-bottom: 5px; font-size: 16px; color: #c50000"></span>404
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col" style="margin-top: 8px;">
+                                        <a target="_blank" href="{{ v1-url }}calls">
+                                            <pre><code class="server-v1-url">{{ v1-url }}</code></pre>
+                                        </a>
+                                    </div>
+                                </div>
+                                {{/if}}
+                                {{#if v2-url }}
+                                <div id="{{ id }}-v2" class="row">
+                                    <div class="col-2"
+                                        style="text-align: right; margin-top: auto; margin-bottom: auto;">
+                                        V2 Base URL
+                                        <span style="margin: 2px;">
+                                            <span class="spinner-border spinner-border-sm text-dark" role="status">
+                                            </span>
+                                            <span class="status-ok"
+                                                style="display: none; font-size: 11px; font-weight: bold; color: #00990d;">
+                                                <span class="iconify" data-icon="mdi-check-bold"
+                                                    style="margin-bottom: 5px; font-size: 16px; color: #00990d"></span>200
+                                            </span>
+                                            <span class="status-unauth"
+                                                style="display: none; font-size: 11px; font-weight: bold; color: #0010c5">
+                                                <span class="iconify" data-icon="mdi-lock"
+                                                    style="margin-bottom: 5px; font-size: 16px; color: #0010c5"></span>401
+                                            </span>
+                                            <span class="status-notfound"
+                                                style="display: none; font-size: 11px; font-weight: bold; color:#c50000">
+                                                <span class="iconify" data-icon="mdi-alert-decagram"
+                                                    style="margin-bottom: 5px; font-size: 16px; color: #c50000"></span>404
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col" style="margin-top: 8px;">
+                                        <a target="_blank" href="{{ v2-url }}serverinfo">
+                                            <pre><code class="server-v2-url">{{ v2-url }}</code></pre>
+                                        </a>
+                                    </div>
+                                </div>
+                                {{/if}}
                             </div>
                         </div>
                     </div>
@@ -121,6 +154,11 @@
 
         var serverList = new List('servers-list', options); 
         serverList.sort('server-title');
+        
+        $('#list-size').html('Showing ' + serverList.visibleItems.length + ' of ' + serverList.size());
+        serverList.on('searchComplete', function(e){
+            $('#list-size').html('Showing ' + serverList.visibleItems.length + ' of ' + serverList.size());
+        });
 
         serverList.toJSON().forEach(server => {
             try{
