@@ -1,4 +1,15 @@
 [{
+        "title": "NAPDC Inaugural Conference",
+        "location": "Nebraska Innovation Campus, Lincoln, Nebraska, USA",
+        "date": "May 10, 2023 - May 12, 2023",
+        "image": "/images/events/lincoln_NE.jpg",
+        "description": "<p>The NAPDC has been tasked by USDA NIFA to develop a framework for national cyberinfrastructure to increase production and drive innovation in agriculture. The discussion will focus on future of agricultural cyberinfrastructure and will be heard by NAPDC, USDA NIFA, other federal agencies, and stakeholder groups. The BrAPI Community will have representation at this event.</p>",
+        "upcoming": true,
+        "links": [{
+            "name": "Event Page",
+            "url": "https://www.agdatacoop.org/conference"
+        }]
+    }, {
         "title": "Greenville Hackathon",
         "location": "Greenville, South Carolina, USA",
         "date": "March 20, 2023 - March 24, 2023",
@@ -32,7 +43,7 @@
         "date": "April 26, 2023 at 15:30 UTC",
         "image": "/images/events/EMBL-EBI-logo.jpg",
         "description": "<p>The webinar series will comprise various topics to highlights general concepts and resources useful in plant research, including comparative genomics, metagenomics, plant breeding, etc. BrAPI will be presented on Wednesday, April 26, 2023. These webinars are free and open to everyone around the world to attend. </p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [{
             "name": "Event Page",
             "url": "https://www.ebi.ac.uk/training/events/applications-and-impacts-brapi-project-plant-breeding/"
