@@ -10,6 +10,17 @@
             "url": "https://www.agdatacoop.org/conference"
         }]
     }, {
+        "title": "BrAPI at the AgBioData Monthly Webinar",
+        "location": "Virtual",
+        "date": "June 7, 2023 - 13:00 EST",
+        "image": "/images/institutions/AgBioData-square.png",
+        "description": "<p>AgBioData webinars are generally held on the first Wednesday of each month. </p>",
+        "upcoming": true,
+        "links": [{
+            "name": "Webinar Page",
+            "url": "https://www.agbiodata.org/webinars"
+        }]
+    }, {
         "title": "Greenville Hackathon",
         "location": "Greenville, South Carolina, USA",
         "date": "March 20, 2023 - March 24, 2023",
