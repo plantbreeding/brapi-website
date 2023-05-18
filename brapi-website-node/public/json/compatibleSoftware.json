@@ -1,4 +1,14 @@
 [{
+        "team": "CIRAD, IRD and Alliance Bioversity CIAT",
+        "team-url": "https://southgreen.fr/",
+        "title": "GIGWA",
+        "description": "Gigwa, a web-based tool which provides an easy and intuitive way to explore large amounts of genotyping data by filtering the latter based not only on variant features, including functional annotations, but also on genotype patterns. GIGWA can work as a BrAPI source and client.",
+        "image": "https://southgreen.fr/sites/southgreen.fr/files/Logo_Gigwa_0.png",
+        "url": "https://southgreen.fr/content/gigwa",
+        "source-url": "https://github.com/SouthGreenPlatform/Gigwa2",
+        "doc-url": "",
+        "demo-url": "https://gigwa.southgreen.fr/gigwa/"
+    }, {
         "team": "Breeding Insight, Cornell University",
         "team-url": "https://breedinginsight.org/about-bi/",
         "title": "DeltaBreed",
