@@ -1,15 +1,4 @@
 [{
-        "title": "NAPDC Inaugural Conference",
-        "location": "Nebraska Innovation Campus, Lincoln, Nebraska, USA",
-        "date": "May 10, 2023 - May 12, 2023",
-        "image": "/images/events/lincoln_NE.jpg",
-        "description": "<p>The NAPDC has been tasked by USDA NIFA to develop a framework for national cyberinfrastructure to increase production and drive innovation in agriculture. The discussion will focus on future of agricultural cyberinfrastructure and will be heard by NAPDC, USDA NIFA, other federal agencies, and stakeholder groups. The BrAPI Community will have representation at this event.</p>",
-        "upcoming": true,
-        "links": [{
-            "name": "Event Page",
-            "url": "https://www.agdatacoop.org/conference"
-        }]
-    }, {
         "title": "BrAPI at the AgBioData Monthly Webinar",
         "location": "Virtual",
         "date": "June 7, 2023 - 13:00 EST",
@@ -19,6 +8,31 @@
         "links": [{
             "name": "Webinar Page",
             "url": "https://www.agbiodata.org/webinars"
+        }]
+    }, {
+        "title": "BrAPI Sabbaticals Demo Day",
+        "location": "Virtual",
+        "date": "June 20, 2023 13:00 UTC",
+        "image": "/images/events/plane1.jpg",
+        "description": "<p>The 2022-2023 BrAPI Sabbatical Program has come to an end. Now it is time for the teams to show off what they were able to build in their time away. We will have a public demo session on <strong>Tuesday, June 20, at <a target\"_blan\" href\"https://www.google.com/search?q=13%3A00+UT\">13:00 UTC </a></strong>. We encourage everyone to attend if you can, or watch the recording after the session. These are some interesting projects which can be useful for the BrAPI community, and can hopefully provide inspiration for the next round of project proposals.</p>",
+        "upcoming": true,
+        "links": [{
+            "name": "Register",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSfoSN1l582ycf8CvThLTjZfPb_TnIMs3497bW6gdXmS8hcvYg/viewform?usp=sf_link"
+        }, {
+            "name": "Sabbatical Info",
+            "url": "https://brapi.org/sabbaticals"
+        }]
+    }, {
+        "title": "NAPDC Inaugural Conference",
+        "location": "Nebraska Innovation Campus, Lincoln, Nebraska, USA",
+        "date": "May 10, 2023 - May 12, 2023",
+        "image": "/images/events/lincoln_NE.jpg",
+        "description": "<p>The NAPDC has been tasked by USDA NIFA to develop a framework for national cyberinfrastructure to increase production and drive innovation in agriculture. The discussion will focus on future of agricultural cyberinfrastructure and will be heard by NAPDC, USDA NIFA, other federal agencies, and stakeholder groups. The BrAPI Community will have representation at this event.</p>",
+        "upcoming": false,
+        "links": [{
+            "name": "Event Page",
+            "url": "https://www.agdatacoop.org/conference"
         }]
     }, {
         "title": "Greenville Hackathon",
