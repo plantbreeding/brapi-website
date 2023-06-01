@@ -1,94 +1,106 @@
-<section class="module-small" style="min-height: 470px;">
+<section class="module-extra-small" style="min-height: 470px;">
     <div class="container">
-        <div class="row">
-            <div id="submitServerContainer"
-                class="offset-xs-1 col-10 offset-sm-2 col-8 offset-md-3 col-md-6">
-                <div class="col-12">
-                    <div class="col-12" style="color: black">
-                        Add a BrAPI compliant server to the list here. Please note all submissions are reviewed and will
-                        not appear immediately.
-                    </div>
+        <div id="submitServerContainer" class="row justify-content-center">
+            <p class="col-7" style="color: black; margin: 10px 0; padding: 0;">
+                Add a BrAPI compliant server to the list here. Please note all submissions are reviewed and will
+                not appear immediately.
+            </p>
 
-                    <div class="col-12" style="margin-top: 20px; margin-bottom: 10px;">
-                        <hr class="divider-w">
-                    </div>
+            <div class="col-7" style="margin-top: 20px; margin-bottom: 10px;">
+                <hr class="divider-w">
+            </div>
 
-                    <form id="submitServerForm">
-                        <div class="col-12">
-                            <input type="radio" id="existingOrgTrue" name="existingOrg" value="true" checked>
-                            <label for="existingOrgTrue">Existing Organization</label><br>
-                            <input type="radio" id="existingOrgFalse" name="existingOrg" value="false">
-                            <label for="existingOrgFalse">New Organization</label><br>
-                        </div>
-                        <div id="existingOrgForm" class="col-12">
-                            <div><label for="orgsList" style="font-weight: 600;">Organization: </label></div>
-                            <select name="orgsList" id="orgsList" style="width: 100%; color: #000;">
-                                {{#each providers}}
-                                <option value="{{name}}">{{name}}</option>
-                                {{/each}}
-                            </select>
-                        </div>
-                        <div id="newOrgForm" style="display: none;">
-                            <div class="col-12"> <label for="orgNameInput" style="font-weight: 600;"> Organization Name:</label></div>
-                            <div class="col-12"><input id="orgNameInput" type="text" name="orgName"
-                                    style="width:100%" />
-                            </div>
-                            <div class="col-12"> <label for="orgDescInput" style="font-weight: 600;"> Organization Description:</label></div>
-                            <div class="col-12"><textarea id="orgDescInput" name="orgDesc"
-                                    style="width:100%"></textarea>
-                            </div>
-                            <div class="col-12"> <label for="orgLogoInput" style="font-weight: 600;"> Organization Logo URL:</label></div>
-                            <div class="col-12"><input id="orgLogoInput" type="text" name="orgLogo"
-                                    style="width:100%" />
-                            </div>
-                        </div>
+            <form id="submitServerForm" class="row justify-content-center col-7">
+                <div class="col-12" style="font-weight: 600;">
+                    <input type="radio" id="existingOrgTrue" name="existingOrg" value="true" checked>
+                    <label for="existingOrgTrue">Existing Organization</label><br>
 
-                        <div class="col-12" style="margin-top: 20px; margin-bottom: 10px;">
-                            <hr class="divider-w">
-                        </div>
+                    <input type="radio" id="existingOrgFalse" name="existingOrg" value="false">
+                    <label for="existingOrgFalse">New Organization</label><br>
+                </div>
 
-                        <div class="col-12"> <label for="serverNameInput" style="font-weight: 600;"> Server Name:</label></div>
-                        <div class="col-12"><input id="serverNameInput" type="text" name="serverName"
-                                style="width:100%" />
-                        </div>
-                        <div class="col-12"> <label for="serverDescInput" style="font-weight: 600;"> Server Description:</label></div>
-                        <div class="col-12"><textarea id="serverDescInput" name="serverDesc"
-                                style="width:100%"></textarea>
-                        </div>
-                        <div class="col-12"> <label for="serverV1Input" style="font-weight: 600;"> Server V1 URL (ending with "/brapi/v1"):</label></div>
-                        <div class="col-12"><input id="serverV1Input" type="url" name="serverV1Url"
-                                style="width:100%" />
-                        </div>
-                        <div class="col-12"> <label for="serverV2Input" style="font-weight: 600;"> Server V2 URL (ending with "/brapi/v2"):</label></div>
-                        <div class="col-12"><input id="serverV2Input" type="url" name="serverV2Url"
-                                style="width:100%" />
-                        </div>
+                <div class="row justify-content-center" id="existingOrgForm">
+                    <label class="col-12 form-label" for="orgsList">Organization: </label>
+                    <select class="col-11 input" name="orgsList" id="orgsList" style="color: #000;">
+                        {{#each providers}}
+                        <option value="{{name}}">{{name}}</option>
+                        {{/each}}
+                    </select>
+                </div>
 
-                        <div class="col-12">Badges:</div>
-                        {{#each badges }}
-                        <div class="col-6">
-                            <input id="badge-{{ @key }}" type="checkbox" name="badge-{{ @key }}" value="{{ @key }}"
-                                style="float: left; margin: 9px 0 0 5px;" />
-                            <div class="badge-holder">
-                                <div class="badge" style="background-color: {{ badge-color }};">
-                                    <div class="mdi {{ badge-icon-class }} badge-icon"></div>
-                                    <div class="badge-text"><label for="badge-{{ @key }}">{{ badge-text }}</label></div>
+                <div id="newOrgForm" class="row justify-content-center" style="display: none;">
+                    <label class="col-12 form-label" for="orgNameInput"> Organization Name:</label>
+                    <input class="col-11 input" id="orgNameInput" type="text" name="orgName" />
+
+                    <label class="col-12 form-label" for="orgDescInput"> Organization Description:</label>
+                    <textarea class="col-11 input" id="orgDescInput" name="orgDesc"></textarea>
+
+                    <label class="col-12 form-label" for="orgLogoInput"> Organization Logo URL:</label>
+                    <input class="col-11 input" id="orgLogoInput" type="text" name="orgLogo" />
+                </div>
+
+                <div style="margin-top: 20px; margin-bottom: 10px;">
+                    <hr class="divider-w">
+                </div>
+
+                <label class="col-12 form-label" for="serverNameInput"> Server Name<span
+                        style="color: red;">*</span>:</label>
+                <input class="col-11 input" id="serverNameInput" type="text" name="serverName" required />
+
+                <label class="col-12 form-label" for="serverDescInput"> Server Description<span
+                        style="color: red;">*</span>:</label>
+                <textarea class="col-11 input" id="serverDescInput" name="serverDesc" required></textarea>
+
+                <label class="col-12 form-label" for="serverV1Input"> Server V1 URL (ending with
+                    "/brapi/v1"):</label>
+                <input class="col-11 input" id="serverV1Input" type="url" name="serverV1Url" />
+
+                <label class="col-12 form-label" for="serverV2Input"> Server V2 URL (ending with
+                    "/brapi/v2"):</label>
+                <input class="col-11 input" id="serverV2Input" type="url" name="serverV2Url" />
+                <p id="urlError" class="col-11" style="color: red; display:none">One of the Server URLs does not resolve to a valid BrAPI
+                    compatible end point. <br> Please confirm the URL is correct and try again.</p>
+
+                <label class="col-12 form-label"> Badges:</label>
+                <div class="row justify-content-center">
+                    {{#each badges }}
+                    <div class="col-12 col-md-6 col-lg-4" style="margin:auto">
+                        <input id="badge-{{ @key }}" type="checkbox" name="badge-{{ @key }}" value="{{ @key }}"
+                            style="float: left; margin: 12px 5px 0 5px;" />
+                        <div class="badge-holder">
+                            <div class="badge" style="background-color: {{ badge-color }};">
+                                <div class="mdi {{ badge-icon-class }} badge-icon"></div>
+                                <div class="badge-text"><label for="badge-{{ @key }}">{{ badge-text }}</label>
                                 </div>
                             </div>
                         </div>
-                        {{/each}}
-
-                        <div class="col-4" style="text-align: center;">
-                            <input type="submit" value="Submit For Review" class="btn btn-d btn-round"
-                                style="margin: 20px auto;">
-                        </div>
-                    </form>
+                    </div>
+                    {{/each}}
                 </div>
-            </div>
+
+                <label class="col-12 form-label" for="submitterEmailInput"> Contact Email <span
+                        style="color: red;">*</span>:</label>
+                <input class="col-11 input" id="submitterEmailInput" name="email" placeholder="john.doe@example.com"
+                    required></input>
+                <p style="margin: 0 0 0 25px">This email address is collected for maintenance purposes only.
+                    Contact inforomation is never shared without express permission.</p>
+
+                <input type="submit" value="Submit For Review" class="btn btn-sm btn-outline-success col-4"
+                    style="margin: 20px auto;">
+            </form>
+        </div>
+        <div id="loadingContainer" class="row justify-content-center" style="display: none;">
+            <span class="spinner-border text-dark" role="status"></span>
+        </div>
+        <div id="finishContainer" class="row justify-content-center" style="display: none;">
+            <p class='col-7' style='color: black;'>Thanks For Submitting a new Server! Your submission is being reviewed
+                and will be added to the public list soon. <br /> If you have any questions or concerns, please <a
+                    href='/contact'>Contact Us</a><br /> <a href='/servers'>Return to Server List</a>
+            </p>
         </div>
     </div>
 </section>
-<script type="text/plain"  cookie-consent="strictly-necessary">
+<script type="text/plain" cookie-consent="strictly-necessary">
 
     $(document).ready(function () {
 
@@ -103,18 +115,58 @@
         });
 
         $("#submitServerForm").submit(function (event) {
-            $("#submitServerContainer").html("<div style='margin: 30px 0 0 35px;'><div class='loader loader-dark'></div></div>");
+            $("#submitServerContainer").hide();
+            $("#loadingContainer").show();
+            $("#finishContainer").hide();
 
-            var req = $(this).serializeArray();
-            $.post('/api/newServerSubmit', req, function (data, status) {
-                console.log(data);
-                $("#submitServerContainer").html("<p style='color: black;'>Thanks For Submitting a new Server! " + 
-                "Your submission is being reviewed and will be added to the public list soon. <br/>" +
-                "If you have any questions or concerns, please <a href='/contact'>Contact Us</a><br/>" + 
-                "<a href='/servers'>Return to Server List</a></p>")
-            });
+            if($('#serverV1Input').val() || $('#serverV2Input').val()){
+                try{
+                    var serverStr = JSON.stringify({'server-v1-url': $('#serverV1Input').val(),'server-v2-url': $('#serverV2Input').val()});
+                    var req = {
+                        method: 'POST', 
+                        body: serverStr,
+                        headers: {
+                            "Content-Type": "application/json",
+                        }
+                    }
+                    fetch("/api/testEndpoint", req)
+                    .then(response => response.json())
+                    .then(data => {
+                        var passTest = true;
+                        if($('#serverV1Input').val() && data['v1Res'].status && data['v1Res'].status != 200)
+                            passTest = false;
+                        if($('#serverV2Input').val() && data['v2Res'].status && data['v2Res'].status != 200)
+                            passTest = false;
+                        if(passTest){
+                            var req = $(this).serializeArray();
+                            $.post('/api/newServerSubmit', req, function (data, status) {
+                                $("#submitServerContainer").hide();
+                                $("#loadingContainer").hide();
+                                $("#finishContainer").show();
+                            });
+                        }else{
+                            serverURLError();
+                        }
+                    })
+                    .catch(error => {
+                        serverURLError();
+                    });
+                }catch (error){
+                    serverURLError();
+                }
+            }else{
+                serverURLError();
+            }
+
             event.preventDefault();
         });
     });
+
+    function serverURLError(){
+        $("#submitServerContainer").show();
+        $("#loadingContainer").hide();
+        $("#finishContainer").hide();
+        $("#urlError").show();
+    }
 
 </script>

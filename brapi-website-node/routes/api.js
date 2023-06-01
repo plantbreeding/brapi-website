@@ -97,6 +97,7 @@ function newServerJSON(reqBody) {
     serverBody["v1-url"] = reqBody.serverV1Url;
     serverBody["v2-url"] = reqBody.serverV2Url;
     serverBody.description = reqBody.serverDesc;
+    serverBody["contact-email"] = reqBody.email;
     serverBody.badges = [];
     for (var field in reqBody) {
         if (field.startsWith("badge")) {

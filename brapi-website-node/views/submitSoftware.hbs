@@ -23,7 +23,7 @@
 
                 <label class="col-12 form-label" for="softwareImageURLInput" > Image URL:</label>
                 <input class="col-11 input" id="softwareImageURLInput" name="image"  placeholder="https://example.org/software/screenshot.png"></input>
-                <p style="margin: 0 0 0 25px;font-size: smaller;">** You can also email image files directly to the <a href='/contact'>BrAPI Coordinator</a></p>
+                <p style="margin: 0 0 0 30px">You can also email image files directly to the <a href='/contact'>BrAPI Coordinator</a></p>
 
                 <label class="col-12 form-label" for="softwareURLInput" > Software URL <span style="color: red;">*</span> :</label>
                 <input class="col-11 input" id="softwareURLInput" name="url" placeholder="https://example.org/software" required></input>
@@ -36,6 +36,10 @@
 
                 <label class="col-12 form-label" for="softwareDemoURLInput" > Demo URL:</label>
                 <input class="col-11 input" id="softwareDemoURLInput" name="demo-url"  placeholder="https://example.org/software/demo"></input>
+                
+                <label class="col-12 form-label" for="submitterEmailInput" > Contact Email <span style="color: red;">*</span>:</label>
+                <input class="col-11 input" id="submitterEmailInput" name="email"  placeholder="john.doe@example.com" required></input>
+                <p style="margin: 0 0 0 30px">This email address is collected for maintenance purposes only. Contact inforomation is never shared without express permission.</p>
 
                 <input type="submit" value="Submit For Review" class="btn btn-sm btn-outline-success col-4" style="margin: 20px auto;">
             </form>
@@ -67,6 +71,15 @@
             </li>
 
         </div>
+        <div id="loadingContainer" class="row justify-content-center" style="display: none;">
+            <span class="spinner-border text-dark" role="status"></span>
+        </div>
+        <div id="finishContainer" class="row justify-content-center" style="display: none;">
+            <p class='col-7' style='color: black;'>Thanks For Submitting a new Software! Your submission is being reviewed
+                and will be added to the public list soon. <br /> If you have any questions or concerns, please <a
+                    href='/contact'>Contact Us</a><br /> <a href='/servers'>Return to Server List</a>
+            </p>
+        </div>
     </div>
 </section>
 <script type="text/plain" cookie-consent="strictly-necessary">
@@ -74,18 +87,15 @@
     $(document).ready(function () {
 
         $("#submitSoftwareForm").submit(function (event) {
-            $("#submitSoftwareContainer").html("<div style='margin: 30px 0 0 35px;'><div class='loader loader-dark'></div></div>");
+            $("#submitSoftwareContainer").hide();
+            $("#loadingContainer").show();
+            $("#finishContainer").hide();
 
             var req = $(this).serializeArray();
             $.post('/api/newSoftwareSubmit', req, function (data, status) {
-                console.log(data);
-                $("#submitSoftwareContainer").html("" +
-                "<p class='col-7'>" + 
-                    "Thanks For Submitting a new Software! " + 
-                    "Your submission is being reviewed and will be added to the public list soon. <br/>" +
-                    "If you have any questions or concerns, please <a href='/contact'>Contact Us</a><br/>" + 
-                    "<a href='/compatibleSoftware'>Return to Software List</a>" +
-                "</p>");
+                $("#submitSoftwareContainer").hide();
+                $("#loadingContainer").hide();
+                $("#finishContainer").show();
             });
             event.preventDefault();
         });
