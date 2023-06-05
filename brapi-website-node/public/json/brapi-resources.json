@@ -173,7 +173,6 @@
                 "v1-url": "https://sempre.breedbase.org/brapi/v1",
                 "v2-url": "https://sempre.breedbase.org/brapi/v2",
                 "description": "This is a server with real data from corn breeding program.",
-                "contact-email": "ccs263@cornell.edu",
                 "badges": [
                     "auth-required",
                     "data-prod",
