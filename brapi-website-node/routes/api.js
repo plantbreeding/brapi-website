@@ -94,8 +94,15 @@ router.post('/testEndpoint', async function(req, res, next) {
 function newServerJSON(reqBody) {
     var serverBody = {};
     serverBody.name = reqBody.serverName;
+
     serverBody["v1-url"] = reqBody.serverV1Url;
+    if (serverBody["v1-url"] && !serverBody["v1-url"].endsWith('/'))
+        serverBody["v1-url"] = serverBody["v1-url"] + '/'
+
     serverBody["v2-url"] = reqBody.serverV2Url;
+    if (serverBody["v2-url"] && !serverBody["v2-url"].endsWith('/'))
+        serverBody["v2-url"] = serverBody["v2-url"] + '/'
+
     serverBody.description = reqBody.serverDesc;
     serverBody["contact-email"] = reqBody.email;
     serverBody.badges = [];
