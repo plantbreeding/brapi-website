@@ -23,7 +23,7 @@ router.get('/', function(req, res, next) {
 
     for (prov of providers) {
         for (server of prov.resources) {
-            server['id'] = server.name.replace(/[ :/\(\)]/ig, '');
+            server['id'] = server.name.replace(/[ :/\(\)\.]/ig, '');
             var badgesArr = [];
             for (badgeKey of server.badges) {
                 badgesArr.push(badges[badgeKey]);
