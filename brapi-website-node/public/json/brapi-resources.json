@@ -240,9 +240,9 @@
         }]
     },
     {
-        "name": "Bioversity International",
-        "description": "Bioversity International is a global research-for-development organization.",
-        "logo": "https://www.bioversityinternational.org/fileadmin/templates/IMG/bioversity-logo.png",
+        "name": "Alliance of Bioversity International & CIAT",
+        "description": "The Alliance of Bioversity International and the International Center for Tropical Agriculture (CIAT) was created to address climate change, biodiversity loss, environmental degradation, and malnutrition, by maximizing impact for change at key points in the food system. ",
+        "logo": "https://brapi.org/images/institutions/Alliance_Bioversity_CIAT_logo.png",
         "resources": [{
                 "name": "Musa Acuminata GWAS Panel - GBS - genome V1",
                 "v1-url": "https://www.crop-diversity.org/gigwa/rest/Musa_acuminata-v1/brapi/v1/",
