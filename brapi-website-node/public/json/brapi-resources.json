@@ -185,14 +185,27 @@
     {
         "name": "MGIS",
         "description": "Musa Germplasm Information System",
-        "logo": "https://www.crop-diversity.org/mgis/sites/crop-diversity.org.mgis/themes/mgis_theme/logo.png",
+        "logo": "https://www.crop-diversity.org/mgis5/themes/custom/mgis_theme/logo.svg",
         "resources": [{
-            "name": "Musa Germplasm Information System",
+            "name": "Musa Germplasm Information System v4.5",
+            "description": "Supports BrAPI v1.3.",
             "v1-url": "https://www.crop-diversity.org/mgis/brapi/v1/",
             "badges": [
                 "auth-open",
                 "data-prod",
                 "brapi-v1"
+            ]
+        },{
+            "name": "Musa Germplasm Information System v5",
+            "v1-url": "https://www.crop-diversity.org/mgis5/brapi/v1/",
+            "v2-url": "https://www.crop-diversity.org/mgis5/brapi/v2/",
+            "description": "Provides support for both BrAPI v1 and v2. Please report errors to v.guignon@cgiar.org.",
+            "contact-email": "v.guignon@cgiar.org",
+            "badges": [
+                "auth-open",
+                "data-prod",
+                "brapi-v1",
+                "brapi-v2"
             ]
         }]
     },
