@@ -2,10 +2,10 @@
     <div class="container">
         <div class="row">
             <div class="col-4 col-md-3" id="menu">
-                <div>
-                    {{!-- <a class="btn btn-d btn-round col-12" target="_blank" disabled
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSca4PpcQQT1ndxYJIxjctYTltOPO9uJwUZVgZ8IpgeGkVD68g/viewform?usp=sf_link">Register</a> --}}
-                </div>
+                {{!-- <div>
+                    <a class="btn btn-d btn-round col-12" target="_blank" disabled
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSeHJ2CYt2SXTUY6yElyHkJl9-vvorJ4F03T03hFDvGK3efSCw/viewform?usp=sf_link">Register</a>
+                </div> --}}
                 <div>
                     <button id="toggle-overview" class="btn btn-secondary btn-light-gray col-12" type="button"
                         onclick="toggleVisibleXorHackathon('overview-section')">Overview</button>
@@ -32,21 +32,37 @@
                 <div id="overview-section" style="display: block; scroll-margin-top: 400px;">
                     <h3 class="font-alt" id="title"> Register </h3>
                     <div style="margin-left:10px">
-                        <p>
-                            <strong>When: </strong> October 24-28, 2022<br />
-                            <strong>Where: </strong> Virtual<br />
+                        <p style="margin: 2px 0 2px 0;"> <strong>When: </strong> October 23-27, 2023<br /> </p>
+                        <p style="margin: 2px 0 2px 0;"> <strong>Where: </strong> Virtual <br></p>
+                        <p style="margin: 10px 0 2px 0;"> <strong>Add To Calendar: </strong> <br> </p>
+                        <div style="text-align: center">
+                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                                href="{{calendarLinks.ics}}">.ICS (Outlook, iCal)</a>
+                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                                href="{{calendarLinks.google}}">Google Cal</a>
+                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                                href="{{calendarLinks.yahoo}}">Yahoo Cal</a>
+                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                                href="{{calendarLinks.office365}}">Office365</a>
+                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                                href="{{calendarLinks.outlook}}">Outlook (web)</a>
+                        </div>
+
+                        <p style="margin: 20px 0 15px 0;">
                             Join the BrAPI community for a week of fun as we hack code together and discuss the
-                            future of BrAPI. This virtual event will run from October 24-28, 2022. Everyone in the BrAPI
+                            future of BrAPI. This virtual event will run from October 23-27, 2023. Everyone in the BrAPI
                             community is welcome! Please register to receive meeting invitations and other important
                             information.
                         </p>
-                        {{!-- <p><a class="btn btn-d btn-round" target="_blank"
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSca4PpcQQT1ndxYJIxjctYTltOPO9uJwUZVgZ8IpgeGkVD68g/viewform?usp=sf_link">Register</a>
+                        {{!-- <p>Registration CLosed</p> --}}
+                        <p style="text-align: center"><a class="btn btn-d btn-round col-4" target="_blank"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSe1a22NlCQZLGjTZGdVr-siTQIqIYZ9dORD99-qj0s34qU3oQ/viewform">Register</a>
+                        </p>
+                        {{!-- <p style="text-align: center"><a class="btn btn-d btn-round col-4" target="_blank"
+                                href="https://docs.google.com/document/d/13Z6mKVnJxzi4CkqNVYE2OiL5hDcYC8SpNjX_l8AtdMM/edit?usp=sharing">Travel Guide</a>
                         </p> --}}
 
-                        <p>Registration CLosed</p>
                     </div>
-
                     <h3 class="font-alt" id="title"> Overview </h3>
                     <div style="margin-left:10px">
                         <p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community.
@@ -74,7 +90,7 @@
                 <div id="agenda-section" style="display: none; scroll-margin-top: 400px;">
                     <h3 class="font-alt" id="title"> Agenda </h3>
                     <div style="margin-left:10px">
-                        <p>This event will take place from April 25-29, 2022. There will be two sessions per day to
+                        <p>This event will take place from October 23-27, 2023. There will be two sessions per day to
                             accommodate many different time zones. Attendees are welcome to attend any and all sessions.
                         <ul>
                             <li> <span style="background-color: #d6e6ff;">Discussion Session #1:</span> every day from
@@ -100,40 +116,28 @@
                         <div>
                             {{#each hackathonData.agenda}}
                             <div class="col-12 no-pad agenda-date">{{date}}</div>
-                            <div class="col-12 agenda-bg-green">
-                                <div class="col-11" style="padding: 0 0 0 10px">
-                                    <div class="col-2 no-pad">{{projectTime.[0]}}</div>
-                                    <div class="col-10 no-pad">Collaborative project work time</div>
-                                </div>
-                                <div class="col-11 agenda-bg-blue">
-                                    <p class="agenda-row"> {{sessions.[0].session}} </p>
-                                    {{#each sessions.[0].discussions}}
-                                    <div class="agenda-row" {{#if canceled}} style="text-decoration: line-through;"
-                                        {{/if}}>
-                                        <div class="col-2 no-pad">{{time}}</div>
-                                        <div class="col-10 no-pad">{{title}}
-                                            {{#if lead}}<br />Discussion Lead: {{lead}}{{/if}}</div>
+                            <div class="col-12 agenda-bg-green row">
+                                <div class="col-11 no-pad">
+                                    <div class="col-12 agenda-row" style="padding: 0 0 0 10px; height: 10px;"></div>
+                                    {{#each schedule}}
+                                    {{#if time}}
+                                    <div class="col-12 {{class}}">
+                                        <div class="agenda-row" {{#if canceled}} style="text-decoration: line-through;"
+                                            {{/if}}>
+                                            <div class="col-2 no-pad">{{time}}</div>
+                                            <div class="col-10 no-pad">{{title}}
+                                                {{#if lead}}<br />Discussion Lead: {{lead}}{{/if}}</div>
+                                        </div>
                                     </div>
+                                    {{else}}
+                                    <div class="col-12 agenda-row" style="padding: 0 0 0 10px; height: 10px;"></div>
+                                    {{/if}}
                                     {{/each}}
+                                    <div class="col-12" style="padding: 0 0 0 10px; height: 10px;"></div>
                                 </div>
-                                <div class="col-11" style="padding: 0 0 0 10px">
-                                    <div class="col-2 no-pad">{{projectTime.[1]}}</div>
-                                    <div class="col-10 no-pad">Collaborative project work time</div>
-                                </div>
-                                <div class="col-11 agenda-bg-pink">
-                                    <p class="agenda-row"> {{sessions.[1].session}} </p>
-                                    {{#each sessions.[1].discussions}}
-                                    <div class="agenda-row">
-                                        <div class="col-2 no-pad">{{time}}</div>
-                                        <div class="col-10 no-pad">{{title}}
-                                            {{#if lead}}<br />Discussion Lead: {{lead}}{{/if}}</div>
-                                    </div>
-                                    {{/each}}
-                                </div>
-                                <div class="col-11" style="padding: 0 0 0 10px">
-                                    <div class="col-2 no-pad">{{projectTime.[2]}}</div>
-                                    <div class="col-10 no-pad">Collaborative project work time</div>
-                                </div>
+                                <div class="col-1"
+                                    style="writing-mode: vertical-rl; font-weight: bold; text-align: center;">
+                                    Project Work Time <br> All Day</div>
                             </div>
                             {{/each}}
                         </div>
@@ -145,20 +149,21 @@
                     <div style="margin-left:10px">
                         <table>
                             <tr>
-                                <th class="agenda">Session #1</th>
+                                <th class="agenda" colspan="3">In-person</th>
                             </tr>
-                            {{#each hackathonData.session1List}}
+                            {{#each hackathonData.session2List}}
                             <tr>
                                 <td class="agenda">{{name}}</td>
                                 <td class="agenda">{{email}}</td>
                                 <td class="agenda">{{org}}</td>
                             </tr>
                             {{/each}}
-
+                        </table>
+                        <table>
                             <tr>
-                                <th class="agenda">Session #2</th>
+                                <th class="agenda" colspan="3">Remote</th>
                             </tr>
-                            {{#each hackathonData.session2List}}
+                            {{#each hackathonData.session1List}}
                             <tr>
                                 <td class="agenda">{{name}}</td>
                                 <td class="agenda">{{email}}</td>

@@ -1,4 +1,101 @@
 {
+    "hackathon-oct-2023": {
+        "attendees": [
+            { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "session1": true, "session2": true }
+        ],
+        "projects": [
+            { "team": null, "title": "", "description": "", "needs": null, "repo": null }
+        ],
+        "notes": [
+        {
+            "discussion": "Welcome! Tech setup, setting expectations, general organizing"
+        }, {
+            "discussion": "Community Updates - Application demos and presentations from the BrAPI community"
+        }, {
+            "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI"
+        }, {
+            "discussion": "Project presentations and wrap up"
+        }],
+        "calendarInvite": {
+            "title": "BrAPI Virtual Hackathon - October 2023",
+            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from October 23-27, 2023. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon",
+            "location": "Virtual",
+            "start": "2023-10-23 08:00:00Z",
+            "end": "2023-10-27 21:00:00Z"
+        },
+        "agenda": [{
+            "date": "Monday, October 23, 2023",
+            "schedule": [
+                { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
+                { "time": "08:00 - 08:30 UTC", "class": "agenda-bg-blue", "title": "Welcome! Tech setup, setting expectations, general organizing" },
+                { "time": "08:30 - 10:00 UTC", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "16:00 - 16:30 UTC", "class": "agenda-bg-pink", "title": "Welcome! Tech setup, setting expectations, general organizing" },
+                { "time": "16:30 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" }
+            ]
+
+        }, {
+            "date": "Tuesday, October 24, 2023",
+            "schedule": [
+                { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
+                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "TBD" }
+            ]
+
+        }, {
+            "date": "Wednesday, October 25, 2023",
+            "schedule": [
+                { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
+                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "TBD" }
+            ]
+
+        }, {
+            "date": "Thursday, October 26, 2023",
+            "schedule": [
+                { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
+                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "TBD" }
+
+            ]
+
+        }, {
+            "date": "Friday, October 27, 2023",
+            "schedule": [
+                { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
+                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Project presentations and wrap up" },
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "Project presentations and wrap up" }
+            ]
+
+        }]
+    },
     "hackathon-mar-2023": {
         "attendees": [
             { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "session1": false, "session2": true },
@@ -43,9 +140,9 @@
             { "name": "Jan Erik Backlund", "org": "IBP ", "email": "jeback1@gmail.com", "session1": true, "session2": false }
         ],
         "projects": [
-            { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU fieldbook", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
+            { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU Field Book", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
             { "team": "Mark Watson, Any of the developers of the various brapir R packages (I'm not sure if any will be present or not).", "title": "BrAPI-R", "description": "I'm working on a set of modular R Shiny apps that use BrAPI via the brapir-v1 R package for interactive breeding data analyses (the goal is for these to be especially tinkerable, so breeders can modify them themselves for miscellaneous analyses that aren't covered in breedbase instances). I'm interested in integrating new BrAPI features (working with any brapir developers if they're present), along with improving performance and adding better documentation for GitHub.", "needs": null, "repo": "https://github.com/mtwatso2-eng/pollination-toolbox" },
-            { "team": "Chaney Courtney", "title": "Field Book", "description": "FieldBook", "needs": null, "repo": null },
+            { "team": "Chaney Courtney", "title": "Field Book", "description": "Field Book", "needs": null, "repo": null },
             { "team": "Ernesto Briones Pereyra, EBS' Team", "title": "GraphQL ", "description": "GraphQL Brapi standard", "needs": null, "repo": null },
             { "team": "Maria Relliza Asin Pasang, Jahzeel Ramos Calosa (IRRI), Larise Gallardo (IRRI), Alfonso Joseph Caballero Ramirez (CIMMYT), Ernesto Briones (CIMMYT), Dinia Grace D. Gepte", "title": "Integrate EBS and Field Book", "description": "Integrate the CGIAR Excellence in Breeding Platform-led Enterprise Breeding System (EBS) with the Field Book application so that breeders may easily collect and upload data to the system.", "needs": "Planning to consult Trevor Rife for the Field book app and BrAPI integration", "repo": "https://bitbucket.org/ebsproject/cb-brapi" },
             { "team": "Mirella Flores", "title": "BrAPI Trait Selector", "description": "BrAPI trait selector", "needs": null, "repo": null },
@@ -99,7 +196,7 @@
         "calendarInvite": {
             "title": "BrAPI Hackathon - Greensville, SC, USA",
             "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This hackathon is will be in Greenville, South Carolina, USA on March 20-24, 2023. A big \"thank you\" to Trevor Rife and Clemson University for hosting this event. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon-mar-2023",
-            "location": "CU-ICAR TD Gallary and Plaza, 5 Research Drive, Greenville, SC 29607, USA ",
+            "location": "CU-ICAR TD Gallery and Plaza, 5 Research Drive, Greenville, SC 29607, USA ",
             "start": "2023-03-20 13:00:00Z",
             "end": "2023-03-24 21:00:00Z"
         },

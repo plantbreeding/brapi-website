@@ -1,5 +1,23 @@
 [
     {
+        "title": "BrAPI Virtual Hackathon 2023",
+        "location": "Virtual",
+        "date": "October 23, 2022 - October 27, 2023",
+        "image": "/images/events/home_office_generated_8.png",
+        "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from October 23-27, 2023. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.</p>",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "Register",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSe1a22NlCQZLGjTZGdVr-siTQIqIYZ9dORD99-qj0s34qU3oQ/viewform"
+            },
+            {
+                "name": "Event Page",
+                "url": "/events/hackathon"
+            }
+        ]
+    },
+    {
         "title": "BrAPI Sabbaticals Demo Day",
         "location": "Virtual",
         "date": "June 20, 2023 13:00 UTC",

@@ -33,11 +33,19 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.get('/:id', function(req, res, next) {
-    var hackathonData = require('../public/json/hackathons.json')
+router.get('/hackathon', function(req, res, next) {
+    var hackathonData = require('../public/json/hackathons.json');
+    renderHackathonPage(hackathonData, Object.keys(hackathonData)[0], res);
+});
 
-    if (hackathonData[req.params.id]) {
-        var attendees = hackathonData[req.params.id].attendees;
+router.get('/:id', function(req, res, next) {
+    var hackathonData = require('../public/json/hackathons.json');
+    renderHackathonPage(hackathonData, req.params.id, res);
+});
+
+var renderHackathonPage = function(hackathonData, eventID, res){
+    if (hackathonData[eventID]) {
+        var attendees = hackathonData[eventID].attendees;
         attendees.sort(function(a, b) {
             var result = a.org > b.org ? 1 : ((b.org > a.org) ? -1 : 0);
             if (result === 0)
@@ -52,22 +60,22 @@ router.get('/:id', function(req, res, next) {
             if (attendee.session2)
                 session2List.push(attendee);
         });
-        hackathonData[req.params.id]["session1List"] = session1List;
-        hackathonData[req.params.id]["session2List"] = session2List;
+        hackathonData[eventID]["session1List"] = session1List;
+        hackathonData[eventID]["session2List"] = session2List;
 
-        if (hackathonData[req.params.id].calendarInvite) {
-            var calendarLinks = buildCalendarLinks(hackathonData[req.params.id].calendarInvite);
+        if (hackathonData[eventID].calendarInvite) {
+            var calendarLinks = buildCalendarLinks(hackathonData[eventID].calendarInvite);
         }
     }
-    res.render('hackathons/' + req.params.id, {
+    res.render('hackathons/' + eventID, {
         title: 'BrAPI Hackathon',
         footerEvents: getTrailerEvents(),
-        hackathonData: hackathonData[req.params.id],
+        hackathonData: hackathonData[eventID],
         calendarLinks: calendarLinks,
         twitterTitle: 'BrAPI Hackathon',
-        twitterDesc: req.params.id
+        twitterDesc: eventID
     });
-});
+}
 
 var getTrailerEvents = function() {
     var events = require('../public/json/events.json')
