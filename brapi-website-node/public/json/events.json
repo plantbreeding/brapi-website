@@ -8,12 +8,12 @@
         "upcoming": true,
         "links": [
             {
-                "name": "Register",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSe1a22NlCQZLGjTZGdVr-siTQIqIYZ9dORD99-qj0s34qU3oQ/viewform"
-            },
-            {
                 "name": "Event Page",
                 "url": "/events/hackathon"
+            },
+            {
+                "name": "Register",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSe1a22NlCQZLGjTZGdVr-siTQIqIYZ9dORD99-qj0s34qU3oQ/viewform"
             }
         ]
     },
