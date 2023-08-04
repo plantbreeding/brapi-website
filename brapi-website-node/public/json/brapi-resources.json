@@ -107,7 +107,7 @@
         ]
     }, {
         "name": "The Boyce Thompson Institute",
-        "description": "Discovery and inovation in the life sciences",
+        "description": "Discovery and innovation in the life sciences",
         "logo": "https://brapi.org/images/institutions/breedbase.png",
         "resources": [{
                 "name": "Cassavabase",
@@ -137,7 +137,7 @@
                 "name": "Sweetpotatobase",
                 "v1-url": "https://sweetpotatobase.org/brapi/v1/",
                 "v2-url": "https://sweetpotatobase.org/brapi/v2/",
-                "description": "The central database for the Genomic Tools for Sweetpotato Improvement Project.",
+                "description": "The central database for the Genomic Tools for Sweet Potato Improvement Project.",
                 "badges": [
                     "auth-open",
                     "data-prod",
@@ -264,6 +264,18 @@
                     "data-prod",
                     "brapi-v1"
                 ]
+            },{
+                "name": "MGIS",
+                "v1-url": "https://www.crop-diversity.org/mgis/brapi/v1/",
+                "v2-url": "https://www.crop-diversity.org/mgis5/brapi/v2/",
+                "description": "Musa Germplasm Information System, serves multiple banana genebank collection germplasm data.",
+                "contact-email": "v.guignon@cgiar.org",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v1",
+                    "brapi-v2"
+                ]
             }
         ]
     },
@@ -290,7 +302,7 @@
             "name": "BrAPI Test Server",
             "v1-url": "https://test-server.brapi.org/brapi/v1/",
             "v2-url": "https://test-server.brapi.org/brapi/v2/",
-            "description": "BrAPI Official Test Server for the BrAPI community. This server implemnts every BrAPI endpoint and is compatable with versions v1.0, v1.1, v1.2, v1.3, v2.0, and v2.1. The dummy data can be accessed with or without an authentication token. Submitting new data requires an authentication token. Please contact the BrAPI Coordinator for authentication details. This is a Java Spring server backed by a PostgreSQL database. More technical details can be found at <a href=\"https://github.com/plantbreeding/brapi-Java-TestServer\">https://github.com/plantbreeding/brapi-Java-TestServer</a>",
+            "description": "BrAPI Official Test Server for the BrAPI community. This server implements every BrAPI endpoint and is compatible with versions v1.0, v1.1, v1.2, v1.3, v2.0, and v2.1. The dummy data can be accessed with or without an authentication token. Submitting new data requires an authentication token. Please contact the BrAPI Coordinator for authentication details. This is a Java Spring server backed by a PostgreSQL database. More technical details can be found at <a href=\"https://github.com/plantbreeding/brapi-Java-TestServer\">https://github.com/plantbreeding/brapi-Java-TestServer</a>",
             "badges": [
                 "auth-open",
                 "auth-required",
