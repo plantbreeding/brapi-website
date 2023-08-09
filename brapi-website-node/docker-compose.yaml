@@ -7,6 +7,7 @@ services:
     environment:
       - MIALING_LIST_PATH=/usr/src/app/data/mailingListChanges.txt
       - NEW_SERVER_LIST_PATH=/usr/src/app/data/serverListChanges.txt
+      - MAILGUN_API_KEY
     volumes:
       - /home/jenkins/brapi.org/data/email-data:/usr/src/app/data/
   brapi-wiki:
