@@ -28,7 +28,7 @@ router.post('/mailingListSubscribe', function (req, res, next) {
         'h:Date': now.toUTCString()
     }
 
-    mg.lists.members.createMember('announcement@mail.brapi.org', {
+    mg.lists.members.createMember('announcements@mail.brapi.org', {
         address: req.body.email,
         name: req.body.name + ' (' + req.body.org + ')', // optional, modifiable on website
         vars: { organization: req.body.org }, // optional, modifiable on website
@@ -68,7 +68,7 @@ router.post('/mailingListUnsubscribe', function (req, res, next) {
         'h:Date': now.toUTCString()
     }
 
-    mg.lists.members.destroyMember('announcement@mail.brapi.org', req.body.email)
+    mg.lists.members.destroyMember('announcements@mail.brapi.org', req.body.email)
         .then(data => {
             console.log(data);
             mg.messages.create('mail.brapi.org', emailData)
@@ -160,8 +160,8 @@ router.post('/newSoftwareSubmit', function (req, res, next) {
 router.post('/announcement', function (req, res, next) {
     const now = new Date(Date.now());
     var emailData = {
-        from: 'BrAPI Announcements <announcement@mail.brapi.org>',
-        to: 'announcement@mail.brapi.org',
+        from: 'BrAPI Announcements <announcements@mail.brapi.org>',
+        to: 'announcements@mail.brapi.org',
         template: 'announcement_template',
         subject: req.body.title,
         text: req.body.text,
