@@ -1,12 +1,11 @@
-var express = require('express');
-var router = express.Router();
+
 const { Issuer, generators, custom } = require('openid-client');
 
 const discoveryUri = 'http://keycloak-brapi:8080/auth/realms/brapi/'; //production
 const redirectUri = 'https://brapi.org/oauth/redirect';               //production
 
-// const discoveryUri = 'https://test-server.brapi.org/';        //development
-// const redirectUri = 'http://localhost:3000/oauth/redirect';   //development
+// const discoveryUri = 'https://test-server.brapi.org/';       //development
+// const redirectUri = 'http://localhost:3000/oauth/redirect';  //development
 
 var client;
 var code_verifier = generators.codeVerifier();

@@ -7,24 +7,18 @@
                         <p><a class="btn btn-d btn-round" target="_blank"
                                 href="/oauth/login">Login</a></p>
                     </div>
-                    <div id="token" style="display: none;">
-                        <p>Token: </p>
-                        <pre id="tokenVal" class="token"></pre>
+
+                    {{#if token}}
+                    <div id="token">
+                        <p>
+                            Name: {{name}}<br>
+                            Email: {{email}}<br>
+                            Token: 
+                        </p>
+                        <pre id="tokenVal" class="token">{{token}}</pre>
                     </div>
+                    {{/if}}
                 </div>
             </div>
         </div>
 </section>
-<script type="text/plain" cookie-consent="functionality">
-
-    $(document).ready(function () {
-        var loc = String(window.location).split('#')[1]
-        const urlParams = new URLSearchParams(loc);
-        const access_token = urlParams.get('access_token');
-        if(access_token){
-            $("#token").show();
-            $("#tokenVal").html(access_token );
-        }
-    });
-
-</script>
