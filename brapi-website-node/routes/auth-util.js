@@ -1,78 +1,76 @@
 
 const { Issuer, generators, custom } = require('openid-client');
+const jwt = require('jsonwebtoken');
+const jwksClient = require('jwks-rsa');
+const fetch = require('node-fetch');
+const util = require('util');
 
-const discoveryUri = 'http://keycloak-brapi:8080/auth/realms/brapi/'; //production
-const redirectUri = 'https://brapi.org/oauth/redirect';               //production
+const code_verifier = generators.codeVerifier();
 
-// const discoveryUri = 'https://test-server.brapi.org/';       //development
-// const redirectUri = 'http://localhost:3000/oauth/redirect';  //development
-
-var client;
-var code_verifier = generators.codeVerifier();
-buildOauthClient();
-
-function buildOauthClient() {
+function buildAuthClient(discoveryUri, redirectUri, clientId, clientSecret, clientCallBack) {
     custom.setHttpOptionsDefaults({
         timeout: 10000,
     });
     return Issuer.discover(discoveryUri) // => Promise .well-known/openid-configuration
         .then(function(issuerResponse) {
-            console.log('Discovered issuer %s %O', issuerResponse.issuer, issuerResponse.authorization_endpoint);
+            // console.log('Discovered issuer %s %O', issuerResponse.issuer, issuerResponse.authorization_endpoint);
 
             client = new issuerResponse.Client({
-                client_id: 'exampleClient',
-                client_secret:  process.env.OAUTH_EXAMPLE_CLIENT_SECRET,
+                client_id: clientId,
+                client_secret:  clientSecret,
                 redirect_uris: [redirectUri],
                 response_types: ['code']
                 // response_types: ['id_token'],
             }); // => Client
+            clientCallBack(client);
         })
         .catch((err) => console.log(err.message));
 }
 
-router.get('/', function(req, res, next) {
-    res.render('oauth', {
-        title: 'OAuth',
-        footerEvents: require('./events').getTrailerEvents()
-    });
-});
-
-router.get('/login', function(req, res, next) {
+function getAuthURL (client) {
     const code_challenge = generators.codeChallenge(code_verifier);
-
-    const nonce = generators.nonce();
     var authURL = client.authorizationUrl({
         scope: 'openid email profile',
         code_challenge,
         code_challenge_method: 'S256',
     });
-    res.redirect(authURL);
-});
+    return authURL;
+};
 
-
-router.get('/redirect', function(req, res, next) {
+async function verifyTokenResponse(client, req, redirectUri){
     const params = client.callbackParams(req);
-    client.callback(redirectUri, params, {code_verifier})
-    .then(function(tokenSet) {
-        console.log('received and validated tokens %j', tokenSet);
-        console.log('validated ID Token claims %j', tokenSet.claims());
-        
-        res.render('oauth', {
-            email: tokenSet.claims().email,
-            name: tokenSet.claims().name,
-            token: tokenSet.access_token,
-            title: 'OAuth',
-            footerEvents: require('./events').getTrailerEvents()
-        });
-    })
-    .catch((err) => {
-        console.log(err.message);
-
-        res.render('oauth', {
-            title: 'OAuth',
-            footerEvents: require('./events').getTrailerEvents()
-        });
-    });
+    var token = await client.callback(redirectUri, params, {code_verifier}).catch((err) => console.log(err.message));
+    // console.log('received and validated tokens %j', token);
+    // console.log('validated ID Token claims %j', token.claims());
     
-});
-module.exports = router;
+    return token;
+}
+
+
+async function fetchJwksUri(issuer){
+  const response = await fetch(`${issuer}/.well-known/openid-configuration`);
+  const {jwks_uri} = await response.json();
+  return jwks_uri;
+};
+
+const getKey = (jwksUri) => (header, callback) => {
+  const client = jwksClient({jwksUri});
+  client.getSigningKey(header.kid, (err, key) => {
+    if (err) {
+      return callback(err);
+    }
+    callback(null, key.publicKey || key.rsaPublicKey);
+  });
+};
+
+async function verifyToken(token, discoveryUri, options){
+  const jwksUri = await fetchJwksUri(discoveryUri);
+  return util.promisify(jwt.verify)(token, getKey(jwksUri), options || {});
+};
+
+module.exports = {
+    buildAuthClient: buildAuthClient,
+    getAuthURL: getAuthURL,
+    verifyTokenResponse: verifyTokenResponse,
+    verifyToken: verifyToken
+};

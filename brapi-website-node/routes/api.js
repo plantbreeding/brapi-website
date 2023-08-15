@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
-const exval = require('express-validator');
-var nodemailer = require('nodemailer');
 var fs = require('fs');
 const fetch = require('node-fetch');
+const authUtils = require('./auth-util');
 
 const formData = require('form-data');
 const Mailgun = require('mailgun.js');
@@ -129,7 +128,7 @@ router.post('/newServerSubmit', function (req, res, next) {
 
 router.post('/newSoftwareSubmit', function (req, res, next) {
     var newServerStr = JSON.stringify(req.body, null, 4);
-    
+
     const now = new Date(Date.now());
     var emailData = {
         from: 'New Software <software@mail.brapi.org>',
@@ -158,32 +157,51 @@ router.post('/newSoftwareSubmit', function (req, res, next) {
 });
 
 router.post('/announcement', function (req, res, next) {
-    const now = new Date(Date.now());
-    var emailData = {
-        from: 'BrAPI Announcements <announcements@mail.brapi.org>',
-        to: 'announcements@mail.brapi.org',
-        template: 'announcement_template',
-        subject: req.body.title,
-        text: req.body.text,
-        'h:X-Mailgun-Variables': JSON.stringify({
-            "title": req.body.title,
-            "date": req.body.date,
-            "author": req.body.author,
-            "article": req.body.article
-        }),
-        'h:List-Unsubscribe': 'http://brapi.org/unsubscribe',
-        'h:Date': now.toUTCString()
-    }
+    const discoveryUri = process.env.DISCOVERY_URI;
 
-    mg.messages.create('mail.brapi.org', emailData)
-        .then(msg => {
-            console.log(msg);
-            res.json({ "success": true, "message": msg });
-        })
-        .catch(err => {
-            console.error(err)
-            res.json({ "success": false, "error": err });
-        });
+    var token = req.headers.authorization;
+
+    if (token) {
+        token = token.replace('Bearer ', '')
+        authUtils.verifyToken(token, discoveryUri, { subject: 'd24ee1e8-a2e4-4980-8f9d-b959decfc456', audience: ['account', 'brapi-org-admin'] })
+            .then(() => {
+
+                const now = new Date(Date.now());
+                var emailData = {
+                    from: 'BrAPI Announcements <announcements@mail.brapi.org>',
+                    to: process.env.ANNOUNCEMENT_EMAIL_ADDR,
+                    template: 'announcement_template',
+                    subject: req.body.title,
+                    text: req.body.text,
+                    'h:X-Mailgun-Variables': JSON.stringify({
+                        "title": req.body.title,
+                        "date": req.body.date,
+                        "author": req.body.author,
+                        "article": req.body.article
+                    }),
+                    'h:List-Unsubscribe': 'http://brapi.org/unsubscribe',
+                    'h:Date': now.toUTCString()
+                }
+
+                mg.messages.create('mail.brapi.org', emailData)
+                    .then(msg => {
+                        console.log(msg);
+                        res.json({ "success": true, "message": msg });
+                    })
+                    .catch(err => {
+                        console.error(err);
+                        res.json({ "success": false, "error": err });
+                    });
+            })
+            .catch(err => {
+                console.log(err);
+                res.json({ "success": false, "error": err });
+            });
+    } else {
+        var err = 'Auth token invalid';
+        console.error(err);
+        res.json({ "success": false, "error": err });
+    }
 
 });
 
@@ -248,35 +266,6 @@ function newServerJSON(reqBody) {
         }
     }
     return serverBody;
-}
-
-// Google blocked for security reasons
-// TODO try again with MailGun
-function sendNotification(params) {
-    var pass = process.env.MAIL_SERVER_PASS;
-    console.log(pass);
-    var transporter = nodemailer.createTransport({
-        service: 'gmail',
-        auth: {
-            user: 'brapicoordinatorselby@gmail.com',
-            pass: pass
-        }
-    });
-
-    var mailOptions = {
-        from: 'brapicoordinatorselby@gmail.com',
-        to: 'brapicoordinatorselby@gmail.com, ' + params.email,
-        subject: 'BrAPI Mailing List Subscription',
-        text: 'Thank you for subscribing to the BrAPI Mailing List!'
-    };
-
-    transporter.sendMail(mailOptions, function (error, info) {
-        if (error) {
-            console.log(error);
-        } else {
-            console.log('Email sent: ' + info.response);
-        }
-    });
 }
 
 module.exports = router;

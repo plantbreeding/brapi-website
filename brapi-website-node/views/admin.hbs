@@ -1,0 +1,316 @@
+<section class="module-extra-small" style="min-height: 470px;">
+    <div class="container">
+
+        {{#if authorized}}
+        <div id="submitAnnouncementContainer" class="row justify-content-center">
+            <form id="submitAnnouncementForm" class="row justify-content-center col-7">
+
+                <label class="col-12 form-label" for="titleInput" style=""> Title </label>
+                <input class="col-11 input" id="titleInput" type="text" name="title" placeholder="Title"/>
+
+                <label class="col-12 form-label" for="subjectInput">Subject</label>
+                <input class="col-11 input" id="subjectInput" type="text" name="subject" placeholder="Subject" />
+
+                <label class="col-12 form-label" for="authorInput"> Author</label>
+                <input class="col-11 input" id="authorInput" type="text" name="author" placeholder="Peter Selby"/>
+
+                <label class="col-12 form-label" for="dateInput"> Date </label>
+                <input class="col-11 input" id="dateInput" name="date" placeholder="January 1, 2023"></input>
+
+                <label class="col-12 form-label" for="articleInput"> Article </label>
+                <textarea class="col-11 input" id="articleInput" name="article"
+                    placeholder="This is an article about ..."></textarea>
+
+                <input type="submit" value="POST" class="btn btn-sm btn-outline-success col-4"
+                    style="margin: 20px auto;">
+            </form>
+
+            <div id="news-post-preview">
+                <p>News Post Preview</p>
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-9" id="brapi-posts">
+                            <div class="post" style="min-height: 55px; margin-bottom: 25px;">
+                                <div class="post-header font-alt">
+                                    <h2 class="post-title html-title">Title Title Title Title</h2>
+                                    <div class="post-meta">By <span class="html-author">Peter Selby</span> | <span class="html-date">Todays Date</span>
+                                    </div>
+                                </div>
+                                <div class="post-entry html-article">Example Text
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="email-preview">
+                <p>Email Preview</p>
+                <div style="word-spacing:normal; background-color:#F4F4F4;">
+                    <div style="background-color:#F4F4F4;">
+                        <div style="margin:0px auto; max-width:600px;">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="width:100%;">
+                                <tbody>
+                                    <tr>
+                                        <td
+                                            style="direction:ltr; font-size:0px; padding:20px 0; padding-bottom:0px; padding-top:0px; text-align:center;">
+                                            <div class="mj-column-per-100 mj-outlook-group-fix"
+                                                style="font-size:0px; text-align:left; direction:ltr; display:inline-block; vertical-align:top; width:100%;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                                    style="vertical-align:top;" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center"
+                                                                style="font-size:0px; padding:0px 0px 0px 0px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px; word-break:break-word;">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                    role="presentation"
+                                                                    style="border-collapse:collapse; border-spacing:0px;">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td style="width:258px;">
+                                                                                <a href="https://brapi.org/"
+                                                                                    target="_blank" title="">
+                                                                                    <img alt="BrAPI Logo"
+                                                                                        src="https://brapi.org/images/brapi-logo-alpha-288x86.png"
+                                                                                        title="" width="258"
+                                                                                        height="auto"
+                                                                                        style="border:none; display:block; outline:none; text-decoration:none; height:auto; width:100%; font-size:13px; margin: 15px auto 25px auto">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div style="background:#ffffff; background-color:#ffffff; margin:0px auto; max-width:600px;">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="background:#ffffff; background-color:#ffffff; width:100%;">
+                                <tbody>
+                                    <tr>
+                                        <td style="direction:ltr; font-size:0px; padding:0; text-align:center;">
+                                            <div class="mj-column-per-100 mj-outlook-group-fix"
+                                                style="font-size:0px; text-align:left; direction:ltr; display:inline-block; vertical-align:top; width:100%;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                                    style="vertical-align:top;" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center"
+                                                                style="font-size:0px; padding:0px 25px 0px 25px; padding-top:0px; padding-bottom:0px; word-break:break-word;">
+                                                                <div
+                                                                    style="font-family:Ubuntu, Helvetica, Arial, sans-serif; font-size:5px; letter-spacing:normal; line-height:22px; text-align:center; color:#55575d; margin: 20px auto 0px auto;">
+                                                                    <h1 class="text-build-content"
+                                                                        data-testid="0mlCslAaEtSdrDQTE9aH7">
+                                                                        <span class="email-title"
+                                                                            style="color:#55575d; font-family:Arial; font-size:20px;">
+                                                                            Title Title Title Title
+                                                                        </span>
+                                                                    </h1>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center"
+                                                                style="font-size:0px; padding:0px 25px 0px 25px; padding-top:0px; padding-bottom:0px; word-break:break-word;">
+                                                                <div
+                                                                    style="font-family:Ubuntu, Helvetica, Arial, sans-serif; font-size:5px; letter-spacing:normal; line-height:22px; text-align:center; color:#55575d;">
+                                                                    <p class="text-build-content"
+                                                                        data-testid="GXOJu_9dQitWwOLU6eMdP"
+                                                                        style="margin: 0;">
+                                                                        <span
+                                                                            style="color:#55575d; font-family:Arial;font-size:13px;">
+                                                                            by <span class="email-author">Peter Selby</span> | <span class="email-date">Todays Date</span>
+                                                                        </span>
+                                                                    </p>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div style="background:#ffffff; background-color:#ffffff; margin:0px auto; max-width:600px;">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="background:#ffffff; background-color:#ffffff; width:100%;">
+                                <tbody>
+                                    <tr>
+                                        <td style="direction:ltr; font-size:0px; padding: 0; text-align:center;">
+                                            <div class="mj-column-per-100 mj-outlook-group-fix"
+                                                style="font-size:0px; text-align:left; direction:ltr; display:inline-block; vertical-align:top; width:100%;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                                    style="vertical-align:top;" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center"
+                                                                style="font-size:0px; padding:10px 25px; word-break:break-word;">
+                                                                <p
+                                                                    style="border-top:solid 2px #E6E6E6; font-size:1px; margin:0px auto; width:100%;">
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left"
+                                                                style="font-size:0px; padding:10px 25px; padding-top:0px; padding-bottom:0px; word-break:break-word;">
+                                                                <div
+                                                                    style="font-family:Ubuntu, Helvetica, Arial, sans-serif; font-size:13px; letter-spacing:normal; line-height:22px; text-align:left; color:#55575d;">
+                                                                    <p class="text-build-content"
+                                                                        data-testid="S9AhRkjpX9_JiESa2C6XI">
+                                                                        <span class="email-article" style="color:#55575d; font-size:13px;">
+                                                                        </span>
+                                                                    </p>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center"
+                                                                style="font-size:0px padding:10px 25px; word-break:break-word;">
+                                                                <p
+                                                                    style="border-top:solid 2px #E6E6E6; font-size:1px; margin:0px auto; width:100%;">
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div style="margin:0px auto; max-width:600px;">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                style="width:100%;">
+                                <tbody>
+                                    <tr>
+                                        <td
+                                            style="direction:ltr; font-size:0px; padding:20px 0; padding-bottom:0px; padding-top:0px; text-align:center;">
+                                            <div class="mj-column-per-100 mj-outlook-group-fix"
+                                                style="font-size:0px; text-align:left; direction:ltr; display:inline-block; vertical-align:top; width:100%;">
+                                                <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                                    style="vertical-align:top;" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="left"
+                                                                style="font-size:0px; padding:10px 25px; padding-top:0px; padding-bottom:0px; word-break:break-word;">
+                                                                <div
+                                                                    style="font-family:Arial, sans-serif; font-size:13px; letter-spacing:normal; line-height:1; text-align:left; color:#000000;">
+                                                                    <p class="text-build-content"
+                                                                        style="text-align:center;"
+                                                                        data-testid="OPI7TpGBMboA25RWcPppg">
+                                                                        <a class="link-build-content"
+                                                                            style="color:inherit;" target="_blank"
+                                                                            href="https://brapi.org/unsubscribe">
+                                                                            <span style="color:inherit;">
+                                                                                <u>Unsubscribe</u>
+                                                                            </span>
+                                                                        </a>
+                                                                    </p>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="loadingContainer" class="row justify-content-center" style="display: none;">
+            <span class="spinner-border text-dark" role="status"></span>
+        </div>
+        <div id="finishContainer" class="row justify-content-center" style="display: none;">
+            <p>Results</p>
+            <p id="submissionResults"></p>
+            <div class="col-12" id="content">
+                <p><a class="btn btn-d btn-round" href="/admin">Back</a></p>
+            </div>
+        </div>
+        {{else}}
+        <div class="row">
+            <div class="col-12" id="content">
+                <p><a class="btn btn-d btn-round" href="/admin/login">Login</a></p>
+            </div>
+        </div>
+        {{/if}}
+    </div>
+</section>
+
+{{#if authorized}}
+<script type="text/plain" cookie-consent="strictly-necessary">
+
+$(document).ready(function () {
+    
+    var regex = /access_token=([^;]*);/g;
+    var token = regex.exec(document.cookie)[1];
+
+    $("#submitAnnouncementForm").submit(function (event) {
+        $("#submitAnnouncementContainer").hide();
+        $("#loadingContainer").show();
+        $("#finishContainer").hide();
+
+        var req = $(this).serializeArray();
+        $.ajax({
+            url: '/api/announcement',
+            type: 'post',
+            data: req,
+            headers: {
+                Authorization: 'Bearer ' + token
+            },
+            dataType: 'json',
+            success: function (data, status) {
+                $("#submitAnnouncementContainer").hide();
+                $("#loadingContainer").hide();
+                $("#finishContainer").show();
+
+                $("#submissionResults").html(status + ' ' + JSON.stringify(data));
+            }
+        });
+        event.preventDefault();
+    });
+
+    function buildPreview(event) {
+        var title = $("#titleInput").val() ? $("#titleInput").val() : 'Title Title Title TItle';
+        $('.html-title').html(title);
+        $('.email-title').html(title);
+
+        var subject = $("#subjectInput").val() ? $("#subjectInput").val() : 'Subject';
+        $('.email-subject').attr('href', subject);
+
+        var author = $("#authorInput").val() ? $("#authorInput").val() : 'Peter Selby';
+        $('.html-author').html(author);
+        $('.email-author').html(author);
+
+        var date = $("#dateInput").val() ? $("#dateInput").val() : 'Jan 1, 2023';
+        $('.html-date').html(date);
+        $('.email-date').html(date);
+
+        var article = $("#articleInput").val() ? $("#articleInput").val() : 'article ...';
+        $('.html-article').html(article);
+        $('.email-article').html(article);
+    }
+
+    $(".input").on('input', buildPreview);
+    buildPreview();
+
+});
+
+</script>
+{{/if}}

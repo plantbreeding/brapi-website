@@ -14,10 +14,11 @@
         "express-validator": "^6.6.1",
         "hbs": "^4.1.2",
         "http-errors": "~1.6.3",
+        "jsonwebtoken": "^9.0.1",
+        "jwks-rsa": "^3.0.1",
         "mailgun.js": "^9.2.0",
         "morgan": "~1.9.1",
-        "node-fetch": "^2.6.9",
-        "nodemailer": "^6.6.1",
+        "node-fetch": "^2.6.12",
         "openid-client": "^5.4.0"
     }
 }
