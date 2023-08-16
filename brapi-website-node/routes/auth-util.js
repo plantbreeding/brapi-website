@@ -48,17 +48,13 @@ async function verifyTokenResponse(client, req, redirectUri){
 
 
 async function fetchJwksUri(issuer){
-  console.log(issuer);
-  console.log(`${issuer}/.well-known/openid-configuration`);
   const response = await fetch(`${issuer}/.well-known/openid-configuration`);
   const {jwks_uri} = await response.json();
-  console.log(jwks_uri);
   return jwks_uri;
 };
 
 const getKey = (jwksUri) => (header, callback) => {
   const client = jwksClient({jwksUri});
-  console.log(jwksUri);
   client.getSigningKey(header.kid, (err, key) => {
     if (err) {
       console.log(err);
