@@ -57,6 +57,7 @@ const getKey = (jwksUri) => (header, callback) => {
   const client = jwksClient({jwksUri});
   client.getSigningKey(header.kid, (err, key) => {
     if (err) {
+      console.log(err);
       return callback(err);
     }
     callback(null, key.publicKey || key.rsaPublicKey);
