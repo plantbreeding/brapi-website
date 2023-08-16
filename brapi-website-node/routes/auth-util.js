@@ -48,6 +48,8 @@ async function verifyTokenResponse(client, req, redirectUri){
 
 
 async function fetchJwksUri(issuer){
+  console.log(issuer);
+  console.log(`${issuer}/.well-known/openid-configuration`);
   const response = await fetch(`${issuer}/.well-known/openid-configuration`);
   const {jwks_uri} = await response.json();
   console.log(jwks_uri);
