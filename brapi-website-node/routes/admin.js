@@ -25,6 +25,7 @@ router.get('/login', function (req, res, next) {
 
 router.get('/redirect', async function (req, res, next) {
     var token = await authUtils.verifyTokenResponse(OAuthClient, req, redirectUri);
+    console.log(discoveryUri);
     if (token) {
         authUtils.verifyToken(token.access_token, discoveryUri, {subject: process.env.BRAPI_ADMIN_ID, audience: ['account', 'brapi-org-admin']})
         .then(() => {
