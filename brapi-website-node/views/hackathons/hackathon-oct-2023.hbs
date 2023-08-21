@@ -1,5 +1,5 @@
 <section class="module-extra-small" id="get-started-intro">
-    <div class="container">
+    <div class="container" style="min-height: 500px;">
         <div class="row">
             <div class="col-4 col-md-3" id="menu">
                 {{!-- <div>
@@ -144,9 +144,9 @@
                     <div style="margin-left:10px">
                         <table>
                             <tr>
-                                <th class="agenda" colspan="3">In-person</th>
+                                <th class="agenda" colspan="3">Remote Session #1 (08:00-11:00 UTC)</th>
                             </tr>
-                            {{#each hackathonData.session2List}}
+                            {{#each hackathonData.session1List}}
                             <tr>
                                 <td class="agenda">{{name}}</td>
                                 <td class="agenda">{{email}}</td>
@@ -156,9 +156,9 @@
                         </table>
                         <table>
                             <tr>
-                                <th class="agenda" colspan="3">Remote</th>
+                                <th class="agenda" colspan="3">Remote Session #2 (16:00-19:00 UTC)</th>
                             </tr>
-                            {{#each hackathonData.session1List}}
+                            {{#each hackathonData.session2List}}
                             <tr>
                                 <td class="agenda">{{name}}</td>
                                 <td class="agenda">{{email}}</td>
