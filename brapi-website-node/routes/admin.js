@@ -48,6 +48,8 @@ async function renderAdmin(res, token) {
                 title: 'Admin',
                 footerEvents: require('./events').getTrailerEvents(),
                 authorized: true,
+                emailTO: process.env.ANNOUNCEMENT_EMAIL_ADDR,
+                emailFROM: 'BrAPI Announcements <' + process.env.ANNOUNCEMENT_EMAIL_ADDR + '>'
             });
         })
         .catch(err => {

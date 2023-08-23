@@ -168,7 +168,7 @@ router.post('/announcement', function (req, res, next) {
 
                 const now = new Date(Date.now());
                 var emailData = {
-                    from: 'BrAPI Announcements <announcements@mail.brapi.org>',
+                    from: 'BrAPI Announcements <' + process.env.ANNOUNCEMENT_EMAIL_ADDR + '>',
                     to: process.env.ANNOUNCEMENT_EMAIL_ADDR,
                     template: 'announcement_template',
                     subject: req.body.title,

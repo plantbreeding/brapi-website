@@ -69,6 +69,11 @@
 
             <div id="email-preview">
                 <p>Email Preview</p>
+                <p>
+                    TO: <span style="font-weight: bold;">{{emailTO}} </span> <br>
+                    FROM: <span style="font-weight: bold;">{{emailFROM}} </span> <br>
+                    SUBJECT: <span class="email-subject" style="font-weight: bold;"></span>
+                </p>
                 <div style="word-spacing:normal; background-color:#F4F4F4;">
                     <div style="background-color:#F4F4F4;">
                         <div style="margin:0px auto; max-width:600px;">
@@ -139,7 +144,7 @@
                                                                 </div>
                                                             </td>
                                                         </tr>
-                                                        <tr>
+                                                        <tr id="email-author-row">
                                                             <td align="center"
                                                                 style="font-size:0px; padding:0px 25px 0px 25px; padding-top:0px; padding-bottom:0px; word-break:break-word;">
                                                                 <div
@@ -313,13 +318,20 @@ $(document).ready(function () {
         window.localStorage.setItem("title", title);
 
         var subject = $("#subjectInput").val();
-        $('.email-subject').attr('href', subject);
+        $('.email-subject').html(subject);
         window.localStorage.setItem("subject", subject);
+
 
         var author = $("#authorInput").val();
         $('.html-author').html(author);
         $('.email-author').html(author);
         window.localStorage.setItem("author", author);
+
+        if(author){
+            $('#email-author-row').show()
+        }else{
+            $('#email-author-row').hide()
+        }
 
         var date = $("#dateInput").val();
         $('.html-date').html(date);
