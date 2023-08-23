@@ -5,7 +5,15 @@ router.get('/', function(req, res, next) {
     res.render('index', {
         title: 'BrAPI',
         footerEvents: require('./events').getTrailerEvents(),
-        isHomePage: true
+        isHomePage: true,
+        SEOOrganizationJSON: JSON.stringify(
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "url": "https://brapi.org",
+                "logo": "https://brapi.org/images/brapi-logo.svg"
+            }
+        )
     });
 });
 

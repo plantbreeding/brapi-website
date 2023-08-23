@@ -18,7 +18,8 @@ function renderNews(res, postID) {
             showList: false,
             post: posts[postID],
             twitterTitle: posts[postID].title,
-            twitterDesc: posts[postID].article
+            twitterDesc: posts[postID].article,
+            SEOArticleJSON: buildSEOArticleJSON(posts[postID])
         });
     } else {
         res.render('news', {
@@ -28,6 +29,27 @@ function renderNews(res, postID) {
             posts: posts
         });
     }
+}
+
+function buildSEOArticleJSON(post){
+    var schema = {};
+    if(post){
+        schema =     {
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": post.title,
+            "image": [
+              "https://brapi.org/images/brapi-clover-alpha-700x394.png"
+             ],
+            "datePublished": post.ISO8601,
+            "author": [{
+                "@type": "Person",
+                "name": post.author,
+                "url": "https://orcid.org/0000-0001-7151-4445"
+              }]
+          }      
+    }
+    return JSON.stringify(schema);
 }
 
 module.exports = router;

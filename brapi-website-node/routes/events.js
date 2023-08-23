@@ -74,7 +74,7 @@ var renderHackathonPage = function (hackathonData, eventID, res) {
         calendarLinks: calendarLinks,
         twitterTitle: 'BrAPI Hackathon',
         twitterDesc: eventID,
-        eventSchemaJSON: buildEventSchema(hackathonData[eventID])
+        SEOEventJSON: buildEventSchema(hackathonData[eventID])
     });
 }
 
