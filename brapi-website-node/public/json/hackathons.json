@@ -1,10 +1,16 @@
 {
     "hackathon-oct-2023": {
         "attendees": [
-            { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "session1": true, "session2": true }
+            {"name" : "Peter Selby", "org" : "BrAPI, Cornell University", "email" : "peter.selby@cornell.edu", "session1" : true, "session2" : true},
+            {"name" : "Trevor Rife", "org" : "Clemson University", "email" : "twrife@clemson.edu", "session1" : false, "session2" : true},
+            {"name" : "Cyril Pommier", "org" : "INRAE ELIXIR", "email" : "cyril.pommier@inrae.fr", "session1" : true, "session2" : true},
+            {"name" : "Moses Nderitu", "org" : "SEQART AFRICA", "email" : "mosendirits@gmail.com", "session1" : true, "session2" : false},
+            {"name" : "Erik Kusch", "org" : "University of Oslo", "email" : "erik.kusch@nhm.uio.no", "session1" : true, "session2" : false}
         ],
         "projects": [
-            { "team": null, "title": "", "description": "", "needs": null, "repo": null }
+            {"team" : "Cyril Pommier", "title" : "FAIDARE Updates", "description" : "FAIDARE Update, possibly indexing some BrAPI servers if I have time avaialble that week.", "needs" : null, "repo" : null},
+            {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "DArTView", "needs" : null, "repo" : null},
+            {"team" : "Erik Kusch, Desalegn Chala Gelete", "title" : "BioDT Wild Relative Project", "description" : "I would like to personally explore how the BrAPI could interface with a crop wild relative use case which is part of the BioDT project.", "needs" : null, "repo" : "https://github.com/DesalegnChala/CWR-pDT"}
         ],
         "notes": [
         {
