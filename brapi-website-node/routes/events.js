@@ -2,7 +2,7 @@ var express = require('express');
 const { google, outlook, office365, yahoo, ics } = require("calendar-link");
 var router = express.Router();
 
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res, next) {
     var events = require('../public/json/events.json')
     var currentEvents = []
     var pastEvents = []
@@ -33,20 +33,20 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.get('/hackathon', function(req, res, next) {
+router.get('/hackathon', function (req, res, next) {
     var hackathonData = require('../public/json/hackathons.json');
     renderHackathonPage(hackathonData, Object.keys(hackathonData)[0], res);
 });
 
-router.get('/:id', function(req, res, next) {
+router.get('/:id', function (req, res, next) {
     var hackathonData = require('../public/json/hackathons.json');
     renderHackathonPage(hackathonData, req.params.id, res);
 });
 
-var renderHackathonPage = function(hackathonData, eventID, res){
+var renderHackathonPage = function (hackathonData, eventID, res) {
     if (hackathonData[eventID]) {
         var attendees = hackathonData[eventID].attendees;
-        attendees.sort(function(a, b) {
+        attendees.sort(function (a, b) {
             var result = a.org > b.org ? 1 : ((b.org > a.org) ? -1 : 0);
             if (result === 0)
                 var result = a.name > b.name ? 1 : ((b.name > a.name) ? -1 : 0);
@@ -73,11 +73,39 @@ var renderHackathonPage = function(hackathonData, eventID, res){
         hackathonData: hackathonData[eventID],
         calendarLinks: calendarLinks,
         twitterTitle: 'BrAPI Hackathon',
-        twitterDesc: eventID
+        twitterDesc: eventID,
+        eventSchemaJSON: buildEventSchema(hackathonData[eventID])
     });
 }
 
-var getTrailerEvents = function() {
+var buildEventSchema = function (data) {
+    var schema = {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name":  data.calendarInvite.title,
+        "description": data.calendarInvite.description,
+        "startDate": data.calendarInvite.start,
+        "endDate": data.calendarInvite.end,
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",  
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+            "@type": "VirtualLocation",
+            "url": "https://brapi.org/events/hackathon"
+        },
+        "image": [
+            "/images/events/home_office_generated_8.png"
+        ],
+        "organizer": {
+            "@type": "Organization",
+            "name": "BrAPI Community",
+            "url": "https://brapi.org"
+        }
+    }
+    var schemaStr = JSON.stringify(schema)
+    return schemaStr;
+}
+
+var getTrailerEvents = function () {
     var events = require('../public/json/events.json')
     var eventsOut = { "event1": null, "event2": null }
     for (ev of events) {
@@ -100,7 +128,7 @@ var getTrailerEvents = function() {
     return eventsOut;
 }
 
-var buildCalendarLinks = function(event) {
+var buildCalendarLinks = function (event) {
     return {
         google: google(event),
         outlook: outlook(event),
