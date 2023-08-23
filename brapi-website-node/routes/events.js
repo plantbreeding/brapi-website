@@ -79,26 +79,29 @@ var renderHackathonPage = function (hackathonData, eventID, res) {
 }
 
 var buildEventSchema = function (data) {
-    var schema = {
-        "@context": "https://schema.org",
-        "@type": "Event",
-        "name":  data.calendarInvite.title,
-        "description": data.calendarInvite.description,
-        "startDate": data.calendarInvite.start,
-        "endDate": data.calendarInvite.end,
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",  
-        "eventStatus": "https://schema.org/EventScheduled",
-        "location": {
-            "@type": "VirtualLocation",
-            "url": "https://brapi.org/events/hackathon"
-        },
-        "image": [
-            "/images/events/home_office_generated_8.png"
-        ],
-        "organizer": {
-            "@type": "Organization",
-            "name": "BrAPI Community",
-            "url": "https://brapi.org"
+    var schema = {};
+    if (data.calendarInvite) {
+        schema = {
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": data.calendarInvite.title,
+            "description": data.calendarInvite.description,
+            "startDate": data.calendarInvite.start,
+            "endDate": data.calendarInvite.end,
+            "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "location": {
+                "@type": "VirtualLocation",
+                "url": "https://brapi.org/events/hackathon"
+            },
+            "image": [
+                "/images/events/home_office_generated_8.png"
+            ],
+            "organizer": {
+                "@type": "Organization",
+                "name": "BrAPI Community",
+                "url": "https://brapi.org"
+            }
         }
     }
     var schemaStr = JSON.stringify(schema)

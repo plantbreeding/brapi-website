@@ -8,7 +8,7 @@
             {"name" : "Erik Kusch", "org" : "University of Oslo", "email" : "erik.kusch@nhm.uio.no", "session1" : true, "session2" : false}
         ],
         "projects": [
-            {"team" : "Cyril Pommier", "title" : "FAIDARE Updates", "description" : "FAIDARE Update, possibly indexing some BrAPI servers if I have time avaialble that week.", "needs" : null, "repo" : null},
+            {"team" : "Cyril Pommier", "title" : "FAIDARE Updates", "description" : "FAIDARE Update, possibly indexing some BrAPI servers if I have time available that week.", "needs" : null, "repo" : null},
             {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "DArTView", "needs" : null, "repo" : null},
             {"team" : "Erik Kusch, Desalegn Chala Gelete", "title" : "BioDT Wild Relative Project", "description" : "I would like to personally explore how the BrAPI could interface with a crop wild relative use case which is part of the BioDT project.", "needs" : null, "repo" : "https://github.com/DesalegnChala/CWR-pDT"}
         ],
