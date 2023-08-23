@@ -95,7 +95,8 @@ var buildEventSchema = function (data) {
                 "url": "https://brapi.org/events/hackathon"
             },
             "image": [
-                "/images/events/home_office_generated_8.png"
+                "https://brapi.org/images/events/home_office_generated_8.png",
+                "https://brapi.org/images/brapi-clover-alpha-700x394.png"
             ],
             "organizer": {
                 "@type": "Organization",
