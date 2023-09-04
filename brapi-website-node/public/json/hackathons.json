@@ -5,12 +5,18 @@
             {"name" : "Trevor Rife", "org" : "Clemson University", "email" : "twrife@clemson.edu", "session1" : false, "session2" : true},
             {"name" : "Cyril Pommier", "org" : "INRAE ELIXIR", "email" : "cyril.pommier@inrae.fr", "session1" : true, "session2" : true},
             {"name" : "Moses Nderitu", "org" : "SEQART AFRICA", "email" : "mosendirits@gmail.com", "session1" : true, "session2" : false},
-            {"name" : "Erik Kusch", "org" : "University of Oslo", "email" : "erik.kusch@nhm.uio.no", "session1" : true, "session2" : false}
+            {"name" : "Erik Kusch", "org" : "University of Oslo", "email" : "erik.kusch@nhm.uio.no", "session1" : true, "session2" : false},
+            {"name" : "Chaney Courtney", "org" : "PhenoApps", "email" : "chaneylc@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Shawn Yarnes", "org" : "Breeding Insight", "email" : "scy32@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "Valentin GUIGNON", "org" : "The Alliance Bioversity CIAT", "email" : "v.guignon@cgiar.org", "session1" : true, "session2" : false}
         ],
         "projects": [
-            {"team" : "Cyril Pommier", "title" : "FAIDARE Updates", "description" : "FAIDARE Update, possibly indexing some BrAPI servers if I have time available that week.", "needs" : null, "repo" : null},
+            {"team" : "Cyril Pommier", "title" : "FAIDARE Updates", "description" : "FAIDARE Update, possibly indexing some BrAPI servers if I have time avaialble that week.", "needs" : null, "repo" : null},
             {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "DArTView", "needs" : null, "repo" : null},
-            {"team" : "Erik Kusch, Desalegn Chala Gelete", "title" : "BioDT Wild Relative Project", "description" : "I would like to personally explore how the BrAPI could interface with a crop wild relative use case which is part of the BioDT project.", "needs" : null, "repo" : "https://github.com/DesalegnChala/CWR-pDT"}
+            {"team" : "Erik Kusch, Desalegn Chala Gelete", "title" : "BioDT Wild Relative Project", "description" : "I would like to personally explore how the BrAPI could interface with a crop wild relative use case which is part of the BioDT project.", "needs" : null, "repo" : "https://github.com/DesalegnChala/CWR-pDT"},
+            {"team" : "Chaney Courtney", "title" : "Field Book", "description" : "FieldBook", "needs" : null, "repo" : null},
+            
+            {"team" : "Valentin GUIGNON", "title" : "BrAPI as a Docker", "description" : "Implementing BrAPI as a stand alone Docker service", "needs" : "Volunteers who'd like to try and test the docker and give inputs.", "repo" : null},
         ],
         "notes": [
         {

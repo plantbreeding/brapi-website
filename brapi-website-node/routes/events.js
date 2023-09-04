@@ -84,7 +84,7 @@ var buildEventSchema = function (data) {
         schema = {
             "@context": "https://schema.org",
             "@type": "Event",
-            "name": data.calendarInvite.title,
+            "name": "BrAPI Hackathon",
             "description": data.calendarInvite.description,
             "startDate": data.calendarInvite.start,
             "endDate": data.calendarInvite.end,

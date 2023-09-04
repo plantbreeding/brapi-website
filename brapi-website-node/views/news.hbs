@@ -3,16 +3,32 @@
         <div class="row justify-content-center">
             <div class="col-9" id="brapi-posts">
                 {{#if showList}}
-                {{#each posts}}
-                <div class="post" style="min-height: 55px; margin-bottom: 25px;">
-                    <div class="post-header font-alt">
-                        <a href="/news/{{ @key }}">
-                            <h2 class="post-title">{{ title }}</h2>
-                            <div class="post-meta">By {{ author }} | {{ date }}</div>
-                        </a>
+                <div class="row justify-content-center">
+                    <div class="col-6" style="margin: 10px 0 20px 0">
+                        <input class="search col-11" placeholder="Search for BrAPI Compatible Software" />
+                        <span class="mdi mdi-magnify custom-bullet-point"
+                            style="vertical-align: top; line-height: 30px;"></span>
+                        <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
                     </div>
+                    <ul class="pagination"></ul>
                 </div>
-                {{/each}}
+
+                <ul class="list" style="list-style-type: none; padding: 0;">
+                    {{#each posts}}
+                    <li class="row justify-content-center">
+                        <div class="post" style="min-height: 55px; margin-bottom: 25px;">
+                            <div class="post-header font-alt">
+                                <span class="post-ISO8601" style="display: none;">{{ ISO8601 }}</span>
+                                <a href="/news/{{ @key }}">
+                                    <h2 class="post-title">{{ title }}</h2>
+                                    <div class="post-meta">By 
+                                        <span class="post-author">{{ author }}</span> | <span class="post-date">{{ date }}</span></div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    {{/each}}
+                </ul>
                 {{else}}
                 <a href="/news" style="margin: 10px 0;" class="btn btn-sm btn-outline-success col-2">
                     &lt; Back
@@ -32,3 +48,22 @@
         </div>
     </div>
 </section>
+<script type="text/plain" cookie-consent="strictly-necessary">
+
+    $(document).ready(function () {
+        var options = {
+            valueNames: [ 'post-title', 'post-author', 'post-date', "post-ISO8601" ],
+            page: 10,
+            pagination: true
+        };
+
+        var serverList = new List('brapi-posts', options); 
+        serverList.sort('post-ISO8601');
+        
+        $('#list-size').html('Showing ' + serverList.visibleItems.length + ' of ' + serverList.size());
+        serverList.on('searchComplete', function(e){
+            $('#list-size').html('Showing ' + serverList.visibleItems.length + ' of ' + serverList.size());
+        });
+    });
+
+</script>
