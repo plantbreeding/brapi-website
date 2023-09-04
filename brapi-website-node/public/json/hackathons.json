@@ -16,7 +16,7 @@
             {"team" : "Erik Kusch, Desalegn Chala Gelete", "title" : "BioDT Wild Relative Project", "description" : "I would like to personally explore how the BrAPI could interface with a crop wild relative use case which is part of the BioDT project.", "needs" : null, "repo" : "https://github.com/DesalegnChala/CWR-pDT"},
             {"team" : "Chaney Courtney", "title" : "Field Book", "description" : "FieldBook", "needs" : null, "repo" : null},
             
-            {"team" : "Valentin GUIGNON", "title" : "BrAPI as a Docker", "description" : "Implementing BrAPI as a stand alone Docker service", "needs" : "Volunteers who'd like to try and test the docker and give inputs.", "repo" : null},
+            {"team" : "Valentin GUIGNON", "title" : "BrAPI as a Docker", "description" : "Implementing BrAPI as a stand alone Docker service", "needs" : "Volunteers who'd like to try and test the docker and give inputs.", "repo" : null}
         ],
         "notes": [
         {
