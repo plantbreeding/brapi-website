@@ -9,7 +9,7 @@
         "links": [
             {
                 "name": "Event Page",
-                "url": "/events/hackathon"
+                "url": "/events/hackathon?id=hackathon-oct-2023"
             },
             {
                 "name": "Register",
@@ -73,7 +73,7 @@
         "links": [
             {
                 "name": "Event Page",
-                "url": "/events/hackathon-mar-2023"
+                "url": "/events/hackathon?id=hackathon-mar-2023"
             },
             {
                 "name": "Travel Guide",
@@ -127,7 +127,7 @@
         "links": [
             {
                 "name": "Event Page",
-                "url": "/events/hackathon-oct-2022"
+                "url": "/events/hackathon?id=hackathon-oct-2022"
             }
         ]
     },
@@ -141,7 +141,7 @@
         "links": [
             {
                 "name": "Event Page",
-                "url": "/events/hackathon-apr-2022"
+                "url": "/events/hackathon?id=hackathon-apr-2022"
             }
         ]
     },
@@ -173,7 +173,7 @@
         "links": [
             {
                 "name": "Event Page",
-                "url": "/events/hackathon-oct-2021"
+                "url": "/events/hackathon?id=hackathon-oct-2021"
             }
         ]
     },
@@ -205,7 +205,7 @@
         "links": [
             {
                 "name": "Event Page",
-                "url": "/events/hackathon-mar-2021"
+                "url": "/events/hackathon?id=hackathon-mar-2021"
             }
         ]
     },

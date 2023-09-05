@@ -25,14 +25,20 @@
     content="https://brapi.org{{#if twitterImg}}{{twitterImg}}{{else}}/images/brapi-clover-alpha-1400x700.png{{/if}}">
 
   <!-- JSON-LD SEO stuff -->
-  {{#if SEOEventJSON}}
-  <script type="application/ld+json">{{{SEOEventJSON}}}</script>
+  {{#if SEOWebsiteJSON}}
+  <script type="application/ld+json">{{{SEOWebsiteJSON}}}</script>
   {{/if}}
   {{#if SEOOrganizationJSON}}
   <script type="application/ld+json">{{{SEOOrganizationJSON}}}</script>
   {{/if}}
+  {{#if SEOEventJSON}}
+  <script type="application/ld+json">{{{SEOEventJSON}}}</script>
+  {{/if}}
   {{#if SEOArticleJSON}}
   <script type="application/ld+json">{{{SEOArticleJSON}}}</script>
+  {{/if}}
+  {{#if SEOFAQJSON}}
+  <script type="application/ld+json">{{{SEOFAQJSON}}}</script>
   {{/if}}
 
 

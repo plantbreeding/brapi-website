@@ -34,9 +34,9 @@ function renderNews(res, postID) {
 function buildSEOArticleJSON(post){
     var schema = {};
     if(post){
-        schema =     {
+        schema = {
             "@context": "https://schema.org",
-            "@type": "NewsArticle",
+            "@type": "BlogPosting",
             "headline": post.title,
             "image": [
               "https://brapi.org/images/brapi-clover-alpha-700x394.png"

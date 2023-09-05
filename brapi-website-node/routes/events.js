@@ -35,12 +35,13 @@ router.get('/', function (req, res, next) {
 
 router.get('/hackathon', function (req, res, next) {
     var hackathonData = require('../public/json/hackathons.json');
-    renderHackathonPage(hackathonData, Object.keys(hackathonData)[0], res);
-});
 
-router.get('/:id', function (req, res, next) {
-    var hackathonData = require('../public/json/hackathons.json');
-    renderHackathonPage(hackathonData, req.params.id, res);
+    var id = req.query.id;
+    if(id){
+        renderHackathonPage(hackathonData, id, res);
+    }else{
+        renderHackathonPage(hackathonData, Object.keys(hackathonData)[0], res);
+    }
 });
 
 var renderHackathonPage = function (hackathonData, eventID, res) {
@@ -63,19 +64,21 @@ var renderHackathonPage = function (hackathonData, eventID, res) {
         hackathonData[eventID]["session1List"] = session1List;
         hackathonData[eventID]["session2List"] = session2List;
 
-        if (hackathonData[eventID].calendarInvite) {
+        if (hackathonData[eventID]["calendarInvite"]) {
             var calendarLinks = buildCalendarLinks(hackathonData[eventID].calendarInvite);
         }
+        res.render('hackathons/' + eventID, {
+            title: 'BrAPI Hackathon',
+            footerEvents: getTrailerEvents(),
+            hackathonData: hackathonData[eventID],
+            calendarLinks: calendarLinks,
+            twitterTitle: 'BrAPI Hackathon',
+            twitterDesc: eventID,
+            SEOEventJSON: buildEventSchema(hackathonData[eventID])
+        });
+    }else{
+        res.redirect("/events");
     }
-    res.render('hackathons/' + eventID, {
-        title: 'BrAPI Hackathon',
-        footerEvents: getTrailerEvents(),
-        hackathonData: hackathonData[eventID],
-        calendarLinks: calendarLinks,
-        twitterTitle: 'BrAPI Hackathon',
-        twitterDesc: eventID,
-        SEOEventJSON: buildEventSchema(hackathonData[eventID])
-    });
 }
 
 var buildEventSchema = function (data) {
