@@ -105,6 +105,18 @@ var buildEventSchema = function (data) {
                 "@type": "Organization",
                 "name": "BrAPI Community",
                 "url": "https://brapi.org"
+            },
+            "offers": {
+                "@type": "Offer",
+                "url": "https://brapi.org/events/hackathon",
+                "price": "0",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "validFrom": data.calendarInvite.start
+              },
+              "performer": {
+                "@type": "PerformingGroup",
+                "name": "The BrAPI Community"
             }
         }
     }
