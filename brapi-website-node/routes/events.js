@@ -37,9 +37,9 @@ router.get('/hackathon', function (req, res, next) {
     var hackathonData = require('../public/json/hackathons.json');
 
     var id = req.query.id;
-    if(id){
+    if (id) {
         renderHackathonPage(hackathonData, id, res);
-    }else{
+    } else {
         renderHackathonPage(hackathonData, Object.keys(hackathonData)[0], res);
     }
 });
@@ -76,7 +76,7 @@ var renderHackathonPage = function (hackathonData, eventID, res) {
             twitterDesc: eventID,
             SEOEventJSON: buildEventSchema(hackathonData[eventID])
         });
-    }else{
+    } else {
         res.redirect("/events");
     }
 }
@@ -113,8 +113,8 @@ var buildEventSchema = function (data) {
                 "priceCurrency": "USD",
                 "availability": "https://schema.org/InStock",
                 "validFrom": data.calendarInvite.start
-              },
-              "performer": {
+            },
+            "performer": {
                 "@type": "PerformingGroup",
                 "name": "The BrAPI Community"
             }

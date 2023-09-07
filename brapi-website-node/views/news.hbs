@@ -3,9 +3,17 @@
         <div class="row justify-content-center">
             <div class="col-9" id="brapi-posts">
                 {{#if showList}}
+                <div class="col-12"
+                    style="margin: 5px 0 30px 0; text-align:center; border-bottom:1px solid rgb(201, 201, 201); padding: 15px 0 30px 0">
+                    <p style="font-size: 16px; font-weight: bold;">Join the mailing list to receive BrAPI news directly
+                        and support the community </p>
+                    <a href="/contact" class="btn btn-sm btn-outline-success col-4">
+                        Join the Mailing List
+                    </a>
+                </div>
                 <div class="row justify-content-center">
                     <div class="col-6" style="margin: 10px 0 20px 0">
-                        <input class="search col-11" placeholder="Search for BrAPI Compatible Software" />
+                        <input class="search col-11" placeholder="Search for BrAPI News" />
                         <span class="mdi mdi-magnify custom-bullet-point"
                             style="vertical-align: top; line-height: 30px;"></span>
                         <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
@@ -21,8 +29,10 @@
                                 <span class="post-ISO8601" style="display: none;">{{ ISO8601 }}</span>
                                 <a href="/news/{{ @key }}">
                                     <h2 class="post-title">{{ title }}</h2>
-                                    <div class="post-meta">By 
-                                        <span class="post-author">{{ author }}</span> | <span class="post-date">{{ date }}</span></div>
+                                    <div class="post-meta">By
+                                        <span class="post-author">{{ author }}</span> | <span class="post-date">{{ date
+                                            }}</span>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -54,15 +64,15 @@
         var options = {
             valueNames: [ 'post-title', 'post-author', 'post-date', "post-ISO8601" ],
             page: 10,
-            pagination: true
+            pagination: {'innerWindow': 1000}
         };
 
         var serverList = new List('brapi-posts', options); 
-        serverList.sort('post-ISO8601');
+        serverList.sort('post-ISO8601', { order: "desc" });
         
-        $('#list-size').html('Showing ' + serverList.visibleItems.length + ' of ' + serverList.size());
+        $('#list-size').html('Showing ' + serverList.matchingItems.length + ' of ' + serverList.size());
         serverList.on('searchComplete', function(e){
-            $('#list-size').html('Showing ' + serverList.visibleItems.length + ' of ' + serverList.size());
+            $('#list-size').html('Showing ' + serverList.matchingItems.length + ' of ' + serverList.size());
         });
     });
 

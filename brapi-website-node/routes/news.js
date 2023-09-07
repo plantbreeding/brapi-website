@@ -19,6 +19,7 @@ function renderNews(res, postID) {
             post: posts[postID],
             twitterTitle: posts[postID].title,
             twitterDesc: posts[postID].article,
+            SEOTitle: posts[postID].title,
             SEOArticleJSON: buildSEOArticleJSON(posts[postID])
         });
     } else {

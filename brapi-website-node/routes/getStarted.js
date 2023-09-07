@@ -2,25 +2,19 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function (req, res, next) {
-    var getStartedArr = require('../public/json/get-started-pages.json')
-    res.render('getStarted', {
-        title: 'Getting Started',
-        footerEvents: require('./events').getTrailerEvents(),
-        page: getStartedArr[0],
-        pages: getStartedArr,
-        nextHref: '/get-started/1',
-        nextTitle: getStartedArr[1]['title'],
-        prevHref: '',
-        prevTitle: ''
-    });
+    renderGetStarted(0, res);
 });
 
 router.get('/:pageNum', function (req, res, next) {
-    var getStartedArr = require('../public/json/get-started-pages.json')
+    var pageNum = parseInt(req.params.pageNum);
+    renderGetStarted(pageNum, res);
+});
 
-    var pageNum = parseInt(req.params.pageNum)
+function renderGetStarted(pageNum, res){
+    var getStartedArr = require('../public/json/get-started-pages.json');
+
     if (pageNum >= getStartedArr.length) {
-        pageNum = 0
+        pageNum = 0;
     }
 
     var nextHref = '';
@@ -51,9 +45,10 @@ router.get('/:pageNum', function (req, res, next) {
         nextTitle: nextTitle,
         prevHref: prevHref,
         prevTitle: prevTitle,
+        SEOTitle: 'Getting Started: ' + getStartedArr[pageNum]['title'],
         SEOFAQJSON: SEOFAQ
     });
-});
+}
 
 function buildFAQ() {
     return JSON.stringify({
