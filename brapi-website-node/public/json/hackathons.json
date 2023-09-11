@@ -3,7 +3,6 @@
         "attendees": [
             {"name" : "Peter Selby", "org" : "BrAPI, Cornell University", "email" : "peter.selby@cornell.edu", "session1" : true, "session2" : true},
             {"name" : "Trevor Rife", "org" : "Clemson University", "email" : "twrife@clemson.edu", "session1" : false, "session2" : true},
-            {"name" : "Cyril Pommier", "org" : "INRAE ELIXIR", "email" : "cyril.pommier@inrae.fr", "session1" : true, "session2" : true},
             {"name" : "Moses Nderitu", "org" : "SEQART AFRICA", "email" : "mosendirits@gmail.com", "session1" : true, "session2" : false},
             {"name" : "Erik Kusch", "org" : "University of Oslo", "email" : "erik.kusch@nhm.uio.no", "session1" : true, "session2" : false},
             {"name" : "Chaney Courtney", "org" : "PhenoApps", "email" : "chaneylc@gmail.com", "session1" : false, "session2" : true},
@@ -14,18 +13,23 @@
             {"name" : "Star Yanxin Gao", "org" : "Cornell University", "email" : "yg28@cornell.edu", "session1" : false, "session2" : true},
             {"name" : "Manuel Feser", "org" : "IPK Gatersleben", "email" : "feser@ipk-gatersleben.de", "session1" : true, "session2" : false},
             {"name" : "Guy Davenport ", "org" : "Daveneti Limited", "email" : "daveneti@gmail.com", "session1" : true, "session2" : false},
-            {"name" : "Sook Jung", "org" : "Washington State University", "email" : "sook_jung@wsu.edu", "session1" : false, "session2" : true}
+            {"name" : "Sook Jung", "org" : "Washington State University", "email" : "sook_jung@wsu.edu", "session1" : false, "session2" : true},
+            {"name" : "Jenna Hershberger", "org" : "Clemson University", "email" : "jmhersh@clemson.edu", "session1" : false, "session2" : true},
+            {"name" : "Katheryn Buble", "org" : "Washington State University", "email" : "katheryn.buble@wsu.edu", "session1" : false, "session2" : true},
+            {"name" : "Patrick König", "org" : "Leibniz Institute of Plant Genetics and Crop Plant Science (IPK)", "email" : "koenig@ipk-gatersleben.de", "session1" : true, "session2" : false},
+            {"name" : "Alice Boizet", "org" : "CIRAD", "email" : "alice.boizet@cirad.fr", "session1" : true, "session2" : false}
         ],
         "projects": [
-            {"team" : "Cyril Pommier", "title" : "FAIDARE Updates", "description" : "FAIDARE Update, possibly indexing some BrAPI servers if I have time available that week.", "needs" : null, "repo" : null},
             {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "DArTView", "needs" : null, "repo" : null},
             {"team" : "Erik Kusch, Desalegn Chala Gelete", "title" : "BioDT Wild Relative Project", "description" : "I would like to personally explore how the BrAPI could interface with a crop wild relative use case which is part of the BioDT project.", "needs" : null, "repo" : "https://github.com/DesalegnChala/CWR-pDT"},
             {"team" : "Chaney Courtney", "title" : "Field Book", "description" : "FieldBook", "needs" : null, "repo" : null},
             {"team" : "Valentin GUIGNON, Gavin Tomlins", "title" : "BrAPI as a Docker", "description" : "Implementing BrAPI as a stand alone Docker service", "needs" : "Volunteers who'd like to try and test the docker and give inputs. Based upon discussions we will release code via Github", "repo" : "https://github.com/kddartown"},
             {"team" : "Star Yanxin Gao, Khaled AL-Shamaa and CG Global breeding analytics process team", "title" : "Database agnostic analytics", "description" : "Database agnostic analytics", "needs" : "Khaled can share more details", "repo" : "Khaled and the team can share the URL"},
-            {"team" : "Manuel Feser", "title" : "MIRA", "description" : "Continuing the development of MIRA", "needs" : null, "repo" : null},
+            {"team" : "Manuel Feser", "title" : "MIRA", "description" : "Continuing the development of MIRA", "needs" : null, "repo" : "https://github.com/IPK-BIT/mira"},
             {"team" : "Guy Davenport ", "title" : "BRAVA V2", "description" : "BRAVA V2", "needs" : null, "repo" : null},
-            {"team" : "Sook Jung", "title" : "BIMS & GDR Implementations", "description" : "BIMS (Breeding Information Management System), GDR (Genome Database for Rosaceae)", "needs" : null, "repo" : null}
+            {"team" : "Sook Jung", "title" : "BIMS & GDR Implementations", "description" : "BIMS (Breeding Information Management System), GDR (Genome Database for Rosaceae)", "needs" : null, "repo" : null},
+            {"team" : "Patrick König, Manuel Feser (IPK)", "title" : "DivBrowse Implementation", "description" : "Implementing / Supporting the BrAPI Phenotyping API in DivBrowse", "needs" : null, "repo" : "https://github.com/IPK-BIT/divbrowse"},
+            {"team" : "Alice Boizet, Cyril Pommier (INRAE)", "title" : "FAIDARE Updates", "description" : "Working on Germplasm services that we are currently using to exchange data on genetic ressources. Possibly indexing some BrAPI servers if there is time available that week.", "needs" : null, "repo" : null}
         ],
         "notes": [
         {
