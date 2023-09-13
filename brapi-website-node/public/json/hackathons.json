@@ -3,13 +3,13 @@
         "attendees": [
             {"name" : "Peter Selby", "org" : "BrAPI, Cornell University", "email" : "peter.selby@cornell.edu", "session1" : true, "session2" : true},
             {"name" : "Trevor Rife", "org" : "Clemson University", "email" : "twrife@clemson.edu", "session1" : false, "session2" : true},
+            {"name" : "Cyril Pommier", "org" : "INRAE", "email" : "cyril.pommier@inrae.fr", "session1" : true, "session2" : true},
             {"name" : "Moses Nderitu", "org" : "SEQART AFRICA", "email" : "mosendirits@gmail.com", "session1" : true, "session2" : false},
             {"name" : "Erik Kusch", "org" : "University of Oslo", "email" : "erik.kusch@nhm.uio.no", "session1" : true, "session2" : false},
             {"name" : "Chaney Courtney", "org" : "PhenoApps", "email" : "chaneylc@gmail.com", "session1" : false, "session2" : true},
             {"name" : "Shawn Yarnes", "org" : "Breeding Insight", "email" : "scy32@cornell.edu", "session1" : false, "session2" : true},
             {"name" : "Valentin GUIGNON", "org" : "The Alliance Bioversity CIAT", "email" : "v.guignon@cgiar.org", "session1" : true, "session2" : false},
             {"name" : "Gavin Tomlins", "org" : "Diversity Arrays Technology", "email" : "gavint@diversityarrays.com", "session1" : true, "session2" : true},
-            {"name" : "Cyril Pommier", "org" : "INRAE", "email" : "cyril.pommier@inrae.fr", "session1" : true, "session2" : true},
             {"name" : "Star Yanxin Gao", "org" : "Cornell University", "email" : "yg28@cornell.edu", "session1" : false, "session2" : true},
             {"name" : "Manuel Feser", "org" : "IPK Gatersleben", "email" : "feser@ipk-gatersleben.de", "session1" : true, "session2" : false},
             {"name" : "Guy Davenport ", "org" : "Daveneti Limited", "email" : "daveneti@gmail.com", "session1" : true, "session2" : false},
@@ -17,19 +17,24 @@
             {"name" : "Jenna Hershberger", "org" : "Clemson University", "email" : "jmhersh@clemson.edu", "session1" : false, "session2" : true},
             {"name" : "Katheryn Buble", "org" : "Washington State University", "email" : "katheryn.buble@wsu.edu", "session1" : false, "session2" : true},
             {"name" : "Patrick König", "org" : "Leibniz Institute of Plant Genetics and Crop Plant Science (IPK)", "email" : "koenig@ipk-gatersleben.de", "session1" : true, "session2" : false},
-            {"name" : "Alice Boizet", "org" : "CIRAD", "email" : "alice.boizet@cirad.fr", "session1" : true, "session2" : false}
+            {"name" : "Alice Boizet", "org" : "CIRAD", "email" : "alice.boizet@cirad.fr", "session1" : true, "session2" : false},
+            {"name" : "Heather Sweeney ", "org" : "Breeding Insight", "email" : "hms243@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "Bryan Ellerbrock", "org" : "PhenoApps", "email" : "bje24@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "Tim Parsons", "org" : "Breeding Insight/Cornell University", "email" : "tim.parsons@cornell.edu", "session1" : false, "session2" : true}
         ],
         "projects": [
             {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "DArTView", "needs" : null, "repo" : null},
             {"team" : "Erik Kusch, Desalegn Chala Gelete", "title" : "BioDT Wild Relative Project", "description" : "I would like to personally explore how the BrAPI could interface with a crop wild relative use case which is part of the BioDT project.", "needs" : null, "repo" : "https://github.com/DesalegnChala/CWR-pDT"},
             {"team" : "Chaney Courtney", "title" : "Field Book", "description" : "FieldBook", "needs" : null, "repo" : null},
             {"team" : "Valentin GUIGNON, Gavin Tomlins", "title" : "BrAPI as a Docker", "description" : "Implementing BrAPI as a stand alone Docker service", "needs" : "Volunteers who'd like to try and test the docker and give inputs. Based upon discussions we will release code via Github", "repo" : "https://github.com/kddartown"},
-            {"team" : "Star Yanxin Gao, Khaled AL-Shamaa and CG Global breeding analytics process team", "title" : "Database agnostic analytics", "description" : "Database agnostic analytics", "needs" : "Khaled can share more details", "repo" : "Khaled and the team can share the URL"},
+            {"team" : "Star Yanxin Gao, Khaled AL-Shamaa and CG Global breeding analytics process team", "title" : "Database agnostic analytics", "description" : "Database agnostic analytics, Khaled and the team can share the repository URL", "needs" : "Khaled can share more details", "repo" : null},
             {"team" : "Manuel Feser", "title" : "MIRA", "description" : "Continuing the development of MIRA", "needs" : null, "repo" : "https://github.com/IPK-BIT/mira"},
             {"team" : "Guy Davenport ", "title" : "BRAVA V2", "description" : "BRAVA V2", "needs" : null, "repo" : null},
             {"team" : "Sook Jung", "title" : "BIMS & GDR Implementations", "description" : "BIMS (Breeding Information Management System), GDR (Genome Database for Rosaceae)", "needs" : null, "repo" : null},
             {"team" : "Patrick König, Manuel Feser (IPK)", "title" : "DivBrowse Implementation", "description" : "Implementing / Supporting the BrAPI Phenotyping API in DivBrowse", "needs" : null, "repo" : "https://github.com/IPK-BIT/divbrowse"},
-            {"team" : "Alice Boizet, Cyril Pommier (INRAE)", "title" : "FAIDARE Updates", "description" : "Working on Germplasm services that we are currently using to exchange data on genetic ressources. Possibly indexing some BrAPI servers if there is time available that week.", "needs" : null, "repo" : null}
+            {"team" : "Alice Boizet, Cyril Pommier (INRAE)", "title" : "FAIDARE Updates", "description" : "Working on Germplasm services that we are currently using to exchange data on genetic resources. Possibly indexing some BrAPI servers if there is time available that week.", "needs" : null, "repo" : null},
+            {"team" : "Bryan Ellerbrock", "title" : "Field Book issue #458", "description" : "Nearby sharing for BrAPI settings in Field-Book app", "needs" : null, "repo" : "https://github.com/PhenoApps/Field-Book/issues/458"},
+            {"team" : "Anyone interested.", "title" : "BrAPI Test Server Upgrades", "description" : "I have a few ideas, one is productionalizing BrAPI Java TestServer.", "needs" : "It would be helpful to talk to someone more experienced with the BrAPI Java TestServer and the technology it's built with (hibernate, etc.)", "repo" : "https://github.com/Breeding-Insight/brapi-Java-TestServer/"}
         ],
         "notes": [
         {
@@ -128,7 +133,7 @@
             { "name": "Margaret Karanja", "org": "IITA", "email": "m.karanja@cgiar.org", "session1": false, "session2": true },
             { "name": "Trevor Rife", "org": "Clemson University", "email": "twrife@clemson.edu", "session1": false, "session2": true },
             { "name": "Mark Watson", "org": "North Carolina State University", "email": "mtwatso2@ncsu.edu", "session1": true, "session2": false },
-            { "name": "Bryan Ellerbrock ", "org": "Boyce Thompson Institute, Clemson University", "email": "bje24@cornell.edu", "session1": false, "session2": true },
+            { "name": "Bryan Ellerbrock", "org": "Boyce Thompson Institute, Clemson University", "email": "bje24@cornell.edu", "session1": false, "session2": true },
             { "name": "Chaney Courtney", "org": "PhenoApps", "email": "chaneylc@gmail.com", "session1": false, "session2": true },
             { "name": "Jenna Hershberger", "org": "Clemson University", "email": "jmhersh@clemson.edu", "session1": false, "session2": true },
             { "name": "Ernesto Briones Pereyra", "org": "CIMMYT", "email": "e.briones@cgiar.org", "session1": true, "session2": false },
@@ -166,7 +171,7 @@
         ],
         "projects": [
             { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU Field Book", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
-            { "team": "Mark Watson, Any of the developers of the various brapir R packages (I'm not sure if any will be present or not).", "title": "BrAPI-R", "description": "I'm working on a set of modular R Shiny apps that use BrAPI via the brapir-v1 R package for interactive breeding data analyses (the goal is for these to be especially tinkerable, so breeders can modify them themselves for miscellaneous analyses that aren't covered in breedbase instances). I'm interested in integrating new BrAPI features (working with any brapir developers if they're present), along with improving performance and adding better documentation for GitHub.", "needs": null, "repo": "https://github.com/mtwatso2-eng/pollination-toolbox" },
+            { "team": "Mark Watson, Any of the developers of the various BrapiR R packages (I'm not sure if any will be present or not).", "title": "BrAPI-R", "description": "I'm working on a set of modular R Shiny apps that use BrAPI via the brapiR-v1 R package for interactive breeding data analyses (the goal is for these to be especially tinkerable, so breeders can modify them themselves for miscellaneous analyses that aren't covered in breedbase instances). I'm interested in integrating new BrAPI features (working with any brapiR developers if they're present), along with improving performance and adding better documentation for GitHub.", "needs": null, "repo": "https://github.com/mtwatso2-eng/pollination-toolbox" },
             { "team": "Chaney Courtney", "title": "Field Book", "description": "Field Book", "needs": null, "repo": null },
             { "team": "Ernesto Briones Pereyra, EBS' Team", "title": "GraphQL ", "description": "GraphQL Brapi standard", "needs": null, "repo": null },
             { "team": "Maria Relliza Asin Pasang, Jahzeel Ramos Calosa (IRRI), Larise Gallardo (IRRI), Alfonso Joseph Caballero Ramirez (CIMMYT), Ernesto Briones (CIMMYT), Dinia Grace D. Gepte", "title": "Integrate EBS and Field Book", "description": "Integrate the CGIAR Excellence in Breeding Platform-led Enterprise Breeding System (EBS) with the Field Book application so that breeders may easily collect and upload data to the system.", "needs": "Planning to consult Trevor Rife for the Field book app and BrAPI integration", "repo": "https://bitbucket.org/ebsproject/cb-brapi" },
@@ -219,7 +224,7 @@
             "session1": "https://youtu.be/QKk-VbMtloI"
         }],
         "calendarInvite": {
-            "title": "BrAPI Hackathon - Greensville, SC, USA",
+            "title": "BrAPI Hackathon - Greenville, SC, USA",
             "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This hackathon is will be in Greenville, South Carolina, USA on March 20-24, 2023. A big \"thank you\" to Trevor Rife and Clemson University for hosting this event. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon-mar-2023",
             "location": "CU-ICAR TD Gallery and Plaza, 5 Research Drive, Greenville, SC 29607, USA ",
             "start": "2023-03-20 13:00:00Z",
@@ -343,8 +348,8 @@
             { "name": "Cyril Pommier", "org": "INRAE", "email": "cyril.pommier@inrae.fr", "session1": true, "session2": false }
         ],
         "projects": [
-            { "team": null, "title": "U of Manatoba BrAPI Implementation", "description": "Integration of BRAPI in university bioinformatics system ", "needs": null, "repo": null },
-            { "team": "Khaled Al-Shamaa", "title": "Enhance QBMS R Package", "description": "QBMS R package is used to Query the Breeding Management System(s) like BMS, BreeBase, and GIGWA (using BrAPI calls) and retrieve phenotypic and genotypic data directly into any analyzing pipeline developed in R statistical environment. During the hackathon, we will implement several tactics like cache requests, async calls and paginations, preventing abuse (e.g., DDoS filtering) by setting a rate-limit, use BrAPI v2.1 '/search/allelematrix' endpoint, etc.", "needs": "Interested collaborators from BMS, BreedBase, and GIGWA.", "repo": "https://icarda-git.github.io/QBMS/" },
+            { "team": null, "title": "U of Manitoba BrAPI Implementation", "description": "Integration of BRAPI in university bioinformatics system ", "needs": null, "repo": null },
+            { "team": "Khaled Al-Shamaa", "title": "Enhance QBMS R Package", "description": "QBMS R package is used to Query the Breeding Management System(s) like BMS, BreeBase, and GIGWA (using BrAPI calls) and retrieve phenotypic and genotypic data directly into any analyzing pipeline developed in R statistical environment. During the hackathon, we will implement several tactics like cache requests, async calls and pagination, preventing abuse (e.g., DDoS filtering) by setting a rate-limit, use BrAPI v2.1 '/search/allelematrix' endpoint, etc.", "needs": "Interested collaborators from BMS, BreedBase, and GIGWA.", "repo": "https://icarda-git.github.io/QBMS/" },
             { "team": "Patrick König", "title": "DivBrowse from IPK", "description": "Implementation of BrAPI V2.1 Genotyping Calls into DivBrowse (https://divbrowse.ipk-gatersleben.de/)", "needs": null, "repo": "https://github.com/IPK-BIT/divbrowse" },
             { "team": null, "title": "BeetBase", "description": "I am making a sugar beet web database and analysis platform, called BeetBase.", "needs": null, "repo": null },
             { "team": "Chaney Courtney, Trevor Rife", "title": "PhenoApps Coordinate", "description": "PhenoApps Coordinate", "needs": null, "repo": "github.com/phenoapps" },
@@ -595,8 +600,8 @@
             { "team": "Brandon Monier, Buckler Lab", "title": "PHG + BrAPI + R", "description": "Integrating PHG and BrAPI into base R and the R package, rTASSEL.", "needs": null, "repo": null },
             { "team": null, "title": "BrAPI-PyModels Package", "description": "Add preliminary support for the new genotype matrix draft to BrAPI-PyModels.", "needs": null, "repo": "https://github.com/agostof/BrAPI-PyModels" },
             { "team": "Lukas Mueller, Breedbase", "title": "Field Viewer BRAPP", "description": "we have a new field viewer that needs some tweaks to the brapi specs", "needs": null, "repo": "https://github.com/solgenomics" },
-            { "team": "Solomon Nsumba, Bryan Bellerbrock ,Lukas Mueller from Breedbase AND Jeremy Tusubira(Makerere AI Lab)", "title": "Image Analysis Service with BrAPI", "description": "BrAPI calls for image analysis service.", "needs": null, "repo": null },
-            { "team": "Patrick König", "title": "DivBrowse with New Genotype Endpoint", "description": "Testwise implementation of the refactored genotype data model in DivBrowse", "needs": null, "repo": "https://github.com/IPK-BIT/divbrowse" },
+            { "team": "Solomon Nsumba, Bryan Ellerbrock ,Lukas Mueller from Breedbase AND Jeremy Tusubira(Makerere AI Lab)", "title": "Image Analysis Service with BrAPI", "description": "BrAPI calls for image analysis service.", "needs": null, "repo": null },
+            { "team": "Patrick König", "title": "DivBrowse with New Genotype Endpoint", "description": "Test-wise implementation of the refactored genotype data model in DivBrowse", "needs": null, "repo": "https://github.com/IPK-BIT/divbrowse" },
             { "team": "Bryan Ellerbrock", "title": "Trial Completeness Heatmap", "description": "Working on Trial Completeness Heatmap app", "needs": "Breedbase and BrAPI R package", "repo": null },
             { "team": "David R Phillips", "title": "Breeding Insight Trials", "description": "Import of Trial data from Breeding Insight", "needs": null, "repo": null }
         ],
