@@ -44,6 +44,10 @@
   {{#if SEOFAQJSON}}
   <script type="application/ld+json">{{{SEOFAQJSON}}}</script>
   {{/if}}
+  {{#if SEOCanonicalPage}}
+  <link rel="canonical" href="https://brapi.org/{{{SEOCanonicalPage}}}" />
+  {{/if}}
+
 
 
   <!-- Default stylesheets-->

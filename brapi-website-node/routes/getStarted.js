@@ -59,7 +59,7 @@ function buildFAQ() {
             "name": "What is BrAPI?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "<p>BrAPI is a standardized RESTful web service API specification for communicating plant breeding data. The Breeding API (BrAPI) project is an effort to enable interoperability among plant breeding databases. This community driven standard is free to be used by anyone interested in plant breeding data management. <br/>Please read this page: <a href=\"/get-started?id=1\"> What is BrAPI?</a> If you still have questions, please contact the BrAPI Coordinator.</p>"
+                "text": "<p>BrAPI is a standardized RESTful web service API specification for communicating plant breeding data. The Breeding API (BrAPI) project is an effort to enable interoperability among plant breeding databases. This community driven standard is free to be used by anyone interested in plant breeding data management. <br/>Please read this page: <a href=\"/get-started/1\"> What is BrAPI?</a> If you still have questions, please contact the BrAPI Coordinator.</p>"
             }
         },{
             "@type": "Question",

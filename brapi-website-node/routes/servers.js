@@ -35,7 +35,8 @@ router.get('/', function(req, res, next) {
     res.render('servers', {
         title: 'Servers',
         footerEvents: require('./events').getTrailerEvents(),
-        providers: providers
+        providers: providers,
+        SEOCanonicalPage: 'servers'
     });
 });
 
