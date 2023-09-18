@@ -1,6 +1,9 @@
 User-agent: googlebot
 Allow: /
 Disallow: /admin
+Disallow: /brapi/oidc
+Disallow: /api
+Disallow: /*.php$
 
 User-agent: Twitterbot
 Allow: /
