@@ -4,10 +4,15 @@ Disallow: /admin
 Disallow: /brapi/oidc
 Disallow: /api
 Disallow: /*.php$
+Disallow: /;
 
 User-agent: Twitterbot
 Allow: /
 Disallow: /admin
+Disallow: /brapi/oidc
+Disallow: /api
+Disallow: /*.php$
+Disallow: /;
 
 User-agent: *
 Disallow: /
