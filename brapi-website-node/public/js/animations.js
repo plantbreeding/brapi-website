@@ -175,6 +175,9 @@
                     $(this).parent().siblings().removeClass('open');
                     $(this).parent().siblings().find('[data-toggle=dropdown]').parent().removeClass('open');
                     $(this).parent().toggleClass('open');
+
+                    $(this).parent().parent().find('.dropdown-menu').hide();
+                    $(this).parent().parent().find('.open .dropdown-menu').show();
                 });
             }
         }

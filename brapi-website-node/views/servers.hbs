@@ -1,18 +1,20 @@
 <section class="module-extra-small">
     <div class="container">
         <div class="row justify-content-center">
-            <p class="col-12" style="text-align: center; margin: 10px 0 10px 0;">Submit a new BrAPI compatible server</p>
-            <a class="btn btn-sm btn-outline-success col-2" href="/servers/submit">Register Server</a>
-            <p class="col-12" style="text-align: center; margin: 0;"><a style="font-size: 12px;" target="_blank" href="/json/brapi-resources.json">Get this list as JSON</a></p>
+            <p class="col-12" style="text-align: center; margin: 10px 0 10px 0;">Submit a new BrAPI compatible server
+            </p>
+            <a class="btn btn-sm btn-outline-success col-10 col-sm-6 col-md-3" href="/servers/submit">Register Server</a>
+            <p class="col-12" style="text-align: center; margin: 0;"><a style="font-size: 12px;" target="_blank"
+                    href="/json/brapi-resources.json">Get this list as JSON</a></p>
             <div class="col-12" style="border-bottom: solid lightgray 1px; margin: 20px 0"></div>
         </div>
 
         <div id="servers-list" style="margin-bottom: 30px;">
             <div class="row justify-content-center">
-                <div class="col-6" style="margin: 10px 0 20px 0">
-                    <input class="search col-11" placeholder="Search for BrAPI Compatible Software" />
+                <div class="col-11 col-sm-8 col-lg-6" style="margin: 10px 0 20px 0; position: relative;">
+                    <input class="search" style="width: 100%;" placeholder="Search for BrAPI Servers">
                     <span class="mdi mdi-magnify custom-bullet-point"
-                        style="vertical-align: top; line-height: 30px;"></span>
+                        style="vertical-align: top; line-height: 30px; position: absolute; right: 10px;"></span>
                     <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
                 </div>
                 <div class="col-8 row justify-content-center" style="margin: 5px 0 20px 0; display: none;">
@@ -38,8 +40,8 @@
                 {{#each resources}}
                 <li class="row justify-content-center">
                     <div class="col-12 brapp">
-                        <div class="row brapp-box">
-                            <div class="col-2" style="display: inherit;">
+                        <div class="row brapp-box justify-content-center">
+                            <div class="col-10 col-md-3 col-lg-2" style="display: inherit;">
                                 <div class="provider-thumbnail">
                                     {{#if ../logo }}
                                     <span></span>
@@ -50,7 +52,7 @@
                                     {{/if}}
                                 </div>
                             </div>
-                            <div class="col-10 brapp-header">
+                            <div class="col-12 col-md-9 col-lg-10 brapp-header">
                                 <h2 class="server-title">{{ name }}</h2>
                                 <p class="server-id" style="display: none;">{{ id }}</p>
                                 <p class="org-name" style="margin-left: 15px;">Hosted by: {{ ../name }}</p>
@@ -73,8 +75,8 @@
                             <div class="col-12">
                                 {{#if v1-url }}
                                 <div id="{{ id }}-v1" class="row">
-                                    <div class="col-2"
-                                        style="text-align: right; margin-top: auto; margin-bottom: auto;">
+                                    <div class="server-status col-12 col-md-3 col-lg-2"
+                                        style="margin-top: auto; margin-bottom: auto;">
                                         V1 Base URL
                                         <span style="margin: 2px;">
                                             <span class="spinner-border spinner-border-sm text-dark" role="status">
@@ -96,7 +98,7 @@
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="col" style="margin-top: 8px;">
+                                    <div class="col-12 col-md-9 col-lg-10" style="margin-top: 8px;">
                                         <a target="_blank" href="{{ v1-url }}calls">
                                             <pre><code class="server-v1-url">{{ v1-url }}</code></pre>
                                         </a>
@@ -105,8 +107,8 @@
                                 {{/if}}
                                 {{#if v2-url }}
                                 <div id="{{ id }}-v2" class="row">
-                                    <div class="col-2"
-                                        style="text-align: right; margin-top: auto; margin-bottom: auto;">
+                                    <div class="server-status col-12 col-md-3 col-lg-2"
+                                        style="margin-top: auto; margin-bottom: auto;">
                                         V2 Base URL
                                         <span style="margin: 2px;">
                                             <span class="spinner-border spinner-border-sm text-dark" role="status">
@@ -128,7 +130,7 @@
                                             </span>
                                         </span>
                                     </div>
-                                    <div class="col" style="margin-top: 8px;">
+                                    <div class="col-12 col-md-9 col-lg-10" style="margin-top: 8px;">
                                         <a target="_blank" href="{{ v2-url }}serverinfo">
                                             <pre><code class="server-v2-url">{{ v2-url }}</code></pre>
                                         </a>

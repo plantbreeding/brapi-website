@@ -20,7 +20,8 @@
             {"name" : "Alice Boizet", "org" : "CIRAD", "email" : "alice.boizet@cirad.fr", "session1" : true, "session2" : false},
             {"name" : "Heather Sweeney ", "org" : "Breeding Insight", "email" : "hms243@cornell.edu", "session1" : false, "session2" : true},
             {"name" : "Bryan Ellerbrock", "org" : "PhenoApps", "email" : "bje24@cornell.edu", "session1" : false, "session2" : true},
-            {"name" : "Tim Parsons", "org" : "Breeding Insight/Cornell University", "email" : "tim.parsons@cornell.edu", "session1" : false, "session2" : true}
+            {"name" : "Tim Parsons", "org" : "Breeding Insight/Cornell University", "email" : "tim.parsons@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "Khaled Al-Shamaa", "org" : "ICARDA", "email" : "k.el-shamaa@cgiar.org", "session1" : true, "session2" : false}
         ],
         "projects": [
             {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "DArTView", "needs" : null, "repo" : null},
@@ -34,7 +35,8 @@
             {"team" : "Patrick König, Manuel Feser (IPK)", "title" : "DivBrowse Implementation", "description" : "Implementing / Supporting the BrAPI Phenotyping API in DivBrowse", "needs" : null, "repo" : "https://github.com/IPK-BIT/divbrowse"},
             {"team" : "Alice Boizet, Cyril Pommier (INRAE)", "title" : "FAIDARE Updates", "description" : "Working on Germplasm services that we are currently using to exchange data on genetic resources. Possibly indexing some BrAPI servers if there is time available that week.", "needs" : null, "repo" : null},
             {"team" : "Bryan Ellerbrock", "title" : "Field Book issue #458", "description" : "Nearby sharing for BrAPI settings in Field-Book app", "needs" : null, "repo" : "https://github.com/PhenoApps/Field-Book/issues/458"},
-            {"team" : "Anyone interested.", "title" : "BrAPI Test Server Upgrades", "description" : "I have a few ideas, one is productionalizing BrAPI Java TestServer.", "needs" : "It would be helpful to talk to someone more experienced with the BrAPI Java TestServer and the technology it's built with (hibernate, etc.)", "repo" : "https://github.com/Breeding-Insight/brapi-Java-TestServer/"}
+            {"team" : "Anyone interested.", "title" : "BrAPI Test Server Upgrades", "description" : "I have a few ideas, one is productionalizing BrAPI Java TestServer.", "needs" : "It would be helpful to talk to someone more experienced with the BrAPI Java TestServer and the technology it's built with (hibernate, etc.)", "repo" : "https://github.com/Breeding-Insight/brapi-Java-TestServer/"},
+            {"team" : "Khaled Al-Shamaa, EBS developer(s)", "title" : "QBMS x EBS", "description" : "Integrate EBS support into the QBMS R Package", "needs" : null, "repo" : "https://github.com/icarda-git/QBMS"}
         ],
         "notes": [
         {

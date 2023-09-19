@@ -2,46 +2,46 @@
     <section class="module-extra-small bg-light">
         <div class="container">
             <div class="row">
-                <h2 class="col-3">Upcoming Events</h2>
+                <h2 class="col-12">Upcoming Events</h2>
             </div>
             {{#each currentEvents}}
             <div class="row justify-content-center" style="margin: 20px 0 0 0">
-                <div class="row col-12">
-                    <div class="col">
-                        <div class="widget-posts-image" style="margin: 0 10px 0 0; width: 90px;">
-                            <img src="{{ image }}" alt="{{ title }} Thumbnail" />
-                        </div>
-                        <div class="callout-text-dark font-alt"
-                            style="padding: 22px 0 0 0; {{#if showSponsors}} padding-top:7px; {{/if}}">
-                            <h3 class="callout-title-dark">{{ title }}</h3>
-                            <div>{{ location }} | {{ date }}</div>
-                            {{#if showSponsors}}
-                            <div>Sponsored By: {{#each sponsorsLogos}}
-                                <a target="_blank" href="{{ url }}">
-                                    <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
-                                </a>
-                                {{/each}}
-                            </div>
-                            {{/if}}
-                        </div>
-                        <div class="font-alt">
-                            {{{ description }}}
-                        </div>
+                <div class="col-12 col-md-9 row">
+                    <div class="col-6 col-sm-2" style="margin: 0 auto 20px auto;">
+                        <img src="{{ image }}" alt="{{ title }} Thumbnail" />
                     </div>
-                    {{#if links}}
-                    <div class="col-3">
-                        {{#each links}}
-                        <div class="callout-btn-box">
-                            <a target="_blank" class="btn btn-d btn-round" style="width: 200px;" href="{{ url }}">{{
-                                name
-                                }}</a>
+                    <div class="callout-text-dark font-alt col-12 col-sm-10"
+                        style="padding: 1px 0 0 0; {{#if showSponsors}} padding-top:7px; {{/if}}">
+                        <h3 class="callout-title-dark">{{ title }}</h3>
+                        <p style="margin: 0 0 0 10px;">
+                            {{ date }}<br>
+                            {{ location }}
+                        </p>
+                        {{#if showSponsors}}
+                        <div>Sponsored By: {{#each sponsorsLogos}}
+                            <a target="_blank" href="{{ url }}">
+                                <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
+                            </a>
+                            {{/each}}
                         </div>
-                        {{/each}}
+                        {{/if}}
                     </div>
-                    {{/if}}
+                    <div class="font-alt col-12" style="margin: 10px 0 0 0;">
+                        {{{ description }}}
+                    </div>
                 </div>
+                {{#if links}}
+                <div class="col-12 col-md-3">
+                    {{#each links}}
+                    <div class="callout-btn-box">
+                        <a target="_blank" class="btn btn-d btn-round" style="width: 200px;" href="{{ url }}">
+                            {{ name }}</a>
+                    </div>
+                    {{/each}}
+                </div>
+                {{/if}}
             </div>
-            <hr class="divider-w">
+            <hr class="divider-w" style="margin: 30px 0 0 0;">
             {{/each}}
         </div>
     </section>
@@ -62,9 +62,9 @@
     <section class="module-extra-small bg-light">
         <div class="container">
             <div class="row" style="margin-bottom: 25px;">
-                <h2 class="col-2">Past Events</h2>
+                <h2 class="col-12">Past Events</h2>
 
-                <div class="col" style="margin: 8px 0 0 0">
+                <div class="col-12" style="margin: 8px 0 0 0">
                     <button id="toggle-button" class="btn btn-secondary btn-light-gray" type="button"
                         onclick="toggleVisible('past-event-list', 'toggle-button', 'Show Less', 'Show More')">
                         {{#if currentEvents}}
@@ -79,41 +79,43 @@
             </div>
             <div id="past-event-list" {{#if currentEvents}}style="display: none;" {{/if}}>
                 {{#each pastEvents}}
-                <div class="row justify-content-center" style="margin: 10px 0 20px 0">
-                    <div class="row col-12">
-                        <div class="col">
-                            <div class="widget-posts-image" style="margin: 0 10px 0 0; width: 90px;">
-                                <img src="{{ image }}" alt="{{ title }} Thumbnail" />
-                            </div>
-                            <div class="callout-text-dark font-alt"
-                                style="padding: 22px 0 0 0; {{#if showSponsors}} padding-top:7px; {{/if}}">
-                                <h3 class="callout-title-dark">{{ title }}</h3>
-                                <div>{{ location }} | {{ date }}</div>
-                                {{#if showSponsors}}
-                                <div>Sponsored By:
-                                    {{#each sponsorsLogos}}
-                                    <a target="_blank" href="{{ url }}">
-                                        <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
-                                    </a>
-                                    {{/each}}
-                                </div>
-                                {{/if}}
-                            </div>
+                <div class="row justify-content-center" style="margin: 20px 0 0 0">
+                    <div class="col-12 col-md-9 row">
+                        <div class="col-6 col-sm-2" style="margin: 0 auto 20px auto;">
+                            <img src="{{ image }}" alt="{{ title }} Thumbnail" />
                         </div>
-                        {{#if links}}
-                        <div class="col-3">
-                            {{#each links}}
-                            <div class="callout-btn-box">
-                                <a target="_blank" class="btn btn-d btn-round" style="width: 200px;" href="{{ url }}">{{
-                                    name
-                                    }}</a>
+                        <div class="callout-text-dark font-alt col-12 col-sm-10"
+                            style="padding: 1px 0 0 0; {{#if showSponsors}} padding-top:7px; {{/if}}">
+                            <h3 class="callout-title-dark">{{ title }}</h3>
+                            <p style="margin: 0 0 0 10px;">
+                                {{ date }}<br>
+                                {{ location }}
+                            </p>
+                            {{#if showSponsors}}
+                            <div>Sponsored By: {{#each sponsorsLogos}}
+                                <a target="_blank" href="{{ url }}">
+                                    <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
+                                </a>
+                                {{/each}}
                             </div>
-                            {{/each}}
+                            {{/if}}
                         </div>
-                        {{/if}}
+                        <div class="font-alt col-12" style="margin: 10px 0 0 0;">
+                            {{{ description }}}
+                        </div>
                     </div>
+                    {{#if links}}
+                    <div class="col-12 col-md-3">
+                        {{#each links}}
+                        <div class="callout-btn-box">
+                            <a target="_blank" class="btn btn-d btn-round" style="width: 200px;" href="{{ url }}">
+                                {{ name }}</a>
+                        </div>
+                        {{/each}}
+                    </div>
+                    {{/if}}
                 </div>
-                <hr class="divider-w">
+                <hr class="divider-w" style="margin: 30px 0 0 0;">
                 {{/each}}
             </div>
         </div>

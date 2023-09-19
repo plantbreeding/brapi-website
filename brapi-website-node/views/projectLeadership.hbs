@@ -26,35 +26,37 @@
                     documentation, organizing community events, and meeting potential new members to the community.</p>
             </div>
 
-            {{#each management}}
-            <div class="col-12 col-md-5 brapp">
-                {{#if orcid }}
-                <a target="_blank" href="{{ orcid }}">
-                    {{/if}}
-                    <div class="row brapp-box">
-                        <div class="brapp-thumbnail col-3">
-                            {{#if pic }}
-                            <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90"
-                                style="margin: 5px auto 5.6px auto;">
-                            {{else}}
-                            <span class="mdi mdi-account-box fa-lg"
-                                style="font-size: 6.5em; line-height: 1.1em;"></span>
-                            {{/if}}
-                        </div>
-                        <div class="font-alt col-9">
-                            <h3 style="margin: 10px 0 5px 0">{{ name }}
-                                {{#if orcid }} <img alt="ORCID logo"
-                                    src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="20"
-                                    height="20" /> {{/if}}</h3>
-                            <p style="margin: 0">{{ title }}</p>
-                            <p style="margin: 0">{{ org }}</p>
-                        </div>
-                    </div>
+            <div class="row justify-content-around" style="margin: 30px 0;">
+                {{#each management}}
+                <div class="col-12 col-md-5 brapp">
                     {{#if orcid }}
-                </a>
-                {{/if}}
+                    <a target="_blank" href="{{ orcid }}">
+                        {{/if}}
+                        <div class="row brapp-box">
+                            <div class="brapp-thumbnail col-3">
+                                {{#if pic }}
+                                <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90"
+                                    style="margin: 5px auto 5.6px auto;">
+                                {{else}}
+                                <span class="mdi mdi-account-box fa-lg"
+                                    style="font-size: 6.5em; line-height: 1.1em;"></span>
+                                {{/if}}
+                            </div>
+                            <div class="font-alt col-9">
+                                <h3 style="margin: 10px 0 5px 0">{{ name }}
+                                    {{#if orcid }} <img alt="ORCID logo"
+                                        src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"
+                                        width="20" height="20" /> {{/if}}</h3>
+                                <p style="margin: 0">{{ title }}</p>
+                                <p style="margin: 0">{{ org }}</p>
+                            </div>
+                        </div>
+                        {{#if orcid }}
+                    </a>
+                    {{/if}}
+                </div>
+                {{/each}}
             </div>
-            {{/each}}
 
             <div class="col-12" style="margin: 35px 0 10px 0;">
                 <h2> Advisory Board </h2>
@@ -62,9 +64,14 @@
                     providing advice and guidance to support the Project Management group. They are also responsible for
                     representing the community in making long term project decisions. </p>
                 <div class="link-btn">
-                    <a href="/brapiAdvisoryBoard" class="btn btn-sm btn-outline-success col-3">Roles and Responsibilities </a>
-                    {{!-- <a href="/docs/BrAPI_Advisory_Board_Candidate_Report_TEMPLATE.docx" class="btn btn-sm btn-outline-success col-3">Nominate A New Board Member</a> --}}
-                    {{!-- <a href="/advisoryBoardCandidates" class="btn btn-sm btn-outline-success col-3">New Board Member Candidates</a> --}}
+                    <a href="/brapiAdvisoryBoard" class="btn btn-sm btn-outline-success col-12 col-sm-4 col-md-3">Roles
+                        and Responsibilities </a>
+                    {{!-- <a href="/docs/BrAPI_Advisory_Board_Candidate_Report_TEMPLATE.docx"
+                        class="btn btn-sm btn-outline-success col-12 col-sm-4 col-md-3">Nominate A New Board Member</a>
+                    --}}
+                    {{!-- <a href="/advisoryBoardCandidates"
+                        class="btn btn-sm btn-outline-success col-12 col-sm-4 col-md-3">New Board Member Candidates</a>
+                    --}}
                 </div>
             </div>
 

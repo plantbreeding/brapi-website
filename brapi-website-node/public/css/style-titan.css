@@ -1498,7 +1498,7 @@ General Styles - Owlcarousel
 	outline: none;
 	color: #999;
 	margin-top: -20px;
-}*/
+}*/ */
 
 
 /*--------------------------------------------------------------
@@ -3082,7 +3082,6 @@ p a {
     .navbar-custom .dropdown-toggle:after,
     .navbar-custom .dropdown-menu .dropdown-toggle:after {
         right: 7px;
-        content: "\f107";
     }
     .navbar-custom .nav>.open>.dropdown-toggle:after,
     .navbar-custom .dropdown-menu .dropdown.open .dropdown-toggle:after {
@@ -3097,7 +3096,6 @@ p a {
         display: none;
     }
     .navbar-custom .navbar-cart>a:after {
-        content: "\f107";
     }
     .navbar-custom .navbar-cart-item a {
         border: 0 !important;
@@ -3169,9 +3167,6 @@ p a {
     }
     .post.mb-0 {
         margin-bottom: 40px !important;
-    }
-    .footer {
-        text-align: center;
     }
     .copyright,
     .footer-social-links {

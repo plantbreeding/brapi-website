@@ -1,7 +1,7 @@
-<section class="module-extra-small" id="get-started-intro">
+<section class="module-extra-small" id="hackathon-module">
     <div class="container" style="min-height: 500px;">
-        <div class="row">
-            <div class="col-4 col-md-3" id="menu">
+        <div class="row justify-content-center">
+            <div class="col-8 col-sm-4 col-md-3" id="menu" style="margin-bottom: 20px;">
                 <div>
                     <a class="btn btn-d btn-round col-12" target="_blank" disabled
                         href="https://docs.google.com/forms/d/e/1FAIpQLSe1a22NlCQZLGjTZGdVr-siTQIqIYZ9dORD99-qj0s34qU3oQ/viewform">Register</a>
@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="col" id="content">
+            <div class="col-12 col-sm-8 col-md-9" id="content">
                 <div id="overview-section" style="display: block; scroll-margin-top: 400px;">
                     <h3 class="font-alt" id="title"> Register </h3>
                     <div style="margin-left:10px">
@@ -36,15 +36,15 @@
                         <p style="margin: 2px 0 2px 0;"> <strong>Where: </strong> Virtual <br></p>
                         <p style="margin: 10px 0 2px 0;"> <strong>Add To Calendar: </strong> <br> </p>
                         <div style="text-align: center">
-                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                            <a class="btn btn-sm btn-outline-secondary col-8 col-sm-5 col-lg-2" target="_blank"
                                 href="{{calendarLinks.ics}}">.ICS (Outlook, iCal)</a>
-                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                            <a class="btn btn-sm btn-outline-secondary col-8 col-sm-5 col-lg-2" target="_blank"
                                 href="{{calendarLinks.google}}">Google Cal</a>
-                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                            <a class="btn btn-sm btn-outline-secondary col-8 col-sm-5 col-lg-2" target="_blank"
                                 href="{{calendarLinks.yahoo}}">Yahoo Cal</a>
-                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                            <a class="btn btn-sm btn-outline-secondary col-8 col-sm-5 col-lg-2" target="_blank"
                                 href="{{calendarLinks.office365}}">Office365</a>
-                            <a class="btn btn-sm btn-outline-secondary col-2" target="_blank"
+                            <a class="btn btn-sm btn-outline-secondary col-8 col-sm-5 col-lg-2" target="_blank"
                                 href="{{calendarLinks.outlook}}">Outlook (web)</a>
                         </div>
 
@@ -55,7 +55,7 @@
                             information.
                         </p>
                         {{!-- <p>Registration CLosed</p> --}}
-                        <p style="text-align: center"><a class="btn btn-d btn-round col-4" target="_blank"
+                        <p style="text-align: center"><a class="btn btn-d btn-round col-8 col-sm-5 col-md-4 col-lg-3" target="_blank"
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSe1a22NlCQZLGjTZGdVr-siTQIqIYZ9dORD99-qj0s34qU3oQ/viewform">Register</a>
                         </p>
                         {{!-- <p style="text-align: center"><a class="btn btn-d btn-round col-4" target="_blank"
@@ -152,30 +152,25 @@
                 <div id="attendees-section" style="display: none; scroll-margin-top: 400px;">
                     <h3 class="font-alt" id="title"> Attendees List </h3>
                     <div style="margin-left:10px">
-                        <table>
-                            <tr>
-                                <th class="agenda" colspan="3">Remote Session #1 (08:00-11:00 UTC)</th>
-                            </tr>
-                            {{#each hackathonData.session1List}}
-                            <tr>
-                                <td class="agenda">{{name}}</td>
-                                <td class="agenda">{{email}}</td>
-                                <td class="agenda">{{org}}</td>
-                            </tr>
-                            {{/each}}
-                        </table>
-                        <table>
-                            <tr>
-                                <th class="agenda" colspan="3">Remote Session #2 (16:00-19:00 UTC)</th>
-                            </tr>
-                            {{#each hackathonData.session2List}}
-                            <tr>
-                                <td class="agenda">{{name}}</td>
-                                <td class="agenda">{{email}}</td>
-                                <td class="agenda">{{org}}</td>
-                            </tr>
-                            {{/each}}
-                        </table>
+                        <p style="font-weight: bold;">Remote Session #1 (08:00-11:00 UTC)</p>
+                            
+                        {{#each hackathonData.session1List}}
+                        <div class="row" style="margin: 0 0 5px 0; border-bottom: lightgray solid 1px">
+                            <p class="col-12 col-md-4" style="margin: 0; font-weight: bold;">{{name}}</p>
+                            <p class="col-12 col-md-4" style="margin: 0;"><a href="mailto:{{email}}" target="_blank">{{email}}</a></p>
+                            <p class="col-12 col-md-4" style="margin: 0;">{{org}}</p>
+                        </div>
+                        {{/each}}
+
+                        <p style="font-weight: bold; margin: 30px 0 20px 0;">Remote Session #2 (16:00-19:00 UTC)</p>
+                            
+                        {{#each hackathonData.session2List}}
+                        <div class="row" style="margin: 0 0 5px 0; border-bottom: lightgray solid 1px">
+                            <p class="col-12 col-md-4" style="margin: 0; font-weight: bold;">{{name}}</p>
+                            <p class="col-12 col-md-4" style="margin: 0;"><a href="mailto:{{email}}" target="_blank">{{email}}</a></p>
+                            <p class="col-12 col-md-4" style="margin: 0;">{{org}}</p>
+                        </div>
+                        {{/each}}
                     </div>
 
                 </div>
@@ -191,7 +186,7 @@
                         </div>
                         {{else}}<div class="col-12" style="font-weight: bold; margin: 15px 0 1px 0;"> Project Title
                             TBD</div>{{/if}}
-                        <div class="col-12">
+                        <div class="col-12" style="margin: 0 0 5px 0; border-bottom: lightgray solid 1px">
                             {{#if team}}<div class="col-12"> <span style="font-weight: bold;">Team: </span>{{team}}
                             </div>{{/if}}
                             {{#if repo}}<div class="col-12"> <span style="font-weight: bold;">Repository: </span><a

@@ -2,14 +2,15 @@
     <div class="container">
         <div class="row justify-content-center">
             <p class="col-12" style="text-align: center; margin: 10px 0 10px 0;">Submit new BrAPI compatible software</p>
-            <a href="/submitSoftware" class="btn btn-sm btn-outline-success col-2">Register Software</a>
+            <a href="/submitSoftware" class="btn btn-sm btn-outline-success col-10 col-sm-6 col-md-3">Register Software</a>
             <div class="col-12" style="border-bottom: solid lightgray 1px; margin: 30px 0"></div>
         </div>
         <div id="software-list" style="margin-bottom: 30px;">
             <div class="row justify-content-center">
-                <div class="col-6" style="margin: 10px 0 20px 0">
-                    <input class="search col-11" placeholder="Search for BrAPI Compatible Software" />
-                    <span class="mdi mdi-magnify custom-bullet-point" style="vertical-align: top; line-height: 30px;"></span>
+                <div class="col-11 col-sm-8 col-lg-6" style="margin: 10px 0 20px 0; position: relative;">
+                    <input class="search" style="width: 100%;" placeholder="Search for BrAPI Compatible Software">
+                    <span class="mdi mdi-magnify custom-bullet-point"
+                        style="vertical-align: top; line-height: 30px; position: absolute; right: 10px;"></span>
                     <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
                 </div>
                 <div class="col-8 row justify-content-center" style="margin: 5px 0 20px 0; display: none;">
@@ -28,11 +29,11 @@
             </div>
 
                 <div class="col-12" style="margin: 10px 0 0 0"> Sort By: 
-                    <span class='sort btn btn-sm btn-outline-secondary col-1' data-sort='software-title'>Name
+                    <span class='sort btn btn-sm btn-outline-secondary col-4 col-sm-3 col-md-2 col-lg-1' data-sort='software-title'>Name
                         <span class="sort-sym mdi mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
                         <span class="sort-sym mdi mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle;"></span>
                     </span>
-                    <span class='sort btn btn-sm btn-outline-secondary col-1' data-sort='software-team'>Team
+                    <span class='sort btn btn-sm btn-outline-secondary col-4 col-sm-3 col-md-2 col-lg-1' data-sort='software-team'>Team
                         <span class="sort-sym mdi mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
                         <span class="sort-sym mdi mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
                     </span>
@@ -55,21 +56,27 @@
                                 </h2>
                                 <p>From <a href="{{ team-url }}" class="software-team"> {{ team }} </a> </p>
                                 <p>{{{ description }}}</p>
-                                <div class="brapp-links">
+                                <div class="brapp-links row">
                                     {{#if demo-url}}
+                                    <div class="col-12 col-sm-6 col-md-4" style="padding: 1px;">
                                     <a href="{{ demo-url }}" target="_blank"
-                                        class="btn btn-sm btn-outline-success col-3">
+                                        class="btn btn-sm btn-outline-success col-12">
                                         Demonstration Site </a>
+                                    </div>
                                     {{/if}}
                                     {{#if source-url}}
+                                    <div class="col-12 col-sm-6 col-md-4" style="padding: 1px;">
                                     <a href="{{ source-url }}" target="_blank"
-                                        class="btn btn-sm btn-outline-success col-3">
+                                        class="btn btn-sm btn-outline-success col-12">
                                         Source Code Repo </a>
+                                    </div>
                                     {{/if}}
                                     {{#if doc-url}}
+                                    <div class="col-12 col-sm-6 col-md-4" style="padding: 1px;">
                                     <a href="{{ doc-url }}" target="_blank"
-                                        class="btn btn-sm btn-outline-success col-3">
+                                        class="btn btn-sm btn-outline-success col-12">
                                         User Documentation </a>
+                                    </div>
                                     {{/if}}
                                 </div>
                             </div>

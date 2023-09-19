@@ -1,7 +1,7 @@
 <section class="module-extra-small">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-8">
+            <div class="col-12 col-lg-10">
                 <div class="module-subtitle">
                     <p class="justified" style="padding: 0 11px;">
                         Welcome to the BrAPI APPlication showcase, or BrAPPs for short. Each of these BrAPPs is an
@@ -34,18 +34,24 @@
                         </h2>
                         <p>From <a href="{{ team-url }}"> {{ team }} </a> </p>
                         <p>{{{ description }}}</p>
-                        <div class="brapp-links">
+                        <div class="brapp-links row">
                             {{#if demo-url}}
-                            <a href="{{ demo-url }}" target="_blank" class="btn btn-sm btn-outline-success col-3">
+                            <div class="col-12 col-md-4 col-3" style="margin: 0 0 5px 0;">
+                            <a href="{{ demo-url }}" target="_blank" class="btn btn-sm btn-outline-success col-12">
                                 Demonstration Site </a>
+                                </div>
                             {{/if}}
                             {{#if source-url}}
-                            <a href="{{ source-url }}" target="_blank" class="btn btn-sm btn-outline-success col-3">
+                            <div class="col-12 col-md-4 col-3" style="margin: 0 0 5px 0;">
+                            <a href="{{ source-url }}" target="_blank" class="btn btn-sm btn-outline-success col-12">
                                 Source Code Repo </a>
+                                </div>
                             {{/if}}
                             {{#if doc-url}}
-                            <a href="{{ doc-url }}" target="_blank" class="btn btn-sm btn-outline-success col-3">
+                            <div class="col-12 col-md-4 col-3" style="margin: 0 0 5px 0;">
+                            <a href="{{ doc-url }}" target="_blank" class="btn btn-sm btn-outline-success col-12">
                                 User Documentation </a>
+                                </div>
                             {{/if}}
                         </div>
                     </div>

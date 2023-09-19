@@ -1,24 +1,24 @@
 <section class="module-extra-small">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-9" id="brapi-posts">
+            <div class="col-12 col-md-9" id="brapi-posts">
                 {{#if showList}}
                 <div class="col-12"
                     style="margin: 5px 0 30px 0; text-align:center; border-bottom:1px solid rgb(201, 201, 201); padding: 15px 0 30px 0">
                     <p style="font-size: 16px; font-weight: bold;">Join the mailing list to receive BrAPI news directly
                         and support the community </p>
-                    <a href="/contact" class="btn btn-sm btn-outline-success col-4">
+                    <a href="/contact" class="btn btn-sm btn-outline-success col-10 col-sm-6 col-lg-4">
                         Join the Mailing List
                     </a>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-6" style="margin: 10px 0 20px 0">
-                        <input class="search col-11" placeholder="Search for BrAPI News" />
+                    <div class="col-10 col-sm-8 col-lg-6" style="margin: 10px 0 20px 0; position: relative;">
+                        <input class="search" style="width: 100%;" placeholder="Search for BrAPI News">
                         <span class="mdi mdi-magnify custom-bullet-point"
-                            style="vertical-align: top; line-height: 30px;"></span>
+                            style="vertical-align: top; line-height: 30px; position: absolute; right: 10px;"></span>
                         <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
                     </div>
-                    <ul class="pagination"></ul>
+                    <ul class="pagination" style="margin: 0 0 20px 20px;"></ul>
                 </div>
 
                 <ul class="list" style="list-style-type: none; padding: 0;">
@@ -40,7 +40,7 @@
                     {{/each}}
                 </ul>
                 {{else}}
-                <a href="/news" style="margin: 10px 0;" class="btn btn-sm btn-outline-success col-2">
+                <a href="/news" style="margin: 10px 0;" class="btn btn-sm btn-outline-success col-6 col-sm-4 col-md-2">
                     &lt; Back
                 </a>
                 <div class="post" style="min-height: 55px; margin-bottom: 25px;">
