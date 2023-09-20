@@ -24,7 +24,7 @@
             }
         });
 
-        $('a[href="#totop"]').click(function() {
+        $('a[href="#to-top"]').click(function() {
             $('html, body').animate({ scrollTop: 0 }, 'slow');
             return false;
         });
@@ -130,9 +130,9 @@
                     var MenuLeftOffset = $('.dropdown-menu', $(this)).offset().left;
                     var Menu1LevelWidth = $('.dropdown-menu', $(this)).width();
                     if (width - MenuLeftOffset < Menu1LevelWidth * 2) {
-                        $(this).children('.dropdown-menu').addClass('leftauto');
+                        $(this).children('.dropdown-menu').addClass('left-auto');
                     } else {
-                        $(this).children('.dropdown-menu').removeClass('leftauto');
+                        $(this).children('.dropdown-menu').removeClass('left-auto');
                     }
                     if ($('.dropdown', $(this)).length > 0) {
                         var Menu2LevelWidth = $('.dropdown-menu', $(this)).width();

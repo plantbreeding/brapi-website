@@ -36,13 +36,13 @@ iframe {
     position: relative;
 }
 
-.leftauto {
+.left-auto {
     right: 0 !important;
     left: auto !important;
 }
 
 
-/* Transition elsements */
+/* Transition elements */
 
 a,
 .btn {
@@ -887,11 +887,11 @@ a,
     font-size: 10px;
 }
 
-.rqst-form {
+.request-form {
     margin-top: 27px;
 }
 
-.rqst-form .btn {
+.request-form .btn {
     margin-top: 5px;
 }
 
@@ -1138,6 +1138,7 @@ Hero Slider
 
 .hero-slider .slides>li {
     display: none;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
 
@@ -1221,7 +1222,7 @@ Photography Page Slider
 
 
 /* -------------------------------------------------------------------
-General Styles - Owlcarousel
+General Styles - Owl carousel
 ------------------------------------------------------------------- */
 
 .owl-controls {
@@ -1831,7 +1832,7 @@ Google map
     color: #FFF;
 }
 
-.team-descr {
+.team-description {
     margin: 20px 0 0;
 }
 
@@ -1923,6 +1924,7 @@ Google map
     left: 50%;
     height: 14px;
     width: 14px;
+    transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -1938,6 +1940,7 @@ Google map
     left: 50%;
     height: 16px;
     width: 16px;
+    transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -2124,7 +2127,7 @@ Google map
     margin: 0 0 6px;
 }
 
-.work-descr {
+.work-description {
     color: #aaa;
 }
 
@@ -2159,13 +2162,13 @@ Google map
 }
 
 
-/* Work item gradien background*/
+/* Work item gradient background*/
 
 .works-grid.works-hover-g .work-image:after {
     opacity: 0;
 }
 
-.works-grid.works-hover-g .work-descr {
+.works-grid.works-hover-g .work-description {
     color: #fff;
 }
 
@@ -2272,7 +2275,7 @@ Google map
     font-size: 14px;
 }
 
-.testimonial-descr {
+.testimonial-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 11px;
 }
@@ -2904,7 +2907,7 @@ p a {
     padding: 15px;
 }
 
-.documentation-page ol.linenums {
+.documentation-page ol.line-numbers {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -3094,8 +3097,6 @@ p a {
     }
     .navbar-custom .cart-item-number {
         display: none;
-    }
-    .navbar-custom .navbar-cart>a:after {
     }
     .navbar-custom .navbar-cart-item a {
         border: 0 !important;

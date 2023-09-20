@@ -24,10 +24,10 @@
                 <p>{{{motivation}}}</p>
                 <div>
                     <button id="toggle-overview" class="btn btn-secondary btn-light-gray col-12" type="button"
-                        onclick="toggleCandidateExpirience('{{@index}}')">Technical
-                        Expirience (show/hide)</button>
+                        onclick="toggleCandidateExperience('{{@index}}')">Technical
+                        Experience (show/hide)</button>
                 </div>
-                <div id="expirience-{{@index}}" class="rexpirience-group" style="display: none;">
+                <div id="experience-{{@index}}" class="experience-group" style="display: none;">
                     <div class="row">
                         {{#each experience}}
                         <div class="col-5" style="margin: 10px 0 10px 0;">
@@ -56,9 +56,9 @@
 </section>
 
 <script type="text/plain" cookie-consent="strictly-necessary">
-    function toggleCandidateExpirience(index) {
-        var showID = 'expirience-' + index
-        var allIds = $('.expirience-group').toArray().map((x) => x.id)
+    function toggleCandidateExperience(index) {
+        var showID = 'experience-' + index
+        var allIds = $('.experience-group').toArray().map((x) => x.id)
 
         if ($('#' + showID).css('display') == 'none') {
             toggleVisibleXor(showID, allIds, 0);

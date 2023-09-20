@@ -10,7 +10,7 @@
         "image": "/images/tools/code.jpg",
         "url": "https://github.com/plantbreeding/API",
         "type": "doc",
-        "description": "Raise issues, submit change propsals, and check on upcoming enhancments. Become part of the BrAPI developer community by checking out the GitHub project."
+        "description": "Raise issues, submit change proposals, and check on upcoming enhancements. Become part of the BrAPI developer community by checking out the GitHub project."
     },
     {
         "title": "Wiki",
@@ -70,7 +70,7 @@
     },
     {
         "title": "Java Client Library V2.0",
-        "image": "/images/tools/coffee_whitewhite.jpg",
+        "image": "/images/tools/coffee_white_white.jpg",
         "url": "https://github.com/Breeding-Insight/brapi",
         "type": "lib",
         "description": "For developers using Java, we also maintain a small library that provides an easier route for end-clients to utilize BrAPI."
@@ -91,17 +91,17 @@
     },
     {
         "title": "BrAVA",
-        "image": "/images/tools/testbook.jpeg",
+        "image": "/images/tools/test_book.jpeg",
         "url": "https://webapps.ipk-gatersleben.de/brapivalidator",
         "type": "tool",
         "description": "The BrAPI Validation App is a BrAPI test client designed to run a set of validation tests on any BrAPI compliant server."
     },
     {
         "title": "BrAPI Test Server",
-        "image": "/images/tools/harddrive.jpg",
+        "image": "/images/tools/hard_drive.jpg",
         "url": "https://test-server.brapi.org/brapi/v1",
         "type": "tool",
-        "description": "Check out our official, BrAPI cetrified test server. This server hosts a complete BrAPI implementation connected to a database full of sample data."
+        "description": "Check out our official, BrAPI certified test server. This server hosts a complete BrAPI implementation connected to a database full of sample data."
     },
     {
         "title": "Publication",

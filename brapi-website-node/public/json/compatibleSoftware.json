@@ -132,7 +132,7 @@
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/software/",
         "title": "JHI BrAPI Java",
-        "description": "BrAPI Java is a Breeding API (BrAPI) implementation written in Java. It contains all data objects as well as a client interface that can be utilised using Retrofit and server inferfaces that are designed to be used with the Restlet library.",
+        "description": "BrAPI Java is a Breeding API (BrAPI) implementation written in Java. It contains all data objects as well as a client interface that can be utilized using Retrofit and server interfaces that are designed to be used with the Restlet library.",
         "image": "/images/brapi-clover-alpha-700x394.png",
         "url": "https://github.com/cropgeeks/brapi-java",
         "source-url": "https://github.com/cropgeeks/brapi-java",

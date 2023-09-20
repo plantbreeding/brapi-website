@@ -86,12 +86,12 @@
                                                 <span class="iconify" data-icon="mdi-check-bold"
                                                     style="margin-bottom: 5px; font-size: 16px; color: #00990d"></span>200
                                             </span>
-                                            <span class="status-unauth"
+                                            <span class="status-not-authorized"
                                                 style="display: none; font-size: 11px; font-weight: bold; color: #0010c5">
                                                 <span class="iconify" data-icon="mdi-lock"
                                                     style="margin-bottom: 5px; font-size: 16px; color: #0010c5"></span>401
                                             </span>
-                                            <span class="status-notfound"
+                                            <span class="status-not-found"
                                                 style="display: none; font-size: 11px; font-weight: bold; color:#c50000">
                                                 <span class="iconify" data-icon="mdi-alert-decagram"
                                                     style="margin-bottom: 5px; font-size: 16px; color: #c50000"></span>404
@@ -118,12 +118,12 @@
                                                 <span class="iconify" data-icon="mdi-check-bold"
                                                     style="margin-bottom: 5px; font-size: 16px; color: #00990d"></span>200
                                             </span>
-                                            <span class="status-unauth"
+                                            <span class="status-not-authorized"
                                                 style="display: none; font-size: 11px; font-weight: bold; color: #0010c5">
                                                 <span class="iconify" data-icon="mdi-lock"
                                                     style="margin-bottom: 5px; font-size: 16px; color: #0010c5"></span>401
                                             </span>
-                                            <span class="status-notfound"
+                                            <span class="status-not-found"
                                                 style="display: none; font-size: 11px; font-weight: bold; color:#c50000">
                                                 <span class="iconify" data-icon="mdi-alert-decagram"
                                                     style="margin-bottom: 5px; font-size: 16px; color: #c50000"></span>404
@@ -181,11 +181,11 @@
                 .catch(error => {
                     console.log(error)
                     $('#' + server['server-id'] + '-v2 .spinner-border').hide() 
-                    $('#' + server['server-id'] + '-v2 .status-notfound').show()
+                    $('#' + server['server-id'] + '-v2 .status-not-found').show()
                 });
             }catch (error){
                 $('#' + server['server-id'] + '-v1 .spinner-border').hide() 
-                $('#' + server['server-id'] + '-v1 .status-notfound').show() 
+                $('#' + server['server-id'] + '-v1 .status-not-found').show() 
             }
         });
     });
@@ -195,11 +195,11 @@
         if(res.status == 200){
             $('#' + id + ' .status-ok').show() 
         }else if(res.status == 401){
-            $('#' + id + ' .status-unauth').show() 
+            $('#' + id + ' .status-not-authorized').show() 
         }else if(res.status == 404){
-            $('#' + id + ' .status-notfound').show() 
+            $('#' + id + ' .status-not-found').show() 
         }else {
-            $('#' + id + ' .status-notfound').show() 
+            $('#' + id + ' .status-not-found').show() 
         }
     }
 
