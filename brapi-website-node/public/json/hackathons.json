@@ -1,5 +1,26 @@
 {
     "hackathon-oct-2023": {
+        "dates": "October 23-27, 2023",
+        "location": null,
+        "registrationOpen": true,
+        "registrationURL": "https://docs.google.com/forms/d/e/1FAIpQLSe1a22NlCQZLGjTZGdVr-siTQIqIYZ9dORD99-qj0s34qU3oQ/viewform",
+        "registrationHookText": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will be October 23-27, 2023. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
+        "overviewText": "<p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community. This weeklong event will reserve time for the members of the community to discuss the BrAPI specification, collaborate on projects, socialize and learn from each other. The hackathon is largely self-organizing project work time, with a few scheduled public discussion sessions addressing important community topics. The overall goal is to be as productive as possible in a small window of time, to explore ideas and start on collaborative projects that can be more formally developed after the event. </p> <p>One major take away from the past virtual hackathons was that attendees were feeling distracted by other work. If you can, try to reserve the whole week in your schedule so normal work does not intrude on the project work time. Of course, deadlines and emergencies happen, and BrAPI will not always be the top priority. This is just a reminder that you will get more out of the virtual hackathon experience if you can dedicate the time to focus on it. </p>",
+        "overviewImage": {
+            "URL": "#",
+            "path": "/images/events/two-computer-programmers-5.png",
+            "alt": "BrAPI Virtual Hackathon",
+            "caption": "",
+            "source": "AI Generated - freepik.com",
+            "sourceURL": "https://www.freepik.com/ai-images-editor"
+        },
+        "calendarInvite": {
+            "title": "BrAPI Virtual Hackathon - October 2023",
+            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will be October 23-27, 2023. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon",
+            "location": "Virtual",
+            "start": "2023-10-23 08:00:00Z",
+            "end": "2023-10-27 21:00:00Z"
+        },
         "attendees": [
             {"name" : "Peter Selby", "org" : "BrAPI, Cornell University", "email" : "peter.selby@cornell.edu", "session1" : true, "session2" : true},
             {"name" : "Trevor Rife", "org" : "Clemson University", "email" : "twrife@clemson.edu", "session1" : false, "session2" : true},
@@ -49,13 +70,6 @@
         }, {
             "discussion": "Project presentations and wrap up"
         }],
-        "calendarInvite": {
-            "title": "BrAPI Virtual Hackathon - October 2023",
-            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from October 23-27, 2023. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon",
-            "location": "Virtual",
-            "start": "2023-10-23 08:00:00Z",
-            "end": "2023-10-27 21:00:00Z"
-        },
         "agenda": [{
             "date": "Monday, October 23, 2023",
             "schedule": [
@@ -90,12 +104,12 @@
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
                 { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "Analytics WG - Updates and interest meeting" },
                 { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "GraphQL WG - Updates and interest meeting" },
-                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "Containerized Implementations - Discussion on stand-alone server implementations" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
                 { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
                 { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "Analytics WG - Updates and interest meeting" },
                 { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "GraphQL WG - Updates and interest meeting" },
-                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "TBD" }
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "Containerized Implementations - Discussion on stand-alone server implementations" }
             ]
 
         }, {
@@ -103,13 +117,13 @@
             "schedule": [
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
                 { "time": "08:00 - 08:30 UTC", "class": "agenda-bg-blue", "title": "BrAPI Advisory Board Nominations - Informational Session" },
-                { "time": "08:30 - 10:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" },
-                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "Sustainability - Brainstorming session for long term, stable project funding" },
+                { "time": "08:30 - 10:00 UTC", "class": "agenda-bg-blue", "title": "Sustainability - Brainstorming session for long term, stable project funding" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
                 { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
                 { "time": "16:00 - 16:30 UTC", "class": "agenda-bg-pink", "title": "BrAPI Advisory Board Nominations - Informational Session" },
-                { "time": "16:30 - 18:00 UTC", "class": "agenda-bg-pink", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" },
-                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "Sustainability - Brainstorming session for long term, stable project funding" }
+                { "time": "16:30 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Sustainability - Brainstorming session for long term, stable project funding" },
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" }
 
             ]
 
@@ -130,6 +144,27 @@
         }]
     },
     "hackathon-mar-2023": {
+        "dates": "March 20-24, 2023",
+        "location": "CU-ICAR TD Gallery and Plaza, 5 Research Drive, Greenville, SC 29607, USA",
+        "registrationOpen": false,
+        "registrationURL": "https://docs.google.com/forms/d/e/1FAIpQLSeHJ2CYt2SXTUY6yElyHkJl9-vvorJ4F03T03hFDvGK3efSCw/viewform?usp=sf_link",
+        "registrationHookText": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This hackathon is will be in Greenville, South Carolina, USA on March 20-24, 2023. A big Thank You to Trevor Rife and Clemson University for hosting this event. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
+        "overviewText": "<p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community. This weeklong event will provide time for the members of the community to discuss the BrAPI specification, collaborate on projects, socialize and learn from each other. The hackathon is largely self-organizing project work time, with a few scheduled public discussion sessions addressing important community topics. The overall goal is to be as productive as possible in a small window of time, to explore ideas and start on collaborative projects that can be more formally developed after the event. </p>",
+        "overviewImage": {
+            "URL": "https://www.google.com/maps/place/Eugenia+Duke+Bridge/@34.8460368,-82.4012734,19.46z/data=!4m5!3m4!1s0x885831883c537e09:0xe8408b04e79c34ac!8m2!3d34.8462989!4d-82.40172",
+            "path": "/images/events/greenville.jpg",
+            "alt": "BrAPI Hackathon - Greenville, SC",
+            "caption": "Eugenia Duke Bridge over the Reedy River - South Main St, Greenville SC",
+            "source": "Kevin Ruck - shutterstock.com",
+            "sourceURL": "https://www.shutterstock.com/image-photo/reedy-river-skyline-downtown-greenville-south-1165403800"
+        },
+        "calendarInvite": {
+            "title": "BrAPI Hackathon - Greenville, SC, USA",
+            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This hackathon is will be in Greenville, South Carolina, USA on March 20-24, 2023. A big \"thank you\" to Trevor Rife and Clemson University for hosting this event. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon-mar-2023",
+            "location": "CU-ICAR TD Gallery and Plaza, 5 Research Drive, Greenville, SC 29607, USA ",
+            "start": "2023-03-20 13:00:00Z",
+            "end": "2023-03-24 21:00:00Z"
+        },
         "attendees": [
             { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "session1": false, "session2": true },
             { "name": "Leonel Ignacio Kovacic", "org": "IBP", "email": "leonel@leafnode.io", "session1": true, "session2": false },
@@ -226,13 +261,6 @@
             "discussion": "Project presentations and wrap up",
             "session1": "https://youtu.be/QKk-VbMtloI"
         }],
-        "calendarInvite": {
-            "title": "BrAPI Hackathon - Greenville, SC, USA",
-            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This hackathon is will be in Greenville, South Carolina, USA on March 20-24, 2023. A big \"thank you\" to Trevor Rife and Clemson University for hosting this event. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon-mar-2023",
-            "location": "CU-ICAR TD Gallery and Plaza, 5 Research Drive, Greenville, SC 29607, USA ",
-            "start": "2023-03-20 13:00:00Z",
-            "end": "2023-03-24 21:00:00Z"
-        },
         "agenda": [{
             "date": "Monday, March 20, 2023",
             "schedule": [
@@ -303,6 +331,27 @@
         }]
     },
     "hackathon-oct-2022": {
+        "dates": "October 24-28, 2022",
+        "location": null,
+        "registrationOpen": false,
+        "registrationURL": "https://docs.google.com/forms/d/e/1FAIpQLSca4PpcQQT1ndxYJIxjctYTltOPO9uJwUZVgZ8IpgeGkVD68g/viewform?usp=sf_link",
+        "registrationHookText": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from October 24-28, 2022. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
+        "overviewText": "<p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community. This weeklong event will reserve time for the members of the community to discuss the BrAPI specification, collaborate on projects, socialize and learn from each other. The hackathon is largely self-organizing project work time, with a few scheduled public discussion sessions addressing important community topics. The overall goal is to be as productive as possible in a small window of time, to explore ideas and start on collaborative projects that can be more formally developed after the event. </p> <p>Due to the COVID-19 pandemic, it is not possible to bring everyone together in person, so the BrAPI Hackathons have gone virtual. Based on the feedback from the first virtual hackathon in March, the ideal plan would be a mix of virtual and in-person events, when international travel becomes possible again. For now, expect virtual BrAPI hackathons every 6 months to maintain momentum and growth of the community. </p> <p>One major take away from the past virtual hackathons was that attendees were feeling distracted by other work. If you can, try to reserve the whole week in your schedule so normal work does not intrude on the project work time. Of course, deadlines and emergencies happen, and BrAPI will not always be the top priority. This is just a reminder that you will get more out of the virtual hackathon experience if you can dedicate the time to focus on it. </p>",
+        "overviewImage": {
+            "URL": "#",
+            "path": "/images/events/two-computer-programmers-3.png",
+            "alt": "BrAPI Virtual Hackathon",
+            "caption": "",
+            "source": "AI Generated - freepik.com",
+            "sourceURL": "https://www.freepik.com/ai-images-editor"
+        },
+        "calendarInvite": {
+            "title": "BrAPI Virtual Hackathon - October 2022",
+            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from October 24-28, 2022. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
+            "location": "Virtual",
+            "start": "2023-10-24 13:00:00Z",
+            "end": "2023-10-28 21:00:00Z"
+        },
         "attendees": [
             { "name": "Peter Selby", "org": "BrAPI", "email": "peter.selby@cornell.edu", "session1": true, "session2": true },
             { "name": "Guy Davenport", "org": "Daveneti Ltd", "email": "guy@daveneti.com", "session1": true, "session2": false },
@@ -410,126 +459,97 @@
             "session1": "https://youtu.be/anaQB-ueEpE",
             "session2": "https://youtu.be/jFL3InOSDRM"
         }],
-        "agenda": [{
-            "date": "Monday, October 24, 2022",
-            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
-            "sessions": [{
-                    "session": "Session #1",
-                    "class": "agenda-session1",
-                    "discussions": [
-                        { "time": "08:00 - 08:30 UTC", "title": "Welcome! Tech setup, setting expectations, general organizing" },
-                        { "time": "08:30 - 10:00 UTC", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                        { "time": "10:00 - 11:00 UTC", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" }
-                    ]
-                },
-                {
-                    "session": "Session #2",
-                    "class": "agenda-session2",
-                    "discussions": [
-                        { "time": "16:00 - 16:30 UTC", "title": "Welcome! Tech setup, setting expectations, general organizing" },
-                        { "time": "16:30 - 18:00 UTC", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                        { "time": "18:00 - 19:00 UTC", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" }
-                    ]
+        "agenda": [
+            {
+              "date": "Monday, October 24, 2022",
+              "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+                {"time": "08:00 - 08:30 UTC","class": "agenda-bg-blue","title": "Welcome! Tech setup, setting expectations, general organizing"},
+                {"time": "08:30 - 10:00 UTC","class": "agenda-bg-blue","title": "Community Updates - Application demos and presentations from the BrAPI community"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "BrAPI 101 - Introduction class for people who are new to BrAPI"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+                {"time": "16:00 - 16:30 UTC","class": "agenda-bg-pink","title": "Welcome! Tech setup, setting expectations, general organizing"},
+                {"time": "16:30 - 18:00 UTC","class": "agenda-bg-pink","title": "Community Updates - Application demos and presentations from the BrAPI community"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "BrAPI 101 - Introduction class for people who are new to BrAPI"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"
                 }
-            ]
-
-        }, {
-            "date": "Tuesday, October 25, 2022",
-            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
-            "sessions": [{
-                    "session": "Session #1",
-                    "class": "agenda-session1",
-                    "discussions": [
-                        { "time": "08:00 - 08:30 UTC", "title": "BrAPI Advisory Board Nominations - Informational Session", "canceled": true },
-                        { "time": "08:30 - 09:00 UTC", "title": "Community Sabbaticals - Informational Session" },
-                        { "time": "09:00 - 10:00 UTC", "title": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper" },
-                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
-                    ]
-                },
-                {
-                    "session": "Session #2",
-                    "class": "agenda-session2",
-                    "discussions": [
-                        { "time": "16:00 - 16:30 UTC", "title": "BrAPI Advisory Board Nominations - Informational Session" },
-                        { "time": "16:30 - 17:00 UTC", "title": "Community Sabbaticals - Informational Session" },
-                        { "time": "17:00 - 18:00 UTC", "title": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper" },
-                        { "time": "18:00 - 19:00 UTC", "title": "TBD" }
-                    ]
+              ]
+            },
+            {
+              "date": "Tuesday, October 25, 2022",
+              "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+                {"time": "08:00 - 08:30 UTC","class": "agenda-bg-blue","title": "BrAPI Advisory Board Nominations - Informational Session"},
+                {"time": "08:30 - 09:00 UTC","class": "agenda-bg-blue","title": "Community Sabbaticals - Informational Session"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+                {"time": "16:00 - 16:30 UTC","class": "agenda-bg-pink","title": "BrAPI Advisory Board Nominations - Informational Session"},
+                {"time": "16:30 - 17:00 UTC","class": "agenda-bg-pink","title": "Community Sabbaticals - Informational Session"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "BrAPI V2 Publication - Brainstorm session for an updated BrAPI paper"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"
                 }
-            ]
-
-        }, {
-            "date": "Wednesday, October 26, 2022",
-            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
-            "sessions": [{
-                    "session": "Session #1",
-                    "class": "agenda-session1",
-                    "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "Analytics WG - New Working Group Interest Meeting", "canceled": true },
-                        { "time": "09:00 - 10:00 UTC", "title": "GraphQL WG - New Working Group Interest Meeting", "canceled": true },
-                        { "time": "10:00 - 11:00 UTC", "title": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps", "canceled": true }
-                    ]
-                },
-                {
-                    "session": "Session #2",
-                    "class": "agenda-session2",
-                    "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "Analytics WG - New Working Group Interest Meeting" },
-                        { "time": "17:00 - 18:00 UTC", "title": "GraphQL WG - New Working Group Interest Meeting" },
-                        { "time": "18:00 - 19:00 UTC", "title": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps" }
-                    ]
+              ]
+            },
+            {
+              "date": "Wednesday, October 26, 2022",
+              "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Analytics WG - New Working Group Interest Meeting"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "GraphQL WG - New Working Group Interest Meeting"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Analytics WG - New Working Group Interest Meeting"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "GraphQL WG - New Working Group Interest Meeting"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "High Throughput Phenotyping in BrAPI - Use cases and functionality gaps"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"
                 }
-            ]
-
-        }, {
-            "date": "Thursday, October 27, 2022",
-            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
-            "sessions": [{
-                    "session": "Session #1",
-                    "class": "agenda-session1",
-                    "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
-                        { "time": "09:00 - 10:00 UTC", "title": "TBD" },
-                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
-                    ]
-                },
-                {
-                    "session": "Session #2",
-                    "class": "agenda-session2",
-                    "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
-                        { "time": "17:00 - 18:00 UTC", "title": "TBD" },
-                        { "time": "18:00 - 19:00 UTC", "title": "TBD" }
-                    ]
+              ]
+            },
+            {
+              "date": "Thursday, October 27, 2022",
+              "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"
                 }
-            ]
-
-        }, {
-            "date": "Friday, October 28, 2022",
-            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
-            "sessions": [{
-                    "session": "Session #1",
-                    "class": "agenda-session1",
-                    "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
-                        { "time": "09:00 - 10:00 UTC", "title": "Project presentations and wrap up" },
-                        { "time": "10:00 - 11:00 UTC", "title": "Project presentations and wrap up" }
-                    ]
-                },
-                {
-                    "session": "Session #2",
-                    "class": "agenda-session2",
-                    "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "TBD" },
-                        { "time": "17:00 - 18:00 UTC", "title": "Project presentations and wrap up" },
-                        { "time": "18:00 - 19:00 UTC", "title": "Project presentations and wrap up" }
-                    ]
+              ]
+            },
+            {
+              "date": "Friday, October 28, 2022",
+              "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "Project presentations and wrap up"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "Project presentations and wrap up"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "Project presentations and wrap up"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "Project presentations and wrap up"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"
                 }
-            ]
-
-        }]
+              ]
+            }
+          ]
     },
     "hackathon-apr-2022": {
+        "dates": "April 25-29, 2022",
+        "location": null,
+        "registrationOpen": false,
+        "registrationHookText": "Join the BrAPI community for two weeks of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from April 25-29, 2022. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
+        "overviewText": "<p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community. This weeklong event will reserve time for the members of the community to discuss the BrAPI specification, collaborate on projects, socialize and learn from each other. The hackathon is largely self-organizing project work time, with a few scheduled public discussion sessions addressing important community topics. The overall goal is to be as productive as possible in a small window of time, to explore ideas and start on collaborative projects that can be more formally developed after the event. </p> <p>Due to the COVID-19 pandemic, it is not possible to bring everyone together in person, so the BrAPI Hackathons have gone virtual. Based on the feedback from the first virtual hackathon in March, the ideal plan would be a mix of virtual and in-person events, when international travel becomes possible again. For now, expect virtual BrAPI hackathons every 6 months to maintain momentum and growth of the community. </p> <p>One major take away from the past virtual hackathons was that attendees were feeling distracted by other work. If you can, try to reserve the whole week in your schedule so normal work does not intrude on the project work time. Of course, deadlines and emergencies happen, and BrAPI will not always be the top priority. This is just a reminder that you will get more out of the virtual hackathon experience if you can dedicate the time to focus on it. </p>",
         "attendees": [
             { "name": "Khaled Al-Shamaa", "org": "ICARDA", "email": "k.el-shamaa@cgiar.org", "session1": true, "session2": false },
             { "name": "Valentin Guignon", "org": "Alliance of Bioversity and CIAT", "email": "v.guignon@cgiar.org", "session1": true, "session2": false },
@@ -668,122 +688,491 @@
             "session1": "https://youtu.be/0Q6kh2NIzgA",
             "session2": "https://youtu.be/8LE7lzbxgZc"
         }],
-        "agenda": [{
-            "date": "Monday, April 25, 2022",
-            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
-            "sessions": [{
-                    "session": "Session #1",
-                    "class": "agenda-session1",
-                    "discussions": [
-                        { "time": "08:00 - 08:30 UTC", "title": "Welcome! Tech setup, setting expectations, general organizing" },
-                        { "time": "08:30 - 10:00 UTC", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                        { "time": "10:00 - 11:00 UTC", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" }
-                    ]
-                },
-                {
-                    "session": "Session #2",
-                    "class": "agenda-session2",
-                    "discussions": [
-                        { "time": "16:00 - 16:30 UTC", "title": "Welcome! Tech setup, setting expectations, general organizing" },
-                        { "time": "16:30 - 18:00 UTC", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                        { "time": "18:00 - 19:00 UTC", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" }
-                    ]
+        "agenda": [
+            {
+              "date": "Monday, April 25, 2022",
+              "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+                {"time": "08:00 - 08:30 UTC","class": "agenda-bg-blue","title": "Welcome! Tech setup, setting expectations, general organizing"},
+                {"time": "08:30 - 10:00 UTC","class": "agenda-bg-blue","title": "Community Updates - Application demos and presentations from the BrAPI community"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "BrAPI 101 - Introduction class for people who are new to BrAPI"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+                {"time": "16:00 - 16:30 UTC","class": "agenda-bg-pink","title": "Welcome! Tech setup, setting expectations, general organizing"},
+                {"time": "16:30 - 18:00 UTC","class": "agenda-bg-pink","title": "Community Updates - Application demos and presentations from the BrAPI community"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "BrAPI 101 - Introduction class for people who are new to BrAPI"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"
                 }
-            ]
-
+              ]
+            },
+            {
+              "date": "Tuesday, April 26, 2022",
+              "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Genotyping Working Group - Updates and discussion"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "Agronomy/Crop Modeling Working Group - Updates and discussion"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Genotyping Working Group - Updates and discussion"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "Agronomy/Crop Modeling Working Group - Updates and discussion"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "High Dimensional Phenotyping Working Group - Updates and discussion"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"
+                }
+              ]
+            },
+            {
+              "date": "Wednesday, April 27, 2022",
+              "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Analytics/Statistics Outputs in BrAPI"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "Data Versioning - How to handle data sets after edits or QC"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "BrAPI2RDF - Converting between BrAPI and RDF"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Analytics/Statistics Outputs in BrAPI"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "Data Versioning - How to handle data sets after edits or QC"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-pink","title": "Canceled"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"
+                }
+              ]
+            },
+            {
+              "date": "Thursday, April 28, 2022",
+              "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "V2.1 Release & Community Tools Development Plan for 2022"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+                {"time": "15:00 - 16:00 UTC","class": "agenda-bg-pink","title": "Project Discussion: Image Sharing between Fieldbook and BMS"},
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "V2.1 Release & Community Tools Development Plan for 2022"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"
+                }
+              ]
+            },
+            {
+              "date": "Friday, April 29, 2022",
+              "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "Project presentations and wrap up"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "Project presentations and wrap up"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Agronomix Software Presentation"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "Project presentations and wrap up"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "Project presentations and wrap up"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"
+                }
+              ]
+            }
+          ]
+    },
+    "hackathon-oct-2021": {
+        "dates": "October 4-8, 2021",
+        "location": null,
+        "registrationOpen": false,
+        "registrationHookText": "Join the BrAPI community for two weeks of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from Oct 4 - 8, 2021. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. ",
+        "overviewText": "<p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community. This weeklong event will reserve time for the members of the community to discuss the BrAPI specification, collaborate on projects, socialize and learn from each other. The hackathon is largely self-organizing project work time, with a few scheduled public discussion sessions addressing important community topics. The overall goal is to be as productive as possible in a small window of time, to explore ideas and start on collaborative projects that can be more formally developed after the event. </p> <p>Due to the COVID-19 pandemic, it is not possible to bring everyone together in person, so the BrAPI Hackathons have gone virtual. Based on the feedback from the first virtual hackathon in March, the ideal plan would be a mix of virtual and in-person events, when international travel becomes possible again. For now, expect virtual BrAPI hackathons every 6 months to maintain momentum and growth of the community. </p> <p>One major take away from the last virtual hackathon was that attendees were feeling distracted by other work. If you can, try to reserve the whole week in your schedule so normal work does not intrude on the project work time. Of course, deadlines and emergencies happen, and BrAPI will not always be the top priority. This is just a reminder that you will get more out of the virtual hackathon experience if you can dedicate the time to focus on it. </p>",
+        "attendees": [
+            { "name": " Trevor Rife", "org": " Kansas State University", "email": " trife@ksu.edu", "session1": true, "session2": false },
+            { "name": " Chaney Courtney", "org": " PhenoApps", "email": " chaneylc@gmail.com", "session1": true, "session2": false },
+            { "name": " Khaled Al-Shamaa", "org": " ICARDA", "email": " k.el-shamaa@cgiar.org", "session1": true, "session2": false },
+            { "name": " Juan Cesar D. Pineda", "org": " ListenField", "email": " Juan.p@listenfiel.com", "session1": true, "session2": false },
+            { "name": " Cyril Pommier", "org": " INRAE ELIXIR", "email": " cyril.pommier@inrae.fr", "session1": true, "session2": false },
+            { "name": " WAJIHA ABDULLAHI MU'AZ", "org": " IITA KANO STATION", "email": " aswaj@yahoo.com", "session1": true, "session2": false },
+            { "name": " David LeBauer", "org": " The University of Arizona", "email": " dlebauer@email.arizona.edu", "session1": true, "session2": false },
+            { "name": " Bryan Ellerbrock", "org": " Boyce Thompson Institute", "email": " bje24@cornell.edu", "session1": true, "session2": false },
+            { "name": " Bert Droesbeke", "org": " ELIXIR Belgium / VIB-UGent", "email": " bedro@psb.vib-ugent.be", "session1": true, "session2": false },
+            { "name": " Alessandro Cestaro", "org": " Fondazione Edmund Mach", "email": " alessandro.cestaro@fmach.it", "session1": true, "session2": false },
+            { "name": " Diego Micheletti", "org": " Fondazione Edmund Mach", "email": " diego.micheletti@fmach.it", "session1": true, "session2": false },
+            { "name": " Avneesh Kumar", "org": " Colorado State University", "email": " avneesh.kumar@colostate.edu", "session1": true, "session2": false },
+            { "name": " Nahuel Soldevilla", "org": " IBP / Leafnode", "email": " nahuel@leafnode.io", "session1": true, "session2": false },
+            { "name": " Marie-Angélique Laporte", "org": " Alliance of Bioversity and CIAT", "email": " m.a.laporte@cgiar.org", "session1": true, "session2": false },
+            { "name": " Christopher Hernandez", "org": " Louisiana State University", "email": " chernandez@agcenter.lsu.edu", "session1": true, "session2": false },
+            { "name": " Lukas Mueller", "org": " Boyce Thompson Institute", "email": " lam87@cornell.edu", "session1": true, "session2": false },
+            { "name": " Jean-Francois Rami", "org": " CIRAD", "email": " rami@cirad.fr", "session1": true, "session2": false },
+            { "name": " Maikel Verouden", "org": " Wageningen University & Research, Biometris", "email": " maikel.verouden@wur.nl", "session1": true, "session2": false },
+            { "name": " Jenna Hershberger", "org": " Danforth Center, The Land Institute", "email": " jhershberger@danforthcenter.org", "session1": true, "session2": false },
+            { "name": " Lynn Johnson", "org": " Buckler Lab, Cornell", "email": " lcj34@cornell.edu", "session1": true, "session2": false },
+            { "name": " Ivan Omar Perez Masias", "org": " Metrika Group", "email": " ivanpe834@gmail.com", "session1": true, "session2": false },
+            { "name": " Terry Casstevens", "org": " Cornell University", "email": " tmc46@cornell.edu", "session1": true, "session2": false },
+            { "name": " Christian David Pérez Masias", "org": " Metrika Group", "email": " cdperez@gmail.com", "session1": true, "session2": false },
+            { "name": " Alice Boizet", "org": " CIRAD", "email": " alice.boizet@cirad.fr", "session1": true, "session2": false },
+            { "name": " Manuel Feser", "org": " IPK Gatersleben", "email": " feser@ipk-gatersleben.de", "session1": true, "session2": false },
+            { "name": " Omar Benites-Alfaro", "org": " Metrika Group", "email": " obacc07@gmail.com", "session1": true, "session2": false },
+            { "name": " Peter Juro Pereira", "org": " Metrika Group", "email": " peter.jurope@gmail.com", "session1": true, "session2": false },
+            { "name": " Ricardo Ramirez Gonzalez", "org": " John Innes Centre", "email": " Ricardo.ramirez-gonzalez@jic.ac.uk", "session1": true, "session2": false },
+            { "name": " Nick Morales", "org": " Cornell University", "email": " nmorales3142@gmail.com", "session1": true, "session2": false },
+            { "name": " David Phillips", "org": " Breeding Insight", "email": " drp227@cornell.edu", "session1": true, "session2": false },
+            { "name": " Nick Palladino", "org": " Breeding Insight", "email": " np398@cornell.edu", "session1": true, "session2": false },
+            { "name": " Heather Sweeney", "org": " Breeding Insight", "email": " hms243@cornell.edu", "session1": true, "session2": false },
+            { "name": " Vishnu Govindaraj", "org": " Boyce Thompson Institute", "email": " vg249@cornell.edu", "session1": true, "session2": false },
+            { "name": " Isabelle ALIC", "org": " INRAE", "email": " isabelle.alic@inrae.fr", "session1": true, "session2": false },
+            { "name": " Shawn Yarnes", "org": " Breeding Insight", "email": " scy32@cornell.edu", "session1": true, "session2": false },
+            { "name": " Tim Parsons", "org": " Breeding Insight", "email": " tim.parsons@cornell.edu", "session1": true, "session2": false },
+            { "name": " David Waring", "org": " Cornell University", "email": " djw64@cornell.edu", "session1": true, "session2": false },
+            { "name": " Aldrin Batac", "org": " IBP / Leafnode", "email": " aldrin.batac@leafnode.io", "session1": true, "session2": false },
+            { "name": " Carlos Quiros Campos", "org": " Alliance of Bioversity and CIAT", "email": " c.f.quiros@cgiar.org", "session1": true, "session2": false },
+            { "name": " Peter Bradbury", "org": " USDA-ARS", "email": " pjb39@cornell.edu", "session1": true, "session2": false },
+            { "name": " Zack Miller", "org": " Buckler Lab, Cornell", "email": " zrm22@cornell.edu", "session1": true, "session2": false },
+            { "name": " Brandon Madriz Araya", "org": " Alliance of Bioversity and CIAT", "email": " b.madriz@cgiar.org", "session1": true, "session2": false },
+            { "name": " Mariano Omar Crimi", "org": " IBP", "email": " m.crimi@cgiar.org", "session1": true, "session2": false },
+            { "name": " Kristina Riemer", "org": " The University of Arizona", "email": " kristinariemer@email.arizona.edu", "session1": true, "session2": false },
+            { "name": " Mirella Flores", "org": " Boyce Thompson Institute", "email": " mrf252@cornell.edu", "session1": true, "session2": false },
+            { "name": " Clay Birkett", "org": " USDA", "email": " clb343@cornell.edu", "session1": true, "session2": false },
+            { "name": " Adrian Powell", "org": " BTI", "email": " afp43@cornell.edu", "session1": true, "session2": false },
+            { "name": " Brandon Monier", "org": " Cornell University", "email": " brandon.monier@gmail.com", "session1": true, "session2": false },
+            { "name": " Sook Jung", "org": " Washington State University", "email": " sook_jung@wsu.edu", "session1": true, "session2": false },
+            { "name": " Taein Lee", "org": " Washington State University", "email": " leetaei@wsu.edu", "session1": true, "session2": false },
+            { "name": " Andrew Olson", "org": " Cold Spring Harbor Laboratory", "email": " olson@cshl.edu", "session1": true, "session2": false }
+        ],
+        "projects": [
+            { "team": "Trevor Rife", "title": "PhenoLib and Android Account Manager", "description": "PhenoLib and Android Account Manager ", "needs": null, "repo": "https://github.com/PhenoApps/PhenoLib" },
+            { "team": "Chaney Courtney", "title": "PhenoApps integration", "description": "PhenoApps integration, creating general Android service and moving it to a library, creating a Room persistence database using OpenAPI for use in Android", "needs": null, "repo": null },
+            { "team": "Khaled Al-Shamaa", "title": "QBMS R Package", "description": "QBMS R Package from ICARDA ", "needs": "Looking for BMS developer/support", "repo": "https://github.com/icarda-git/QBMS" },
+            { "team": "Juan Cesar (JC) Pineda", "title": "BRAPP: Command Line Tool", "description": "A BrAPI-compliant command-line tool for uploading, viewing, and editing breeding data. Written in python. This application connects with an instance of the BrAPI V2 Test Server that is hosted in Google Cloud.", "needs": null, "repo": null },
+            { "team": "David LeBauer", "title": "TERRA REF v2 Implementation", "description": "Implementing BrAPI v2 in the TERRA REF project server", "needs": null, "repo": null },
+            { "team": "David LeBauer, Kristina Riemer", "title": "BrAPI to ARDN", "description": "Using BrAPI data for crop modeling by converting BrAPI data to the ARDN format", "needs": null, "repo": null },
+            { "team": "Bryan Ellerbrock", "title": "Trial Design Tool (R Shiny)", "description": "Considering working on an R shiny trial design tool that can pull germplasm names, locations, etc from a BrAPI db and then post a completed design", "needs": null, "repo": null },
+            { "team": "Bert Droesbeke", "title": "PIPPA v2 Implementation", "description": "Adding support for BrAPI v2.0 to our phenotyping platform PIPPA", "needs": "Looking for people with experience on adding BrAPI 2.0 to their database", "repo": null },
+            { "team": "Alessandro Cestaro, Diego Micheletti", "title": "FEM BrAPI Implementation", "description": "Integrate our database with BrAPI ", "needs": null, "repo": null },
+            { "team": "Nahuel Soldevilla, Mariano Omar Crimi", "title": "BRAPP: brapi-sync", "description": "Improve brapi-sync app ", "needs": null, "repo": null },
+            { "team": "Nahuel Soldevilla", "title": "BRAPP: brapi-fieldmap", "description": "Improve brapi-fieldmap app ", "needs": null, "repo": null },
+            { "team": "Marie-Angélique Laporte", "title": "Crop Ontology v2 Implementation", "description": "We are moving Crop Ontology to a new system. I am will be implementing the version 2 of the BRAPI calls that are relevant to the CO website. ", "needs": null, "repo": null },
+            { "team": "Marie-Angélique Laporte, Carlos Quiros Campos, Brandon Madriz Araya", "title": "Germplasm data exchange with ClimMob", "description": "It would be great to see how germplasm information can be exchanged from the Breedbase/BMS to ClimMob as a first step to provide on farm experiment information back to breeders", "needs": "If some people from BMS and/or Breedbase are interested and available, that would be great", "repo": null },
+            { "team": "Maikel Verouden", "title": "BrAPI R", "description": "Continue work on the BrAPI R package", "needs": null, "repo": null },
+            { "team": "Terry Casstevens, Zack Miller", "title": "PHG BrAPI Implementation", "description": "Continue building the BrAPI server infrastructure for the Practical Haplotype Graphs (PHG) project", "needs": null, "repo": null },
+            { "team": "Alice Boizet", "title": "PUT Genotyping Data", "description": "Develop new data structures and endpoints to allow for the submission of new genotype data to a server.", "needs": null, "repo": null },
+            { "team": "Vishnu Govindaraj, Lynn Johnson, Zack Miller", "title": "Continue Work on the Genotype Matrix Endpoint", "description": "Planning to implement endpoints for Brapi genotype matrix extract in GDM. Existing one dimensional genotype extract has limitations like not scaling well for large genotype matrices. Also, representing genotypes as single object results in redundant fields with keys and identifiers producing very large response object size. By having a matrix(2 dimensional) extraction, we can resolve those issues and help improve performance of BrAPI clients to large extant.", "needs": null, "repo": null },
+            { "team": "Tim Parsons", "title": "Field Book Stability Improvements", "description": "Field Book stability improvements ", "needs": null, "repo": null },
+            { "team": "Francisco Agosto ", "title": "BrAPI Python Development Resources", "description": "Collection of BrAPI v2.0 compliant stubs and data models for Python. The aim is to have a useful baseline to start (or add) BrAPI to a Python project and to continue work on a basic BrAPI Python Client.", "needs": null, "repo": null }
+        ],
+        "notes": [{
+            "discussion": "Welcome to the BrAPI Hackathon",
+            "session1": "https://youtu.be/BEg6739DgYE",
+            "session2": "https://youtu.be/p0N_rQPbC-k"
+        },{
+            "discussion": "Community Updates",
+            "session1": "https://youtu.be/jkW_FCzO_w0",
+            "session2": "https://youtu.be/zydgvR0JIFk"
+        },{
+            "discussion": "BrAPI 101 - Introduction class",
+            "slides": "https://brapi.org/docs/BrAPI_101.pptx",
+            "session1": "https://youtu.be/GLCR7cxjdJ8",
+            "session2": "https://youtu.be/-l6-lFEJQ6k"
+        },{
+            "discussion": "Agronomy Working Group",
+            "meetingNotes": "https://docs.google.com/document/d/1ITSaFpRqn01_69YxR2vG80gkXnWo5OSo2kiL7KEyP2M/edit",
+            "session1": "https://youtu.be/fFIQJ6MHVmw",
+            "session2": "https://youtu.be/pcJuDBxZLrk"
+        },{
+            "discussion": "High Dimensional Phenotyping Working Group",
+            "meetingNotes": "https://docs.google.com/document/d/1YLD_g85s6tVelyuEVm3V3Q2iYXoG9BEvLwjJ_3MloQI/edit",
+            "session1": "https://youtu.be/6Wnti6p6V_Q",
+            "session2": "https://youtu.be/IUMW8SywFdU"
+        },{
+            "discussion": "BrAPI Infrastructure",
+            "meetingNotes": "https://docs.google.com/document/d/1-rSptkkPHSi_VBDM_93oZ08R4RO1T9_OYD0lE4A6Xv0/edit",
+            "session1": "https://youtu.be/yM0f-zVXJXA",
+            "session2": "https://youtu.be/0A6QeRRFK6A"
+        },{
+            "discussion": "Project Sustainability and Governance",
+            "meetingNotes": "https://docs.google.com/document/d/1x31gwlRGoXLNaI1jALoyQ_9fwnLZfutEAHD147zbkyU/edit",
+            "session1": "https://youtu.be/_eom7j4jgvE",
+            "session2": "https://youtu.be/X0u3AEyJdqg"
+        },{
+            "discussion": "BrAPI-Genotype Performance",
+            "meetingNotes": "https://docs.google.com/document/d/1ZZ1nWfE1pVLKRGN4pZX1ZtiJ60QhFZZJVAynQERTyLI/edit",
+            "session2": "https://youtu.be/HBDbnl2GKqA"
+        },{
+            "discussion": "Authentication",
+            "slides": "https://brapi.org/docs/OAuth_Flow_Virtual_Hackathon.pptx",
+            "session1": "https://youtu.be/ExWObclp0RE",
+            "session2": "https://youtu.be/qWTPjLmFgPU"
+        },{
+            "discussion": "Image Analysis",
+            "meetingNotes": "https://docs.google.com/document/d/1F4VFLH42v0E1tx_qkK98KGEoOI3U9yEq-RrKnzmUOTA/edit",
+            "session2": "https://youtu.be/g3hGa11Yuas"
+        },{
+            "discussion": "BrAPI V2.1 Discussion",
+            "meetingNotes": "https://docs.google.com/document/d/1_lnQUmgAktytzbjLuiqZGh85U1KBSIkRvqz1j2Pm51k/edit",
+            "session1": "https://youtu.be/UsmZomCPjQo",
+            "session2": "https://youtu.be/0YipbIRL8Rg"
+        },{
+            "discussion": "BrAPI V2.1 Discussion (pt 2)",
+            "session1": "https://youtu.be/6uAAhjSeN78",
+            "session2": "https://youtu.be/H5iX9R3IVGM"
+        },{
+            "discussion": "Project Presentations",
+            "session1": "https://youtu.be/yRNFefTGzkM",
+            "session2": "https://youtu.be/4JY1-joOAIw"
+        }],
+"agenda":[{
+        "date": "Monday, October 4, 2021",
+        "schedule": [
+            {"time": "Session #1", "class": "agenda-bg-blue", "title": " "},
+            {"time": "08:00 - 08:30 UTC","class": "agenda-bg-blue","title": "Welcome! Tech setup, setting expectations, general organizing"},
+            {"time": "08:30 - 10:00 UTC","class": "agenda-bg-blue","title": "Community Updates - Application demos and presentations from the BrAPI community"},
+            {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "BrAPI 101 - Introduction class for people who are new to BrAPI"},
+            {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+            {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+            {"time": "16:00 - 16:30 UTC","class": "agenda-bg-pink","title": "Welcome! Tech setup, setting expectations, general organizing"},
+            {"time": "16:30 - 18:00 UTC","class": "agenda-bg-pink","title": "Community Updates - Application demos and presentations from the BrAPI community"},
+            {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "BrAPI 101 - Introduction class for people who are new to BrAPI"},
+            {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"}]
+        },{
+        "date": "Tuesday, October 5, 2021",
+        "schedule": [
+            {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+            {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Agronomy Working Group - Identify use cases and create a work plan"},
+            {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "High Dimensional Phenotyping Working Group - NIRS, Transcriptomics, Metabalomics, etc"},
+            {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+            {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+            {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+            {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Agronomy Working Group - Identify use cases and create a work plan"},
+            {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "High Dimensional Phenotyping Working Group - NIRS, Transcriptomics, Metabalomics, etc"},
+            {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+            {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"}]
+        },{
+        "date": "Wednesday, October 6, 2021",
+        "schedule": [
+            {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+            {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "BrAPI Infrastructure - Developer support tools review and new ideas"},
+            {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "Project Sustainability and Governance - Review plans from recent grant proposal"},
+            {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "BrAPI-Genotype Performance (suggested by Lynn Johnson) <br/> Discuss existing performance strategies and potential improvements in the BrAPI spec"},
+            {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+            {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+            {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "BrAPI Infrastructure - Developer support tools review and new ideas"},
+            {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "Project Sustainability and Governance - Review plans from recent grant proposal"},
+            {"time": "10:00 - 11:00 UTC","class": "agenda-bg-pink","title": "BrAPI-Genotype Performance (suggested by Lynn Johnson) <br/> Discuss existing performance strategies and potential improvements in the BrAPI spec"},
+            {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"}]
+        },{
+        "date": "Thursday, October 7, 2021",
+        "schedule": [
+            {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+            {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Authentication (suggested by Bryan Ellerbrock) <br/> Review BrAPI authentication policy and best practices"},
+            {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "Image Analysis (suggested by Bryan Ellerbrock) <br/> Continue the discussion concerning image analysis pipelines"},
+            {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "BrAPI V2.1 Discussion - Review and prioritize items to go into BrAPI V2.1"},
+            {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+            {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+            {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Authentication (suggested by Bryan Ellerbrock) <br/> Review BrAPI authentication policy and best practices"},
+            {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "Image Analysis (suggested by Bryan Ellerbrock) <br/> Continue the discussion concerning image analysis pipelines"},
+            {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "BrAPI V2.1 Discussion - Review and prioritize items to go into BrAPI V2.1"},
+            {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"}]
+        },{
+        "date": "Friday, October 8, 2021",
+        "schedule": [
+            {"time": "Session #1","class": "agenda-bg-blue","title": " "},
+            {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "BrAPI V2.1 Discussion (continued) - Review and prioritize items to go into BrAPI V2.1"},
+            {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "Project presentations and wrap up"},
+            {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "Project presentations and wrap up"},
+            {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+            {"time": "Session #2","class": "agenda-bg-pink","title": " "},
+            {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "BrAPI V2.1 Discussion (continued) - Review and prioritize items to go into BrAPI V2.1"},
+            {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "Project presentations and wrap up"},
+            {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "Project presentations and wrap up"},
+            {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"}]
+        }]
+    },
+    "hackathon-mar-2021": {
+        "dates": "October 4-8, 2021",
+        "location": null,
+        "registrationOpen": false,
+        "registrationHookText": "Join the BrAPI community for two weeks of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from March 8-19, 2021. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
+        "overviewText": "<p></p>",
+        "attendees": [
+            { "name": " ", "org": " ", "email": " ", "session1": true, "session2": false }
+        ],
+        "projects": [
+            { "team": "", "title": "ALL PROJECTS", "description": "All project descriptions are recorded here: ", "needs": null, "repo": "https://docs.google.com/document/d/1z4EtlSPTkA8FsopVhHrXSIjTOiEkZDqLW_-RiYFCqVY/edit" }
+        ],
+        "notes": [{
+            "discussion": "Welcome to the BrAPI Hackathon",
+            "meetingNotes": "https://docs.google.com/document/d/1kmHe701MsncUDWbL3vA6AipVnYnHuDHUQAQ_1-k4Ayc",
+            "session1": "https://www.youtube.com/watch?v=iOdFFv0fRs8",
+            "session2": "https://youtu.be/1S_UOPgOzpw"
         }, {
-            "date": "Tuesday, April 26, 2022",
-            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
-            "sessions": [{
-                    "session": "Session #1",
-                    "class": "agenda-session1",
-                    "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "Genotyping Working Group - Updates and discussion", "lead": "Alice Boizet" },
-                        { "time": "09:00 - 10:00 UTC", "title": "Agronomy/Crop Modeling Working Group - Updates and discussion", "lead": "Marie-Angélique Laporte" },
-                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
-                    ]
-                },
-                {
-                    "session": "Session #2",
-                    "class": "agenda-session2",
-                    "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "Genotyping Working Group - Updates and discussion", "lead": "Lynn Johnson" },
-                        { "time": "17:00 - 18:00 UTC", "title": "Agronomy/Crop Modeling Working Group - Updates and discussion", "lead": "David LeBauer" },
-                        { "time": "18:00 - 19:00 UTC", "title": "High Dimensional Phenotyping Working Group - Updates and discussion", "lead": "Adrian Powell" }
-                    ]
-                }
-            ]
-
+            "discussion": "BrAPI 101 - Introduction class",
+            "slides": "https://brapi.org/docs/BrAPI_101.pptx",
+            "session1": "https://www.youtube.com/watch?v=rhDRFDAm-C4",
+            "session2": "https://youtu.be/Z_RNSdW6se4"
         }, {
-            "date": "Wednesday, April 27, 2022",
-            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
-            "sessions": [{
-                    "session": "Session #1",
-                    "class": "agenda-session1",
-                    "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "Analytics/Statistics Outputs in BrAPI", "lead": "Peter Selby" },
-                        { "time": "09:00 - 10:00 UTC", "title": "Data Versioning - How to handle data sets after edits or QC", "lead": "Peter Selby" },
-                        { "time": "10:00 - 11:00 UTC", "title": "BrAPI2RDF - Converting between BrAPI and RDF", "lead": "Cyril Pommier, Pierre Larmande" }
-                    ]
-                },
-                {
-                    "session": "Session #2",
-                    "class": "agenda-session2",
-                    "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "Analytics/Statistics Outputs in BrAPI", "lead": "Sam Bouabane" },
-                        { "time": "17:00 - 18:00 UTC", "title": "Data Versioning - How to handle data sets after edits or QC", "lead": "Tim Parsons" },
-                        { "time": "10:00 - 11:00 UTC", "title": "Canceled" }
-                    ]
-                }
-            ]
-
+            "discussion": "Community Updates",
+            "session1": "https://youtu.be/I9-demtfEuk",
+            "session2": "https://youtu.be/Td0bzyTyFg8"
         }, {
-            "date": "Thursday, April 28, 2022",
-            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
-            "sessions": [{
-                    "session": "Session #1",
-                    "class": "agenda-session1",
-                    "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "V2.1 Release & Community Tools Development Plan for 2022", "lead": "Peter Selby" },
-                        { "time": "09:00 - 10:00 UTC", "title": "TBD" },
-                        { "time": "10:00 - 11:00 UTC", "title": "TBD" }
-                    ]
-                },
-                {
-                    "session": "Session #2",
-                    "class": "agenda-session2",
-                    "discussions": [
-                        { "time": "15:00 - 16:00 UTC", "title": "Project Discussion: Image Sharing between Fieldbook and BMS", "lead": "Shawn Yarnes" },
-                        { "time": "16:00 - 17:00 UTC", "title": "V2.1 Release & Community Tools Development Plan for 2022", "lead": "Peter Selby" },
-                        { "time": "17:00 - 18:00 UTC", "title": "TBD" },
-                        { "time": "18:00 - 19:00 UTC", "title": "TBD" }
-                    ]
-                }
-            ]
-
+            "discussion": "BrAPI Version Management",
+            "meetingNotes": "https://docs.google.com/document/d/165Z47FOqS4w4FC1I8qy7_Ujedn7pgNs3QZ8WZd7gNKU",
+            "session1": "https://youtu.be/KJjOLaNOf_4",
+            "session2": "https://youtu.be/rT0xkW3Yjzw"
         }, {
-            "date": "Friday, April 29, 2022",
-            "projectTime": ["00:00 - 08:00 UTC", "11:00 - 16:00 UTC", "19:00 - 23:00 UTC"],
-            "sessions": [{
-                    "session": "Session #1",
-                    "class": "agenda-session1",
-                    "discussions": [
-                        { "time": "08:00 - 09:00 UTC", "title": "TBD" },
-                        { "time": "09:00 - 10:00 UTC", "title": "Project presentations and wrap up" },
-                        { "time": "10:00 - 11:00 UTC", "title": "Project presentations and wrap up" }
-                    ]
-                },
-                {
-                    "session": "Session #2",
-                    "class": "agenda-session2",
-                    "discussions": [
-                        { "time": "16:00 - 17:00 UTC", "title": "Agronomix Software Presentation", "lead": "Kidist Kibret" },
-                        { "time": "17:00 - 18:00 UTC", "title": "Project presentations and wrap up" },
-                        { "time": "18:00 - 19:00 UTC", "title": "Project presentations and wrap up" }
-                    ]
-                }
-            ]
-
+            "discussion": "Advanced Imaging",
+            "meetingNotes": "https://docs.google.com/document/d/1OaNWpXsstZPS9SxuQivSmsVXaV3gugDxDApW29mir_w",
+            "session1": "https://youtu.be/Pd-2RKqg-9Y",
+            "session2": "https://youtu.be/yj7-mZqrCd0"
+        }, {
+            "discussion": "High Dimensionality Phenotypes",
+            "meetingNotes": "https://docs.google.com/document/d/1fc-bk_wyFcHvX-qMEYMf_senvwmgoJVnRLxggDUk9RU",
+            "session2": "https://youtu.be/VEHmz14hl9g"
+        }, {
+            "discussion": "Genotype Data Model Improvements",
+            "meetingNotes": "https://docs.google.com/document/d/1oJX_MiZFthC13wCdDC00HTkwUko-3rRf-hKgAx8Sur8",
+            "session1": "https://youtu.be/yw-VKyXTofs",
+            "session2": "https://youtu.be/VGYxYWWjs2o"
+        }, {
+            "discussion": "Building BrAPI data networks",
+            "meetingNotes": "https://docs.google.com/document/d/13YtNmoXxpKxacmXSM7CM8zR3y7zTWjFdQ7o-epq3us0",
+            "session1": "https://youtu.be/i-njWwICF7Y",
+            "session2": "https://youtu.be/kA5uuCDQfac"
+        }, {
+            "discussion": "Ontologies and data schema discussion",
+            "meetingNotes": "https://docs.google.com/document/d/1DOgfImRE2-nUGCc8gbm31_fDAK3uM_xyNL4GLwFvjSg",
+            "session1": "https://youtu.be/oPA8V_4SxuA",
+            "session2": "https://youtu.be/wZAyeX_WB4w"
+        }, {
+            "discussion": "Alternative Data Query Methods",
+            "meetingNotes": "https://docs.google.com/document/d/15ypl62FBpQnmQnNAAezoEx9JAOQx0teWhJVJpKAzAn0",
+            "session2": "https://youtu.be/uwAPainVfao"
+        }, {
+            "discussion": "Analytics API Discussion",
+            "meetingNotes": "https://docs.google.com/document/d/1LV84TvZDFVZTJ17_XVM_B33NrYrx8Lc3toHhAzOVguQ",
+            "session1": "https://youtu.be/KXFqwQRdbw0",
+            "session2": "https://youtu.be/_jXoDG0RzMg"
+        }, {
+            "discussion": "Next BrAPI Version Discussion",
+            "meetingNotes": "https://docs.google.com/document/d/1MsE8IcvVE_INFnfajyQ6-_9itcJ4n-aYpQVNwhmDV-w",
+            "session1": "https://youtu.be/wu0ufv0TUEI",
+            "session2": "https://youtu.be/8Ys8P6aeziE"
+        }, {
+            "discussion": "Project presentations and wrap up",
+            "session1": "https://youtu.be/tYkJ0uB9Uv8",
+            "session2": "https://youtu.be/7X0AbmMSPx0"
+        }],
+        "agenda":    [{
+            "date": "Monday, March 8, 2021",
+            "schedule": [	
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},	
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Welcome! Tech setup, setting expectations, general organizing"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "BrAPI 101 - Introduction class for people who are new to BrAPI"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},	
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Welcome! Tech setup, setting expectations, general organizing"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "BrAPI 101 - Introduction class for people who are new to BrAPI"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"}]
+        }, {
+            "date": "Tuesday, March 9, 2021",
+            "schedule": [	
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},	
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Community Updates - Application demos and presentations from the BrAPI community"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "Community Updates - Application demos and presentations from the BrAPI community"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},	
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Community Updates - Application demos and presentations from the BrAPI community"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "Community Updates - Application demos and presentations from the BrAPI community"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"}]
+        }, {
+            "date": "Wednesday, March 10, 2021",
+            "schedule": [	
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},	
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "BrAPI Version Management - How to transition from BrAPI V1.3 to V2.0"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},	
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "BrAPI Version Management - How to transition from BrAPI V1.3 to V2.0"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"}]
+        }, {
+            "date": "Thursday, March 11, 2021",
+            "schedule": [	
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},	
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Advanced Imaging - Drone, NIRS, and other imaging tech API discussion"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "High Dimensionality Phenotypes - NIRS spectra, expression data, metabolomic data or ground penetrating radar"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},	
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Advanced Imaging - Drone, NIRS, and other imaging tech API discussion"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "High Dimensionality Phenotypes - NIRS spectra, expression data, metabolomic data or ground penetrating radar"}]
+        }, {
+            "date": "Friday, March 12, 2021",
+            "schedule": [	
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},	
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Genotype data model improvements"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},	
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Genotype data model improvements"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"}]
+        },{
+            "date": "Monday, March 15, 2021",
+            "schedule": [	
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},	
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Building BrAPI data networks for search and discovery"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},	
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Building BrAPI data networks for search and discovery"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"}]
+        }, {
+            "date": "Tuesday, March 16, 2021",
+            "schedule": [	
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},	
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Ontologies and data schema discussion group "},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "Alternative Data Query Methods - Generic DataSet, BrAPI x GraphQL"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},	
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Ontologies and data schema discussion group"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "Alternative Data Query Methods - Generic DataSet, BrAPI x GraphQL"}]
+        }, {
+            "date": "Wednesday, March 17, 2021",
+            "schedule": [	
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},	
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Analytics API discussion"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},	
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Analytics API discussion"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"}]
+        }, {
+            "date": "Thursday, March 18, 2021",
+            "schedule": [
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},	
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Next BrAPI version - Process and timeline"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},	
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Next BrAPI version - Process and timeline"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"}]
+        }, {
+            "date": "Friday, March 19, 2021",
+            "schedule": [	
+                {"time": "Session #1","class": "agenda-bg-blue","title": " "},	
+                {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "TBD"},
+                {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "Project presentations and wrap up"},
+                {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "Project presentations and wrap up"},
+                {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
+                {"time": "Session #2","class": "agenda-bg-pink","title": " "},	
+                {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "TBD"},
+                {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "Project presentations and wrap up"},
+                {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "Project presentations and wrap up"}]
         }]
     }
 }

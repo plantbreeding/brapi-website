@@ -1,0 +1,250 @@
+<section class="module-extra-small" id="hackathon-module">
+    <div class="container" style="min-height: 500px;">
+        <div class="row justify-content-center">
+            <div class="col-8 col-sm-4 col-md-3" id="menu" style="margin-bottom: 20px;">
+                {{#if hackathonData.registrationOpen}}
+                <div>
+                    <a class="btn btn-d btn-round col-12" target="_blank" 
+                        href="{{hackathonData.registrationURL}}">Register</a>
+                </div>
+                {{/if}}
+                <div style="margin-bottom: 1px;">
+                    <a><button id="toggle-overview" class="btn btn-secondary btn-light-gray col-12" type="button"
+                        onclick="toggleVisibleXorHackathon('overview-section')">Overview</button></a>
+                </div>
+                <div style="margin-bottom: 1px;">
+                    <a><button id="toggle-agenda" class="btn btn-secondary btn-light-gray col-12" type="button"
+                        onclick="toggleVisibleXorHackathon('agenda-section')">Agenda</button></a>
+                </div>
+                <div style="margin-bottom: 1px;">
+                    <a><button id="toggle-attendees" class="btn btn-secondary btn-light-gray col-12" type="button"
+                        onclick="toggleVisibleXorHackathon('attendees-section')">Attendees</button></a>
+                </div>
+                <div style="margin-bottom: 1px;">
+                    <a><button id="toggle-projects" class="btn btn-secondary btn-light-gray col-12" type="button"
+                        onclick="toggleVisibleXorHackathon('projects-section')">Project List</button></a>
+                </div>
+                <div style="margin-bottom: 1px;">
+                    <a><button id="toggle-notes" class="btn btn-secondary btn-light-gray col-12" type="button"
+                        onclick="toggleVisibleXorHackathon('notes-section')">Notes and Recordings</button></a>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-8 col-md-9" id="content">
+                <div id="overview-section" style="display: block; scroll-margin-top: 400px;">
+                    <h3 class="font-alt" id="title"> Register </h3>
+                    <div style="margin-left:10px">
+                        <p style="margin: 2px 0 2px 0;"> <strong>When: </strong> {{hackathonData.dates}} <br /> </p>
+                        {{#if hackathonData.location}}
+                        <p style="margin: 2px 0 2px 0;"> <strong>Where: </strong> {{hackathonData.location}} <br></p>
+                        {{else}}
+                        <p style="margin: 2px 0 2px 0;"> <strong>Where: </strong> Virtual <br></p>
+                        {{/if}}
+                        {{#if calendarLinks}}
+                        <p style="margin: 10px 0 2px 0;"> <strong>Add To Calendar: </strong> <br> </p>
+                        <div style="text-align: center">
+                            <a class="btn btn-sm btn-outline-secondary col-8 col-sm-5 col-lg-2" target="_blank"
+                                href="{{calendarLinks.ics}}">.ICS (Outlook, iCal)</a>
+                            <a class="btn btn-sm btn-outline-secondary col-8 col-sm-5 col-lg-2" target="_blank"
+                                href="{{calendarLinks.google}}">Google Cal</a>
+                            <a class="btn btn-sm btn-outline-secondary col-8 col-sm-5 col-lg-2" target="_blank"
+                                href="{{calendarLinks.yahoo}}">Yahoo Cal</a>
+                            <a class="btn btn-sm btn-outline-secondary col-8 col-sm-5 col-lg-2" target="_blank"
+                                href="{{calendarLinks.office365}}">Office365</a>
+                            <a class="btn btn-sm btn-outline-secondary col-8 col-sm-5 col-lg-2" target="_blank"
+                                href="{{calendarLinks.outlook}}">Outlook (web)</a>
+                        </div>
+                        {{/if}}
+
+                        <p style="margin: 20px 0 15px 0;">
+                            {{{hackathonData.registrationHookText}}}
+                        </p>
+                        
+                        {{#if hackathonData.registrationOpen}}
+                        <p style="text-align: center"><a class="btn btn-d btn-round col-8 col-sm-5 col-md-4 col-lg-3" target="_blank"
+                                href="{{hackathonData.registrationURL}}">Register</a>
+                        </p>
+                        {{else}}
+                        <p>Registration CLosed</p>
+                        {{/if}}
+
+                    </div>
+                    <h3 class="font-alt" id="title"> Overview </h3>
+                    <div style="margin-left:10px">
+                        {{{hackathonData.overviewText}}}
+                        {{#if hackathonData.overviewImage}}
+                        <a target="_blank"
+                            href="{{hackathonData.overviewImage.URL}}">
+                            <img src="{{hackathonData.overviewImage.path}}" alt="{{hackathonData.overviewImage.alt}}" />
+                        </a>
+                        <p style="font-size: smaller; font-weight: bold; float: left;">
+                            {{hackathonData.overviewImage.caption}}
+                        </p>
+                        <p style="font-size: smaller; float: right;">
+                            <a href="{{hackathonData.overviewImage.sourceURL}}"
+                                target="_blank">
+                                {{hackathonData.overviewImage.source}}
+                            </a>
+                        </p>
+                        {{/if}}
+                    </div>
+
+                </div>
+
+                <div id="agenda-section" style="display: none; scroll-margin-top: 400px;">
+                    <h3 class="font-alt" id="title"> Agenda </h3>
+                    <div style="margin-left:10px">
+                        {{#if hackathonData.location}}
+                        <p>The hackathon will take place from <strong> {{hackathonData.dates}}</strong>.
+                            <br>
+                            Working days will start at <strong> 9:00 EST local time</strong> (13:00 UTC) and will end
+                            <strong> 17:00 EST local time </strong> (21:00 UTC)
+                            <br>
+                            This agenda is subject to change without warning, please check back regularly.
+                            <br>
+                            If you have a discussion topic you would like to address with the rest of the BrAPI
+                            Community, please contact the BrAPI Coordinator.
+                            <br>
+                            Project work time is assumed to be happening all day, the agenda is only to organize
+                            community discussions. To get the most out of the hackathon experience, please try to
+                            reserve the whole week to participate in collaborative development projects.
+                        </p>
+
+                        {{else}}
+                        <p>This event will take place from <strong> {{hackathonData.dates}}</strong>. There will be two sessions per day to
+                            accommodate many different time zones. Attendees are welcome to attend any and all sessions.
+                        <ul>
+                            <li> <span style="background-color: #d6e6ff;">Discussion Session #1:</span> every day from
+                                08:00 UTC to 11:00 UTC <a target="_blank"
+                                    href="https://www.google.com/search?q=08%3A00+UTC"> (Click for local time) </a>
+                            </li>
+                            <li> <span style="background-color: #f3d6ff;">Discussion Session #2:</span> every day from
+                                16:00 UTC to 19:00 UTC <a target="_blank"
+                                    href="https://www.google.com/search?q=16%3A00+UTC"> (Click for local time) </a>
+                            </li>
+                            <li> <span style="background-color: #deffd6;">Collaborative project work time:</span> All
+                                day, every day of the hackathon</li>
+                        </ul>
+                        This agenda is subject to change without warning, please check back regularly. If you have a
+                        discussion topic you would like to address with the rest of the BrAPI Community, please contact
+                        the BrAPI Coordinator.
+                        Project work time is assumed to be happening all day, the agenda is only to organize community
+                        discussions. To get the most out of the hackathon experience, please try to reserve the whole
+                        week to participate in collaborative development projects.
+                        </p>
+                        {{/if}}
+
+                        <div class="row">
+                            {{#each hackathonData.agenda}}
+                            <div class="col-12 agenda-date" style="padding-right: 0;">{{date}}</div>
+                            <div class="col-12 agenda-bg-green row" style="min-width: 360px; padding-right: 0;">
+                                <div class="col-11" style="padding-right: 0;">
+                                    {{!-- Blank space at the top of the agenda --}}
+                                    <div class="col-12 agenda-bg-green agenda-row row" style="height: 10px;"></div>
+                                    {{#each schedule}}
+                                    {{#if time}}
+                                    <div class="col-12 {{class}} agenda-row row" style=" 
+                                        {{#if canceled}} text-decoration: line-through; {{/if}}">
+                                        <div class="col-12 col-lg-3" style="font-weight: bold;">{{time}}</div>
+                                        <div class="col-12 col-lg-9">{{title}}
+                                            {{#if lead}}<br />Discussion Lead: {{lead}}{{/if}}</div>
+                                    </div>
+                                    {{else}}
+                                    {{!-- Blank space at the top of the agenda --}}
+                                    <div class="col-12 agenda-bg-green agenda-row row" style="height: 10px;"></div>
+                                    {{/if}}
+                                    {{/each}}
+                                    <div class="col-12 agenda-bg-green row" style="padding: 0 0 0 10px; height: 10px;"></div>
+                                </div>
+                                <div class="col-1"
+                                    style="writing-mode: vertical-rl; font-weight: bold; text-align: center; line-height: 14px; display: table; padding:0;">
+                                    <span style="  display: table-cell; vertical-align: middle;">Project Work Time <br> All Day</span></div>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+
+                <div id="attendees-section" style="display: none; scroll-margin-top: 400px;">
+                    <h3 class="font-alt" id="title"> Attendees List </h3>
+                    <div style="margin-left:10px">
+                        <p style="font-weight: bold;">Remote Session #1 (08:00-11:00 UTC)</p>
+                            
+                        {{#each hackathonData.session1List}}
+                        <div class="row" style="margin: 0 0 5px 0; border-bottom: lightgray solid 1px">
+                            <p class="col-12 col-md-4" style="margin: 0; font-weight: bold;">{{name}}</p>
+                            <p class="col-12 col-md-4" style="margin: 0;"><a href="mailto:{{email}}" target="_blank">{{email}}</a></p>
+                            <p class="col-12 col-md-4" style="margin: 0;">{{org}}</p>
+                        </div>
+                        {{/each}}
+
+                        <p style="font-weight: bold; margin: 30px 0 20px 0;">Remote Session #2 (16:00-19:00 UTC)</p>
+                            
+                        {{#each hackathonData.session2List}}
+                        <div class="row" style="margin: 0 0 5px 0; border-bottom: lightgray solid 1px">
+                            <p class="col-12 col-md-4" style="margin: 0; font-weight: bold;">{{name}}</p>
+                            <p class="col-12 col-md-4" style="margin: 0;"><a href="mailto:{{email}}" target="_blank">{{email}}</a></p>
+                            <p class="col-12 col-md-4" style="margin: 0;">{{org}}</p>
+                        </div>
+                        {{/each}}
+                    </div>
+
+                </div>
+
+                <div id="projects-section" style="display: none; scroll-margin-top: 400px;">
+                    <h3 class="font-alt" id="title"> Project List </h3>
+                    <div style="margin-left:10px">
+                        <p>Projects are listed in the order they were received in the registration from. If you would
+                            like to edit any of the information below, please contact the BrAPI Coordinator.</p>
+
+                        {{#each hackathonData.projects}}
+                        {{#if title}}<div class="col-12" style="font-weight: bold; margin: 15px 0 1px 0;"> {{title}}
+                        </div>
+                        {{else}}<div class="col-12" style="font-weight: bold; margin: 15px 0 1px 0;"> Project Title
+                            TBD</div>{{/if}}
+                        <div class="col-12" style="margin: 0 0 5px 0; border-bottom: lightgray solid 1px">
+                            {{#if team}}<div class="col-12"> <span style="font-weight: bold;">Team: </span>{{team}}
+                            </div>{{/if}}
+                            {{#if repo}}<div class="col-12"> <span style="font-weight: bold;">Repository: </span><a
+                                    target="_blank" href="{{repo}}">{{repo}}</a></div>{{/if}}
+                            <div class="col-12"> <span style="font-weight: bold;">Project Description:
+                                </span>{{description}}</div>
+                            {{#if needs}}<div class="col-12"> <span style="font-weight: bold;">This teams needs:
+                                </span>{{needs}}</div>{{/if}}
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+
+
+                <div id="notes-section" style="display: none; scroll-margin-top: 400px;">
+                    <h3 class="font-alt" id="title"> Meeting Notes and Recordings </h3>
+                    <div style="margin-left:10px">
+                        {{#each hackathonData.notes}}
+                        {{#if discussion}}
+                        <div class="col-12" style="margin: 15px 0 0 0">
+                            <span style="">{{discussion}} </span>
+                            <div style="margin: 0 0 0 15px">
+                                {{#if nothing}} -- {{else}}
+                                {{#if slides}} <a href="{{slides}}" target="_blank"><span
+                                        class="mdi mdi-presentation fa-lg"
+                                        style="margin: 0 2px 0 5px;"></span>Slides</a>{{/if}}
+                                {{#if meetingNotes}} <a href="{{meetingNotes}}" target="_blank"><span
+                                        class="mdi mdi-google-drive fa-lg" style="margin: 0 2px 0 5px;"></span>Meeting
+                                    Notes</a>{{/if}}
+                                {{#if session1}} <a href="{{session1}}" target="_blank"><span
+                                        class="mdi mdi-youtube fa-lg" style="margin: 0 2px 0 5px;"></span>Session
+                                    #1</a>{{/if}}
+                                {{#if session2}} <a href="{{session2}}" target="_blank"><span
+                                        class="mdi mdi-youtube fa-lg" style="margin: 0 2px 0 5px;"></span>Session
+                                    #2</a>{{/if}}
+                                {{/if}}
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>

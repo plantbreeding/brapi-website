@@ -2,21 +2,26 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function (req, res, next) {
-    renderGetStarted(0, res);
+    var getStartedArr = require('../public/json/get-started-pages.json');
+    renderGetStarted(0, getStartedArr, res);
 });
 
 router.get('/:pageNum', function (req, res, next) {
-    var pageNum = parseInt(req.params.pageNum);
-    renderGetStarted(pageNum, res);
+    var pageNum = parseInt(req.params.pageNum, 10);
+    if(isNaN(pageNum)){
+        next();
+    }else{
+        var getStartedArr = require('../public/json/get-started-pages.json');
+
+        if (pageNum >= getStartedArr.length || pageNum < 0) {
+            next();
+        }else{
+            renderGetStarted(pageNum, getStartedArr, res);
+        }
+    }
 });
 
-function renderGetStarted(pageNum, res){
-    var getStartedArr = require('../public/json/get-started-pages.json');
-
-    if (pageNum >= getStartedArr.length) {
-        pageNum = 0;
-    }
-
+function renderGetStarted(pageNum, getStartedArr, res){
     var nextHref = '';
     var nextTitle = '';
     var SEOFAQ = '';
