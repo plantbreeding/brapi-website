@@ -67,7 +67,7 @@ var renderHackathonPage = function (hackathonData, eventID, res) {
         if (hackathonData[eventID]["calendarInvite"]) {
             var calendarLinks = buildCalendarLinks(hackathonData[eventID].calendarInvite);
         }
-        res.render('hackathons/hackathon', {
+        res.render('hackathon', {
             title: 'BrAPI Hackathon',
             footerEvents: getTrailerEvents(),
             hackathonData: hackathonData[eventID],
