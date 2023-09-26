@@ -9,7 +9,7 @@
             <div class="row justify-content-center">
                 <div class="col-11 col-sm-8 col-lg-6" style="margin: 10px 0 20px 0; position: relative;">
                     <input class="search" style="width: 100%;" placeholder="Search for BrAPI Compatible Software">
-                    <span class="mdi mdi-magnify custom-bullet-point"
+                    <span class="iconify custom-bullet-point" data-icon="mdi-magnify"
                         style="vertical-align: top; line-height: 30px; position: absolute; right: 10px;"></span>
                     <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
                 </div>
@@ -29,18 +29,23 @@
             </div>
 
                 <div class="col-12" style="margin: 10px 0 0 0"> Sort By: 
+                    <span class='sort btn btn-sm btn-outline-secondary col-4 col-sm-3 col-md-2 col-lg-1' data-sort='software-date'>Date
+                        <span class="sort-sym iconify" data-icon="mdi-sort-calendar-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
+                        <span class="sort-sym iconify" data-icon="mdi-sort-calendar-descending" style="line-height: 20px; font-size:20px; vertical-align: middle;"></span>
+                    </span>
                     <span class='sort btn btn-sm btn-outline-secondary col-4 col-sm-3 col-md-2 col-lg-1' data-sort='software-title'>Name
-                        <span class="sort-sym mdi mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
-                        <span class="sort-sym mdi mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle;"></span>
+                        <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
+                        <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
                     </span>
                     <span class='sort btn btn-sm btn-outline-secondary col-4 col-sm-3 col-md-2 col-lg-1' data-sort='software-team'>Team
-                        <span class="sort-sym mdi mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
-                        <span class="sort-sym mdi mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
+                        <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
+                        <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
                     </span>
                 </div>
             <ul class="list" style="list-style-type: none; padding: 0;">
                 {{#each software}}
                 <li class="row justify-content-center">
+                    <div class="software-date" style="display: none;">{{ date }}</div>
                     <div class="col-12 brapp">
                         <div class="row justify-content-center brapp-box">
                             <div class="brapp-thumbnail col-12 col-md-4 justify-content-center" style="display: flex;">
@@ -93,11 +98,11 @@
 
     $(document).ready(function () {
         var options = {
-            valueNames: [ 'software-title', 'software-team' ]
+            valueNames: [ 'software-title', 'software-team', 'software-date' ]
         };
 
         var softwareList = new List('software-list', options); 
-        softwareList.sort('software-title')
+        softwareList.sort('software-date', { order: "desc" });
 
         $('#list-size').html('Showing ' + softwareList.visibleItems.length + ' of ' + softwareList.size());
         softwareList.on('searchComplete', function(e){

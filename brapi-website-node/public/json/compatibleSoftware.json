@@ -7,7 +7,8 @@
         "url": "https://southgreen.fr/content/gigwa",
         "source-url": "https://github.com/SouthGreenPlatform/Gigwa2",
         "doc-url": "",
-        "demo-url": "https://gigwa.southgreen.fr/gigwa/"
+        "demo-url": "https://gigwa.southgreen.fr/gigwa/",
+        "date": "2023-05-18"
     }, {
         "team": "Breeding Insight, Cornell University",
         "team-url": "https://breedinginsight.org/about-bi/",
@@ -17,7 +18,8 @@
         "url": "https://app.breedinginsight.net",
         "source-url": "https://github.com/Breeding-Insight/bi-api/releases",
         "doc-url": "https://breedinginsight.atlassian.net/wiki/spaces/LH/pages/1680179235/DeltaBreed",
-        "demo-url": "https://sandbox.breedinginsight.net/"
+        "demo-url": "https://sandbox.breedinginsight.net/",
+        "date": "2023-04-26"
     }, {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://www.hutton.ac.uk",
@@ -27,7 +29,8 @@
         "url": "https://helium.hutton.ac.uk",
         "source-url": "https://github.com/cardinalb/helium-docs",
         "doc-url": "https://github.com/cardinalb/helium-docs",
-        "demo-url": "https://helium.hutton.ac.uk"
+        "demo-url": "https://helium.hutton.ac.uk",
+        "date": "2023-02-13"
     }, {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk",
@@ -37,7 +40,8 @@
         "url": "https://gridscore.hutton.ac.uk",
         "source-url": "https://github.com/cropgeeks/gridscore-next-client",
         "doc-url": "https://cropgeeks.github.io/gridscore-next-client",
-        "demo-url": "https://gridscore.hutton.ac.uk"
+        "demo-url": "https://gridscore.hutton.ac.uk",
+        "date": "2023-09-25"
     }, {
         "team": "OpenSILEX",
         "team-url": "http://opensilex.org/",
@@ -47,7 +51,8 @@
         "url": "http://www.phis.inra.fr/",
         "source-url": "https://github.com/OpenSILEX/opensilex",
         "doc-url": "https://github.com/OpenSILEX/opensilex/blob/master/opensilex-doc/src/main/resources/index.md",
-        "demo-url": "http://opensilex.org/sandbox/app/"
+        "demo-url": "http://opensilex.org/sandbox/app/",
+        "date": "2023-01-09"
     }, {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/software/",
@@ -57,7 +62,8 @@
         "url": "https://ics.hutton.ac.uk/flapjack/",
         "source-url": "https://github.com/cropgeeks/flapjack",
         "doc-url": "https://flapjack.hutton.ac.uk/en/latest/",
-        "demo-url": ""
+        "demo-url": "",
+        "date": "2022-12-14"
     }, {
         "team": "Diversity Arrays Technology",
         "team-url": "https://www.diversityarrays.com/",
@@ -67,7 +73,8 @@
         "url": "https://ordering.diversityarrays.com/login.pl?dest=/order_mgmt.pl",
         "source-url": "",
         "doc-url": "https://github.com/plantbreeding/sample-orchestrator-test-client",
-        "demo-url": ""
+        "demo-url": "",
+        "date": "2022-12-14"
     }, {
         "team": "Cornell University - BRC",
         "team-url": "https://www.biotech.cornell.edu/facilities-brc",
@@ -77,7 +84,8 @@
         "url": "https://slimstest.biotech.cornell.edu/",
         "source-url": "",
         "doc-url": "https://github.com/plantbreeding/sample-orchestrator-test-client",
-        "demo-url": ""
+        "demo-url": "",
+        "date": "2022-12-14"
     }, {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/software/",
@@ -87,7 +95,8 @@
         "url": "https://germinateplatform.github.io/get-germinate/",
         "source-url": "https://github.com/germinateplatform/germinate-vue",
         "doc-url": "https://germinateplatform.github.io/germinate-training/",
-        "demo-url": "https://ics.hutton.ac.uk/germinate-demo/#/home"
+        "demo-url": "https://ics.hutton.ac.uk/germinate-demo/#/home",
+        "date": "2022-12-14"
     }, {
         "team": "Main Lab Bioinformatics at WSU",
         "team-url": "https://www.bioinfo.wsu.edu/",
@@ -97,7 +106,8 @@
         "url": "https://www.breedwithbims.org/",
         "source-url": "https://gitlab.com/mainlabwsu/bims",
         "doc-url": "https://www.breedwithbims.org/bims_brapi",
-        "demo-url": ""
+        "demo-url": "",
+        "date": "2022-12-14"
     }, {
         "team": "ICARDA",
         "team-url": "https://www.icarda.org/",
@@ -107,7 +117,8 @@
         "url": "https://icarda-git.github.io/QBMS/",
         "source-url": "https://github.com/icarda-git/QBMS/",
         "doc-url": "https://icarda-git.github.io/QBMS/reference/index.html",
-        "demo-url": ""
+        "demo-url": "",
+        "date": "2022-12-14"
     }, {
         "team": "Phenospex",
         "team-url": "https://phenospex.com/",
@@ -117,7 +128,8 @@
         "url": "https://phenospex.com/products/plant-phenotyping/science-hortcontrol-data-management-software/",
         "source-url": "",
         "doc-url": "https://phenospex.com/blog/brapi-automate-the-data-transfer-into-your-workflow/",
-        "demo-url": ""
+        "demo-url": "",
+        "date": "2022-12-14"
     }, {
         "team": "Forest Biotech Lab",
         "team-url": "https://www.itqb.unl.pt/labs/forest-biotech",
@@ -127,7 +139,8 @@
         "url": "https://github.com/forestbiotech-lab/PHENO",
         "source-url": "https://github.com/forestbiotech-lab/PHENO",
         "doc-url": "https://github.com/forestbiotech-lab/PHENO#readme",
-        "demo-url": ""
+        "demo-url": "",
+        "date": "2022-12-14"
     }, {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/software/",
@@ -137,7 +150,8 @@
         "url": "https://github.com/cropgeeks/brapi-java",
         "source-url": "https://github.com/cropgeeks/brapi-java",
         "doc-url": "",
-        "demo-url": ""
+        "demo-url": "",
+        "date": "2022-12-14"
     }, {
         "team": "AgMIP",
         "team-url": "https://agmip.org/",
@@ -147,7 +161,8 @@
         "url": "https://agmip.github.io/ARDN/",
         "source-url": "https://github.com/cct-datascience/ardn-terra-ref",
         "doc-url": "https://github.com/cct-datascience/ardn-terra-ref/blob/master/README.md",
-        "demo-url": ""
+        "demo-url": "",
+        "date": "2022-12-14"
     }, {
         "title": "GRIN-Global",
         "team": "USDA-ARS",
@@ -156,7 +171,8 @@
         "tags": ["Web Service", "Client"],
         "image": "/images/apps/Grin-Global-logo.gif",
         "url": "https://www.grin-global.org/",
-        "source-url": "https://gitlab.com/GRIN-Global/GRIN-Global-server/-/tree/master"
+        "source-url": "https://gitlab.com/GRIN-Global/GRIN-Global-server/-/tree/master",
+        "date": "2022-12-14"
     }, {
         "title": "FAIDARE",
         "team": "INRAe - URGI",
@@ -166,7 +182,8 @@
         "image": "https://urgi.versailles.inra.fr/faidare/assets/logo.png",
         "url": "https://urgi.versailles.inrae.fr/faidare/",
         "source-url": "https://github.com/elixir-europe/plant-brapi-etl-faidare",
-        "doc-url": "https://urgi.versailles.inrae.fr/faidare/join"
+        "doc-url": "https://urgi.versailles.inrae.fr/faidare/join",
+        "date": "2022-12-14"
     }, {
         "title": "GLIS DOI Registration Service",
         "team": "Food and Agriculture Organization of the United Nations",
@@ -175,7 +192,8 @@
         "tags": ["Web Service"],
         "image": "/images/apps/glis-thumb.png",
         "url": "https://ssl.fao.org/glis/site/doiindex",
-        "demo-url": "https://glistest.planttreaty.org/glisapi/v1/calls"
+        "demo-url": "https://glistest.planttreaty.org/glisapi/v1/calls",
+        "date": "2022-12-14"
     }, {
         "title": "Field Book",
         "team": "PhenoApps",
@@ -184,7 +202,8 @@
         "tags": ["Client", "Android"],
         "image": "/images/apps/fieldbook_icon.png",
         "url": "https://play.google.com/store/apps/details?id=com.fieldbook.tracker",
-        "source-url": "https://github.com/PhenoApps/Field-Book"
+        "source-url": "https://github.com/PhenoApps/Field-Book",
+        "date": "2022-12-14"
     },
     {
         "title": "Breeding Management System (BMS)",
@@ -195,7 +214,8 @@
         "image": "/images/apps/bms-thumb.png",
         "url": "https://bmspro.io/",
         "source-url": "https://github.com/IntegratedBreedingPlatform/BMSAPI",
-        "doc-url": "https://bmspro.io/1742/how-to"
+        "doc-url": "https://bmspro.io/1742/how-to",
+        "date": "2021-02-04"
     },
     {
         "title": "Breedbase",
@@ -207,7 +227,8 @@
         "url": "https://breedbase.org/",
         "source-url": "https://github.com/solgenomics/sgn",
         "demo-url": "https://breedbase.org/",
-        "doc-url": "https://github.com/solgenomics/sgn/wiki"
+        "doc-url": "https://github.com/solgenomics/sgn/wiki",
+        "date": "2020-09-10"
     },
     {
         "image": "/images/apps/MrBean_thumb.png",
@@ -223,7 +244,8 @@
             "BrAPP",
             "Client",
             "R-Shiny"
-        ]
+        ],
+        "date": "2021-12-06"
     },
     {
         "image": "/images/apps/brapi-sync-thumb.png",
@@ -238,7 +260,8 @@
             "BrAPP",
             "Client",
             "JS"
-        ]
+        ],
+        "date": "2021-10-19"
     },
     {
         "image": "/images/apps/flapjack-bytes-thumb.png",
@@ -250,7 +273,8 @@
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/",
         "description": "Flapjack-Bytes is a graphical genotype visualization library. The visualization is modelled on the pre-existing Java desktop application Flapjack. ",
-        "tags": ["BrAPP", "Client", "JS"]
+        "tags": ["BrAPP", "Client", "JS"],
+        "date": "2020-08-04"
     },
     {
         "image": "/images/apps/fieldmap-thumb.png",
@@ -266,7 +290,8 @@
             "BrAPP",
             "Client",
             "JS"
-        ]
+        ],
+        "date": "2021-10-19"
     },
     {
         "image": "/images/apps/graphical-filtering-thumb.png",
@@ -282,7 +307,8 @@
             "BrAPP",
             "Client",
             "JS"
-        ]
+        ],
+        "date": "2020-08-04"
     },
     {
         "image": "/images/apps/variable-ontology-widget-thumb.png",
@@ -298,7 +324,8 @@
             "BrAPP",
             "Client",
             "JS"
-        ]
+        ],
+        "date": "2020-08-04"
     },
     {
         "image": "/images/apps/trial-comp-thumb.png",
@@ -314,7 +341,8 @@
             "BrAPP",
             "Client",
             "JS"
-        ]
+        ],
+        "date": "2020-08-04"
     },
     {
         "image": "/images/apps/pedigree-thumb.png",
@@ -330,7 +358,8 @@
             "BrAPP",
             "Client",
             "JS"
-        ]
+        ],
+        "date": "2020-08-04"
     },
     {
         "image": "/images/apps/beegmac-thumb.png",
@@ -346,7 +375,8 @@
             "BrAPP",
             "Client",
             "JS"
-        ]
+        ],
+        "date": "2020-08-04"
     },
     {
         "image": "/images/apps/cmv-thumb.png",
@@ -358,10 +388,7 @@
         "team": "BreedBase",
         "team-url": "https://breedbase.org/",
         "description": "Comparative Map Viewer, this is a fully BrAPI compliant tool for viewing and comparing genetic maps ",
-        "tags": [
-            "BrAPP",
-            "Client",
-            "Perl"
-        ]
+        "tags": ["BrAPP", "Client", "Perl"],
+        "date": "2020-08-04"
     }
 ]

@@ -13,9 +13,9 @@ function toggleVisible(toggleId, btnId, displayTxt, hideTxt) {
 
     var btnElm = document.getElementById(btnId);
     if (toggleElm.style.display === "block")
-        btnElm.innerHTML = "<span class=\"mdi mdi-chevron-double-up\"></span> " + displayTxt + " <span class=\"mdi mdi-chevron-double-up\"></span>";
+        btnElm.innerHTML = "<span class=\"iconify\" data-icon=\"mdi-chevron-double-up\"></span> " + displayTxt + " <span class=\"iconify\" data-icon=\"mdi-chevron-double-up\"></span>";
     else
-        btnElm.innerHTML = "<span class=\"mdi mdi-chevron-double-down\"></span> " + hideTxt + " <span class=\"mdi mdi-chevron-double-down\"></span>";
+        btnElm.innerHTML = "<span class=\"iconify\" data-icon=\"mdi-chevron-double-down\"></span> " + hideTxt + " <span class=\"iconify\" data-icon=\"mdi-chevron-double-down\"></span>";
 }
 
 function toggleVisibleXor(visibleId, allIds, defaultIndex) {
