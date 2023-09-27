@@ -162,7 +162,7 @@
         },
         "calendarInvite": {
             "title": "BrAPI Hackathon - Greenville, SC, USA",
-            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This hackathon is will be in Greenville, South Carolina, USA on March 20-24, 2023. A big \"thank you\" to Trevor Rife and Clemson University for hosting this event. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon-mar-2023",
+            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This hackathon is will be in Greenville, South Carolina, USA on March 20-24, 2023. A big \"thank you\" to Trevor Rife and Clemson University for hosting this event. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon?id=hackathon-mar-2023",
             "location": "CU-ICAR TD Gallery and Plaza, 5 Research Drive, Greenville, SC 29607, USA ",
             "start": "2023-03-20 13:00:00Z",
             "end": "2023-03-24 21:00:00Z"

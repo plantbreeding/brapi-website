@@ -45,8 +45,8 @@ $wgLogo = "$wgResourceBasePath/images/brapi-logo.svg";
 $wgEnableEmail = false;
 $wgEnableUserEmail = false; # UPO
 
-$wgEmergencyContact = "apache@test.brapi.org";
-$wgPasswordSender = "apache@test.brapi.org";
+$wgEmergencyContact = "apache@brapi.org";
+$wgPasswordSender = "apache@brapi.org";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
