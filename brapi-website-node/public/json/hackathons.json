@@ -45,7 +45,8 @@
             {"name" : "Khaled Al-Shamaa", "org" : "ICARDA", "email" : "k.el-shamaa@cgiar.org", "session1" : true, "session2" : false},
             {"name" : "Taein Lee", "org" : "Washington State University", "email" : "leetaei@wsu.edu", "session1" : false, "session2" : true},
             {"name" : "Chun-Huai Cheng", "org" : "Washington State University", "email" : "chun-huai.cheng@wsu.edu", "session1" : false, "session2" : true},
-            {"name" : "Agnes Aboagye", "org" : "University of Nottingham", "email" : "Agnes.Aboagye@nottingham.ac.uk", "session1" : false, "session2" : true}
+            {"name" : "Agnes Aboagye", "org" : "University of Nottingham", "email" : "Agnes.Aboagye@nottingham.ac.uk", "session1" : false, "session2" : true},
+            {"name" : "Yannick De Oliveira", "org" : "INRAE", "email" : "yannick.de-oliveira@inrae.fr", "session1" : true, "session2" : false}
         ],
         "projects": [
             {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "DArTView", "needs" : null, "repo" : null},

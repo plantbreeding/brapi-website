@@ -315,7 +315,7 @@
     {
         "name": "South Green",
         "description": "South Green is a bioinformatics platform applied to the genomic resource analysis of southern and Mediterranean plants.",
-        "logo": "https://brapi.org/images/institutions/southgreen.png",
+        "logo": "https://brapi.org/images/institutions/south_green.png",
         "resources": [{
             "name": "Gigwa",
             "v2-url": "https://gigwa.southgreen.fr/gigwa/rest/brapi/v2/",
@@ -330,7 +330,7 @@
     {
         "name": "The Crop Ontology",
         "description": "The Crop Ontology project website.",
-        "logo": "https://brapi.org/images/institutions/cropontology.png",
+        "logo": "https://brapi.org/images/institutions/crop_ontology.png",
         "resources": [{
             "name": "Crop Ontology BrAPI implementation",
             "v1-url": "https://cropontology.org/brapi/v1/",

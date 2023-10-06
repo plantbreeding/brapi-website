@@ -14,5 +14,29 @@ Disallow: /api
 Disallow: /*.php$
 Disallow: /;
 
+User-agent: bingbot
+Allow: /
+Disallow: /admin
+Disallow: /brapi/oidc
+Disallow: /api
+Disallow: /*.php$
+Disallow: /;
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /admin
+Disallow: /brapi/oidc
+Disallow: /api
+Disallow: /*.php$
+Disallow: /;
+
+User-agent: archive.org_bot
+Allow: /
+Disallow: /admin
+Disallow: /brapi/oidc
+Disallow: /api
+Disallow: /*.php$
+Disallow: /;
+
 User-agent: *
 Disallow: /

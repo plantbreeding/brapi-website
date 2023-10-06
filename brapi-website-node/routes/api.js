@@ -167,6 +167,13 @@ router.post('/announcement', function (req, res, next) {
             .then(() => {
 
                 const now = new Date(Date.now());
+                
+                var emailArticle = req.body.article
+                .replace(/<img/g, '<table> <tr> <td valign="top" align="center"> <img width="520" height="130" alt="Alt" border="0" style="display:block; max-width:520px;" ')
+                .replace(/><\/img>/g, '/> </td> </tr> </table>')
+                .replace(/src="\//g, 'src="https://brapi.org/')
+                .replace(/href="\//g, 'href="https://brapi.org/');
+
                 var emailData = {
                     from: 'BrAPI Announcements <' + process.env.ANNOUNCEMENT_EMAIL_ADDR + '>',
                     to: process.env.ANNOUNCEMENT_EMAIL_ADDR,
@@ -177,7 +184,7 @@ router.post('/announcement', function (req, res, next) {
                         "title": req.body.title,
                         "date": req.body.date,
                         "author": req.body.author,
-                        "article": req.body.article
+                        "article": emailArticle
                     }),
                     'h:List-Unsubscribe': 'http://brapi.org/unsubscribe',
                     'h:Date': now.toUTCString()
