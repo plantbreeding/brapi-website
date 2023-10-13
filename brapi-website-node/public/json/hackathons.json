@@ -46,7 +46,12 @@
             {"name" : "Taein Lee", "org" : "Washington State University", "email" : "leetaei@wsu.edu", "session1" : false, "session2" : true},
             {"name" : "Chun-Huai Cheng", "org" : "Washington State University", "email" : "chun-huai.cheng@wsu.edu", "session1" : false, "session2" : true},
             {"name" : "Agnes Aboagye", "org" : "University of Nottingham", "email" : "Agnes.Aboagye@nottingham.ac.uk", "session1" : false, "session2" : true},
-            {"name" : "Yannick De Oliveira", "org" : "INRAE", "email" : "yannick.de-oliveira@inrae.fr", "session1" : true, "session2" : false}
+            {"name" : "Yannick De Oliveira", "org" : "INRAE", "email" : "yannick.de-oliveira@inrae.fr", "session1" : true, "session2" : false},
+            {"name" : "Flynn Gabert", "org" : "Attending as an independent Person, Attending university as a second year student in computer science.", "email" : "flynng03@outlook.com.au", "session1" : true, "session2" : false},
+            {"name" : "Mirella Flores", "org" : "BTI", "email" : "mrf252@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "David Meidlinger", "org" : "Breeding Insight", "email" : "djm226@cornell.edu", "session1" : true, "session2" : false},
+            {"name" : "Gouripriya Davuluri", "org" : "IPK gatersleben", "email" : "davuluri@ipk-gatersleben.de", "session1" : true, "session2" : true},
+            {"name" : "Joshua Lamos-Sweeney", "org" : "ILCI", "email" : "jdl232@cornell.edu", "session1" : false, "session2" : true}
         ],
         "projects": [
             {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "DArTView", "needs" : null, "repo" : null},
@@ -61,7 +66,9 @@
             {"team" : "Alice Boizet, Cyril Pommier (INRAE)", "title" : "FAIDARE Updates", "description" : "Working on Germplasm services that we are currently using to exchange data on genetic resources. Possibly indexing some BrAPI servers if there is time available that week.", "needs" : null, "repo" : null},
             {"team" : "Bryan Ellerbrock", "title" : "Field Book issue #458", "description" : "Nearby sharing for BrAPI settings in Field-Book app", "needs" : null, "repo" : "https://github.com/PhenoApps/Field-Book/issues/458"},
             {"team" : "Anyone interested.", "title" : "BrAPI Test Server Upgrades", "description" : "I have a few ideas, one is productionalizing BrAPI Java TestServer.", "needs" : "It would be helpful to talk to someone more experienced with the BrAPI Java TestServer and the technology it's built with (hibernate, etc.)", "repo" : "https://github.com/Breeding-Insight/brapi-Java-TestServer/"},
-            {"team" : "Khaled Al-Shamaa, EBS developer(s)", "title" : "QBMS x EBS", "description" : "Integrate EBS support into the QBMS R Package", "needs" : null, "repo" : "https://github.com/icarda-git/QBMS"}
+            {"team" : "Khaled Al-Shamaa, EBS developer(s)", "title" : "QBMS x EBS", "description" : "Integrate EBS support into the QBMS R Package", "needs" : null, "repo" : "https://github.com/icarda-git/QBMS"},
+            {"team" : "David Meidlinger", "title" : "BrAPI-GraphQl proxy server", "description" : "BrAPI-GraphQl proxy server", "needs" : null, "repo" : null},
+            {"team" : "Gouripriya Davuluri", "title" : "ISA Files", "description" : "Preparing Agent ISA Files for use with MIRA", "needs" : null, "repo" : null}
         ],
         "notes": [
         {
