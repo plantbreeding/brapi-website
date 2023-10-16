@@ -51,9 +51,12 @@
             {"name" : "Mirella Flores", "org" : "BTI", "email" : "mrf252@cornell.edu", "session1" : false, "session2" : true},
             {"name" : "David Meidlinger", "org" : "Breeding Insight", "email" : "djm226@cornell.edu", "session1" : true, "session2" : false},
             {"name" : "Gouripriya Davuluri", "org" : "IPK gatersleben", "email" : "davuluri@ipk-gatersleben.de", "session1" : true, "session2" : true},
-            {"name" : "Joshua Lamos-Sweeney", "org" : "ILCI", "email" : "jdl232@cornell.edu", "session1" : false, "session2" : true}
+            {"name" : "Joshua Lamos-Sweeney", "org" : "ILCI", "email" : "jdl232@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "Jean-Francois Rami", "org" : "CIRAD", "email" : "rami@cirad.fr", "session1" : true, "session2" : false},
+            {"name" : "Matthijs Brouwer", "org" : "Wageningen University & Research", "email" : "matthijs.brouwer@wur.nl", "session1" : true, "session2" : false}
         ],
         "projects": [
+            {"team" : "Cyril Pommier", "title" : "FAIDARE", "description" : "FAIDARE Update, possibly indexing some BrAPI servers if I have time available that week.", "needs" : null, "repo" : null},
             {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "DArTView", "needs" : null, "repo" : null},
             {"team" : "Erik Kusch, Desalegn Chala Gelete", "title" : "BioDT Wild Relative Project", "description" : "I would like to personally explore how the BrAPI could interface with a crop wild relative use case which is part of the BioDT project.", "needs" : null, "repo" : "https://github.com/DesalegnChala/CWR-pDT"},
             {"team" : "Chaney Courtney", "title" : "Field Book", "description" : "FieldBook", "needs" : null, "repo" : null},
@@ -65,10 +68,12 @@
             {"team" : "Patrick König, Manuel Feser (IPK)", "title" : "DivBrowse Implementation", "description" : "Implementing / Supporting the BrAPI Phenotyping API in DivBrowse", "needs" : null, "repo" : "https://github.com/IPK-BIT/divbrowse"},
             {"team" : "Alice Boizet, Cyril Pommier (INRAE)", "title" : "FAIDARE Updates", "description" : "Working on Germplasm services that we are currently using to exchange data on genetic resources. Possibly indexing some BrAPI servers if there is time available that week.", "needs" : null, "repo" : null},
             {"team" : "Bryan Ellerbrock", "title" : "Field Book issue #458", "description" : "Nearby sharing for BrAPI settings in Field-Book app", "needs" : null, "repo" : "https://github.com/PhenoApps/Field-Book/issues/458"},
-            {"team" : "Anyone interested.", "title" : "BrAPI Test Server Upgrades", "description" : "I have a few ideas, one is productionalizing BrAPI Java TestServer.", "needs" : "It would be helpful to talk to someone more experienced with the BrAPI Java TestServer and the technology it's built with (hibernate, etc.)", "repo" : "https://github.com/Breeding-Insight/brapi-Java-TestServer/"},
+            {"team" : "Tim Parsons", "title" : "DeltaBreed x Field Book", "description" : "Field Book to DeltaBreed BrAPI integration (almost done), Sample manager integration into DeltaBreed", "needs" : null, "repo" : null},
+            {"team" : "Anyone interested.", "title" : "BrAPI Test Server Upgrades", "description" : "Store AdditionalInfo as JSONB in BrAPI Java TestServer", "needs" : "It would be helpful to talk to someone more experienced with the BrAPI Java TestServer and the technology it's built with (hibernate, etc.)", "repo" : "https://github.com/Breeding-Insight/brapi-Java-TestServer/"},
             {"team" : "Khaled Al-Shamaa, EBS developer(s)", "title" : "QBMS x EBS", "description" : "Integrate EBS support into the QBMS R Package", "needs" : null, "repo" : "https://github.com/icarda-git/QBMS"},
-            {"team" : "David Meidlinger", "title" : "BrAPI-GraphQl proxy server", "description" : "BrAPI-GraphQl proxy server", "needs" : null, "repo" : null},
-            {"team" : "Gouripriya Davuluri", "title" : "ISA Files", "description" : "Preparing Agent ISA Files for use with MIRA", "needs" : null, "repo" : null}
+            {"team" : "David Meidlinger", "title" : "BrAPI-GraphQl proxy server", "description" : "Update GraphQL-BrAPI proxy to generate schema using meta data in latest BrAPI spec", "needs" : null, "repo" : null},
+            {"team" : "Gouripriya Davuluri", "title" : "ISA Files", "description" : "Preparing Agent ISA Files for use with MIRA", "needs" : null, "repo" : null},
+            {"team" : "Jean-Francois Rami", "title" : "snpclust BrAPP", "description" : "snpclust BrAPP. Work on integration with gigwa", "needs" : null, "repo" : "https://github.com/jframi/snpclust/tree/Gigwa_support"}
         ],
         "notes": [
         {
@@ -103,6 +108,8 @@
                 { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "Issues Review - Review Github issues and begin planning the next version of the specification" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
                 { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "14:00 - 15:00 UTC", "class": "agenda-bg-pink", "title": "BrAPI-Sync - Demo and discussion" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
                 { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "Authentication Review - BrAPI and web security basics" },
                 { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Germplasm Ordering use case - Connecting to genebanks with BrAPI" },
                 { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "Issues Review - Review Github issues and begin planning the next version of the specification" }
