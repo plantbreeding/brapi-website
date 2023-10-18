@@ -178,7 +178,7 @@ router.post('/announcement', function (req, res, next) {
                     from: 'BrAPI Announcements <' + process.env.ANNOUNCEMENT_EMAIL_ADDR + '>',
                     to: req.body.mailingList,
                     template: 'announcement_template',
-                    subject: req.body.title,
+                    subject: req.body.subject,
                     text: req.body.text,
                     'h:X-Mailgun-Variables': JSON.stringify({
                         "title": req.body.title,
