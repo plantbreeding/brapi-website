@@ -53,7 +53,9 @@
             {"name" : "Gouripriya Davuluri", "org" : "IPK gatersleben", "email" : "davuluri@ipk-gatersleben.de", "session1" : true, "session2" : true},
             {"name" : "Joshua Lamos-Sweeney", "org" : "ILCI", "email" : "jdl232@cornell.edu", "session1" : false, "session2" : true},
             {"name" : "Jean-Francois Rami", "org" : "CIRAD", "email" : "rami@cirad.fr", "session1" : true, "session2" : false},
-            {"name" : "Matthijs Brouwer", "org" : "Wageningen University & Research", "email" : "matthijs.brouwer@wur.nl", "session1" : true, "session2" : false}
+            {"name" : "Matthijs Brouwer", "org" : "Wageningen University & Research", "email" : "matthijs.brouwer@wur.nl", "session1" : true, "session2" : false},
+            {"name" : "Alexander Kena ", "org" : "Colorado State University ", "email" : "alexander.kena@colostate.edu", "session1" : true, "session2" : false},
+            {"name" : "David Phillips", "org" : "Breeding Insight", "email" : "drp227@cornel.edu", "session1" : false, "session2" : true}
         ],
         "projects": [
             {"team" : "Cyril Pommier", "title" : "FAIDARE", "description" : "FAIDARE Update, possibly indexing some BrAPI servers if I have time available that week.", "needs" : null, "repo" : null},
@@ -73,7 +75,9 @@
             {"team" : "Khaled Al-Shamaa, EBS developer(s)", "title" : "QBMS x EBS", "description" : "Integrate EBS support into the QBMS R Package", "needs" : null, "repo" : "https://github.com/icarda-git/QBMS"},
             {"team" : "David Meidlinger", "title" : "BrAPI-GraphQl proxy server", "description" : "Update GraphQL-BrAPI proxy to generate schema using meta data in latest BrAPI spec", "needs" : null, "repo" : null},
             {"team" : "Gouripriya Davuluri", "title" : "ISA Files", "description" : "Preparing Agent ISA Files for use with MIRA", "needs" : null, "repo" : null},
-            {"team" : "Jean-Francois Rami", "title" : "snpclust BrAPP", "description" : "snpclust BrAPP. Work on integration with gigwa", "needs" : null, "repo" : "https://github.com/jframi/snpclust/tree/Gigwa_support"}
+            {"team" : "Jean-Francois Rami", "title" : "snpclust BrAPP", "description" : "snpclust BrAPP. Work on integration with gigwa", "needs" : null, "repo" : "https://github.com/jframi/snpclust/tree/Gigwa_support"},
+            {"team" : "Alexander Kena ", "title" : "QR Label R", "description" : "How to make an R package for creating machine- and human-readable labels BrAPI compliant.", "needs" : null, "repo" : "https://github.com/awkena/qrlabelr"},
+            {"team" : "David Phillips", "title" : "DeltaBreed BrAPI Implementation", "description" : "Downloading traits and/or germplasm for DeltaBread.", "needs" : null, "repo" : null}
         ],
         "notes": [
         {

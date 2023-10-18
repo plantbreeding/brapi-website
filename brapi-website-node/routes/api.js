@@ -176,7 +176,7 @@ router.post('/announcement', function (req, res, next) {
 
                 var emailData = {
                     from: 'BrAPI Announcements <' + process.env.ANNOUNCEMENT_EMAIL_ADDR + '>',
-                    to: process.env.ANNOUNCEMENT_EMAIL_ADDR,
+                    to: req.body.mailingList,
                     template: 'announcement_template',
                     subject: req.body.title,
                     text: req.body.text,
