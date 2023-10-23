@@ -81,11 +81,18 @@
         ],
         "notes": [
         {
-            "discussion": "Welcome! Tech setup, setting expectations, general organizing"
+            "discussion": "Welcome! Tech setup, setting expectations, general organizing",
+            "session1": "https://youtu.be/cbCM5iHWq5I",
+            "session2": ""
         }, {
-            "discussion": "Community Updates - Application demos and presentations from the BrAPI community"
+            "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
+            "session1": "https://youtu.be/cbCM5iHWq5I",
+            "session2": ""
         }, {
-            "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI"
+            "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
+            "session1": "https://youtu.be/iJ6xM1Z4F0Y",
+            "session2": "",
+            "slides": "https://docs.google.com/presentation/d/1xen0HZX81304sy4Gb1UO3O_y6j2Nmnp0/edit?usp=share_link&ouid=113212610256718182401&rtpof=true&sd=true"
         }, {
             "discussion": "Project presentations and wrap up"
         }],
