@@ -94,7 +94,71 @@
             "session2": "",
             "slides": "https://docs.google.com/presentation/d/1xen0HZX81304sy4Gb1UO3O_y6j2Nmnp0/edit?usp=share_link&ouid=113212610256718182401&rtpof=true&sd=true"
         }, {
-            "discussion": "Project presentations and wrap up"
+            "discussion": "Authentication Review - BrAPI and web security basics",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
+        },{
+            "discussion": "Germplasm Ordering use case - Connecting to genebanks with BrAPI",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
+        },{
+            "discussion": "Issues Review",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
+        },{
+            "discussion": "BrAPI-Sync - Demo and discussion",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
+        },{
+            "discussion": "Analytics WG - Updates and interest meeting",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
+        },{
+            "discussion": "GraphQL WG - Updates and interest meeting",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
+        },{
+            "discussion": "Containerized Implementations",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
+        },{
+            "discussion": "BrAPI Advisory Board Nominations",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
+        },{
+            "discussion": "Project Sustainability",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
+        },{
+            "discussion": "BrAPI V2 Publication",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
+        }, {
+            "discussion": "Project presentations and wrap up",
+            "session1": "",
+            "session2": "",
+            "slides": "",
+            "notes": ""
         }],
         "agenda": [{
             "date": "Monday, October 23, 2023",
@@ -145,12 +209,12 @@
             "schedule": [
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
                 { "time": "08:00 - 08:30 UTC", "class": "agenda-bg-blue", "title": "BrAPI Advisory Board Nominations - Informational Session" },
-                { "time": "08:30 - 10:00 UTC", "class": "agenda-bg-blue", "title": "Sustainability - Brainstorming session for long term, stable project funding" },
+                { "time": "08:30 - 10:00 UTC", "class": "agenda-bg-blue", "title": "Project Sustainability - Brainstorming session for long term, stable project funding" },
                 { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
                 { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
                 { "time": "16:00 - 16:30 UTC", "class": "agenda-bg-pink", "title": "BrAPI Advisory Board Nominations - Informational Session" },
-                { "time": "16:30 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Sustainability - Brainstorming session for long term, stable project funding" },
+                { "time": "16:30 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Project Sustainability - Brainstorming session for long term, stable project funding" },
                 { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" }
 
             ]
