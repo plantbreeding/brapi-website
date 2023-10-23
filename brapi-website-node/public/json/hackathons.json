@@ -55,7 +55,9 @@
             {"name" : "Jean-Francois Rami", "org" : "CIRAD", "email" : "rami@cirad.fr", "session1" : true, "session2" : false},
             {"name" : "Matthijs Brouwer", "org" : "Wageningen University & Research", "email" : "matthijs.brouwer@wur.nl", "session1" : true, "session2" : false},
             {"name" : "Alexander Kena ", "org" : "Colorado State University ", "email" : "alexander.kena@colostate.edu", "session1" : true, "session2" : false},
-            {"name" : "David Phillips", "org" : "Breeding Insight", "email" : "drp227@cornel.edu", "session1" : false, "session2" : true}
+            {"name" : "David Phillips", "org" : "Breeding Insight", "email" : "drp227@cornel.edu", "session1" : false, "session2" : true},
+            {"name" : "Amanda Hulse-Kemp", "org" : "USDA-ARS", "email" : "amanda.hulse-kemp@usda.gov", "session1" : false, "session2" : true},
+            {"name" : "Lukas Mueller", "org" : "BTI", "email" : "lam87@cornell.edu", "session1" : false, "session2" : true}
         ],
         "projects": [
             {"team" : "Cyril Pommier", "title" : "FAIDARE", "description" : "FAIDARE Update, possibly indexing some BrAPI servers if I have time available that week.", "needs" : null, "repo" : null},
@@ -111,7 +113,7 @@
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": ""
+            "notes": "https://docs.google.com/document/d/1nFsiMKHNj9uZyrwazYVODeUAncFtRHjdIECju1uFstk/edit"
         },{
             "discussion": "BrAPI-Sync - Demo and discussion",
             "session1": "",
