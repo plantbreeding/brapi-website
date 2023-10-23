@@ -83,7 +83,8 @@
         {
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
             "session1": "https://youtu.be/cbCM5iHWq5I",
-            "session2": ""
+            "session2": "",
+            "slides": "https://docs.google.com/presentation/d/1BWFVPnMNa3HPqVUR71pZhra_1ZiJ3AJT/edit?usp=share_link&ouid=113212610256718182401&rtpof=true&sd=true"
         }, {
             "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
             "session1": "https://youtu.be/cbCM5iHWq5I",
@@ -97,14 +98,14 @@
             "discussion": "Authentication Review - BrAPI and web security basics",
             "session1": "",
             "session2": "",
-            "slides": "",
+            "slides": "https://docs.google.com/presentation/d/1vAMKC8enJfRV6uCccqYVhweZ6fET4jl6/edit?usp=share_link&ouid=113212610256718182401&rtpof=true&sd=true",
             "notes": ""
         },{
             "discussion": "Germplasm Ordering use case - Connecting to genebanks with BrAPI",
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": ""
+            "notes": "https://docs.google.com/document/d/16SfNzdJVO1CZPAsfbfK0d1NGtftCiDTS9qJnzM1MLrA/edit?usp=sharing"
         },{
             "discussion": "Issues Review",
             "session1": "",
@@ -122,19 +123,19 @@
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": ""
+            "notes": "https://docs.google.com/document/d/1z3dazTfPAhDKruCLrCpJg5Lf13rj19qs8eBzLDdUGtE/edit?usp=share_link"
         },{
             "discussion": "GraphQL WG - Updates and interest meeting",
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": ""
+            "notes": "https://docs.google.com/document/d/10ZLIneoJuNKjGGRBjUbS0LpLTseSRysSRQ_cV1F_UE4/edit?usp=share_link"
         },{
             "discussion": "Containerized Implementations",
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": ""
+            "notes": "https://docs.google.com/document/d/147R8t2e0yUwen5nG3M7tPj7fknZID_cUBMKiOEmaVQI/edit?usp=share_link"
         },{
             "discussion": "BrAPI Advisory Board Nominations",
             "session1": "",
@@ -209,13 +210,13 @@
             "schedule": [
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
                 { "time": "08:00 - 08:30 UTC", "class": "agenda-bg-blue", "title": "BrAPI Advisory Board Nominations - Informational Session" },
-                { "time": "08:30 - 10:00 UTC", "class": "agenda-bg-blue", "title": "Project Sustainability - Brainstorming session for long term, stable project funding" },
-                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" },
+                { "time": "08:30 - 09:00 UTC", "class": "agenda-bg-blue", "title": "Project Sustainability - Brainstorming session for long term, stable project funding" },
+                { "time": "09:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
                 { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
                 { "time": "16:00 - 16:30 UTC", "class": "agenda-bg-pink", "title": "BrAPI Advisory Board Nominations - Informational Session" },
-                { "time": "16:30 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Project Sustainability - Brainstorming session for long term, stable project funding" },
-                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" }
+                { "time": "16:30 - 17:00 UTC", "class": "agenda-bg-pink", "title": "Project Sustainability - Brainstorming session for long term, stable project funding" },
+                { "time": "17:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" }
 
             ]
 
