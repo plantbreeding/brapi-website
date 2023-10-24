@@ -127,9 +127,11 @@ router.post('/newServerSubmit', function (req, res, next) {
 });
 
 router.post('/newSoftwareSubmit', function (req, res, next) {
-    var newServerStr = JSON.stringify(req.body, null, 4);
-
     const now = new Date(Date.now());
+    var newServer = req.body;
+    newServer.date = now.toISOString();
+    var newServerStr = JSON.stringify(newServer, null, 4);
+
     var emailData = {
         from: 'New Software <software@mail.brapi.org>',
         to: ['software@mail.brapi.org', req.body.email],
@@ -140,7 +142,7 @@ router.post('/newSoftwareSubmit', function (req, res, next) {
             "title": 'New BrAPI software to review',
             "date": null,
             "author": null,
-            "article": newServerStr.replace(/\n/g, '<br>').replace(/  /g, '&nbsp;')
+            "article": "<pre>" + newServerStr.replace(/\n/g, '<br>').replace(/  /g, '&nbsp;') + "</pre>" 
         }),
         'h:List-Unsubscribe': 'http://brapi.org/unsubscribe',
         'h:Date': now.toUTCString()

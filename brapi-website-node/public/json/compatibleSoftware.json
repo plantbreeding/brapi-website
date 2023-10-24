@@ -1,4 +1,18 @@
-[{
+[
+    {
+        "team": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Bioinformatics and Information Technology (BIT)",
+        "team-url": "https://www.ipk-gatersleben.de/en/research/breeding-research/bioinformatics-and-information-technology",
+        "title": "MIRA",
+        "description": "Phenotyping datasets are often available as MIAPPE compliant ISA Tab in repositories. However, the programmatic use of those datasets is limited. To enable access to such data products, MIRA is transforming them and provides BrAPI endpoints accordingly. This allows developers to use the data products in their applications.",
+        "image": "https://raw.githubusercontent.com/IPK-BIT/mira/master/docs/figures/MIRA-architecture.png",
+        "url": "https://mira.ipk-gatersleben.de",
+        "source-url": "https://github.com/IPK-BIT/mira",
+        "doc-url": "https://mira-server.rtfd.io",
+        "demo-url": "",
+        "email": "feser@ipk-gatersleben.de",
+        "date": "2023-10-24"
+    },
+    {
         "team": "CIRAD, IRD and Alliance Bioversity CIAT",
         "team-url": "https://southgreen.fr/",
         "title": "GIGWA",
@@ -9,7 +23,8 @@
         "doc-url": "",
         "demo-url": "https://gigwa.southgreen.fr/gigwa/",
         "date": "2023-05-18"
-    }, {
+    },
+    {
         "team": "Breeding Insight, Cornell University",
         "team-url": "https://breedinginsight.org/about-bi/",
         "title": "DeltaBreed",
@@ -20,7 +35,8 @@
         "doc-url": "https://breedinginsight.atlassian.net/wiki/spaces/LH/pages/1680179235/DeltaBreed",
         "demo-url": "https://sandbox.breedinginsight.net/",
         "date": "2023-04-26"
-    }, {
+    },
+    {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://www.hutton.ac.uk",
         "title": "Helium",
@@ -31,7 +47,8 @@
         "doc-url": "https://github.com/cardinalb/helium-docs",
         "demo-url": "https://helium.hutton.ac.uk",
         "date": "2023-02-13"
-    }, {
+    },
+    {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk",
         "title": "GridScore",
@@ -42,7 +59,8 @@
         "doc-url": "https://cropgeeks.github.io/gridscore-next-client",
         "demo-url": "https://gridscore.hutton.ac.uk",
         "date": "2023-09-25"
-    }, {
+    },
+    {
         "team": "OpenSILEX",
         "team-url": "http://opensilex.org/",
         "title": "PHIS",
@@ -53,7 +71,8 @@
         "doc-url": "https://github.com/OpenSILEX/opensilex/blob/master/opensilex-doc/src/main/resources/index.md",
         "demo-url": "http://opensilex.org/sandbox/app/",
         "date": "2023-01-09"
-    }, {
+    },
+    {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/software/",
         "title": "Flapjack",
@@ -64,7 +83,8 @@
         "doc-url": "https://flapjack.hutton.ac.uk/en/latest/",
         "demo-url": "",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "team": "Diversity Arrays Technology",
         "team-url": "https://www.diversityarrays.com/",
         "title": "DArT Genotyping Services",
@@ -75,7 +95,8 @@
         "doc-url": "https://github.com/plantbreeding/sample-orchestrator-test-client",
         "demo-url": "",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "team": "Cornell University - BRC",
         "team-url": "https://www.biotech.cornell.edu/facilities-brc",
         "title": "Cornell Genotyping Services",
@@ -86,7 +107,8 @@
         "doc-url": "https://github.com/plantbreeding/sample-orchestrator-test-client",
         "demo-url": "",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/software/",
         "title": "Germinate",
@@ -97,7 +119,8 @@
         "doc-url": "https://germinateplatform.github.io/germinate-training/",
         "demo-url": "https://ics.hutton.ac.uk/germinate-demo/#/home",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "team": "Main Lab Bioinformatics at WSU",
         "team-url": "https://www.bioinfo.wsu.edu/",
         "title": "BIMS",
@@ -108,7 +131,8 @@
         "doc-url": "https://www.breedwithbims.org/bims_brapi",
         "demo-url": "",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "team": "ICARDA",
         "team-url": "https://www.icarda.org/",
         "title": "QBMS",
@@ -119,7 +143,8 @@
         "doc-url": "https://icarda-git.github.io/QBMS/reference/index.html",
         "demo-url": "",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "team": "Phenospex",
         "team-url": "https://phenospex.com/",
         "title": "HortControl",
@@ -130,7 +155,8 @@
         "doc-url": "https://phenospex.com/blog/brapi-automate-the-data-transfer-into-your-workflow/",
         "demo-url": "",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "team": "Forest Biotech Lab",
         "team-url": "https://www.itqb.unl.pt/labs/forest-biotech",
         "title": "BrAPI Node Server",
@@ -141,7 +167,8 @@
         "doc-url": "https://github.com/forestbiotech-lab/PHENO#readme",
         "demo-url": "",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/software/",
         "title": "JHI BrAPI Java",
@@ -152,7 +179,8 @@
         "doc-url": "",
         "demo-url": "",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "team": "AgMIP",
         "team-url": "https://agmip.org/",
         "title": "ARDN",
@@ -163,43 +191,58 @@
         "doc-url": "https://github.com/cct-datascience/ardn-terra-ref/blob/master/README.md",
         "demo-url": "",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "title": "GRIN-Global",
         "team": "USDA-ARS",
         "team-url": "https://www.ars-grin.gov/",
         "description": "The GRIN-Global project's mission is to provide a scalable version of the Germplasm Resource Information Network (GRIN) suitable for use by any interested genebank in the world.",
-        "tags": ["Web Service", "Client"],
+        "tags": [
+            "Web Service",
+            "Client"
+        ],
         "image": "/images/apps/Grin-Global-logo.gif",
         "url": "https://www.grin-global.org/",
         "source-url": "https://gitlab.com/GRIN-Global/GRIN-Global-server/-/tree/master",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "title": "FAIDARE",
         "team": "INRAe - URGI",
         "team-url": "https://urgi.versailles.inra.fr/",
         "description": "FAIR Data-finder for Agronomic REsearch",
-        "tags": ["Web Service", "Client"],
+        "tags": [
+            "Web Service",
+            "Client"
+        ],
         "image": "https://urgi.versailles.inra.fr/faidare/assets/logo.png",
         "url": "https://urgi.versailles.inrae.fr/faidare/",
         "source-url": "https://github.com/elixir-europe/plant-brapi-etl-faidare",
         "doc-url": "https://urgi.versailles.inrae.fr/faidare/join",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "title": "GLIS DOI Registration Service",
         "team": "Food and Agriculture Organization of the United Nations",
         "team-url": "https://www.fao.org/home",
         "description": "The DOI Registration Service of the GLobal Information System (GLIS) assigns Digital Object Identifiers (DOIs) to Plant Genetic Resources for Food and Agriculture (PGRFA) for reference in third party systems and scientific literature.",
-        "tags": ["Web Service"],
+        "tags": [
+            "Web Service"
+        ],
         "image": "/images/apps/glis-thumb.png",
         "url": "https://ssl.fao.org/glis/site/doiindex",
         "demo-url": "https://glistest.planttreaty.org/glisapi/v1/calls",
         "date": "2022-12-14"
-    }, {
+    },
+    {
         "title": "Field Book",
         "team": "PhenoApps",
         "team-url": "https://www.phenoapps.org/",
         "description": "Field Book is a simple app for taking phenotypic notes. Field Book was created to replace paper field books and to enable increased collection speed with greater data integrity.",
-        "tags": ["Client", "Android"],
+        "tags": [
+            "Client",
+            "Android"
+        ],
         "image": "/images/apps/fieldbook_icon.png",
         "url": "https://play.google.com/store/apps/details?id=com.fieldbook.tracker",
         "source-url": "https://github.com/PhenoApps/Field-Book",
@@ -210,7 +253,10 @@
         "team": "The Integrated Breeding Platform (IBP)",
         "team-url": "https://www.integratedbreeding.net/",
         "description": "The Breeding Management System (BMS) is a data management software specifically designed to meet the needs of modern plant breeders.",
-        "tags": ["Server", "Database"],
+        "tags": [
+            "Server",
+            "Database"
+        ],
         "image": "/images/apps/bms-thumb.png",
         "url": "https://bmspro.io/",
         "source-url": "https://github.com/IntegratedBreedingPlatform/BMSAPI",
@@ -222,7 +268,10 @@
         "team": "Breedbase",
         "team-url": "https://breedbase.org/",
         "description": "Breedbase",
-        "tags": ["Server", "Database"],
+        "tags": [
+            "Server",
+            "Database"
+        ],
         "image": "/images/apps/breedbase-thumb.png",
         "url": "https://breedbase.org/",
         "source-url": "https://github.com/solgenomics/sgn",
@@ -273,7 +322,11 @@
         "team": "The James Hutton Institute (JHI)",
         "team-url": "https://ics.hutton.ac.uk/",
         "description": "Flapjack-Bytes is a graphical genotype visualization library. The visualization is modelled on the pre-existing Java desktop application Flapjack. ",
-        "tags": ["BrAPP", "Client", "JS"],
+        "tags": [
+            "BrAPP",
+            "Client",
+            "JS"
+        ],
         "date": "2020-08-04"
     },
     {
@@ -388,7 +441,11 @@
         "team": "BreedBase",
         "team-url": "https://breedbase.org/",
         "description": "Comparative Map Viewer, this is a fully BrAPI compliant tool for viewing and comparing genetic maps ",
-        "tags": ["BrAPP", "Client", "Perl"],
+        "tags": [
+            "BrAPP",
+            "Client",
+            "Perl"
+        ],
         "date": "2020-08-04"
     }
 ]
