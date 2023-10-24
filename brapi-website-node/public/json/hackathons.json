@@ -101,61 +101,61 @@
             "session1": "https://youtu.be/BlGdetKGISA",
             "session2": "",
             "slides": "https://docs.google.com/presentation/d/1vAMKC8enJfRV6uCccqYVhweZ6fET4jl6/edit?usp=share_link&ouid=113212610256718182401&rtpof=true&sd=true",
-            "notes": ""
+            "meetingNotes": ""
         },{
             "discussion": "Germplasm Ordering use case - Connecting to genebanks with BrAPI",
             "session1": "https://youtu.be/Pflru9nh-1o",
             "session2": "",
             "slides": "",
-            "notes": "https://docs.google.com/document/d/16SfNzdJVO1CZPAsfbfK0d1NGtftCiDTS9qJnzM1MLrA/edit?usp=sharing"
+            "meetingNotes": "https://docs.google.com/document/d/16SfNzdJVO1CZPAsfbfK0d1NGtftCiDTS9qJnzM1MLrA/edit?usp=sharing"
         },{
             "discussion": "Issues Review",
             "session1": "https://youtu.be/ZWUQWqfdS3I",
             "session2": "",
             "slides": "",
-            "notes": "https://docs.google.com/document/d/1nFsiMKHNj9uZyrwazYVODeUAncFtRHjdIECju1uFstk/edit"
+            "meetingNotes": "https://docs.google.com/document/d/1nFsiMKHNj9uZyrwazYVODeUAncFtRHjdIECju1uFstk/edit"
         },{
             "discussion": "Analytics WG - Updates and interest meeting",
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": "https://docs.google.com/document/d/1z3dazTfPAhDKruCLrCpJg5Lf13rj19qs8eBzLDdUGtE/edit?usp=share_link"
+            "meetingNotes": "https://docs.google.com/document/d/1z3dazTfPAhDKruCLrCpJg5Lf13rj19qs8eBzLDdUGtE/edit?usp=share_link"
         },{
             "discussion": "GraphQL WG - Updates and interest meeting",
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": "https://docs.google.com/document/d/10ZLIneoJuNKjGGRBjUbS0LpLTseSRysSRQ_cV1F_UE4/edit?usp=share_link"
+            "meetingNotes": "https://docs.google.com/document/d/10ZLIneoJuNKjGGRBjUbS0LpLTseSRysSRQ_cV1F_UE4/edit?usp=share_link"
         },{
             "discussion": "Containerized Implementations",
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": "https://docs.google.com/document/d/147R8t2e0yUwen5nG3M7tPj7fknZID_cUBMKiOEmaVQI/edit?usp=share_link"
+            "meetingNotes": "https://docs.google.com/document/d/147R8t2e0yUwen5nG3M7tPj7fknZID_cUBMKiOEmaVQI/edit?usp=share_link"
         },{
             "discussion": "BrAPI Advisory Board Nominations",
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": ""
+            "meetingNotes": ""
         },{
             "discussion": "Project Sustainability",
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": ""
+            "meetingNotes": ""
         },{
             "discussion": "BrAPI V2 Publication",
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": ""
+            "meetingNotes": ""
         }, {
             "discussion": "Project presentations and wrap up",
             "session1": "",
             "session2": "",
             "slides": "",
-            "notes": ""
+            "meetingNotes": ""
         }],
         "agenda": [{
             "date": "Monday, October 23, 2023",
