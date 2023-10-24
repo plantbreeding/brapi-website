@@ -145,7 +145,7 @@
                                     {{#if time}}
                                     <div class="col-12 {{class}} agenda-row row" style=" 
                                         {{#if canceled}} text-decoration: line-through; {{/if}}">
-                                        <div class="col-12 col-lg-3" style="font-weight: bold;">{{time}}</div>
+                                        <div class="col-12 col-lg-3 agenda-time" style="font-weight: bold;">{{time}}</div>
                                         <div class="col-12 col-lg-9">{{title}}
                                             {{#if lead}}<br />Discussion Lead: {{lead}}{{/if}}</div>
                                     </div>
@@ -248,3 +248,33 @@
             </div>
         </div>
 </section>
+<script type="text/plain" cookie-consent="strictly-necessary">
+$(document).ready(function () {
+    $(".agenda-date").each(
+        function(i, date){
+            var dateStr = date.innerHTML;
+            console.log(); 
+            $(date)
+            .next()
+            .find(".agenda-time")
+            .each(
+                function(i, timeRange){
+                    timeRangeStr = timeRange.innerHTML;
+                    if(!timeRangeStr.startsWith("Session")){
+                        var times = timeRangeStr.split(" - ");
+
+                        var timestamp1 = new Date(dateStr + ' ' + times[0] + " UTC+00:00");
+                        var timestamp2 = new Date(dateStr + ' ' + times[1] + "+00:00");
+                        var timestampStr1 = timestamp1.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", hour12: false})
+                        var timestampStr2 = timestamp2.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", hour12: false, timeZoneName: "short"})
+
+                        $(timeRange).html(timestampStr1 + ' - ' + timestampStr2 + '<br>' +
+                        '<span style="font-weight: normal">' + timeRangeStr + '</span>'
+                        );
+
+
+                    }
+                });
+        });
+});
+</script>
