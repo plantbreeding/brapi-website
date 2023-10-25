@@ -115,12 +115,13 @@
                             accommodate many different time zones. Attendees are welcome to attend any and all sessions.
                         <ul>
                             <li> <span style="background-color: #d6e6ff;">Discussion Session #1:</span> every day from
-                                08:00 UTC to 11:00 UTC <a target="_blank"
-                                    href="https://www.google.com/search?q=08%3A00+UTC"> (Click for local time) </a>
+                                <span class="agenda-local-time" style="font-weight: bold;"></span>
+                                (<span class="agenda-utc-time">08:00 - 11:00 UTC</span>)
+                                 
                             </li>
                             <li> <span style="background-color: #f3d6ff;">Discussion Session #2:</span> every day from
-                                16:00 UTC to 19:00 UTC <a target="_blank"
-                                    href="https://www.google.com/search?q=16%3A00+UTC"> (Click for local time) </a>
+                                <span class="agenda-local-time" style="font-weight: bold;"></span>
+                                (<span class="agenda-utc-time">16:00 - 19:00 UTC</span>)
                             </li>
                             <li> <span style="background-color: #deffd6;">Collaborative project work time:</span> All
                                 day, every day of the hackathon</li>
@@ -145,7 +146,10 @@
                                     {{#if time}}
                                     <div class="col-12 {{class}} agenda-row row" style=" 
                                         {{#if canceled}} text-decoration: line-through; {{/if}}">
-                                        <div class="col-12 col-lg-3 agenda-time" style="font-weight: bold;">{{time}}</div>
+                                        <div class="col-12 col-lg-3 agenda-time">
+                                            <span class="agenda-local-time" style="font-weight: bold;"></span><br>
+                                            <span class="agenda-utc-time">{{time}}</span>
+                                        </div>
                                         <div class="col-12 col-lg-9">{{title}}
                                             {{#if lead}}<br />Discussion Lead: {{lead}}{{/if}}</div>
                                     </div>
@@ -250,31 +254,44 @@
 </section>
 <script type="text/plain" cookie-consent="strictly-necessary">
 $(document).ready(function () {
+    
+    $("li .agenda-utc-time").each(
+        function(i, timeRange){
+            var timeRangeStr = timeRange.innerHTML;
+            var dateStr = $(".agenda-date").first().html();
+            $(timeRange).siblings(".agenda-local-time").html(toLocalTimeRange(dateStr, timeRangeStr));
+
+        }
+    );
+
     $(".agenda-date").each(
         function(i, date){
             var dateStr = date.innerHTML;
             console.log(); 
             $(date)
             .next()
-            .find(".agenda-time")
+            .find(".agenda-utc-time")
             .each(
                 function(i, timeRange){
                     timeRangeStr = timeRange.innerHTML;
-                    if(!timeRangeStr.startsWith("Session")){
-                        var times = timeRangeStr.split(" - ");
-
-                        var timestamp1 = new Date(dateStr + ' ' + times[0] + " UTC+00:00");
-                        var timestamp2 = new Date(dateStr + ' ' + times[1] + "+00:00");
-                        var timestampStr1 = timestamp1.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", hour12: false})
-                        var timestampStr2 = timestamp2.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", hour12: false, timeZoneName: "short"})
-
-                        $(timeRange).html(timestampStr1 + ' - ' + timestampStr2 + '<br>' +
-                        '<span style="font-weight: normal">' + timeRangeStr + '</span>'
-                        );
-
-
+                    if(timeRangeStr.startsWith("Session")){
+                        $(timeRange).html("");
+                        $(timeRange).siblings(".agenda-local-time").html(timeRangeStr);
+                    }else{
+                        $(timeRange).siblings(".agenda-local-time").html(toLocalTimeRange(dateStr, timeRangeStr));
                     }
                 });
         });
 });
+
+function toLocalTimeRange(dateStr, timeRangeStr){
+    var times = timeRangeStr.split(" - ");
+
+    var timestamp1 = new Date(dateStr + ' ' + times[0] + " UTC+00:00");
+    var timestamp2 = new Date(dateStr + ' ' + times[1] + "+00:00");
+    var timestampStr1 = timestamp1.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", hour12: false});
+    var timestampStr2 = timestamp2.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", hour12: false, timeZoneName: "short"});
+
+    return timestampStr1 + ' - ' + timestampStr2;
+}
 </script>
