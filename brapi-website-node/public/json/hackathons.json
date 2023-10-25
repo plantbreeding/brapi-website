@@ -111,19 +111,19 @@
             "meetingNotes": "https://docs.google.com/document/d/1nFsiMKHNj9uZyrwazYVODeUAncFtRHjdIECju1uFstk/edit"
         },{
             "discussion": "Analytics WG - Updates and interest meeting",
-            "session1": "",
+            "session1": "https://youtu.be/Ifw9F4oHs7Q",
             "session2": "",
             "slides": "",
             "meetingNotes": "https://docs.google.com/document/d/1z3dazTfPAhDKruCLrCpJg5Lf13rj19qs8eBzLDdUGtE/edit?usp=share_link"
         },{
             "discussion": "GraphQL WG - Updates and interest meeting",
-            "session1": "",
+            "session1": "https://youtu.be/36fGfLlBDy4",
             "session2": "",
             "slides": "",
             "meetingNotes": "https://docs.google.com/document/d/10ZLIneoJuNKjGGRBjUbS0LpLTseSRysSRQ_cV1F_UE4/edit?usp=share_link"
         },{
             "discussion": "Containerized Implementations",
-            "session1": "",
+            "session1": "https://youtu.be/4zW7KSHvCas",
             "session2": "",
             "slides": "",
             "meetingNotes": "https://docs.google.com/document/d/147R8t2e0yUwen5nG3M7tPj7fknZID_cUBMKiOEmaVQI/edit?usp=share_link"
@@ -131,7 +131,7 @@
             "discussion": "BrAPI Advisory Board Nominations",
             "session1": "",
             "session2": "",
-            "slides": "",
+            "slides": "https://docs.google.com/presentation/d/1Gz_JV-gVLRYAme85tLjp2qc121SxcX3M/edit?usp=drive_link&ouid=113212610256718182401&rtpof=true&sd=true",
             "meetingNotes": ""
         },{
             "discussion": "Project Sustainability",
@@ -144,7 +144,7 @@
             "session1": "",
             "session2": "",
             "slides": "",
-            "meetingNotes": ""
+            "meetingNotes": "https://github.com/plantbreeding/BrAPI-Manuscript2"
         }, {
             "discussion": "Project presentations and wrap up",
             "session1": "",
