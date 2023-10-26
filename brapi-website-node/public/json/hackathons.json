@@ -199,7 +199,7 @@
                 { "time": "09:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
                 { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
-                { "time": "16:00 - 16:30 UTC", "class": "agenda-bg-pink", "title": "BrAPI Advisory Board Nominations - Informational Session" },
+                { "time": "16:00 - 16:30 UTC", "class": "agenda-bg-pink", "canceled":true, "title": "BrAPI Advisory Board Nominations - Informational Session" },
                 { "time": "16:30 - 17:00 UTC", "class": "agenda-bg-pink", "title": "Project Sustainability - Brainstorming session for long term, stable project funding" },
                 { "time": "17:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "BrAPI V2 Publication - Brainstorming session for an updated BrAPI paper" }
 
