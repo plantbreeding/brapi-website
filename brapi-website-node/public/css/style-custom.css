@@ -349,6 +349,12 @@ p.agenda-row {
     line-height: 50px;
 }
 
+.callout-btn-box {
+    justify-content: center !important;
+    display: flex;
+    margin: 2px;
+}
+
 p.justified {
     text-align: justify;
     text-justify: inter-character;
@@ -382,12 +388,12 @@ label.form-label {
     margin: 10px 0 0 0;
 }
 
-.server-status{
+.server-status {
     text-align: right;
 }
 
 @media (max-width: 767px) {
-    .server-status{
+    .server-status {
         text-align: left;
     }
 }

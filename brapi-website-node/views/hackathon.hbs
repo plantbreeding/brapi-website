@@ -7,6 +7,11 @@
                     <a class="btn btn-d btn-round col-12" target="_blank" 
                         href="{{hackathonData.registrationURL}}">Register</a>
                 </div>
+                {{else}}
+                <div>
+                    <a class="btn btn-d btn-round col-12" target="_blank" 
+                        href="{{hackathonData.feedbackURL}}">Feedback Survey</a>
+                </div>
                 {{/if}}
                 <div style="margin-bottom: 1px;">
                     <a><button id="toggle-overview" class="btn btn-secondary btn-light-gray col-12" type="button"
@@ -65,7 +70,9 @@
                                 href="{{hackathonData.registrationURL}}">Register</a>
                         </p>
                         {{else}}
-                        <p>Registration CLosed</p>
+                        <p style="text-align: center"><a class="btn btn-d btn-round col-8 col-sm-5 col-md-4 col-lg-3" target="_blank"
+                                href="{{hackathonData.feedbackURL}}">Feedback Survey</a>
+                        </p>
                         {{/if}}
 
                     </div>
