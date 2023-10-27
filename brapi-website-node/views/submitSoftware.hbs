@@ -54,7 +54,7 @@
                                 <span style="vertical-align: middle; display: inline-flex;height: 100%;"></span>
                             </a>
                         </div>
-                        <div class="brapp-header font-alt col-12 col-md-8">
+                        <div class="brapp-header col-12 col-md-8">
                             <h2>
                                 <a href="https://example.org/software" target="_blank" class="software-title software-url">Example Software</a>
                             </h2>
@@ -82,7 +82,7 @@
         </div>
     </div>
 </section>
-<script type="text/plain" cookie-consent="strictly-necessary">
+<script type="text/javascript" cookie-consent="strictly-necessary">
 
     $(document).ready(function () {
 
@@ -92,6 +92,9 @@
             $("#finishContainer").hide();
 
             var req = $(this).serializeArray();
+            var description = req.find((x) => {return x.name == "description"});
+            description.value = description.value.replaceAll('\r', '').replaceAll('\n', '&lt;br&gt;');
+
             $.post('/api/newSoftwareSubmit', req, function (data, status) {
                 $("#submitSoftwareContainer").hide();
                 $("#loadingContainer").hide();
@@ -112,6 +115,7 @@
             $('.software-image').attr('alt', title);
             
             var description = $("#softwareDescInput").val() ? $("#softwareDescInput").val() : 'Example Software is a ...';
+            description = description.replaceAll('\r', '').replaceAll('\n', '<br>');
             $('.software-desc').html(description);
 
             var image = $("#softwareImageURLInput").val() ? $("#softwareImageURLInput").val() : '/images/brapi-clover-alpha-700x394.png';

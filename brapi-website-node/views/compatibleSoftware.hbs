@@ -51,11 +51,11 @@
                             <div class="brapp-thumbnail col-12 col-md-4 justify-content-center" style="display: flex;">
                                 <a href="{{ url }}" target="_blank">
                                     <span style="vertical-align: middle; display: inline-flex;height: 100%;"></span>
-                                    <img src="{{ image }}" alt="{{ title }}" style="max-width:98%">
+                                    <img {{#if image}}src="{{ image }}"{{else}}src="/images/brapi-clover-alpha-700x394.png"{{/if}} alt="{{ title }}" style="max-width:98%">
                                     <span style="vertical-align: middle; display: inline-flex;height: 100%;"></span>
                                 </a>
                             </div>
-                            <div class="brapp-header font-alt col-12 col-md-8">
+                            <div class="brapp-header col-12 col-md-8">
                                 <h2>
                                     <a href="{{ url }}" target="_blank" class="software-title">{{ title }}</a>
                                 </h2>

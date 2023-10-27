@@ -1,5 +1,31 @@
 [
     {
+        "team": "The Alliance Bioversity - CIAT (bioinformatics team)",
+        "team-url": "https://alliancebioversityciat.org/who-we-are/alliance-scientists",
+        "title": "BrAPIMapper",
+        "description": "A docker (compose) project that enables a complete BrAPI implementation on almost any type of data source once a data mapping is set on the included mapping interface.",
+        "image": null,
+        "url": "https://github.com/plantbreeding/BrAPIMapper/tags",
+        "source-url": "https://github.com/plantbreeding/BrAPIMapper",
+        "doc-url": "https://github.com/plantbreeding/BrAPIMapper/blob/main/README.md",
+        "demo-url": "",
+        "email": "v.guignon@cgiar.org",
+        "date": "2023-10-27T10:20:48.496Z"
+    },
+    {
+        "team": "LEIBNIZ INSTITUTE OF PLANT GENETICS AND CROP PLANT RESEARCH (IPK), BIOINFORMATICS AND INFORMATION TECHNOLOGY (BIT)",
+        "team-url": "https://www.ipk-gatersleben.de/en/research/breeding-research/bioinformatics-and-information-technology",
+        "title": "DivBrowse",
+        "description": "DivBrowse is a software for interactive visualization and analysis of the diversity of genomic variants. It uses VCF and GFF3 files as data input and consists of a web server written in Python and a GUI written in Javascript. It is available as a Python package on PyPI.org and also as Docker image.\r\n\r\nIt offers a novel approach for interactive visualization and analysis of genomic diversity data and optionally also gene annotation data. The use of standard file formats for data input supports interoperability and seamless deployment of application instances based on established bioinformatics pipelines. The possible integration into 3rd-party web applications supports interoperability and reusability.\r\n\r\nThe integrated ad-hoc calculation of variant summary statistics and principal component analysis enables the user to perform interactive analysis of population structure for single genetic features like genes, exons and promoter regions. Data interoperability is achieved by the possibility to export genomic diversity data for genomic regions of interest in standardized VCF files and also TSV files.",
+        "image": "https://divbrowse.ipk-gatersleben.de/images/screenshot_divbrowse_main_gui.png",
+        "url": "https://divbrowse.ipk-gatersleben.de",
+        "source-url": "https://github.com/IPK-BIT/divbrowse",
+        "doc-url": "https://divbrowse.readthedocs.io",
+        "demo-url": "https://divbrowse.ipk-gatersleben.de/shape/",
+        "email": "koenig@ipk-gatersleben.de",
+        "date": "2023-10-27T10:20:08.478Z"
+    },
+    {
         "team": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Bioinformatics and Information Technology (BIT)",
         "team-url": "https://www.ipk-gatersleben.de/en/research/breeding-research/bioinformatics-and-information-technology",
         "title": "MIRA",
