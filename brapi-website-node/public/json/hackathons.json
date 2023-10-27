@@ -2,7 +2,7 @@
     "hackathon-oct-2023": {
         "dates": "October 23-27, 2023",
         "location": null,
-        "registrationOpen": true,
+        "registrationOpen": false,
         "registrationURL": "https://docs.google.com/forms/d/e/1FAIpQLSe1a22NlCQZLGjTZGdVr-siTQIqIYZ9dORD99-qj0s34qU3oQ/viewform",
         "registrationHookText": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will be October 23-27, 2023. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
         "overviewText": "<p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community. This weeklong event will reserve time for the members of the community to discuss the BrAPI specification, collaborate on projects, socialize and learn from each other. The hackathon is largely self-organizing project work time, with a few scheduled public discussion sessions addressing important community topics. The overall goal is to be as productive as possible in a small window of time, to explore ideas and start on collaborative projects that can be more formally developed after the event. </p> <p>One major take away from the past virtual hackathons was that attendees were feeling distracted by other work. If you can, try to reserve the whole week in your schedule so normal work does not intrude on the project work time. Of course, deadlines and emergencies happen, and BrAPI will not always be the top priority. This is just a reminder that you will get more out of the virtual hackathon experience if you can dedicate the time to focus on it. </p>",
