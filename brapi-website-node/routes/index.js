@@ -87,6 +87,10 @@ router.get('/brapps', function (req, res, next) {
 
 router.get('/compatibleSoftware', function (req, res, next) {
     var software = require('../public/json/compatibleSoftware.json');
+    const regThe = /^[tT]he /
+    for(package of software){
+        package.teamSortableName = package.team.replace(regThe, '');
+    }
 
     res.render('compatibleSoftware', {
         title: 'Compatible Software',
