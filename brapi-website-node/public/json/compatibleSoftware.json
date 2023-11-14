@@ -1,5 +1,18 @@
 [
     {
+        "team": "The Triticeae Toolbox",
+        "team-url": "https://triticeaetoolbox.org",
+        "title": "BrAPI Germplasm Search Tool",
+        "description": "Enter a list of germplasm names and find matching germplasm records on a BrAPI-compliant database using different search routines that can find matches with variations in spelling, punctuation, etc in the database names and/or synonyms. The user can then select matches and download lists of the matches and/or missing records.",
+        "image": "https://raw.githubusercontent.com/TriticeaeToolbox/BrAPI-germplasm-search/master/screenshot-overview.png",
+        "url": "https://synonyms.triticeaetoolbox.org",
+        "source-url": "https://github.com/TriticeaeToolbox/BrAPI-germplasm-search",
+        "doc-url": "https://github.com/TriticeaeToolbox/BrAPI-germplasm-search/blob/master/README.md",
+        "demo-url": "https://synonyms.triticeaetoolbox.org",
+        "email": "djw64@cornell.edu",
+        "date": "2023-11-14T19:02:04.932Z"
+    },
+    {
         "team": "Crop Adaptation Lab",
         "team-url": "https://www.morrislab.org/",
         "title": "qrlabelr: Generate Machine- And Human-Readable Plot Labels for Experiments",
