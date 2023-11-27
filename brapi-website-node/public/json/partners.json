@@ -1,12 +1,20 @@
-[{
+[
+    {
+        "name": "PhenoApps",
+        "url": "https://www.phenoapps.org/",
+        "img": "phenoapps.png"
+    },
+    {
         "name": "Agronomix Software",
         "url": "https://www.agronomix.com/",
         "img": "Agronomix.png"
-    }, {
+    },
+    {
         "name": "International Center for Agricultural Research in the Dry Areas",
         "url": "https://www.icarda.org/",
         "img": "ICARDA.png"
-    }, {
+    },
+    {
         "name": "The Triticeae Toolbox",
         "url": "https://triticeaetoolbox.org/",
         "img": "T3_black_wide.png"
