@@ -1,4 +1,103 @@
 {
+    "hackathon-apr-2024": {
+        "dates": "April 15-19, 2024",
+        "location": "Lutherstadt Wittenberg, Germany",
+        "registrationOpen": true,
+        "registrationURL": "https://docs.google.com/forms/d/e/1FAIpQLScY_-UAeJ_J1b8tCF2pWHh8TrFXxoBio8FPXq9voDLEi53wQw/viewform?usp=sf_link",
+        "feedbackURL": "",
+        "registrationHookText": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This event will be April 15-19, 2024 in Wittenberg, Germany. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
+        "overviewText": "<p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community. This weeklong event will reserve time for the members of the community to discuss the BrAPI specification, collaborate on projects, socialize and learn from each other. The hackathon is largely self-organizing project work time, with a few scheduled public discussion sessions addressing important community topics. The overall goal is to be as productive as possible in a small window of time, to explore ideas and start on collaborative projects that can be more formally developed after the event. </p>",
+        "overviewImage": {
+            "URL": "https://lutherstadt-wittenberg.de/en/see-discover/sights",
+            "path": "/images/news/Wittenberg.jpg",
+            "alt": "BrAPI Hackathon - Wittenberg, Germany",
+            "caption": "",
+            "source": "© WelterbeRegion Anhalt-Dessau-Wittenberg, Uwe Weigel",
+            "sourceURL": "https://lutherstadt-wittenberg.de/fileadmin/_processed_/b/1/csm_Marktplatz_Wittenberg_c_WelterbeRegion-Uwe-Weigel_881030aacd.jpg"
+        },
+        "calendarInvite": {
+            "title": "BrAPI Hackathon - Wittenberg, Germany",
+            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This event will be April 15-19, 2024 in Wittenberg, Germany. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon",
+            "location": "Lutherstadt Wittenberg, Germany",
+            "start": "2024-04-15 08:00:00Z",
+            "end": "2024-04-19 21:00:00Z"
+        },
+        "attendees": [ ],
+        "projects": [ ],
+        "notes": [
+        {
+            "discussion": "Welcome! Tech setup, setting expectations, general organizing",
+            "session1": "",
+            "slides": ""
+        }, {
+            "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
+            "session1": ""
+        }, {
+            "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
+            "session1": "",
+            "slides": ""
+        }, {
+            "discussion": "Project presentations and wrap up",
+            "session1": ""
+        }],
+        "agenda": [{
+            "date": "Monday, April 15, 2024",
+            "schedule": [
+                { "time": "09:00 - 09:30 CEST", "class": "agenda-bg-blue", "title": "Welcome! Tech setup, setting expectations, general organizing" },
+                { "time": "09:30 - 11:00 CEST", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                { "time": "11:00 - 12:00 CEST", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
+                { "time": "12:00 - 13:00 CEST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "15:00 - 15:30 CEST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "16:50 - 17:00 CEST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+            ]
+        }, {
+            "date": "Tuesday, April 16, 2024",
+            "schedule": [
+                { "time": "09:00 - 09:15 CEST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": null },
+                { "time": "12:00 - 13:00 CEST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": null },
+                { "time": "15:00 - 15:30 CEST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null },
+                { "time": "16:50 - 17:00 CEST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+            ]
+        }, {
+            "date": "Wednesday, April 17, 2024",
+            "schedule": [
+                { "time": "09:00 - 09:15 CEST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": null },
+                { "time": "15:00 - 15:30 CEST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null },
+                { "time": "16:50 - 17:00 CEST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": null },
+                { "time": "19:00 - 21:00 CEST", "class": "agenda-bg-pink", "title": "Community Dinner - The Brauhaus Restaurant" }
+            ]
+        }, {
+            "date": "Thursday, April 18, 2024",
+            "schedule": [
+                { "time": "09:00 - 09:15 CEST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": null },
+                { "time": "12:00 - 13:00 CEST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": null },
+                { "time": "15:00 - 15:30 CEST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null },
+                { "time": "16:50 - 17:00 CEST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+            ]
+        }, {
+            "date": "Friday, April 19, 2024",
+            "schedule": [
+                { "time": "09:00 - 09:15 CEST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": null },
+                { "time": "12:00 - 13:00 CEST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": null },
+                { "time": "14:00 - 15:00 CEST", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
+                { "time": "15:00 - 15:30 CEST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": "15:30 - 17:00 CEST", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" }
+            ]
+        }]
+    },
     "hackathon-oct-2023": {
         "dates": "October 23-27, 2023",
         "location": null,

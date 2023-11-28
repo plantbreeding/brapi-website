@@ -425,12 +425,6 @@ blockquote {
     padding: 0;
 }
 
-.font-alt {
-    font-family: "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
 .font-serif {
     font-family: Volkhov, "Times New Roman", sans-serif;
     font-style: italic;
@@ -446,7 +440,7 @@ blockquote {
 
 .module-title {
     position: relative;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     text-align: center;
     font-weight: 400;
     font-size: 30px;

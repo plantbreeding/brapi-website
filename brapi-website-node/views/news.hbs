@@ -25,7 +25,7 @@
                     {{#each posts}}
                     <li class="row justify-content-center">
                         <div class="post" style="min-height: 55px; margin-bottom: 25px;">
-                            <div class="post-header font-alt">
+                            <div class="post-header">
                                 <span class="post-ISO8601" style="display: none;">{{ ISO8601 }}</span>
                                 <a href="/news/{{ @key }}">
                                     <h2 class="post-title">{{ title }}</h2>
@@ -44,7 +44,7 @@
                     &lt; Back
                 </a>
                 <div class="post" style="min-height: 55px; margin-bottom: 25px;">
-                    <div class="post-header font-alt">
+                    <div class="post-header">
                         <h2 class="post-title">{{ post.title }}</h2>
                         <div class="post-meta">By {{ post.author }} | {{ post.date }}
                         </div>

@@ -37,7 +37,7 @@
 
             <div class="col-12 col-sm-8 col-md-9" id="content">
                 <div id="overview-section" style="display: block; scroll-margin-top: 400px;">
-                    <h3 class="font-alt" id="title"> Register </h3>
+                    <h3 id="title"> Register </h3>
                     <div style="margin-left:10px">
                         <p style="margin: 2px 0 2px 0;"> <strong>When: </strong> {{hackathonData.dates}} <br /> </p>
                         {{#if hackathonData.location}}
@@ -76,7 +76,7 @@
                         {{/if}}
 
                     </div>
-                    <h3 class="font-alt" id="title"> Overview </h3>
+                    <h3 id="title"> Overview </h3>
                     <div style="margin-left:10px">
                         {{{hackathonData.overviewText}}}
                         {{#if hackathonData.overviewImage}}
@@ -99,7 +99,7 @@
                 </div>
 
                 <div id="agenda-section" style="display: none; scroll-margin-top: 400px;">
-                    <h3 class="font-alt" id="title"> Agenda </h3>
+                    <h3 id="title"> Agenda </h3>
                     <div style="margin-left:10px">
                         {{#if hackathonData.location}}
                         <p>The hackathon will take place from <strong> {{hackathonData.dates}}</strong>.
@@ -177,7 +177,7 @@
                 </div>
 
                 <div id="attendees-section" style="display: none; scroll-margin-top: 400px;">
-                    <h3 class="font-alt" id="title"> Attendees List </h3>
+                    <h3 id="title"> Attendees List </h3>
                     <div style="margin-left:10px">
                         <p style="font-weight: bold;">Remote Session #1 (08:00-11:00 UTC)</p>
                             
@@ -203,7 +203,7 @@
                 </div>
 
                 <div id="projects-section" style="display: none; scroll-margin-top: 400px;">
-                    <h3 class="font-alt" id="title"> Project List </h3>
+                    <h3 id="title"> Project List </h3>
                     <div style="margin-left:10px">
                         <p>Projects are listed in the order they were received in the registration from. If you would
                             like to edit any of the information below, please contact the BrAPI Coordinator.</p>
@@ -229,7 +229,7 @@
 
 
                 <div id="notes-section" style="display: none; scroll-margin-top: 400px;">
-                    <h3 class="font-alt" id="title"> Meeting Notes and Recordings </h3>
+                    <h3 id="title"> Meeting Notes and Recordings </h3>
                     <div style="margin-left:10px">
                         {{#each hackathonData.notes}}
                         {{#if discussion}}
