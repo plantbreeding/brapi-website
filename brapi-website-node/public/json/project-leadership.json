@@ -35,20 +35,6 @@
             "orcid": "https://orcid.org/0000-0002-9040-8733"
         },
         {
-            "name": "Iain Milne",
-            "title": "Advisory Board Member",
-            "org": "James Hutton Institute",
-            "pic": null,
-            "orcid": "https://orcid.org/0000-0002-4126-0859"
-        },
-        {
-            "name": "Tim Parsons",
-            "title": "Lead Software Engineer",
-            "org": "Cornell University",
-            "pic": "/images/people/tim_parsons_400x400.jpg",
-            "orcid": "https://orcid.org/0000-0001-6209-2455"
-        },
-        {
             "name": "Shawn Yarnes, PhD",
             "title": "Product Owner, Breeding Insight",
             "org": "Cornell University",
@@ -61,6 +47,20 @@
             "org": "Research Center Juelich, GMBH",
             "pic": "/images/people/sebastian_beier_433x433.jpg",
             "orcid": "https://orcid.org/0000-0002-2177-8781"
+        },
+        {
+            "name": "Valentin Guignon",
+            "title": "Associate Scientist",
+            "org": "The Alliance of Bioversity International and CIAT",
+            "pic": "/images/people/valentin_guignon.jpg",
+            "orcid": "https://orcid.org/0000-0003-0903-6811"
+        },
+        {
+            "name": "Dr Stephan Weise",
+            "title": "Head of Genebank Documentation / EURISCO Coordinator",
+            "org": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK)",
+            "pic": "/images/people/stephan_weise.jpg",
+            "orcid": "https://orcid.org/0000-0003-4031-9131"
         }
     ]
 }

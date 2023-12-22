@@ -28,18 +28,18 @@
 
             <div class="row justify-content-around" style="margin: 30px 0;">
                 {{#each management}}
-                <div class="col-12 col-md-5 brapp">
+                <div class="col-12 col-xl-6 brapp">
                     {{#if orcid }}
                     <a target="_blank" href="{{ orcid }}">
                         {{/if}}
                         <div class="row brapp-box">
-                            <div class="brapp-thumbnail col-3">
+                            <div class="brapp-thumbnail col-3 col-lg-2 col-xl-3">
                                 {{#if pic }}
-                                <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90"
+                                <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="130" height="130"
                                     style="margin: 5px auto 5.6px auto;">
                                 {{else}}
                                 <span class="iconify fa-lg" data-icon="mdi-account-box"
-                                    style="font-size: 6.5em; line-height: 1.1em;"></span>
+                                    style="font-size: 8.5em; line-height: 1.1em;"></span>
                                 {{/if}}
                             </div>
                             <div class="col-9">
@@ -69,27 +69,27 @@
                     {{!-- <a href="/docs/BrAPI_Advisory_Board_Candidate_Report_TEMPLATE.docx"
                         class="btn btn-sm btn-outline-success col-12 col-sm-4 col-md-3">Nominate A New Board Member</a>
                     --}}
-                    <a href="/advisoryBoardCandidates"
-                        class="btn btn-sm btn-outline-success col-12 col-sm-4 col-md-3">New Board Member Candidates</a>
+                    {{!-- <a href="/advisoryBoardCandidates"
+                        class="btn btn-sm btn-outline-success col-12 col-sm-4 col-md-3">New Board Member Candidates</a> --}}
                    
                 </div>
             </div>
 
             <div class="row justify-content-around" style="margin: 30px 0;">
                 {{#each board}}
-                <div class="col-12 col-md-5 brapp">
+                <div class="col-12 col-xl-6 brapp">
                     {{#if orcid }}
                     <a target="_blank" href="{{ orcid }}">
                         {{/if}}
                         <div class="row brapp-box">
-                            <div class="brapp-thumbnail col-3" style="min-height: 102px;">
+                            <div class="brapp-thumbnail col-3 col-lg-2 col-xl-3" style="min-height: 126px;">
                                 {{#if pic }}
                                 <span></span>
-                                <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="90" height="90"
+                                <img src="{{ pic }}" alt="{{ name }} Thumbnail" width="130" height="130"
                                     style="margin: 5px auto 5.6px auto;">
                                 {{else}}
                                 <span class="iconify fa-lg" data-icon="mdi-account-box"
-                                    style="font-size: 6.5em; line-height: 1.1em;"></span>
+                                    style="font-size: 8.5em; line-height: 1.1em;"></span>
                                 {{/if}}
                             </div>
                             <div class="col-9">
