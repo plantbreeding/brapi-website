@@ -22,6 +22,21 @@
             "start": "2024-04-15 08:00:00Z",
             "end": "2024-04-19 21:00:00Z"
         },
+        "sponsors":{
+            "sponsorText": "This hackathon is generously sponsored by Elixir Germany and de.NBI",
+            "sponsorLogos": [
+                {
+                    "URL": "https://elixir-europe.org/about-us/who-we-are/nodes/germany",
+                    "path": "/images/institutions/elixir-germany.png",
+                    "alt": "Sponsored By: Elixir Germany"
+                },
+                {
+                    "URL": "https://www.denbi.de/",
+                    "path": "/images/institutions/deNBI.png",
+                    "alt": "Sponsored By: de.NBI"
+                }
+            ]
+        },
         "attendees": [ ],
         "projects": [ ],
         "notes": [
