@@ -40,7 +40,7 @@
                     <h3 id="title"> Register </h3>
                     <div style="margin-left:10px">
                         <p style="margin: 2px 0 2px 0;"> <strong>When: </strong> {{hackathonData.dates}} <br /> </p>
-                        <p style="margin: 2px 0 2px 0;"> <strong>Where: </strong> {{hackathonData.location}} <br></p>
+                        <p style="margin: 2px 0 2px 0;"> <strong>Where: </strong> Virtual <br></p>
 
                         {{#if calendarLinks}}
                         <p style="margin: 10px 0 2px 0;"> <strong>Add To Calendar: </strong> <br> </p>
@@ -115,20 +115,30 @@
                 <div id="agenda-section" style="display: none; scroll-margin-top: 400px;">
                     <h3 id="title"> Agenda </h3>
                     <div style="margin-left:10px">
-                        <p>The hackathon will take place from <strong> {{hackathonData.dates}}</strong>.
-                            <br>
-                            Working days will start at <strong> 9:00 {{hackathonData.timezone}} local time</strong> and
-                            will
-                            end <strong> 17:00 {{hackathonData.timezone}} local time </strong>
-                            <br>
-                            This agenda is subject to change without warning, please check back regularly.
-                            <br>
-                            If you have a discussion topic you would like to address with the rest of the BrAPI
-                            Community, please contact the BrAPI Coordinator.
-                            <br>
-                            Project work time is assumed to be happening all day, the agenda is only to organize
-                            community discussions. To get the most out of the hackathon experience, please try to
-                            reserve the whole week to participate in collaborative development projects.
+                        <p>This event will take place from <strong> {{hackathonData.dates}}</strong>. There will be
+                            two sessions per day to accommodate many different time zones. Attendees are welcome to
+                            attend any and all sessions.
+                        <ul>
+                            <li> <span style="background-color: #d6e6ff;">Discussion Session #1:</span> every day
+                                from
+                                <span class="agenda-local-time" style="font-weight: bold;"></span>
+                                (<span class="agenda-utc-time">08:00 - 11:00 UTC</span>)
+
+                            </li>
+                            <li> <span style="background-color: #f3d6ff;">Discussion Session #2:</span> every day
+                                from
+                                <span class="agenda-local-time" style="font-weight: bold;"></span>
+                                (<span class="agenda-utc-time">16:00 - 19:00 UTC</span>)
+                            </li>
+                            <li> <span style="background-color: #deffd6;">Collaborative project work time:</span>
+                                All
+                                day, every day of the hackathon</li>
+                        </ul>
+                        This agenda is subject to change without warning, please check back regularly. If you have a
+                        discussion topic you would like to address with the rest of the BrAPI Community, please
+                        contact the BrAPI Coordinator. Project work time is assumed to be happening all day, the agenda
+                        is only to organize community discussions. To get the most out of the hackathon experience,
+                        please try to reserve the whole week to participate in collaborative development projects.
                         </p>
 
                         <div class="row">
@@ -143,9 +153,8 @@
                                     <div class="col-12 {{class}} agenda-row row" style=" 
                                         {{#if canceled}} text-decoration: line-through; {{/if}}">
                                         <div class="col-12 col-lg-3 agenda-time">
-                                            <span class="agenda-local-time"
-                                                style="font-weight: bold;">{{time}}</span><br>
-                                            <span class="agenda-utc-time"></span>
+                                            <span class="agenda-local-time" style="font-weight: bold;"></span><br>
+                                            <span class="agenda-utc-time">{{time}}</span>
                                         </div>
                                         <div class="col-12 col-lg-9">{{title}}
                                             {{#if lead}}<br />Discussion Lead: {{lead}}{{/if}}</div>
@@ -260,28 +269,43 @@
 <script type="text/plain" cookie-consent="strictly-necessary">
 $(document).ready(function () {
     
+    $("li .agenda-utc-time").each(
+        function(i, timeRange){
+            var timeRangeStr = timeRange.innerHTML;
+            var dateStr = $(".agenda-date").first().html();
+            $(timeRange).siblings(".agenda-local-time").html(toLocalTimeRange(dateStr, timeRangeStr));
+
+        }
+    );
+
     $(".agenda-date").each(
         function(i, date){
             var dateStr = date.innerHTML;
             console.log(); 
             $(date)
             .next()
-            .find(".agenda-local-time")
+            .find(".agenda-utc-time")
             .each(
                 function(i, timeRange){
-                                                                // expected value
-                    var timeRangeStr = timeRange.innerHTML;     // '09:00 - 09:30 EST -05:00'
-                    var timeDataArr = timeRangeStr.split(" ");  // ['09:00', '-', '09:30', 'EST', '-05:00']
-                    var zoneOffset = timeDataArr[4];            // '-05:00'
-                                    
-                    var timestamp1 = new Date(dateStr + ' ' + timeDataArr[0] + ' ' + zoneOffset);
-                    var timestamp2 = new Date(dateStr + ' ' + timeDataArr[2] + ' ' + zoneOffset);
-                    var timestampStr1 = timestamp1.toUTCString().split(' ')[4].slice(0,5);
-                    var timestampStr2 = timestamp2.toUTCString().split(' ')[4].slice(0,5);
-    
-                    $(timeRange).html(timeDataArr.slice(0,4).join(' '));
-                    $(timeRange).siblings(".agenda-utc-time").html(timestampStr1 + ' - ' + timestampStr2 + ' UTC');
+                    timeRangeStr = timeRange.innerHTML;
+                    if(timeRangeStr.startsWith("Session")){
+                        $(timeRange).html("");
+                        $(timeRange).siblings(".agenda-local-time").html(timeRangeStr);
+                    }else{
+                        $(timeRange).siblings(".agenda-local-time").html(toLocalTimeRange(dateStr, timeRangeStr));
+                    }
                 });
         });
 });
+
+function toLocalTimeRange(dateStr, timeRangeStr){
+    var times = timeRangeStr.split(" - ");
+
+    var timestamp1 = new Date(dateStr + ' ' + times[0] + " UTC+00:00");
+    var timestamp2 = new Date(dateStr + ' ' + times[1] + "+00:00");
+    var timestampStr1 = timestamp1.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", hour12: false});
+    var timestampStr2 = timestamp2.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", hour12: false, timeZoneName: "short"});
+
+    return timestampStr1 + ' - ' + timestampStr2;
+}
 </script>

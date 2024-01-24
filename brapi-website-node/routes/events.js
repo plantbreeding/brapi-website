@@ -67,15 +67,28 @@ var renderHackathonPage = function (hackathonData, eventID, res) {
         if (hackathonData[eventID]["calendarInvite"]) {
             var calendarLinks = buildCalendarLinks(hackathonData[eventID].calendarInvite);
         }
-        res.render('hackathon', {
-            title: 'BrAPI Hackathon',
-            footerEvents: getTrailerEvents(),
-            hackathonData: hackathonData[eventID],
-            calendarLinks: calendarLinks,
-            twitterTitle: 'BrAPI Hackathon',
-            twitterDesc: eventID,
-            SEOEventJSON: buildEventSchema(hackathonData[eventID])
-        });
+
+        if(hackathonData[eventID]["location"]){
+            res.render('hackathon', {
+                title: 'BrAPI Hackathon',
+                footerEvents: getTrailerEvents(),
+                hackathonData: hackathonData[eventID],
+                calendarLinks: calendarLinks,
+                twitterTitle: 'BrAPI Hackathon',
+                twitterDesc: eventID,
+                SEOEventJSON: buildEventSchema(hackathonData[eventID])
+            });
+        }else{
+            res.render('hackathonVirtual', {
+                title: 'BrAPI Virtual Hackathon',
+                footerEvents: getTrailerEvents(),
+                hackathonData: hackathonData[eventID],
+                calendarLinks: calendarLinks,
+                twitterTitle: 'BrAPI Virtual Hackathon',
+                twitterDesc: eventID,
+                SEOEventJSON: buildEventSchema(hackathonData[eventID])
+            });
+        }
     } else {
         res.redirect("/events");
     }

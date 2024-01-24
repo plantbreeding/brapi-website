@@ -2,6 +2,7 @@
     "hackathon-apr-2024": {
         "dates": "April 15-19, 2024",
         "location": "Lutherstadt Wittenberg, Germany",
+        "timezone": "CEST",
         "registrationOpen": true,
         "registrationURL": "https://docs.google.com/forms/d/e/1FAIpQLScY_-UAeJ_J1b8tCF2pWHh8TrFXxoBio8FPXq9voDLEi53wQw/viewform?usp=sf_link",
         "feedbackURL": "",
@@ -58,58 +59,58 @@
         "agenda": [{
             "date": "Monday, April 15, 2024",
             "schedule": [
-                { "time": "09:00 - 09:30 CEST", "class": "agenda-bg-blue", "title": "Welcome! Tech setup, setting expectations, general organizing" },
-                { "time": "09:30 - 11:00 CEST", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                { "time": "11:00 - 12:00 CEST", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
-                { "time": "12:00 - 13:00 CEST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "09:00 - 09:30 CEST +02:00", "class": "agenda-bg-blue", "title": "Welcome! Tech setup, setting expectations, general organizing" },
+                { "time": "09:30 - 11:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                { "time": "11:00 - 12:00 CEST +02:00", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
+                { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
-                { "time": "15:00 - 15:30 CEST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
-                { "time": "16:50 - 17:00 CEST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+                { "time": "16:50 - 17:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
             ]
         }, {
             "date": "Tuesday, April 16, 2024",
             "schedule": [
-                { "time": "09:00 - 09:15 CEST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
-                { "time": "12:00 - 13:00 CEST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": null },
-                { "time": "15:00 - 15:30 CEST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "16:50 - 17:00 CEST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+                { "time": "16:50 - 17:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
             ]
         }, {
             "date": "Wednesday, April 17, 2024",
             "schedule": [
-                { "time": "09:00 - 09:15 CEST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
-                { "time": "15:00 - 15:30 CEST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "16:50 - 17:00 CEST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": "16:50 - 17:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
                 { "time": null },
-                { "time": "19:00 - 21:00 CEST", "class": "agenda-bg-pink", "title": "Community Dinner - The Brauhaus Restaurant" }
+                { "time": "19:00 - 21:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Community Dinner - The Brauhaus Restaurant" }
             ]
         }, {
             "date": "Thursday, April 18, 2024",
             "schedule": [
-                { "time": "09:00 - 09:15 CEST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
-                { "time": "12:00 - 13:00 CEST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": null },
-                { "time": "15:00 - 15:30 CEST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "16:50 - 17:00 CEST", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+                { "time": "16:50 - 17:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
             ]
         }, {
             "date": "Friday, April 19, 2024",
             "schedule": [
-                { "time": "09:00 - 09:15 CEST", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
-                { "time": "12:00 - 13:00 CEST", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": null },
-                { "time": "14:00 - 15:00 CEST", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
-                { "time": "15:00 - 15:30 CEST", "class": "agenda-bg-pink", "title": "Afternoon Break" },
-                { "time": "15:30 - 17:00 CEST", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" }
+                { "time": "14:00 - 15:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
+                { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": "15:30 - 17:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" }
             ]
         }]
     },
