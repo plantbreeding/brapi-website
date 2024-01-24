@@ -13,18 +13,22 @@
                     <div class="callout-text-dark col-12 col-sm-10"
                         style="padding: 1px 0 0 0; {{#if showSponsors}} padding-top:7px; {{/if}}">
                         <h3 class="callout-title-dark">{{ title }}</h3>
-                        <p style="margin: 0 0 0 10px;">
-                            {{ date }}<br>
-                            {{ location }}
-                        </p>
-                        {{#if showSponsors}}
-                        <div>Sponsored By: {{#each sponsorsLogos}}
-                            <a target="_blank" href="{{ url }}">
-                                <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
-                            </a>
-                            {{/each}}
+                        <div class="row">
+                            <div class="col-6">
+                                <p style="margin: 0 0 0 10px;">
+                                    {{ date }}<br>
+                                    {{ location }}
+                                </p>
+                            </div>
+                            {{#if showSponsors}}
+                            <div class="col-5">Sponsored By: {{#each sponsorsLogos}}
+                                <a target="_blank" href="{{ url }}">
+                                    <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
+                                </a>
+                                {{/each}}
+                            </div>
+                            {{/if}}
                         </div>
-                        {{/if}}
                     </div>
                     <div class="col-12" style="margin: 10px 0 0 0;">
                         {{{ description }}}
@@ -71,8 +75,8 @@
                         <span class="iconify" data-icon="mdi-chevron-double-down"></span> Show More <span
                             class="iconify" data-icon="mdi-chevron-double-down"></span>
                         {{else}}
-                        <span class="iconify" data-icon="mdi-chevron-double-up"></span> Show Less <span
-                            class="iconify" data-icon="mdi-chevron-double-up"></span>
+                        <span class="iconify" data-icon="mdi-chevron-double-up"></span> Show Less <span class="iconify"
+                            data-icon="mdi-chevron-double-up"></span>
                         {{/if}}
                     </button>
                 </div>
@@ -87,18 +91,22 @@
                         <div class="callout-text-dark col-12 col-sm-10"
                             style="padding: 1px 0 0 0; {{#if showSponsors}} padding-top:7px; {{/if}}">
                             <h3 class="callout-title-dark">{{ title }}</h3>
-                            <p style="margin: 0 0 0 10px;">
-                                {{ date }}<br>
-                                {{ location }}
-                            </p>
-                            {{#if showSponsors}}
-                            <div>Sponsored By: {{#each sponsorsLogos}}
-                                <a target="_blank" href="{{ url }}">
-                                    <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
-                                </a>
-                                {{/each}}
+                            <div class="row">
+                                <div class="col-6">
+                                    <p style="margin: 0 0 0 10px;">
+                                        {{ date }}<br>
+                                        {{ location }}
+                                    </p>
+                                </div>
+                                {{#if showSponsors}}
+                                <div class="col-5">Sponsored By: {{#each sponsorsLogos}}
+                                    <a target="_blank" href="{{ url }}">
+                                        <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
+                                    </a>
+                                    {{/each}}
+                                </div>
+                                {{/if}}
                             </div>
-                            {{/if}}
                         </div>
                         <div class="col-12" style="margin: 10px 0 0 0;">
                             {{{ description }}}

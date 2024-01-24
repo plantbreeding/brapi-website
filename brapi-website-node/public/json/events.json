@@ -15,6 +15,17 @@
                 "name": "Register",
                 "url": "https://docs.google.com/forms/d/e/1FAIpQLScY_-UAeJ_J1b8tCF2pWHh8TrFXxoBio8FPXq9voDLEi53wQw/viewform?usp=sf_link"
             }
+        ],
+        "showSponsors": true,
+        "sponsorsLogos": [
+            {
+                "url": "https://elixir-europe.org/about-us/who-we-are/nodes/germany",
+                "logo": "/images/institutions/elixir-germany.png"
+            },
+            {
+                "url": "https://www.denbi.de/",
+                "logo": "/images/institutions/deNBI.png"
+            }
         ]
     },
     {
