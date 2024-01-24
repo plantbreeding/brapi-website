@@ -1,7 +1,7 @@
 # Build with : docker build -t brapicoordinatorselby/brapi-web ./
 # run with : docker run --name="brapi-web" -p 3000:3000 -d brapicoordinatorselby/brapi-web
 
-FROM node:14
+FROM node:20.11
 
 # Create app directory
 WORKDIR /usr/src/app
