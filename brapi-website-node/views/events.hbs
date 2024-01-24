@@ -13,26 +13,26 @@
                     <div class="callout-text-dark col-12 col-sm-10"
                         style="padding: 1px 0 0 0; {{#if showSponsors}} padding-top:7px; {{/if}}">
                         <h3 class="callout-title-dark">{{ title }}</h3>
-                        <div class="row">
-                            <div class="col-6">
-                                <p style="margin: 0 0 0 10px;">
-                                    {{ date }}<br>
-                                    {{ location }}
-                                </p>
-                            </div>
-                            {{#if showSponsors}}
-                            <div class="col-5">Sponsored By: {{#each sponsorsLogos}}
-                                <a target="_blank" href="{{ url }}">
-                                    <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
-                                </a>
-                                {{/each}}
-                            </div>
-                            {{/if}}
+                        <div>
+                            <p style="margin: 0 0 0 10px;">
+                                {{ date }}<br>
+                                {{ location }}
+                            </p>
                         </div>
                     </div>
                     <div class="col-12" style="margin: 10px 0 0 0;">
                         {{{ description }}}
                     </div>
+                    {{#if showSponsors}}
+                    <div class="col-12"> 
+                        Event Sponsors:
+                        {{#each sponsorsLogos}}
+                        <a target="_blank" href="{{ url }}">
+                            <img src="{{ logo }}" alt="Sponsor" class="brapi-sponsor-tag-img" />
+                        </a>
+                        {{/each}}
+                    </div>
+                    {{/if}}
                 </div>
                 {{#if links}}
                 <div class="col-12 col-md-3">

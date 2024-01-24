@@ -24,17 +24,32 @@
             "end": "2024-04-19 21:00:00Z"
         },
         "sponsors":{
-            "sponsorText": "This hackathon is generously sponsored by Elixir Germany and de.NBI",
+            "sponsorText": "This hackathon is generously supported by KWS:Seeding the Future - since 1856, FZ Juelich, IPK Gatersleben, de.NBI and Elixir Germany.",
             "sponsorLogos": [
                 {
-                    "URL": "https://elixir-europe.org/about-us/who-we-are/nodes/germany",
-                    "path": "/images/institutions/elixir-germany.png",
-                    "alt": "Sponsored By: Elixir Germany"
+                    "URL": "https://www.kws.com/corp/en/careers",
+                    "path": "/images/institutions/KWS_Logo.png",
+                    "alt": "Sponsored By: KWS, Seeding the Future - since 1856"
+                },
+                {
+                    "URL": "https://www.fz-juelich.de",
+                    "path": "/images/institutions/FZ_Juelich_logo.jpg",
+                    "alt": "Sponsored By: FZ Juelich"
+                },
+                {
+                    "URL": "https://www.ipk-gatersleben.de",
+                    "path": "/images/institutions/ipk_logo.JPG",
+                    "alt": "Sponsored By: IPK Gatersleben"
                 },
                 {
                     "URL": "https://www.denbi.de/",
                     "path": "/images/institutions/deNBI.png",
                     "alt": "Sponsored By: de.NBI"
+                },
+                {
+                    "URL": "https://elixir-europe.org/about-us/who-we-are/nodes/germany",
+                    "path": "/images/institutions/elixir-germany.png",
+                    "alt": "Sponsored By: Elixir Germany"
                 }
             ]
         },
