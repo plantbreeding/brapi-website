@@ -5,6 +5,7 @@
         "timezone": "CEST",
         "registrationOpen": true,
         "registrationURL": "https://docs.google.com/forms/d/e/1FAIpQLScY_-UAeJ_J1b8tCF2pWHh8TrFXxoBio8FPXq9voDLEi53wQw/viewform?usp=sf_link",
+        "travelGuideURL": "https://docs.google.com/document/d/1HAyZBZ0GoJlYqMw8sS8ilJR8cKvoKd-stlJ6uOJIxcI",
         "feedbackURL": "",
         "registrationHookText": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This event will be April 15-19, 2024 in Wittenberg, Germany. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
         "overviewText": "<p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community. This weeklong event will reserve time for the members of the community to discuss the BrAPI specification, collaborate on projects, socialize and learn from each other. The hackathon is largely self-organizing project work time, with a few scheduled public discussion sessions addressing important community topics. The overall goal is to be as productive as possible in a small window of time, to explore ideas and start on collaborative projects that can be more formally developed after the event. </p>",
