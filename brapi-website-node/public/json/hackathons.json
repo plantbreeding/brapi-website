@@ -26,12 +26,12 @@
             "end": "2024-04-19 21:00:00Z"
         },
         "sponsors":{
-            "sponsorText": "This hackathon is generously supported by KWS:Seeding the Future - since 1856, FZ Juelich, IPK Gatersleben, de.NBI and Elixir Germany.",
+            "sponsorText": "This hackathon is generously supported by IPK Gatersleben, FZ Juelich, KWS:Seeding the Future - since 1856, de.NBI and Elixir Germany.",
             "sponsorLogos": [
                 {
-                    "URL": "https://www.kws.com/corp/en/careers",
-                    "path": "/images/institutions/KWS_Logo.png",
-                    "alt": "Sponsored By: KWS, Seeding the Future - since 1856"
+                    "URL": "https://www.ipk-gatersleben.de",
+                    "path": "/images/institutions/ipk_logo.JPG",
+                    "alt": "Sponsored By: IPK Gatersleben"
                 },
                 {
                     "URL": "https://www.fz-juelich.de",
@@ -39,9 +39,9 @@
                     "alt": "Sponsored By: FZ Juelich"
                 },
                 {
-                    "URL": "https://www.ipk-gatersleben.de",
-                    "path": "/images/institutions/ipk_logo.JPG",
-                    "alt": "Sponsored By: IPK Gatersleben"
+                    "URL": "https://www.kws.com/corp/en/careers",
+                    "path": "/images/institutions/KWS_Logo.png",
+                    "alt": "Sponsored By: KWS, Seeding the Future - since 1856"
                 },
                 {
                     "URL": "https://www.denbi.de/",
@@ -80,9 +80,10 @@
                 { "time": "09:30 - 11:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
                 { "time": "11:00 - 12:00 CEST +02:00", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
                 { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "13:00 - 14:00 CEST +02:00", "class": "agenda-bg-blue", "title": "BrAPI Domain Model Review - Deep dive into the existing data model" },
+                { "time": null },
                 { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
-                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": null },
                 { "time": "16:50 - 17:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
             ]
         }, {
@@ -90,7 +91,10 @@
             "schedule": [
                 { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
+                { "time": "10:00 - 11:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Genebanks and BrAPI - Use cases and planning for connecting genebanks to other systems" },
+                { "time": "11:00 - 12:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Analytics Discussion Continued" },
                 { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "13:00 - 14:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Security and Authentication - Example implementations and general discussion" },
                 { "time": null },
                 { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
@@ -100,6 +104,9 @@
             "date": "Wednesday, April 17, 2024",
             "schedule": [
                 { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": "09:15 - 12:00 CEST +02:00", "class": "agenda-bg-blue", "title": "BrAPI V2 Publication - Writing and editing session" },
+                { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "13:00 - 14:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Group Discussion TBD" },
                 { "time": null },
                 { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
@@ -112,7 +119,11 @@
             "schedule": [
                 { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
+                { "time": "10:00 - 11:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Group Discussion TBD" },
+                { "time": null },
                 { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "13:00 - 13:30 CEST +02:00", "class": "agenda-bg-blue", "title": "Github Issues Review - Discuss and prioritize key issues for the next version" },
+                { "time": "13:30 - 14:00 CEST +02:00", "class": "agenda-bg-blue", "title": "BrAPI v2.2 - Feature planning" },
                 { "time": null },
                 { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
@@ -122,6 +133,8 @@
             "date": "Friday, April 19, 2024",
             "schedule": [
                 { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
+                { "time": null },
+                { "time": "10:00 - 11:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Group Discussion TBD" },
                 { "time": null },
                 { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": null },

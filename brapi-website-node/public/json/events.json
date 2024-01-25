@@ -23,16 +23,16 @@
         "showSponsors": true,
         "sponsorsLogos": [
             {
-                "url": "https://www.kws.com/corp/en/careers",
-                "logo": "/images/institutions/KWS_Logo.png"
+                "url": "https://www.ipk-gatersleben.de",
+                "logo": "/images/institutions/ipk_logo.JPG"
             },
             {
                 "url": "https://www.fz-juelich.de",
                 "logo": "/images/institutions/FZ_Juelich_logo.jpg"
             },
             {
-                "url": "https://www.ipk-gatersleben.de",
-                "logo": "/images/institutions/ipk_logo.JPG"
+                "url": "https://www.kws.com/corp/en/careers",
+                "logo": "/images/institutions/KWS_Logo.png"
             },
             {
                 "url": "https://www.denbi.de/",
