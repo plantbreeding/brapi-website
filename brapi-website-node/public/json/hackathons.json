@@ -55,8 +55,18 @@
                 }
             ]
         },
-        "attendees": [ ],
-        "projects": [ ],
+        "attendees": [
+            {"name" : "Peter Selby", "org" : "BrAPI", "email" : "brapicoordinatorselby@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Manuel Feser", "org" : "IPK Gatersleben", "email" : "feser@ipk-gatersleben.de", "session1" : false, "session2" : true},
+            {"name" : "Sebastian Raubach", "org" : "The James Hutton Institute", "email" : "sebastian.raubach@hutton.ac.uk", "session1" : false, "session2" : true},
+            {"name" : "Cyril Pommier", "org" : "INRAE", "email" : "cyril.pommier@inrae.fr", "session1" : false, "session2" : true},
+            {"name" : "Shawn  Yarnes", "org" : "Breeding Insight", "email" : "scy32@cornell.edu", "session1" : true, "session2" : false},
+            {"name" : "Stephan Weise", "org" : "IPK Gatersleben", "email" : "weise@ipk-gatersleben.de", "session1" : false, "session2" : true}
+         ],
+        "projects": [ 
+            {"team" : "Manuel Feser", "title" : "MIRA", "description" : "Enhancing MIRA to use ARCs", "needs" : null, "repo" : "https://github.com/IPK-BIT/mira "},
+            {"team" : "Sebastian Raubach, Probably the IPK people, but not exclusively", "title" : "JHI Tool Enhancements", "description" : "Lots of options. Partial pedigree import into Helium, better BrAPI integration for GridScore, looking into authentication.", "needs" : null, "repo" : null}
+        ],
         "notes": [
         {
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
