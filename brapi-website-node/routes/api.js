@@ -11,32 +11,6 @@ const mg = mailgun.client({ username: 'api', key: process.env.MAILGUN_API_KEY })
 
 const blacklistRegexArray = [
     new RegExp('^.*\.ru$'),
-    'annamaser050@gmail.com',
-    'zinaiba.buchilova@gmail.com',
-    'nina.divisenko@gmail.com',
-    'anastasiakiseleva494@gmail.com',
-    'hayitnadya@gmail.com',
-    'makita868693@gmail.com',
-    'mari.serobyan@gmail.com',
-    'katkovaev@gmail.com',
-    'reshetovmax30@gmail.com',
-    'lavrova.tanja74@gmail.com',
-    'jstapirishka4@gmail.com',
-    'tatanasergeeva8286@gmail.com',
-    'alenazavalennaya@gmail.com',
-    'rusamz40@gmail.com',
-    'samantha.dark.sun21@gmail.com',
-    'Foto10na12@gmail.com',
-    'snizana639@gmail.com',
-    'gisselle84@gmail.com',
-    'pankivnasta6@gmail.com',
-    'seuolcookie@gmail.com',
-    'veronika.v200022@gmail.com',
-    'kalacevv385@gmail.com',
-    'madilcdermott@gmail.com',
-    'sop.otalin.a9@gmail.com',
-    
-
 ]
 
 function blacklistedEmail(email) {
@@ -49,8 +23,17 @@ function blacklistedEmail(email) {
     return false;
 }
 
-router.post('/mailingListSubscribe', function (req, res, next) {
-    if (!blacklistedEmail(req.body.email)) {
+async function verifyCaptcha(token, res) {
+    const response = await fetch('https://www.google.com/recaptcha/api/siteverify?secret='+ process.env.CAPTCHA_SECRET + '&response=' + token,
+        { method: 'POST', body: ''});
+    const data = await response.json();
+    return data.success
+}
+
+router.post('/mailingListSubscribe', async function (req, res, next) {
+    var verifyReq = await verifyCaptcha(req.body.captcha_token, res);
+
+    if ( verifyReq && !blacklistedEmail(req.body.email)) {
         const now = new Date(Date.now());
         var emailData = {
             from: 'BrAPI Mailing List <mail@mail.brapi.org>',
@@ -89,7 +72,7 @@ router.post('/mailingListSubscribe', function (req, res, next) {
             res.json({ "success": "true" })
         });
     } else {
-        res.json({ "success": "false" })
+        res.status(400).json({ "success": "false" })
     }
 });
 

@@ -1,6 +1,6 @@
 <section class="module-extra-small" style="min-height: 470px;">
     <div class="container">
-        <div class="row justify-content-center"  style="margin: 30px 0;">
+        <div class="row justify-content-center" style="margin: 30px 0;">
             <div class="col-5 col-sm-2">
                 <div style="text-align: center;">
                     <div class="features-icon">
@@ -52,8 +52,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-12"><label for="nameInput" style="font-weight: 600;">Name: </label>
                                 </div>
-                                <div class="col-12"><input id="nameInput" type="text" name="name"
-                                        style="width:100%" />
+                                <div class="col-12"><input id="nameInput" type="text" name="name" style="width:100%" />
                                 </div>
                                 <div class="col-12"><label for="orgInput"
                                         style="font-weight: 600;">Organization/Project:
@@ -67,7 +66,8 @@
                                         style="width:100%" />
                                 </div>
                                 <div class="col-12" style="text-align: center; margin: 30px 0;">
-                                    <input type="submit" value="Submit" class="btn btn-sm btn-outline-success col-6 col-sm-4">
+                                    <input type="submit" value="Submit"
+                                        class="btn btn-sm btn-outline-success col-6 col-sm-4">
                                 </div>
                                 <div class="col-12" style="text-align: center;">
                                     <p style="font-size: 8pt;"><a href='/unsubscribe'>Unsubscribe</a>
@@ -81,19 +81,41 @@
         </div>
     </div>
 </section>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LfyUGApAAAAAMTQ8qMUK6-2Gtp-bcUPg1Bddi6E"></script>
 <script type="text/plain" cookie-consent="strictly-necessary">
+
+    function subscriptionMessage(success){
+        if(success){
+            $("#mailingListSubscribeContainer").html("<p style='color: black;'>Thanks For Subscribing! <br/> "+
+            "<a href='/news'>Click here to read past articles.</a><br/>"+
+            "<a href='/unsubscribe'>Unsubscribe</a></p>")
+        }else{
+            $("#mailingListSubscribeContainer").html("<p style='color: black;'>An error occurred while subscribing. Please try again later. <br/> "+
+            "<a href='/news'>Click here to read past articles.</a><br/>"+
+            "<a href='/unsubscribe'>Unsubscribe</a></p>")
+        }
+    }
 
     $(document).ready(function () {
         $("#mailingListSubscribeForm").submit(function (event) {
             $("#mailingListSubscribeContainer").html("<div style='margin: 30px 0 0 35px;'><div class='loader loader-dark'></div></div>");
+            var formReq = $(this).serializeArray();
 
-            var req = $(this).serializeArray();
-            $.post('/api/mailingListSubscribe', req, function (data, status) {
-                console.log(data);
-                $("#mailingListSubscribeContainer").html("<p style='color: black;'>Thanks For Subscribing! <br/> "+
-                "<a href='/news'>Click here to read past articles.</a><br/>"+
-                "<a href='/unsubscribe'>Unsubscribe</a></p>")
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6LfyUGApAAAAAMTQ8qMUK6-2Gtp-bcUPg1Bddi6E', {action: 'submit'})
+                .then(function(token) {
+                    formReq.push({'name': 'captcha_token', 'value': token})
+                    $.post('/api/mailingListSubscribe', formReq, 
+                    function (data, status) {
+                        console.log(data);
+                        subscriptionMessage(true)
+                    }).fail(function() {
+                        subscriptionMessage(false)
+                    });
+                });
             });
+
             event.preventDefault();
         });
     });
