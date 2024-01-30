@@ -55,17 +55,27 @@
                 }
             ]
         },
-        "attendees": [{"name" : "Peter Selby", "org" : "BrAPI", "email" : "brapicoordinatorselby@gmail.com", "session1" : false, "session2" : true},
+        "attendees": [
+            {"name" : "Peter Selby", "org" : "BrAPI", "email" : "brapicoordinatorselby@gmail.com", "session1" : false, "session2" : true},
             {"name" : "Manuel Feser", "org" : "IPK Gatersleben", "email" : "feser@ipk-gatersleben.de", "session1" : false, "session2" : true},
             {"name" : "Sebastian Raubach", "org" : "The James Hutton Institute", "email" : "sebastian.raubach@hutton.ac.uk", "session1" : false, "session2" : true},
             {"name" : "Cyril Pommier", "org" : "INRAE", "email" : "cyril.pommier@inrae.fr", "session1" : false, "session2" : true},
             {"name" : "Shawn  Yarnes", "org" : "Breeding Insight", "email" : "scy32@cornell.edu", "session1" : true, "session2" : false},
             {"name" : "Stephan Weise", "org" : "IPK Gatersleben", "email" : "weise@ipk-gatersleben.de", "session1" : false, "session2" : true},
-            {"name" : "Fortune Ogo-ndah Awala ", "org" : "Ignatius Ajuru University of Education ", "email" : "fortune.awala@iaue.edu.ng", "session1" : false, "session2" : true}
+            {"name" : "Fortune Ogo-ndah Awala ", "org" : "Ignatius Ajuru University of Education ", "email" : "fortune.awala@iaue.edu.ng", "session1" : false, "session2" : true},
+            {"name" : "Dragan Perović ", "org" : "JKI", "email" : "dragan.perovic@julius-kuehn.de", "session1" : true, "session2" : false},
+            {"name" : "Asis Hallab", "org" : "Institut für Bio- und Geowissenschaften (IBG), Bioinformatik (IBG-4), Forschungszentrum Jülich angewandte Bioinformatik, Technische Hochschule Bingen", "email" : "a.hallab@fz-juelich.de", "session1" : true, "session2" : false},
+            {"name" : "Moses Nderitu", "org" : "SEQART AFRICA", "email" : "mosendirits@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Patrick König", "org" : "IPK Gatersleben", "email" : "koenig@ipk-gatersleben.de", "session1" : false, "session2" : true},
+            {"name" : "Matthijs Brouwer", "org" : "Wageningen University & Research, The Netherlands", "email" : "matthijs.brouwer@wur.nl", "session1" : true, "session2" : false},
+            {"name" : "Gouripriya Davuluri", "org" : "IPK Gatersleben", "email" : "davuluri@ipk-gatersleben.de", "session1" : false, "session2" : true}
          ],
         "projects": [ 
             {"team" : "Manuel Feser", "title" : "MIRA", "description" : "Enhancing MIRA to use ARCs", "needs" : null, "repo" : "https://github.com/IPK-BIT/mira "},
-            {"team" : "Sebastian Raubach, Probably the IPK people, but not exclusively", "title" : "JHI Tool Enhancements", "description" : "Lots of options. Partial pedigree import into Helium, better BrAPI integration for GridScore, looking into authentication.", "needs" : null, "repo" : null}
+            {"team" : "Sebastian Raubach, Probably the IPK people, but not exclusively", "title" : "JHI Tool Enhancements", "description" : "Lots of options. Partial pedigree import into Helium, better BrAPI integration for GridScore, looking into authentication.", "needs" : null, "repo" : null},
+            {"team" : "Asis Hallab, Peter Selby (BrApi core) and Sebastian Beier", "title" : "GraphQL x BrAPI Data Warehouse", "description" : "BrApi data model review and the plug and play data-warehouse", "needs" : "Not applicable", "repo" : "https://github.com/LzLang/Zendro-Converter"},
+            {"team" : "Moses Nderitu, Breeding Insight had indicated some interest to collaborate. Am looking forward to starting off this conversation.", "title" : "DArTView Enhancements", "description" : "Proper authentication system for DArTView. Am also looking to build up a functionality to be able to download Sample and Marker meta data from an enabled BrAPI server.", "needs" : null, "repo" : null},
+            {"team" : "Matthijs Brouwer", "title" : "BrAPI Proxy Service", "description" : "BrAPI proxy to integrate distributed hosted endpoints", "needs" : null, "repo" : null}
         ],
         "notes": [
         {
