@@ -126,7 +126,7 @@
                 { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": "09:15 - 12:00 CEST +02:00", "class": "agenda-bg-blue", "title": "BrAPI V2 Publication - Writing and editing session" },
                 { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": "13:00 - 14:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Group Discussion TBD" },
+                { "time": "13:00 - 14:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Presentation from Daniel Wibberg, Training Coordinator of de.NBI and ELIXIR-DE", "lead": "Daniel Wibberg"},
                 { "time": null },
                 { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
