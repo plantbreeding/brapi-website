@@ -80,7 +80,8 @@
             {"name" : "Isabelle Alic", "org" : "INRAE", "email" : "isabelle.alic@inrae.fr", "session1" : true, "session2" : false},
             {"name" : "Gabriel Besombes", "org" : "INRAE - OpenSILEX", "email" : "gabriel.besombes@inrae.fr", "session1" : false, "session2" : true},
             {"name" : "Josquin Tibbits", "org" : "Department of Energy, Environment and Climate Action ", "email" : "josquin.tibbits@agriculture.vic.gov.au", "session1" : true, "session2" : false},
-            {"name" : "Brandon Madriz Araya", "org" : "MrBot Software solutions", "email" : "bmadriz@mrbotcr.com", "session1" : false, "session2" : true}
+            {"name" : "Brandon Madriz Araya", "org" : "MrBot Software solutions", "email" : "bmadriz@mrbotcr.com", "session1" : false, "session2" : true},
+            {"name" : "Bryce (Bo) Meyering", "org" : "The Land Institute", "email" : "meyering@landinstitute.org", "session1" : true, "session2" : false}
          ],
         "projects": [ 
             {"team" : "Manuel Feser", "title" : "MIRA", "description" : "Enhancing MIRA to use ARCs", "needs" : null, "repo" : "https://github.com/IPK-BIT/mira "},
