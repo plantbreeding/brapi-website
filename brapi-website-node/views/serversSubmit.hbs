@@ -133,9 +133,9 @@
                     .then(response => response.json())
                     .then(data => {
                         var passTest = true;
-                        if($('#serverV1Input').val() && data['v1Res'].status && data['v1Res'].status != 200)
+                        if($('#serverV1Input').val() && data['v1Res'].status && ![200, 401, 403].includes(data['v1Res'].status))
                             passTest = false;
-                        if($('#serverV2Input').val() && data['v2Res'].status && data['v2Res'].status != 200)
+                        if($('#serverV2Input').val() && data['v2Res'].status && ![200, 401, 403].includes(data['v2Res'].status))
                             passTest = false;
                         if(passTest){
                             var req = $(this).serializeArray();
