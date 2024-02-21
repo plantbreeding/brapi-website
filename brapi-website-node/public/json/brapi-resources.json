@@ -1,74 +1,84 @@
-[{
+[
+    {
         "name": "Gobii",
         "logo": "https://brapi.org/images/institutions/gobii.png",
         "description": "The first large-scale public-sector effort with the goal to systematically apply high-density genotypic information to the breeding of staple crops in the developing world. Initially the focus is on rice, wheat, maize, sorghum and chickpea in South Asia and Sub-Saharan Africa. The genomic data management systems will include databases, imputation systems, and decision support tools for plant breeders.",
-        "resources": [{
-            "name": "GDM",
-            "v1-url": "http://api.gobii.org/gobii-dev/brapi/v1",
-            "v2-url": "http://api.gobii.org/gobii-dev/brapi/v2",
-            "description": "Test server for Gobii Data Manager",
-            "badges": [
-                "auth-required",
-                "data-demo",
-                "brapi-v1",
-                "brapi-v2"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "GDM",
+                "v1-url": "http://api.gobii.org/gobii-dev/brapi/v1",
+                "v2-url": "http://api.gobii.org/gobii-dev/brapi/v2",
+                "description": "Test server for Gobii Data Manager",
+                "badges": [
+                    "auth-required",
+                    "data-demo",
+                    "brapi-v1",
+                    "brapi-v2"
+                ]
+            }
+        ]
     },
     {
         "name": "Integrated Breeding Platform",
         "logo": "https://integratedbreeding.net/res/img/logofull.png",
         "description": "The IBP provides the tools, technologies and expertise sought by plant breeding programs in the public and private sectors, mainly in developing countries, as well as by universities engaged in teaching and research for the next generation of plant breeders. We build on the considerable legacy and networks of the former Generation Challenge Programme (GCP) to connect researchers, technicians and students at the local, regional and international levels. In doing so, the IBP is able to draw upon comprehensive knowledge and resources that are invaluable to strengthen the delivery chain for key staple food crops.",
-        "resources": [{
-            "name": "BMS BrAPI",
-            "v1-url": "https://brapi.bms-uat-test.net/bmsapi/maize/brapi/v1/",
-            "v2-url": "https://brapi.bms-uat-test.net/bmsapi/maize/brapi/v2/",
-            "description": "BrAPI integration server",
-            "badges": [
-                "auth-required",
-                "data-prod",
-                "data-demo",
-                "brapi-v1",
-                "brapi-v2"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "BMS BrAPI",
+                "v1-url": "https://brapi.bms-uat-test.net/bmsapi/maize/brapi/v1/",
+                "v2-url": "https://brapi.bms-uat-test.net/bmsapi/maize/brapi/v2/",
+                "description": "BrAPI integration server",
+                "badges": [
+                    "auth-required",
+                    "data-prod",
+                    "data-demo",
+                    "brapi-v1",
+                    "brapi-v2"
+                ]
+            }
+        ]
     },
     {
         "name": "IPK-Gatersleben",
         "description": "Leibniz Institute of Plant Genetics and Crop Plant Research",
         "logo": "/images/institutions/ipk_logo_de.png",
-        "resources": [{
-            "name": "IPK Gatersleben - Germplasm and Phenotypic Data",
-            "v1-url": "https://webapps.ipk-gatersleben.de/api/brapi/v1/",
-            "description": "Germplasm resources and plant phenotyping from IPK-Gatersleben",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v1"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "IPK Gatersleben - Germplasm and Phenotypic Data",
+                "v1-url": "https://webapps.ipk-gatersleben.de/api/brapi/v1/",
+                "description": "Germplasm resources and plant phenotyping from IPK-Gatersleben",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v1"
+                ]
+            }
+        ]
     },
     {
         "name": "The James Hutton Institute",
         "description": "JHI",
         "logo": "https://ics.hutton.ac.uk/resources/brapi/logos/jhi-128.png",
-        "resources": [{
-            "name": "Germinate 3 Demo (https://ics)",
-            "v1-url": "https://ics.hutton.ac.uk/germinate-demo/api/brapi/v1/",
-            "v2-url": "https://ics.hutton.ac.uk/germinate-demo/api/brapi/v2/",
-            "description": "Small demo dataset using a Germinate 3 backend.",
-            "badges": [
-                "auth-required",
-                "data-prod",
-                "brapi-v1"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "Germinate 3 Demo (https://ics)",
+                "v1-url": "https://ics.hutton.ac.uk/germinate-demo/api/brapi/v1/",
+                "v2-url": "https://ics.hutton.ac.uk/germinate-demo/api/brapi/v2/",
+                "description": "Small demo dataset using a Germinate 3 backend.",
+                "badges": [
+                    "auth-required",
+                    "data-prod",
+                    "brapi-v1"
+                ]
+            }
+        ]
     },
     {
         "name": "The Triticeae Toolbox",
         "description": "The Triticeae Toolbox (T3) is a USDA-funded, publicly-accessible centralized database used for storing and retrieving germplasm, phenotype, and genotype data collected by small grains breeders.",
         "logo": "/images/institutions/T3_black.png",
-        "resources": [{
+        "resources": [
+            {
                 "name": "T3/Wheat",
                 "v1-url": "https://wheat.triticeaetoolbox.org/brapi/v1/",
                 "v2-url": "https://wheat.triticeaetoolbox.org/brapi/v2/",
@@ -105,11 +115,32 @@
                 ]
             }
         ]
-    }, {
+    },
+    {
+        "name": "Sempre AgTech",
+        "logo": "https://sempre.agr.br/wp-content/themes/sempre/img/logo/logo1_sempre.svg",
+        "description": "Sempre AgTech is a Brazilian company dedicated to breed corn.",
+        "resources": [
+            {
+                "name": "SempreBase",
+                "v1-url": "https://breedbase.sempre.agr.br/brapi/v1/",
+                "v2-url": "https://breedbase.sempre.agr.br/brapi/v2/",
+                "description": "This is the oracle server.",
+                "badges": [
+                    "auth-required",
+                    "data-prod",
+                    "brapi-v1",
+                    "brapi-v2"
+                ]
+            }
+        ]
+    },
+    {
         "name": "The Boyce Thompson Institute",
         "description": "Discovery and innovation in the life sciences",
         "logo": "https://brapi.org/images/institutions/breedbase.png",
-        "resources": [{
+        "resources": [
+            {
                 "name": "Cassavabase",
                 "v1-url": "https://cassavabase.org/brapi/v1/",
                 "v2-url": "https://cassavabase.org/brapi/v2/",
@@ -168,11 +199,36 @@
                     "brapi-v1",
                     "brapi-v2"
                 ]
-            }, {
+            },
+            {
                 "name": "Sempre.Breedbase.org",
                 "v1-url": "https://sempre.breedbase.org/brapi/v1/",
                 "v2-url": "https://sempre.breedbase.org/brapi/v2/",
                 "description": "This is a server with real data from corn breeding program.",
+                "badges": [
+                    "auth-required",
+                    "data-prod",
+                    "brapi-v1",
+                    "brapi-v2"
+                ]
+            },
+            {
+                "name": "citrus.sgn.cornell.edu",
+                "v1-url": "https://citrus.sgn.cornell.edu/brapi/v1/",
+                "v2-url": "https://citrus.sgn.cornell.edu/brapi/v2/",
+                "description": "Citrus breeding programs",
+                "badges": [
+                    "auth-required",
+                    "data-prod",
+                    "brapi-v1",
+                    "brapi-v2"
+                ]
+            },
+            {
+                "name": "sugarcane.sgn.cornell.edu",
+                "v1-url": "https://sugarcane.sgn.cornell.edu/brapi/v1/",
+                "v2-url": "https://sugarcane.sgn.cornell.edu/brapi/v2/",
+                "description": "Sugarcane breeding programs.",
                 "badges": [
                     "auth-required",
                     "data-prod",
@@ -186,64 +242,72 @@
         "name": "MGIS",
         "description": "Musa Germplasm Information System",
         "logo": "https://www.crop-diversity.org/mgis5/themes/custom/mgis_theme/logo.svg",
-        "resources": [{
-            "name": "Musa Germplasm Information System v4.5",
-            "description": "Supports BrAPI v1.3.",
-            "v1-url": "https://www.crop-diversity.org/mgis/brapi/v1/",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v1"
-            ]
-        },{
-            "name": "Musa Germplasm Information System v5",
-            "v1-url": "https://www.crop-diversity.org/mgis5/brapi/v1/",
-            "v2-url": "https://www.crop-diversity.org/mgis5/brapi/v2/",
-            "description": "Provides support for both BrAPI v1 and v2. Please report errors to v.guignon@cgiar.org.",
-            "contact-email": "v.guignon@cgiar.org",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v1",
-                "brapi-v2"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "Musa Germplasm Information System v4.5",
+                "description": "Supports BrAPI v1.3.",
+                "v1-url": "https://www.crop-diversity.org/mgis/brapi/v1/",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v1"
+                ]
+            },
+            {
+                "name": "Musa Germplasm Information System v5",
+                "v1-url": "https://www.crop-diversity.org/mgis5/brapi/v1/",
+                "v2-url": "https://www.crop-diversity.org/mgis5/brapi/v2/",
+                "description": "Provides support for both BrAPI v1 and v2. Please report errors to v.guignon@cgiar.org.",
+                "contact-email": "v.guignon@cgiar.org",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v1",
+                    "brapi-v2"
+                ]
+            }
+        ]
     },
     {
         "name": "Wageningen Plant Sciences, Plant Breeding BrAPI resources",
         "description": "Core BrAPI resources of Wageningen Plant Sciences, deployed by department of Plant Breeding.",
         "logo": "https://brapi.org/images/institutions/wageningen_logo_thumb.png",
-        "resources": [{
-            "name": "EU-SOL Tomato collection",
-            "v1-url": "https://www.eu-sol.wur.nl/webapi/tomato/brapi/v1/",
-            "description": "Collection of approx. 7000 tomato accessions, mainly phenotypic but also partial genotypic information.",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v1"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "EU-SOL Tomato collection",
+                "v1-url": "https://www.eu-sol.wur.nl/webapi/tomato/brapi/v1/",
+                "description": "Collection of approx. 7000 tomato accessions, mainly phenotypic but also partial genotypic information.",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v1"
+                ]
+            }
+        ]
     },
     {
         "name": "INRA URGI",
         "description": "Multi-species plant breeding data from INRA (French National Institute for Agricultural Research)",
         "logo": "https://urgi.versailles.inra.fr/var/storage/images/media/images/logos/urgi/3450-2-eng-GB/URGI_small.png",
-        "resources": [{
-            "name": "URGI GnpIS Information System",
-            "v1-url": "https://urgi.versailles.inra.fr/faidare/brapi/v1/",
-            "description": "See web service documentation at https://urgi.versailles.inra.fr/faidare/swagger-ui.html.",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v1"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "URGI GnpIS Information System",
+                "v1-url": "https://urgi.versailles.inra.fr/faidare/brapi/v1/",
+                "description": "See web service documentation at https://urgi.versailles.inra.fr/faidare/swagger-ui.html.",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v1"
+                ]
+            }
+        ]
     },
     {
         "name": "Alliance of Bioversity International & CIAT",
         "description": "The Alliance of Bioversity International and the International Center for Tropical Agriculture (CIAT) was created to address climate change, biodiversity loss, environmental degradation, and malnutrition, by maximizing impact for change at key points in the food system. ",
         "logo": "https://brapi.org/images/institutions/Alliance_Bioversity_CIAT_logo.png",
-        "resources": [{
+        "resources": [
+            {
                 "name": "Musa Acuminata GWAS Panel - GBS - genome V1",
                 "v1-url": "https://www.crop-diversity.org/gigwa/rest/Musa_acuminata-v1/brapi/v1/",
                 "v2-url": "https://www.crop-diversity.org/gigwa/rest/brapi/v2",
@@ -264,7 +328,8 @@
                     "data-prod",
                     "brapi-v1"
                 ]
-            },{
+            },
+            {
                 "name": "MGIS",
                 "v1-url": "https://www.crop-diversity.org/mgis/brapi/v1/",
                 "v2-url": "https://www.crop-diversity.org/mgis5/brapi/v2/",
@@ -283,106 +348,120 @@
         "name": "VIB Center For Plant Systems Biology",
         "description": "BrAPI endpoint to access the publicly available data from PIPPA, an interface for plant phenotype analysis",
         "logo": "https://www.psb.ugent.be/themes/custom/minimalplus/logo.svg",
-        "resources": [{
-            "name": "PIPPA - PSB Interface for Plant Phenotype Analysis",
-            "v1-url": "https://pippa.psb.ugent.be/BrAPIPPA/brapi/v1/",
-            "description": "More information about the provided datasets can be found here: https://pippa.psb.ugent.be/",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v1"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "PIPPA - PSB Interface for Plant Phenotype Analysis",
+                "v1-url": "https://pippa.psb.ugent.be/BrAPIPPA/brapi/v1/",
+                "description": "More information about the provided datasets can be found here: https://pippa.psb.ugent.be/",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v1"
+                ]
+            }
+        ]
     },
     {
         "name": "BrAPI",
         "description": "The BrAPI Community",
         "logo": "/images/brapi-logo.svg",
-        "resources": [{
-            "name": "BrAPI Test Server",
-            "v1-url": "https://test-server.brapi.org/brapi/v1/",
-            "v2-url": "https://test-server.brapi.org/brapi/v2/",
-            "description": "BrAPI Official Test Server for the BrAPI community. This server implements every BrAPI endpoint and is compatible with versions v1.0, v1.1, v1.2, v1.3, v2.0, and v2.1. The dummy data can be accessed with or without an authentication token. Submitting new data requires an authentication token. Please contact the BrAPI Coordinator for authentication details. This is a Java Spring server backed by a PostgreSQL database. More technical details can be found at <a href=\"https://github.com/plantbreeding/brapi-Java-TestServer\">https://github.com/plantbreeding/brapi-Java-TestServer</a>",
-            "badges": [
-                "auth-open",
-                "auth-required",
-                "data-demo",
-                "brapi-v1",
-                "brapi-v2"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "BrAPI Test Server",
+                "v1-url": "https://test-server.brapi.org/brapi/v1/",
+                "v2-url": "https://test-server.brapi.org/brapi/v2/",
+                "description": "BrAPI Official Test Server for the BrAPI community. This server implements every BrAPI endpoint and is compatible with versions v1.0, v1.1, v1.2, v1.3, v2.0, and v2.1. The dummy data can be accessed with or without an authentication token. Submitting new data requires an authentication token. Please contact the BrAPI Coordinator for authentication details. This is a Java Spring server backed by a PostgreSQL database. More technical details can be found at <a href=\"https://github.com/plantbreeding/brapi-Java-TestServer\">https://github.com/plantbreeding/brapi-Java-TestServer</a>",
+                "badges": [
+                    "auth-open",
+                    "auth-required",
+                    "data-demo",
+                    "brapi-v1",
+                    "brapi-v2"
+                ]
+            }
+        ]
     },
     {
         "name": "South Green",
         "description": "South Green is a bioinformatics platform applied to the genomic resource analysis of southern and Mediterranean plants.",
         "logo": "https://brapi.org/images/institutions/south_green.png",
-        "resources": [{
-            "name": "Gigwa",
-            "v2-url": "https://gigwa.southgreen.fr/gigwa/rest/brapi/v2/",
-            "description": "Gigwa, which stands for “Genotype Investigator for Genome-Wide Analyses”, is an application that provides an easy and intuitive way to explore large amounts of genotyping data by filtering it not only on the basis of variant features, including functional annotations, but also matching genotype patterns.",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v2"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "Gigwa",
+                "v2-url": "https://gigwa.southgreen.fr/gigwa/rest/brapi/v2/",
+                "description": "Gigwa, which stands for “Genotype Investigator for Genome-Wide Analyses”, is an application that provides an easy and intuitive way to explore large amounts of genotyping data by filtering it not only on the basis of variant features, including functional annotations, but also matching genotype patterns.",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v2"
+                ]
+            }
+        ]
     },
     {
         "name": "The Crop Ontology",
         "description": "The Crop Ontology project website.",
         "logo": "https://brapi.org/images/institutions/crop_ontology.png",
-        "resources": [{
-            "name": "Crop Ontology BrAPI implementation",
-            "v1-url": "https://cropontology.org/brapi/v1/",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v1"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "Crop Ontology BrAPI implementation",
+                "v1-url": "https://cropontology.org/brapi/v1/",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v1"
+                ]
+            }
+        ]
     },
     {
         "name": "TERRA-REF",
         "description": "TERRA Reference phenotyping platform.",
         "logo": "https://terraref.org/sites/terraref.org/files/site-logo.png",
-        "resources": [{
-            "name": "TERRA-REF BrAPI implementation",
-            "v1-url": "https://brapi.workbench.terraref.org/brapi/v1/",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v1"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "TERRA-REF BrAPI implementation",
+                "v1-url": "https://brapi.workbench.terraref.org/brapi/v1/",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v1"
+                ]
+            }
+        ]
     },
     {
         "name": "ITPGRFA",
         "description": "International Treaty on Plant Genetic Resources for Food and Agriculture",
         "logo": "https://brapi.org/images/institutions/ITPGRFA_logo.png",
-        "resources": [{
-            "name": "GLIS Germplasm DOI Repository",
-            "v1-url": "https://ssl.fao.org/glisapi/v1/",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v1"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "GLIS Germplasm DOI Repository",
+                "v1-url": "https://ssl.fao.org/glisapi/v1/",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v1"
+                ]
+            }
+        ]
     },
     {
         "name": "AVT NATURAL PRODUCTS LRD",
         "logo": "https://brapi.org/images/institutions/AVTNatural.png",
         "description": "Agricultural Processing, research & development",
-        "resources": [{
-            "name": "AVT NPL",
-            "v1-url": "https://www.avtnatural.com/brapi/v1/",
-            "v2-url": "https://www.avtnatural.com/brapi/v2/",
-            "description": "AVT NPL AGRO PROJECT STUDIES",
-            "badges": [
-                "auth-open",
-                "data-prod",
-                "brapi-v2"
-            ]
-        }]
+        "resources": [
+            {
+                "name": "AVT NPL",
+                "v1-url": "https://www.avtnatural.com/brapi/v1/",
+                "v2-url": "https://www.avtnatural.com/brapi/v2/",
+                "description": "AVT NPL AGRO PROJECT STUDIES",
+                "badges": [
+                    "auth-open",
+                    "data-prod",
+                    "brapi-v2"
+                ]
+            }
+        ]
     }
 ]
