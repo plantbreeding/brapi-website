@@ -1,0 +1,51 @@
+.login-pf body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.login-pf-page .login-pf-page-header {
+    background: url('../img/brapi-logo.svg') no-repeat center top fixed;
+    height: 65px;
+    background-attachment: inherit;
+    margin-top: 50px;
+}
+
+.login-pf-page .card-pf {
+    padding: 20px 40px 30px 40px;
+    margin: auto;
+    max-width: 570px;
+    background-color: #f2f2f2;
+}
+
+#kc-login {
+    width: 50%;
+    margin: auto;
+    background-color: #00a040;
+    font-size: 16px;
+}
+
+#kc-login:hover {
+    background-color: #006000 !important;
+    font-weight: bold;
+}
+
+ul.kc-social-links li {
+    width: 100%;
+    margin: 5px;
+}
+
+.kc-social-item {
+    width: 50% !important;
+    margin: auto;
+    background-color: #00a040 !important;
+    color: white !important;
+    line-height: 1.333333333;
+}
+
+.kc-social-item:hover {
+    background-color: #006000 !important;
+    font-weight: bold;
+}
