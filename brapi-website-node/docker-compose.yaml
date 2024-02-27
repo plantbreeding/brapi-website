@@ -8,23 +8,6 @@ services:
       - /home/jenkins/brapi.org/data/server-conf/node_variables.env
     volumes:
       - /home/jenkins/brapi.org/data/email-data:/usr/src/app/data/
-  brapi-wiki:
-    image: brapicoordinatorselby/brapi-wiki
-    restart: unless-stopped
-    depends_on: 
-      - brapi-wiki-db
-    volumes:
-      - /home/jenkins/brapi.org/brapi-website/wiki/LocalSettings.php:/var/www/html/LocalSettings.php
-      - /home/jenkins/brapi.org/brapi-website/wiki/images:/var/www/html/images
-    env_file:
-      - /home/jenkins/brapi.org/brapi-website/wiki/wiki_variables.env
-  brapi-wiki-db:
-    image: mysql:5.7.33
-    restart: unless-stopped
-    volumes:
-      - /home/jenkins/brapi.org/data/wiki:/var/lib/mysql
-    env_file:
-      - /home/jenkins/brapi.org/brapi-website/wiki/wiki_variables.env
 networks:
     default:
         external:
