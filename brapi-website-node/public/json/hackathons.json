@@ -85,16 +85,15 @@
             {"name" : "Nick Palladino", "org" : "Breeding Insight", "email" : "np398@cornell.edu", "session1" : true, "session2" : false},
             {"name" : "Heather Sweeney", "org" : "Breeding Insight", "email" : "hms243@cornell.edu", "session1" : true, "session2" : false},
             {"name" : "Gabriel Keeble-Gagnere", "org" : "Agriculture Victoria", "email" : "gabriel.keeble-gagnere@agriculture.vic.gov.au", "session1" : true, "session2" : false},
-            {"name" : "Valentin GUIGNON", "org" : "The Alliance", "email" : "v.guignon@cgiar.org", "session1" : true, "session2" : false}
+            {"name" : "Valentin GUIGNON", "org" : "The Alliance", "email" : "v.guignon@cgiar.org", "session1" : true, "session2" : false},
+            {"name" : "Sebastian Beier", "org" : "FZ Jülich, ELIXIR", "email" : "s.beier@fz-juelich.de", "session1" : false, "session2" : true},
+            {"name" : "Lukas Mueller", "org" : "Boyce Thompson Institute", "email" : "lam87@cornell.edu", "session1" : false, "session2" : true}
         ],
         "projects": [ 
-            {"team" : "Manuel Feser", "title" : "MIRA", "description" : "Enhancing MIRA to use ARCs", "needs" : null, "repo" : "https://github.com/IPK-BIT/mira "},
-            {"team" : "Sebastian Raubach, Probably the IPK people, but not exclusively", "title" : "JHI Tool Enhancements", "description" : "Lots of options. Partial pedigree import into Helium, better BrAPI integration for GridScore, looking into authentication.", "needs" : null, "repo" : null},
-            {"team" : "Asis Hallab, Peter Selby (BrApi core) and Sebastian Beier", "title" : "GraphQL x BrAPI Data Warehouse", "description" : "BrApi data model review and the plug and play data-warehouse", "needs" : "Not applicable", "repo" : "https://github.com/LzLang/Zendro-Converter"},
+            {"team" : "Asis Hallab, Peter Selby, Sebastian Beier, Alfonso Caballero Ramirez", "title" : "GraphQL x BrAPI Data Warehouse", "description" : "BrApi data model review and the plug and play data-warehouse", "needs" : "Not applicable", "repo" : "https://github.com/LzLang/Zendro-Converter"},
             {"team" : "Moses Nderitu, Breeding Insight had indicated some interest to collaborate. Am looking forward to starting off this conversation.", "title" : "DArTView Enhancements", "description" : "Proper authentication system for DArTView. Am also looking to build up a functionality to be able to download Sample and Marker meta data from an enabled BrAPI server.", "needs" : null, "repo" : null},
             {"team" : "Matthijs Brouwer", "title" : "BrAPI Proxy Service", "description" : "BrAPI proxy to integrate distributed hosted endpoints", "needs" : null, "repo" : null},
             {"team" : "Maria Relliza A. Pasang, Jaymar Bantay, Ernesto Briones, James Clevenger, Karen Mae DelaRosa, Marko Karkainen", "title" : "EBS x BrAPI, TBD", "description" : "To be determined", "needs" : null, "repo" : "https://bitbucket.org/ebsproject/cb-brapi"},
-            {"team" : "Alfonso Caballero Ramirez, Asis Hallab, Peter Selby (BrApi core), Sebastian Beier", "title" : "GraphQL x BrAPI Data Warehouse", "description" : "GraphQL x BrAPI Data Warehouse", "needs" : null, "repo" : null},
             {"team" : "Gabriel Besombes, Cyril Pommier (URGI), Alice Boizet (CIRAD - AGAP), BrAPI-Validator team if they are present", "title" : "Connecting to Genetic Resources", "description" : "I intend to work on one of the following subjects in order of interest: (1) Links with genetic resources centers (INRAE's OLGA system) (2) Updating OpenSILEX BrAPI services to v2.1 (3) Meet with the team working on the BrAPI-Validator if possible", "needs" : null, "repo" : "https://github.com/OpenSILEX/opensilex"},
             {"team" : "Brandon Madriz Araya, Lukas Mueller and Mirella Flores", "title" : "ClimMob", "description" : "Integration between BrAPI and ClimMob", "needs" : null, "repo" : null}
         ],
