@@ -117,25 +117,6 @@
         ]
     },
     {
-        "name": "Sempre AgTech",
-        "logo": "https://sempre.agr.br/wp-content/themes/sempre/img/logo/logo1_sempre.svg",
-        "description": "Sempre AgTech is a Brazilian company dedicated to breed corn.",
-        "resources": [
-            {
-                "name": "SempreBase",
-                "v1-url": "https://breedbase.sempre.agr.br/brapi/v1/",
-                "v2-url": "https://breedbase.sempre.agr.br/brapi/v2/",
-                "description": "This is the oracle server.",
-                "badges": [
-                    "auth-required",
-                    "data-prod",
-                    "brapi-v1",
-                    "brapi-v2"
-                ]
-            }
-        ]
-    },
-    {
         "name": "The Boyce Thompson Institute",
         "description": "Discovery and innovation in the life sciences",
         "logo": "https://brapi.org/images/institutions/breedbase.png",
@@ -195,18 +176,6 @@
                 "description": "Solanaceae database (tomato, tobacco, eggplant, pepper, potato, petunia).",
                 "badges": [
                     "auth-open",
-                    "data-prod",
-                    "brapi-v1",
-                    "brapi-v2"
-                ]
-            },
-            {
-                "name": "Sempre.Breedbase.org",
-                "v1-url": "https://sempre.breedbase.org/brapi/v1/",
-                "v2-url": "https://sempre.breedbase.org/brapi/v2/",
-                "description": "This is a server with real data from corn breeding program.",
-                "badges": [
-                    "auth-required",
                     "data-prod",
                     "brapi-v1",
                     "brapi-v2"

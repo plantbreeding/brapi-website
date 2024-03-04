@@ -87,7 +87,10 @@
             {"name" : "Gabriel Keeble-Gagnere", "org" : "Agriculture Victoria", "email" : "gabriel.keeble-gagnere@agriculture.vic.gov.au", "session1" : true, "session2" : false},
             {"name" : "Valentin GUIGNON", "org" : "The Alliance", "email" : "v.guignon@cgiar.org", "session1" : true, "session2" : false},
             {"name" : "Sebastian Beier", "org" : "FZ Jülich, ELIXIR", "email" : "s.beier@fz-juelich.de", "session1" : false, "session2" : true},
-            {"name" : "Lukas Mueller", "org" : "Boyce Thompson Institute", "email" : "lam87@cornell.edu", "session1" : false, "session2" : true}
+            {"name" : "Lukas Mueller", "org" : "Boyce Thompson Institute", "email" : "lam87@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "Mahdi Rahimi", "org" : "Agriculture Victoria", "email" : "mahdi.rahimi@agriculture.vic.gov.au", "session1" : true, "session2" : false},
+            {"name" : "Kenny Yu", "org" : "Agriculture Victoria", "email" : "kenny.yu@agriculture.vic.gov.au", "session1" : true, "session2" : false},
+            {"name" : "Don Isdale", "org" : "AgriBio,  Centre for AgriBioscience, Dept of Agriculture, Victoria", "email" : "Don.Isdale@agriculture.vic.gov.au", "session1" : true, "session2" : false}
         ],
         "projects": [ 
             {"team" : "Asis Hallab, Peter Selby, Sebastian Beier, Alfonso Caballero Ramirez", "title" : "GraphQL x BrAPI Data Warehouse", "description" : "BrApi data model review and the plug and play data-warehouse", "needs" : "Not applicable", "repo" : "https://github.com/LzLang/Zendro-Converter"},
