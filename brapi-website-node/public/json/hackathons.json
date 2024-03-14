@@ -91,7 +91,10 @@
             {"name" : "Mahdi Rahimi", "org" : "Agriculture Victoria", "email" : "mahdi.rahimi@agriculture.vic.gov.au", "session1" : true, "session2" : false},
             {"name" : "Kenny Yu", "org" : "Agriculture Victoria", "email" : "kenny.yu@agriculture.vic.gov.au", "session1" : true, "session2" : false},
             {"name" : "Don Isdale", "org" : "AgriBio,  Centre for AgriBioscience, Dept of Agriculture, Victoria", "email" : "Don.Isdale@agriculture.vic.gov.au", "session1" : true, "session2" : false},
-            {"name" : "Bryan Ellerbrock", "org" : "Clemson University", "email" : "bellerbrock@gmail.com", "session1" : false, "session2" : true}
+            {"name" : "Bryan Ellerbrock", "org" : "Clemson University", "email" : "bellerbrock@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Chaney Courtney", "org" : "PhenoApps", "email" : "chaneylc@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Corina HABITO", "org" : "Integrated Breeding Platform", "email" : "c.habito@integratedbreeding.net", "session1" : false, "session2" : true},
+            {"name" : "David Meidlinger", "org" : "Breeding Insight", "email" : "djm226@cornell.edu", "session1" : false, "session2" : true}
         ],
         "projects": [ 
             {"team" : "Manuel Feser", "title" : "MIRA", "description" : "Enhancing MIRA to use ARCs", "needs" : null, "repo" : "https://github.com/IPK-BIT/mira "},
@@ -103,7 +106,9 @@
             {"team" : "Maria Relliza A. Pasang, Jaymar Bantay, Ernesto Briones, James Clevenger, Karen Mae DelaRosa, Marko Karkainen", "title" : "EBS x BrAPI, TBD", "description" : "To be determined", "needs" : null, "repo" : "https://bitbucket.org/ebsproject/cb-brapi"},
             {"team" : "Gabriel Besombes, Cyril Pommier (URGI), Alice Boizet (CIRAD - AGAP), BrAPI-Validator team if they are present", "title" : "Connecting to Genetic Resources", "description" : "I intend to work on one of the following subjects in order of interest: (1) Links with genetic resources centers (INRAE's OLGA system) (2) Updating OpenSILEX BrAPI services to v2.1 (3) Meet with the team working on the BrAPI-Validator if possible", "needs" : null, "repo" : "https://github.com/OpenSILEX/opensilex"},
             {"team" : "Brandon Madriz Araya, Lukas Mueller and Mirella Flores", "title" : "ClimMob", "description" : "Integration between BrAPI and ClimMob", "needs" : null, "repo" : null},
-            {"team" : "Bryan Ellerbrock", "title" : "Field Book Enhancements", "description" : "Planning to work on an overhaul of BrAPI Field and Trait import lists in the Field Book App. Also an automated check for imported brapi fields to see if they're out of sync. Also interested in expanding/enhancing the example data available in the brapi test server.", "needs" : "databases with /studies and /variables calls to test against", "repo" : "https://github.com/PhenoApps/Field-Book"}
+            {"team" : "Bryan Ellerbrock", "title" : "Field Book Enhancements", "description" : "Planning to work on an overhaul of BrAPI Field and Trait import lists in the Field Book App. Also an automated check for imported brapi fields to see if they're out of sync. Also interested in expanding/enhancing the example data available in the brapi test server.", "needs" : "databases with /studies and /variables calls to test against", "repo" : "https://github.com/PhenoApps/Field-Book"},
+            {"team" : "Corina HABITO, Marc Ulysis De Ramos (Integrated Breeding Platform/Leafnode), Alice Boizet (CIRAD), Jean-Francois Rami (CIRAD)", "title" : "IBP Enhancements", "description" : "enhancements/add-ins for IBP products", "needs" : null, "repo" : null},
+            {"team" : "David Meidlinger", "title" : "Atomic Transactions", "description" : "Implementing atomic transactions for BrAPI-enabled microservices", "needs" : null, "repo" : null}
         ],
         "notes": [
         {
