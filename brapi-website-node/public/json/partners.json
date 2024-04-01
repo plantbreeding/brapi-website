@@ -40,9 +40,9 @@
         "url": "https://urgi.versailles.inra.fr/"
     },
     {
-        "img": "inra.png",
+        "img": "INRAE.png",
         "name": "French National Institute for Agricultural Research",
-        "url": "http://institut.inra.fr/en"
+        "url": "https://www.inrae.fr/en"
     },
     {
         "img": "elixir.png",
@@ -95,7 +95,7 @@
         "url": "https://www.cornell.edu/"
     },
     {
-        "img": "dart.svg",
+        "img": "dart.png",
         "name": "Diversity Arrays Technology",
         "url": "http://www.diversityarrays.com/"
     },
