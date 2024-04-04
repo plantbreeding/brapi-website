@@ -1,5 +1,15 @@
 [
     {
+        "name": "FZ Juelich",
+        "url": "https://www.fz-juelich.de/",
+        "img": "FZJ.jpg"
+    },
+    {
+        "name": "SEQART AFRICA",
+        "url": "https://www.seqart.net/",
+        "img": "SEQART.jpeg"
+    },
+    {
         "name": "PhenoApps",
         "url": "https://www.phenoapps.org/",
         "img": "phenoapps.png"
@@ -55,9 +65,9 @@
         "url": "http://gobiiproject.org/"
     },
     {
-        "img": "bioversity.svg",
-        "name": "Bioversity International",
-        "url": "http://www.bioversityinternational.org/"
+        "img": "Bioversity_CIAT.png",
+        "name": "Alliance Bioversity & CIAT",
+        "url": "https://alliancebioversityciat.org/"
     },
     {
         "img": "irri.png",

@@ -35,7 +35,7 @@
                 },
                 {
                     "URL": "https://www.fz-juelich.de",
-                    "path": "/images/institutions/FZ_Juelich_logo.jpg",
+                    "path": "/images/institutions/FZJ_small.jpg",
                     "alt": "Sponsored By: FZ Juelich"
                 },
                 {
@@ -102,7 +102,8 @@
             {"name" : "Jean-Francois Rami", "org" : "CIRAD", "email" : "rami@cirad.fr", "session1" : false, "session2" : true},
             {"name" : "Irena Maus", "org" : "Forschungszentrum Jülich GmbH, ELIXIR Germany", "email" : "irena.maus@cebitec.uni-bielefeld.de", "session1" : true, "session2" : false},
             {"name" : "Laszlo Lang", "org" : "Technische Hochschule Bingen, GraphQL", "email" : "Laszlo.Lang@th-bingen.de", "session1" : false, "session2" : true},
-            {"name" : "Vivian Bass Vega", "org" : "University of Applied Sciences Bingen", "email" : "vivbass4@gmail.com", "session1" : false, "session2" : true}
+            {"name" : "Vivian Bass Vega", "org" : "University of Applied Sciences Bingen", "email" : "vivbass4@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Jenny Knutsson", "org" : "Intertek - Agritech Sweden", "email" : "jenny.knutsson@intertek.com", "session1" : true, "session2" : false}
         ],
         "projects": [ 
             {"team" : "Manuel Feser", "title" : "MIRA", "description" : "Enhancing MIRA to use ARCs", "needs" : null, "repo" : "https://github.com/IPK-BIT/mira "},
