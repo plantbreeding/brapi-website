@@ -135,7 +135,38 @@
         }, {
             "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
             "session1": "",
+            "slides": "https://docs.google.com/presentation/d/1Ze3bV7ftNvFuRmAgja_c_Rdv0cLiwvZW"
+        }, {
+            "discussion": "BrAPI Domain Model Review - Deep dive into the existing data model ",
+            "session1": ""
+        }, {
+            "discussion": "Genebanks and BrAPI - Use cases and planning for connecting genebanks to other systems ",
+            "session1": "",
+            "meetingNotes": "https://docs.google.com/document/d/166e6cx1JcIJa4JZy-eT7jjxneYjbunKQsfYA31jvSVs/"
+        }, {
+            "discussion": "Analytics Discussion Continued",
+            "session1": "",
+            "meetingNotes": "https://docs.google.com/document/d/1_AvGDBWaSlQWaK7MLjgWhE57xaJ3W-UJzKgBYOJhqxU/"
+        }, {
+            "discussion": "Security and Authentication - Example implementations and general discussion ",
+            "session1": "",
+            "slides": "https://docs.google.com/presentation/d/1escutQn3JYHmbsoSyX3n9jIFpXnm8GL6"
+        }, {
+            "discussion": "BrAPI V2 Publication - Writing and editing session ",
+            "session1": "",
+            "meetingNotes": "https://github.com/plantbreeding/BrAPI-Manuscript2"
+        }, {
+            "discussion": "Presentation from Daniel Wibberg, Training Coordinator of de.NBI and ELIXIR-DE",
+            "session1": "",
             "slides": ""
+        }, {
+            "discussion": "Github Issues Review - Discuss and prioritize key issues for the next version",
+            "session1": "",
+            "meetingNotes": ""
+        }, {
+            "discussion": "BrAPI v2.2 - Feature planning",
+            "session1": "",
+            "meetingNotes": ""
         }, {
             "discussion": "Project presentations and wrap up",
             "session1": ""
