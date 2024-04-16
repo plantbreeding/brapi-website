@@ -222,7 +222,7 @@
                 { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
                 { "time": "10:00 - 11:00 CEST +02:00", "class": "agenda-bg-blue", "title": "ARC (Annotated Research Context) data model, RO-Crate & file-system representation", "lead": "Lukas Weil" },
-                { "time": null },
+                { "time": "11:00 - 12:00 CEST +02:00", "class": "agenda-bg-blue", "title": "The \"Data Set\" concept", "lead": "Lukas Mueller" },
                 { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": "13:00 - 13:30 CEST +02:00", "class": "agenda-bg-blue", "title": "Github Issues Review - Discuss and prioritize key issues for the next version" },
                 { "time": "13:30 - 14:00 CEST +02:00", "class": "agenda-bg-blue", "title": "BrAPI v2.2 - Feature planning" },
@@ -237,7 +237,7 @@
             "schedule": [
                 { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
-                { "time": "10:00 - 11:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Group Discussion TBD" },
+                { "time": "10:00 - 11:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Analytics Discussion Continued (Continued)" },
                 { "time": null },
                 { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": null },
