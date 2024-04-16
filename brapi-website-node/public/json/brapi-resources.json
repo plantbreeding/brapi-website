@@ -25,9 +25,9 @@
         "resources": [
             {
                 "name": "BMS BrAPI",
-                "v1-url": "https://brapi.bms-uat-test.net/bmsapi/maize/brapi/v1/",
-                "v2-url": "https://brapi.bms-uat-test.net/bmsapi/maize/brapi/v2/",
-                "description": "BrAPI integration server",
+                "v1-url": "https://bmsdev-brapi.ibp.services/bmsapi/rice/brapi/v1/",
+                "v2-url": "https://bmsdev-brapi.ibp.services/bmsapi/rice/brapi/v2/",
+                "description": "BrAPI integration server. <br> Contact the BMS team at <a href=\"mailto:support@integratedbreeding.net\">support@integratedbreeding.net</a> to request for an account.",
                 "badges": [
                     "auth-required",
                     "data-prod",
