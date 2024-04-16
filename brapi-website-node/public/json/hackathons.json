@@ -221,13 +221,14 @@
             "schedule": [
                 { "time": "09:00 - 09:15 CEST +02:00", "class": "agenda-bg-blue", "title": "Morning Announcements" },
                 { "time": null },
-                { "time": "10:00 - 11:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Group Discussion TBD" },
+                { "time": "10:00 - 11:00 CEST +02:00", "class": "agenda-bg-blue", "title": "ARC (Annotated Research Context) data model, RO-Crate & file-system representation", "lead": "Lukas Weil" },
                 { "time": null },
                 { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": "13:00 - 13:30 CEST +02:00", "class": "agenda-bg-blue", "title": "Github Issues Review - Discuss and prioritize key issues for the next version" },
                 { "time": "13:30 - 14:00 CEST +02:00", "class": "agenda-bg-blue", "title": "BrAPI v2.2 - Feature planning" },
                 { "time": null },
                 { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": "15:00 - 16:00 CEST +02:00", "class": "agenda-bg-blue", "title": "High Throughput Phenotyping at INRAE", "lead":"Gabriel Besombes" },
                 { "time": null },
                 { "time": "16:50 - 17:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
             ]
