@@ -241,9 +241,7 @@
                 { "time": null },
                 { "time": "12:00 - 13:00 CEST +02:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": null },
-                { "time": "14:00 - 15:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
-                { "time": "15:00 - 15:30 CEST +02:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
-                { "time": "15:30 - 17:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" }
+                { "time": "13:00 - 15:00 CEST +02:00", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" }
             ]
         }]
     },
