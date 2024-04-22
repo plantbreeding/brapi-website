@@ -1,5 +1,10 @@
 [
     {
+        "name": "BASF",
+        "url": "https://www.basf.com/",
+        "img": "BASF_logo.png"
+    },
+    {
         "name": "FZ Juelich",
         "url": "https://www.fz-juelich.de/",
         "img": "FZJ.jpg"

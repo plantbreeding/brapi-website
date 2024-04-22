@@ -5,15 +5,11 @@
         "date": "April 15-19, 2024",
         "image": "/images/events/Wittenberg_thumb.jpg",
         "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This event will be April 15-19, 2024 in Wittenberg, Germany. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.</p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [
             {
                 "name": "Event Page",
                 "url": "/events/hackathon?id=hackathon-apr-2024"
-            },
-            {
-                "name": "Register",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLScY_-UAeJ_J1b8tCF2pWHh8TrFXxoBio8FPXq9voDLEi53wQw/viewform?usp=sf_link"
             },
             {
                 "name": "Travel Guide",
@@ -28,7 +24,7 @@
             },
             {
                 "url": "https://www.fz-juelich.de",
-                "logo": "/images/institutions/FZ_Juelich_logo.jpg"
+                "logo": "/images/institutions/FZJ.jpg"
             },
             {
                 "url": "https://www.kws.com/corp/en/careers",

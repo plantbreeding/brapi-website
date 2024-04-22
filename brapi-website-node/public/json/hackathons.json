@@ -3,7 +3,7 @@
         "dates": "April 15-19, 2024",
         "location": "Lutherstadt Wittenberg, Germany",
         "timezone": "CEST",
-        "registrationOpen": true,
+        "registrationOpen": false,
         "registrationURL": "https://docs.google.com/forms/d/e/1FAIpQLScY_-UAeJ_J1b8tCF2pWHh8TrFXxoBio8FPXq9voDLEi53wQw/viewform?usp=sf_link",
         "travelGuideURL": "https://docs.google.com/document/d/1HAyZBZ0GoJlYqMw8sS8ilJR8cKvoKd-stlJ6uOJIxcI",
         "feedbackURL": "",
@@ -129,51 +129,52 @@
         ],
         "notes": [
         {
-            "discussion": "Welcome! Tech setup, setting expectations, general organizing",
-            "session1": "",
-            "slides": ""
-        }, {
             "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
-            "session1": ""
+            "session1": "https://youtu.be/RKHuqsQR_P0"
         }, {
             "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
-            "session1": "",
+            "session1": "https://youtu.be/iJ6xM1Z4F0Y",
             "slides": "https://docs.google.com/presentation/d/1Ze3bV7ftNvFuRmAgja_c_Rdv0cLiwvZW"
         }, {
             "discussion": "BrAPI Domain Model Review - Deep dive into the existing data model ",
-            "session1": "",
+            "session1": "https://youtu.be/mMXqFFSH_DA",
             "slides": "https://docs.google.com/presentation/d/1n4bpJ_WQmor_PcWkbpvLfvqoh96dBmpX"
         }, {
             "discussion": "Genebanks and BrAPI - Use cases and planning for connecting genebanks to other systems ",
-            "session1": "",
+            "session1": "https://youtu.be/TIU_1gUQR7U",
             "meetingNotes": "https://docs.google.com/document/d/166e6cx1JcIJa4JZy-eT7jjxneYjbunKQsfYA31jvSVs/"
         }, {
             "discussion": "Analytics Discussion Continued",
-            "session1": "",
+            "session1": "https://youtu.be/1CRUe-Nmlwc",
+            "session2": "https://youtu.be/gQEUIx6EBww",
             "meetingNotes": "https://docs.google.com/document/d/1_AvGDBWaSlQWaK7MLjgWhE57xaJ3W-UJzKgBYOJhqxU/"
         }, {
             "discussion": "Security and Authentication - Example implementations and general discussion ",
-            "session1": "",
+            "session1": "https://youtu.be/SN0-Q26FuvQ",
             "slides": "https://docs.google.com/presentation/d/1escutQn3JYHmbsoSyX3n9jIFpXnm8GL6"
         }, {
             "discussion": "BrAPI V2 Publication - Writing and editing session ",
-            "session1": "",
+            "session1": "https://youtu.be/rLRvI0-GMN8",
             "meetingNotes": "https://github.com/plantbreeding/BrAPI-Manuscript2"
         }, {
             "discussion": "Presentation from Daniel Wibberg, Training Coordinator of de.NBI and ELIXIR-DE",
-            "session1": "",
-            "slides": ""
+            "session1": "https://youtu.be/DRJBPfLEufM"
         }, {
-            "discussion": "Github Issues Review - Discuss and prioritize key issues for the next version",
-            "session1": "",
+            "discussion": "ARC (Annotated Research Context) data model, RO-Crate & file-system representation",
+            "session1": "https://youtu.be/k5oA7fx2TiU"
+        }, {
+            "discussion": "The \"Data Set\" concept",
+            "session1": "https://youtu.be/B6B85Ld6EGI"
+        }, {
+            "discussion": "BrAPI v2.2 - Feature planning and Issue Review",
+            "session1": "https://youtu.be/0jieCQhcTog",
             "meetingNotes": "https://docs.google.com/document/d/1uIFJ0xiPpgeJUq3_jrBWEbVGgH4jgYRyDnjHl2mZpLw"
         }, {
-            "discussion": "BrAPI v2.2 - Feature planning",
-            "session1": "",
-            "meetingNotes": "https://docs.google.com/document/d/1uIFJ0xiPpgeJUq3_jrBWEbVGgH4jgYRyDnjHl2mZpLw"
+            "discussion": "High Throughput Phenotyping at INRAE",
+            "session1": "https://youtu.be/JwvlzONYdyI"
         }, {
             "discussion": "Project presentations and wrap up",
-            "session1": ""
+            "session1": "https://youtu.be/y772eXmVvzg"
         }],
         "agenda": [{
             "date": "Monday, April 15, 2024",
