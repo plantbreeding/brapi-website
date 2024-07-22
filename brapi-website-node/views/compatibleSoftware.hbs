@@ -9,39 +9,32 @@
             <div class="row justify-content-center">
                 <div class="col-11 col-sm-8 col-lg-6" style="margin: 10px 0 20px 0; position: relative;">
                     <input class="search" style="width: 100%;" placeholder="Search for BrAPI Compatible Software">
-                    <span class="iconify custom-bullet-point" data-icon="mdi-magnify"
-                        style="vertical-align: top; line-height: 30px; position: absolute; right: 10px;"></span>
+                    <span class="iconify custom-bullet-point" data-icon="mdi-magnify" style="vertical-align: top; line-height: 30px; position: absolute; right: 10px;"></span>
                     <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
-                </div>
-                <div class="col-8 row justify-content-center" style="margin: 5px 0 20px 0; display: none;">
-                    <p class="col-12" style="text-align: center; margin: 5px 0 0 0;">Filter by popular tags</p>
-                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">BrAPP</button>
-                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Server</button>
-                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Client</button>
-                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Service</button>
-                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Desktop</button>
-                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Mobile</button>
-                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Visualization</button>
-                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Analytics</button>
-                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Data Input</button>
-                    <button class="btn btn-sm btn-outline-success col-2" style="margin: 5px 5px 0 5px;">Search</button>
                 </div>
             </div>
 
-                <div class="col-12" style="margin: 10px 0 0 0"> Sort By: 
-                    <span class='sort btn btn-sm btn-outline-secondary col-4 col-sm-3 col-md-2 col-lg-1' data-sort='software-date'>Date
+            <div class="row justify-content-between">
+                <div class="col-5" style="margin: 10px 0 0 0"> Sort By:
+                    <span class='sort btn btn-sm btn-outline-secondary col-3' data-sort='software-date'>Date
                         <span class="sort-sym iconify" data-icon="mdi-sort-calendar-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
                         <span class="sort-sym iconify" data-icon="mdi-sort-calendar-descending" style="line-height: 20px; font-size:20px; vertical-align: middle;"></span>
                     </span>
-                    <span class='sort btn btn-sm btn-outline-secondary col-4 col-sm-3 col-md-2 col-lg-1' data-sort='software-title'>Name
+                    <span class='sort btn btn-sm btn-outline-secondary col-3' data-sort='software-title'>Name
                         <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
                         <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
                     </span>
-                    <span class='sort btn btn-sm btn-outline-secondary col-4 col-sm-3 col-md-2 col-lg-1' data-sort='software-team-sortable-name'>Team
+                    <span class='sort btn btn-sm btn-outline-secondary col-3' data-sort='software-team-sortable-name'>Team
                         <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
                         <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
                     </span>
                 </div>
+
+                <div class="col-5" style="margin: 10px 0 0 0">
+                    <ul class="pagination pagination-right pagination-top"></ul>
+                </div>
+            </div>
+
             <ul class="list" style="list-style-type: none; padding: 0;">
                 {{#each software}}
                 <li class="row justify-content-center">
@@ -51,7 +44,7 @@
                             <div class="brapp-thumbnail col-12 col-md-4 justify-content-center" style="display: flex;">
                                 <a href="{{ url }}" target="_blank">
                                     <span style="vertical-align: middle; display: inline-flex;height: 100%;"></span>
-                                    <img {{#if image}}src="{{ image }}"{{else}}src="/images/brapi-clover-alpha-700x394.png"{{/if}} alt="{{ title }}" style="max-width:98%">
+                                    <img {{#if image}}src="{{ image }}" {{else}}src="/images/brapi-clover-alpha-700x394.png" {{/if}} alt="{{ title }}" style="max-width:98%; max-height:180px;">
                                     <span style="vertical-align: middle; display: inline-flex;height: 100%;"></span>
                                 </a>
                             </div>
@@ -65,23 +58,20 @@
                                 <div class="brapp-links row">
                                     {{#if demo-url}}
                                     <div class="col-12 col-sm-6 col-md-4" style="padding: 1px;">
-                                    <a href="{{ demo-url }}" target="_blank"
-                                        class="btn btn-sm btn-outline-success col-12">
-                                        Demonstration Site </a>
+                                        <a href="{{ demo-url }}" target="_blank" class="btn btn-sm btn-outline-success col-12">
+                                            Demonstration Site </a>
                                     </div>
                                     {{/if}}
                                     {{#if source-url}}
                                     <div class="col-12 col-sm-6 col-md-4" style="padding: 1px;">
-                                    <a href="{{ source-url }}" target="_blank"
-                                        class="btn btn-sm btn-outline-success col-12">
-                                        Source Code Repo </a>
+                                        <a href="{{ source-url }}" target="_blank" class="btn btn-sm btn-outline-success col-12">
+                                            Source Code Repo </a>
                                     </div>
                                     {{/if}}
                                     {{#if doc-url}}
                                     <div class="col-12 col-sm-6 col-md-4" style="padding: 1px;">
-                                    <a href="{{ doc-url }}" target="_blank"
-                                        class="btn btn-sm btn-outline-success col-12">
-                                        User Documentation </a>
+                                        <a href="{{ doc-url }}" target="_blank" class="btn btn-sm btn-outline-success col-12">
+                                            User Documentation </a>
                                     </div>
                                     {{/if}}
                                 </div>
@@ -91,7 +81,10 @@
                 </li>
                 {{/each}}
             </ul>
-            
+
+            <div class="col-12">
+                <ul class="pagination pagination-right pagination-bottom"></ul>
+            </div>
         </div>
     </div>
 </section>
@@ -99,15 +92,23 @@
 
     $(document).ready(function () {
         var options = {
-            valueNames: [ 'software-title', 'software-team', 'software-date', 'software-team-sortable-name' ]
-        };
+            valueNames: [ 'software-title', 'software-team', 'software-date', 'software-team-sortable-name' ],
+            page: 10,
+            pagination: [{
+                paginationClass: "pagination-top",
+                innerWindow: 1000
+                }, {
+                paginationClass: "pagination-bottom",
+                innerWindow: 1000
+                }]
+            };
 
         var softwareList = new List('software-list', options); 
         softwareList.sort('software-date', { order: "desc" });
 
-        $('#list-size').html('Showing ' + softwareList.visibleItems.length + ' of ' + softwareList.size());
-        softwareList.on('searchComplete', function(e){
-            $('#list-size').html('Showing ' + softwareList.visibleItems.length + ' of ' + softwareList.size());
+        $('#list-size').html('Showing ' + softwareList.matchingItems.length + ' of ' + softwareList.size());        
+        softwareList.on('updated', function(e){
+            $('#list-size').html('Showing ' + softwareList.matchingItems.length + ' of ' + softwareList.size());
         });
 
 

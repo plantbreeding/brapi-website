@@ -4,6 +4,26 @@
     }
 }
 
+li:not(.active) a.page{
+    color: #6c757d;
+    background-color: white;
+    border-color: #6c757d;
+}
+
+li.active a.page{
+    color: white;
+    background-color: #6c757d;
+    border-color: white;
+}
+
+.pagination-right li:first-child{
+    margin-left:auto;
+}
+
+.pagination-top{
+    margin-bottom: 0;
+}
+
 .brapi-sponsor-tag-img {
     height: 50px;
     border-bottom: 1px solid lightgray;

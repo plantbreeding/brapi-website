@@ -316,7 +316,7 @@
     {
         "name": "VIB Center For Plant Systems Biology",
         "description": "BrAPI endpoint to access the publicly available data from PIPPA, an interface for plant phenotype analysis",
-        "logo": "https://www.psb.ugent.be/themes/custom/minimalplus/logo.svg",
+        "logo": "https://www.psb.ugent.be/themes/custom/psbtheme/logo_psb.svg",
         "resources": [
             {
                 "name": "PIPPA - PSB Interface for Plant Phenotype Analysis",
