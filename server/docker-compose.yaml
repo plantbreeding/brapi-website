@@ -9,8 +9,8 @@ services:
     volumes:
       - /home/jenkins/brapi.org/data/server-conf/certbot/conf:/etc/letsencrypt
       - /home/jenkins/brapi.org/data/server-conf/certbot/www:/var/www/certbot
-      - /home/jenkins/brapi.org/brapi-website/server/nginx.conf:/etc/nginx/nginx.conf
-      - /home/jenkins/brapi.org/brapi-website/server/brapi-ssl.conf:/etc/nginx/sites-available/brapi-ssl.conf
+      - /home/jenkins/brapi.org/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - /home/jenkins/brapi.org/nginx/brapi-ssl.conf:/etc/nginx/sites-available/brapi-ssl.conf
     ports:
       - "80:80"
       - "443:443"
