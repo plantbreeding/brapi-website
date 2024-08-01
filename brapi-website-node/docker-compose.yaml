@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   brapi-web:
     image: brapicoordinatorselby/brapi-web
@@ -10,5 +8,5 @@ services:
       - /home/jenkins/brapi.org/data/email-data:/usr/src/app/data/
 networks:
     default:
-        external:
-            name: brapi_net
+        external: true
+        name: brapi_net
