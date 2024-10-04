@@ -1,23 +1,5 @@
 [
     {
-        "title": "BrAPI Virtual Hackathon 2024",
-        "location": "Virtual",
-        "date": "October 14, 2024 - October 18, 2024",
-        "image": "/images/events/home_office_generated_2.png",
-        "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from October 14-18, 2024. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.</p>",
-        "upcoming": true,
-        "links": [
-            {
-                "name": "Event Page",
-                "url": "/events/hackathon?id=hackathon-oct-2024"
-            },
-            {
-                "name": "Register",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSfMjkmzT6aMrryJq_yg1gWx0niploWjyj2WaaOcqr-Nl2g7GQ/viewform?usp=sf_link"
-            }
-        ]
-    },
-    {
         "title": "Wittenberg Hackathon 2024",
         "location": "Lutherstadt Wittenberg, Germany",
         "date": "April 15-19, 2024",
