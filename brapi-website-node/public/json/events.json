@@ -1,5 +1,25 @@
 [
     {
+        "title": "Los Baños Hackathon 2025",
+        "location": "Los Baños, Philippines",
+        "date": "June 2-6, 2025",
+        "image": "/images/events/los_banos_thumb.jpg",
+        "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This event will be June 2-6, 2025, at IRRI headquarters, in Los Baños, Philippines. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.</p>",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "Event Page",
+                "url": "/events/hackathon?id=hackathon-jun-2025"
+            },
+            {
+                "name": "Register",
+                "url": ""
+            }
+        ],
+        "showSponsors": false,
+        "sponsorsLogos": []
+    },
+    {
         "title": "Wittenberg Hackathon 2024",
         "location": "Lutherstadt Wittenberg, Germany",
         "date": "April 15-19, 2024",
