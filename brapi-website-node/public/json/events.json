@@ -1,5 +1,23 @@
 [
     {
+        "title": "BrAPI Workshop At PAG32",
+        "location": "San Diego, USA",
+        "date": "16:00 - 18:10, Saturday, Jan 11, 2025",
+        "image": "/images/events/san-diego_thumb.jpg",
+        "description": "<p>Join us in San Diego at PAG32 for a BrAPI community workshop. There will be six BrAPI community speakers presenting on various BrAPI projects. </p><p>Can't make it on Saturday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "PAG Website",
+                "url": "http://www.intlpag.org/PAG32/"
+            },
+            {
+                "name": "Workshop Agenda",
+                "url": "https://plan.core-apps.com/pag32/event/4a79360f-effb-4b0c-b048-55c289683261"
+            }
+        ]
+    },
+    {
         "title": "Los Baños Hackathon 2025",
         "location": "Los Baños, Philippines",
         "date": "June 2-6, 2025",
