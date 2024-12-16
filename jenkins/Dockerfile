@@ -1,5 +1,5 @@
 ## Build > docker build -t jenkins_python ./
-## Run   > docker run -v /home/jenkins/jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -d jenkins_python
+## Run   > docker run --name=jenkins --network=brapi_net -v /home/jenkins/jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock --restart always -d jenkins_python
 
 FROM jenkins/jenkins:lts
 
