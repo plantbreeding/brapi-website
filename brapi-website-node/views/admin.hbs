@@ -385,14 +385,14 @@ $(document).ready(function () {
         .replace(/\n/g, ' ');
 
         var jsonPreview = {
-            "ISO8601": "2023-01-01",
+            "ISO8601": "2025-01-01",
             "title": title,
             "date": date,
             "author": author,
             "article": jsonArticle 
         }
         
-        $('#json-display').html('<pre> "jan-01-2023": ' + JSON.stringify(jsonPreview, null, 8) + '</pre>');
+        $('#json-display').html('<pre> "jan-01-2025": ' + JSON.stringify(jsonPreview, null, 8) + '</pre>');
     }
 
     $(".input").on('input', buildPreview);
