@@ -40,12 +40,12 @@ router.post('/mailingListSubscribe', async function (req, res, next) {
             to: [req.body.email, 'mail@mail.brapi.org'],
             subject: 'Welcome to the BrAPI Mailing List',
             template: 'announcement_template',
-            text: 'Hello ' + req.body.name + '\nThank you for joining the BrAPI Community Mailing List. This list is the best way to stay up to date with the BrAPI community. Also, please consider joining the community Slack workspace and following us on Twitter/X.\nYou can Unsubscribe at any time by going to: https://brapi.org/unsubscribe\n\nCheers\nPeter Selby\nBrAPI Project Coordinator',
+            text: 'Hello ' + req.body.name + '\nThank you for joining the BrAPI Community Mailing List. This list is the best way to stay up to date with the BrAPI community. Also, please consider joining the community Slack workspace and following us on LinkedIn.\nYou can Unsubscribe at any time by going to: https://brapi.org/unsubscribe\n\nCheers\nPeter Selby\nBrAPI Project Coordinator',
             'h:X-Mailgun-Variables': JSON.stringify({
                 "title": "Welcome to the BrAPI Mailing List",
                 "date": now.toDateString,
                 "author": null,
-                "article": "<p>Hello " + req.body.name + "</p><p>Thank you for joining the BrAPI Community Mailing List. This list is the best way to stay up to date with the BrAPI community. Also, please consider joining the community <a href=\"https://join.slack.com/t/plantbreedingapi/shared_invite/enQtNjA4NTA3OTI5NjUxLWE5ZmI0NDE0NGM1ODkxMjVmMDU1MGVjY2Q5M2QxNGNkYzMyODhkNDVmZjM0ZGI1YzEwYjEwNmY0MDM1YjllZDU\">Slack workspace</a> and following us on <a href=\"https://twitter.com/breedingapi\">Twitter/X</a>.</p><p>You can <a href=\"https://brapi.org/unsubscribe\">Unsubscribe</a> at any time by going to: <a href=\"https://brapi.org/unsubscribe\">https://brapi.org/unsubscribe</a></p><p>Cheers<br>Peter Selby<br>BrAPI Project Coordinator</p>"
+                "article": "<p>Hello " + req.body.name + "</p><p>Thank you for joining the BrAPI Community Mailing List. This list is the best way to stay up to date with the BrAPI community. Also, please consider joining the community <a href=\"https://join.slack.com/t/plantbreedingapi/shared_invite/enQtNjA4NTA3OTI5NjUxLWE5ZmI0NDE0NGM1ODkxMjVmMDU1MGVjY2Q5M2QxNGNkYzMyODhkNDVmZjM0ZGI1YzEwYjEwNmY0MDM1YjllZDU\">Slack workspace</a> and following us on <a href=\"https://www.linkedin.com/company/the-brapi-project\">LinkedIn</a>.</p><p>You can <a href=\"https://brapi.org/unsubscribe\">Unsubscribe</a> at any time by going to: <a href=\"https://brapi.org/unsubscribe\">https://brapi.org/unsubscribe</a></p><p>Cheers<br>Peter Selby<br>BrAPI Project Coordinator</p>"
             }),
             'h:List-Unsubscribe': 'http://brapi.org/unsubscribe',
             'h:Date': now.toUTCString()

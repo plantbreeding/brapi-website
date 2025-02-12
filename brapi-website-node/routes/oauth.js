@@ -6,26 +6,32 @@ var router = express.Router();
 
 const discoveryUri = process.env.DISCOVERY_URI;
 const redirectUri = process.env.OAUTH_REDIRECT_URI;
+const clientID = 'exampleClient';
 
 const authUtils = require('./auth-util');
 var OAuthClient;
-authUtils.buildAuthClient(discoveryUri, redirectUri, 'exampleClient', process.env.OAUTH_EXAMPLE_CLIENT_SECRET, 
-(client) => OAuthClient = client);
+authUtils.buildAuthClient(discoveryUri, redirectUri, clientID, process.env.OAUTH_EXAMPLE_CLIENT_SECRET, (client) => OAuthClient = client);
 
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res, next) {
     res.render('oauth', {
         title: 'OAuth',
         footerEvents: require('./events').getTrailerEvents()
     });
 });
 
-router.get('/login', function(req, res, next) {
-    res.redirect(authUtils.getAuthURL(OAuthClient));
+router.get('/login', function (req, res, next) {
+
+    if (OAuthClient) {
+        res.redirect(authUtils.getAuthURL(OAuthClient));
+    } else {
+        console.log('OAuthClient not available, attempting reconnect');
+        authUtils.buildAuthClient(discoveryUri, redirectUri, clientID, process.env.OAUTH_EXAMPLE_CLIENT_SECRET, (client) => OAuthClient = client);
+    }
 });
 
-router.get('/redirect', async function(req, res, next) {
+router.get('/redirect', async function (req, res, next) {
     var token = await authUtils.verifyTokenResponse(OAuthClient, req, redirectUri);
-    if(token){
+    if (token) {
         res.render('oauth', {
             email: token.claims().email,
             name: token.claims().name,
@@ -33,11 +39,11 @@ router.get('/redirect', async function(req, res, next) {
             title: 'OAuth',
             footerEvents: require('./events').getTrailerEvents()
         });
-    }else{
+    } else {
         res.render('oauth', {
             title: 'OAuth',
             footerEvents: require('./events').getTrailerEvents()
         });
-    }    
+    }
 });
 module.exports = router;
