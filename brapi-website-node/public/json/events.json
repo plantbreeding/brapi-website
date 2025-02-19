@@ -14,6 +14,14 @@
             {
                 "name": "Register",
                 "url": "https://docs.google.com/forms/d/e/1FAIpQLSe10yZRgf1qU7rPocC4A6uJvnwWNQb9l2iSCldOtgX2hn2iNg/viewform?usp=sharing"
+            },
+            {
+                "name": "Travel Guide",
+                "url": "https://docs.google.com/document/d/19Gsc6jG5tmU85oTDoPOUEOZ-h5yZsIcV6RvDR6Vd2nA/edit"
+            },
+            {
+                "name": "IRRI Travel Guide",
+                "url": "https://ebsproject.atlassian.net/wiki/spaces/Travel/pages/29499326477/EBS+Participants+Travel+Guide"
             }
         ],
         "showSponsors": false,
