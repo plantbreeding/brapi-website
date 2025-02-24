@@ -26,10 +26,54 @@
             "end": "2025-06-06 21:00:00Z"
         },
         "attendees": [
-            {"name" : "Peter Selby", "org" : "BrAPI", "email" : "brapicoordinatorselby@gmail.com", "session1" : false, "session2" : true}
+            {"name" : "Peter Selby", "org" : "BrAPI", "email" : "peter.selby@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "Khaled Al-Shamaa", "org" : "ICARDA", "email" : "k.el-shamaa@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Fortune Ogo-ndah Awala ", "org" : "Ignatius Ajuru University of Education, Rivers State, Nigeria", "email" : "fortune.awala@iaue.edu.ng", "session1" : false, "session2" : true},
+            {"name" : "Guy Davenport", "org" : "Daveneti / BASF", "email" : "guy@daveneti.com", "session1" : true, "session2" : false},
+            {"name" : "Moses Nderitu", "org" : "SEQART AFRICA", "email" : "m.nderitu@seqart.net", "session1" : false, "session2" : true},
+
+            {"name" : "Ragavendiran Balasubramanian", "org" : "Alliance Bioversity and CIAT", "email" : "bgragavendiran@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Prasad Vithal Kamath", "org" : "Clemson University", "email" : "kamathprasad9@gmail.com", "session1" : false, "session2" : true},
+
+            {"name" : "Mirella Flores", "org" : "Independent", "email" : "mireflor100@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Bryan Ellerbrock", "org" : "Clemson University", "email" : "bryane@clemson.edu", "session1" : false, "session2" : true},
+            {"name" : "Saptak Gupta", "org" : "indore institute of science and technology", "email" : "amwinhg@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Laurens Goormachtigh", "org" : "Alliance of Bioversity International and CIAT", "email" : "l.goormachtigh@cgiar.org", "session1" : true, "session2" : false},
+            {"name" : "Rishika Gupta", "org" : "CentraleSupelec", "email" : "rishikagupta1999@gmail.com", "session1" : true, "session2" : false},
+            {"name" : "Lukas Mueller", "org" : "Boyce Thompson Institute", "email" : "lam87@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "Benjamin Maza", "org" : "Boyce Thompson Institute, Breedbase", "email" : "bm743@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "James Clevenger", "org" : "CIMMYT", "email" : "j.clevenger@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Jason Loux", "org" : "BrAPI", "email" : "jloux.brapi@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Eugene Ma. D. Sumague", "org" : "International Rice Research Institute", "email" : "E.Sumague@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Maria Relliza Pasang", "org" : "IRRI, CIMMYT", "email" : "m.passng@irri.org", "session1" : false, "session2" : true},
+            {"name" : "Heather Manching", "org" : "North Carolina State University; USDA-ARS", "email" : "hkmanchi@ncsu.edu", "session1" : false, "session2" : true},
+            {"name" : "Shawn Yarnes", "org" : "Breeding Insight, Cornell University ", "email" : "shawnyarnes@pm.me", "session1" : true, "session2" : false},
+            {"name" : "David PIERRE", "org" : "Institut National Polytechnique de Toulouse (INPT)", "email" : "david.pierre@toulouse-inp.fr", "session1" : false, "session2" : true},
+            {"name" : "Gaurav karwa", "org" : "Texas Tech University", "email" : "gkarwa@ttu.edu", "session1" : false, "session2" : true}
         ],
         "projects": [ 
-
+            {"team" : "Khaled Al-Shamaa", "title" : "QBMS", "description" : "QBMS - Shiny UI Widget: Develop a reusable component for R Markdown documents, Shiny web apps, and direct invocation from the RStudio console using a single function call. Also, revamp the core functionalities by using the "httr2" package in place of the deprecated "httr", and implement non-blocking code with the CRAN "promises" and "future" packages instead of the non-CRAN "async" package.", "needs" : null, "repo" : "https://github.com/icarda-git/QBMS/"},
+            {"team" : "Fortune Ogo-ndah Awala , I would want to collaborate with the team working on Genebank and BrAPI  or any team that has an ontologist or a data curator and Bioinformatician", "title" : "Genebank Access", "description" : "I intend to work with Genebank and BrAPI looking at metadata standards, access and its application in Bioinformatic analyses using BrAPPs.", "needs" : "There is need for an app developer and an ontologist and Bioinformatician", "repo" : "No"},
+            {"team" : "Guy Davenport", "title" : "Schema Tools", "description" : "Schema Tools", "needs" : null, "repo" : null},
+            {"team" : "Moses Nderitu, DArTview web based version is inspired by the work done on divbrowse. I have some few questions for Patrick(IPK)", "title" : "DArTView", "description" : "DArTView for the web. Currently DArTView is desktop based , have been working to build a web application version for the same. I will continue with this work.", "needs" : null, "repo" : null},
+            
+            {"team" : "Ragavendiran Balasubramanian, Laurens Goormatigh(Project Lead - Artemis), Aline & Berta (UX & UI Folks),  and a Team of Breeders and Technicians on Field to collect and provide data.", "title" : "Artemis", "description" : "Artemis - A phenotyping data collection tool that seamlessly integrates with BrAPI to ensure data is collected and organized at scale.", "needs" : "Insights from BrAPI community on similar tools and products.", "repo" : null},
+            
+            {"team" : "Tentative: Relevant EBS developers based at IRRI, Luis and others from Bioflow team, any other interested groups", "title" : "EBS -> Bioflow", "description" : "The project would be to work on passing genotypic and required sample data, etc. from the EBS to Bioflow", "needs" : null, "repo" : null},
+            {"team" : "Mirella Flores, Not sure yet. It can be more than one group. It also depend who will be there.", "title" : "brapi.js and BrAPP maintenance", "description" : "I would like to participate with  the analytics and security and authentication groups. I also would like to review and give some maintenance to BRAPI js and BrAPPS. If possible to collaborate to build new BrAPPS (for the analytics if any).", "needs" : null, "repo" : "https://github.com/solgenomics/BrAPI-js"},
+            {"team" : "Bryan Ellerbrock", "title" : "Field Book Enhancements", "description" : "This could easily change, but one area I'd like to work on is improving the UI and error handling for BrAPI exports in Field Book app.", "needs" : null, "repo" : "https://github.com/PhenoApps/Field-Book"},
+            
+            
+            
+            
+            {"team" : "Benjamin Maza, I will be working with Breedbase", "title" : "High Dimensional Phenotypes", "description" : "I plan to work on implementing High Dimensional Phenotype data support in BrAPI and Breedbase.", "needs" : null, "repo" : null},
+            {"team" : "James Clevenger, tbd", "title" : "AgPile", "description" : "integration project with AgPile", "needs" : null, "repo" : null},
+            {"team" : "Jason Loux, Breeding Insight", "title" : "BrAPI Java Production Server", "description" : "General BrAPI server fixes, mostly production/optimization/at-load issues.", "needs" : null, "repo" : null},
+            
+            {"team" : "Maria Relliza Pasang, EBS Team", "title" : "EBS -> Field Book", "description" : "EBS-Field Book Integration: Syncing Repeated Measures via BrAPI (tentative)", "needs" : "Needs consultation with Peter Selby and PhenoApps Team", "repo" : null},
+            
+            
+            {"team" : "David PIERRE", "title" : "Harnesstorm Database BrAPPs", "description" : "Harnesstom Database, building new BrAPPS that can be shared with the community.", "needs" : null, "repo" : "Gateway.harnesstom.eu"}
          ],
         "notes": [
             {
