@@ -170,6 +170,19 @@
                 ]
             },
             {
+                "name": "musabase-test.sgn.cornell.edu",
+                "v1-url": "https://musabase-test.sgn.cornell.edu/brapi/v1/",
+                "v2-url": "https://musabase-test.sgn.cornell.edu/brapi/v2/",
+                "description": "Server for musabase practice including field book connection through BrAPI.",
+                "contact-email": "ccs263@cornell.edu",
+                "badges": [
+                  "auth-required",
+                  "data-demo",
+                  "brapi-v1",
+                  "brapi-v2"
+                ]
+            },
+            {
                 "name": "Solgenomics",
                 "v1-url": "https://solgenomics.net/brapi/v1/",
                 "v2-url": "https://solgenomics.net/brapi/v2/",

@@ -49,7 +49,7 @@
             {"name" : "Heather Manching", "org" : "North Carolina State University; USDA-ARS", "email" : "hkmanchi@ncsu.edu", "session1" : false, "session2" : true},
             {"name" : "Shawn Yarnes", "org" : "Breeding Insight, Cornell University ", "email" : "shawnyarnes@pm.me", "session1" : true, "session2" : false},
             {"name" : "David PIERRE", "org" : "Institut National Polytechnique de Toulouse (INPT)", "email" : "david.pierre@toulouse-inp.fr", "session1" : false, "session2" : true},
-            {"name" : "Gaurav karwa", "org" : "Texas Tech University", "email" : "gkarwa@ttu.edu", "session1" : false, "session2" : true}
+            {"name" : "Gaurav Karwa", "org" : "Texas Tech University", "email" : "gkarwa@ttu.edu", "session1" : false, "session2" : true}
         ],
         "projects": [ 
             {"team" : "Khaled Al-Shamaa", "title" : "QBMS", "description" : "QBMS - Shiny UI Widget: Develop a reusable component for R Markdown documents, Shiny web apps, and direct invocation from the RStudio console using a single function call. Also, revamp the core functionalities by using the \"httr2\" package in place of the deprecated \"httr\", and implement non-blocking code with the CRAN \"promises\" and \"future\" packages instead of the non-CRAN \"async\" package.", "needs" : null, "repo" : "https://github.com/icarda-git/QBMS/"},
@@ -57,7 +57,7 @@
             {"team" : "Guy Davenport", "title" : "Schema Tools", "description" : "Schema Tools", "needs" : null, "repo" : null},
             {"team" : "Moses Nderitu, DArTview web based version is inspired by the work done on divbrowse. I have some few questions for Patrick(IPK)", "title" : "DArTView", "description" : "DArTView for the web. Currently DArTView is desktop based , have been working to build a web application version for the same. I will continue with this work.", "needs" : null, "repo" : null},
             
-            {"team" : "Ragavendiran Balasubramanian, Laurens Goormatigh(Project Lead - Artemis), Aline & Berta (UX & UI Folks),  and a Team of Breeders and Technicians on Field to collect and provide data.", "title" : "Artemis", "description" : "Artemis - A phenotyping data collection tool that seamlessly integrates with BrAPI to ensure data is collected and organized at scale.", "needs" : "Insights from BrAPI community on similar tools and products.", "repo" : null},
+            {"team" : "Ragavendiran Balasubramanian, Laurens Goormachtigh(Project Lead - Artemis), Aline & Berta (UX & UI Folks),  and a Team of Breeders and Technicians on Field to collect and provide data.", "title" : "Artemis", "description" : "Artemis - A phenotyping data collection tool that seamlessly integrates with BrAPI to ensure data is collected and organized at scale.", "needs" : "Insights from BrAPI community on similar tools and products.", "repo" : null},
             
             {"team" : "Tentative: Relevant EBS developers based at IRRI, Luis and others from Bioflow team, any other interested groups", "title" : "EBS -> Bioflow", "description" : "The project would be to work on passing genotypic and required sample data, etc. from the EBS to Bioflow", "needs" : null, "repo" : null},
             {"team" : "Mirella Flores, Not sure yet. It can be more than one group. It also depend who will be there.", "title" : "brapi.js and BrAPP maintenance", "description" : "I would like to participate with  the analytics and security and authentication groups. I also would like to review and give some maintenance to BRAPI js and BrAPPS. If possible to collaborate to build new BrAPPS (for the analytics if any).", "needs" : null, "repo" : "https://github.com/solgenomics/BrAPI-js"},
@@ -73,7 +73,7 @@
             {"team" : "Maria Relliza Pasang, EBS Team", "title" : "EBS -> Field Book", "description" : "EBS-Field Book Integration: Syncing Repeated Measures via BrAPI (tentative)", "needs" : "Needs consultation with Peter Selby and PhenoApps Team", "repo" : null},
             
             
-            {"team" : "David PIERRE", "title" : "Harnesstorm Database BrAPPs", "description" : "Harnesstom Database, building new BrAPPS that can be shared with the community.", "needs" : null, "repo" : "Gateway.harnesstom.eu"}
+            {"team" : "David PIERRE", "title" : "Harnesstom Database BrAPPs", "description" : "Harnesstom Database, building new BrAPPS that can be shared with the community.", "needs" : null, "repo" : "Gateway.harnesstom.eu"}
          ],
         "notes": [
             {
@@ -814,7 +814,7 @@
         ],
         "projects": [
             { "team": "Leonel Ignacio Kovacic", "title": "BrAPI Sync", "description": "brapi sync. Also, we may need to discuss some features in KSU Field Book", "needs": null, "repo": "https://github.com/IntegratedBreedingPlatform/brapi-sync" },
-            { "team": "Mark Watson, Any of the developers of the various BrapiR R packages (I'm not sure if any will be present or not).", "title": "BrAPI-R", "description": "I'm working on a set of modular R Shiny apps that use BrAPI via the brapiR-v1 R package for interactive breeding data analyses (the goal is for these to be especially tinkerable, so breeders can modify them themselves for miscellaneous analyses that aren't covered in breedbase instances). I'm interested in integrating new BrAPI features (working with any brapiR developers if they're present), along with improving performance and adding better documentation for GitHub.", "needs": null, "repo": "https://github.com/mtwatso2-eng/pollination-toolbox" },
+            { "team": "Mark Watson, Any of the developers of the various BrapiR R packages (I'm not sure if any will be present or not).", "title": "BrAPI-R", "description": "I'm working on a set of modular R Shiny apps that use BrAPI via the brapiR-v1 R package for interactive breeding data analyses (the goal is for these to be especially tinker-able, so breeders can modify them themselves for miscellaneous analyses that aren't covered in breedbase instances). I'm interested in integrating new BrAPI features (working with any brapiR developers if they're present), along with improving performance and adding better documentation for GitHub.", "needs": null, "repo": "https://github.com/mtwatso2-eng/pollination-toolbox" },
             { "team": "Chaney Courtney", "title": "Field Book", "description": "Field Book", "needs": null, "repo": null },
             { "team": "Ernesto Briones Pereyra, EBS' Team", "title": "GraphQL ", "description": "GraphQL Brapi standard", "needs": null, "repo": null },
             { "team": "Maria Relliza Asin Pasang, Jahzeel Ramos Calosa (IRRI), Larise Gallardo (IRRI), Alfonso Joseph Caballero Ramirez (CIMMYT), Ernesto Briones (CIMMYT), Dinia Grace D. Gepte", "title": "Integrate EBS and Field Book", "description": "Integrate the CGIAR Excellence in Breeding Platform-led Enterprise Breeding System (EBS) with the Field Book application so that breeders may easily collect and upload data to the system.", "needs": "Planning to consult Trevor Rife for the Field book app and BrAPI integration", "repo": "https://bitbucket.org/ebsproject/cb-brapi" },
@@ -1227,7 +1227,7 @@
             { "team": "Adrian Powell", "title": "High-dimensional phenotypes", "description": "Continue development of the High-dimensional phenotypes endpoints in Breedbase", "needs": null, "repo": null },
             { "team": "Brandon Monier, Buckler Lab", "title": "PHG + BrAPI + R", "description": "Integrating PHG and BrAPI into base R and the R package, rTASSEL.", "needs": null, "repo": null },
             { "team": null, "title": "BrAPI-PyModels Package", "description": "Add preliminary support for the new genotype matrix draft to BrAPI-PyModels.", "needs": null, "repo": "https://github.com/agostof/BrAPI-PyModels" },
-            { "team": "Lukas Mueller, Breedbase", "title": "Field Viewer BRAPP", "description": "we have a new field viewer that needs some tweaks to the brapi specs", "needs": null, "repo": "https://github.com/solgenomics" },
+            { "team": "Lukas Mueller, Breedbase", "title": "Field Viewer BrAPP", "description": "we have a new field viewer that needs some tweaks to the brapi specs", "needs": null, "repo": "https://github.com/solgenomics" },
             { "team": "Solomon Nsumba, Bryan Ellerbrock ,Lukas Mueller from Breedbase AND Jeremy Tusubira(Makerere AI Lab)", "title": "Image Analysis Service with BrAPI", "description": "BrAPI calls for image analysis service.", "needs": null, "repo": null },
             { "team": "Patrick König", "title": "DivBrowse with New Genotype Endpoint", "description": "Test-wise implementation of the refactored genotype data model in DivBrowse", "needs": null, "repo": "https://github.com/IPK-BIT/divbrowse" },
             { "team": "Bryan Ellerbrock", "title": "Trial Completeness Heatmap", "description": "Working on Trial Completeness Heatmap app", "needs": "Breedbase and BrAPI R package", "repo": null },
@@ -1440,14 +1440,14 @@
             { "team": "Trevor Rife", "title": "PhenoLib and Android Account Manager", "description": "PhenoLib and Android Account Manager ", "needs": null, "repo": "https://github.com/PhenoApps/PhenoLib" },
             { "team": "Chaney Courtney", "title": "PhenoApps integration", "description": "PhenoApps integration, creating general Android service and moving it to a library, creating a Room persistence database using OpenAPI for use in Android", "needs": null, "repo": null },
             { "team": "Khaled Al-Shamaa", "title": "QBMS R Package", "description": "QBMS R Package from ICARDA ", "needs": "Looking for BMS developer/support", "repo": "https://github.com/icarda-git/QBMS" },
-            { "team": "Juan Cesar (JC) Pineda", "title": "BRAPP: Command Line Tool", "description": "A BrAPI-compliant command-line tool for uploading, viewing, and editing breeding data. Written in python. This application connects with an instance of the BrAPI V2 Test Server that is hosted in Google Cloud.", "needs": null, "repo": null },
+            { "team": "Juan Cesar (JC) Pineda", "title": "BrAPP: Command Line Tool", "description": "A BrAPI-compliant command-line tool for uploading, viewing, and editing breeding data. Written in python. This application connects with an instance of the BrAPI V2 Test Server that is hosted in Google Cloud.", "needs": null, "repo": null },
             { "team": "David LeBauer", "title": "TERRA REF v2 Implementation", "description": "Implementing BrAPI v2 in the TERRA REF project server", "needs": null, "repo": null },
             { "team": "David LeBauer, Kristina Riemer", "title": "BrAPI to ARDN", "description": "Using BrAPI data for crop modeling by converting BrAPI data to the ARDN format", "needs": null, "repo": null },
             { "team": "Bryan Ellerbrock", "title": "Trial Design Tool (R Shiny)", "description": "Considering working on an R shiny trial design tool that can pull germplasm names, locations, etc from a BrAPI db and then post a completed design", "needs": null, "repo": null },
             { "team": "Bert Droesbeke", "title": "PIPPA v2 Implementation", "description": "Adding support for BrAPI v2.0 to our phenotyping platform PIPPA", "needs": "Looking for people with experience on adding BrAPI 2.0 to their database", "repo": null },
             { "team": "Alessandro Cestaro, Diego Micheletti", "title": "FEM BrAPI Implementation", "description": "Integrate our database with BrAPI ", "needs": null, "repo": null },
-            { "team": "Nahuel Soldevilla, Mariano Omar Crimi", "title": "BRAPP: brapi-sync", "description": "Improve brapi-sync app ", "needs": null, "repo": null },
-            { "team": "Nahuel Soldevilla", "title": "BRAPP: brapi-fieldmap", "description": "Improve brapi-fieldmap app ", "needs": null, "repo": null },
+            { "team": "Nahuel Soldevilla, Mariano Omar Crimi", "title": "BrAPP: brapi-sync", "description": "Improve brapi-sync app ", "needs": null, "repo": null },
+            { "team": "Nahuel Soldevilla", "title": "BrAPP: brapi-fieldmap", "description": "Improve brapi-fieldmap app ", "needs": null, "repo": null },
             { "team": "Marie-Angélique Laporte", "title": "Crop Ontology v2 Implementation", "description": "We are moving Crop Ontology to a new system. I am will be implementing the version 2 of the BRAPI calls that are relevant to the CO website. ", "needs": null, "repo": null },
             { "team": "Marie-Angélique Laporte, Carlos Quiros Campos, Brandon Madriz Araya", "title": "Germplasm data exchange with ClimMob", "description": "It would be great to see how germplasm information can be exchanged from the Breedbase/BMS to ClimMob as a first step to provide on farm experiment information back to breeders", "needs": "If some people from BMS and/or Breedbase are interested and available, that would be great", "repo": null },
             { "team": "Maikel Verouden", "title": "BrAPI R", "description": "Continue work on the BrAPI R package", "needs": null, "repo": null },
@@ -1535,12 +1535,12 @@
         "schedule": [
             {"time": "Session #1","class": "agenda-bg-blue","title": " "},
             {"time": "08:00 - 09:00 UTC","class": "agenda-bg-blue","title": "Agronomy Working Group - Identify use cases and create a work plan"},
-            {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "High Dimensional Phenotyping Working Group - NIRS, Transcriptomics, Metabalomics, etc"},
+            {"time": "09:00 - 10:00 UTC","class": "agenda-bg-blue","title": "High Dimensional Phenotyping Working Group - NIRS, Transcriptomics, Metabolomics, etc"},
             {"time": "10:00 - 11:00 UTC","class": "agenda-bg-blue","title": "TBD"},
             {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"},
             {"time": "Session #2","class": "agenda-bg-pink","title": " "},
             {"time": "16:00 - 17:00 UTC","class": "agenda-bg-pink","title": "Agronomy Working Group - Identify use cases and create a work plan"},
-            {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "High Dimensional Phenotyping Working Group - NIRS, Transcriptomics, Metabalomics, etc"},
+            {"time": "17:00 - 18:00 UTC","class": "agenda-bg-pink","title": "High Dimensional Phenotyping Working Group - NIRS, Transcriptomics, Metabolomics, etc"},
             {"time": "18:00 - 19:00 UTC","class": "agenda-bg-pink","title": "TBD"},
             {"time": null,"class": "agenda-bg-green","title": "Collaborative project work time"}]
         },{
