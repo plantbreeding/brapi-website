@@ -1,7 +1,7 @@
 {
   "issuer": "https://auth.brapi.org/realms/brapi",
   "authorization_endpoint": "https://auth.brapi.org/realms/brapi/protocol/openid-connect/auth",
-  "token_endpoint": "https://test-server.brapi.org/realms/brapi/protocol/openid-connect/token",
+  "token_endpoint": "http://keycloak-brapi:8080/realms/brapi/protocol/openid-connect/token",
   "introspection_endpoint": "https://test-server.brapi.org/realms/brapi/protocol/openid-connect/token/introspect",
   "userinfo_endpoint": "https://test-server.brapi.org/realms/brapi/protocol/openid-connect/userinfo",
   "end_session_endpoint": "https://auth.brapi.org/realms/brapi/protocol/openid-connect/logout",
