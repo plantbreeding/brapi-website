@@ -80,28 +80,28 @@
                 "description": "The BrAPI-Core module contains high level entities used for organization and management. This includes Programs, Trials, Studies, Locations, People, and Lists",
                 "githubURL": "https://github.com/plantbreeding/BrAPI/tree/brapi-V2.1/Specification/BrAPI-Core",
                 "apiaryURL": "https://brapicore21.docs.apiary.io/#",
-                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Core/2.1"
+                "swaggerhubURL": "https://app.swaggerhub.com/apis-docs/PlantBreedingAPI/BrAPI-Core/2.1"
             },
             {
                 "name": "BrAPI-Phenotyping",
                 "description": "The BrAPI-Phenotyping module contains entities related to phenotypic observations. This includes Observation Units, Observations, Observation Variables, Traits, Scales, Methods, and Images",
                 "githubURL": "https://github.com/plantbreeding/BrAPI/tree/brapi-V2.1/Specification/BrAPI-Phenotyping",
                 "apiaryURL": "https://brapiphenotyping21.docs.apiary.io/#",
-                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Phenotyping/2.1"
+                "swaggerhubURL": "https://app.swaggerhub.com/apis-docs/PlantBreedingAPI/BrAPI-Phenotyping/2.1"
             },
             {
                 "name": "BrAPI-Genotyping",
                 "description": "The BrAPI-Genotyping module contains entities related to genotyping analysis. This includes Samples, Markers, Variant Sets, Variants, Call Sets, Calls, References, Reads, and Vendor Orders",
                 "githubURL": "https://github.com/plantbreeding/BrAPI/tree/brapi-V2.1/Specification/BrAPI-Genotyping",
                 "apiaryURL": "https://brapigenotyping21.docs.apiary.io/#",
-                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Genotyping/2.1"
+                "swaggerhubURL": "https://app.swaggerhub.com/apis-docs/PlantBreedingAPI/BrAPI-Genotyping/2.1"
             },
             {
                 "name": "BrAPI-Germplasm",
                 "description": "The BrAPI-Germplasm module contains entities related to germplasm management. This includes Germplasm, Germplasm Attributes, Seed Lots, Crosses, Pedigree, and Progeny",
                 "githubURL": "https://github.com/plantbreeding/BrAPI/tree/brapi-V2.1/Specification/BrAPI-Germplasm",
                 "apiaryURL": "https://brapigermplasm21.docs.apiary.io/#",
-                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Germplasm/2.1"
+                "swaggerhubURL": "https://app.swaggerhub.com/apis-docs/PlantBreedingAPI/BrAPI-Germplasm/2.1"
             }
         ]
     }, {
@@ -130,28 +130,28 @@
                 "description": "The BrAPI-Core module contains high level entities used for organization and management. This includes Programs, Trials, Studies, Locations, People, and Lists",
                 "githubURL": "https://github.com/plantbreeding/BrAPI/tree/V2.0/Specification/BrAPI-Core",
                 "apiaryURL": "https://brapicore20.docs.apiary.io/#",
-                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Core/2.0"
+                "swaggerhubURL": "https://app.swaggerhub.com/apis-docs/PlantBreedingAPI/BrAPI-Core/2.0"
             },
             {
                 "name": "BrAPI-Phenotyping",
                 "description": "The BrAPI-Phenotyping module contains entities related to phenotypic observations. This includes Observation Units, Observations, Observation Variables, Traits, Scales, Methods, and Images",
                 "githubURL": "https://github.com/plantbreeding/BrAPI/tree/V2.0/Specification/BrAPI-Phenotyping",
                 "apiaryURL": "https://brapiphenotyping20.docs.apiary.io/#",
-                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Phenotyping/2.0"
+                "swaggerhubURL": "https://app.swaggerhub.com/apis-docs/PlantBreedingAPI/BrAPI-Phenotyping/2.0"
             },
             {
                 "name": "BrAPI-Genotyping",
                 "description": "The BrAPI-Genotyping module contains entities related to genotyping analysis. This includes Samples, Markers, Variant Sets, Variants, Call Sets, Calls, References, Reads, and Vendor Orders",
                 "githubURL": "https://github.com/plantbreeding/BrAPI/tree/V2.0/Specification/BrAPI-Genotyping",
                 "apiaryURL": "https://brapigenotyping20.docs.apiary.io/#",
-                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Genotyping/2.0"
+                "swaggerhubURL": "https://app.swaggerhub.com/apis-docs/PlantBreedingAPI/BrAPI-Genotyping/2.0"
             },
             {
                 "name": "BrAPI-Germplasm",
                 "description": "The BrAPI-Germplasm module contains entities related to germplasm management. This includes Germplasm, Germplasm Attributes, Seed Lots, Crosses, Pedigree, and Progeny",
                 "githubURL": "https://github.com/plantbreeding/BrAPI/tree/V2.0/Specification/BrAPI-Germplasm",
                 "apiaryURL": "https://brapigermplasm20.docs.apiary.io/#",
-                "swaggerhubURL": "https://app.swaggerhub.com/apis/PlantBreedingAPI/BrAPI-Germplasm/2.0"
+                "swaggerhubURL": "https://app.swaggerhub.com/apis-docs/PlantBreedingAPI/BrAPI-Germplasm/2.0"
             }
         ]
     }]

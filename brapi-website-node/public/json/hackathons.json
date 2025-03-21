@@ -50,8 +50,17 @@
             {"name" : "Gaurav karwa", "org" : "Texas Tech University", "email" : "gkarwa@ttu.edu", "session1" : false, "session2" : true},
             {"name" : "Chaney Courtney", "org" : "PhenoApps", "email" : "chaneylc@gmail.com", "session1" : false, "session2" : true},
             {"name" : "Victor Jun Ulat", "org" : "CIMMYT", "email" : "v.ulat@cgiar.org", "session1" : false, "session2" : true},
-            {"name" : "Karen de la Rosa", "org" : "IRRI", "email" : "k.delarosa@cgiar.org", "session1" : false, "session2" : true}
-            
+            {"name" : "Karen de la Rosa", "org" : "IRRI", "email" : "k.delarosa@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Locedie Mansueto", "org" : "International Rice Research Institute; Southern Cross University", "email" : "l.mansueto.10@student.scu.edu.au", "session1" : false, "session2" : true},
+            {"name" : "Argem Flores", "org" : "IRRI", "email" : "a.flores@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Jared Elijah Muñoz", "org" : "IRRI", "email" : "J.E.Munoz@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Alaine Gulles", "org" : "IRRI", "email" : "a.gulles@cgiar.org", "session1" : true, "session2" : false},
+            {"name" : "Dinia Grace Gepte", "org" : "IRRI", "email" : "D.Gepte@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Dmytro Chebotarov", "org" : "IRRI", "email" : "d.chebotarov@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Marinell Quintana", "org" : "IRRI", "email" : "m.r.quintana@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Jahzeel Calosa", "org" : "IRRI", "email" : "jp.ramos@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Lord Hendrix Barboza", "org" : "IRRI", "email" : "l.h.barboza@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Jeffrey Detras", "org" : "International Rice Research Institute", "email" : "j.detras@cgiar.org", "session1" : false, "session2" : true}
         ],
         "projects": [ 
             {"team" : "Khaled Al-Shamaa", "title" : "QBMS", "description" : "QBMS - Shiny UI Widget: Develop a reusable component for R Markdown documents, Shiny web apps, and direct invocation from the RStudio console using a single function call. Also, revamp the core functionalities by using the \"httr2\" package in place of the deprecated \"httr\", and implement non-blocking code with the CRAN \"promises\" and \"future\" packages instead of the non-CRAN \"async\" package.", "needs" : null, "repo" : "https://github.com/icarda-git/QBMS/"},
@@ -59,15 +68,17 @@
             {"team" : "Guy Davenport", "title" : "Schema Tools", "description" : "Schema Tools", "needs" : null, "repo" : null},
             {"team" : "Moses Nderitu, DArTview web based version is inspired by the work done on divbrowse. I have some few questions for Patrick(IPK)", "title" : "DArTView", "description" : "DArTView for the web. Currently DArTView is desktop based , have been working to build a web application version for the same. I will continue with this work.", "needs" : null, "repo" : null},
             {"team" : "Ragavendiran Balasubramanian, Laurens Goormatigh (Project Lead), and Bhavik Mehta", "title" : "Artemis", "description" : "Artemis - A phenotyping data collection tool that seamlessly integrates with BrAPI to ensure data is collected and organized at scale. Building an innovative phenotyping app that leverages object detection models for trait extraction. BrAPI compatibility is one of our strategic objectives so that the app can integrate with existing workflows on BMS and EBS. The team has been studying the BrAPI standard, and we want to solve any technical BrAPI related problem we may face when developing our new app. ", "needs" : "Insights from BrAPI community on similar tools and products.", "repo" : null},
-            {"team" : "Tentative: Relevant EBS developers based at IRRI, Luis and others from Bioflow team, any other interested groups", "title" : "EBS -> Bioflow", "description" : "The project would be to work on passing genotypic and required sample data, etc. from the EBS to Bioflow", "needs" : null, "repo" : null},
+            {"team" : "Argem Flores, Dinia Grace Gepte, Marinell Quintana, Luis and others from Bioflow team, any other interested groups", "title" : "EBS -> Bioflow", "description" : "The project would be to work on passing genotypic and required sample data, etc. from the EBS to Bioflow", "needs" : null, "repo" : null},
             {"team" : "Mirella Flores, Not sure yet. It can be more than one group. It also depend who will be there.", "title" : "brapi.js and BrAPP maintenance", "description" : "I would like to participate with  the analytics and security and authentication groups. I also would like to review and give some maintenance to BRAPI js and BrAPPS. If possible to collaborate to build new BrAPPS (for the analytics if any).", "needs" : null, "repo" : "https://github.com/solgenomics/BrAPI-js"},
             {"team" : "Bryan Ellerbrock", "title" : "Field Book Enhancements", "description" : "This could easily change, but one area I'd like to work on is improving the UI and error handling for BrAPI exports in Field Book app.", "needs" : null, "repo" : "https://github.com/PhenoApps/Field-Book"},
             {"team" : "Benjamin Maza, I will be working with Breedbase", "title" : "High Dimensional Phenotypes", "description" : "I plan to work on implementing High Dimensional Phenotype data support in BrAPI and Breedbase.", "needs" : null, "repo" : null},
             {"team" : "James Clevenger, tbd", "title" : "AgPile", "description" : "integration project with AgPile", "needs" : null, "repo" : null},
             {"team" : "Jason Loux, Breeding Insight", "title" : "BrAPI Java Production Server", "description" : "General BrAPI server fixes, mostly production/optimization/at-load issues.", "needs" : null, "repo" : null},
-            {"team" : "Maria Relliza Pasang, EBS Team", "title" : "EBS -> Field Book", "description" : "EBS-Field Book Integration: Syncing Repeated Measures via BrAPI (tentative)", "needs" : "Needs consultation with Peter Selby and PhenoApps Team", "repo" : null},
+            {"team" : "Maria Relliza Pasang, Dinia Grace Gepte, Jahzeel Calosa", "title" : "EBS -> Field Book", "description" : "EBS-Field Book Integration: Syncing Repeated Measures via BrAPI (tentative)", "needs" : "Needs consultation with Peter Selby and PhenoApps Team", "repo" : null},
             {"team" : "David PIERRE", "title" : "Harnesstom Database BrAPPs", "description" : "Harnesstom Database, building new BrAPPS that can be shared with the community.", "needs" : null, "repo" : "Gateway.harnesstom.eu"},
-            {"team" : "EBS Team who will be attending BrAPI (final list pending)", "title" : "EBS", "description" : "EBS-Core Breeding BrAPI", "needs" : null, "repo" : null}
+            {"team" : "Lord Hendrix Barboza, EBS Team", "title" : "EBS", "description" : "EBS-Core Breeding BrAPI", "needs" : null, "repo" : null},
+            {"team" : "Locedie Mansueto", "title" : "EBS -> Germinate", "description" : "Integrate Germinate pre-breeding/genotyping dataset with EBS and Map viewers (Pretzel) using BrAPI", "needs" : "groups working with genotyping datasets, Germinate, Map Viewers", "repo" : null},
+            {"team" : "Jeffrey Detras, Lukas Mueller/Breedbase team, Our Taiwan collaborators (Daisy Liu) and her student, Dmytro Chebotarov (IRRI)", "title" : "Imagebreed and High-Throughput Phenotyping", "description" : "Our project handles high-throughput phenotype data using Imagebreed/Breedbase. We want to be able to know how to use BrAPI with Breedbase and possibly extend to use cases identified by the team. ", "needs" : null, "repo" : null}
          ],
         "notes": [
             {
