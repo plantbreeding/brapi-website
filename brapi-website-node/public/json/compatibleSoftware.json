@@ -1,5 +1,18 @@
 [
     {
+        "team": "Alliance of Bioversity & CIAT ",
+        "team-url": "https://alliancebioversityciat.org/",
+        "title": "The Crop Ontology",
+        "description": "Created in 2008 by the CGIAR, the Crop Ontology is an essential source of traits and variables to support the standardization of the breeding databases",
+        "image": "https://cropontology.org/cropontology_static/crop_ontology_logo_2.png",
+        "url": "https://cropontology.org/",
+        "source-url": "https://github.com/bioversity/Crop-Ontology",
+        "doc-url": "https://cropontology.org/api_help",
+        "demo-url": "https://cropontology.org/",
+        "email": "m.a.laporte@cgiar.org",
+        "date": "2025-04-02T19:43:29.597Z"
+    },
+    {
         "team": "VIB-UGENT",
         "team-url": "https://www.psb.ugent.be/",
         "title": "BrAPI2ISA",
