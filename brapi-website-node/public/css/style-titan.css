@@ -487,11 +487,11 @@ blockquote {
     height: 100%;
     width: 100%;
     margin: 0 auto;
+    top: 125px
 }
 
 .caption-content {
     display: table-cell;
-    vertical-align: middle;
     text-align: center;
 }
 

@@ -412,6 +412,13 @@ label.form-label {
     text-align: right;
 }
 
+.brapi-home-button {
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: #fff;
+    width: 310px;
+    margin-top: 20px;
+}
+
 @media (max-width: 767px) {
     .server-status {
         text-align: left;
