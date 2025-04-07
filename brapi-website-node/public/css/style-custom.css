@@ -31,6 +31,10 @@ li.active a.page{
     background-color: white;
 }
 
+.brapi-link {
+    text-decoration: none;
+}
+
 .brapi-btn-width {
     width: 225px;
     margin: 3px 0;
@@ -415,7 +419,7 @@ label.form-label {
 .brapi-home-button {
     --bs-btn-color: #fff;
     --bs-btn-border-color: #fff;
-    width: 310px;
+    width: 230px;
     margin-top: 20px;
 }
 

@@ -483,7 +483,9 @@ blockquote {
 
 .titan-caption {
     position: relative;
-    display: table;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100%;
     width: 100%;
     margin: 0 auto;
@@ -491,7 +493,6 @@ blockquote {
 }
 
 .caption-content {
-    display: table-cell;
     text-align: center;
 }
 

@@ -22,39 +22,14 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 order-1 col-md-6 order-md-2">
-          <div class="widget">
-            <p class="widget-title">Upcoming events</p>
-            <ul class="widget-posts" id="event-tags">
-              {{#if footerEvents.event1}}
-              <li class="clearfix">
-                  <a href="{{ footerEvents.event1.primary_link }}">
-                      <div class="widget-posts-image">
-                          <img src="{{ footerEvents.event1.image }}" alt="{{ footerEvents.event1.title }} Thumbnail" />
-                      </div>
-                      <div class="widget-posts-body">
-                          <div class="widget-posts-title">{{ footerEvents.event1.title }}</div>
-                          <div class="widget-posts-meta">{{ footerEvents.event1.location }} | {{ footerEvents.event1.date }}</div>
-                      </div>
-                  </a>
-              </li>
-              {{/if}}
-              {{#if footerEvents.event2}}
-              <li class="clearfix">
-                  <a href="{{ footerEvents.event2.primary_link }}">
-                      <div class="widget-posts-image">
-                          <img src="{{ footerEvents.event2.image }}" alt="{{ footerEvents.event2.title }} Thumbnail" />
-                      </div>
-                      <div class="widget-posts-body">
-                          <div class="widget-posts-title">{{ footerEvents.event2.title }}</div>
-                          <div class="widget-posts-meta">{{ footerEvents.event2.location }} | {{ footerEvents.event2.date }}</div>
-                      </div>
-                  </a>
-              </li>
-              {{/if}}
-            </ul>
+          <div class="col-12 order-1 col-md-6 order-md-2">
+              <div class="widget">
+                <p class="widget-title" style="">
+                  <a href="/events" class="brapi-link">Upcoming events</a>
+                </p>
+                {{>upcomingEvents}}
+              </div>
           </div>
-        </div>
       </div>
     </div>
   </div>
