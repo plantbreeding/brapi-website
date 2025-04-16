@@ -1,4 +1,4 @@
-<ul class="widget-posts" id="event-tags">
+<ul class="widget-posts" style="white-space: nowrap;" id="event-tags">
     {{#if footerEvents.event1}}
         <li class="clearfix">
             <a href="{{ footerEvents.event1.primary_link }}" class="brapi-link">
@@ -7,7 +7,8 @@
                 </div>
                 <div class="widget-posts-body">
                     <div class="widget-posts-title">{{ footerEvents.event1.title }}</div>
-                    <div class="widget-posts-meta">{{ footerEvents.event1.location }} | {{ footerEvents.event1.date }}</div>
+                    <div class="widget-posts-meta">{{ footerEvents.event1.location }}</div>
+                    <div class="widget-posts-meta">{{ footerEvents.event1.date }}</div>
                 </div>
             </a>
         </li>
@@ -20,7 +21,8 @@
                 </div>
                 <div class="widget-posts-body">
                     <div class="widget-posts-title">{{ footerEvents.event2.title }}</div>
-                    <div class="widget-posts-meta">{{ footerEvents.event2.location }} | {{ footerEvents.event2.date }}</div>
+                    <div class="widget-posts-meta">{{ footerEvents.event2.location }}</div>
+                    <div class="widget-posts-meta">{{ footerEvents.event1.date }}</div>
                 </div>
             </a>
         </li>
