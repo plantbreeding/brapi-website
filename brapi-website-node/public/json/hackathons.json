@@ -30,12 +30,12 @@
             {"name" : "Khaled Al-Shamaa", "org" : "ICARDA", "email" : "k.el-shamaa@cgiar.org", "session1" : false, "session2" : true},
             {"name" : "Fortune Ogo-ndah Awala ", "org" : "Ignatius Ajuru University of Education, Rivers State, Nigeria", "email" : "fortune.awala@iaue.edu.ng", "session1" : false, "session2" : true},
             {"name" : "Guy Davenport", "org" : "Daveneti / BASF", "email" : "guy@daveneti.com", "session1" : true, "session2" : false},
-            {"name" : "Moses Nderitu", "org" : "SEQART AFRICA", "email" : "m.nderitu@seqart.net", "session1" : false, "session2" : true},            
+            {"name" : "Moses Nderitu", "org" : "SEQART AFRICA", "email" : "m.nderitu@seqart.net", "session1" : false, "session2" : true},
             {"name" : "Ragavendiran Balasubramanian", "org" : "Alliance Bioversity and CIAT", "email" : "bgragavendiran@gmail.com", "session1" : false, "session2" : true},
-            {"name" : "Prasad Vithal Kamath", "org" : "Clemson University", "email" : "kamathprasad9@gmail.com", "session1" : true, "session2" : false},            
+            {"name" : "Prasad Vithal Kamath", "org" : "Clemson University", "email" : "kamathprasad9@gmail.com", "session1" : true, "session2" : false},
             {"name" : "Mirella Flores", "org" : "Independent", "email" : "mireflor100@gmail.com", "session1" : false, "session2" : true},
             {"name" : "Bryan Ellerbrock", "org" : "Clemson University", "email" : "bryane@clemson.edu", "session1" : false, "session2" : true},
-            {"name" : "Saptak Gupta", "org" : "indore institute of science and technology", "email" : "amwinhg@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Saptak Gupta", "org" : "indore institute of science and technology", "email" : "amwinhg@gmail.com", "session1" : true, "session2" : false},
             {"name" : "Laurens Goormachtigh", "org" : "Alliance of Bioversity International and CIAT", "email" : "l.goormachtigh@cgiar.org", "session1" : false, "session2" : true},
             {"name" : "Rishika Gupta", "org" : "CentraleSupelec", "email" : "rishikagupta1999@gmail.com", "session1" : false, "session2" : true},
             {"name" : "Lukas Mueller", "org" : "Boyce Thompson Institute", "email" : "lam87@cornell.edu", "session1" : false, "session2" : true},
@@ -44,10 +44,10 @@
             {"name" : "Jason Loux", "org" : "BrAPI", "email" : "jloux.brapi@gmail.com", "session1" : false, "session2" : true},
             {"name" : "Eugene Ma. D. Sumague", "org" : "International Rice Research Institute", "email" : "E.Sumague@cgiar.org", "session1" : false, "session2" : true},
             {"name" : "Maria Relliza Pasang", "org" : "IRRI, CIMMYT", "email" : "m.pasang@cgiar.org", "session1" : false, "session2" : true},
-            {"name" : "Heather Manching", "org" : "North Carolina State University; USDA-ARS", "email" : "hkmanchi@ncsu.edu", "session1" : false, "session2" : true},
+            {"name" : "Heather Manching", "org" : "North Carolina State University; USDA-ARS", "email" : "hkmanchi@ncsu.edu", "session1" : true, "session2" : false},
             {"name" : "Shawn Yarnes", "org" : "Breeding Insight, Cornell University ", "email" : "shawnyarnes@pm.me", "session1" : true, "session2" : false},
             {"name" : "David PIERRE", "org" : "Institut National Polytechnique de Toulouse (INPT)", "email" : "david.pierre@toulouse-inp.fr", "session1" : false, "session2" : true},
-            {"name" : "Gaurav karwa", "org" : "Texas Tech University", "email" : "gkarwa@ttu.edu", "session1" : false, "session2" : true},
+            {"name" : "Gaurav karwa", "org" : "Texas Tech University", "email" : "gkarwa@ttu.edu", "session1" : true, "session2" : false},
             {"name" : "Chaney Courtney", "org" : "PhenoApps", "email" : "chaneylc@gmail.com", "session1" : false, "session2" : true},
             {"name" : "Victor Jun Ulat", "org" : "CIMMYT", "email" : "v.ulat@cgiar.org", "session1" : false, "session2" : true},
             {"name" : "Karen de la Rosa", "org" : "IRRI", "email" : "k.delarosa@cgiar.org", "session1" : false, "session2" : true},
@@ -63,7 +63,11 @@
             {"name" : "Jeffrey Detras", "org" : "International Rice Research Institute", "email" : "j.detras@cgiar.org", "session1" : false, "session2" : true},
             {"name" : "Mark Andrei A. Condino ", "org" : "TECHNOLOGICAL INSTITUTE OF THE PHILIPPINES MANILA ", "email" : "markandreicondino@gmail.com", "session1" : true, "session2" : false},
             {"name" : "Muhammad Kazim Ali", "org" : "Hamdard University Karachi", "email" : "ali.kazimm@gmail.com", "session1" : false, "session2" : true},
-            {"name" : "Dr. Nsikak Akpakpan", "org" : "AgPile / CGIAR", "email" : "nakpakpan1@gmail.com", "session1" : false, "session2" : true}
+            {"name" : "Dr. Nsikak Akpakpan", "org" : "AgPile / CGIAR", "email" : "nakpakpan1@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Luka", "org" : "Student at the Faculty of Technical Sciences Novi Sad", "email" : "lukamaric718@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Confidence Mawuli Affang", "org" : "Wayne State College ", "email" : "confidenceaffang@gmail.com", "session1" : true, "session2" : false},
+            {"name" : "Sonit Sahoo", "org" : "N/A", "email" : "vracto@icloud.com", "session1" : true, "session2" : false},
+            {"name" : "Juan Manuel Ramirez Aldama", "org" : "CIMMYT", "email" : "j.ramirez@cimmyt.org", "session1" : false, "session2" : true}
         ],
         "projects": [ 
             {"team" : "Khaled Al-Shamaa", "title" : "QBMS", "description" : "QBMS - Shiny UI Widget: Develop a reusable component for R Markdown documents, Shiny web apps, and direct invocation from the RStudio console using a single function call. Also, revamp the core functionalities by using the \"httr2\" package in place of the deprecated \"httr\", and implement non-blocking code with the CRAN \"promises\" and \"future\" packages instead of the non-CRAN \"async\" package.", "needs" : null, "repo" : "https://github.com/icarda-git/QBMS/"},
@@ -81,7 +85,8 @@
             {"team" : "David PIERRE", "title" : "Harnesstom Database BrAPPs", "description" : "Harnesstom Database, building new BrAPPS that can be shared with the community.", "needs" : null, "repo" : "Gateway.harnesstom.eu"},
             {"team" : "Lord Hendrix Barboza, EBS Team", "title" : "EBS", "description" : "EBS-Core Breeding BrAPI", "needs" : null, "repo" : null},
             {"team" : "Locedie Mansueto", "title" : "EBS -> Germinate", "description" : "Integrate Germinate pre-breeding/genotyping dataset with EBS and Map viewers (Pretzel) using BrAPI", "needs" : "groups working with genotyping datasets, Germinate, Map Viewers", "repo" : null},
-            {"team" : "Jeffrey Detras, Lukas Mueller/Breedbase team, Our Taiwan collaborators (Daisy Liu) and her student, Dmytro Chebotarov (IRRI)", "title" : "Imagebreed and High-Throughput Phenotyping", "description" : "Our project handles high-throughput phenotype data using Imagebreed/Breedbase. We want to be able to know how to use BrAPI with Breedbase and possibly extend to use cases identified by the team. ", "needs" : null, "repo" : null}
+            {"team" : "Jeffrey Detras, Lukas Mueller/Breedbase team, Our Taiwan collaborators (Daisy Liu) and her student, Dmytro Chebotarov (IRRI)", "title" : "Imagebreed and High-Throughput Phenotyping", "description" : "Our project handles high-throughput phenotype data using Imagebreed/Breedbase. We want to be able to know how to use BrAPI with Breedbase and possibly extend to use cases identified by the team. ", "needs" : null, "repo" : null},
+            {"team" : "Sonit Sahoo, N/A", "title" : "Phenotype Predition", "description" : "Phenotype Prediction based on Prior Genotype Data", "needs" : null, "repo" : null}
          ],
         "notes": [
             {
