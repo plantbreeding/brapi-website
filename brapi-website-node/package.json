@@ -9,7 +9,7 @@
         "calendar-link": "^2.4.0",
         "cookie-parser": "~1.4.4",
         "debug": "~4.4.1",
-        "dotenv": "^8.2.0",
+        "dotenv": "^16.5.0",
         "express": "^5.1.0",
         "express-validator": "^7.2.1",
         "hbs": "^4.1.2",
