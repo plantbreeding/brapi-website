@@ -6,7 +6,7 @@
         "start": "node ./bin/www"
     },
     "dependencies": {
-        "calendar-link": "^2.4.0",
+        "calendar-link": "^2.10.0",
         "cookie-parser": "~1.4.4",
         "debug": "~4.4.1",
         "dotenv": "^16.5.0",
