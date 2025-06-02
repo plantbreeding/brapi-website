@@ -106,10 +106,10 @@
                 { "time": "09:00 - 09:10 PHT +08:00", "class": "agenda-bg-blue", "title": "Welcome to the BrAPI Hackathon at IRRI!", "lead": "Joy Gimena - IRRI's Head of IT" },
                 { "time": "09:10 - 09:30 PHT +08:00", "class": "agenda-bg-blue", "title": "Tech setup, setting expectations, general organizing"},
                 { "time": "09:30 - 11:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                { "time": "11:00 - 12:00 PHT +08:00", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
-                { "time": "12:00 - 13:00 PHT +08:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": "13:00 - 14:00 PHT +08:00", "class": "agenda-bg-blue", "title": "BrAPI Domain Model Review - Deep dive into the existing data model", "lead": "Peter Selby" },
+                { "time": "11:30 - 12:30 PHT +08:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": null },
+                { "time": "13:00 - 14:00 PHT +08:00", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
+                { "time": "14:00 - 15:00 PHT +08:00", "class": "agenda-bg-blue", "title": "BrAPI Domain Model Review - Deep dive into the existing data model", "lead": "Peter Selby" },
                 { "time": "15:00 - 15:30 PHT +08:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
                 { "time": "16:50 - 17:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
