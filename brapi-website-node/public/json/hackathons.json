@@ -93,9 +93,26 @@
          ],
         "notes": [
             {
-                "discussion": "Coming Soon",
-                "session1": "",
-                "session2": "",
+                "discussion": "Community Updates",
+                "session1": "https://youtu.be/DUr0wYV3Lhk",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "BrAPI 101",
+                "session1": "https://youtu.be/jrO5XFgEyIk",
+                "meetingNotes": "",
+                "slides": "https://brapi.org/docs/BrAPI_101.pptx"
+            },
+            {
+                "discussion": "BrAPI Production Server",
+                "session1": "https://youtu.be/eC26Wp-xm1Y",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "Spec Deep Dive",
+                "session1": "https://youtu.be/7zWZRfjKWOY",
                 "meetingNotes": "",
                 "slides": ""
             }
