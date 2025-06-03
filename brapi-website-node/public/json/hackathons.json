@@ -115,6 +115,24 @@
                 "session1": "https://youtu.be/7zWZRfjKWOY",
                 "meetingNotes": "",
                 "slides": ""
+            },
+            {
+                "discussion": "Authorization and Security",
+                "session1": "https://youtu.be/f-DBuVOMd80",
+                "meetingNotes": "",
+                "slides": "https://brapi.org/docs/Auth_Dicsussion-BrAPI_Los_Banos_Hackathon-June_2025.pptx"
+            },
+            {
+                "discussion": "Analysis",
+                "session1": "https://youtu.be/cFUOfkcqoI4",
+                "meetingNotes": "",
+                "slides": "https://brapi.org/docs/Bioflow_Analytics_Pipeline-2025_Hackathon.pptx"
+            },
+            {
+                "discussion": "Genebanks",
+                "session1": "https://youtu.be/Nl7bsTic1kc",
+                "meetingNotes": "",
+                "slides": "https://docs.google.com/presentation/d/1nGk-KRhVCPP-nuzaPGuAcnl9SDjo57w8By95Hec-6QU"
             }
         ],
         "agenda": [{
