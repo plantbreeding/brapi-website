@@ -108,7 +108,7 @@
                 "discussion": "BrAPI Production Server",
                 "session1": "https://youtu.be/eC26Wp-xm1Y",
                 "meetingNotes": "",
-                "slides": ""
+                "slides": "https://brapi.org/docs/Hackathon_2025-Prod_Server_Presentation.pptx"
             },
             {
                 "discussion": "Spec Deep Dive",
@@ -169,7 +169,7 @@
                 { "time": "09:00 - 09:10 PHT +08:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
                 { "time": null },
                 { "time": "10:00 - 11:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Genotypic Data Models - discuss the current models, use cases, and possible changes", "lead": "Kate Dreher" },
-                { "time": "11:00 - 12:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Time Series and Repeated Measures - discuss the current models, use cases, and possible changes", "lead": "TBD" },
+                { "time": "11:00 - 12:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Time Series and Repeated Measures - discuss the current models, use cases, and possible changes", "lead": "Lukas Mueller" },
                 { "time": "12:00 - 13:00 PHT +08:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": "13:00 - 14:00 PHT +08:00", "class": "agenda-bg-blue", "title": "AI/ML integration with BrAPI", "lead": "TBD"},
                 { "time": null },
@@ -185,7 +185,7 @@
                 { "time": "10:00 - 11:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Breeding Cycles vs Research Experiments - The needs of different types of BrAPI use cases" },
                 { "time": "11:00 - 12:00 PHT +08:00", "class": "agenda-bg-blue", "title": "TBD"},
                 { "time": "12:00 - 13:00 PHT +08:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": "13:00 - 15:30 PHT +08:00", "class": "agenda-bg-blue", "title": "Tour of IRRI Facility" },
+                { "time": "13:30 - 15:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Tour of IRRI Facility" },
                 { "time": null },
                 { "time": "16:50 - 17:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
             ]
