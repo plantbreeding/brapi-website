@@ -133,6 +133,24 @@
                 "session1": "https://youtu.be/Nl7bsTic1kc",
                 "meetingNotes": "",
                 "slides": "https://docs.google.com/presentation/d/1nGk-KRhVCPP-nuzaPGuAcnl9SDjo57w8By95Hec-6QU"
+            },
+            {
+                "discussion": "Genotypic Data Models",
+                "session1": "https://youtu.be/wJXl8J6IDI8",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "Time Series and Repeated Measures",
+                "session1": "https://youtu.be/SIVp5pXy7C8",
+                "meetingNotes": "",
+                "slides": "https://docs.google.com/presentation/d/1m_3_5q4MPzOWJ9Zw6lODur_3CoIrDR-s"
+            },
+            {
+                "discussion": "AI/ML Integration",
+                "session1": "https://youtu.be/shUY9e8mCBU",
+                "meetingNotes": "https://docs.google.com/document/d/1LdbILj1JxueFBd-iIxSM7Db7XBHRWnV7EIBkFB0y0Rs",
+                "slides": ""
             }
         ],
         "agenda": [{
