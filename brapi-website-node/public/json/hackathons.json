@@ -151,6 +151,12 @@
                 "session1": "https://youtu.be/shUY9e8mCBU",
                 "meetingNotes": "https://docs.google.com/document/d/1LdbILj1JxueFBd-iIxSM7Db7XBHRWnV7EIBkFB0y0Rs",
                 "slides": ""
+            },
+            {
+                "discussion": "Breeding Cycles vs. Research Experiments",
+                "session1": "",
+                "meetingNotes": "https://docs.google.com/document/d/1ZmynkfLNO6eknoebZq_ueQwBcc5ojbu7_8SUChcB2MM",
+                "slides": ""
             }
         ],
         "agenda": [{
@@ -193,7 +199,7 @@
                 { "time": null },
                 { "time": "15:00 - 15:30 PHT +08:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "16:15 - 16:30 PHT +08:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+                { "time": "16:50 - 17:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
             ]
         }, {
             "date": "Thursday, June 5, 2025",
@@ -205,7 +211,8 @@
                 { "time": "12:00 - 13:00 PHT +08:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": "13:30 - 15:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Tour of IRRI Facility" },
                 { "time": null },
-                { "time": "16:50 - 17:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+                { "time": "16:50 - 17:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": "17:00 - 19:00 PHT +08:00", "class": "agenda-bg-blue", "title": "Community Dinner - " }
             ]
         }, {
             "date": "Friday, June 6, 2025",
