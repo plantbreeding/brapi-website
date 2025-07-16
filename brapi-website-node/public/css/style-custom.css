@@ -4,23 +4,23 @@
     }
 }
 
-li:not(.active) a.page{
+li:not(.active) a.page {
     color: #6c757d;
     background-color: white;
     border-color: #6c757d;
 }
 
-li.active a.page{
+li.active a.page {
     color: white;
     background-color: #6c757d;
     border-color: white;
 }
 
-.pagination-right li:first-child{
-    margin-left:auto;
+.pagination-right li:first-child {
+    margin-left: auto;
 }
 
-.pagination-top{
+.pagination-top {
     margin-bottom: 0;
 }
 
@@ -384,11 +384,16 @@ p.justified {
     text-justify: inter-character;
 }
 
+.brapi-home-events {
+    padding: 12px 0 0 25px;
+}
+
 @media (max-width: 768px) {
-  /* Remove events from view on home */
-  .brapi-home-events {
-    display: none;
-  }
+
+    /* Remove events from view on home */
+    .brapi-home-events {
+        display: none;
+    }
 }
 
 pre {
@@ -427,6 +432,7 @@ label.form-label {
     --bs-btn-color: #fff;
     --bs-btn-border-color: #fff;
     width: 100%;
+    min-width: 280px;
     margin-top: 20px;
 }
 

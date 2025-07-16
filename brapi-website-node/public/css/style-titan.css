@@ -1138,6 +1138,7 @@ p a {
 .widget-posts-image {
     float: left;
     width: 64px;
+    margin: 6px 0;
 }
 
 .widget-posts-body {

@@ -5,15 +5,11 @@
         "date": "June 2-6, 2025",
         "image": "/images/events/los_banos_thumb.jpg",
         "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This event will be June 2-6, 2025, at IRRI headquarters, in Los Baños, Philippines. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.</p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [
             {
                 "name": "Event Page",
                 "url": "/events/hackathon?id=hackathon-jun-2025"
-            },
-            {
-                "name": "Register",
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSe10yZRgf1qU7rPocC4A6uJvnwWNQb9l2iSCldOtgX2hn2iNg/viewform?usp=sharing"
             },
             {
                 "name": "Travel Guide",
