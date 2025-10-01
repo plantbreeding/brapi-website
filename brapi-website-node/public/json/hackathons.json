@@ -1,4 +1,140 @@
 {   
+    "hackathon-nov-2025": {
+        "dates": "November 10-14, 2025",
+        "location": null,
+        "registrationOpen": true,
+        "registrationURL": "",
+        "feedbackURL": "",
+        "registrationHookText": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will be November 10-14, 2025. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
+        "overviewText": "<p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community. This weeklong event will reserve time for the members of the community to discuss the BrAPI specification, collaborate on projects, socialize and learn from each other. The hackathon is largely self-organizing project work time, with a few scheduled public discussion sessions addressing important community topics. The overall goal is to be as productive as possible in a small window of time, to explore ideas and start on collaborative projects that can be more formally developed after the event. </p> <p>One major take away from the past virtual hackathons was that attendees were feeling distracted by other work. If you can, try to reserve the whole week in your schedule so normal work does not intrude on the project work time. Of course, deadlines and emergencies happen, and BrAPI will not always be the top priority. This is just a reminder that you will get more out of the virtual hackathon experience if you can dedicate the time to focus on it. </p>",
+        "overviewImage": {
+            "URL": "#",
+            "path": "/images/events/two-computer-programmers-2.png",
+            "alt": "BrAPI Virtual Hackathon",
+            "caption": "",
+            "source": "AI Generated - freepik.com",
+            "sourceURL": "https://www.freepik.com/ai-images-editor"
+        },
+        "calendarInvite": {
+            "uid": "brapi-hackathon-nov-2025",
+            "title": "BrAPI Virtual Hackathon - November 2025",
+            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will be November 10-14, 2025. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon",
+            "url": "https://brapi.org/events/hackathon",
+            "location": "Virtual",
+            "start": "2025-11-10 08:00:00Z",
+            "end": "2025-11-14 21:00:00Z"
+        },
+        "attendees": [
+            {"name" : "Peter Selby", "org" : "BrAPI, Cornell University", "email" : "peter.selby@cornell.edu", "session1" : true, "session2" : true}
+        ],
+        "projects": [
+        ],
+        "notes": [
+        {
+            "discussion": "Welcome! Tech setup, setting expectations, general organizing",
+            "session1": "",
+            "session2": "",
+            "slides": ""
+        }, {
+            "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
+            "session1": "",
+            "session2": ""
+        }, {
+            "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
+            "session1": "",
+            "session2": "",
+            "slides": ""
+        }, {
+            "discussion": "Authentication Review - BrAPI and web security basics",
+            "session1": "",
+            "session2": "",
+            "slides": ""
+        },{
+            "discussion": "BrAPI Advisory Board Nominations",
+            "session1": "",
+            "slides": ""
+        },{
+            "discussion": "Project Sustainability",
+            "session1": "",
+            "slides": ""
+        },{
+            "discussion": "Project presentations and wrap up",
+            "session1": "",
+            "session2": ""
+        }],
+        "agenda": [{
+            "date": "Monday, October 14, 2024",
+            "schedule": [
+                { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
+                { "time": "08:00 - 08:30 UTC", "class": "agenda-bg-blue", "title": "Welcome! Tech setup, setting expectations, general organizing" },
+                { "time": "08:30 - 10:00 UTC", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "16:00 - 16:30 UTC", "class": "agenda-bg-pink", "title": "Welcome! Tech setup, setting expectations, general organizing" },
+                { "time": "16:30 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" }
+            ]
+
+        }, {
+            "date": "Tuesday, October 15, 2024",
+            "schedule": [
+                { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
+                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "TBD" }
+            ]
+
+        }, {
+            "date": "Wednesday, October 16, 2024",
+            "schedule": [
+                { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
+                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "TBD" }
+            ]
+
+        }, {
+            "date": "Thursday, October 17, 2024",
+            "schedule": [
+                { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
+                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "09:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "17:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "TBD" }
+
+            ]
+
+        }, {
+            "date": "Friday, October 18, 2024",
+            "schedule": [
+                { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
+                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
+                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
+                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
+                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Project presentations and wrap up" },
+                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "Project presentations and wrap up" }
+            ]
+
+        }]
+    },
     "hackathon-jun-2025": {
         "dates": "June 2-6, 2025",
         "location": "Los Baños, Philippines",

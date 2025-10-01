@@ -1,11 +1,25 @@
 [
     {
+        "title": "BrAPI Virtual Hackathon 2025",
+        "location": "Virtual",
+        "date": "November 10, 2025 - November 14, 2025",
+        "image": "/images/events/home_office_generated_2.png",
+        "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from November 10-14, 2025. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.</p>",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "Event Page",
+                "url": "/events/hackathon?id=hackathon-nov-2025"
+            }
+        ]
+    },
+    {
         "title": "19th International Symposium on Integrative Bioinformatics",
         "location": "Gatersleben, Germany",
         "date": "Sept 10-12, 2025",
         "image": "https://meetings.ipk-gatersleben.de/grc-ib2025/wp-content/uploads/2024/11/cropped-Logo_GRC_2025-Integrative-Bioinformatics_Signet.png",
         "description": "<p>Join us for the Gatersleben Research Conference Series, an annual gathering of leading minds in plant research and life sciences. This year, from September 10–12, 2025, we are excited to host the \"International Symposium on Integrative Bioinformatics\" at the Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) in Gatersleben. Read more about IPK!.</p><p>This esteemed symposium serves as a dynamic platform for bioinformaticians, computer scientists, life science researchers, and interdisciplinary professionals to explore the latest advancements and applications in integrative bioinformatics. Engage in thought-provoking discussions, share groundbreaking research, and network with international experts.</p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [
             {
                 "name": "Event Page",

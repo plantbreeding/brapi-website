@@ -44,6 +44,15 @@ router.get('/hackathon', function (req, res, next) {
     }
 });
 
+router.get('/ics', function (req, res, next) {
+    var cal_data = req.query.data;
+    cal_data = cal_data.replace(/.*,BEGIN/, 'BEGIN')
+    var buffer = Buffer.from(cal_data);
+    res.setHeader('Content-Disposition', 'attachment; filename="brapi_hackathon.ics"');
+    res.setHeader('Content-Type', 'text/calendar');
+    res.send(buffer);
+});
+
 var renderHackathonPage = function (hackathonData, eventID, res) {
     if (hackathonData[eventID]) {
         var attendees = hackathonData[eventID].attendees;
