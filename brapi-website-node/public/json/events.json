@@ -10,6 +10,10 @@
             {
                 "name": "Event Page",
                 "url": "/events/hackathon?id=hackathon-nov-2025"
+            },
+            {
+                "name": "Registration",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLScAopAyeidsneVIGHpFoOON9HAj9F0Jfzl4kwns1poLJ738lA/viewform"
             }
         ]
     },
