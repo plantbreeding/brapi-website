@@ -9,13 +9,27 @@ const Mailgun = require('mailgun.js');
 const mailgun = new Mailgun(formData);
 const mg = mailgun.client({ username: 'api', key: process.env.MAILGUN_API_KEY });
 
-const blacklistRegexArray = [
+const blacklistEmailRegexArray = [
     new RegExp('^.*\.ru$'),
+    new RegExp('^.*@(?:kza\.biglobe\.ne\.jp|szrpro\.com|nifty\.com|jkcl\.co\.uk|t-online\.de|ncn-t\.net|technifisc\.com|wingtra\.com|ricechains\.com|westnet\.com\.au)$'),
+    new RegExp('^.*@(?:priceresidential\.com|rfsmarketinggroup\.com|aepartsco\.com|cheeseboardcatering\.com|maplelawnfarms\.com|blackmer\.com|charter\.net)$'),
+    new RegExp('^.*@(?:rayengr\.com|gdgpro\.com|urbanbuggyusa\.com|terraproperties\.net|vertellus\.com|rayengr\.com|hursey\.com|mrtiffany\.com)$'),    
 ]
 
-function blacklistedEmail(email) {
-    for (let regex of blacklistRegexArray) {
+const blacklistNameRegexArray = [
+    new RegExp('^[A-Z]*[a-z]+[A-Z]+[a-z]+[A-Z]+[a-z]+[A-Z]+[^\s]*$'),
+    new RegExp('^.*\@.*\..*$'),
+]
+
+function blacklistedEmail(email, name) {
+    for (let regex of blacklistEmailRegexArray) {
         found = email.match(regex);
+        if (found) {
+            return true;
+        }
+    }
+    for (let regex of blacklistNameRegexArray) {
+        found = name.match(regex);
         if (found) {
             return true;
         }
@@ -27,13 +41,13 @@ async function verifyCaptcha(token, res) {
     const response = await fetch('https://www.google.com/recaptcha/api/siteverify?secret='+ process.env.CAPTCHA_SECRET + '&response=' + token,
         { method: 'POST', body: ''});
     const data = await response.json();
-    return data.success
+    return data.success && data.score > 0.6
 }
 
 router.post('/mailingListSubscribe', async function (req, res, next) {
     var verifyReq = await verifyCaptcha(req.body.captcha_token, res);
 
-    if ( verifyReq && !blacklistedEmail(req.body.email)) {
+    if ( verifyReq && !blacklistedEmail(req.body.email, req.body.name)) {
         const now = new Date(Date.now());
         var emailData = {
             from: 'BrAPI Mailing List <mail@mail.brapi.org>',
