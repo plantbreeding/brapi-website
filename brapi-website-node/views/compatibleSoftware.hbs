@@ -9,25 +9,44 @@
             <div class="row justify-content-center">
                 <div class="col-11 col-sm-8 col-lg-6" style="margin: 10px 0 20px 0; position: relative;">
                     <input class="search" style="width: 100%;" placeholder="Search for BrAPI Compatible Software">
-                    <span class="iconify custom-bullet-point" data-icon="mdi-magnify" style="vertical-align: top; line-height: 30px; position: absolute; right: 10px;"></span>
+                    <span class="mdi--magnify search-icon"></span>
                     <p id="list-size" style="margin: 0; font-size: small;">Showing X of Y</p>
                 </div>
             </div>
 
             <div class="row justify-content-between">
-                <div class="col-5" style="margin: 10px 0 0 0"> Sort By:
+                <div class="col-5" style="margin: 10px 0 0 0"> 
+                    <div class="col-12">
+                    <span>Sort By:</span>
                     <span class='sort btn btn-sm btn-outline-secondary col-3' data-sort='software-date'>Date
-                        <span class="sort-sym iconify" data-icon="mdi-sort-calendar-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
-                        <span class="sort-sym iconify" data-icon="mdi-sort-calendar-descending" style="line-height: 20px; font-size:20px; vertical-align: middle;"></span>
+                        <span class="sort-sym mdi--sort-calendar-ascending custom-bullet-point" style="display: none;"></span>
+                        <span class="sort-sym mdi--sort-calendar-descending custom-bullet-point"></span>
                     </span>
                     <span class='sort btn btn-sm btn-outline-secondary col-3' data-sort='software-title'>Name
-                        <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
-                        <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
+                        <span class="sort-sym mdi--sort-alphabetical-descending custom-bullet-point" style="display: none;"></span>
+                        <span class="sort-sym mdi--sort-alphabetical-ascending custom-bullet-point" style="display: none;"></span>
                     </span>
                     <span class='sort btn btn-sm btn-outline-secondary col-3' data-sort='software-team-sortable-name'>Team
-                        <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-descending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
-                        <span class="sort-sym iconify" data-icon="mdi-sort-alphabetical-ascending" style="line-height: 20px; font-size:20px; vertical-align: middle; display: none;"></span>
+                        <span class="sort-sym mdi--sort-alphabetical-descending custom-bullet-point" style="display: none;"></span>
+                        <span class="sort-sym mdi--sort-alphabetical-ascending custom-bullet-point" style="display: none;"></span>
                     </span>
+                    </div>
+
+                    <div class="col-12 badge-holder">
+                        <span>Tags:</span>
+                        
+                        <div class="filter-show-all badge" style="background-color: #777;">
+                            <div class="mdi--check-bold custom-bullet-point" style="margin: 0;"></div>
+                            <div class="badge-text">Show All</div>
+                        </div>
+                        {{#each allBadges }}
+                        <div class="filter-{{@key}} badge" style="background-color: {{ badge-color }};">
+                            <div class="{{ badge-icon-class }} custom-bullet-point" style="margin: 0;"></div>
+                            <div class="badge-text">{{ badge-text }}</div>
+                        </div>
+                        {{/each}}
+                    </div>
+
                 </div>
 
                 <div class="col-5" style="margin: 10px 0 0 0">
@@ -55,6 +74,17 @@
                                 <p>From <a href="{{ team-url }}" class="software-team"> {{ team }} </a> </p>
                                 <span class="software-team-sortable-name" style="display: none;">{{teamSortableName}}</span>
                                 <p>{{{ description }}}</p>
+                                <div class="row justify-content-center" style="margin-top: 5px">
+                                    <div class="col-12 badge-holder">
+                                        {{#each badgeDetails }}
+                                        <div class="badge" style="background-color: {{ badge-color }};">
+                                            <div class="{{ badge-icon-class }} custom-bullet-point" style="margin: 0;"></div>
+                                            <div class="badge-text">{{ badge-text }}</div>
+                                            <div class="badge-id-{{@key}}" style="display: none;">{{@key}}</div>
+                                        </div>
+                                        {{/each}}
+                                    </div>
+                                </div>
                                 <div class="brapp-links row">
                                     {{#if demo-url}}
                                     <div class="col-12 col-sm-6 col-md-4" style="padding: 1px;">
@@ -88,11 +118,21 @@
         </div>
     </div>
 </section>
+
+<input id="allBadgesStr" type="hidden" name="utrc" value = "{{allBadgesStr}}" >
 <script type="text/plain" cookie-consent="strictly-necessary">
 
     $(document).ready(function () {
-        var options = {
-            valueNames: [ 'software-title', 'software-team', 'software-date', 'software-team-sortable-name' ],
+
+        badgeList= JSON.parse($('#allBadgesStr').val());
+        searchColumnsArr = [ 'software-title', 'software-team' ]
+        for (badgeId of Object.keys(badgeList)){
+            searchColumnsArr.push("badge-id-" + badgeId)
+        }
+
+        options = {
+            valueNames: [ 'software-title', 'software-team', 'software-date', 'software-team-sortable-name' ].concat(searchColumnsArr),
+            searchColumns: searchColumnsArr,
             page: 10,
             pagination: [{
                 paginationClass: "pagination-top",

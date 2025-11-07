@@ -10,7 +10,8 @@
         "doc-url": "https://cropontology.org/api_help",
         "demo-url": "https://cropontology.org/",
         "email": "m.a.laporte@cgiar.org",
-        "date": "2025-04-02T19:43:29.597Z"
+        "date": "2025-04-02T19:43:29.597Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "VIB-UGENT",
@@ -23,7 +24,8 @@
         "doc-url": "https://github.com/elixir-europe/plant-brapi-to-isa/blob/master/README.md",
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:59:16.016Z"
+        "date": "2024-07-22T19:59:16.016Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "CIRAD",
@@ -36,7 +38,8 @@
         "doc-url": "https://github.com/jframi/snpclust/blob/master/Readme.md",
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:56:01.143Z"
+        "date": "2024-07-22T19:56:01.143Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "CIRAD",
@@ -49,7 +52,8 @@
         "doc-url": "https://integratedbreedingplatform.github.io/ShinyBrAPPs/",
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:52:26.545Z"
+        "date": "2024-07-22T19:52:26.545Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "Sugarcane Integrated Breeding System",
@@ -62,7 +66,8 @@
         "doc-url": "",
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:45:44.344Z"
+        "date": "2024-07-22T19:45:44.344Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "Robbins Lab, Cornell University",
@@ -75,7 +80,8 @@
         "doc-url": "",
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:43:10.146Z"
+        "date": "2024-07-22T19:43:10.146Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "Alliance Bioversity - CIAT",
@@ -88,7 +94,8 @@
         "doc-url": "",
         "demo-url": "https://www.crop-diversity.org/mgis/",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:38:58.016Z"
+        "date": "2024-07-22T19:38:58.016Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "CIRAD",
@@ -101,7 +108,8 @@
         "doc-url": "https://gitlab.cirad.fr/florilege/florilege_documentation",
         "demo-url": "https://florilege.arcad-project.org/collections",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:31:16.884Z"
+        "date": "2024-07-22T19:31:16.884Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Bioinformatics and Information Technology (BIT) ",
@@ -114,7 +122,8 @@
         "doc-url": "",
         "demo-url": "https://agent.ipk-gatersleben.de/apex/agent/r/agent/home",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:23:16.811Z"
+        "date": "2024-07-22T19:23:16.811Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "Buckler Lab, Cornell University",
@@ -127,7 +136,8 @@
         "doc-url": "https://github.com/maize-genetics/phg_v2/blob/main/README.md",
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:17:26.762Z"
+        "date": "2024-07-22T19:17:26.762Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "Diversity Arrays Technology",
@@ -140,7 +150,8 @@
         "doc-url": "https://www.kddart.org/help/kdxplore/html/KDXplore-DartView-overview.html",
         "demo-url": "https://software.kddart.com/kdxplore/dartview/",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:12:17.383Z"
+        "date": "2024-07-22T19:12:17.383Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "Alliance Bioversity - CIAT",
@@ -153,7 +164,8 @@
         "doc-url": "https://github.com/solgenomics/BrAPI-Trait-selector/blob/main/README.md",
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T19:02:31.426Z"
+        "date": "2024-07-22T19:02:31.426Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "VIB-UGENT",
@@ -166,7 +178,8 @@
         "doc-url": "https://pippa.psb.ugent.be/static/brapippa/swagger/dist/index.html",
         "demo-url": "https://pippa.psb.ugent.be/",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T18:56:12.432Z"
+        "date": "2024-07-22T18:56:12.432Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "Robbins Lab, Cornell University",
@@ -179,7 +192,8 @@
         "doc-url": "https://nickmorales.github.io/imagebreed/",
         "demo-url": "https://imagebreed.org/",
         "email": "peter.selby@cornell.edu",
-        "date": "2024-07-22T18:42:18.049Z"
+        "date": "2024-07-22T18:42:18.049Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "Alliance Bioversity - CIAT",
@@ -192,7 +206,8 @@
         "doc-url": "https://climmob.net/blog/wiki/",
         "demo-url": "https://climmob.net/climmob3/login",
         "email": "k.desousa@cgiar.org",
-        "date": "2024-07-17T00:23:35.572Z"
+        "date": "2024-07-17T00:23:35.572Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "The Triticeae Toolbox",
@@ -205,7 +220,8 @@
         "doc-url": "https://github.com/TriticeaeToolbox/BrAPI-germplasm-search/blob/master/README.md",
         "demo-url": "https://synonyms.triticeaetoolbox.org",
         "email": "djw64@cornell.edu",
-        "date": "2023-11-14T19:02:04.932Z"
+        "date": "2023-11-14T19:02:04.932Z",
+        "badges": ["service", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
     },
     {
         "team": "Crop Adaptation Lab",

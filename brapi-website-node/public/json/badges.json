@@ -1,0 +1,76 @@
+{
+    "server-badges": {
+        "auth-open": {
+            "badge-text": "No Auth",
+            "badge-icon-class": "mdi--lock-open-variant",
+            "badge-color": "#00748C"
+        },
+        "auth-required": {
+            "badge-text": "Auth Required",
+            "badge-icon-class": "mdi--lock",
+            "badge-color": "#00288c"
+        },
+        "data-prod": {
+            "badge-text": "Real Data",
+            "badge-icon-class": "mdi--database-check",
+            "badge-color": "#8c7000"
+        },
+        "data-demo": {
+            "badge-text": "Demo Data",
+            "badge-icon-class": "mdi--database-remove",
+            "badge-color": "#8c4d00"
+        },
+        "brapi-v1": {
+            "badge-text": "BrAPI V1",
+            "badge-icon-class": "mdi--numeric-1-circle",
+            "badge-color": "#006633"
+        },
+        "brapi-v2": {
+            "badge-text": "BrAPI V2",
+            "badge-icon-class": "mdi--numeric-2-circle",
+            "badge-color": "#446100"
+        }
+    },
+    "software-badges": {
+        "brapi-v1": {
+            "badge-text": "BrAPI V1",
+            "badge-icon-class": "mdi--numeric-1-circle",
+            "badge-color": "#006633"
+        },
+        "brapi-v2": {
+            "badge-text": "BrAPI V2",
+            "badge-icon-class": "mdi--numeric-2-circle",
+            "badge-color": "#446100"
+        },
+        "service": {
+            "badge-text": "Service",
+            "badge-icon-class": "mdi--database-check",
+            "badge-color": "#00748C"
+        },
+        "tool": {
+            "badge-text": "Tool",
+            "badge-icon-class": "mdi--database-check",
+            "badge-color": "#00288c"
+        },
+        "database": {
+            "badge-text": "Database",
+            "badge-icon-class": "mdi--database-check",
+            "badge-color": "#00bb8c"
+        },
+        "phenotyping": {
+            "badge-text": "Phenotyping",
+            "badge-icon-class": "mdi--leaf",
+            "badge-color": "#8c7000"
+        },
+        "genotyping": {
+            "badge-text": "Genotyping",
+            "badge-icon-class": "mdi--leaf",
+            "badge-color": "#8c4d00"
+        },
+        "germplasm": {
+            "badge-text": "Germplasm",
+            "badge-icon-class": "mdi--leaf",
+            "badge-color": "#8cbb00"
+        }
+    }
+}

@@ -363,14 +363,25 @@ p.agenda-row {
 }
 
 .custom-bullet-point {
-    font-size: 30px;
-    margin: 0 10px 0 0;
-    line-height: 50px;
+    margin: 0 0.7em 0 0;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: text-top;
 }
 
-.custom-bullet-point+span {
-    vertical-align: top;
-    line-height: 50px;
+.header-icon {
+    margin: 0 0 0 0;
+    width: 2em;
+    height: 2em;
+    vertical-align: text-top;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    margin: 0.4em 0.7em 0 0;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .callout-btn-box {

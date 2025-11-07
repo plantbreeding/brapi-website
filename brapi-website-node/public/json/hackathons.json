@@ -21,7 +21,7 @@
             "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will be November 10-14, 2025. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon",
             "url": "https://brapi.org/events/hackathon",
             "location": "Virtual",
-            "start": "2025-11-10 08:00:00Z",
+            "start": "2025-11-10 13:00:00Z",
             "end": "2025-11-14 21:00:00Z"
         },
         "attendees": [
@@ -63,74 +63,54 @@
             "session2": ""
         }],
         "agenda": [{
-            "date": "Monday, October 14, 2024",
+            "date": "Monday, November 10, 2025",
             "schedule": [
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
-                { "time": "08:00 - 08:30 UTC", "class": "agenda-bg-blue", "title": "Welcome! Tech setup, setting expectations, general organizing" },
-                { "time": "08:30 - 10:00 UTC", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
-                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
-                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
-                { "time": "16:00 - 16:30 UTC", "class": "agenda-bg-pink", "title": "Welcome! Tech setup, setting expectations, general organizing" },
-                { "time": "16:30 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" }
+                { "time": "14:00 - 14:30 UTC", "class": "agenda-bg-blue", "title": "Welcome! Tech setup, setting expectations, general organizing" },
+                { "time": "14:30 - 16:00 UTC", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" }
             ]
 
         }, {
-            "date": "Tuesday, October 15, 2024",
+            "date": "Tuesday, November 11, 2025",
             "schedule": [
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
-                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
-                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
-                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
-                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
-                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "TBD" }
+                { "time": "14:00 - 15:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "15:00 - 16:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" }
             ]
 
         }, {
-            "date": "Wednesday, October 16, 2024",
+            "date": "Wednesday, November 12, 2025",
             "schedule": [
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
-                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
-                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
-                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
-                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
-                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "TBD" }
+                { "time": "14:00 - 15:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "15:00 - 16:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" }
             ]
 
         }, {
-            "date": "Thursday, October 17, 2024",
+            "date": "Thursday, November 13, 2025",
             "schedule": [
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
-                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "09:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
-                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
-                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "17:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "TBD" }
+                { "time": "14:00 - 15:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "15:00 - 16:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" }
 
             ]
 
         }, {
-            "date": "Friday, October 18, 2024",
+            "date": "Friday,  November 14, 2025",
             "schedule": [
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
-                { "time": "08:00 - 09:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "09:00 - 10:00 UTC", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
-                { "time": "10:00 - 11:00 UTC", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
-                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" },
-                { "time": "Session #2", "class": "agenda-bg-pink", "title": " " },
-                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-pink", "title": "TBD" },
-                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-pink", "title": "Project presentations and wrap up" },
-                { "time": "18:00 - 19:00 UTC", "class": "agenda-bg-pink", "title": "Project presentations and wrap up" }
+                { "time": "14:00 - 15:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "15:00 - 16:00 UTC", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
+                { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
+                { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" }
             ]
 
         }]

@@ -86,16 +86,26 @@ router.get('/brapps', function (req, res, next) {
 });
 
 router.get('/compatibleSoftware', function (req, res, next) {
-    var software = require('../public/json/compatibleSoftware.json');
+    var softwareList = require('../public/json/compatibleSoftware.json');
+    var badges = require('../public/json/badges.json')['software-badges'];
     const regThe = /^[tT]he /
-    for(package of software){
-        package.teamSortableName = package.team.replace(regThe, '');
+    for (software of softwareList) {
+        software.teamSortableName = software.team.replace(regThe, '');
+        var badgesMap = {};
+        if (software.badges) {
+            for (badgeKey of software.badges) {
+                badgesMap[badgeKey] = badges[badgeKey];
+            }
+        }
+        software.badgeDetails = badgesMap;
     }
 
     res.render('compatibleSoftware', {
         title: 'Compatible Software',
         footerEvents: require('./events').getTrailerEvents(),
-        software: software
+        software: softwareList,
+        allBadges: badges,
+        allBadgesStr: JSON.stringify(badges)
     });
 });
 
