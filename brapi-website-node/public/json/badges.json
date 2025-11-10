@@ -44,18 +44,23 @@
         },
         "service": {
             "badge-text": "Service",
-            "badge-icon-class": "mdi--database-check",
+            "badge-icon-class": "mdi--tooltip-check",
             "badge-color": "#00748C"
         },
         "tool": {
             "badge-text": "Tool",
-            "badge-icon-class": "mdi--database-check",
+            "badge-icon-class": "mdi--hammer-wrench",
             "badge-color": "#00288c"
         },
         "database": {
             "badge-text": "Database",
             "badge-icon-class": "mdi--database-check",
             "badge-color": "#00bb8c"
+        },
+        "code-lib": {
+            "badge-text": "Code Library",
+            "badge-icon-class": "mdi--animation",
+            "badge-color": "#22bbaa"
         },
         "phenotyping": {
             "badge-text": "Phenotyping",
@@ -64,12 +69,12 @@
         },
         "genotyping": {
             "badge-text": "Genotyping",
-            "badge-icon-class": "mdi--leaf",
+            "badge-icon-class": "mdi--dna",
             "badge-color": "#8c4d00"
         },
         "germplasm": {
             "badge-text": "Germplasm",
-            "badge-icon-class": "mdi--leaf",
+            "badge-icon-class": "mdi--family-tree",
             "badge-color": "#8cbb00"
         }
     }

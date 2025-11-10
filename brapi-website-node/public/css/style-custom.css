@@ -245,8 +245,13 @@ h2 {
 }
 
 .badge {
-    border-radius: .5rem;
-    background-color: #00748C;
+    border-radius: .7rem;
+    border: white 4px solid;
+    margin: 0 -2px;
+}
+
+.badge-selected {
+    border-color: black;
 }
 
 .badge-icon {

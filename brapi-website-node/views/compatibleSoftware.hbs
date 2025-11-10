@@ -15,8 +15,8 @@
             </div>
 
             <div class="row justify-content-between">
-                <div class="col-5" style="margin: 10px 0 0 0"> 
-                    <div class="col-12">
+                <div class="col-6" style="margin: 10px 0 0 0"> 
+                    <div class="col-9">
                     <span>Sort By:</span>
                     <span class='sort btn btn-sm btn-outline-secondary col-3' data-sort='software-date'>Date
                         <span class="sort-sym mdi--sort-calendar-ascending custom-bullet-point" style="display: none;"></span>
@@ -35,7 +35,7 @@
                     <div class="col-12 badge-holder">
                         <span>Tags:</span>
                         
-                        <div class="filter-show-all badge" style="background-color: #777;">
+                        <div class="filter-show-all badge badge-selected" style="background-color: #777;">
                             <div class="mdi--check-bold custom-bullet-point" style="margin: 0;"></div>
                             <div class="badge-text">Show All</div>
                         </div>
@@ -124,15 +124,15 @@
 
     $(document).ready(function () {
 
-        badgeList= JSON.parse($('#allBadgesStr').val());
-        searchColumnsArr = [ 'software-title', 'software-team' ]
+        var badgeList= JSON.parse($('#allBadgesStr').val());
+        var badgeIds = [];
         for (badgeId of Object.keys(badgeList)){
-            searchColumnsArr.push("badge-id-" + badgeId)
+            badgeIds.push("badge-id-" + badgeId)
         }
 
         options = {
-            valueNames: [ 'software-title', 'software-team', 'software-date', 'software-team-sortable-name' ].concat(searchColumnsArr),
-            searchColumns: searchColumnsArr,
+            valueNames: [ 'software-title', 'software-team', 'software-date', 'software-team-sortable-name' ].concat(badgeIds),
+            searchColumns: [ 'software-title', 'software-team' ].concat(badgeIds),
             page: 10,
             pagination: [{
                 paginationClass: "pagination-top",
@@ -152,7 +152,7 @@
         });
 
 
-        const toggleSortSymbol = function(event){
+        $('.sort').on('click', function(event){
             var selectedChild;
             for(var child of $(event.currentTarget.children)){
                 if($(child).css('display') === 'none'){
@@ -161,8 +161,28 @@
             }
             $('.sort-sym').hide()
             $(selectedChild).show()
-        }
-        $('.sort').on('click', toggleSortSymbol);
+        });
+
+
+        $("[class^=filter]").each(function( index ) {
+            var filterId = $( this ).attr('class').replace(/.*filter-([^ ]+) .*/, "$1");
+            $( this ).on('click', function() {
+                if (filterId === "show-all"){
+                    softwareList.filter()
+                }
+                else {
+                    softwareList.filter(function(item) {
+                        return item.values()["badge-id-" + filterId];
+                    });
+                }
+
+                $("[class^=filter]").each(function( jndex ) {
+                    $(this).removeClass("badge-selected");
+                });
+                $(this).addClass("badge-selected");
+            });
+        });
+
     });
 
 </script>
