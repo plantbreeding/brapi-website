@@ -88,7 +88,7 @@
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
                 { "time": "15:00 - 16:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI4PSI - BrAPI Integration on PSI Hardware", "lead":"Manuel Feser" },
                 { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI Auth: Role-based access control (RBAC), OAuth, etc", "lead":"Katherine Eaton" },
-                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-blue", "title": "Field Book overview and BrAPI updates", "lead": "Chaney Courtney" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" }
             ]
 
