@@ -86,7 +86,7 @@
             "date": "Wednesday, November 12, 2025",
             "schedule": [
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
-                { "time": "15:00 - 16:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "15:00 - 16:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI Integration on PSI Hardware", "lead":"Manuel Feser" },
                 { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
                 { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" }
