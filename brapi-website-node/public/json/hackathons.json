@@ -31,31 +31,27 @@
         ],
         "notes": [
         {
-            "discussion": "Welcome! Tech setup, setting expectations, general organizing",
-            "session1": "",
-            "slides": ""
-        }, {
             "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
-            "session1": ""
+            "session1": "https://youtu.be/NyTrzLeaLRA"
         }, {
             "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
-            "session1": "",
+            "session1": "https://youtu.be/90QA17H54E4",
             "slides": "https://brapi.org/docs/BrAPI_101.pptx"
         }, {
             "discussion": "BrAPI4PSI - BrAPI Integration on PSI Hardware",
-            "session1": "",
+            "session1": "https://youtu.be/XeVvrKJrjQo",
             "slides": ""
         }, {
             "discussion": "BrAPI Auth: Role-based access control (RBAC), OAuth, etc",
-            "session1": "",
+            "session1": "https://youtu.be/Ixnk1ln87ww",
             "slides": "https://brapi.org/docs/Auth_Dicsussion-BrAPI_Los_Banos_Hackathon-June_2025.pptx"
         }, {
             "discussion": "Field Book overview and BrAPI updates",
-            "session1": ""
+            "session1": "https://youtu.be/aQBzW2p2nRk"
         }, {
             "discussion": "BrAPI and AI/ML",
-            "session1": "",
-            "notes": "https://docs.google.com/document/d/1LdbILj1JxueFBd-iIxSM7Db7XBHRWnV7EIBkFB0y0Rs"
+            "session1": "https://youtu.be/LMvKCZwLNs8",
+            "meetingNotes": "https://docs.google.com/document/d/1LdbILj1JxueFBd-iIxSM7Db7XBHRWnV7EIBkFB0y0Rs"
         }, {
             "discussion": "Project presentations and wrap up",
             "session1": ""
