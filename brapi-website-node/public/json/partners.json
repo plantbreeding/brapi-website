@@ -1,5 +1,10 @@
 [
     {
+        "name": "PSI",
+        "url": "https://psi.cz/",
+        "img": "psi-logo.jpg"
+    },
+    {
         "name": "BASF",
         "url": "https://www.basf.com/",
         "img": "BASF_logo.png"

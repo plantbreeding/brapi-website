@@ -33,34 +33,32 @@
         {
             "discussion": "Welcome! Tech setup, setting expectations, general organizing",
             "session1": "",
-            "session2": "",
             "slides": ""
         }, {
             "discussion": "Community Updates - Application demos and presentations from the BrAPI community",
-            "session1": "",
-            "session2": ""
+            "session1": ""
         }, {
             "discussion": "BrAPI 101 - Introduction class for people who are new to BrAPI",
             "session1": "",
-            "session2": "",
+            "slides": "https://brapi.org/docs/BrAPI_101.pptx"
+        }, {
+            "discussion": "BrAPI4PSI - BrAPI Integration on PSI Hardware",
+            "session1": "",
             "slides": ""
         }, {
-            "discussion": "Authentication Review - BrAPI and web security basics",
+            "discussion": "BrAPI Auth: Role-based access control (RBAC), OAuth, etc",
             "session1": "",
-            "session2": "",
-            "slides": ""
-        },{
-            "discussion": "BrAPI Advisory Board Nominations",
+            "slides": "https://brapi.org/docs/Auth_Dicsussion-BrAPI_Los_Banos_Hackathon-June_2025.pptx"
+        }, {
+            "discussion": "Field Book overview and BrAPI updates",
+            "session1": ""
+        }, {
+            "discussion": "BrAPI and AI/ML",
             "session1": "",
-            "slides": ""
-        },{
-            "discussion": "Project Sustainability",
-            "session1": "",
-            "slides": ""
-        },{
+            "notes": "https://docs.google.com/document/d/1LdbILj1JxueFBd-iIxSM7Db7XBHRWnV7EIBkFB0y0Rs"
+        }, {
             "discussion": "Project presentations and wrap up",
-            "session1": "",
-            "session2": ""
+            "session1": ""
         }],
         "agenda": [{
             "date": "Monday, November 10, 2025",
@@ -96,7 +94,7 @@
             "date": "Thursday, November 13, 2025",
             "schedule": [
                 { "time": "Session #1", "class": "agenda-bg-blue", "title": " " },
-                { "time": "15:00 - 16:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI and AI" },
+                { "time": "15:00 - 16:00 UTC", "class": "agenda-bg-blue", "title": "BrAPI and AI/ML" },
                 { "time": "16:00 - 17:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
                 { "time": "17:00 - 18:00 UTC", "class": "agenda-bg-blue", "title": "TBD" },
                 { "time": null, "class": "agenda-bg-green", "title": "Collaborative project work time" }
