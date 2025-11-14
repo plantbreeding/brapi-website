@@ -40,7 +40,7 @@
         }, {
             "discussion": "BrAPI4PSI - BrAPI Integration on PSI Hardware",
             "session1": "https://youtu.be/XeVvrKJrjQo",
-            "slides": ""
+            "slides": "https://docs.google.com/presentation/d/16iUmU51Jua7pvSAp6by915fEdMK7mYtekSfN9H0o880"
         }, {
             "discussion": "BrAPI Auth: Role-based access control (RBAC), OAuth, etc",
             "session1": "https://youtu.be/Ixnk1ln87ww",
@@ -54,7 +54,7 @@
             "meetingNotes": "https://docs.google.com/document/d/1LdbILj1JxueFBd-iIxSM7Db7XBHRWnV7EIBkFB0y0Rs"
         }, {
             "discussion": "Project presentations and wrap up",
-            "session1": ""
+            "session1": "https://youtu.be/pIM6aIqGThk"
         }],
         "agenda": [{
             "date": "Monday, November 10, 2025",
