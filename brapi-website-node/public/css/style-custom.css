@@ -338,10 +338,6 @@ p.agenda-row {
     padding: 0
 }
 
-.no-pad {
-    padding: 0;
-}
-
 .news-post-header {
     margin: 15px 0 0 0;
 }
@@ -456,4 +452,13 @@ label.form-label {
     .server-status {
         text-align: left;
     }
+}
+
+.branding-color-box {
+    width: 100px; 
+    height: 100px; 
+    color: white; 
+    font-weight: bold; 
+    padding: 2px 6px;
+    border: black solid 3px;
 }

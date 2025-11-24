@@ -173,4 +173,11 @@ router.get('/sabbaticals', function (req, res, next) {
     });
 });
 
+router.get('/branding', function (req, res, next) {
+    res.render('branding', {
+        title: 'BrAPI Branding',
+        footerEvents: require('./events').getTrailerEvents(),
+    });
+});
+
 module.exports = router;

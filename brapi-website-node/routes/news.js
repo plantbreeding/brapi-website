@@ -51,7 +51,7 @@ function buildSEOArticleJSON(post) {
             "@type": "BlogPosting",
             "headline": post.title,
             "image": [
-                "https://brapi.org/images/brapi-clover-alpha-700x394.png"
+                "https://brapi.org/images/logos/brapi-clover-alpha-700x394.png"
             ],
             "datePublished": post.ISO8601,
             "author": [{

@@ -1,11 +1,29 @@
 [
     {
+        "title": "BrAPI Workshop At PAG33",
+        "location": "San Diego, USA",
+        "date": "16:00 - 18:10, Saturday, Jan 11, 2025",
+        "image": "/images/events/san-diego_thumb.jpg",
+        "description": "<p>Join us in San Diego at PAG33 for a BrAPI community workshop. There will be six BrAPI community speakers presenting on various BrAPI projects. </p><p>Can't make it on Saturday? Don't worry, BrAPI representatives will be wandering around the convention center all week. Reach out to <a href=\"mailto:brapicoordinatorselby@gmail.com\" style=\"text-decoration: underline;\">a BrAPI Coordinator</a> to arrange a one on one meet up during PAG.</p>",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "PAG Website",
+                "url": "http://www.intlpag.org/PAG33/"
+            },
+            {
+                "name": "Workshop Agenda",
+                "url": "https://plan.core-apps.com/pag33/event/1aa5e65ded9481b513800bcf7139e14f"
+            }
+        ]
+    },
+    {
         "title": "BrAPI Virtual Hackathon 2025",
         "location": "Virtual",
         "date": "November 10, 2025 - November 14, 2025",
         "image": "/images/events/home_office_generated_2.png",
         "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This virtual event will run from November 10-14, 2025. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.</p>",
-        "upcoming": true,
+        "upcoming": false,
         "links": [
             {
                 "name": "Event Page",

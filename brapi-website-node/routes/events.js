@@ -121,7 +121,7 @@ var buildEventSchema = function (data) {
             },
             "image": [
                 "https://brapi.org/images/events/home_office_generated_8.png",
-                "https://brapi.org/images/brapi-clover-alpha-700x394.png"
+                "https://brapi.org/images/logos/brapi-clover-alpha-700x394.png"
             ],
             "organizer": {
                 "@type": "Organization",

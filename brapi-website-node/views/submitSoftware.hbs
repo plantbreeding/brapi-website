@@ -50,7 +50,7 @@
                         <div class="brapp-thumbnail col-12 col-md-4 justify-content-center" style="display: flex;">
                             <a class="software-url" href="https://example.org/software" target="_blank">
                                 <span style="vertical-align: middle; display: inline-flex;height: 100%;"></span>
-                                <img class="software-image" src="/images/brapi-clover-alpha-700x394.png" alt="Example Software" style="max-width:98%">
+                                <img class="software-image" src="/images/logos/brapi-clover-alpha-700x394.png" alt="Example Software" style="max-width:98%">
                                 <span style="vertical-align: middle; display: inline-flex;height: 100%;"></span>
                             </a>
                         </div>
@@ -118,7 +118,7 @@
             description = description.replaceAll('\r', '').replaceAll('\n', '<br>');
             $('.software-desc').html(description);
 
-            var image = $("#softwareImageURLInput").val() ? $("#softwareImageURLInput").val() : '/images/brapi-clover-alpha-700x394.png';
+            var image = $("#softwareImageURLInput").val() ? $("#softwareImageURLInput").val() : '/images/logos/brapi-clover-alpha-700x394.png';
             $('.software-image').attr('src', image);
             
             var url = $("#softwareURLInput").val() ? $("#softwareURLInput").val() : 'https://example.org/software';
