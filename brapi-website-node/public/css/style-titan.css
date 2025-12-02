@@ -371,6 +371,14 @@ a,
 .btn-outline-success {
     --bs-btn-color: #000;
     --bs-btn-border-color: #000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--bs-success);
+    --bs-btn-hover-border-color: var(--bs-success);
+}
+
+:root {
+    --bs-green: #006000;
+    --bs-success: #006000;
 }
 
 /*--------------------------------------------------------------
