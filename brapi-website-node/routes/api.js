@@ -91,7 +91,7 @@ router.post('/mailingListSubscribe', async function (req, res, next) {
 });
 
 router.post('/mailingListUnsubscribe', function (req, res, next) {
-    if (!blacklistedEmail(req.body.email)) {
+    if (!blacklistedEmail(req.body.email, '')) {
         const now = new Date(Date.now());
         var emailData = {
             from: 'BrAPI  Mailing List <mail@mail.brapi.org>',
@@ -126,7 +126,7 @@ router.post('/mailingListUnsubscribe', function (req, res, next) {
 });
 
 router.post('/newServerSubmit', function (req, res, next) {
-    if (!blacklistedEmail(req.body.email)) {
+    if (!blacklistedEmail(req.body.email, '')) {
         var newServerStr = "";
 
         if (req.body.existingOrg == "true") {
@@ -172,7 +172,7 @@ router.post('/newServerSubmit', function (req, res, next) {
 });
 
 router.post('/newSoftwareSubmit', function (req, res, next) {
-    if (!blacklistedEmail(req.body.email)) {
+    if (!blacklistedEmail(req.body.email, '')) {
         const now = new Date(Date.now());
         var newServer = req.body;
         newServer.date = now.toISOString();
