@@ -1,4 +1,121 @@
 {   
+    "hackathon-may-2026": {
+        "dates": "May 11-15, 2026",
+        "location": "Cali, Columbia",
+        "timezone": "COT",
+        "registrationOpen": true,
+        "registrationURL": "https://docs.google.com/forms/d/e/1FAIpQLSeFDo2C9qXgIvT4ROl_ya7GH-WTL9xtytru3VaicA2vYAPoTQ/viewform",
+        "travelGuideURL": "",
+        "feedbackURL": "",
+        "registrationHookText": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This event will be May 11-15, 2026 in Cali, Columbia. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.",
+        "overviewText": "<p>The BrAPI Community Hackathon is an event focused on bringing together the BrAPI community. This weeklong event will reserve time for the members of the community to discuss the BrAPI specification, collaborate on projects, socialize and learn from each other. The hackathon is largely self-organizing project work time, with a few scheduled public discussion sessions addressing important community topics. The overall goal is to be as productive as possible in a small window of time, to explore ideas and start on collaborative projects that can be more formally developed after the event. </p>",
+        "additionalText": "<h3>Registration</h4> <p class=\"news-post-paragraph\"> Registration for this event is required for ALL attendees. If you are even considering attending, please register as soon as possible. Last minute cancellations are much preferred over last minute additions. This helps the organizers get an accurate attendees count for the event as early as possible.  </p><p class=\"news-post-paragraph\"> <strong> Question: </strong> Should I still register if I plan on attending remotely? <br> Yes! One of the options on the registration form is used to indicate whether or not you will be participating in-person. Remote attendees still need to register so we can contact you about the hackathon, know what projects or teams you are working on, and know which discussion topics you are most interested in. </p><p class=\"news-post-paragraph\"> <strong> Question: </strong> What if I don't know yet if I will be attending in-person or remotely? <br> If you don't know yet if you will be in-person, there is an option in the registration form for exactly that scenario. If you register with the \"I Don't Know Yet\" option selected, an organizer will follow-up with you later to confirm. Event organizers can also work with you directly to help resolve any issues that might be keeping you from attending in-person. </p> <br><h3>Travel Grants</h4> <p class=\"news-post-paragraph\"> There are a small number of travel grants available to help those who would not be able to travel otherwise. Again, as part of the registration form, there is an option to request \"travel support\". As soon as you register with a request for travel support, an event organizer will contact you directly and help you through the necessary steps to apply for a travel grant.  </p><p class=\"news-post-paragraph\"> <strong> Question: </strong> Who can apply for a travel grant? <br> Anyone in the BrAPI community can apply for a travel grant. There is a tentative restriction on multiple people from the same organization being awarded travel money. This is to try to even spread the money to as many organizations as possible, and can be overridden if there is a good reason. </p>",
+        "overviewImage": {
+            "URL": "https://alliancebioversityciat.org/",
+            "path": "/images/events/cali_colombia.jpg",
+            "alt": "BrAPI Hackathon - Cali, Colombia",
+            "caption": "Parque Nacional Natural Farallones de Cali",
+            "source": "© Hotel Park 85",
+            "sourceURL": "https://www.park85.com/wp-content/uploads/2024/06/farallones-hotel-park-85-1024x512.jpg"
+        },
+        "calendarInvite": {
+            "title": "BrAPI Hackathon - Cali, Colombia",
+            "description": "Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This event will be May 11-15, 2026 in Cali, Colombia. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information. \n\nEvent Details: https://brapi.org/events/hackathon",
+            "location": "Cali, Colombia",
+            "start": "2026-05-11 08:00:00Z",
+            "end": "2026-05-15 21:00:00Z"
+        },
+        "attendees": [
+        ],
+        "projects": [ 
+         ],
+        "notes": [
+            {
+                "discussion": "Community Updates",
+                "session1": "",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "BrAPI 101",
+                "session1": "",
+                "meetingNotes": "",
+                "slides": "https://brapi.org/docs/BrAPI_101.pptx"
+            },
+            {
+                "discussion": "Project presentations and wrap up",
+                "session1": "https://youtu.be/QAPBNehYMS4",
+                "meetingNotes": "",
+                "slides": ""
+            }
+        ],
+        "agenda": [{
+            "date": "Monday, May 11, 2026",
+            "schedule": [
+                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Welcome to the BrAPI Hackathon at Cali!" },
+                { "time": "09:10 - 09:30 COT -05:00", "class": "agenda-bg-blue", "title": "Tech setup, setting expectations, general organizing"},
+                { "time": "09:30 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                { "time": "11:30 - 12:30 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": null },
+                { "time": "13:00 - 14:00 COT -05:00", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
+                { "time": "14:00 - 15:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "15:00 - 15:30 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null },
+                { "time": "16:50 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+            ]
+        }, {
+            "date": "Tuesday, May 12, 2026",
+            "schedule": [
+                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
+                { "time": null },
+                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "13:00 - 14:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null },
+                { "time": "15:00 - 15:30 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null },
+                { "time": "16:50 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+            ]
+        }, {
+            "date": "Wednesday, May 13, 2026",
+            "schedule": [
+                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
+                { "time": null },
+                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "13:00 - 14:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null },
+                { "time": "15:00 - 15:30 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null },
+                { "time": "16:50 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+            ]
+        }, {
+            "date": "Thursday, May 14, 2026",
+            "schedule": [
+                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
+                { "time": null },
+                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD"},
+                { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "13:30 - 15:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": null },
+                { "time": "15:30 - 16:00 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
+                { "time": null },
+                { "time": "16:50 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": "17:00 - 19:00 COT -05:00", "class": "agenda-bg-blue", "title": "Community Dinner - " }
+            ]
+        }, {
+            "date": "Friday, May 15, 2026",
+            "schedule": [
+                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
+                { "time": null },
+                { "time": "10:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
+                { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" }
+            ]
+        }]
+    },
     "hackathon-nov-2025": {
         "dates": "November 10-14, 2025",
         "location": null,

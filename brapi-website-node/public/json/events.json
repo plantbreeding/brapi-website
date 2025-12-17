@@ -18,6 +18,28 @@
         ]
     },
     {
+        "title": "Cali Hackathon 2026",
+        "location": "Cali, Colombia",
+        "date": "May 11-15, 2026",
+        "image": "/images/events/cali_colombia_thumb.png",
+        "description": "<p>Join the BrAPI community for a week of fun as we hack code together and discuss the future of BrAPI. This event will be May 11-15, 2026 in Cali, Colombia. Everyone in the BrAPI community is welcome! Please register to receive meeting invitations and other important information.</p>",
+        "upcoming": true,
+        "links": [
+            {
+                "name": "Event Page",
+                "url": "/events/hackathon?id=hackathon-may-2026"
+            },
+            {
+                "name": "Registration",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSeFDo2C9qXgIvT4ROl_ya7GH-WTL9xtytru3VaicA2vYAPoTQ/viewform"
+            },
+            {
+                "name": "Travel Guide",
+                "url": ""
+            }
+        ]
+    },
+    {
         "title": "BrAPI Virtual Hackathon 2025",
         "location": "Virtual",
         "date": "November 10, 2025 - November 14, 2025",
