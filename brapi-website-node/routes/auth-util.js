@@ -65,6 +65,19 @@ const getKey = (jwksUri) => (header, callback) => {
 };
 
 async function verifyToken(token, discoveryUri, options) {
+  if ('roles' in options) {
+    if (!Array.isArray(options.roles)) {
+      options.roles = [options.roles];
+    }
+    const decoded = jwt.decode(token, { complete: true });
+    const tokenRoles = decoded.payload.realm_access ? decoded.payload.realm_access.roles : [];
+    tokenRoles.push(...(decoded.payload.resource_access && decoded.payload.resource_access[options.resource] ? decoded.payload.resource_access[options.resource].roles : []));
+    const hasRoles = options.roles.every(role => tokenRoles.includes(role));
+    if (!hasRoles) {
+      return Promise.reject(new Error('Token does not have required roles'));
+    }
+  }
+
   const jwksUri = await fetchJwksUri(discoveryUri);
   return util.promisify(jwt.verify)(token, getKey(jwksUri), options || {});
 };

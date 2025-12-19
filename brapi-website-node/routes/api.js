@@ -212,7 +212,7 @@ router.post('/announcement', function (req, res, next) {
 
     if (token) {
         token = token.replace('Bearer ', '')
-        authUtils.verifyToken(token, discoveryUri, { audience: 'brapi-org-admin' })
+        authUtils.verifyToken(token, discoveryUri, {audience: 'account', roles: 'brapi-org-admin', resource: 'brapi-org-admin'})
             .then(() => {
 
                 const now = new Date(Date.now());
