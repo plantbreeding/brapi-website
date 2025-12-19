@@ -26,7 +26,7 @@ router.get('/login', function (req, res, next) {
 router.get('/redirect', async function (req, res, next) {
     var token = await authUtils.verifyTokenResponse(OAuthClient, req, redirectUri);
     if (token) {
-        authUtils.verifyToken(token.access_token, discoveryUri, {audience: ['account', 'brapi-org-admin']})
+        authUtils.verifyToken(token.access_token, discoveryUri, {audience: 'brapi-org-admin'})
         .then(() => {
             res.cookie('access_token', token.access_token, {maxAge: 2 * 3600000, secure: true, path:'/admin'});
             res.redirect('/admin');
@@ -42,7 +42,7 @@ router.get('/redirect', async function (req, res, next) {
 
 async function renderAdmin(res, token) {
     if (token) {
-        authUtils.verifyToken(token, discoveryUri, {audience: ['account', 'brapi-org-admin']})
+        authUtils.verifyToken(token, discoveryUri, { audience: 'brapi-org-admin' })
         .then(() => {
             res.render('admin', {
                 title: 'Admin',
