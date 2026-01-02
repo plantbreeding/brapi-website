@@ -11,7 +11,12 @@
         "demo-url": "https://cropontology.org/",
         "email": "m.a.laporte@cgiar.org",
         "date": "2025-04-02T19:43:29.597Z",
-        "badges": ["service", "phenotyping", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "service",
+            "phenotyping",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "team": "VIB-UGENT",
@@ -25,7 +30,12 @@
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:59:16.016Z",
-        "badges": ["tool", "phenotyping", "germplasm", "brapi-v1" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "germplasm",
+            "brapi-v1"
+        ]
     },
     {
         "team": "CIRAD",
@@ -39,7 +49,11 @@
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:56:01.143Z",
-        "badges": ["tool", "genotyping", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "genotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "CIRAD",
@@ -53,7 +67,13 @@
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:52:26.545Z",
-        "badges": ["tool", "phenotyping", "genotyping", "germplasm", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Sugarcane Integrated Breeding System",
@@ -67,7 +87,11 @@
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:45:44.344Z",
-        "badges": ["tool","germplasm", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Robbins Lab, Cornell University",
@@ -81,7 +105,12 @@
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:43:10.146Z",
-        "badges": ["service", "phenotyping", "genotyping", "brapi-v2" ]
+        "badges": [
+            "service",
+            "phenotyping",
+            "genotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Alliance Bioversity - CIAT",
@@ -95,7 +124,12 @@
         "demo-url": "https://www.crop-diversity.org/mgis/",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:38:58.016Z",
-        "badges": ["database", "germplasm", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "database",
+            "germplasm",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "team": "CIRAD",
@@ -109,7 +143,12 @@
         "demo-url": "https://florilege.arcad-project.org/collections",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:31:16.884Z",
-        "badges": ["database", "phenotyping", "germplasm", "brapi-v2" ]
+        "badges": [
+            "database",
+            "phenotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Bioinformatics and Information Technology (BIT) ",
@@ -123,7 +162,11 @@
         "demo-url": "https://agent.ipk-gatersleben.de/apex/agent/r/agent/home",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:23:16.811Z",
-        "badges": ["service", "germplasm", "brapi-v2" ]
+        "badges": [
+            "service",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Buckler Lab, Cornell University",
@@ -137,7 +180,12 @@
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:17:26.762Z",
-        "badges": ["service", "database", "genotyping", "brapi-v2" ]
+        "badges": [
+            "service",
+            "database",
+            "genotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Diversity Arrays Technology",
@@ -151,7 +199,11 @@
         "demo-url": "https://software.kddart.com/kdxplore/dartview/",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:12:17.383Z",
-        "badges": ["tool", "genotyping", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "genotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Alliance Bioversity - CIAT",
@@ -165,7 +217,11 @@
         "demo-url": "",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T19:02:31.426Z",
-        "badges": ["tool", "phenotyping", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "VIB-UGENT",
@@ -179,7 +235,12 @@
         "demo-url": "https://pippa.psb.ugent.be/",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T18:56:12.432Z",
-        "badges": ["service", "database", "phenotyping", "brapi-v2" ]
+        "badges": [
+            "service",
+            "database",
+            "phenotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Robbins Lab, Cornell University",
@@ -193,7 +254,12 @@
         "demo-url": "https://imagebreed.org/",
         "email": "peter.selby@cornell.edu",
         "date": "2024-07-22T18:42:18.049Z",
-        "badges": ["service", "database", "phenotyping", "brapi-v2" ]
+        "badges": [
+            "service",
+            "database",
+            "phenotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Alliance Bioversity - CIAT",
@@ -207,7 +273,11 @@
         "demo-url": "https://climmob.net/climmob3/login",
         "email": "k.desousa@cgiar.org",
         "date": "2024-07-17T00:23:35.572Z",
-        "badges": ["service", "phenotyping", "brapi-v2" ]
+        "badges": [
+            "service",
+            "phenotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "The Triticeae Toolbox",
@@ -221,7 +291,11 @@
         "demo-url": "https://synonyms.triticeaetoolbox.org",
         "email": "djw64@cornell.edu",
         "date": "2023-11-14T19:02:04.932Z",
-        "badges": ["tool", "germplasm", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Crop Adaptation Lab",
@@ -235,7 +309,11 @@
         "demo-url": "",
         "email": "alex.kena24@gmail.com",
         "date": "2023-10-29T08:17:40.155Z",
-        "badges": ["tool", "phenotyping", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "The Alliance Bioversity - CIAT (bioinformatics team)",
@@ -249,7 +327,15 @@
         "demo-url": "",
         "email": "v.guignon@cgiar.org",
         "date": "2023-10-27T10:20:48.496Z",
-        "badges": ["code-lib", "tool", "database", "phenotyping", "genotyping", "germplasm", "brapi-v2" ]
+        "badges": [
+            "code-lib",
+            "tool",
+            "database",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Bioinformatics and Information Technology (BIT)",
@@ -263,7 +349,11 @@
         "demo-url": "https://divbrowse.ipk-gatersleben.de/shape/",
         "email": "koenig@ipk-gatersleben.de",
         "date": "2023-10-27T10:20:08.478Z",
-        "badges": ["tool", "genotyping", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "genotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Bioinformatics and Information Technology (BIT)",
@@ -277,7 +367,11 @@
         "demo-url": "",
         "email": "feser@ipk-gatersleben.de",
         "date": "2023-10-24",
-        "badges": ["tool", "phenotyping", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "CIRAD, IRD and Alliance Bioversity CIAT",
@@ -290,7 +384,11 @@
         "doc-url": "https://southgreen.fr/content/gigwa",
         "demo-url": "https://gigwa.southgreen.fr/gigwa/",
         "date": "2023-05-18",
-        "badges": ["database", "genotyping", "brapi-v2" ]
+        "badges": [
+            "database",
+            "genotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Breeding Insight, Cornell University",
@@ -303,7 +401,13 @@
         "doc-url": "https://breedinginsight.atlassian.net/wiki/spaces/LH/pages/1680179235/DeltaBreed",
         "demo-url": "https://sandbox.breedinginsight.net/",
         "date": "2023-04-26",
-        "badges": ["database", "phenotyping", "genotyping", "germplasm", "brapi-v2" ]
+        "badges": [
+            "database",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "The James Hutton Institute (JHI)",
@@ -316,7 +420,11 @@
         "doc-url": "https://github.com/cardinalb/helium-docs",
         "demo-url": "https://helium.hutton.ac.uk",
         "date": "2023-02-13",
-        "badges": ["tool", "germplasm", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "The James Hutton Institute (JHI)",
@@ -329,7 +437,12 @@
         "doc-url": "https://cropgeeks.github.io/gridscore-next-client",
         "demo-url": "https://gridscore.hutton.ac.uk",
         "date": "2023-09-25",
-        "badges": ["service", "tool", "phenotyping", "brapi-v2" ]
+        "badges": [
+            "service",
+            "tool",
+            "phenotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "OpenSILEX",
@@ -342,7 +455,12 @@
         "doc-url": "https://github.com/OpenSILEX/opensilex/blob/master/opensilex-doc/src/main/resources/index.md",
         "demo-url": "http://opensilex.org/sandbox/app/",
         "date": "2023-01-09",
-        "badges": ["database", "phenotyping", "germplasm", "brapi-v2" ]
+        "badges": [
+            "database",
+            "phenotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "The James Hutton Institute (JHI)",
@@ -355,7 +473,12 @@
         "doc-url": "https://flapjack.hutton.ac.uk/en/latest/",
         "demo-url": "",
         "date": "2022-12-14",
-        "badges": ["tool", "genotyping", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "genotyping",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Diversity Arrays Technology",
@@ -368,7 +491,12 @@
         "doc-url": "https://github.com/plantbreeding/sample-orchestrator-test-client",
         "demo-url": "",
         "date": "2022-12-14",
-        "badges": ["service", "genotyping", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "service",
+            "genotyping",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Cornell University - BRC",
@@ -381,7 +509,12 @@
         "doc-url": "https://github.com/plantbreeding/sample-orchestrator-test-client",
         "demo-url": "",
         "date": "2022-12-14",
-        "badges": ["service", "genotyping", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "service",
+            "genotyping",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "team": "The James Hutton Institute (JHI)",
@@ -394,7 +527,13 @@
         "doc-url": "https://germinateplatform.github.io/germinate-training/",
         "demo-url": "https://ics.hutton.ac.uk/germinate-demo/#/home",
         "date": "2022-12-14",
-        "badges": ["database", "phenotyping", "genotyping", "germplasm", "brapi-v2" ]
+        "badges": [
+            "database",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Main Lab Bioinformatics at WSU",
@@ -407,7 +546,12 @@
         "doc-url": "https://www.breedwithbims.org/bims_brapi",
         "demo-url": "",
         "date": "2022-12-14",
-        "badges": ["database", "phenotyping", "germplasm", "brapi-v2" ]
+        "badges": [
+            "database",
+            "phenotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "ICARDA",
@@ -420,7 +564,12 @@
         "doc-url": "https://icarda.github.io/QBMS/reference/index.html",
         "demo-url": "",
         "date": "2022-12-14",
-        "badges": ["code-lib", "phenotyping", "genotyping", "brapi-v2" ]
+        "badges": [
+            "code-lib",
+            "phenotyping",
+            "genotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Phenospex",
@@ -433,7 +582,11 @@
         "doc-url": "https://phenospex.com/blog/brapi-automate-the-data-transfer-into-your-workflow/",
         "demo-url": "",
         "date": "2022-12-14",
-        "badges": ["database", "phenotyping", "brapi-v2" ]
+        "badges": [
+            "database",
+            "phenotyping",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Forest Biotech Lab",
@@ -446,7 +599,13 @@
         "doc-url": "https://github.com/forestbiotech-lab/PHENO#readme",
         "demo-url": "",
         "date": "2022-12-14",
-        "badges": ["code-lib", "phenotyping", "genotyping", "germplasm", "brapi-v1" ]
+        "badges": [
+            "code-lib",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v1"
+        ]
     },
     {
         "team": "The James Hutton Institute (JHI)",
@@ -459,7 +618,14 @@
         "doc-url": "",
         "demo-url": "",
         "date": "2022-12-14",
-        "badges": ["code-lib", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "code-lib",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "team": "AgMIP",
@@ -472,7 +638,11 @@
         "doc-url": "https://github.com/cct-datascience/ardn-terra-ref/blob/master/README.md",
         "demo-url": "",
         "date": "2022-12-14",
-        "badges": ["service", "phenotyping", "brapi-v2" ]
+        "badges": [
+            "service",
+            "phenotyping",
+            "brapi-v2"
+        ]
     },
     {
         "title": "GRIN-Global",
@@ -483,7 +653,12 @@
         "url": "https://www.grin-global.org/",
         "source-url": "https://gitlab.com/GRIN-Global/GRIN-Global-server/-/tree/master",
         "date": "2022-12-14",
-        "badges": ["service", "database", "germplasm", "brapi-v2" ]
+        "badges": [
+            "service",
+            "database",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "title": "FAIDARE",
@@ -495,7 +670,13 @@
         "source-url": "https://github.com/elixir-europe/plant-brapi-etl-faidare",
         "doc-url": "https://urgi.versailles.inrae.fr/faidare/join",
         "date": "2022-12-14",
-        "badges": ["service", "phenotyping", "genotyping", "germplasm", "brapi-v2" ]
+        "badges": [
+            "service",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "title": "GLIS DOI Registration Service",
@@ -506,7 +687,11 @@
         "url": "https://ssl.fao.org/glis/site/doiindex",
         "demo-url": "https://glistest.planttreaty.org/glisapi/v1/calls",
         "date": "2022-12-14",
-        "badges": ["service", "germplasm", "brapi-v2" ]
+        "badges": [
+            "service",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "title": "Field Book",
@@ -517,7 +702,12 @@
         "url": "https://play.google.com/store/apps/details?id=com.fieldbook.tracker",
         "source-url": "https://github.com/PhenoApps/Field-Book",
         "date": "2022-12-14",
-        "badges": ["tool", "phenotyping", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "title": "Breeding Management System (BMS)",
@@ -529,7 +719,14 @@
         "source-url": "https://github.com/IntegratedBreedingPlatform/BMSAPI",
         "doc-url": "https://bmspro.io/1742/how-to",
         "date": "2021-02-04",
-        "badges": ["database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "database",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "title": "Breedbase",
@@ -542,7 +739,14 @@
         "demo-url": "https://breedbase.org/",
         "doc-url": "https://github.com/solgenomics/sgn/wiki",
         "date": "2020-09-10",
-        "badges": ["database", "phenotyping", "genotyping", "germplasm", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "database",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "image": "/images/apps/MrBean_thumb.png",
@@ -555,7 +759,12 @@
         "team-url": "https://alliancebioversityciat.org/",
         "description": "Mr.Bean is an easy to use R-Shiny web-app that simplifies the analysis of large-scale plant breeding experimental analysis by using the power and versatility of Linear Mixed Models (LMM).",
         "date": "2021-12-06",
-        "badges": ["tool", "phenotyping", "genotyping", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "genotyping",
+            "brapi-v2"
+        ]
     },
     {
         "image": "/images/apps/brapi-sync-thumb.png",
@@ -567,7 +776,13 @@
         "team-url": "https://www.integratedbreeding.net/",
         "description": "Built by the IBP Team, this tool allows for the automated transfer of data between BrAPI compliant systems. ",
         "date": "2021-10-19",
-        "badges": ["tool", "phenotyping", "genotyping", "germplasm", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "image": "/images/apps/flapjack-bytes-thumb.png",
@@ -580,7 +795,11 @@
         "team-url": "https://ics.hutton.ac.uk/",
         "description": "Flapjack-Bytes is a graphical genotype visualization library. The visualization is modelled on the pre-existing Java desktop application Flapjack. ",
         "date": "2020-08-04",
-        "badges": ["tool", "genotyping", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "genotyping",
+            "brapi-v2"
+        ]
     },
     {
         "image": "/images/apps/fieldmap-thumb.png",
@@ -593,7 +812,11 @@
         "team-url": "https://www.integratedbreeding.net/",
         "description": "Built by the IBP Team, this is a fully BrAPI compliant tool for editing field spatial layout using GeoJson information.",
         "date": "2021-10-19",
-        "badges": ["tool", "phenotyping", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "brapi-v2"
+        ]
     },
     {
         "image": "/images/apps/graphical-filtering-thumb.png",
@@ -606,7 +829,12 @@
         "team-url": "https://breedbase.org/",
         "description": "Built by BreedBase, this is a fully BrAPI compliant tool for graphically building complex search and filter queries of Observational Data. ",
         "date": "2020-08-04",
-        "badges": ["tool", "phenotyping", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "image": "/images/apps/variable-ontology-widget-thumb.png",
@@ -619,7 +847,11 @@
         "team-url": "https://urgi.versailles.inra.fr/",
         "description": "Built by URGI - INRA, this is a JavaScript widget displaying all the observation variables of a BrAPI endpoint. ",
         "date": "2020-08-04",
-        "badges": ["tool", "phenotyping", "brapi-v1" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "brapi-v1"
+        ]
     },
     {
         "image": "/images/apps/trial-comp-thumb.png",
@@ -632,7 +864,11 @@
         "team-url": "https://breedbase.org/",
         "description": "Built by BreedBase, this is a fully BrAPI compliant tool for comparing the performance of germplasm across studies. ",
         "date": "2020-08-04",
-        "badges": ["tool", "phenotyping", "brapi-v1" ]
+        "badges": [
+            "tool",
+            "phenotyping",
+            "brapi-v1"
+        ]
     },
     {
         "image": "/images/apps/pedigree-thumb.png",
@@ -645,7 +881,12 @@
         "team-url": "https://breedbase.org/",
         "description": "Built by BreedBase, this is a fully BrAPI compliant tool for viewing and exploring germplasm pedigrees. ",
         "date": "2020-08-04",
-        "badges": ["tool", "germplasm", "brapi-v1", "brapi-v2" ]
+        "badges": [
+            "tool",
+            "germplasm",
+            "brapi-v1",
+            "brapi-v2"
+        ]
     },
     {
         "image": "/images/apps/beegmac-thumb.png",
@@ -658,7 +899,11 @@
         "team-url": "https://www.southgreen.fr/",
         "description": "Brapi-Enabled Embeddable Genomic-Marker Allele Client",
         "date": "2020-08-04",
-        "badges": ["tool", "genotyping", "brapi-v1" ]
+        "badges": [
+            "tool",
+            "genotyping",
+            "brapi-v1"
+        ]
     },
     {
         "image": "/images/apps/cmv-thumb.png",
@@ -671,6 +916,31 @@
         "team-url": "https://breedbase.org/",
         "description": "Comparative Map Viewer, this is a fully BrAPI compliant tool for viewing and comparing genetic maps ",
         "date": "2020-08-04",
-        "badges": ["tool", "genotyping", "brapi-v1" ]
+        "badges": [
+            "tool",
+            "genotyping",
+            "brapi-v1"
+        ]
+    },
+    {
+        "team": "Denish Dholaria",
+        "team-url": "",
+        "title": "BijMantra",
+        "description": "Cross-Domain Agricultural Intelligence Platform (Under Development)",
+        "image": "https://em-content.zobj.net/source/microsoft-3D-fluent/433/seedling_1f331.png",
+        "url": "https://bijmantra.org/",
+        "source-url": "https://github.com/denishdholaria/bijmantra",
+        "doc-url": "",
+        "demo-url": "",
+        "email": "support@bijmantra.org",
+        "date": "2025-12-31T06:21:45.507Z",
+        "badges": [
+            "tool",
+            "service",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     }
 ]
