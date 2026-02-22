@@ -26,8 +26,35 @@
             "end": "2026-05-15 21:00:00Z"
         },
         "attendees": [
+            {"name" : "Ana Maria Heilman Morales", "org" : "North Dakota State University", "email" : "ana.heilman.morales@ndsu.edu", "session1" : false, "session2" : true},
+            {"name" : "Chaney Courtney", "org" : "PhenoApps - Clemson University", "email" : "chaneylc@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "David PIERRE", "org" : "INP Toulouse", "email" : "david.pierre@toulouse-inp.fr", "session1" : false, "session2" : true},
+            {"name" : "Solomon Nsumba", "org" : "Makerere University", "email" : "snsumba@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Laurens Goormachtigh", "org" : "Alliance of Bioversity and CIAT", "email" : "l.goormachtigh@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Bhavik Mehta", "org" : "Alliance of Bioversity CIAT", "email" : "bjmehta2001@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "John Leonard Maboko", "org" : "Alliance Bioversity International & CIAT", "email" : "j.maboko@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Ragavendiran Balasubramanian", "org" : "CIAT, CGIAR", "email" : "bgragavendiran@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Fortune Ogo-ndah Awala", "org" : "Ignatius Ajuru University of Education, Rivers State, Nigeria", "email" : "fortune.awala@iaue.edu.ng", "session1" : false, "session2" : true},
+            {"name" : "Moses Nderitu", "org" : "ILRI", "email" : "mosendirits@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Kate Dreher", "org" : "CIMMYT", "email" : "k.dreher@cgiar.org", "session1" : true, "session2" : false},
+            {"name" : "Denish Dholaria", "org" : "BijMantra Organisation", "email" : "denishdholaria@gmail.com", "session1" : true, "session2" : false},
+            {"name" : "Guy Davenport", "org" : "BASF / Daveneti Ltd", "email" : "guy@daveneti.com", "session1" : true, "session2" : false},
+            {"name" : "Benjamin Maza", "org" : "Boyce Thompson Institute", "email" : "bm743@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "Abraham K. Lagat", "org" : "CIMMYT", "email" : "a.lagat@cgiar.org", "session1" : true, "session2" : false},
+            {"name" : "Lukas Mueller", "org" : "BTI", "email" : "lam87@cornell.edu", "session1" : false, "session2" : true},
+            {"name" : "ZHEN YAO", "org" : "AAFC", "email" : "zhen.yao@agr.gc.ca", "session1" : true, "session2" : false},
+            {"name" : "Khaled Al-Shamaa", "org" : "ICARDA", "email" : "k.el-shamaa@cgiar.org", "session1" : false, "session2" : true},
+            {"name" : "Fernando Rojas Torres", "org" : "IBP (BMS)", "email" : "ferojas2008@gmail.com", "session1" : false, "session2" : true}
         ],
-        "projects": [ 
+        "projects": [
+            {"team" : "Chaney Courtney", "title" : "Field Book Integrations", "description" : "Field Book integrations, possibly HDP calls with new spectrometers", "needs" : null, "repo" : null},
+            {"team" : "David PIERRE, Clara PONS / Mohamed ZOUINE", "title" : "Harnesstom", "description" : "Harnesstom and a new Soybean database", "needs" : "Any soybean experts", "repo" : "https://github.com/Elites2017/harnesstom"},
+            {"team" : "Laurens Goormachtigh, Tentative team would include Laurens Goormachtigh, Ragavendiran Balasubramanian, Bhavik Mehta and John Maboko.", "title" : "Ona and Sikia", "description" : "Integration of digital phenotyping tools (Ona and Sikia) with breeding management and analytics tools using BrAPI. My team is working on phenotyping solutions to capture image, audio and text responses from the field, both in station and on farm. The collected data needs to integrate well with established tools such as EBS, BMS and Bioflow. The project we have in mind would include setting up the integration with BioFlow and EBS so that results from our tools can move seamlessly to BioFlow and EBS for further analysis.", "needs" : "We would like to connect with experts from EBS and Bioflow teams.", "repo" : null},
+            {"team" : "Fortune Ogo-ndah Awala, Lukas Mueller (Cassavabase) A representative from Cassavabase", "title" : "Cassava Recommendation Mobile App", "description" : "I would want to work on Mobile application for cassava recommendation system integrating real time breeding data from cassavabase and  any other group during the hackathon into breeding app development and enhancement", "needs" : "Yes I will need access to cassavabase", "repo" : "No code for now"},
+            {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "I would like to continue working on DArTView https://github.com/jndmose/DArTView.  Am now working with International Livestock Research Institute with a system called SENAITE (Open Source laboratory Information management System. Would like to see how we can implement BrAPI for data exchange)", "needs" : null, "repo" : "https://github.com/jndmose/DArTView"},
+            {"team" : "Benjamin Maza, Lukas Mueller (Breedbase)", "title" : "High Dimensional Phenotype BrAPP", "description" : "High dimensional phenotype BrAPP using BrAPI to pull transcriptomics, NIRS data from breedbase and perform data analysis/visualization. Features using BrAPI within Breedbase", "needs" : null, "repo" : "https://github.com/HershbergerLab/HDP-BrAPP"},
+            {"team" : "Khaled Al-Shamaa, GIGWA and EBS development teams", "title" : "QBMS Genotyping", "description" : "I plan to add support to the BrAPI Genotyping /search/calls endpoint to enable sample-based filtering via callSetDbIds without prior knowledge of variants, variant sets, projects, or runs (motivated by the EBS-GIGWA integration use case), and to prototype a reusable Shiny UI widget that can be embedded in R Markdown, Shiny apps, or invoked directly from the RStudio console for interactive data exploration.", "needs" : "Any one interested in R-based solutions and tools", "repo" : "https://github.com/icarda/QBMS/"},
+            {"team" : "Guy Davenport & Jason Loux", "title" : "Brava", "description" : "I would like to work on the frontend of Brava and potentially come up with an open-source tool for EBS.", "needs" : "Wiki & Github repo", "repo" : "https://gitlab.com/makaneyyat/rootlybackend"}
          ],
         "notes": [
             {
