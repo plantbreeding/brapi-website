@@ -44,7 +44,10 @@
             {"name" : "Lukas Mueller", "org" : "BTI", "email" : "lam87@cornell.edu", "session1" : false, "session2" : true},
             {"name" : "ZHEN YAO", "org" : "AAFC", "email" : "zhen.yao@agr.gc.ca", "session1" : true, "session2" : false},
             {"name" : "Khaled Al-Shamaa", "org" : "ICARDA", "email" : "k.el-shamaa@cgiar.org", "session1" : false, "session2" : true},
-            {"name" : "Fernando Rojas Torres", "org" : "IBP (BMS)", "email" : "ferojas2008@gmail.com", "session1" : false, "session2" : true}
+            {"name" : "Fernando Rojas Torres", "org" : "Individual", "email" : "ferojas2008@gmail.com", "session1" : false, "session2" : true},
+            {"name" : "Diego Nicolás Cuenya", "org" : "Integrated Breeding Platform ", "email" : "d.cuenya@integratedbreeding.net", "session1" : false, "session2" : true},
+            {"name" : "Corina Habito", "org" : "Integrated Breeding Platform", "email" : "c.habito@integratedbreeding.net", "session1" : true, "session2" : false},
+            {"name" : "Prasad Peteti", "org" : "IITA", "email" : "p.prasad@cgiar.org", "session1" : true, "session2" : false}
         ],
         "projects": [
             {"team" : "Chaney Courtney", "title" : "Field Book Integrations", "description" : "Field Book integrations, possibly HDP calls with new spectrometers", "needs" : null, "repo" : null},
@@ -54,7 +57,8 @@
             {"team" : "Moses Nderitu", "title" : "DArTView", "description" : "I would like to continue working on DArTView https://github.com/jndmose/DArTView.  Am now working with International Livestock Research Institute with a system called SENAITE (Open Source laboratory Information management System. Would like to see how we can implement BrAPI for data exchange)", "needs" : null, "repo" : "https://github.com/jndmose/DArTView"},
             {"team" : "Benjamin Maza, Lukas Mueller (Breedbase)", "title" : "High Dimensional Phenotype BrAPP", "description" : "High dimensional phenotype BrAPP using BrAPI to pull transcriptomics, NIRS data from breedbase and perform data analysis/visualization. Features using BrAPI within Breedbase", "needs" : null, "repo" : "https://github.com/HershbergerLab/HDP-BrAPP"},
             {"team" : "Khaled Al-Shamaa, GIGWA and EBS development teams", "title" : "QBMS Genotyping", "description" : "I plan to add support to the BrAPI Genotyping /search/calls endpoint to enable sample-based filtering via callSetDbIds without prior knowledge of variants, variant sets, projects, or runs (motivated by the EBS-GIGWA integration use case), and to prototype a reusable Shiny UI widget that can be embedded in R Markdown, Shiny apps, or invoked directly from the RStudio console for interactive data exploration.", "needs" : "Any one interested in R-based solutions and tools", "repo" : "https://github.com/icarda/QBMS/"},
-            {"team" : "Guy Davenport & Jason Loux", "title" : "Brava", "description" : "I would like to work on the frontend of Brava and potentially come up with an open-source tool for EBS.", "needs" : "Wiki & Github repo", "repo" : "https://gitlab.com/makaneyyat/rootlybackend"}
+            {"team" : "Guy Davenport & Jason Loux", "title" : "Brava", "description" : "I would like to work on the frontend of Brava and potentially come up with an open-source tool for EBS.", "needs" : "Wiki & Github repo", "repo" : "https://gitlab.com/makaneyyat/rootlybackend"},
+            {"team" : "Corina Habito, Diego Cuenya (IBP), BrAPI community members developing analytics tools Bioflow, Mr. Bean, etc.", "title" : "BMS Single Trial Analysis", "description" : "Storage and handling of single-trial analysis results (summary statistics) in the Breeding Management System (BMS) via BrAPI", "needs" : null, "repo" : "https://github.com/IntegratedBreedingPlatform"}
          ],
         "notes": [
             {
