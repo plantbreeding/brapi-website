@@ -1,5 +1,26 @@
 [
     {
+        "team": "Plant Phenomics Lab",
+        "team-url": "https://jingzhang.wordpress.ncsu.edu/",
+        "title": "BrAPI MCP",
+        "description": "Let AIs like ChatGPT and Claude Code chat with your BrAPI database by downloading data and images! There is an examples folder with examples for humans and a skills.md for AI agents.",
+        "image": "/images/apps/brapi_MCP_logo.png",
+        "url": "https://github.com/Plant-Phenomics-Lab/Breedbase-Client",
+        "source-url": "https://github.com/Plant-Phenomics-Lab/Breedbase-Client",
+        "doc-url": "https://github.com/Plant-Phenomics-Lab/Breedbase-Client/blob/main/README.md",
+        "demo-url": "",
+        "email": "jjmalesk@ncsu.edu ",
+        "date": "2026-03-23T15:36:36.823Z",
+        "badges": [
+            "tool",
+            "code-lib",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
+    },
+    {
         "team": "Alliance of Bioversity & CIAT ",
         "team-url": "https://alliancebioversityciat.org/",
         "title": "The Crop Ontology",
