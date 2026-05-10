@@ -86,81 +86,77 @@
         "agenda": [{
             "date": "Monday, May 11, 2026",
             "schedule": [
-                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Welcome to the BrAPI Hackathon at Cali!" },
-                { "time": "09:10 - 09:30 COT -05:00", "class": "agenda-bg-blue", "title": "Tech setup, setting expectations, general organizing"},
-                { "time": "09:30 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                { "time": "11:30 - 12:30 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": null },
+                { "time": "08:50 - 09:00 COT -05:00", "class": "agenda-bg-yell", "title": "Welcome from Maria Fernanda"},
+                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-yell", "title": "Welcome from Peter Wenzl" },
+                { "time": "09:10 - 09:20 COT -05:00", "class": "agenda-bg-blue", "title": "Welcome to the BrAPI Hackathon", "lead":"Peter Selby" },
+                { "time": "09:20 - 09:30 COT -05:00", "class": "agenda-bg-yell", "title": "Welcome to the EBS Hackathon", "lead":"Andre Embersics" },
+                { "time": "09:30 - 10:00 COT -05:00", "class": "agenda-bg-blue", "title": "Tech setup, setting expectations, general organizing"},
+                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
+                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-yell", "title": "AWS foundational - ecosystem of AWS services" },
+                { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": "13:00 - 14:00 COT -05:00", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
-                { "time": "14:00 - 15:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "14:00 - 15:00 COT -05:00", "class": "agenda-bg-yell", "title": "Amazon Sagemaker for AI" },
                 { "time": "15:00 - 15:30 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "16:50 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+                { "time": "16:50 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": "17:00 - 19:00 COT -05:00", "class": "agenda-bg-pink", "title": "Welcome Cocktail" },
+                { "time": "19:00 - 19:05 COT -05:00", "class": "agenda-bg-yell", "title": "Bus Departure from CIAT to Spiwak Hotel" }
             ]
         }, {
             "date": "Tuesday, May 12, 2026",
             "schedule": [
-                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
+                { "time": "08:50 - 09:00 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
+                { "time": "09:00 - 09:30 COT -05:00", "class": "agenda-bg-yell", "title": "Introduction to Fairgrounds", "lead": "Jawoo, Mayur" },
                 { "time": null },
-                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-yell", "title": "AWS HPC+ - using HPC, AI, QC on AWS" },
                 { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": "13:00 - 14:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
                 { "time": null },
+                { "time": "14:00 - 15:00 COT -05:00", "class": "agenda-bg-yell", "title": "Accelerate Research with AWS" },
                 { "time": "15:00 - 15:30 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "16:50 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+                { "time": "17:00 - 17:30 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": "17:30 - 17:35 COT -05:00", "class": "agenda-bg-yell", "title": "Bus Departure from CIAT to Spiwak Hotel" }
             ]
         }, {
             "date": "Wednesday, May 13, 2026",
             "schedule": [
-                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
+                { "time": "08:50 - 09:00 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
                 { "time": null },
-                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "Security and Authentication - Example implementations and general discussion" },
+                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "Genebanks and BrAPI - Use cases and planning for connecting genebanks to other systems" },
                 { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": "13:00 - 14:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
                 { "time": null },
                 { "time": "15:00 - 15:30 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "16:50 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
+                { "time": "17:00 - 17:30 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": "17:30 - 17:35 COT -05:00", "class": "agenda-bg-yell", "title": "Bus Departure from CIAT to Spiwak Hotel" }
             ]
         }, {
             "date": "Thursday, May 14, 2026",
             "schedule": [
-                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
+                { "time": "08:50 - 09:00 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
                 { "time": null },
-                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD"},
+                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "Analytics Discussion - Discuss how to unit BrAPI with general breeding analytics use cases" },
+                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "BrAPI v2.2 Review - Discuss the latest version of the spec"},
                 { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": "13:30 - 15:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
                 { "time": null },
                 { "time": "15:30 - 16:00 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "16:50 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
-                { "time": "17:00 - 19:00 COT -05:00", "class": "agenda-bg-blue", "title": "Community Dinner - " }
+                { "time": "17:00 - 17:30 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": "17:30 - 19:30 COT -05:00", "class": "agenda-bg-pink", "title": "Community Dinner - " }
             ]
         }, {
             "date": "Friday, May 15, 2026",
             "schedule": [
-                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
+                { "time": "08:50 - 09:00 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
                 { "time": null },
-                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
+                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-yell", "title": "EBS Project Presentations" },
                 { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
-                { "time": "13:00 - 14:00 COT -05:00", "class": "agenda-bg-blue", "title": "TBD" },
-                { "time": null },
+                { "time": "13:00 - 15:00 COT -05:00", "class": "agenda-bg-yell", "title": "EBS Project Presentations" },
                 { "time": "15:00 - 15:30 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
-                { "time": null },
-                { "time": "16:50 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" }
-            ]
-        }, {
-            "date": "Saturday, May 16, 2026",
-            "schedule": [
-                { "time": "09:00 - 09:10 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
-                { "time": null },
-                { "time": "10:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "Project presentations and wrap up" },
-                { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" }
+                { "time": "15:30 - 17:00 COT -05:00", "class": "agenda-bg-blue", "title": "BrAPI Project Presentations" },
+                { "time": "17:00 - 17:10 COT -05:00", "class": "agenda-bg-blue", "title": "Hackathon Wrap-up" },
+                { "time": "17:30 - 17:35 COT -05:00", "class": "agenda-bg-yell", "title": "Bus Departure from CIAT to Spiwak Hotel" }
             ]
         }]
     },
