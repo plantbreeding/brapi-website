@@ -104,7 +104,7 @@
                 { "time": "09:20 - 09:30 COT -05:00", "class": "agenda-bg-yell", "title": "Welcome to the EBS Hackathon", "lead":"Andre Embersics" },
                 { "time": "09:30 - 10:00 COT -05:00", "class": "agenda-bg-blue", "title": "Tech setup, setting expectations, general organizing"},
                 { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "Community Updates - Application demos and presentations from the BrAPI community" },
-                { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-yell", "title": "AWS foundational - ecosystem of AWS services" },
+                { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-yell", "title": "AWS foundational - ecosystem of AWS services" },
                 { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
                 { "time": "13:00 - 14:00 COT -05:00", "class": "agenda-bg-blue", "title": "BrAPI 101 - Introduction class for people who are new to BrAPI", "lead": "Peter Selby" },
                 { "time": "14:00 - 15:00 COT -05:00", "class": "agenda-bg-yell", "title": "Amazon Sagemaker for AI" },
