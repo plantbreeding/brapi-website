@@ -1,9 +1,9 @@
 {   
     "hackathon-may-2026": {
-        "dates": "May 11-16, 2026",
+        "dates": "May 11-15, 2026",
         "location": "Cali, Colombia",
         "timezone": "COT",
-        "registrationOpen": true,
+        "registrationOpen": false,
         "registrationURL": "https://docs.google.com/forms/d/e/1FAIpQLSeFDo2C9qXgIvT4ROl_ya7GH-WTL9xtytru3VaicA2vYAPoTQ/viewform",
         "travelGuideURL": "",
         "feedbackURL": "",
