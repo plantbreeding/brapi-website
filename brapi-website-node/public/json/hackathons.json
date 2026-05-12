@@ -119,7 +119,7 @@
             "date": "Tuesday, May 12, 2026",
             "schedule": [
                 { "time": "08:50 - 09:00 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
-                { "time": "09:00 - 09:30 COT -05:00", "class": "agenda-bg-yell", "title": "Introduction to Fairgrounds", "lead": "Jawoo, Mayur" },
+                { "time": "09:00 - 09:30 COT -05:00", "class": "agenda-bg-yell", "title": "Introduction to Fairgrounds", "lead": "Jawoo Koo, Jennifer Qian" },
                 { "time": null },
                 { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-yell", "title": "AWS HPC+ - using HPC, AI, QC on AWS" },
                 { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
@@ -152,6 +152,7 @@
                 { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "Analytics Discussion - Discuss how to unit BrAPI with general breeding analytics use cases" },
                 { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "BrAPI v2.2 Review - Discuss the latest version of the spec"},
                 { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
+                { "time": "13:00 - 14:00 COT -05:00", "class": "agenda-bg-blue", "title": "Tour of the Future Seeds building", "lead":"Luisa Giraldo" },
                 { "time": null },
                 { "time": "15:30 - 16:00 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
