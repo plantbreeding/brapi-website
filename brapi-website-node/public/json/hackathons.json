@@ -134,7 +134,7 @@
             "date": "Wednesday, May 13, 2026",
             "schedule": [
                 { "time": "08:50 - 09:00 COT -05:00", "class": "agenda-bg-blue", "title": "Morning Announcements"},
-                { "time": null },
+                { "time": "09:00 - 10:00 COT -05:00", "class": "agenda-bg-yell", "title": "FAIR Data Training", "lead": "Kate Dreher" },
                 { "time": "10:00 - 11:00 COT -05:00", "class": "agenda-bg-blue", "title": "Security and Authentication - Example implementations and general discussion" },
                 { "time": "11:00 - 12:00 COT -05:00", "class": "agenda-bg-blue", "title": "Genebanks and BrAPI - Use cases and planning for connecting genebanks to other systems" },
                 { "time": "12:00 - 13:00 COT -05:00", "class": "agenda-bg-pink", "title": "Lunch Break" },
