@@ -155,8 +155,8 @@
                 { "time": null },
                 { "time": "15:30 - 16:00 COT -05:00", "class": "agenda-bg-pink", "title": "Afternoon Break" },
                 { "time": null },
-                { "time": "17:00 - 17:30 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
-                { "time": "17:30 - 19:30 COT -05:00", "class": "agenda-bg-pink", "title": "Community Dinner - " }
+                { "time": "17:00 - 17:15 COT -05:00", "class": "agenda-bg-blue", "title": "Daily Wrap-up" },
+                { "time": "17:15 - 19:30 COT -05:00", "class": "agenda-bg-pink", "title": "Community Dinner - Restaurante Hacienda del Bosque" }
             ]
         }, {
             "date": "Friday, May 15, 2026",
