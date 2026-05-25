@@ -78,7 +78,7 @@
         "notes": [
             {
                 "discussion": "Community Updates",
-                "session1": "",
+                "session1": "https://youtu.be/PCNI5YMjDxk",
                 "meetingNotes": "",
                 "slides": ""
             },
@@ -89,8 +89,56 @@
                 "slides": "https://brapi.org/docs/BrAPI_101.pptx"
             },
             {
+                "discussion": "Fairgrounds Project (recording issue, no audio)",
+                "session1": "https://youtu.be/BG5WmHRYwS4",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "HPC on AWS",
+                "session1": "https://youtu.be/FUvJ4YaU3fY",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "AWS SageMaker",
+                "session1": "https://youtu.be/Z9shqvmttls",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "AWS for Research",
+                "session1": "https://youtu.be/_-q3dMcW1FU",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "Security and Authentication",
+                "session1": "https://youtu.be/aBaAxNveo5g",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "Genebank Discussion",
+                "session1": "https://youtu.be/qIx44op4jtw",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "BrAPI V2.2 Discussion",
+                "session1": "https://youtu.be/YqyL227Gtaw",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
+                "discussion": "Analytics Discussion",
+                "session1": "https://youtu.be/HH-XjqB5whE",
+                "meetingNotes": "",
+                "slides": ""
+            },
+            {
                 "discussion": "Project presentations and wrap up",
-                "session1": "https://youtu.be/QAPBNehYMS4",
+                "session1": "",
                 "meetingNotes": "",
                 "slides": ""
             }
