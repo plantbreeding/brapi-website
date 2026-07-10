@@ -10,7 +10,14 @@
         "doc-url": "https://josh45-source.github.io/brapiR2/",
         "demo-url": "",
         "email": "joashjoshua789@gmail.com",
-        "date": "2026-07-01T14:51:56.523Z"
+        "date": "2026-07-01T14:51:56.523Z",
+        "badges": [
+            "code-lib",
+            "phenotyping",
+            "genotyping",
+            "germplasm",
+            "brapi-v2"
+        ]
     },
     {
         "team": "Plant Phenomics Lab",
