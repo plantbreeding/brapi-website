@@ -1,5 +1,18 @@
 [
     {
+        "team": "Joash Joshua Ayo",
+        "team-url": "https://github.com/josh45-source",
+        "title": "brapiR2",
+        "description": "brapiR2 is a tidyverse-native, stateless R client for the BrAPI v2.1 specification. It provides pipe-friendly access to all four BrAPI modules Core, Germplasm, Phenotyping, and Genotyping returning tidy tibbles ready for analysis. Features include automatic pagination, async search handling, response caching, parallel batch fetching, and convenience functions for genomic selection workflows such as dosage matrix extraction. Designed to complement QBMS for programmatic pipelines and custom tooling.",
+        "image": "https://raw.githubusercontent.com/josh45-source/brapiR2/main/man/figures/logo.png",
+        "url": "https://josh45-source.github.io/brapiR2/",
+        "source-url": "https://github.com/josh45-source/brapiR2",
+        "doc-url": "https://josh45-source.github.io/brapiR2/",
+        "demo-url": "",
+        "email": "joashjoshua789@gmail.com",
+        "date": "2026-07-01T14:51:56.523Z"
+    },
+    {
         "team": "Plant Phenomics Lab",
         "team-url": "https://jingzhang.wordpress.ncsu.edu/",
         "title": "BrAPI MCP",
