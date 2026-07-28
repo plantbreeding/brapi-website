@@ -1,10 +1,8 @@
-version: '3'
-
 services:
   brapi-nginx:
     image: nginx:stable
     restart: unless-stopped
-    depends_on: 
+    depends_on:
       - certbot
     volumes:
       - /home/jenkins/brapi.org/data/server-conf/certbot/conf:/etc/letsencrypt
@@ -14,6 +12,10 @@ services:
     ports:
       - "80:80"
       - "443:443"
+    networks:
+      - brapi_net
+      - test_server_net
+      - jenkins_net
   certbot:
     image: certbot/certbot
     restart: unless-stopped
@@ -21,7 +23,15 @@ services:
       - /home/jenkins/brapi.org/data/server-conf/certbot/conf:/etc/letsencrypt
       - /home/jenkins/brapi.org/data/server-conf/certbot/www:/var/www/certbot
     entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+    networks:
+      - brapi_net
 networks:
-    default:
+    brapi_net:
         name: brapi_net
-        external: true
+        driver: bridge
+    test_server_net:
+        name: test_server_net
+        driver: bridge
+    jenkins_net:
+        name: jenkins_net
+        driver: bridge
