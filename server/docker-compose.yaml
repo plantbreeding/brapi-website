@@ -14,7 +14,7 @@ services:
       - "443:443"
     networks:
       brapi_net:
-        ipv4_address: 172.18.0.3
+        ipv4_address: 10.10.0.10
       test_server_net: {}
       jenkins_net: {}
   certbot:
@@ -32,8 +32,8 @@ networks:
         driver: bridge
         ipam:
           config:
-            - subnet: 172.18.0.0/16
-              gateway: 172.18.0.1
+            - subnet: 10.10.0.0/16
+              gateway: 10.10.0.1
     test_server_net:
         name: test_server_net
         driver: bridge
