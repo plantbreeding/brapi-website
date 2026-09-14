@@ -6,6 +6,9 @@ services:
       - /home/jenkins/brapi.org/data/server-conf/node_variables.env
     volumes:
       - /home/jenkins/brapi.org/data/email-data:/usr/src/app/data/
+    extra_hosts:
+    # NGINX static internal IP address
+      - test-server.brapi.org:10.10.0.10
 networks:
     default:
         external: true

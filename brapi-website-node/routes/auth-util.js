@@ -8,6 +8,7 @@ const util = require('util');
 const code_verifier = generators.codeVerifier();
 
 function buildAuthClient(discoveryUri, redirectUri, clientId, clientSecret, clientCallBack) {
+  //console.log('discoveryUri: %s\n redirectUri: %s\n    clientId: %s\nclientSecret: %s\n', discoveryUri, redirectUri, clientId, clientSecret);
   custom.setHttpOptionsDefaults({
     timeout: 10000,
   });
@@ -29,6 +30,7 @@ function buildAuthClient(discoveryUri, redirectUri, clientId, clientSecret, clie
 
 function getAuthURL(client) {
   const code_challenge = generators.codeChallenge(code_verifier);
+  // console.log('client: %j', client)
   var authURL = client.authorizationUrl({
     scope: 'openid email profile',
     code_challenge,
