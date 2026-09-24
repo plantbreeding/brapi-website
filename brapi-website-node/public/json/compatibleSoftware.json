@@ -1,5 +1,24 @@
 [
     {
+        "team": "Geospatial Data Science Lab at Purdue",
+        "team-url": "https://d2s.org",
+        "title": "Data to Science",
+        "description": "The Data-to-Science (D2S) ecosystem is an open-source platform that offers an easy-to-use web application and additional client applications, specifically designed for managing comprehensive geospatial data and thereby supporting a broad range of research applications. The D2S web application serves as the primary interface of the D2S ecosystem, originally intended for archiving and visualizing geospatial data, particularly uncrewed aerial system (UAS) data, which often poses management challenges for individual researchers. To assist those who wish to comprehensively analyze both archived data within the D2S and other external geospatial datasets, the current D2S ecosystem also includes three additional components: the D2S Python module (d2spy), the QGIS plugin (D2S Browser), and a public STAC catalog accessible via both API and browser interface.",
+        "image": "https://ps2.d2s.org/assets/d2s-logo-white-CKjRYWtL.svg",
+        "url": "https://ps2.d2s.org",
+        "source-url": "https://github.com/gdslab/data-to-science",
+        "doc-url": "https://github.com/gdslab/data-to-science",
+        "demo-url": "",
+        "email": "jinha@purdue.edu",
+        "date": "2026-09-24T13:12:07.678Z",
+        "badges": [
+            "phenotyping",
+            "service",
+            "database",
+            "brapi-v2"
+        ]
+    },
+    {
         "team": "Joash Joshua Ayo",
         "team-url": "https://github.com/josh45-source",
         "title": "brapiR2",
