@@ -44,7 +44,8 @@ function renderGetStarted(pageNum, getStartedArr, res){
     res.render('getStarted', {
         title: 'Getting Started',
         footerEvents: require('./events').getTrailerEvents(),
-        page: getStartedArr[pageNum],
+        pageID: getStartedArr[pageNum]["id"],
+        pageTitle: getStartedArr[pageNum]['title'],
         pages: getStartedArr,
         nextHref: nextHref,
         nextTitle: nextTitle,
